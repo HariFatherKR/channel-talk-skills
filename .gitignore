@@ -1,0 +1,27 @@
+# 환경변수
+.env
+.env.local
+.env.*.local
+
+# 의존성
+node_modules/
+
+# 빌드 결과물
+.next/
+out/
+dist/
+build/
+
+# 캐시
+.cache/
+*.log
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
