@@ -17,7 +17,7 @@ From environment setup to code generation and API testing, it guides you through
 In Claude Code, register the marketplace first:
 
 ```bash
-/plugin marketplace add HariFatherKR/channel-talk-skills
+/plugin marketplace add HariFatherKR/channel_talk_skills
 ```
 
 Then install the plugin:
@@ -187,5 +187,5 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-- **Issues**: https://github.com/HariFatherKR/channel-talk-skills/issues
+- **Issues**: https://github.com/HariFatherKR/channel_talk_skills/issues
 - **Channel Talk Official Docs**: https://developers.channel.io/

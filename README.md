@@ -17,7 +17,7 @@ Channel Talk Skills는 채널톡의 모든 기능을 Claude Code에서 쉽게 �
 Claude Code에서 마켓플레이스를 먼저 등록합니다:
 
 ```bash
-/plugin marketplace add HariFatherKR/channel-talk-skills
+/plugin marketplace add HariFatherKR/channel_talk_skills
 ```
 
 그 다음 플러그인을 설치합니다:
@@ -187,5 +187,5 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-- **Issues**: https://github.com/HariFatherKR/channel-talk-skills/issues
+- **Issues**: https://github.com/HariFatherKR/channel_talk_skills/issues
 - **채널톡 공식 문서**: https://developers.channel.io/
