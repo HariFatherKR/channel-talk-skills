@@ -5,8 +5,8 @@
   "author": {
     "name": "Channel Talk Skills"
   },
-  "homepage": "https://github.com/HariFatherKR/channel_talk_skills",
-  "repository": "https://github.com/HariFatherKR/channel_talk_skills",
+  "homepage": "https://github.com/HariFatherKR/channel-talk-skills",
+  "repository": "https://github.com/HariFatherKR/channel-talk-skills",
   "license": "MIT",
   "keywords": ["channel-talk", "chatbot", "alf", "code-node", "snippet", "open-api", "sdk"]
 }
