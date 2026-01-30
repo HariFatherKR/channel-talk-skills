@@ -1,0 +1,12 @@
+{
+  "name": "channel-talk",
+  "description": "채널톡 기능 구현 도우미 - ALF 태스크, 코드노드, 스니펫, Open API, SDK 연동 지원",
+  "version": "1.0.0",
+  "author": {
+    "name": "Channel Talk Skills"
+  },
+  "homepage": "https://github.com/HariFatherKR/channel-talk-skills",
+  "repository": "https://github.com/HariFatherKR/channel-talk-skills",
+  "license": "MIT",
+  "keywords": ["channel-talk", "chatbot", "alf", "code-node", "snippet", "open-api", "sdk"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "channel-talk-plugins",
+  "owner": {
+    "name": "Channel Talk Skills",
+    "email": "your-email@example.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for Channel Talk integration",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "channel-talk",
+      "source": "./plugins/channel-talk",
+      "description": "채널톡 기능 구현 도우미 (ALF, 코드노드, 스니펫, Open API, SDK)",
+      "version": "1.0.0",
+      "author": {
+        "name": "Channel Talk Skills"
+      },
+      "keywords": ["channel-talk", "chatbot", "alf", "snippet", "sdk"],
+      "category": "integration"
+    }
+  ]
+}

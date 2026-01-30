@@ -1,0 +1,166 @@
+{
+  "_comment": "채널톡 ALF 워크플로우 템플릿",
+  "_description": "이 파일은 ALF 워크플로우의 기본 구조를 보여줍니다. 실제 워크플로우는 채널톡 대시보드에서 생성합니다.",
+
+  "workflow": {
+    "name": "주문 조회 워크플로우",
+    "description": "고객이 주문 조회를 요청할 때 자동으로 처리하는 워크플로우",
+
+    "nodes": [
+      {
+        "id": "trigger",
+        "type": "trigger",
+        "config": {
+          "triggerType": "keyword",
+          "keywords": ["주문", "주문조회", "배송", "배송조회"]
+        },
+        "next": "ask_order_number"
+      },
+
+      {
+        "id": "ask_order_number",
+        "type": "message",
+        "config": {
+          "text": "주문번호를 입력해주세요.\n\n주문번호는 주문 확인 이메일이나 마이페이지에서 확인하실 수 있습니다.",
+          "waitForInput": true
+        },
+        "next": "fetch_order"
+      },
+
+      {
+        "id": "fetch_order",
+        "type": "code",
+        "config": {
+          "code": "const axios = require('axios')\n\nexport const handler = async (memory, context) => {\n  const orderNumber = memory.get('userInput')\n  \n  try {\n    const response = await axios.get(`https://your-api.com/orders/${orderNumber}`)\n    const order = response.data\n    \n    memory.put('orderFound', true)\n    memory.put('orderStatus', order.status)\n    memory.put('orderProduct', order.productName)\n    memory.put('deliveryDate', order.estimatedDelivery)\n  } catch (error) {\n    memory.put('orderFound', false)\n  }\n  \n  memory.save()\n}"
+        },
+        "next": "check_order"
+      },
+
+      {
+        "id": "check_order",
+        "type": "condition",
+        "config": {
+          "conditions": [
+            {
+              "if": "memory.orderFound === true",
+              "then": "show_order_info"
+            }
+          ],
+          "else": "order_not_found"
+        }
+      },
+
+      {
+        "id": "show_order_info",
+        "type": "message",
+        "config": {
+          "text": "주문 정보를 찾았습니다!\n\n📦 상품: {{memory.orderProduct}}\n📋 상태: {{memory.orderStatus}}\n🚚 예상 배송일: {{memory.deliveryDate}}\n\n추가로 도움이 필요하시면 말씀해주세요.",
+          "buttons": [
+            {
+              "label": "배송 변경 문의",
+              "action": "delivery_change"
+            },
+            {
+              "label": "환불 요청",
+              "action": "refund_request"
+            },
+            {
+              "label": "상담원 연결",
+              "action": "connect_agent"
+            }
+          ]
+        },
+        "next": "end"
+      },
+
+      {
+        "id": "order_not_found",
+        "type": "message",
+        "config": {
+          "text": "죄송합니다. 입력하신 주문번호로 주문을 찾을 수 없습니다.\n\n주문번호를 다시 확인해주시거나, 상담원에게 문의해주세요.",
+          "buttons": [
+            {
+              "label": "다시 입력하기",
+              "action": "retry"
+            },
+            {
+              "label": "상담원 연결",
+              "action": "connect_agent"
+            }
+          ]
+        },
+        "next": "handle_not_found_action"
+      },
+
+      {
+        "id": "handle_not_found_action",
+        "type": "condition",
+        "config": {
+          "conditions": [
+            {
+              "if": "memory.buttonAction === 'retry'",
+              "then": "ask_order_number"
+            },
+            {
+              "if": "memory.buttonAction === 'connect_agent'",
+              "then": "connect_agent"
+            }
+          ],
+          "else": "end"
+        }
+      },
+
+      {
+        "id": "connect_agent",
+        "type": "connect_agent",
+        "config": {
+          "message": "상담원에게 연결 중입니다. 잠시만 기다려주세요.",
+          "team": "support"
+        },
+        "next": "end"
+      },
+
+      {
+        "id": "end",
+        "type": "end",
+        "config": {
+          "message": null
+        }
+      }
+    ]
+  },
+
+  "_examples": {
+    "환불_요청_워크플로우": {
+      "trigger": "키워드: 환불, 취소, 반품",
+      "flow": [
+        "환불 사유 선택 (버튼)",
+        "주문번호 입력 요청",
+        "환불 가능 여부 확인 (코드노드)",
+        "VIP 고객 여부 체크 (조건)",
+        "VIP → 상담원 우선 연결",
+        "일반 → 환불 접수 완료 메시지"
+      ]
+    },
+
+    "쿠폰_발급_워크플로우": {
+      "trigger": "버튼: 쿠폰 받기",
+      "flow": [
+        "발급 가능 쿠폰 조회 (코드노드)",
+        "쿠폰 목록 표시 (버튼)",
+        "선택한 쿠폰 발급 (코드노드)",
+        "발급 결과 안내"
+      ]
+    }
+  },
+
+  "_variables": {
+    "사용_가능_변수": [
+      "{{user.id}} - 고객 ID",
+      "{{user.profile.name}} - 고객 이름",
+      "{{user.profile.email}} - 고객 이메일",
+      "{{memory.key}} - 메모리에 저장된 값",
+      "{{userChat.id}} - 현재 상담 ID"
+    ]
+  }
+}
