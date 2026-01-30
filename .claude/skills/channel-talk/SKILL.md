@@ -5,7 +5,7 @@ description: 채널톡 기능 구현을 도와줍니다. ALF 태스크, 코드�
 
 # 채널톡 개발 도우미
 
-채널톡의 모든 기능(ALF, 코드노드, 스니펫, Open API, SDK)을 Next.js/React 프로젝트에 구현하는 것을 도와줍니다.
+채널톡의 모든 기능(ALF, 코드노드, 스니펫, Open API, SDK)을 프로젝트에 구현하는 것을 도와줍니다. 다양한 프레임워크와 언어를 지원합니다.
 
 ## 환경 확인
 
@@ -34,12 +34,13 @@ description: 채널톡 기능 구현을 도와줍니다. ALF 태스크, 코드�
 3. 적절한 위치에 파일 생성/수정
 4. 필요시 `scripts/channel-api.py`로 API 테스트
 
-## Next.js 프로젝트 규칙
+## 프로젝트 구조 (프레임워크에 맞게 조정)
 
-- **API Routes**: `app/api/channel-talk/` 하위에 생성
-- **컴포넌트**: `components/channel-talk/` 하위에 생성
-- **타입 정의**: `types/channel-talk.ts`에 정의
-- **환경변수**: `.env.local`에 저장
+프로젝트의 기존 구조와 컨벤션을 따릅니다:
+
+- **프론트엔드**: React, Vue, Svelte, 순수 JS 등
+- **백엔드**: Node.js, Python, Go, Java 등
+- **환경변수**: `.env`, `.env.local` 또는 프로젝트 설정 방식에 따름
 
 ## 템플릿 활용
 
@@ -71,7 +72,7 @@ python scripts/channel-api.py webhook test
 
 ### 스니펫 개발
 "상담원이 고객 주문 내역 볼 수 있게 해줘"
-→ Next.js API Route + 스니펫 응답 포맷 구현
+→ 백엔드 API 엔드포인트 + 스니펫 응답 포맷 구현
 
 ### SDK 연동
 "로그인한 사용자 정보를 채널톡에 연동해줘"
@@ -79,4 +80,4 @@ python scripts/channel-api.py webhook test
 
 ### 웹훅 처리
 "새 상담이 들어오면 슬랙에 알림 보내줘"
-→ 웹훅 수신 API Route + 슬랙 연동 코드
+→ 웹훅 수신 엔드포인트 + 슬랙 연동 코드

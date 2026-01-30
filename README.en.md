@@ -8,7 +8,7 @@ Channel Talk Skills is a plugin marketplace that helps you easily implement all 
 
 When you start a Channel Talk-related task, the skill activates automatically. Requests like "create an ALF workflow", "develop a snippet", or "integrate SDK" will trigger the skill to reference the appropriate documentation and generate code.
 
-From environment setup to code generation and API testing, it guides you through everything needed for Channel Talk development. It creates files in the appropriate locations following Next.js/React project structure and uses templates for rapid implementation.
+From environment setup to code generation and API testing, it guides you through everything needed for Channel Talk development. It creates files following your project's existing structure and conventions, using templates for rapid implementation. Supports various frameworks and languages including React, Vue, Node.js, Python, and more.
 
 ## Installation
 
@@ -79,7 +79,7 @@ Update the marketplace:
 
 3. **Reference Lookup** - Read detailed documentation and determine implementation approach.
 
-4. **Code Generation** - Generate code based on templates following Next.js project conventions.
+4. **Code Generation** - Generate code based on templates following your project conventions.
 
 5. **Testing** - Verify with API calls using `scripts/channel-api.py`.
 
@@ -100,7 +100,7 @@ Update the marketplace:
 ## Philosophy
 
 - **Automation** - Auto-generate repetitive setup and boilerplate code
-- **Consistency** - Maintain file structure following Next.js project conventions
+- **Consistency** - Maintain file structure following project conventions
 - **Testable** - Immediate verification with API testing tools
 - **Documentation-driven** - Accurate implementation using official docs as reference
 
