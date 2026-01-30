@@ -2,6 +2,22 @@
 
 프론트엔드에서 채널톡 채팅 위젯을 연동하는 방법입니다.
 
+## Plugin Key 발급
+
+채널톡 대시보드에서 Plugin Key를 발급받습니다:
+
+1. [app.channel.io](https://app.channel.io) 로그인
+2. 좌측 메뉴 **일반 설정** > **버튼 설치 및 설정** 클릭
+3. **채널톡 버튼 설치** 섹션에서 Plugin Key 확인
+4. 설치 코드 내 `pluginKey` 값 복사
+
+```
+// 설치 코드 예시에서 pluginKey 찾기
+ChannelIO('boot', {
+  "pluginKey": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  // <- 이 값
+});
+```
+
 ## 설치
 
 ### NPM
