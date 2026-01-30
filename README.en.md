@@ -97,74 +97,6 @@ Update the marketplace:
 | **Open API** | Server-side data query/manipulation | "Send messages, query users" |
 | **SDK Integration** | Frontend chat button, user sync | "Sync logged-in user info" |
 
-### Templates
-
-- `webhook-handler.ts` - Webhook receiver API Route
-- `alf-workflow.json` - ALF workflow structure
-- `code-node-template.js` - Code node base template
-- `snippet-component.tsx` - Snippet server component
-- `sdk-init.tsx` - SDK initialization component
-
-### Reference Documentation
-
-- `references/alf-task.md` - ALF workflow detailed guide
-- `references/code-node.md` - Code node development guide
-- `references/snippet.md` - Snippet development guide
-- `references/open-api.md` - Open API usage guide
-- `references/sdk.md` - SDK integration guide
-
-### API Testing Tools
-
-```bash
-# List users
-python scripts/channel-api.py users list
-
-# Send message
-python scripts/channel-api.py message send --chat-id <chat_id> --message "test"
-
-# Test webhook
-python scripts/channel-api.py webhook test
-```
-
-## Project Structure
-
-### Marketplace Structure
-
-```
-channel-talk-skills/
-├── .claude-plugin/
-│   └── marketplace.json      # Marketplace definition
-├── plugins/
-│   └── channel-talk/
-│       ├── .claude-plugin/
-│       │   └── plugin.json   # Plugin manifest
-│       ├── skills/
-│       │   └── channel-talk/
-│       │       └── SKILL.md  # Skill definition
-│       ├── references/       # Reference docs
-│       ├── assets/           # Templates
-│       └── scripts/          # API testing tools
-├── README.md
-└── README.en.md
-```
-
-### Recommended Next.js Project Structure
-
-```
-your-project/
-├── app/
-│   └── api/
-│       └── channel-talk/     # API Routes
-│           ├── webhook/
-│           └── snippet/
-├── components/
-│   └── channel-talk/         # React Components
-│       └── ChannelTalkSDK.tsx
-├── types/
-│   └── channel-talk.ts       # Type Definitions
-└── .env.local                # Environment Variables
-```
-
 ## Philosophy
 
 - **Automation** - Auto-generate repetitive setup and boilerplate code
@@ -174,11 +106,9 @@ your-project/
 
 ## Contributing
 
-To contribute to skill improvements:
-
 1. Fork the repository
 2. Create a branch
-3. Improve `plugins/channel-talk/references/` docs or `plugins/channel-talk/assets/templates/` templates
+3. Improve reference docs or templates
 4. Submit a PR
 
 ## License

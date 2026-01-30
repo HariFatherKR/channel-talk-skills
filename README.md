@@ -97,74 +97,6 @@ CHANNEL_TALK_SNIPPET_TOKEN=your_snippet_token_here
 | **Open API** | 서버 사이드 데이터 조회/조작 | "메시지 발송, 사용자 조회" |
 | **SDK 연동** | 프론트엔드 채팅 버튼, 사용자 연동 | "로그인 사용자 정보 연동" |
 
-### 템플릿
-
-- `webhook-handler.ts` - 웹훅 수신 API Route
-- `alf-workflow.json` - ALF 워크플로우 구조
-- `code-node-template.js` - 코드노드 기본 템플릿
-- `snippet-component.tsx` - 스니펫 서버 컴포넌트
-- `sdk-init.tsx` - SDK 초기화 컴포넌트
-
-### 레퍼런스 문서
-
-- `references/alf-task.md` - ALF 워크플로우 상세 가이드
-- `references/code-node.md` - 코드노드 개발 가이드
-- `references/snippet.md` - 스니펫 개발 가이드
-- `references/open-api.md` - Open API 사용 가이드
-- `references/sdk.md` - SDK 연동 가이드
-
-### API 테스트 도구
-
-```bash
-# 사용자 목록 조회
-python scripts/channel-api.py users list
-
-# 메시지 전송
-python scripts/channel-api.py message send --chat-id <chat_id> --message "테스트"
-
-# 웹훅 테스트
-python scripts/channel-api.py webhook test
-```
-
-## Project Structure
-
-### 마켓플레이스 구조
-
-```
-channel-talk-skills/
-├── .claude-plugin/
-│   └── marketplace.json      # 마켓플레이스 정의
-├── plugins/
-│   └── channel-talk/
-│       ├── .claude-plugin/
-│       │   └── plugin.json   # 플러그인 매니페스트
-│       ├── skills/
-│       │   └── channel-talk/
-│       │       └── SKILL.md  # 스킬 정의
-│       ├── references/       # 레퍼런스 문서
-│       ├── assets/           # 템플릿
-│       └── scripts/          # API 테스트 도구
-├── README.md
-└── README.en.md
-```
-
-### Next.js 프로젝트 권장 구조
-
-```
-your-project/
-├── app/
-│   └── api/
-│       └── channel-talk/     # API Routes
-│           ├── webhook/
-│           └── snippet/
-├── components/
-│   └── channel-talk/         # React 컴포넌트
-│       └── ChannelTalkSDK.tsx
-├── types/
-│   └── channel-talk.ts       # 타입 정의
-└── .env.local                # 환경 변수
-```
-
 ## Philosophy
 
 - **자동화** - 반복적인 설정과 보일러플레이트 코드 자동 생성
@@ -174,11 +106,9 @@ your-project/
 
 ## Contributing
 
-스킬 개선에 기여하려면:
-
 1. 레포지토리 포크
 2. 브랜치 생성
-3. `plugins/channel-talk/references/` 문서 또는 `plugins/channel-talk/assets/templates/` 템플릿 개선
+3. 레퍼런스 문서 또는 템플릿 개선
 4. PR 제출
 
 ## License
