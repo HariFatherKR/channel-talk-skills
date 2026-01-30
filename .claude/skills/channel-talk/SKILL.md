@@ -9,13 +9,11 @@ description: 채널톡 기능 구현을 도와줍니다. ALF 태스크, 코드�
 
 ## 환경 확인
 
-1. `.env` 파일에서 인증 정보 확인:
-   ```
-   CHANNEL_TALK_ACCESS_KEY=your_access_key
-   CHANNEL_TALK_SECRET=your_secret
-   ```
-2. 없으면 사용자에게 설정 안내
-3. 채널톡 설정 > API 인증 및 관리에서 키 발급 가능
+1. `.env.local` 파일에서 인증 정보 확인
+2. 없으면 `assets/env.local.example` 파일을 프로젝트 루트에 복사하여 설정 안내
+3. 키 발급 위치:
+   - **Plugin Key**: 일반 설정 > 버튼 설치 및 설정 > 채널톡 버튼 설치
+   - **Access Key/Secret**: 보안 및 개발 > API 인증 및 관리
 
 ## 요청 분류
 
