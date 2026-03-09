@@ -95,15 +95,6 @@ python3 scripts/archive_channel_help_ko.py
 
 출력 구조와 검증 방법은 `docs/archive/channel-help-ko/README.md`를 참고하세요.
 
-## Snippet Test Server
-
-Vercel에 바로 배포해 볼 수 있는 스니펫 검증용 앱은 `snippet-test-server/` 아래에 있습니다.
-
-- 미리보기 페이지: `/`
-- 스니펫 API: `/api/channel-talk/snippet`
-
-자세한 실행 방법은 `snippet-test-server/README.md`를 참고하세요.
-
 ## What's Inside
 
 ### 지원 기능
