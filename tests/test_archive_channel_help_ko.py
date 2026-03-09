@@ -1,0 +1,63 @@
+import importlib.util
+import unittest
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+SCRIPT_PATH = ROOT / "scripts" / "archive_channel_help_ko.py"
+
+
+def load_module():
+    spec = importlib.util.spec_from_file_location("archive_channel_help_ko", SCRIPT_PATH)
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    return module
+
+
+class ArchiveChannelHelpKoTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.root_html = (ROOT / "tests" / "fixtures" / "channel_help_root.html").read_text()
+        cls.article_html = (ROOT / "tests" / "fixtures" / "channel_help_article.html").read_text()
+
+    def test_extracts_decoded_next_payload_chunks(self):
+        module = load_module()
+
+        chunks = module.extract_next_payload_chunks(self.root_html)
+
+        self.assertEqual(len(chunks), 2)
+        self.assertIn('"navNodes"', chunks[0])
+        self.assertIn("FAQ-db21218c", "".join(chunks))
+
+    def test_discovers_unique_article_urls_from_root_html(self):
+        module = load_module()
+
+        urls = module.extract_article_urls(self.root_html)
+
+        self.assertEqual(
+            urls,
+            [
+                "https://docs.channel.io/help/ko/articles/%ED%83%9C%EC%8A%A4%ED%81%AC--2a16be8b",
+                "https://docs.channel.io/help/ko/articles/FAQ-db21218c",
+            ],
+        )
+
+    def test_parses_article_metadata_from_article_html(self):
+        module = load_module()
+
+        article = module.parse_article_html(self.article_html)
+
+        self.assertEqual(article["id"], "332352")
+        self.assertEqual(article["title"], "태스크")
+        self.assertEqual(
+            article["url"],
+            "https://docs.channel.io/help/ko/articles/%ED%83%9C%EC%8A%A4%ED%81%AC--2a16be8b",
+        )
+        self.assertEqual(article["author"]["name"], "Beige")
+        self.assertEqual(len(article["body"]), 2)
+        self.assertEqual(article["linked_faqs"][0]["question"], "코드 노드 사용 시 암호화해서 저장되나요?")
+
+
+if __name__ == "__main__":
+    unittest.main()
