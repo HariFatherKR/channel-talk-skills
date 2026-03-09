@@ -85,6 +85,16 @@ CHANNEL_TALK_SNIPPET_TOKEN=your_snippet_token_here
 
 **스킬이 자동으로 적절한 기능을 선택합니다.** 그냥 원하는 것을 말하면 됩니다.
 
+## Documentation Archive
+
+공식 사용자 가이드 `help/ko`를 로컬 아카이브로 저장하려면 다음 스크립트를 사용합니다:
+
+```bash
+python3 scripts/archive_channel_help_ko.py
+```
+
+출력 구조와 검증 방법은 `docs/archive/channel-help-ko/README.md`를 참고하세요.
+
 ## What's Inside
 
 ### 지원 기능
