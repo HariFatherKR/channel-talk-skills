@@ -1,0 +1,352 @@
+{
+  "id": "73",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9E%94%EB%94%94-e8e7aee4",
+  "title": "잔디",
+  "summary": "잔디과 채널톡을 연동하면, 상담이 인입되었을 때 잔디의 토픽(게시판)으로 바로 알림이 오게 되어, 놓치지 않고 고객문의를 확인할 수 있어요!",
+  "plaintext": "연동 방법\n설정 경로: [채널 설정] - [연동] - [기타]에서 잔디 [설치] 를 클릭합니다.\n연동하고자 하는 잔디 Webhook URL을 넣어주세요. (Webhook URL 확인은 아래 가이드를 참고해주세요.)\nWebhook URL 확인 방법\n잔디 팀 화면에서 [잔디 커넥트]를 클릭합니다.\nWebhook 수신 (Incoming Webhook)의 [연동 항목 추가하기] 클릭합니다.\n상세 내용 선택 및 설정하기\n알림 토픽 또는 채팅 JANDI 를 선택해주세요.\n채널톡 메시지가 보내질 프로필 이미지를 설정해주세요.\n연동 항목 추가하기를 클릭해주세요.\n표시되는 Webhook URL을 복사해주세요.\n설정한 설정한 토픽(게시판)으로 알림이 도착하게 됩니다.\n연동 확인\n연동한 [알림 토픽] 또는 [채팅 JANDI]에 새로운 상담이 열렸다는 알림이 전송됩니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [연동] - [기타]에서 잔디 [설치] 를 클릭합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "jandi",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/73/revisions/214/usermedia/662b0fb17603134302bf"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동하고자 하는 잔디 Webhook URL을 넣어주세요. (Webhook URL 확인은 아래 가이드를 참고해주세요.)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/73/revisions/214/usermedia/662b0fb1a00bd616609c"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Webhook URL 확인 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "잔디 팀 화면에서 [잔디 커넥트]를 클릭합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/73/revisions/214/usermedia/662b0fb1d7ea0ecdc2e6"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Webhook 수신 (Incoming Webhook)의 [연동 항목 추가하기] 클릭합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/73/revisions/214/usermedia/662b0fb21d398b3e468e"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상세 내용 선택 및 설정하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/73/revisions/214/usermedia/662b0fb24a9d2a56b390"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "알림 토픽 또는 채팅 JANDI 를 선택해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡 메시지가 보내질 프로필 이미지를 설정해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "연동 항목 추가하기를 클릭해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "표시되는 Webhook URL을 복사해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정한 설정한 토픽(게시판)으로 알림이 도착하게 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 확인"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/73/revisions/214/usermedia/662b0fb276731c169e8d"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "연동한 [알림 토픽] 또는 [채팅 JANDI]에 새로운 상담이 열렸다는 알림이 전송됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eda348855a40f21",
+  "linked_faqs": [
+    {
+      "id": "70302",
+      "question": "채널톡과 잔디를 연동하면, 고객이 메시지를 보낼 때마다 잔디 알림이 오나요?",
+      "answer_plaintext": "새로운 상담이 열릴 때만 알림이 들어오며, 이미 열린 상담이 열린 경우 채널톡 관리자 페이지 수신함 내에서 확인해주시기 바랍니다."
+    },
+    {
+      "id": "70303",
+      "question": "채널톡에서 잔디 연동을 해제하면 따로 잔디를 통해 알림이 오나요?",
+      "answer_plaintext": "채널톡에서 잔디가 연동되어 있던 것을 해제하더라도 잔디로 별도로 알림이 오지는 않습니다."
+    },
+    {
+      "id": "70304",
+      "question": "채널톡과 잔디를 연동 후, 고객이 첫 메시지에 이미지를 보냈는데, 잔디에 뜨지 않아요",
+      "answer_plaintext": "이미지 메시지는 따로 잔디에 알림으로 표시되지 않습니다. 채널톡 관리자 수신함 화면에서 확인해주세요."
+    },
+    {
+      "id": "70305",
+      "question": "잔디 알림을 채널톡에 연동하는 것 외에 다양한 기능을 사용해 볼 수는 없나요?",
+      "answer_plaintext": "잔디 연동의 경우 상담이 최초로 생성되었을 때만 알림이 갑니다.\n하지만, Webhook과 Open API를 통해 커스터마이징이 가능합니다. 자세한 사항은 개발자 문서를 참고해주세요.\n- Webhook 개발자 문서\n- Open API 개발자 문서\n개발자 문서를 참고하여도 어려움을 느끼신다면 채널톡에 문의해주시기 바랍니다."
+    }
+  ],
+  "faq_count": 4
+}

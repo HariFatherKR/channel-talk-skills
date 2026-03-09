@@ -1,0 +1,1526 @@
+{
+  "id": "116",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%8A%B8%EC%9C%8C%EB%A6%AC%EC%98%A4-eeb061a3",
+  "title": "트윌리오",
+  "summary": "트윌리오와 채널톡을 연동해보세요. 해외 고객에게 일일 문자 한도 이상으로 문자를 보낼 수 있고, 직접 보유한 전화번호나, 트윌리오로부터 구매한 전화번호를 이용할 수 있어요.",
+  "plaintext": "트윌리오 연동을 진행하지 않으면, 해외 고객에게는\n하루에 최대 500건만\n문자 메시지를 보낼 수 있습니다.\n(2023년 8월부터 적용)\n또한, 북미 지역에서 마케팅 기능을 활용하기 위해서는 트윌리오 연동을 필수로 진행해야 합니다. 마케팅 기능을 통해 더 많은 고객에게 문자 메시지를 보내고 싶다면, 트윌리오 연동을 진행해주세요!\n트윌리오 계정 생성\n트윌리오\n에 접속 후, 회원가입 및 로그인을 진행해주세요.\n로그인 후, Account 목록 페이지에서 [Create New Account] 버튼을 통해 새로운 트윌리오 계정을 생성해주세요.\n채널톡과 트윌리오를 연동하기 위해, 트윌리오 계정에서\nAPI Key\n를 발급해주세요. API Key는 [Account] - [API keys & tokens] 메뉴, 혹은 이 링크를 통해 이동한 후 생성할 수 있습니다.\n[Create API Key] 버튼을 클릭하세요.\n아래 정보를 입력 후, [Create] 버튼을 눌러 API Key를 발급해주세요.\nFriendly name: API 이름\nRegion: United States - Default\nKey type: Standard\nAPI Key를 발급한 후, 아래 화면의 정보가 채널톡과 트윌리오를 연결할 때 필요합니다. [SID] 와 [Secret] 값을 기록해두세요.\n[Secret] 값은 발급 당시에만 보여지기 때문에 꼭 복사해두세요!\n트윌리오 연동\n[채널 설정] - [연동] - [문자] - [트윌리오 연동] - [연동]\nTwilio console\n에서 계정의 SID를 확인한 후, [Account SID] 칸에 연동할 Twilio 계정의 SID를 입력해주세요.\n트윌리오\n채널톡 관리자 페이지\n[API Key SID] 와 [API Key Secret] 칸에는 이전에 발급한 API Key의 정보를 각각 입력하세요. 발급한 API Key에 관한 정보는 Twilio console의\nAPI keys & tokens 메뉴\n에서 확인할 수 있어요.\n트윌리오\n앞서 저장해둔 SID, Secret 값입니다.\n채널톡 관리자 화면\n[연동] 버튼을 누르면, 연동이 완료됩니다.\n트윌리오 전화번호 등록\n북미 지역의 고객에게 문자 메시지를 보낼 때 전화번호를 설정\n하고 싶다면, 아래 내용을 진행해주세요. 또한 전화번호 설정을 위해 먼저 채널톡에 트윌리오 연동이 필요합니다.\n트윌리오 계정에서 전화번호를 구매하거나, 이미 보유하고 있는 북미 지역 전화번호를 트윌리오 계정에 등록하면 채널톡을 통해 문자 메시지를 보낼 때 사용할 수 있습니다. 계정을 처음 만든 경우에도, 테스트용 전화번호는 바로 발급할 수 있어요.\n트윌리오 계정에서 전화번호를 구매할 수 있습니다.\n(→ 가이드 바로가기)\n트윌리오 계정에 이미 소유하고 있는 전화번호를 등록도 가능해요.\n(→ 가이드 바로가기)\n[채널 설정] - [연동] - [문자] 페이지에서, [해외 설정]\n[발신번호] 칸에 문자 메시지를 보낼 때 사용할 전화번호를 입력 후 저장을 누르면 등록이 완료됩니다.\n연동한 트윌리오 계정에서 보유한 북미 지역의 전화번호만 사용할 수 있어요.\n소유한 전화번호의 목록은 Twilio console의 [Phone Numbers] - [Manage] - [Active numbers] 메뉴에서 확인할 수 있어요.\n발송 비용\n트윌리오 연동을 진행한 이후에는, 해외 지역으로 발송하는 문자에 대한 이용료는 연동한 트윌리오 계정으로 직접 과금됩니다. 한국 수신자에게 발송하는 문자에 대한 비용은 기존과 동일하게 후불로 청구됩니다.\n트윌리오 Messaging Service 이용\n트윌리오\nMessaging Service\n는 북미 지역에서 문자 메시지를 더 많이, 빠르게 보낼 수 있도록 트윌리오에서 제공하는 기능이에요. 채널톡과 트윌리오 Messaging Service를 연동하면, 마케팅 기능을 통해 고객에게 문자 메시지를 보낼 수 있어요. (\n→ 마케팅 알아보기\n)\n북미 지역 이외의 고객에게 주로 문자 메시지를 보내신다면, 트윌리오 Messaging Service 연동은 필수로 진행하지 않으셔도 괜찮습니다.\nMessaging Service 만들기\nTwilio Console\n에서 [Messaging] - [Services] 메뉴를 통해 Messaging Service 관리 페이지에 접속해주세요.\n아래 정보를 입력해주세요.\nMessaging Service friendly name: Messaging Service 이름\nSelect what you want to use Messaging for: 문자 메시지를 주로 어떤 목적으로 보낼지 선택\nMessaging Service에 발신 수단을 등록해주세요. 트윌리오에서 구매한 전화번호나, 이미 보유한 전화번호를 트윌리오에 등록했다면 여기에서 사용할 수 있어요.\nPhone Number: 북미 지역 전화번호로, 북미 지역의 고객에게 문자 메시지를 보낼 때 이용할 수 있어요.\nShort Code: 북미 지역에서 사용할 수 있는 “123456” 형태의 번호로, 북미 지역의 고객에게 문자 메시지를 보낼 때 이용할 수 있어요.\nAlpha Sender: 북미 이외의 해외 지역에서 사용할 수 있어요. (채널톡을 통해 설정할 수 있는 “Sender ID”와 서로 동일합니다.)\n[Step 3. Set up integration], [Step 4. Add compilance info] 단계는 건너뛰어도 괜찮아요. Messaging Service 생성이 완료되면 아래와 같은 화면이 보여집니다.\nMessaging Service 연동\n트윌리오에서 Messaging Service 생성이 완료되었다면 보여지는 SID 값을 복사 후,\n[채널 설정] - [연동] - [문자] - [트윌리오 연동] 에서 트윌리오 Messaging Service를 등록할 수 있어요.\n트윌리오\n채널톡 관리자 화면\n미국 현지 브랜드 등록\n북미 지역 정책에 의해, 북미 지역의 고객에게 문자 메시지를 보낼 때는 미국 현지의 비즈니스 정보(사업체 이름, 주소, 사업자번호 등)가 필요하며, 문자 메시지의 유형과 이용 목적에 대한 사전 심사가 필요합니다.\n오프라인 고객에게 상담의 답변을 문자 메시지로 보내주는 답변 알림 기능은 위 심사를 거치지 않아도 북미 지역에서 이용이 가능합니다. 하지만,\n마케팅 (일회성 메시지, 캠페인)\n기능을 활용하여 북미 지역에서 문자 메시지를 보내려면 미국 현지 브랜드 등록이 필요합니다. 브랜드 등록 없이 북미 지역의 고객에게 보내는 문자 메시지는 전송이 차단될 수 있어요.\n트윌리오에서 미국 현지 브랜드 등록을 위한 가이드를 확인해보세요!\n(→ 문서 바로가기)\n브랜드 등록에 필요한 정보를 확인해주세요.\n(→ 문서 바로가기)\n북미 지역의 문자 메시지 관련 정책도 트윌리오에서 확인 가능합니다.\n(→ 문서 바로가기)",
+  "body": [
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "트윌리오 연동을 진행하지 않으면, 해외 고객에게는 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "하루에 최대 500건만"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 문자 메시지를 보낼 수 있습니다. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(2023년 8월부터 적용)"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 또한, 북미 지역에서 마케팅 기능을 활용하기 위해서는 트윌리오 연동을 필수로 진행해야 합니다. 마케팅 기능을 통해 더 많은 고객에게 문자 메시지를 보내고 싶다면, 트윌리오 연동을 진행해주세요!"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오 계정 생성"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트윌리오"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://www.twilio.com/login"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에 접속 후, 회원가입 및 로그인을 진행해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10bd335732b4fda7"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "로그인 후, Account 목록 페이지에서 [Create New Account] 버튼을 통해 새로운 트윌리오 계정을 생성해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10bd63f22a22037a"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡과 트윌리오를 연동하기 위해, 트윌리오 계정에서 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "API Key"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://www.twilio.com/docs/glossary/what-is-an-api-key"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 발급해주세요. API Key는 [Account] - [API keys & tokens] 메뉴, 혹은 이 링크를 통해 이동한 후 생성할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10bd8ee145818014"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[Create API Key] 버튼을 클릭하세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10bdc430e586dad6"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "아래 정보를 입력 후, [Create] 버튼을 눌러 API Key를 발급해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Friendly name: API 이름"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Region: United States - Default"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Key type: Standard"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10be07c669f104c3"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "API Key를 발급한 후, 아래 화면의 정보가 채널톡과 트윌리오를 연결할 때 필요합니다. [SID] 와 [Secret] 값을 기록해두세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "icon": "bulb",
+                "semanticColor": "bgtxt-cobalt-lightest"
+              },
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "[Secret] 값은 발급 당시에만 보여지기 때문에 꼭 복사해두세요!"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "callout"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10be3b1ef3ccebc0"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오 연동"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [연동] - [문자] - [트윌리오 연동] - [연동]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10be7052b630dd54"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Twilio console"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://console.twilio.com/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에서 계정의 SID를 확인한 후, [Account SID] 칸에 연동할 Twilio 계정의 SID를 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트윌리오"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10beb0c2be309801"
+              },
+              "type": "image"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 관리자 페이지"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "662b10bf14ec490dfc91",
+                "height": "920px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/264441/usermedia/67ff4d19264762210e48",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[API Key SID] 와 [API Key Secret] 칸에는 이전에 발급한 API Key의 정보를 각각 입력하세요. 발급한 API Key에 관한 정보는 Twilio console의 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "API keys & tokens 메뉴"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://www.twilio.com/console/project/api-keys"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에서 확인할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트윌리오"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "앞서 저장해둔 SID, Secret 값입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "67ff4d28ef15b6189099",
+                "height": "920px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/264441/usermedia/67ff4d378bd4a25aa605",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 관리자 화면"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "662b10bf866a2ff9744f",
+                "height": "920px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/264441/usermedia/67ff4d3d8401ff962a5d",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 4
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[연동] 버튼을 누르면, 연동이 완료됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "662b10bfb5fe6def61af",
+        "height": "920px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/264441/usermedia/67ff4db66f0e769e330a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오 전화번호 등록"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "북미 지역의 고객에게 문자 메시지를 보낼 때 전화번호를 설정"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "하고 싶다면, 아래 내용을 진행해주세요. 또한 전화번호 설정을 위해 먼저 채널톡에 트윌리오 연동이 필요합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오 계정에서 전화번호를 구매하거나, 이미 보유하고 있는 북미 지역 전화번호를 트윌리오 계정에 등록하면 채널톡을 통해 문자 메시지를 보낼 때 사용할 수 있습니다. 계정을 처음 만든 경우에도, 테스트용 전화번호는 바로 발급할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트윌리오 계정에서 전화번호를 구매할 수 있습니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 가이드 바로가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://support.twilio.com/hc/en-us/articles/223135247-How-to-Search-for-and-Buy-a-Twilio-Phone-Number-from-Console"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트윌리오 계정에 이미 소유하고 있는 전화번호를 등록도 가능해요. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 가이드 바로가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://support.twilio.com/hc/en-us/articles/223179348-Porting-a-Phone-Number-to-Twilio"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [연동] - [문자] 페이지에서, [해외 설정]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10bfd8cb63d75014"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[발신번호] 칸에 문자 메시지를 보낼 때 사용할 전화번호를 입력 후 저장을 누르면 등록이 완료됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "연동한 트윌리오 계정에서 보유한 북미 지역의 전화번호만 사용할 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "소유한 전화번호의 목록은 Twilio console의 [Phone Numbers] - [Manage] - [Active numbers] 메뉴에서 확인할 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10c01e38a53d7b70"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "발송 비용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오 연동을 진행한 이후에는, 해외 지역으로 발송하는 문자에 대한 이용료는 연동한 트윌리오 계정으로 직접 과금됩니다. 한국 수신자에게 발송하는 문자에 대한 비용은 기존과 동일하게 후불로 청구됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오 Messaging Service 이용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " Messaging Service"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://support.twilio.com/hc/en-us/articles/223181308-Getting-started-with-Messaging-Services"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "는 북미 지역에서 문자 메시지를 더 많이, 빠르게 보낼 수 있도록 트윌리오에서 제공하는 기능이에요. 채널톡과 트윌리오 Messaging Service를 연동하면, 마케팅 기능을 통해 고객에게 문자 메시지를 보낼 수 있어요. ("
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "→ 마케팅 알아보기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/categories/abc0e321-%EB%A7%88%EC%BC%80%ED%8C%85"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "북미 지역 이외의 고객에게 주로 문자 메시지를 보내신다면, 트윌리오 Messaging Service 연동은 필수로 진행하지 않으셔도 괜찮습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Messaging Service 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Twilio Console"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://console.twilio.com/?frameUrl=/console/sms/services"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에서 [Messaging] - [Services] 메뉴를 통해 Messaging Service 관리 페이지에 접속해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10c04f321a11224b"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "아래 정보를 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Messaging Service friendly name: Messaging Service 이름"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Select what you want to use Messaging for: 문자 메시지를 주로 어떤 목적으로 보낼지 선택"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10c08615693f25aa"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Messaging Service에 발신 수단을 등록해주세요. 트윌리오에서 구매한 전화번호나, 이미 보유한 전화번호를 트윌리오에 등록했다면 여기에서 사용할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10c0b370f834ae68"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Phone Number: 북미 지역 전화번호로, 북미 지역의 고객에게 문자 메시지를 보낼 때 이용할 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Short Code: 북미 지역에서 사용할 수 있는 “123456” 형태의 번호로, 북미 지역의 고객에게 문자 메시지를 보낼 때 이용할 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Alpha Sender: 북미 이외의 해외 지역에서 사용할 수 있어요. (채널톡을 통해 설정할 수 있는 “Sender ID”와 서로 동일합니다.)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10c0eb5ad269233c"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[Step 3. Set up integration], [Step 4. Add compilance info] 단계는 건너뛰어도 괜찮아요. Messaging Service 생성이 완료되면 아래와 같은 화면이 보여집니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10c138ab05f5533c"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Messaging Service 연동"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오에서 Messaging Service 생성이 완료되었다면 보여지는 SID 값을 복사 후,\n[채널 설정] - [연동] - [문자] - [트윌리오 연동] 에서 트윌리오 Messaging Service를 등록할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10c171b622cd7001"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 관리자 화면"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/116/revisions/343/usermedia/662b10c1a4bd4e6ff3df"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "미국 현지 브랜드 등록"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "북미 지역 정책에 의해, 북미 지역의 고객에게 문자 메시지를 보낼 때는 미국 현지의 비즈니스 정보(사업체 이름, 주소, 사업자번호 등)가 필요하며, 문자 메시지의 유형과 이용 목적에 대한 사전 심사가 필요합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "오프라인 고객에게 상담의 답변을 문자 메시지로 보내주는 답변 알림 기능은 위 심사를 거치지 않아도 북미 지역에서 이용이 가능합니다. 하지만, "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "마케팅 (일회성 메시지, 캠페인)"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 기능을 활용하여 북미 지역에서 문자 메시지를 보내려면 미국 현지 브랜드 등록이 필요합니다. 브랜드 등록 없이 북미 지역의 고객에게 보내는 문자 메시지는 전송이 차단될 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트윌리오에서 미국 현지 브랜드 등록을 위한 가이드를 확인해보세요! "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 문서 바로가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://www.twilio.com/docs/sms/a2p-10dlc/onboarding"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "브랜드 등록에 필요한 정보를 확인해주세요. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 문서 바로가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://support.twilio.com/hc/en-us/articles/13718729624091-Required-information-for-United-States-A2P-10DLC-registration"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "북미 지역의 문자 메시지 관련 정책도 트윌리오에서 확인 가능합니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 문서 바로가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://support.twilio.com/hc/en-us/articles/1260801864489-How-do-I-register-to-use-A2P-10DLC-messaging-"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0efb00867708e1d5",
+  "linked_faqs": [],
+  "faq_count": 0
+}

@@ -1,0 +1,1807 @@
+{
+  "id": "162691",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-ALF-c3ea989d",
+  "title": "팀 ALF",
+  "summary": "업무 중 궁금한 점이 생겼을 때 AI 업무 비서, 팀 ALF가 업무를 빠르고 똑똑하게 도와드립니다.",
+  "plaintext": "팀 ALF란?\n팀 ALF는 업무 중 막히거나 궁금한 점이 생겼을 때, AI 업무 비서에게 바로 질문하고 답변을 받을 수 있는 기능입니다.\n웹 검색과 도큐먼트에 업로드된 문서를 기반으로 정보를 찾아주며, 간단한 업무 도움부터 복잡한 리서치까지 다양한 업무 상황에서 맞는 도움을 받을 수 있습니다.\n팀 ALF는\n도큐먼트\n만 참조가 가능합니다. 고객 ALF 메뉴에서 업로드한 지식 유형(PDF, 웹사이트, Excel)은 팀 ALF가 참조할 수 없습니다.\n팀 ALF 사용하기\n1. 팀 ALF 메뉴 이용하기\n채널톡 데스크 좌측 최상단의 [팀 알프] 아이콘을 클릭하여 팀 ALF에게 질문하고 답변 받을 수 있습니다.\n팀 ALF 메뉴 구성\n1) 검색창\n: 업무 중 막히는 부분이 있다면 검색창에 질문 내용을 작성해 바로 팀 ALF에게 물어볼 수 있습니다.\n2) 파일 첨부:\n이미지 및 PDF 파일 첨부하면 파일 읽기를 지원합니다. 파일 내용을 기반으로 한 요약, 분석, 등 다양한 작업을 수행할 수 있습니다.\n3) 연동 및 기타 설정:\n외부 서비스와 팀 ALF의 연동을 통해 유저챗을 읽어오거나, 노션에 회의록을 작성하는 등 다양한 작업을 쉽고 빠르게 수행할 수 있습니다.\n4) 모델 선택:\n용도에 맞는 팀 ALF 모델을 선택해 이용할 수 있습니다.\n5) 검색 옵션\n: 검색 설정을 통해 웹 검색을 기반으로 답변을 받을 지, 도큐먼트 내 자료를 검색하여 답변을 받을지 선택할 수 있습니다.\n자동 검색:\n팀 ALF가 질문 의도를 파악하여 가장 적합한 출처를 스스로 판단해 답변을 제공합니다.\n도큐먼트에서 검색:\n도큐먼트에 업로드된 아티클 자료를 참조하여 답변 제공합니다.\n웹에서 검색:\n웹 검색을 기반으로 최신 정보를 수집하여 답변을 제공합니다.\n6) 추천 질문 리스트\n: 어떤 질문을 해야 할지 모르겠을 땐, 버튼을 클릭해 바로 질문해 보세요\n질문 버튼\n: 버튼에 적혀진 질문이 그대로 입력됩니다.\n기능 버튼\n: 작성하기 귀찮은 콘텐츠들을 쉽고 빠르게 작성 가능합니다. 버튼을 누르면, 해당 콘텐츠의 맞춤 프롬프트 폼을 통해 필요한 콘텐츠를 한 번에 작성할 수 있습니다.\n7) 대화 내역\n: 팀 ALF에게 질문하고 답변 받은 대화 내역이 일자 별로 기록되어 목록으로 보여집니다.\n8) 답변 출처:\nURL 칩: 팀 ALF가 답변 시 참조한 페이지 링크가 칩 형태로 표시되며, 클릭 시 해당 url로 이동합니다.\n출처 목록: 팀 ALF가 답변 시 참조한 도큐먼트 문서나 웹 검색 페이지 목록과 링크가 제공됩니다.\n2. 팀챗 / 수신함에서 사이드뷰로 팀 ALF 이용하기\n채널톡 데스크의 팀챗 또는 수신함 화면에서 사이드뷰를 통해 팀 ALF에게 바로 질문할 수 있어요. 사이드뷰에서 검색한 내용은 팀 ALF 메뉴에서도 다시 확인할 수 있습니다.\n팀 ALF 사이드뷰 열기\n우측 상단 팀 ALF 아이콘 클릭\n: 팀챗 또는 수신함 화면의 오른쪽 위에 있는 ALF 아이콘을 클릭하면 대화창이 열립니다.\n단축키 사용하기\n:\nAlt/Option(⌥)+L\n키를 누르면 사이드뷰로 팀 ALF가 열립니다.사이드뷰가 열린 상태에서 다시 한 번\nAlt/Option(⌥)+L\n을 누르면\n새 대화\n를 시작할 수 있어요.\n팀 ALF 사이드뷰 구성\n1) 최근 대화 기록 :\n사이드뷰 오른쪽 상단의 시계 아이콘을 클릭하면 이전 대화 기록을 확인할 수 있어요.\n2) 새 대화 시작\n: 사이드뷰 오른쪽 상단의 편집 아이콘을 클릭하면 새 대화를 시작할 수 있습니다.\n팀 ALF  활용 예시\n맞춤법, 메일 작성, 웹 리서치 같은 사소한 질문부터 사내 정책, 제품 정보, 내부 자료 분석과 같은 사내 지식 기반 질문까지! 팀 ALF를 업무 전반에 다양하게 활용해 보세요.\n[예시①] 맞춤법 및 문장 검사 요청하기\n고객 안내 공지, 외부 메일 작성 시 문장을 더 자연스럽고 정확하게 다듬고 싶을 때 팀 ALF에게 물어보세요. 맞춤법 오류는 물론, 문맥 흐름에 맞는 어색한 표현까지 교정해 줍니다.\n[예시②] 프로모션 문구 요청하기\n시즌성 이벤트나 신제품 홍보를 위한 광고 문구가 필요할 때, 팀 ALF에게 도움을 요청해 보세요.\n프로모션 타겟과 목적에 맞는 다양한 광고 문구를 제안받을 수 있습니다.\n[예시③]\n빠른 리서치에 활용하기\n팀 ALF는 웹 검색을 기반으로 최신 정보를 수집하여 답변을 제공합니다. 경쟁사 리서치, 최신 뉴스, 등 웹 서치가 필요할 때도 팀 ALF에게 물어보세요.\n[예시④] 사내 정책이 궁금할 때 질문하기\n전사 공지부터 사내 규정까지, 궁금한 내용이 있다면 팀 ALF로 빠르게 확인하세요. 도큐먼트에 업로드된 사내 문서를 기반으로 팀 ALF가 필요한 정보를 빠르게 찾아줍니다.\n[예시⑤] 자료 요약 요청하기\n회의록, PDF 자료, 등 방대한 분량의 자료를 핵심만 정리해서 보고 싶을 때, 팀 ALF에게 핵심만 요약하도록 요청해 보세요.\n[예시⑥] 인사이트 도출에 활용하기\n기획을 다듬거나 아이디어를 정리할 때, 고객 피드백이나 설문 데이터를 기반으로 인사이트를 도출해야 할 때도 팀 ALF를 활용해 보세요.\nMCP 활용하기(업무 도구 연동하기)\nMCP 란?\nMCP는 팀 ALF가 외부 도구(예: 노션, 리니어 등)와 직접 연결되어, 그 안의 데이터를 불러오거나 등록할 수 있게 해 주는 표준화된 연결 방식입니다.\n쉽게 말해, ALF가 외부 도구의 구조와 사용 방법을 이해하도록 “데이터가 어디에 있고, 어떻게 다뤄야 하는지” 알려주는 역할을 합니다.\n이를 통해 단순히 질문에 답하는 수준을 넘어서, 실제로 노션 문서를 업데이트하거나 리니어 이슈를 생성하는 등 실제 작업까지 자동화해 도와줄 수 있게 됩니다.\nMCP 연결 방법\n팀 ALF 페이지 왼쪽 하단의 'MCP 설정' 클릭\n필요한 MCP를 켜고 각 서비스에 '로그인' 클릭해서 연결합니다.\n연동 제공 서비스\n유저챗\n리니어(Linear)\n노션(Notion)\nSentry\n(*연동 제공 서비스는 지속 추가될 수 있습니다.)\n연관 콘텐츠",
+  "body": [
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 ALF란? "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 ALF는 업무 중 막히거나 궁금한 점이 생겼을 때, AI 업무 비서에게 바로 질문하고 답변을 받을 수 있는 기능입니다.  "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "웹 검색과 도큐먼트에 업로드된 문서를 기반으로 정보를 찾아주며, 간단한 업무 도움부터 복잡한 리서치까지 다양한 업무 상황에서 맞는 도움을 받을 수 있습니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Team ALF 메인 (수정됨).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/483672/usermedia/689c4776b85260e87931",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "팀 ALF는 "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "도큐먼트"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "만 참조가 가능합니다. 고객 ALF 메뉴에서 업로드한 지식 유형(PDF, 웹사이트, Excel)은 팀 ALF가 참조할 수 없습니다. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 ALF 사용하기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 팀 ALF 메뉴 이용하기 "
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 데스크 좌측 최상단의 [팀 알프] 아이콘을 클릭하여 팀 ALF에게 질문하고 답변 받을 수 있습니다. "
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Team ALF 사용 1 (수정됨).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/483672/usermedia/689c477cee1c3e927400",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "Team ALF 사용 2 - 수정 요청 (10.01).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/616644/usermedia/68ddd48c01846f81da02",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 ALF 메뉴 구성"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1) 검색창"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ": 업무 중 막히는 부분이 있다면 검색창에 질문 내용을 작성해 바로 팀 ALF에게 물어볼 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "2) 파일 첨부:"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 이미지 및 PDF 파일 첨부하면 파일 읽기를 지원합니다. 파일 내용을 기반으로 한 요약, 분석, 등 다양한 작업을 수행할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "3) 연동 및 기타 설정:"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 외부 서비스와 팀 ALF의 연동을 통해 유저챗을 읽어오거나, 노션에 회의록을 작성하는 등 다양한 작업을 쉽고 빠르게 수행할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "4) 모델 선택: "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "용도에 맞는 팀 ALF 모델을 선택해 이용할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "5) 검색 옵션"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ": 검색 설정을 통해 웹 검색을 기반으로 답변을 받을 지, 도큐먼트 내 자료를 검색하여 답변을 받을지 선택할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "자동 검색:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 팀 ALF가 질문 의도를 파악하여 가장 적합한 출처를 스스로 판단해 답변을 제공합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "도큐먼트에서 검색:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 도큐먼트에 업로드된 아티클 자료를 참조하여 답변 제공합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "웹에서 검색:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 웹 검색을 기반으로 최신 정보를 수집하여 답변을 제공합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "6) 추천 질문 리스트 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ": 어떤 질문을 해야 할지 모르겠을 땐, 버튼을 클릭해 바로 질문해 보세요"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "질문 버튼"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " : 버튼에 적혀진 질문이 그대로 입력됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기능 버튼"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " : 작성하기 귀찮은 콘텐츠들을 쉽고 빠르게 작성 가능합니다. 버튼을 누르면, 해당 콘텐츠의 맞춤 프롬프트 폼을 통해 필요한 콘텐츠를 한 번에 작성할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "7) 대화 내역"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " : 팀 ALF에게 질문하고 답변 받은 대화 내역이 일자 별로 기록되어 목록으로 보여집니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "8) 답변 출처:"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "URL 칩: 팀 ALF가 답변 시 참조한 페이지 링크가 칩 형태로 표시되며, 클릭 시 해당 url로 이동합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "출처 목록: 팀 ALF가 답변 시 참조한 도큐먼트 문서나 웹 검색 페이지 목록과 링크가 제공됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. 팀챗 / 수신함에서 사이드뷰로 팀 ALF 이용하기 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 데스크의 팀챗 또는 수신함 화면에서 사이드뷰를 통해 팀 ALF에게 바로 질문할 수 있어요. 사이드뷰에서 검색한 내용은 팀 ALF 메뉴에서도 다시 확인할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "(워싱)팀알프사이드뷰_상단.png",
+        "height": "600px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/342101/usermedia/685011d8b76daf2a4e22",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 ALF 사이드뷰 열기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "우측 상단 팀 ALF 아이콘 클릭"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 팀챗 또는 수신함 화면의 오른쪽 위에 있는 ALF 아이콘을 클릭하면 대화창이 열립니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "단축키 사용하기"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ":"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Alt/Option(⌥)+L"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 키를 누르면 사이드뷰로 팀 ALF가 열립니다.사이드뷰가 열린 상태에서 다시 한 번 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Alt/Option(⌥)+L"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "을 누르면 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "새 대화"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "를 시작할 수 있어요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "(워싱)팀알프사이드뷰_사이드.png",
+        "height": "896px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/342101/usermedia/685011dcdc14abf8d5a2",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 ALF 사이드뷰 구성"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "1) 최근 대화 기록 :"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 사이드뷰 오른쪽 상단의 시계 아이콘을 클릭하면 이전 대화 기록을 확인할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2) 새 대화 시작"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " : 사이드뷰 오른쪽 상단의 편집 아이콘을 클릭하면 새 대화를 시작할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 ALF  활용 예시 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "맞춤법, 메일 작성, 웹 리서치 같은 사소한 질문부터 사내 정책, 제품 정보, 내부 자료 분석과 같은 사내 지식 기반 질문까지! 팀 ALF를 업무 전반에 다양하게 활용해 보세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[예시①] 맞춤법 및 문장 검사 요청하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 안내 공지, 외부 메일 작성 시 문장을 더 자연스럽고 정확하게 다듬고 싶을 때 팀 ALF에게 물어보세요. 맞춤법 오류는 물론, 문맥 흐름에 맞는 어색한 표현까지 교정해 줍니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Team ALF 활용 예시 1.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/283311/usermedia/6811ac8f1275fc43e7ab",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[예시②] 프로모션 문구 요청하기 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "시즌성 이벤트나 신제품 홍보를 위한 광고 문구가 필요할 때, 팀 ALF에게 도움을 요청해 보세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "프로모션 타겟과 목적에 맞는 다양한 광고 문구를 제안받을 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Team ALF 활용 예시 2.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/283311/usermedia/6810c9e905b29209e92b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[예시③]"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "빠른 리서치에 활용하기 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 ALF는 웹 검색을 기반으로 최신 정보를 수집하여 답변을 제공합니다. 경쟁사 리서치, 최신 뉴스, 등 웹 서치가 필요할 때도 팀 ALF에게 물어보세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Team ALF 활용 예시 3.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/283311/usermedia/6810c9ff922006af3e81",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[예시④] 사내 정책이 궁금할 때 질문하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전사 공지부터 사내 규정까지, 궁금한 내용이 있다면 팀 ALF로 빠르게 확인하세요. 도큐먼트에 업로드된 사내 문서를 기반으로 팀 ALF가 필요한 정보를 빠르게 찾아줍니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Team ALF 활용 예시 4 (수정됨) (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/616644/usermedia/68ddd4a66a99733db373",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[예시⑤] 자료 요약 요청하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "회의록, PDF 자료, 등 방대한 분량의 자료를 핵심만 정리해서 보고 싶을 때, 팀 ALF에게 핵심만 요약하도록 요청해 보세요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Team ALF 활용 예시 5.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/283311/usermedia/6810ca15e8741616917b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[예시⑥] 인사이트 도출에 활용하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "기획을 다듬거나 아이디어를 정리할 때, 고객 피드백이나 설문 데이터를 기반으로 인사이트를 도출해야 할 때도 팀 ALF를 활용해 보세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Team ALF 활용 예시 6.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162691/revisions/283311/usermedia/681181ed796018740cad",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "MCP 활용하기(업무 도구 연동하기) "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "MCP 란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "MCP는 팀 ALF가 외부 도구(예: 노션, 리니어 등)와 직접 연결되어, 그 안의 데이터를 불러오거나 등록할 수 있게 해 주는 표준화된 연결 방식입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "쉽게 말해, ALF가 외부 도구의 구조와 사용 방법을 이해하도록 “데이터가 어디에 있고, 어떻게 다뤄야 하는지” 알려주는 역할을 합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이를 통해 단순히 질문에 답하는 수준을 넘어서, 실제로 노션 문서를 업데이트하거나 리니어 이슈를 생성하는 등 실제 작업까지 자동화해 도와줄 수 있게 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "MCP 연결 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 ALF 페이지 왼쪽 하단의 'MCP 설정' 클릭 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필요한 MCP를 켜고 각 서비스에 '로그인' 클릭해서 연결합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "연동 제공 서비스"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "유저챗"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "리니어(Linear)"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "노션(Notion)"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "Sentry"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "(*연동 제공 서비스는 지속 추가될 수 있습니다.) "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연관 콘텐츠"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "description": "AI에 수많은 앱이 연결되는 세상, 머지않았습니다",
+        "favicon": "https://channel.io/favicon.ico",
+        "href": "https://channel.io/ko/blog/articles/what-is-mcp-52c77e72",
+        "imageUrl": "https://cf.channel.io/thumb/2800x1464,cover,webp/web_page/1/686721787264ae8a1526/tmp-4016638930.jpeg",
+        "name": "Channel.io",
+        "title": "MCP는 AI 업계의 표준이 될까요?"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/689c470fe9350a1c4f87",
+  "linked_faqs": [
+    {
+      "id": "75544",
+      "question": "팀 ALF 기능은 무료로 이용이 가능한가요?",
+      "answer_plaintext": "팀ALF는 베타서비스로 제공하고 있어 무료 플랜에서도 한시적으로 추가 비용없이 이용하실 수 있습니다."
+    },
+    {
+      "id": "79173",
+      "question": "팀 ALF는 도큐먼트에 기재된 내용 외에도 검색이 가능한가요?",
+      "answer_plaintext": "도큐먼트에 기재된 정보 외에 웹 검색을 통해 정보를 제공할 수 있어요."
+    },
+    {
+      "id": "75545",
+      "question": "팀 ALF가 팀챗이나 유저챗 대화를 검색하여 답변해줄 수도 있나요?",
+      "answer_plaintext": "현재는 지원되지 않지만, 추후에는 팀챗과 유저챗 대화도 직접 검색하지 않고 팀 ALF에게 질문 시 필요한 내용을 찾을 수 있도록 지원할 예정입니다."
+    },
+    {
+      "id": "75541",
+      "question": "팀 ALF 검색 옵션 설정 시 검색 우선순위는 어떻게 결정되나요?",
+      "answer_plaintext": "팀 ALF는 검색 옵션 설정에 따라 정보를 탐색하고 답변을 제공합니다.\n- 사용자가 검색 옵션을 설정한 경우, 선택한 옵션을 기준으로 내부 도큐먼트 정보를 우선적으로 검색합니다.\n- 이때, 첨부파일 → 도큐먼트 → 웹 검색 순으로 정보를 탐색해 가장 적절한 출처를 기반으로 답변을 제공합니다.\n- 만약 검색 옵션을 설정하지 않은 경우, 팀 ALF가 질문 의도를 파악하여 가장 적합한 출처를 스스로 판단해 답변을 제공합니다."
+    },
+    {
+      "id": "79172",
+      "question": "팀 ALF 검색 옵션을 설정한 경우와 안한 경우의 차이가 있나요?",
+      "answer_plaintext": "팀 ALF는 사용자의 질문을 받으면, 그 내용에 따라 웹 검색이나 도큐먼트 검색이 필요한지를 자동으로 판단합니다.\n\n- 예를 들어\"안녕하세요?\" 처럼 간단한 인사말은 별도의 검색이 필요하지 않기 때문에 검색을 수행하지 않습니다.\n- 반면, \"채널톡 가격 정책이 어떻게 되나요?\" 처럼 정보가 필요한 질문인 경우 관련 내용을 찾기 위해 도큐먼트 검색을 수행합니다.\n  \n하지만 검색 옵션을 켜면, 질문과 관계없이 항상 검색을 수행합니다.\n- 예를 들어, 검색 옵션을 켠 상태에서는 \"안녕하세요?\"처럼 검색이 필요 없는 질문에도 웹/도큐먼트 검색이 무조건 실행됩니다.\n  \n즉, 검색 옵션은 강제로 검색을 수행하게 만드는 설정입니다."
+    },
+    {
+      "id": "75597",
+      "question": "팀 ALF 검색 시 사용량 초과 에러 메시지가 떠요.",
+      "answer_plaintext": "팀 ALF 기능은 베타 서비스로 제공하고 있어 일일 사용량을 초과한 경우 이용이 제한됩니다. \n- 일일 사용량 : 계정 당 웹 검색 포함 하루 100건까지\n사용량은 한국 시간 기준 오전 9시(UTC 0시)에 다시 채워집니다."
+    },
+    {
+      "id": "75542",
+      "question": "팀 ALF 검색 시 \"문제가 발생했어요. 잠시 후 다시 시도해 주세요.\" 에러 메시지가 떠요.",
+      "answer_plaintext": "에러 메시지가 발생할 경우 새로 고침하여 답변 출력을 다시 시도해 주세요."
+    },
+    {
+      "id": "79171",
+      "question": "팀 ALF에 질문한 대화 내역이 다른 팀원에게도 보여지나요?",
+      "answer_plaintext": "팀 ALF 화면 좌측에 남은 대화 내역은 본인 계정에서만 보여집니다."
+    },
+    {
+      "id": "75540",
+      "question": "팀 ALF 검색 시 파일은 최대 몇 개까지 첨부할 수 있나요?",
+      "answer_plaintext": "파일은 최대 1개까지 첨부할 수 있으며, 이미지 또는 PDF 파일만 첨부가 가능합니다."
+    },
+    {
+      "id": "75539",
+      "question": "팀 ALF가 이미지를 생성하여 제공할 수도 있나요?",
+      "answer_plaintext": "아쉽게도 팀 ALF가 이미지를 생성해 주지는 않습니다."
+    }
+  ],
+  "faq_count": 10
+}

@@ -1,0 +1,2928 @@
+{
+  "id": "202460",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%BC%80%EC%9D%B4%EC%8A%A4-f508f467",
+  "title": "케이스",
+  "summary": "케이스별 상담 통계는 상담이 종료되었다가 다시 시작되거나, 상담 태그가 달린 순간까지도 빠짐없이 기록해요. 상담 안에서 일어나는 작은 변화도 놓치지 마세요!",
+  "plaintext": "안내 사항\n케이스 통계 및 케이스 통계 API는\n2026년 4월 30일부로 지원 종료\n됩니다. 이후 상담 통계 및 커스텀 리포트 활용을 부탁드리겠습니다.\n(\n→ 공지 확인하기\n)\n케이스 통계에서 제공하는 주요 지표는 상담 통계 또는 커스텀 리포트에서도 다운로드할 수 있습니다.\n(\n→ 케이스 통계 / 상담 통계 지표 비교표 보기\n)\n케이스별 통계 기능이란?\n케이스의 정의\n케이스란?\n상담이 시작되어 종료될 때까지의 한 사이클을 의미합니다. 하나의 상담에 여러 개의 케이스가 존재할 수 있습니다.\n케이스가 증가하는 조건\n'종료됨' 상태에서 '진행중/보류중' 상태로 바뀌는 순간 케이스가 +1이 됩니다.\n케이스 기록 시간이란?\n상담이 ‘종료됨’으로 바뀌더라도, 바로 케이스가 종료되지 않고 최대 1시간의 여유 시간이 주어집니다.\n이 시간 동안 진행된 만족도 조사 발송, 태그 수정 등 후속 작업도 해당 케이스에 포함되도록 하기 위함입니다.\n즉, 상담 종료 후 최대 1시간까지의 작업이 같은 케이스에 포함됩니다.\n단, 1시간 이내에 다시 상담이 열리는 경우 즉시 케이스 기록이 종료되며, 다음 케이스가 생성되어 기록됩니다.\n예시로 이해하기\n아래 예시들은 모두\n하나의 상담\n안에\n2개의 케이스가 포함된 경우\n입니다.\n예시 ① 상담 종료 후 1 시간 30분 뒤 상태 변경이 이뤄질 경우\n첫번째 케이스\n오전 8:50\n상담이 대기열에 들어옴\n(상담 자동 배정 기능을 사용할 경우, 대기열이 존재해요 →\n더 알아보기\n)\n오전 10:30\n상담이 '종료됨' 상태로 바뀜\n오전 11:30\n케이스 종료로 기록됨 → 이후 기록은 다음 케이스로 분리됨\n두번째 케이스\n오후 12:00 상담이 다시 열림 (재문의)\n예시\n②\n상담 종료 후 30분 뒤 상태 변경이 이뤄질 경우\n첫번째 케이스\n오전 8:50\n상담이 대기열에 들어옴\n(상담 자동 배정 기능을 사용할 경우, 대기열이 존재해요 →\n더 알아보기\n)\n오전 10:30\n상담이 '종료됨' 상태로 바뀜\n두번째 케이스\n오전 11:00\n상담이 다시 열림 (재문의)\n케이스 종료로 기록됨 → 이후 기록은 다음 케이스로 분리됨\n상담별 통계와 케이스별 통계의 차이점\n상담별 통계\n케이스별 통계\n통계 집계 기준\n상담 건\n을 기준으로 통계를 집계함\n상담 안의 케이스\n기준으로 통계를 내며, 더 세분화됨\n종료된 상태에서 다시 열린 상담 처리 방식\n일부 통계 항목이 새로 계산되어 갱신됨.\n즉,\n기존 기록이 덮어쓰기되어 변경됨.\n(예: 운영시간 중 첫 응대시간, 운영시간 중 평균 응답시간 등\n전체 항목 확인하기\n)\n상담이 다시 열리면\n새로운 케이스로 분리되어 집계되므로\n,\n이전 케이스의 통계 값은 변경되지 않고 그대로 보존됨\n보류 상태에서 다시 열린 상담 처리 방식\n일부 통계 항목이 새로 계산되어 갱신됨.\n즉,\n기존 기록이 덮어쓰기되어 변경됨.\n(예: 운영시간 중 첫 응대시간, 운영시간 중 평균 응답시간 등\n전체 항목 확인하기\n)\n상담이 보류되었다가 다시 열려도, 상담이 종료되기 전이라면\n동일한 케이스로 인식되고 기존 기록이 갱신되지 않고 보존됨\n보류 시간, 보류 횟수 데이터\n미제공\n제공\n상담 태그 변경 이력\n남지 않음\n각 케이스별로 분리되어 기록\n담당자 및 팀 표기 방식\n담당자(팀) ID와 담당자(팀) 이름이 표기되는 시트가 상이하여 가공 필요\n한 시트에\n담당자(팀) ID\n와\n담당자(팀) 이름\n이 함께 표기\n활용에 적합한 상황\n전체 상담 흐름\n을\n건 단위\n로 볼 때\n운영지표(총 상담 수, 평균 응대 시간 등) 관리\n첫 응대/평균 응답 시간 중심의 대시보드 관리\n고객이 재문의한 경우도 포함하여,\n응대 시점별 세부 분석\n이 필요할 때\n상담 태그 변경 이력, 응답 내용의 흐름 등을\n정밀 추적\n할 때\n종료된 상담이 다시 열리는 경우가 많은 서비스 환경\n에 유리\n케이스별 통계 구조\n필터\n필터 조건을 추가하여 케이스별 통계를 조회할 수 있습니다. 활용 가능한 필터 조건은 다음과 같습니다.\n날짜\n데이터를 조회하고 싶은 기간을 설정합니다.\n최대 6개월간의 데이터를 조회하실 수 있어요.\n단, 종료일은 조회 시작일로부터 6개월 이내이면서, 그 달의 마지막 날을 넘길 수는 없어요.\n예시) 조회 가능 범위: 2024년 8월 30일 ~ 2025년 2월 28일\n케이스 '기록 시작' 시간을 기준으로 적용됩니다.\n운영시간\n'운영 시간'을 기준으로 할 지 '전체 시간'을 기준으로 할지 설정합니다.\n운영 시간 기준\n자동화 옵션이 켜져있는 운영 시간만 필터로 사용 가능합니다.\n케이스의\n생성 시각\n을 기준으로 함\n예: 채널 기본 운영 시간이 오전 9시 ~ 오후 6시일 경우, 해당 시간\n내에 생성된 케이스만 포함\n됨\n전체 시간 기준\n케이스의\n날짜만 고려\n하여 포함 여부를 판단함\n운영 시간과 관계없이\n선택한 날짜 범위 내 모든 케이스가 포함\n됨\n서비스\n서비스 항목에서는 채널톡 메시지, 전화, 이메일, 네이버 톡톡, 인스타그램 메신저, 라인, 카카오 중에서 선택하실 수 있습니다.\n예를 들어, ‘채널톡 메시지’를 선택하면 채널톡 메시지를 통해 주고받은 상담만 조회되며, ‘전화’를 선택하면 전화로 진행된 상담 내역만 확인하실 수 있습니다.\n팀\n특정 팀에 배정된 상담 건의 전체 케이스 데이터가 조회됩니다.\n담당자\n특정 담당자에게 배정된 상담 건의 전체 케이스 데이터가 조회됩니다.\n상담 상태\n선택한 상담 상태(예: 보류중, 진행중, 종료됨)에 해당하는 상담 건의 전체 케이스 데이터가 조회됩니다.\n상담 태그\n지정한 상담 태그가 부착된 개별 케이스가 조회됩니다.\nCSAT\n특정 CSAT 점수를 받은 상담 건의 전체 케이스 데이터가 조회됩니다.\n상담 처리 시간\n설정한 상담 처리 시간 조건에 부합하는 개별 케이스가 조회됩니다.\n정리\n모든 필터 조건은 설정한 기간 및 시간 범위 안에 생성된 케이스를 기준으로 적용\n됩니다.\n서비스, 팀, 담당자, CSAT, 상담 상태\n등은 ‘OR 조건’으로 적용되며, 해당 조건을 만족하는\n상담 건의 전체 케이스가 함께 노출\n됩니다.\n반면,\n상담 태그\n나\n상담 처리 시간\n기준으로 필터링할 경우, 해당 조건에\n정확히 일치하는 개별 케이스만 노출\n됩니다.",
+  "body": [
+    {
+      "attrs": {
+        "color": "gray",
+        "icon": "warning"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "안내 사항"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스 통계 및 케이스 통계 API는 "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "2026년 4월 30일부로 지원 종료"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "됩니다. 이후 상담 통계 및 커스텀 리포트 활용을 부탁드리겠습니다. "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "("
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "→ 공지 확인하기"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        },
+                        {
+                          "attrs": {
+                            "href": "https://docs.channel.io/updates/ko/articles/%EC%A4%91%EC%9A%94-%EA%B3%B5%EC%A7%80-%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%86%B5%EA%B3%84-%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%86%B5%EA%B3%84-API-%EB%B0%8F-%EA%B5%AC%EB%B2%84%EC%A0%84-%ED%86%B5%EA%B3%84-%EC%A7%80%EC%9B%90-%EC%A2%85%EB%A3%8C-%EC%95%88%EB%82%B4-260430-256fd89a"
+                          },
+                          "type": "hyperlink"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": ")"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스 통계에서 제공하는 주요 지표는 상담 통계 또는 커스텀 리포트에서도 다운로드할 수 있습니다. "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "("
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "→ 케이스 통계 / 상담 통계 지표 비교표 보기"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        },
+                        {
+                          "attrs": {
+                            "href": "https://docs.channel.io/help/ko/articles/%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%86%B5%EA%B3%84-%EC%83%81%EB%8B%B4-%ED%86%B5%EA%B3%84-%EC%A7%80%ED%91%9C-%EB%B9%84%EA%B5%90%ED%91%9C-2780f28a"
+                          },
+                          "type": "hyperlink"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": ")"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "케이스별 통계 기능이란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "케이스의 정의"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "케이스란?"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담이 시작되어 종료될 때까지의 한 사이클을 의미합니다. 하나의 상담에 여러 개의 케이스가 존재할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "케이스가 증가하는 조건"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'종료됨' 상태에서 '진행중/보류중' 상태로 바뀌는 순간 케이스가 +1이 됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "케이스 기록 시간이란?"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담이 ‘종료됨’으로 바뀌더라도, 바로 케이스가 종료되지 않고 최대 1시간의 여유 시간이 주어집니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이 시간 동안 진행된 만족도 조사 발송, 태그 수정 등 후속 작업도 해당 케이스에 포함되도록 하기 위함입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "즉, 상담 종료 후 최대 1시간까지의 작업이 같은 케이스에 포함됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단, 1시간 이내에 다시 상담이 열리는 경우 즉시 케이스 기록이 종료되며, 다음 케이스가 생성되어 기록됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시로 이해하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "아래 예시들은 모두 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "하나의 상담"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 안에 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "2개의 케이스가 포함된 경우"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시 ① 상담 종료 후 1 시간 30분 뒤 상태 변경이 이뤄질 경우"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "첫번째 케이스"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "오전 8:50 "
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    },
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "상담이 대기열에 들어옴 "
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    },
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "(상담 자동 배정 기능을 사용할 경우, 대기열이 존재해요 → "
+                                          },
+                                          "type": "plain"
+                                        },
+                                        {
+                                          "attrs": {
+                                            "text": "더 알아보기"
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "href": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%EC%9E%90%EB%8F%99-%EB%B0%B0%EC%A0%95-28b3f0cc"
+                                              },
+                                              "type": "hyperlink"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        },
+                                        {
+                                          "attrs": {
+                                            "text": ")"
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                },
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "오전 10:30 "
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "color": "default",
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    },
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "상담이 '종료됨' 상태로 바뀜"
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "color": "default",
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                },
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "오전 11:30 "
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "color": "default",
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    },
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "케이스 종료로 기록됨 → 이후 기록은 다음 케이스로 분리됨"
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                }
+                              ],
+                              "type": "bullets"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "두번째 케이스"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "오후 12:00 상담이 다시 열림 (재문의)"
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                }
+                              ],
+                              "type": "bullets"
+                            },
+                            {
+                              "attrs": {
+                                "alt": "상담통계(회차별) 다운로드 1.png",
+                                "height": "1080px",
+                                "mime": "image/png",
+                                "src": "https://cf.channel.io/document/spaces/6/articles/202460/revisions/343755/usermedia/6850af9426a0bf96be47",
+                                "width": "2400px"
+                              },
+                              "type": "image"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시 "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "② "
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "상담 종료 후 30분 뒤 상태 변경이 이뤄질 경우"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "첫번째 케이스"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "오전 8:50 "
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    },
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "상담이 대기열에 들어옴 "
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    },
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "(상담 자동 배정 기능을 사용할 경우, 대기열이 존재해요 → "
+                                          },
+                                          "type": "plain"
+                                        },
+                                        {
+                                          "attrs": {
+                                            "text": "더 알아보기"
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "href": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%EC%9E%90%EB%8F%99-%EB%B0%B0%EC%A0%95-28b3f0cc"
+                                              },
+                                              "type": "hyperlink"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        },
+                                        {
+                                          "attrs": {
+                                            "text": ")"
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                },
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "오전 10:30 "
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    },
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "상담이 '종료됨' 상태로 바뀜"
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                }
+                              ],
+                              "type": "bullets"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "두번째 케이스"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "오전 11:00 "
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    },
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "상담이 다시 열림 (재문의)"
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    },
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "케이스 종료로 기록됨 → 이후 기록은 다음 케이스로 분리됨"
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                }
+                              ],
+                              "type": "bullets"
+                            },
+                            {
+                              "attrs": {
+                                "alt": "상담통계(회차별) 다운로드 2.png",
+                                "height": "1080px",
+                                "mime": "image/png",
+                                "src": "https://cf.channel.io/document/spaces/6/articles/202460/revisions/343755/usermedia/6850af973316812f98bd",
+                                "width": "2400px"
+                              },
+                              "type": "image"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담별 통계와 케이스별 통계의 차이점"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담별 통계"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스별 통계"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통계 집계 기준"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "상담 건"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "을 기준으로 통계를 집계함"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "상담 안의 케이스"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": " 기준으로 통계를 내며, 더 세분화됨"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "종료된 상태에서 다시 열린 상담 처리 방식"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "일부 통계 항목이 새로 계산되어 갱신됨. "
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "즉, "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "기존 기록이 덮어쓰기되어 변경됨."
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        },
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "(예: 운영시간 중 첫 응대시간, 운영시간 중 평균 응답시간 등 "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "전체 항목 확인하기"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "href": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%ED%86%B5%EA%B3%84-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-f89932f1#userchat-data-%EC%8B%9C%ED%8A%B8"
+                                  },
+                                  "type": "hyperlink"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": ")"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "상담이 다시 열리면 "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "새로운 케이스로 분리되어 집계되므로"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": ", "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "이전 케이스의 통계 값은 변경되지 않고 그대로 보존됨"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "보류 상태에서 다시 열린 상담 처리 방식"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "일부 통계 항목이 새로 계산되어 갱신됨. "
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "즉, "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "기존 기록이 덮어쓰기되어 변경됨."
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        },
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "(예: 운영시간 중 첫 응대시간, 운영시간 중 평균 응답시간 등 "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "전체 항목 확인하기"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "href": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%ED%86%B5%EA%B3%84-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-f89932f1#userchat-data-%EC%8B%9C%ED%8A%B8"
+                                  },
+                                  "type": "hyperlink"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": ")"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "상담이 보류되었다가 다시 열려도, 상담이 종료되기 전이라면 "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "동일한 케이스로 인식되고 기존 기록이 갱신되지 않고 보존됨"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "보류 시간, 보류 횟수 데이터"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "미제공"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "제공"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 태그 변경 이력"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "남지 않음"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "각 케이스별로 분리되어 기록"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "담당자 및 팀 표기 방식"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "담당자(팀) ID와 담당자(팀) 이름이 표기되는 시트가 상이하여 가공 필요"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "한 시트에 "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "담당자(팀) ID"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "와 "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "담당자(팀) 이름"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "이 함께 표기"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "활용에 적합한 상황"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "전체 상담 흐름"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "을 "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "건 단위"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "로 볼 때"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "운영지표(총 상담 수, 평균 응대 시간 등) 관리"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "첫 응대/평균 응답 시간 중심의 대시보드 관리"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "고객이 재문의한 경우도 포함하여, "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "응대 시점별 세부 분석"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "이 필요할 때"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "상담 태그 변경 이력, 응답 내용의 흐름 등을 "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "정밀 추적"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "할 때"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "종료된 상담이 다시 열리는 경우가 많은 서비스 환경"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "에 유리"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "케이스별 통계 구조"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "필터"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "필터 조건을 추가하여 케이스별 통계를 조회할 수 있습니다. 활용 가능한 필터 조건은 다음과 같습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "상담 통계(상담 회차별) - 필터 (1).jpg",
+        "height": "1260px",
+        "mime": "image/jpeg",
+        "src": "https://cf.channel.io/document/spaces/6/articles/202460/revisions/343755/usermedia/684ffcd454286ede7678",
+        "width": "2400px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "날짜"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "데이터를 조회하고 싶은 기간을 설정합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "최대 6개월간의 데이터를 조회하실 수 있어요. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "단, 종료일은 조회 시작일로부터 6개월 이내이면서, 그 달의 마지막 날을 넘길 수는 없어요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시) 조회 가능 범위: 2024년 8월 30일 ~ 2025년 2월 28일 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "케이스 '기록 시작' 시간을 기준으로 적용됩니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "운영시간"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "'운영 시간'을 기준으로 할 지 '전체 시간'을 기준으로 할지 설정합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "운영 시간 기준"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "자동화 옵션이 켜져있는 운영 시간만 필터로 사용 가능합니다."
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "color": "default",
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "케이스의 "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "생성 시각"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "을 기준으로 함"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "예: 채널 기본 운영 시간이 오전 9시 ~ 오후 6시일 경우, 해당 시간 "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "내에 생성된 케이스만 포함"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "됨"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "전체 시간 기준"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "케이스의 "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "날짜만 고려"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "하여 포함 여부를 판단함"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "운영 시간과 관계없이 "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "선택한 날짜 범위 내 모든 케이스가 포함"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "됨"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "서비스"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "서비스 항목에서는 채널톡 메시지, 전화, 이메일, 네이버 톡톡, 인스타그램 메신저, 라인, 카카오 중에서 선택하실 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예를 들어, ‘채널톡 메시지’를 선택하면 채널톡 메시지를 통해 주고받은 상담만 조회되며, ‘전화’를 선택하면 전화로 진행된 상담 내역만 확인하실 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "특정 팀에 배정된 상담 건의 전체 케이스 데이터가 조회됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당자"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "특정 담당자에게 배정된 상담 건의 전체 케이스 데이터가 조회됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 상태"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "선택한 상담 상태(예: 보류중, 진행중, 종료됨)에 해당하는 상담 건의 전체 케이스 데이터가 조회됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 태그"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지정한 상담 태그가 부착된 개별 케이스가 조회됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "CSAT"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "특정 CSAT 점수를 받은 상담 건의 전체 케이스 데이터가 조회됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 처리 시간"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "설정한 상담 처리 시간 조건에 부합하는 개별 케이스가 조회됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "color": "gray",
+        "icon": "memo",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "정리"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "모든 필터 조건은 설정한 기간 및 시간 범위 안에 생성된 케이스를 기준으로 적용"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "서비스, 팀, 담당자, CSAT, 상담 상태"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": " 등은 ‘OR 조건’으로 적용되며, 해당 조건을 만족하는 "
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "상담 건의 전체 케이스가 함께 노출"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "반면, "
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "상담 태그"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "나 "
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "상담 처리 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": " 기준으로 필터링할 경우, 해당 조건에 "
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "정확히 일치하는 개별 케이스만 노출"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/684ffc9f085e17b724bf",
+  "linked_faqs": [
+    {
+      "id": "90466",
+      "question": "케이스별 통계 데이터를 활용하면 좋은 점은 무엇인가요?",
+      "answer_plaintext": "- 세분화된 분석 가능: \n  상담을 하나의 건으로 보지 않고, 케이스(사이클) 단위로 쪼개서 통계를 제공하므로 보다 정밀한 고객 응대 흐름 파악이 가능합니다.\n- 데이터 변동 없음: \n  상담이 재개되더라도 이전 케이스 데이터가 그대로 보존되므로, 시점별 이슈 분석 및 이력 추적에 유리합니다.\n- 상담 태그 변동 추적 가능: \n  태그 변경이 케이스별로 기록되어, 각 케이스의 태그 분포, 이슈 발생 시점 파악 등에 효과적입니다."
+    },
+    {
+      "id": "90471",
+      "question": "상담이 종료되지 않으면 케이스는 어떻게 되나요?",
+      "answer_plaintext": "케이스는 증가하지 않습니다.\n케이스는 '종료됨' 상태에서 다시 '진행중/보류중'으로 바뀌는 순간에만 +1 됩니다.\n\n즉, 상담이 한 번도 종료되지 않고 계속 유지된다면 케이스는 1회차로 유지됩니다."
+    },
+    {
+      "id": "90472",
+      "question": "기존 상담 통계 데이터는 계속 확인할 수 있나요?",
+      "answer_plaintext": "네, 확인할 수 있습니다.\n케이스별 통계 기능이 도입되어도, 기존 상담 단위 통계 기능도 여전히 제공됩니다.\n\n케이스별 통계는 기존 통계를 보완적하기 위하여 출시되었으며, 양쪽 모두 병행 활용 가능합니다."
+    },
+    {
+      "id": "90757",
+      "question": "케이스별 통계에서 상담 태그 삭제 이력도 확인할 수 있나요?",
+      "answer_plaintext": "케이스별 통계에서는 ‘태그가 삭제되었다’는 이력이 따로 기록되지는 않습니다. 대신, 각 케이스 종료 시점에 남아 있는 태그 상태가 데이터로 저장됩니다.\n\n예를 들어,\n- 첫번째 케이스 시작 → a 태그 부착 → 첫번째 케이스 종료\n- 두번째 케이스 시작 → b 태그 부착\n이라면,\n- 첫번째 케이스 데이터에는 a 태그만,\n- 두번째 케이스 데이터에는 a, b 태그가 모두 포함되어 보입니다.\n\n따라서 특정 태그가 삭제되었는지 확인하려면, 케이스 간 태그 목록을 비교해 보는 방식으로 추적하면 됩니다."
+    }
+  ],
+  "faq_count": 4
+}

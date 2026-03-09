@@ -1,0 +1,969 @@
+{
+  "id": "25",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%A7%88%EC%BC%80%ED%8C%85%EC%9D%B4%EB%9E%80-368b4bb5",
+  "title": "마케팅이란?",
+  "summary": "마케팅은 고객에게 먼저 말을 거는 기능입니다. 고객 데이터를 기반으로 CRM 마케팅을 할 수 있도록 지원하는 채널톡의 강력한 마케팅 기능을 활용해 보세요.",
+  "plaintext": "마케팅 기능 알아보기\n마케팅은 고객에게 먼저 말을 거는 기능입니다. 고객 데이터를 기반으로 CRM 마케팅을 할 수 있도록 지원하는 채널톡의 강력한 마케팅 기능을 활용해 보세요.\n마케팅 기능은 크게 두 가지로 나뉩니다.\n일회성\n: 특정 고객 또는 다수에게 메시지를 보내는 일회성 메시지\n(→ 일회성 자세히 보러 가기)\n캠페인\n: 고객이 특정 행동을 할 때마다 자동화된 메시지를 보내는 캠페인\n(→캠페인 자세히 보러 가기)\n일회성과 캠페인의 차이점\n일회성\n고객이 사이트에 들어오지 않더라도\n원하는 시점\n에 메시지를\n1회\n보내는 기능입니다.\n공지, 신상품 소개, 이벤트 소식 등을 전달하는 용도로 적합합니다.\n발송 버튼을 눌러야 메시지가 전송됩니다.\n예약 발송\n도 가능합니다.\n캠페인\n고객이 사이트에 들어와\n특정 행동을 할 때마다\n메시지를 발송하는 기능입니다.\n회원가입 유도, 가입 후 첫 구매 유도 등에 적합합니다.\n매번 직접 발송 버튼을 누르지 않아도\n자동으로 메시지가 전송\n됩니다.\n특정 시간대에만\n발송되도록 설정 가능합니다.\n마케팅 레시피\n마케팅 캠페인을 처음 설정하신다면, 레시피를 활용해 손쉽게 시작해 보세요.\n채널톡에서는 다양한 목적에 맞는 마케팅 레시피를 제공하고 있어요.\n레시피 적용 방법\n[마케팅] - [마케팅 레시피]\n메뉴로 이동해 주세요.\n캠페인 목적에 맞는 레시피를 선택해 주세요.\n예: ‘구매 유도’, ‘회원가입 유도’, ‘상담 유도’ 등\n[케이스 따라해보기]\n버튼을 클릭하면 캠페인 설정이 자동으로 적용됩니다.\n적용된 캠페인은 [캠페인 목록]에서 확인할 수 있고,\n메시지 내용이나 대상 조건을 필요에 맞게 수정하면 바로 사용할 수 있어요.\n레시피 검색 및 추천 기능도 제공돼요\n키워드로 원하는 레시피를 검색할 수 있어 필요한 템플릿을 빠르게 찾을 수 있어요.\n채널 업종이나 마케팅 목표에 따라 적합한 레시피가 자동으로 추천됩니다.\n추천 항목에서는 사용 채널 수나 평균 목표 달성률도 함께 확인할 수 있어요.\n빌더사에 따라 노출되는 레시피가 달라요.\n빌더사 연동 시, 해당 빌더사에 맞는 레시피만 제공됩니다.\n연동되지 않은 경우에는 한국 채널의 경우\nCafe24용 레시피\n가 우선 보여지고, 그 외 국가채널 인 경우 기본적으로\nShopify용 레시피\n가 우선 보여집니다.",
+  "body": [
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "mime": "video/*",
+        "src": "https://www.youtube-nocookie.com/embed/0DQ9XIfY2Y8?amp%3Bstart=450"
+      },
+      "type": "video"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "마케팅 기능 알아보기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "마케팅은 고객에게 먼저 말을 거는 기능입니다. 고객 데이터를 기반으로 CRM 마케팅을 할 수 있도록 지원하는 채널톡의 강력한 마케팅 기능을 활용해 보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "마케팅 기능은 크게 두 가지로 나뉩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일회성"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " : 특정 고객 또는 다수에게 메시지를 보내는 일회성 메시지 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 일회성 자세히 보러 가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/f62c11ab"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "캠페인"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " : 고객이 특정 행동을 할 때마다 자동화된 메시지를 보내는 캠페인 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→캠페인 자세히 보러 가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/9064c609"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "일회성과 캠페인의 차이점"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "일회성"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 사이트에 들어오지 않더라도 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "원하는 시점"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에 메시지를 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "1회"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 보내는 기능입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "공지, 신상품 소개, 이벤트 소식 등을 전달하는 용도로 적합합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "발송 버튼을 눌러야 메시지가 전송됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예약 발송"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "도 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "캠페인"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 사이트에 들어와 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "특정 행동을 할 때마다"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 메시지를 발송하는 기능입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "회원가입 유도, 가입 후 첫 구매 유도 등에 적합합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "매번 직접 발송 버튼을 누르지 않아도 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "자동으로 메시지가 전송"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "특정 시간대에만"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 발송되도록 설정 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "마케팅 레시피"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "마케팅 캠페인을 처음 설정하신다면, 레시피를 활용해 손쉽게 시작해 보세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡에서는 다양한 목적에 맞는 마케팅 레시피를 제공하고 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "레시피 적용 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[마케팅] - [마케팅 레시피]"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 메뉴로 이동해 주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "캠페인 목적에 맞는 레시피를 선택해 주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예: ‘구매 유도’, ‘회원가입 유도’, ‘상담 유도’ 등"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[케이스 따라해보기]"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 버튼을 클릭하면 캠페인 설정이 자동으로 적용됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "적용된 캠페인은 [캠페인 목록]에서 확인할 수 있고,"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지 내용이나 대상 조건을 필요에 맞게 수정하면 바로 사용할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "레시피 검색 및 추천 기능도 제공돼요"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "키워드로 원하는 레시피를 검색할 수 있어 필요한 템플릿을 빠르게 찾을 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널 업종이나 마케팅 목표에 따라 적합한 레시피가 자동으로 추천됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "추천 항목에서는 사용 채널 수나 평균 목표 달성률도 함께 확인할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "빌더사에 따라 노출되는 레시피가 달라요."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "빌더사 연동 시, 해당 빌더사에 맞는 레시피만 제공됩니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "연동되지 않은 경우에는 한국 채널의 경우 "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "Cafe24용 레시피"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 가 우선 보여지고, 그 외 국가채널 인 경우 기본적으로 "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "Shopify용 레시피"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 가 우선 보여집니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "마케팅 레시피-.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/25/revisions/416863/usermedia/68761d8a854393a6a9ee",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "마케팅 레시피-2.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/25/revisions/416863/usermedia/6877895cc2ef7fed372e",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "45964",
+    "name": "May",
+    "bio": "CS manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eaf5a23991a069d",
+  "linked_faqs": [
+    {
+      "id": "106093",
+      "question": "홈페이지에서 마케팅 레시피가 보이지 않아요. 어디서 확인하나요?",
+      "answer_plaintext": "홈페이지에 있던 ‘마케팅 레시피’ 페이지는 더 이상 제공되지 않습니다.\n25년 7월 25일부터 [마케팅] - [마케팅 레시피] 메뉴에서만 마케팅 레시피를 확인하실 수 있어요."
+    }
+  ],
+  "faq_count": 1
+}

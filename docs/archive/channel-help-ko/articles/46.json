@@ -1,0 +1,426 @@
+{
+  "id": "46",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%8C%94%EB%A1%9C%EC%97%85-%EC%95%8C%EB%A6%BC-3481edf8",
+  "title": "팔로업 알림",
+  "summary": "상담 중 고객이 사이트를 떠나도 대화를 이어갈 수 있는 팔로업 알림 기능이 있습니다. 유의미한 고객의 핵심 정보인 연락처를 물어보고, 고객이 답변을 놓치지 않게 전달해보세요.",
+  "plaintext": "영상으로 배우고 싶다면?\n팔로업 알림 기능을 통해 입력된 고객의 정보는\n고객이 요청한 상담 업무 응대를 위한 목적\n으로만 사용하여야 합니다. 그 외의 목적으로 이용하고자 한다면 워크플로우의 입력폼 기능을 활용하여\n고객으로부터 별도의 수집 동의를 받아야 하는 점\n참고해주세요.\n(→ 입력폼 알아보기)\n팔로업 알림 설정하기\n휴대폰 번호와 이메일을 모두 물어볼 경우 알림톡(또는 문자), 이메일 모두 팔로업 알림이 전송됩니다.\n단, 결제 수단이 등록되어 있어야 휴대폰 번호 답변 알림을 활성화 할 수 있어요.\n(→ 팔로업 알림 알아보기)\n휴대폰 번호\n상담을 진행하는 고객의 전화번호를 저장합니다.\n휴대폰 번호를 활성화 할 경우, 알림톡 또는 문자로 팔로업 알림이 전송되도록 자동으로 설정됩니다.\n결제 수단이 등록되어 있어야 설정 가능합니다.\n메일\n상담을 진행하는 고객의 이메일을 저장합니다.\n이메일을 활성화 할 경우, 이메일로 팔로업 알림이 전송되도록 자동으로 설정됩니다.\n이름\n상담을 진행하는 고객의 이름을 물어보고 저장합니다.\n연락처 있는 고객에게만 문의받기\n고객이 연락처 정보를 입력해야만 상담이 시작되도록 할 수 있어요.\n연락처를 입력하지 않고 떠난 고객의 문의는 채팅으로 유입되지 않습니다.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 20초 • 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/사이트를-떠난-고객에게-답장-알림-보내기-e859eef0",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad8c2946be57c0d86f/tmp-3896609182.png",
+        "title": "사이트를 떠난 고객에게 답장 알림 보내기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "팔로업 알림 기능을 통해 입력된 고객의 정보는 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "고객이 요청한 상담 업무 응대를 위한 목적"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "으로만 사용하여야 합니다. 그 외의 목적으로 이용하고자 한다면 워크플로우의 입력폼 기능을 활용하여 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "고객으로부터 별도의 수집 동의를 받아야 하는 점"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 참고해주세요. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(→ 입력폼 알아보기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/6e4fd112-%EC%9E%85%EB%A0%A5%ED%8F%BC"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팔로업 알림 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "휴대폰 번호와 이메일을 모두 물어볼 경우 알림톡(또는 문자), 이메일 모두 팔로업 알림이 전송됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "단, 결제 수단이 등록되어 있어야 휴대폰 번호 답변 알림을 활성화 할 수 있어요. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(→ 팔로업 알림 알아보기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/1ab15b6a"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "휴대폰 번호"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담을 진행하는 고객의 전화번호를 저장합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "휴대폰 번호를 활성화 할 경우, 알림톡 또는 문자로 팔로업 알림이 전송되도록 자동으로 설정됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "결제 수단이 등록되어 있어야 설정 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "메일"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담을 진행하는 고객의 이메일을 저장합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이메일을 활성화 할 경우, 이메일로 팔로업 알림이 전송되도록 자동으로 설정됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이름"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담을 진행하는 고객의 이름을 물어보고 저장합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "연락처 있는 고객에게만 문의받기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 연락처 정보를 입력해야만 상담이 시작되도록 할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연락처를 입력하지 않고 떠난 고객의 문의는 채팅으로 유입되지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "팔로업 알림",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/46/revisions/133/usermedia/662b0fc16981356aa054"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ec47c7a072f0123",
+  "linked_faqs": [],
+  "faq_count": 0
+}

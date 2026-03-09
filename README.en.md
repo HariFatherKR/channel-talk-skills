@@ -85,6 +85,16 @@ Update the marketplace:
 
 **The skill automatically selects the appropriate feature.** Just tell it what you want.
 
+## Documentation Archive
+
+To snapshot the official `help/ko` user guide into a local archive, run:
+
+```bash
+python3 scripts/archive_channel_help_ko.py
+```
+
+See `docs/archive/channel-help-ko/README.md` for the output layout and verification flow.
+
 ## What's Inside
 
 ### Supported Features

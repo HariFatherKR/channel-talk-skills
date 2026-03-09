@@ -1,0 +1,3179 @@
+{
+  "id": "78",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9D%BC%ED%9A%8C%EC%84%B1-%EB%A9%94%EC%8B%9C%EC%A7%80-f62c11ab",
+  "title": "일회성 메시지",
+  "summary": "일회성 메시지를 통해 ‘적절한 고객에게 적합한 메시지’를 손쉽게 보내 보세요. 공지사항, 뉴스, 신제품 출시 등 이벤트 소식을 전달하는 용도로 활용하실 수 있습니다.",
+  "plaintext": "영상으로 배우고 싶다면?\n일회성이란?\n고객이 사이트에 들어오지 않더라도, 타겟 고객을 대상으로 원하는 시점에 메시지를 1회 보내는 기능입니다.\n발송 매체\n채널톡 메시지\n사이트 내에서 고객에게 먼저 말을 건넬 수 있는 메시지입니다. 사이트에 방문한 고객에게 채팅 메시지 팝업을 띄우고 원하는 행동을 유도할 수 있어요. 상담으로 자연스럽게 연결하기 좋습니다.\n고객이 온라인 상태 → 사이트 내의 팝업 메시지로 전송해요.\n고객이 오프라인 상태 → 사이트 내의 팝업 메시지 +\n문자 / 이메일\n을 추가로 보낼 수 있어요.\n문자\n문자는 CRM 마케팅의 기본입니다. 불편한 엑셀 다운로드 & 업로드가 아닌 채널톡으로 손쉽게 문자를 보내보세요. 떠난 고객들을 다시 돌아오게 하는 데 좋습니다.\n마케팅 문자를 발송하기 위해 발송 번호를 꼭 설정해 주어야 합니다.\n(→ 발신번호 설정 방법 알아보기)\n알림톡\n카카오 알림톡은 메시지 오픈율이 가장 좋은 채널 중 하나입니다. 정보성 메시지를 채널톡으로 손쉽게 전송해 보세요. 자동으로 발송하는 배송, 결제, 주문 알림 등 공지사항이나 리마인드 메시지에 적합합니다.\n서비스 악용 방지를 위한 절차 강화 안내\n2025년 2월 12일 이후 생성한 채널인 경우 알림톡으로 마케팅 메시지를 전송하기 위해서는 1)\n카카오 채널 비즈니스 인증\n2)\n채널톡 비즈니스 인증\n을 모두 완료해야 합니다.\n많이 사용되는 알림톡 템플릿은 레시피로 준비되어 있습니다.\n(→ 알림톡 레시피 확인하기)\n카카오 알림톡은 카카오톡 정책에 따라 결제 완료, 배송 출발 등의\n정보성 메시지만 발송\n가능합니다. 이에 따라 검수된 템플릿으로만 발송하도록 제한하고 있습니다.\n알림톡만 별도로 발송되고 채널톡 채팅이 만들어지는 것은 아닙니다.\n(→ 알림톡 연동 방법 확인하기)\n발송 방법\n설정 경로: [마케팅 메뉴] - [일회성] - [+ 새 메시지 만들기] 후 발송 매체 선택\n1. 대상 고객 설정하기\n어떤 고객들에게 메시지를 전송할지 설정합니다. '직접 필터 선택' 또는 '세그먼트 불러오기' 중 하나를 선택해야 다음 단계를 설정할 수 있어요.\n직접 필터 선택:\n모든 고객 또는 특정 조건을 가진 고객을 대상 고객을 필터링하여 대상 고객으로 설정하고 싶을 때 선택해 주세요.\n세그먼트 불러오기:\n사전에\n고객 세그먼트\n를 설정했다면 세그먼트를 불러와 대상 고객으로 한 번에 지정할 수 있어요.\n예시1) 최근 30일 동안 방문하지 않은 회원 고객에게 메시지 발송하기\n30일 동안 방문하지 않은 회원이라면 우리 사이트에 관심이 많이 떨어져 있을 거예요. 그 때 고객에게 새로운 업데이트나 신상품 소식을 전해 사이트에 방문을 유도해 보세요.\n필터 조건:\n최근 접속 시간 30일 이상 경과\n동시에\n회원 여부\n가\n맞는\n예시 2) 장바구니에 상품을 담은 고객에게 메시지 발송하기\n장바구니에 상품을 담아 두고 구매하지 않는 고객 비중이 50% 이상이라고 해요. 고객의 구매 의사가 사라지기 전에 특별한 혜택을 안내해 구매를 유도해 보세요.\n필터 조건\n:\n장바구니 상품 개수 1개 이상 (필터명은 빌더사마다 다를 수 있습니다.)\n예시 3) 이메일 주소를 남긴 비회원 고객에게 뉴스레터 발송하기\n콘텐츠 마케팅을 자주 하는 비즈니스라면 이메일 주소를 남긴 비회원을 대상으로 뉴스레터를 발송해 보세요. 비회원 고객에게 브랜드 인지도를 높일 수 있는 절호의 기회입니다!\n필터 조건: 회원 여부가\n아닌\n동시에\n이메일\n값이 있는\n2. 메시지 작성하기\n일회성 메시지로 전송할 메시지를 작성하는 공간입니다. 텍스트와 함께 이미지, 동영상 등을 활용하여 메시지를 전송해 보세요.\n전송 수단에 따른 메시지 작성\n문자\n직접 입력한 텍스트를 문자로 전송할 수 있습니다. 이미지 또는 이모지 전송은 지원되지 않으며, 특수 문자의 경우 일부 단말기에서 표기되지 않을 수 있으므로 권장하지 않습니다.\n알림톡\n준비된 '레시피 템플릿' 또는 사전에 검수 완료된 '개인 템플릿'으로 메시지를 전송할 수 있습니다.\n(→ 개인 템플릿 생성 방법 보기)\n채널톡 메시지\n메시지 직접 작성: 메시지를 직접 작성하여 구성할 수 있어요. 채널톡 메시지에는 이미지, 버튼, 동영상 등을 첨부하여 전송할 수 있습니다.\n워크플로우 사용: 트리거가 '새 상담을 시작할 때 챗봇'인 워크플로우를 연결하여 메시지로 전송할 수 있습니다.\n(→ 아웃바운드성 워크플로우 보기)\n파일 및 이미지: 이미지/동영상 등의 파일을 첨부할 수 있어요.\n(→ 권장 사이즈 확인하기)\n매크로: 매크로를 불러와 메시지로 등록할 수 있어요.\n이모티콘: 메시지 유형에 어울리는 이모티콘을 추가할 수 있어요.\n개인화 변수: 개인화 변수를 통해 고객 정보를 자동으로 입력할 수 있어요.\n링크 버튼: 최대 2개까지 설정할 수 있어요.\n글자 서식: 굵게 / 기울기 / 목록 / 링크 중 선택하여 설정할 수 있어요.\n링크: 이미지 썸네일 영역 클릭 시 이동할 링크를 설정할 수 있어요.\n이미지 클릭 시 링크 이동 기능은 네이티브 앱 환경에서는 동작하지 않습니다.(추후 제공 예정)\n데스크탑, 모바일, 문자, 이메일에 따른 미리 보기 화면을 제공합니다.\n메시지의 노출 형태(데스크탑)\n버블\n: 채널톡 버튼 위 메시지가 표시되는 형태입니다. PC, 모바일 웹에서 버튼 이미지는 보내는 사람의 프로필 이미지로 노출됩니다. 문구는 최대 4줄까지 보여지며, 텍스트 길에 따라 버블 너비도 변경되어요. (최소 230px, 최대 320px)\n전체화면\n: 메시지가 홈페이지 가운데에 표시됩니다.\n메시지의 노출 형태(모바일)\n버블\n: 화면 상/하단에 노출됩니다. 메시지 문구는 최대 2줄까지 노출됩니다.\n전체화면\n: 메시지가 홈페이지 가운데에 표시됩니다. 메시지 문구는 최대 4줄까지 보여지며, 메시지 사이즈 너비는 고정되어 있어요.\n마케팅 메시지에 이미지, 동영상이 첨부되어 있는 경우, 이메일로는 이미지만 전달되고 (동영상 직접 전달 불가) 문자 메시지로는 이미지, 동영상 모두 전달되지 않습니다. 단, 이메일/문자 메시지의 본문에 포함된 채널톡 채팅 링크를 통해 전체 콘텐츠를 확인할 수 있어요.\n메시지 활용 예시\n메시지를 작성할 때 여러 요소들을 활용하실 수 있습니다.\n썸네일 생성\n[파일 및 이미지] 버튼을 눌러 추가하신 이미지도 썸네일로 생성됩니다.\n유튜브 영상의 공유 링크를 입력하여 마케팅 메시지에서\n자동 재생\n할 수 있습니다.\n썸네일이 생성된 이후에는 입력한\n공유 링크를 지우셔도 영상이 자동 재생\n되어요.\n개인화 변수\n고객 연락처에 저장된 정보를 불러와 고객 정보를 자동으로 입력하실 수 있습니다.\n저장된 정보가 없는 경우\n대체 문구에 입력한 단어\n가 표시됩니다.\n[마케팅] - [캠페인]의 개인화 변수는 시작 이벤트에 관련된 정보도 불러와 노출할 수 있습니다.\n예시 1) 고객의 이름 불러주기\n고객 프로필에 이름이 있는 경우: 저장된\n이름이 변수에 입력\n되어 메시지가 노출됩니다.\n고객 프로필에 이름이 없는 경우: 입력한\n대체 문구가 변수에 입력\n되어 메시지가 노출됩니다.\n예시 2) 고객의 쿠폰 개수 알려주기\n회원이 현재 보유한 쿠폰 개수인 couponCount 정보는\n카페24, 아임웹, 가비아에\n서 제공되며, 자체적으로 구축하신 사이트라면\n별도로 현재 보유한 쿠폰 개수 프로필 정보를 연동\n해주셔야 합니다.\n고객 프로필에 쿠폰 개수가 있는 경우: 저장된\n쿠폰 개수가 변수에 입력\n되어 메시지가 노출됩니다.\n고객 프로필에 쿠폰 개수가 없는 경우: 입력한\n대체 문구가 변수에 입력\n되어 메시지가 노출됩니다.\n마케팅 설정 시 대상 고객을\n쿠폰 개수 1보다 이상\n으로 설정하시면, 쿠폰이 없는 고객에게는 발송되지 않습니다.\n링크 버튼\n버튼 텍스트에\n보여질 내용\n을 입력할 수 있습니다.\n링크 (URL)은\n이동 시키고 싶은 페이지의 URL\n을 입력해주세요.\n모바일 접속 고객이\n전화를 걸 수 있는 버튼\n을 만들 수 있습니다.\n링크 (URL)에 아래 형식을 지켜 번호를 입력해주세요.\ntel:021234567 (O)\n02-123-4567 (X)\n3. 운영 설정하기\n전송 시간 설정하기\n특정 시간에:\n원하는 날짜와 시간에 전송할 수 있습니다.\n채널 기본 운영:\n채널 기본 운영 시간대(Asia/Seoul UTC +09:00)를 기준으로 전송합니다.\n(→ 시간대 설정하기)\n수신자 시간대:\n기준 메시지를 받는 분의 시차 시간대를 기준으로 전송됩니다. 수신자의 시간대 정보가 없다면 채널 시간대 기준으로 전송되어요. 만약, 수신자 시간이 예약 전송 시간보다 지난 경우 메시지는 전송되지 않습니다.\n오프라인 고객에게 보내기\n메시지 발송 시점에 고객이 오프라인이면 문자, 이메일 알림을 추가로 보내 재방문을 유도할 수 있습니다. 꺼두시면 오프라인 고객에게는 채널톡 메시지만 발송됩니다.\n광고성 메시지 설정하기\n광고성 내용이 포함되어 있으면 꼭 체크해주세요. 사이트 접속 시 뜨는 '채널톡 메시지'와 정보성 메시지는 수신거부와 관계없이 항상 발송됩니다.\n(→ 정보성 메시지 알아보기)\n문자 유형의 마케팅 메시지 혹은, 채널톡 메시지에서 오프라인 문자 알림을 설정했을 경우, 광고성 메시지를 체크하면 문자 앞에 업체명이 자동으로 설정되어 전송됩니다.\n(→ 업체명 설정하기)\n마케팅 문자 발송을 위해 꼭 국내 발신번호 등록을 해주셔야 합니다.\n(→ 발신번호 등록하기)\n광고성 내용이 포함되어 있으면 꼭 체크해 주세요. 정책 위반 시 책임은 고객사 당사에 있으니 주의해 주세요.\n4. 목표 설정하기\n전송된 메시지의 전환율을 추적하고 싶다면 목표를 설정해 주세요.\n메시지를 받은 고객이 설정한 기간 내에 마케팅을 조회 또는 클릭한 후 설정한 이벤트를 달성하면, 목표 달성을 체크합니다.\n(\n→ 이벤트 알아보기\n]\n예시) 목표에 회원 가입(SignUp) 을 설정한 경우, 메시지를 전송받은 고객이 회원가입을 하게 되면 ‘목표 달성’ 수치에 집계됩니다. 단, 고객이 마케팅 메시지를 조회나 클릭하지 않았거나, 설정한 조회, 클릭 기간 이후에 이벤트를 달성하는 경우 목표로 집계되지 않습니다.\n목표 이벤트를\n매출 이벤트 (=\n[주문 완료], [결제 완료])\n로 설정했을 경우, 마케팅을 조회 또는 클릭 후 구매 전환된 건의\n매출액 지표도 확인\n이 가능합니다.\n[주문 완료], [결제 완료] 이벤트가 제공되는 빌더사는 자동으로 매출액 지표가 연동되며, 자체 제작의 경우 [주문 완료], [결제 완료] 이벤트 생성 시 매출액이 연동되도록 속성을 설정해주셔야합니다.\n매출 이벤트는 이벤트 목록에서 별도 표시가 보여집니다.\n목록 검색\n마케팅 일회성 메시지 목록 중 검색을 통해 원하는 메시지를 손쉽게 찾아볼 수 있어요.\n일회성 메시지\n상태\n(초안/대기중/전송됨/취소됨),\n방식\n에 따라 분류할 수 있어요.\n우측 검색 창에서 일회성 메시지의 제목을 검색하여 빠르게 찾을 수 있어요.\n일회성 메시지 목록은 제목, 전송 수, 조회율, 생성 시간을 기준으로 오름/내림차순 정렬이 가능합니다.\n함께 보면 좋은 글",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 5분 • 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/otm-bc990a29",
+        "imageUrl": "https://cf.channel.io/thumb/1200x630,cover,webp/web_page/1/68ad8a4b912c024c7443/tmp-11683522.png",
+        "title": "특정 고객에게 일회성 메시지 보내기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "일회성이란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 사이트에 들어오지 않더라도, 타겟 고객을 대상으로 원하는 시점에 메시지를 1회 보내는 기능입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "발송 매체"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 메시지"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "사이트 내에서 고객에게 먼저 말을 건넬 수 있는 메시지입니다. 사이트에 방문한 고객에게 채팅 메시지 팝업을 띄우고 원하는 행동을 유도할 수 있어요. 상담으로 자연스럽게 연결하기 좋습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 온라인 상태 → 사이트 내의 팝업 메시지로 전송해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 오프라인 상태 → 사이트 내의 팝업 메시지 + "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "문자 / 이메일"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 추가로 보낼 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "1",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b107e7f32084f4b29"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "문자"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "문자는 CRM 마케팅의 기본입니다. 불편한 엑셀 다운로드 & 업로드가 아닌 채널톡으로 손쉽게 문자를 보내보세요. 떠난 고객들을 다시 돌아오게 하는 데 좋습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "otm_2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b107eace7666345f5"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "마케팅 문자를 발송하기 위해 발송 번호를 꼭 설정해 주어야 합니다. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(→ 발신번호 설정 방법 알아보기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/ba987cea"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "알림톡"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카카오 알림톡은 메시지 오픈율이 가장 좋은 채널 중 하나입니다. 정보성 메시지를 채널톡으로 손쉽게 전송해 보세요. 자동으로 발송하는 배송, 결제, 주문 알림 등 공지사항이나 리마인드 메시지에 적합합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "알림톡",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b107ed32924402784"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "서비스 악용 방지를 위한 절차 강화 안내"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "2025년 2월 12일 이후 생성한 채널인 경우 알림톡으로 마케팅 메시지를 전송하기 위해서는 1) "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "카카오 채널 비즈니스 인증"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-cobalt-normal"
+                  },
+                  "type": "color"
+                },
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D-1b9e3eb9"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 2) "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "채널톡 비즈니스 인증"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-cobalt-normal"
+                  },
+                  "type": "color"
+                },
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D-0b034717"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "을 모두 완료해야 합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "많이 사용되는 알림톡 템플릿은 레시피로 준비되어 있습니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 알림톡 레시피 확인하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/ko/recipe"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오 알림톡은 카카오톡 정책에 따라 결제 완료, 배송 출발 등의"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 정보성 메시지만 발송"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 가능합니다. 이에 따라 검수된 템플릿으로만 발송하도록 제한하고 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림톡만 별도로 발송되고 채널톡 채팅이 만들어지는 것은 아닙니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 알림톡 연동 방법 확인하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/f38990b7"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "발송 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "설정 경로: [마케팅 메뉴] - [일회성] - [+ 새 메시지 만들기] 후 발송 매체 선택"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 대상 고객 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "어떤 고객들에게 메시지를 전송할지 설정합니다. '직접 필터 선택' 또는 '세그먼트 불러오기' 중 하나를 선택해야 다음 단계를 설정할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "직접 필터 선택:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 모든 고객 또는 특정 조건을 가진 고객을 대상 고객을 필터링하여 대상 고객으로 설정하고 싶을 때 선택해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "세그먼트 불러오기:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 사전에 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "고객 세그먼트"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%EC%97%B0%EB%9D%BD%EC%B2%98-312d45b2#%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%8A%B8"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 설정했다면 세그먼트를 불러와 대상 고객으로 한 번에 지정할 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예시1) 최근 30일 동안 방문하지 않은 회원 고객에게 메시지 발송하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "30일 동안 방문하지 않은 회원이라면 우리 사이트에 관심이 많이 떨어져 있을 거예요. 그 때 고객에게 새로운 업데이트나 신상품 소식을 전해 사이트에 방문을 유도해 보세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터 조건:"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "최근 접속 시간 30일 이상 경과 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "동시에"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "type": "underline"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 회원 여부"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "가 "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "맞는 "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "type": "underline"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "예시1",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b10809feaf8454d44"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 2) 장바구니에 상품을 담은 고객에게 메시지 발송하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "장바구니에 상품을 담아 두고 구매하지 않는 고객 비중이 50% 이상이라고 해요. 고객의 구매 의사가 사라지기 전에 특별한 혜택을 안내해 구매를 유도해 보세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터 조건"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "장바구니 상품 개수 1개 이상 (필터명은 빌더사마다 다를 수 있습니다.) "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "예시2",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b1080c80ee2568fba"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 3) 이메일 주소를 남긴 비회원 고객에게 뉴스레터 발송하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "콘텐츠 마케팅을 자주 하는 비즈니스라면 이메일 주소를 남긴 비회원을 대상으로 뉴스레터를 발송해 보세요. 비회원 고객에게 브랜드 인지도를 높일 수 있는 절호의 기회입니다!"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터 조건: 회원 여부가 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "아닌"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "type": "underline"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 동시에"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 이메일 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "값이 있는 "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "type": "underline"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "예시3",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b1080e37589dfcd7f"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. 메시지 작성하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "일회성 메시지로 전송할 메시지를 작성하는 공간입니다. 텍스트와 함께 이미지, 동영상 등을 활용하여 메시지를 전송해 보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전송 수단에 따른 메시지 작성"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "문자"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "직접 입력한 텍스트를 문자로 전송할 수 있습니다. 이미지 또는 이모지 전송은 지원되지 않으며, 특수 문자의 경우 일부 단말기에서 표기되지 않을 수 있으므로 권장하지 않습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "알림톡"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "준비된 '레시피 템플릿' 또는 사전에 검수 완료된 '개인 템플릿'으로 메시지를 전송할 수 있습니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 개인 템플릿 생성 방법 보기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%95%8C%EB%A6%BC%ED%86%A1-9747de9a#%EC%95%8C%EB%A6%BC%ED%86%A1-%ED%85%9C%ED%94%8C%EB%A6%BF-%EC%83%9D%EC%84%B1-%EB%B0%A9%EB%B2%95"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 메시지"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지 직접 작성: 메시지를 직접 작성하여 구성할 수 있어요. 채널톡 메시지에는 이미지, 버튼, 동영상 등을 첨부하여 전송할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 사용: 트리거가 '새 상담을 시작할 때 챗봇'인 워크플로우를 연결하여 메시지로 전송할 수 있습니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 아웃바운드성 워크플로우 보기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%95%84%EC%9B%83%EB%B0%94%EC%9A%B4%EB%93%9C%EC%84%B1-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-e2dbb0ec"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "일회성-메시지 작성하기-이미지링크 추가.png",
+        "height": "1024px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/527515/usermedia/68b562300c5ba40e749a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "파일 및 이미지: 이미지/동영상 등의 파일을 첨부할 수 있어요. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 권장 사이즈 확인하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/f62c11ab"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "매크로: 매크로를 불러와 메시지로 등록할 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이모티콘: 메시지 유형에 어울리는 이모티콘을 추가할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "개인화 변수: 개인화 변수를 통해 고객 정보를 자동으로 입력할 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "링크 버튼: 최대 2개까지 설정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "글자 서식: 굵게 / 기울기 / 목록 / 링크 중 선택하여 설정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "링크: 이미지 썸네일 영역 클릭 시 이동할 링크를 설정할 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "이미지 클릭 시 링크 이동 기능은 네이티브 앱 환경에서는 동작하지 않습니다.(추후 제공 예정) "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b107f2fe0d53f7b37"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "데스크탑, 모바일, 문자, 이메일에 따른 미리 보기 화면을 제공합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "exemail",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b107f4fa265cc4147"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지의 노출 형태(데스크탑)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "버블"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 채널톡 버튼 위 메시지가 표시되는 형태입니다. PC, 모바일 웹에서 버튼 이미지는 보내는 사람의 프로필 이미지로 노출됩니다. 문구는 최대 4줄까지 보여지며, 텍스트 길에 따라 버블 너비도 변경되어요. (최소 230px, 최대 320px)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "전체화면"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 메시지가 홈페이지 가운데에 표시됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "메시지 노출 형태 ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b107f7c0a84e3785d"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지의 노출 형태(모바일)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "버블"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 화면 상/하단에 노출됩니다. 메시지 문구는 최대 2줄까지 노출됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "전체화면"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 메시지가 홈페이지 가운데에 표시됩니다. 메시지 문구는 최대 4줄까지 보여지며, 메시지 사이즈 너비는 고정되어 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "마케팅 메시지에 이미지, 동영상이 첨부되어 있는 경우, 이메일로는 이미지만 전달되고 (동영상 직접 전달 불가) 문자 메시지로는 이미지, 동영상 모두 전달되지 않습니다. 단, 이메일/문자 메시지의 본문에 포함된 채널톡 채팅 링크를 통해 전체 콘텐츠를 확인할 수 있어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "메시지 활용 예시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "메시지를 작성할 때 여러 요소들을 활용하실 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "예시",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b107fa714079dba8e"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "썸네일 생성"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "예시2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b107fd4de9fb65ccf"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[파일 및 이미지] 버튼을 눌러 추가하신 이미지도 썸네일로 생성됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유튜브 영상의 공유 링크를 입력하여 마케팅 메시지에서 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "자동 재생"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "썸네일이 생성된 이후에는 입력한 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "공유 링크를 지우셔도 영상이 자동 재생"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 되어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "개인화 변수"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "개인화변수",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b108001d7486a1671"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 연락처에 저장된 정보를 불러와 고객 정보를 자동으로 입력하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "저장된 정보가 없는 경우 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "대체 문구에 입력한 단어"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "가 표시됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "[마케팅] - [캠페인]의 개인화 변수는 시작 이벤트에 관련된 정보도 불러와 노출할 수 있습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 1) 고객의 이름 불러주기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "변수",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b10802a272dc0f34a"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 프로필에 이름이 있는 경우: 저장된 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "이름이 변수에 입력"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "되어 메시지가 노출됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 프로필에 이름이 없는 경우: 입력한 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "대체 문구가 변수에 입력"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "되어 메시지가 노출됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 2) 고객의 쿠폰 개수 알려주기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "회원이 현재 보유한 쿠폰 개수인 couponCount 정보는 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "카페24, 아임웹, 가비아에"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "서 제공되며, 자체적으로 구축하신 사이트라면 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "별도로 현재 보유한 쿠폰 개수 프로필 정보를 연동"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "해주셔야 합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": "알려주기",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b10804dc479ecd87e"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 프로필에 쿠폰 개수가 있는 경우: 저장된 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "쿠폰 개수가 변수에 입력"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "되어 메시지가 노출됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 프로필에 쿠폰 개수가 없는 경우: 입력한 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "대체 문구가 변수에 입력"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "되어 메시지가 노출됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "마케팅 설정 시 대상 고객을 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "쿠폰 개수 1보다 이상"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "으로 설정하시면, 쿠폰이 없는 고객에게는 발송되지 않습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "링크 버튼"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "예시3",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b1080730d980451f3"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "버튼 텍스트에 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "보여질 내용"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 입력할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "링크 (URL)은 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "이동 시키고 싶은 페이지의 URL"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "모바일 접속 고객이 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "전화를 걸 수 있는 버튼"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "을 만들 수 있습니다.\n링크 (URL)에 아래 형식을 지켜 번호를 입력해주세요.\n\n"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "tel:021234567 (O)\n02-123-4567 (X)"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3. 운영 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b1081177bb50abf4e"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전송 시간 설정하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "특정 시간에:"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 원하는 날짜와 시간에 전송할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "채널 기본 운영:"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": " 채널 기본 운영 시간대(Asia/Seoul UTC +09:00)를 기준으로 전송합니다. "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "(→ 시간대 설정하기)"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "href": "https://docs.channel.io/help/ko/articles/5deb0312"
+                                      },
+                                      "type": "hyperlink"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "수신자 시간대:"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": " 기준 메시지를 받는 분의 시차 시간대를 기준으로 전송됩니다. 수신자의 시간대 정보가 없다면 채널 시간대 기준으로 전송되어요. 만약, 수신자 시간이 예약 전송 시간보다 지난 경우 메시지는 전송되지 않습니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오프라인 고객에게 보내기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "메시지 발송 시점에 고객이 오프라인이면 문자, 이메일 알림을 추가로 보내 재방문을 유도할 수 있습니다. 꺼두시면 오프라인 고객에게는 채널톡 메시지만 발송됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "광고성 메시지 설정하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "광고성 내용이 포함되어 있으면 꼭 체크해주세요. 사이트 접속 시 뜨는 '채널톡 메시지'와 정보성 메시지는 수신거부와 관계없이 항상 발송됩니다. "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 정보성 메시지 알아보기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/0d720440"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "문자 유형의 마케팅 메시지 혹은, 채널톡 메시지에서 오프라인 문자 알림을 설정했을 경우, 광고성 메시지를 체크하면 문자 앞에 업체명이 자동으로 설정되어 전송됩니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 업체명 설정하기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-dark"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/ba987cea-%EB%AC%B8%EC%9E%90#%EC%97%85%EC%B2%B4%EB%AA%85-%EC%84%A4%EC%A0%95"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "마케팅 문자 발송을 위해 꼭 국내 발신번호 등록을 해주셔야 합니다. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(→ 발신번호 등록하기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/ba987cea"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "광고성 내용이 포함되어 있으면 꼭 체크해 주세요. 정책 위반 시 책임은 고객사 당사에 있으니 주의해 주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "4. 목표 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전송된 메시지의 전환율을 추적하고 싶다면 목표를 설정해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지를 받은 고객이 설정한 기간 내에 마케팅을 조회 또는 클릭한 후 설정한 이벤트를 달성하면, 목표 달성을 체크합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "("
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/f6522c2f"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 이벤트 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-cobalt-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/f6522c2f"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "]"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/f6522c2f"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시) 목표에 회원 가입(SignUp) 을 설정한 경우, 메시지를 전송받은 고객이 회원가입을 하게 되면 ‘목표 달성’ 수치에 집계됩니다. 단, 고객이 마케팅 메시지를 조회나 클릭하지 않았거나, 설정한 조회, 클릭 기간 이후에 이벤트를 달성하는 경우 목표로 집계되지 않습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "목표 이벤트를 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "매출 이벤트 (="
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "[주문 완료], [결제 완료])"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 설정했을 경우, 마케팅을 조회 또는 클릭 후 구매 전환된 건의 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "매출액 지표도 확인"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "이 가능합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[주문 완료], [결제 완료] 이벤트가 제공되는 빌더사는 자동으로 매출액 지표가 연동되며, 자체 제작의 경우 [주문 완료], [결제 완료] 이벤트 생성 시 매출액이 연동되도록 속성을 설정해주셔야합니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "매출 이벤트는 이벤트 목록에서 별도 표시가 보여집니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "일회성-목표설정 (1).png",
+                "height": "428px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/290350/usermedia/681edfdc1b1230e03513",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "목록 검색"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "마케팅 일회성 메시지 목록 중 검색을 통해 원하는 메시지를 손쉽게 찾아볼 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일회성 메시지 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상태"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(초안/대기중/전송됨/취소됨), "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "방식"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에 따라 분류할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "우측 검색 창에서 일회성 메시지의 제목을 검색하여 빠르게 찾을 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일회성 메시지 목록은 제목, 전송 수, 조회율, 생성 시간을 기준으로 오름/내림차순 정렬이 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "일회성 메시지 ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/78/revisions/229/usermedia/662b10819fdc691805fd"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "함께 보면 좋은 글"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "정말 정보가 필요한 고객에게 꼭 맞는 메시지를보내려면 중요한 고객 데이터를 잘 필터링해야 해요. 채널톡으로 마케팅도 세심하게 전송하세요.",
+        "favicon": "https://channel.io/favicon.ico",
+        "href": "https://channel.io/ko/blog/mkt_to_customer",
+        "imageUrl": "https://cf.channel.io/thumb/1201x901,cover,webp/web_page/1/668fa9cd7cf2d77323a2/tmp-214775878.png",
+        "name": "Channel.io",
+        "title": "안전하게 보내는 채널톡 마케팅 메시지"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0edec3b97e79778c",
+  "linked_faqs": [
+    {
+      "id": "59878",
+      "question": "마케팅 메시지에 사용할 수 있는 최적화된 이미지 사이즈/비율이 어떻게 되나요?",
+      "answer_plaintext": "마케팅 메시지에 사용 가능한 이미지 사이즈 정보는 아래와 같습니다. \n\n1) 이미지 용량: 30MB 이하\n2) 확장자: png, jpg, gif\n3) 이미지 사이즈: 4000*4000 px 이하\n가로 or 세로 크기가 4000px 이상일 경우 이미지가 파일 형식으로 업로드됩니다.\n이미지는 모바일과 테스크탑 화면 사이즈의 배수로 설정하면 좋습니다.\n- 모바일 전체화면 & 데스크탑 버블의 가로 길이 320px\n- 데스크탑 전체화면 사이즈 520px\n4) 이미지 비율: 1:1 ~ 16:9 까지 지원\n그 외에 가로 / 세로로 너무 긴 이미지는 가운데 중심으로 crop되어 보입니다.\n\n5) GIF 파일의 경우 200프레임 미만\n- 모바일 전체화면 & 데스크탑 버블의 가로길이가 320px 이기에, 320의 배수로 설정하면 좋습니다.\n- 데스크탑 전체화면 사이즈 520px"
+    }
+  ],
+  "faq_count": 1
+}

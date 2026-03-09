@@ -1,0 +1,634 @@
+{
+  "id": "41",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%EB%AA%A9%ED%91%9C-8ddfcf0f",
+  "title": "상담 목표",
+  "summary": "상담 목표를 설정하면, 고객이 상담을 통해 원하는 행동을 했는지 성과를 측정해볼 수 있어요.",
+  "plaintext": "상담 목표 설정\n채널 1개당 상담 목표는\n1개\n로 지정할 수 있어요.\n설정 경로:\n[채널 설정] - [상담] - [상담 목표] - [목표 추가하기] 클릭\n목표 측정을 원하는 기간과 이벤트를 설정 후 [저장]\n기간 설정\n고객의 메시지에 팀 멤버가 첫 답변을 한 이후\n(첫 응대 시간이 잡히는 시점)부터 설정한 기간 안에 발생한 이벤트에 대해서만 목표 달성 여부를 측정합니다.\n기간은\n1, 3, 7, 15, 30일 중 선택\n할 수 있어요. 설정한 기간 이후에 이벤트가 발생하게되면, 목표는 미달성으로 집계됩니다.\n이벤트 설정\n목표로 설정하고 싶은 고객의 행동을 선택해주세요.\n(→ 이벤트 알아보기)\n상담 목표 달성 여부 확인\n수신함 우측 상담 정보에서 상담의 목표 달성 상태를 확인할 수 있어요.\n없음:\n상담 목표를 아직 설정하지 않은 상태예요.\n대기중:\n고객의 메시지에 팀 멤버가 첫 답변을 남기기 전이라, 목표를 측정하기 전이에요.\n미달성:\n목표를 달성하지 못한 상태예요.\n달성:\n표시된 날짜에 상담 목표가 달성됐어요.\n한 번 달성된 상담의 목표는 계속 달성된 상태로 유지돼요.\n종료된 상담이 다시 열려 새로운 문의에 팀 멤버가 다시 첫 답변을 진행했을 때, 목표가 바뀌었다면 새 목표로 측정을 시작하고, 달성 됐을 때 달성 시간, 목표가 바뀌어 표시됩니다.\n상담 목표 통계\n[상담 통계] 에서 설정 기간동안의 목표 달성 현황을 일자별로 상담 팀 멤버 별로 확인하실 수 있어요.\n자세한 내용은\n상담 통계를 확인해주세요.\n(조회 기간동안의 일자별 목표 달성 현황을 한눈에 확인할 수 있습니다.)\n(팀 멤버 별 달성 현황이 궁금하다면? 오퍼레이터 리더보드에서 확인해보세요!)\n목표 달성율은\n목표가 달성된 유저챗 건수 / 종료된 상담 건수\n로 계산됩니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 목표 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널 1개당 상담 목표는 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "1개"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "로 지정할 수 있어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [상담] - [상담 목표] - [목표 추가하기] 클릭"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "상담 목표_gnb 대응 (2).png",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/41/revisions/958526/usermedia/695f34dd8967a6c3a96b",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "목표 측정을 원하는 기간과 이벤트를 설정 후 [저장]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "기간 설정"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "고객의 메시지에 팀 멤버가 첫 답변을 한 이후 "
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "(첫 응대 시간이 잡히는 시점)부터 설정한 기간 안에 발생한 이벤트에 대해서만 목표 달성 여부를 측정합니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "기간은 "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "1, 3, 7, 15, 30일 중 선택"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "할 수 있어요. 설정한 기간 이후에 이벤트가 발생하게되면, 목표는 미달성으로 집계됩니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이벤트 설정"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "목표로 설정하고 싶은 고객의 행동을 선택해주세요. "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "(→ 이벤트 알아보기)"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "href": "https://docs.channel.io/help/ko/articles/f6522c2f"
+                                      },
+                                      "type": "hyperlink"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "상담 목표_gnb 대응 (3).png",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/41/revisions/958526/usermedia/695f35719654f15f52d3",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 목표 달성 여부 확인"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수신함 우측 상담 정보에서 상담의 목표 달성 상태를 확인할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "없음: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상담 목표를 아직 설정하지 않은 상태예요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대기중: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "고객의 메시지에 팀 멤버가 첫 답변을 남기기 전이라, 목표를 측정하기 전이에요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미달성: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "목표를 달성하지 못한 상태예요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "달성: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "표시된 날짜에 상담 목표가 달성됐어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/41/revisions/118/usermedia/662b10d8bb623d0dcd0a"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "한 번 달성된 상담의 목표는 계속 달성된 상태로 유지돼요.\n종료된 상담이 다시 열려 새로운 문의에 팀 멤버가 다시 첫 답변을 진행했을 때, 목표가 바뀌었다면 새 목표로 측정을 시작하고, 달성 됐을 때 달성 시간, 목표가 바뀌어 표시됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 목표 통계"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "[상담 통계] 에서 설정 기간동안의 목표 달성 현황을 일자별로 상담 팀 멤버 별로 확인하실 수 있어요. \n자세한 내용은 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "상담 통계를 확인해주세요."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/84f597bf"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "69780ca10c7f1b80dcac",
+        "height": "794px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/41/revisions/958526/usermedia/697b23103cde0ff92d05",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(조회 기간동안의 일자별 목표 달성 현황을 한눈에 확인할 수 있습니다.)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "69780d23971e560d8c9f",
+        "height": "698px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/41/revisions/958526/usermedia/697b231f962a2943482f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(팀 멤버 별 달성 현황이 궁금하다면? 오퍼레이터 리더보드에서 확인해보세요!)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "목표 달성율은 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "목표가 달성된 유저챗 건수 / 종료된 상담 건수"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "로 계산됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ec06c734fbbd189",
+  "linked_faqs": [
+    {
+      "id": "59875",
+      "question": "상담 목표를 중간에 바꾸면, 종료된 상담의 목표는 어떤 걸로 측정 되나요?",
+      "answer_plaintext": "상담 목표는 매니저가 고객의 문의에 첫 답변을 진행하는 시점에 설정된 목표로 측정 됩니다. \n다만, 보류/종료된 상담이 다시 열리고 새 문의에 대해 매니저가 답변을 다시 남기면, 해당 시점의 상담 목표로 새롭게 측정하게 됩니다."
+    },
+    {
+      "id": "59876",
+      "question": "종료된 상담이 다시 열린 경우 상담 목표를 어떻게 측정하나요?",
+      "answer_plaintext": "목표가 달성된 상담이 다시 열리게 된 경우\n- 목표가 동일하다면? 이미 목표가 달성되었기에 상담 목표는 달성으로 표시됩니다.\n- 목표가 달라졌다면? 고객의 새 문의에 매니저가 답변한 시점에 설정된 목표로 재측정하게 됩니다.\n목표가 미달성인 경우, 상담이 다시 열리고 고객 문의에 매니저가 답변한 시점으로부터 목표가 재측정됩니다."
+    },
+    {
+      "id": "59877",
+      "question": "팀 멤버가 새 상담 열기를 했을 때 상담 목표는 어떻게 측정되나요?",
+      "answer_plaintext": "새 상담 열기는 보낸 메시지에 고객이 첫 답변을 남긴 이후, 팀 멤버의 답장부터 목표 측정이 시작됩니다."
+    }
+  ],
+  "faq_count": 3
+}

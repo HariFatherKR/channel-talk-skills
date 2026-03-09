@@ -1,0 +1,430 @@
+{
+  "id": "28344",
+  "url": "https://docs.channel.io/help/ko/articles/IP-%EC%A3%BC%EC%86%8C-%EC%A0%9C%ED%95%9C-5bc99a3b",
+  "title": "IP 주소 제한",
+  "summary": "IP 주소 제한 기능은 엔터프라이즈 플랜 이용 시 추가 구독하여 사용 가능한 보안 패키지 기능입니다. '보안 패키지' 기능을 별도로 선불 충전 후 사용이 가능합니다. (→ 가격 문의하기) IP 차단 기능이란? 허용된 IP 주소로만 채널에 접근할 수 있습니다. 허용 목록에 IP 주소를 추가해 부정 로그인을 예방하고 보안을 강화할 수 있어요. - 최대 50개의 IP를 등록할 수 있으며, 단일 IPv4 및 CIDR 형식을 지원합니다. - 채널별 허용 IP 주소와 역할별 허용 IP 주소를 모두 설정할 수 있어요. - IP 주소 제한 기능은 스위치를 통해 on/off가 가능합니다. - 소유자 관계 없이 채널에 참여한 모두에게 일괄 적용됩니다. - 허용된 IP가 아닌 곳에서 활성화할 경우, 즉시 채널 이용이 차단되니 주의해주세요. 채널 허용 IP 주소와 역할 별 허용 IP 주소 - 채널 허용 IP → 역할별 허용 IP 순서로 2단계 검사합니다. - 채널 허용 IP가 비어있으면 1단계는 자동 통",
+  "plaintext": "IP 주소 제한 기능은 엔터프라이즈 플랜 이용 시 추가 구독하여 사용 가능한 보안 패키지 기능입니다. '보안 패키지' 기능을 별도로 선불 충전 후 사용이 가능합니다. (\n→ 가격 문의하기\n)\nIP 차단 기능이란?\n허용된 IP 주소로만 채널에 접근할 수 있습니다. 허용 목록에 IP 주소를 추가해 부정 로그인을 예방하고 보안을 강화할 수 있어요.\n최대 50개의 IP를 등록할 수 있으며, 단일 IPv4 및 CIDR 형식을 지원합니다.\n채널별 허용 IP 주소와 역할별 허용 IP 주소를 모두 설정할 수 있어요.\nIP 주소 제한 기능은 스위치를 통해 on/off가 가능합니다.\n소유자 관계 없이 채널에 참여한 모두에게 일괄 적용됩니다.\n허용된 IP가 아닌 곳에서 활성화할 경우, 즉시 채널 이용이 차단되니 주의해주세요.\n채널 허용 IP 주소와 역할 별 허용 IP 주소\n채널 허용 IP → 역할별 허용 IP 순서로 2단계 검사합니다.\n채널 허용 IP가 비어있으면 1단계는 자동 통과됩니다.\n두 조건을 모두 만족해야 접근 가능합니다.\n역할 별 허용 IP 주소 오류 수정\n⚠ 표시는 역할별 허용 IP가 채널 허용 IP 범위에 포함되지 않을 때 표시됩니다.\n역할별 허용 IP가 채널별 허용 IP에 포함되도록 IP 설정을 수정해주세요.\n허용된 IP 주소 등록하기\n단일 IPv4, CIDR 표기법으로 추가할 수 있습니다. (\n→ CIDR 확인하기\n)\nIP 주소 제한 기능을 사용하는 동안에는 1개 이상의 허용된 IP 주소가 존재해야 합니다.",
+  "body": [
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "IP 주소 제한 기능은 엔터프라이즈 플랜 이용 시 추가 구독하여 사용 가능한 보안 패키지 기능입니다. '보안 패키지' 기능을 별도로 선불 충전 후 사용이 가능합니다. ("
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "→ 가격 문의하기"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://root.channel.io/home"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": ")"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": "IP 차단 (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/28344/revisions/44512/usermedia/66c5e54f4c8fd600dbc1",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "IP 차단 기능이란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "허용된 IP 주소로만 채널에 접근할 수 있습니다. 허용 목록에 IP 주소를 추가해 부정 로그인을 예방하고 보안을 강화할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최대 50개의 IP를 등록할 수 있으며, 단일 IPv4 및 CIDR 형식을 지원합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널별 허용 IP 주소와 역할별 허용 IP 주소를 모두 설정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "IP 주소 제한 기능은 스위치를 통해 on/off가 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "소유자 관계 없이 채널에 참여한 모두에게 일괄 적용됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "허용된 IP가 아닌 곳에서 활성화할 경우, 즉시 채널 이용이 차단되니 주의해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널 허용 IP 주소와 역할 별 허용 IP 주소"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널 허용 IP → 역할별 허용 IP 순서로 2단계 검사합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널 허용 IP가 비어있으면 1단계는 자동 통과됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "두 조건을 모두 만족해야 접근 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "IP차단_역할별주소제한.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/28344/revisions/391190/usermedia/686f115d2cc5223cd252",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "역할 별 허용 IP 주소 오류 수정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "⚠ 표시는 역할별 허용 IP가 채널 허용 IP 범위에 포함되지 않을 때 표시됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "역할별 허용 IP가 채널별 허용 IP에 포함되도록 IP 설정을 수정해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "IP차단_역할별주소제한-1.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/28344/revisions/391190/usermedia/686f1162b8076b9444d6",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "허용된 IP 주소 등록하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "IP 차단 (3).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/28344/revisions/44512/usermedia/66c5e5cce1da0412aa16",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단일 IPv4, CIDR 표기법으로 추가할 수 있습니다. ("
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "→ CIDR 확인하기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://ko.wikipedia.org/wiki/CIDR"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "IP 주소 제한 기능을 사용하는 동안에는 1개 이상의 허용된 IP 주소가 존재해야 합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "102",
+    "name": "Carol",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/6870a3c62737f90b95d8",
+  "linked_faqs": [
+    {
+      "id": "51271",
+      "question": "IP 주소 제한을 잘못 설정하여 채널에 참여할 수 없어요.",
+      "answer_plaintext": "잘못된 설정으로 인해, 채널에 접근 가능한 인원이 없다면 채널팀으로 문의주세요."
+    },
+    {
+      "id": "51272",
+      "question": "IP 주소 제한 기능은 채널톡 모바일 앱도 적용되나요?",
+      "answer_plaintext": "네, 모바일에서는 VPN 사용 등이 강제될 수 있습니다."
+    },
+    {
+      "id": "51273",
+      "question": "IP 주소 제한 기능은 Open API 등에도 적용되나요?",
+      "answer_plaintext": "Open API 기능에는 적용되지 않습니다."
+    },
+    {
+      "id": "100592",
+      "question": "역할 별 허용 IP 주소는 채널의 소유자에게도 적용되나요?",
+      "answer_plaintext": "네, 채널의 소유자도 예외없이 적용됩니다.\n만약 잘못 설정하여 채널에 아무도 접근하지 못하게 된 경우에는 채널톡에 문의해주세요."
+    }
+  ],
+  "faq_count": 4
+}

@@ -1,0 +1,1225 @@
+{
+  "id": "193574",
+  "url": "https://docs.channel.io/help/ko/articles/%EA%B3%84%EC%A0%95-%EC%84%A4%EC%A0%95-f3e393ff",
+  "title": "계정 설정",
+  "summary": "로그인 계정을 관리하거나 채널톡 관리자 화면의 언어를 설정할 수 있어요.",
+  "plaintext": "계정 설정\n채널톡 왼쪽 하단 아래에서 두 번째 [개인 설정] - [계정 설정] 클릭 후 계정 관련 설정이 가능합니다.\n로그인 계정\n채널톡 로그인 시 이용하는 계정입니다. 로그인 계정(이메일)을 변경하고 싶다면 수정해 주세요.\n이메일 인증\n이메일 인증이 완료되지 않은 계정이라면 계정 설정에서 [이메일 인증]이 가능합니다. 이메일 인증이 완료되지 않은 계정은 새 채널 생성 및 초대 참여가 제한됩니다.\n2025년 11월 28일부터 채널 생성 및 참여 시 이메일 인증이 필수입니다.\n2025년 11월 27일 이전에 이미 채널에 참여 중인 경우에도, 계정 설정에서 1회 이메일 인증을 완료해 주셔야 합니다.\n언어\n채널톡 관리자 화면의 언어를 한국어/일본어/영어 중 선택할 수 있습니다.\n비밀번호\n채널톡 로그인 시 사용하는 비밀번호를 변경할 수 있습니다.\n다중 인증\n채널톡 계정에 로그인할 때, 이메일로 인증 번호를 보내 인증 후 로그인할 수 있습니다. 비밀번호 외에도 이메일 인증 번호를 통해 추가로 본인 인증을 거치게 되어 보안성이 크게 향상됩니다.\n'다중 인증 해제' 버튼 → 다중 인증이 '활성화'된 상태입니다.\n'다중 인증 설정' 버튼 → 다중 인증이 '비활성화'된 상태입니다.\n마케팅 정보 알림 설정\n채널톡으로부터 마케팅 메시지를 수신할지 여부를 설정할 수 있습니다. 이 알림 설정을 끄더라도 서비스 운영에 필요한 정보성 메시지는 계속 발송됩니다.\n야간 푸시 소리 켬\n밤 10시부터 오전 6시 사이에도 푸시 소리 알림을 받고 싶다면, 이 옵션을 켜주세요.\n멀티 채널 응대\n여러 채널에 참여하고 있어도, 멀티 채널 응대를 통해 진행 중인 상담을 한번에 관리할 수 있습니다.(\n→ 자세히 보기\n)\n로그아웃\n현재 계정에서 로그아웃할 수 있습니다.\n계정 찾기\n로그인 계정(이메일) 찾는 방법\n로그인 계정을 알 수 없는 경우, 채널톡 상담을 통해 확인이 필요합니다.\n채널명, 팀 멤버 휴대폰 번호 등 기억하는 가능한 많은 정보를 알려 주세요.\n비밀번호 찾는 방법\n비밀번호 재설정\n을 통해 비밀번호 초기화 후 로그인이 가능합니다.\n비밀번호 재설정 링크나 인증 코드 이메일이 수신되지 않는 경우\n스팸 메일함, 소셜 카테고리 등 전체 메일함을 확인해주세요.\n이용 중인 메일 플랫폼에서 [스팸 제외 설정]을 진행해주세요.\nGmail에서 스팸 제외 설정 방법\nGmail 로그인 → 우측 상단 톱니바퀴 아이콘\n→ 모든 설정 보기\n필터 및 차단된 주소 탭 → 새 필터 만들기\n보낸 사람에 feedback@channel.io 입력 → 필터 만들기\n[✔] 절대 스팸으로 신고하지 않음 선택 → '필터 만들기' 클릭 후 저장\n네이버 웍스에서 스팸 제외 설정 방법\n네이버웍스 메일 로그인 → 상단 메뉴 → 환경설정 클릭\n좌측 '메일 > 스팸 설정' 선택\n수신 허용 목록에 feedback@channel.io 입력 후 추가 → 저장\nOutlook / Microsoft 365 메일에서 수신 허용 설정 방법\nOutlook 로그인 → 우측 상단 톱니바퀴(⚙) 클릭 → '모든 Outlook 설정 보기'\n좌측 메뉴: 메일 → 정크 메일 클릭\n'안전한 발신자 및 도메인' 항목에 → feedback@channel.io 입력 후 저장\n설정 후 다시 비밀번호 재설정 또는 로그인을 시도해 주세요.\n여전히 인증코드가 오지 않으면 채널톡으로 문의해 주세요.\n비밀번호 재설정 링크나 인증 코드를 수신하는 이메일 자체에 접근 불가한 경우\n잘못된 이메일 주소로 가입한 경우 또는 기존 이메일 주소 미사용 등 사유로 로그인 계정(이메일) 접근이 불가한 경우라면 채널톡 계정을 새롭게 만들어 채널에 참여해 주셔야 합니다. 채널 및 채널에 포함된 고객의 개인 정보 보호를 위한 절차이니 양해 부탁드리겠습니다.\n채널톡 홈페이지\n우측 상단 로그인 클릭 → 이메일로 가입하기 클릭하여 계정 생성\n채널에 참여한 다른 팀 멤버에게 초대 요청 후 참여\n[채널 설정] - [팀원 구성] - [팀 멤버] - [+새 팀 멤버 초대하기]\n만약 채널 초대를 받을 수 없는 상황이라면 아래 서류를 준비 후\n하단의 \"채널 초대 및 권한 변경 신청\" 버튼을 눌러 접수를 진행해주세요.\n① 채널톡 채널 초대 및 권한 변경 신청서\n채널 아이디 확인 방법 : [채널 설정] - [일반설정] - [채널프로필] - [연락처 및 위치] - [내 채널 아이디] 괄호 안 숫자가 채널 아이디입니다.\n② 3개월 이내 발급한 인감 증명서\n법인사업자: 법인인감증명서\n(주민등록번호 뒷자리 마스킹 필요)\n개인사업자: 개인인감증명서\n(주민등록번호 뒷자리 마스킹 필요)\n③ 접수하기\n채널 초대 및 권한 변경 신청\n(👈 클릭)",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "계정 설정 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 왼쪽 하단 아래에서 두 번째 [개인 설정] - [계정 설정] 클릭 후 계정 관련 설정이 가능합니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Group 806.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/193574/revisions/812485/usermedia/69316d807f2be79025b8",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "로그인 계정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 로그인 시 이용하는 계정입니다. 로그인 계정(이메일)을 변경하고 싶다면 수정해 주세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이메일 인증"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이메일 인증이 완료되지 않은 계정이라면 계정 설정에서 [이메일 인증]이 가능합니다. 이메일 인증이 완료되지 않은 계정은 새 채널 생성 및 초대 참여가 제한됩니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2025년 11월 28일부터 채널 생성 및 참여 시 이메일 인증이 필수입니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2025년 11월 27일 이전에 이미 채널에 참여 중인 경우에도, 계정 설정에서 1회 이메일 인증을 완료해 주셔야 합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "언어"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 관리자 화면의 언어를 한국어/일본어/영어 중 선택할 수 있습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "비밀번호"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "  "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 로그인 시 사용하는 비밀번호를 변경할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "다중 인증"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 계정에 로그인할 때, 이메일로 인증 번호를 보내 인증 후 로그인할 수 있습니다. 비밀번호 외에도 이메일 인증 번호를 통해 추가로 본인 인증을 거치게 되어 보안성이 크게 향상됩니다."
+          },
+          "marks": [
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'다중 인증 해제' 버튼 → 다중 인증이 '활성화'된 상태입니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'다중 인증 설정' 버튼 → 다중 인증이 '비활성화'된 상태입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "마케팅 정보 알림 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡으로부터 마케팅 메시지를 수신할지 여부를 설정할 수 있습니다. 이 알림 설정을 끄더라도 서비스 운영에 필요한 정보성 메시지는 계속 발송됩니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "야간 푸시 소리 켬"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "밤 10시부터 오전 6시 사이에도 푸시 소리 알림을 받고 싶다면, 이 옵션을 켜주세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "멀티 채널 응대"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "여러 채널에 참여하고 있어도, 멀티 채널 응대를 통해 진행 중인 상담을 한번에 관리할 수 있습니다.("
+          },
+          "marks": [
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "→ 자세히 보기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "gray",
+                "semanticColor": "txt-black-dark"
+              },
+              "type": "color"
+            },
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%EB%A9%80%ED%8B%B0-%EC%B1%84%EB%84%90-%EC%9D%91%EB%8C%80-643dcb1b"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "marks": [
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "로그아웃"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "현재 계정에서 로그아웃할 수 있습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "계정 찾기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "로그인 계정(이메일) 찾는 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "로그인 계정을 알 수 없는 경우, 채널톡 상담을 통해 확인이 필요합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널명, 팀 멤버 휴대폰 번호 등 기억하는 가능한 많은 정보를 알려 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "비밀번호 찾는 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비밀번호 재설정"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "cobalt",
+                        "semanticColor": "bgtxt-cobalt-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/password_reset"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 통해 비밀번호 초기화 후 로그인이 가능합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "비밀번호 재설정 링크나 인증 코드 이메일이 수신되지 않는 경우"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "스팸 메일함, 소셜 카테고리 등 전체 메일함을 확인해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이용 중인 메일 플랫폼에서 [스팸 제외 설정]을 진행해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Gmail에서 스팸 제외 설정 방법"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "start": 1
+                  },
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "Gmail 로그인 → 우측 상단 톱니바퀴 아이콘 "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "name": "gear"
+                              },
+                              "type": "emoji"
+                            },
+                            {
+                              "attrs": {
+                                "text": " → 모든 설정 보기 "
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "필터 및 차단된 주소 탭 → 새 필터 만들기"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "보낸 사람에 feedback@channel.io 입력 → 필터 만들기"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "[✔] 절대 스팸으로 신고하지 않음 선택 → '필터 만들기' 클릭 후 저장"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "orderedList"
+                },
+                {
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "네이버 웍스에서 스팸 제외 설정 방법"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "start": 1
+                  },
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "네이버웍스 메일 로그인 → 상단 메뉴 → 환경설정 클릭"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "좌측 '메일 > 스팸 설정' 선택"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "수신 허용 목록에 feedback@channel.io 입력 후 추가 → 저장"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "orderedList"
+                },
+                {
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Outlook / Microsoft 365 메일에서 수신 허용 설정 방법"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "start": 1
+                  },
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "Outlook 로그인 → 우측 상단 톱니바퀴(⚙) 클릭 → '모든 Outlook 설정 보기'"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "좌측 메뉴: 메일 → 정크 메일 클릭"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "'안전한 발신자 및 도메인' 항목에 → feedback@channel.io 입력 후 저장"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "orderedList"
+                }
+              ],
+              "type": "blockquote"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 후 다시 비밀번호 재설정 또는 로그인을 시도해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "여전히 인증코드가 오지 않으면 채널톡으로 문의해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "비밀번호 재설정 링크나 인증 코드를 수신하는 이메일 자체에 접근 불가한 경우"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "잘못된 이메일 주소로 가입한 경우 또는 기존 이메일 주소 미사용 등 사유로 로그인 계정(이메일) 접근이 불가한 경우라면 채널톡 계정을 새롭게 만들어 채널에 참여해 주셔야 합니다. 채널 및 채널에 포함된 고객의 개인 정보 보호를 위한 절차이니 양해 부탁드리겠습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 홈페이지"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/ko"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 우측 상단 로그인 클릭 → 이메일로 가입하기 클릭하여 계정 생성"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널에 참여한 다른 팀 멤버에게 초대 요청 후 참여"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[채널 설정] - [팀원 구성] - [팀 멤버] - [+새 팀 멤버 초대하기]"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "만약 채널 초대를 받을 수 없는 상황이라면 아래 서류를 준비 후 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "하단의 \"채널 초대 및 권한 변경 신청\" 버튼을 눌러 접수를 진행해주세요."
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "① 채널톡 채널 초대 및 권한 변경 신청서"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널 아이디 확인 방법 : [채널 설정] - [일반설정] - [채널프로필] - [연락처 및 위치] - [내 채널 아이디] 괄호 안 숫자가 채널 아이디입니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "name": "채널톡 채널 초대 및 권한 변경 신청서.docx",
+        "size": "33706",
+        "src": "https://cf.channel.io/document/spaces/6/articles/193574/revisions/331831/usermedia/683d68ad6e7740046714"
+      },
+      "type": "file"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "② 3개월 이내 발급한 인감 증명서"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "법인사업자: 법인인감증명서"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(주민등록번호 뒷자리 마스킹 필요)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "개인사업자: 개인인감증명서"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(주민등록번호 뒷자리 마스킹 필요)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "③ 접수하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널 초대 및 권한 변경 신청"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "color": "cobalt",
+                        "semanticColor": "bgtxt-cobalt-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://root.channel.io/workflows/784893"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " (👈 클릭)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/6849359ab6ab73608d59",
+  "linked_faqs": [],
+  "faq_count": 0
+}

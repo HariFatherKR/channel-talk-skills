@@ -1,0 +1,817 @@
+{
+  "id": "100",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%86%A1%ED%86%A1-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-3d8c6ce9",
+  "title": "톡톡 연동하기",
+  "summary": "네이버 톡톡과 채널톡을 연동해보세요. 고객이 네이버 톡톡을 통해 문의한 내용을 채널톡에서 응대할 수 있어 채널톡 하나로 고객문의를 관리할 수 있습니다.",
+  "plaintext": "영상으로 배우고 싶다면?\n연동 방법\n[채널 설정] → [연동] → [앱스토어] → [네이버] → [설치하기] 를 클릭 해주세요.\n[\n네이버 톡톡 파트너 센터\n] → [개발자 도구] → [챗봇API 설정] 에서 1)\n파트너 ID\n와 2)\nAuthorization\n을 확인해주세요.\n네이버 톡톡 파트너 센터\n에서 확인한 정보를 채널톡 화면에 입력하고 [저장] 을 눌러주세요.\n채널톡 화면에서 보이는 Webhook URL을 복사해주세요.\n복사한 Webhook URL을 네이버톡톡 파트너 센터 Webhook의 [이벤트 받을 URL]에 입력해주세요.\nWebhook Event 선택 메뉴에서 [이벤트 변경]을 클릭, send, open, leave, echo를 선택 후 [저장] 해주세요.\n연동 완료\n네이버 톡톡 연동이 완료되면 네이버 톡톡으로 인입된 문의를 채널톡에서 응대할 수 있습니다.\n고객 정보 연동하기\n네이버 로그인 연동\n을 해두시면 고객이 채널톡 라운지에서 톡톡 버튼을 클릭하여 문의시, 채널톡에 고객 정보가 연동됩니다.\n(→ 네이버 로그인 연동하는 방법 확인하기)\n스마트스토어 주문내역 연동하기\n스마트스토어 주문내역을 연동하면, 채널톡 상담 중 고객의 기존 주문내역을 한눈에 확인할 수 있습니다. (\n→ 스마트스토어 주문내역 연동방법 확인하기\n)\n자주 묻는 질문\n네이버톡톡 챗봇도 동시 사용 가능한가요?\n네이버 톡톡 쇼핑챗봇은 채널톡 채팅 API가 동작하지 않기에\n쇼핑챗봇과 채널톡 연동을 동시에 사용할 수 없습니다.\n[\n스마트스토어 센터\n] → [문의/리뷰관리] →[톡톡상담관리] → [톡톡 쇼핑챗봇/AI FAQ 설정] 접속 후 ‘노출 순서 설정’ 활성화 → 하단 내용들 모두 비활성화 → ‘노출 순서 설정’ 비활성화 → 다시 [네이버톡톡 관리자센터] → [챗봇 API 설정]에서 연동을 진행해 주세요.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 2분 • 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/네이버톡톡-문의-채널톡에서-답장하기-f9711300",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad86b2f32b631148ec/tmp-2737889432.png",
+        "title": "네이버톡톡 문의 채널톡에서 답장하기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] → [연동] → [앱스토어] → [네이버] → [설치하기] 를 클릭 해주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "톡톡_앱스토어설치.png",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/100/revisions/111888/usermedia/6751895b59cf7b455eaf",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "["
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡 파트너 센터"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://partner.talk.naver.com/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] → [개발자 도구] → [챗봇API 설정] 에서 1) "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "파트너 ID"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 와 2) "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "Authorization"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 을 확인해주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/672203d8f25679cbf990"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡 파트너 센터"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://partner.talk.naver.com/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 에서 확인한 정보를 채널톡 화면에 입력하고 [저장] 을 눌러주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "톡톡_앱스토어설치2 (2).png",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/100/revisions/111888/usermedia/6751896bf35fa30f5b71",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 화면에서 보이는 Webhook URL을 복사해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "톡톡_앱스토어설치3.png",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/100/revisions/111888/usermedia/67518972891e50d25e16",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "복사한 Webhook URL을 네이버톡톡 파트너 센터 Webhook의 [이벤트 받을 URL]에 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/6722043d025b81c31bc9"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Webhook Event 선택 메뉴에서 [이벤트 변경]을 클릭, send, open, leave, echo를 선택 후 [저장] 해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/6722044c5bb81611a989"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 완료"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "네이버 톡톡 연동이 완료되면 네이버 톡톡으로 인입된 문의를 채널톡에서 응대할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/100/revisions/295/usermedia/662b10ad6b517f2994a7"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 정보 연동하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "네이버로그인_앱스토어 (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/100/revisions/111888/usermedia/67518a44534284298dfa",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "네이버 로그인 연동"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "을 해두시면 고객이 채널톡 라운지에서 톡톡 버튼을 클릭하여 문의시, 채널톡에 고객 정보가 연동됩니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 네이버 로그인 연동하는 방법 확인하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            },
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/6c2e7a24"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "스마트스토어 주문내역 연동하기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "톡톡_앱스토어설치4.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/100/revisions/111888/usermedia/67518a370fda90b958cc",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "스마트스토어 주문내역을 연동하면, 채널톡 상담 중 고객의 기존 주문내역을 한눈에 확인할 수 있습니다. ("
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "→ 스마트스토어 주문내역 연동방법 확인하기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            },
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8A%A4%ED%86%A0%EC%96%B4-%EC%A3%BC%EB%AC%B8%EC%97%B0%EB%8F%99-0729d2f6"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자주 묻는 질문"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "네이버톡톡 챗봇도 동시 사용 가능한가요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡 쇼핑챗봇은 채널톡 채팅 API가 동작하지 않기에 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "쇼핑챗봇과 채널톡 연동을 동시에 사용할 수 없습니다."
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "["
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "스마트스토어 센터"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://sell.smartstore.naver.com/#/home/about"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] → [문의/리뷰관리] →[톡톡상담관리] → [톡톡 쇼핑챗봇/AI FAQ 설정] 접속 후 ‘노출 순서 설정’ 활성화 → 하단 내용들 모두 비활성화 → ‘노출 순서 설정’ 비활성화 → 다시 [네이버톡톡 관리자센터] → [챗봇 API 설정]에서 연동을 진행해 주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "스마트스토어 쇼핑챗봇 FAQ.png",
+        "height": "980px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/100/revisions/207368/usermedia/67ce930c30a45a69f9be",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ef05660c5ffb39f",
+  "linked_faqs": [
+    {
+      "id": "63513",
+      "question": "네이버 톡톡 연동 시도 중인데, \"PartnerID가 이미 존재합니다.\" 라는 오류메시지가 표시돼요.",
+      "answer_plaintext": "이미 같은 PartnerID가 채널톡에 연동되어 있는 경우에 해당 메시지가 표시됩니다. \n운영 중인 다른 채널에 해당 네이버톡톡 계정이 연동되어 있는지 확인이 필요합니다. \n다른 채널에서 해당 네이버 톡톡 계정이 연동되어 있다면, 연동을 해제하고 새로운 채널에 연동을 진행해 주세요."
+    },
+    {
+      "id": "63514",
+      "question": "네이버 톡톡을 연동했는데, 고객의 문의가 채널톡 수신함에서 확인되지 않아요.",
+      "answer_plaintext": "- PartnerID를 영문, 숫자 조합으로 잘 입력하셨는지 확인해 주세요.\n- Authorization을 잘 입력하셨는지 확인해 주세요.\n- Webhook URL을 잘 입력하셨는지 확인해 주세요. 잘못 입력되었다면 기존 연동 삭제 후 다시 연동을 진행해 주세요."
+    },
+    {
+      "id": "63515",
+      "question": "채널톡 라운지에서 네이버 톡톡 아이콘을 눌렀을 때 \"페이지를 찾을 수 없습니다\" 메시지가 표시됩니다",
+      "answer_plaintext": "네이버 톡톡 연동 시에 PartnerID 를 영문, 숫자 조합으로 잘 입력해주셨는지 확인해주세요."
+    },
+    {
+      "id": "63518",
+      "question": "무료 플랜 구독 중인데, 네이버 톡톡 연동 가능한가요?",
+      "answer_plaintext": "네, 무료 플랜 사용 중에도 네이버 톡톡을 비롯한 외부 메신저 연동이 가능합니다."
+    },
+    {
+      "id": "63519",
+      "question": "여러 개의 네이버 톡톡 계정을 하나의 채널톡 채널에 연동할 수 있나요?",
+      "answer_plaintext": "- 채널톡 채널과 네이버 톡톡은 1:1로만 연동됩니다.\n- 여러 개의 톡톡 계정을 운영중이시라면, 그 중 1개의 계정을 선택하여 채널톡 채널에 연동해주세요."
+    },
+    {
+      "id": "64017",
+      "question": "네이버 스마트 스토어도 채널톡에 연동되나요?",
+      "answer_plaintext": "채널톡은 스크립트 삽입 형태로 설치가 되는데 스마트 스토어의 경우엔 스크립트 수정이 되지 않기 때문에 채널톡을 설치하실 수는 없어요.\n대신, 스마트 스토어 주문내역을 채널톡에 연동하실 수 있습니다.\n(→ 더 알아보기)"
+    },
+    {
+      "id": "64018",
+      "question": "네이버 톡톡 연동 후, 상담 내역은 어디에서 확인할 수 있나요?",
+      "answer_plaintext": "- 채널톡과 네이버 톡톡 양쪽에 모두 상담 데이터가 저장됩니다.\n- 채널톡 연동 이전 기록은 네이버 톡톡 파트너센터에서 확인하실 수 있습니다."
+    },
+    {
+      "id": "69026",
+      "question": "채널톡에서 답변했는데 네이버 톡톡에는 미확인으로 떠요",
+      "answer_plaintext": "네이버 측에서 상담 종료 API를 채널톡 측으로 제공하지 않습니다. 그래서, 채널톡에서 답변 및 종료한 내역이 네이버 톡톡에는 반영되지 않으므로 ‘미답변 문의’로 남아있을 수 있습니다."
+    },
+    {
+      "id": "69027",
+      "question": "네이버 톡톡 FAQ는 채널톡 연동 후에도 사용 가능한가요?",
+      "answer_plaintext": "네이버 톡톡 자체 FAQ 기능은 채널톡을 연동하시더라도 네이버 톡톡 자체에서 동작할 수 있게 됩니다."
+    },
+    {
+      "id": "69028",
+      "question": "네이버톡톡에서도 채널톡 워크플로우가 작동하나요?",
+      "answer_plaintext": "워크플로우 중 응답 버튼, ALF 응대, 자동 메시지 전송, 상담 태그 부착, 담당자 배정 등의 대부분의 액션이 동작합니다. \n단, 입력폼 액션은 채널톡 고유의 기능이기에 외부 메신저에서 작동하지 않습니다.\n\n- 카카오톡, 네이버 톡톡에서도 AI와 챗봇 사용하기 가이드 를 참고하여 설정해보세요."
+    },
+    {
+      "id": "69029",
+      "question": "네이버 톡톡으로 연동된 상담에서 채널톡 매니저 프로필로 응대할 수 있나요?",
+      "answer_plaintext": "네이버 톡톡과 같은 외부 메신저에서는 채널 프로필로만 보여지게 됩니다."
+    },
+    {
+      "id": "69030",
+      "question": "네이버 톡톡으로 연동된 경우, 종료된 상담을 이어서 진행할 수 없나요?",
+      "answer_plaintext": "네이버 톡톡과 같은 외부메신저로 연동된 상담의 경우, 종료된 상담창에서 다시 대화를 이어갈 수 없습니다. 해당 고객의 연락처가 고객 연락처에 저장되어 있을 경우, 문자, 이메일로 푸시 알림을 보내 새 상담을 열 수 있습니다."
+    },
+    {
+      "id": "69032",
+      "question": "왜 네이버 톡톡으로 유입된 고객은 이름이 안 보이나요? (랜덤한 이름으로 보이나요)",
+      "answer_plaintext": "- 홈페이지를 통해 회원 정보 연동이 되지 않았기 때문이에요. 해당 고객이 채널톡이 설치된 사이트에서 [다른 방법으로 문의] → [톡톡 아이콘]을 클릭하여 회원 정보를 연동할 수 있습니다.\n- 만약 이미 채널톡 고객 연락처에 저장된 회원이 맞다면 통합해줄 수 있습니다. (→ 통합되는 방법 더 알아보기)"
+    }
+  ],
+  "faq_count": 13
+}

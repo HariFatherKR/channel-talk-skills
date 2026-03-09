@@ -1,0 +1,1005 @@
+{
+  "id": "11947",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-b606de76",
+  "title": "워크플로우",
+  "summary": "워크플로우에서 활용되는 개념과 용어를 확인해보세요.",
+  "plaintext": "워크플로우란?\n워크플로우는 고객 유형, 상담 상황별로 맞춤 시나리오를 레고처럼 조립해 상담의 시작부터 끝까지 자동화할 수 있는 기능입니다. 워크플로우를 통해 상담의 모든 여정을 한 곳에서 관리하고 효율화할 수 있어요.\n전체 구조를 한 화면에서 쉽게 확인할 수 있고, 선을 직접 연결하여 쉽게 흐름을 설정할 수 있습니다.\n고객에게 메시지 보내기, 담당자 배정하기, 상담 종료하기와 같이 상담에 필요한 모든 액션을 워크플로우 하나로 설정할 수 있어요.\n워크플로우 구성 요소\n더 잘 활용하실 수 있도록 워크플로우의 구성 요소를 소개해드릴게요. 자세한 설정은 ‘워크플로우 설정 방법’ 가이드를 참고해 주세요.\n트리거\n트리거는 워크플로우가 시작되기 위한 조건을 의미해요. 어떤 상황에서 워크플로우를 동작할지 설정할 수 있습니다.\n트리거 예시\n상담이 처음 열렸을 때 워크플로우 시작하기\n팀 멤버가 상담을 종료했을 때 워크플로우 시작하기\n더 많은 트리거 종류와 활용 사례는 트리거 가이드에서 확인하실 수 있습니다. (→\n트리거 가이드 보러 가기)\n필터링\n트리거에 부합했다면 필터링을 사용해서 더 세분화된 조건을 설정할 수 있어요.\n필터링 예시\nVIP 고객에게만 보여지는 워크플로우 : 고객 정보나 고객 태그를 활용해서 VIP 필터링하기\n고객이 ‘교환’이라는 메시지를 보냈을 때 태그 부착하기 : ‘교환’이라는 메시지 내용을 필터링하기\n영어를 쓰는 고객에게만 보여지는 워크플로우 : 고객의 브라우저 또는 기기의 언어를 ‘영어’로 필터링하기\n단계\n단계는 여러 개의 액션으로 구성된 블록이에요. 고객에게 전달할 메시지와 응답 버튼을 사용해서 챗봇처럼 설정할 수도 있고, 어떤 태그를 부착할지, 어떤 팀이 배정될지도 설정할 수 있습니다.\n액션\n액션은 워크플로우에서 진행되는 동작이에요. 설정한 필터링 조건이 만족되었다면 액션이 동작하게 됩니다.\n액션의 유형\n메시지, 입력폼과 같이 고객에게 보여지는\n콘텐츠 액션\n다른 단계로 이동하게 하는\n단계 이동 액션\n팀 설정, 담당자 배정, 태그 설정과 같이 팀의 관리 업무를 도와주는\n백그라운드 액션\n보다 자세한 액션 관련 내용은 액션 가이드에서 확인하실 수 있습니다. (→\n액션 가이드 보러 가기\n)\n알아두면 좋을 워크플로우 용어\n워크플로우를 더 효과적으로 활용할 수 있도록 알아두면 좋을 개념에 대해 추가로 안내드려요.\n모듈형 워크플로우\n모듈형 워크플로우는 트리거 없이 생성하는 워크플로우로, 다른 워크플로우 또는 상담 중 원하는 상황에서 불러와 사용할 수 있습니다.\n반복적인 안내가 필요한 내용이라면, 모듈형 워크플로우로 만들어서 다른 워크플로우에 연결해 보세요.\n모듈형 워크플로우를 하나만 수정하면 연결된 모든 워크플로우에도 자동으로 반영되니 수정이 쉬워요.\n상담 중에 비슷한 문의가 들어오면 매크로 대신 모듈형 워크플로우를 직접 호출할 수도 있습니다. 메시지 입력창에 느낌표(!)를 입력하면 모듈형 워크플로우가 호출됩니다. 매크로를 사용할 때보다 더 복잡한 상담도 해결할 수 있어요. (→\n매크로 가이드 보러 가기\n)\n예시\n상담이 종료될 때마다 상담 만족도 조사를 받고 싶다면, 모듈형 워크플로우로 생성 후 필요한 워크플로우에서 불러와서 사용해 보세요.\n또는 상담 종료 후, 팀 멤버가 직접 상담 만족도 조사 워크플로우를 상담에 전송할 수 있습니다.\n모듈형 워크플로우 사용 방법은 워크플로우 액션 가이드를 참고해 주세요. (→\n모듈형 워크플로우 연결 가이드 보러 가기)\n워크플로우의 유형\n워크플로우 유형에 따라 다른 워크플로우가 동작 중일 때 함께 동작이 가능한 것과 불가한 것으로 구분됩니다. 자세한 동작 방식은 워크플로우 동작 방식 가이드를 참고해 주세요. (→\n워크플로우 동작 방식 가이드 보러 가기\n)\n하나만 동작\n해당 워크플로우가 동작 중일 때에는 다른 워크플로우가 트리거 되더라도 동작하지 않는, 단독으로만 동작하는 유형의 워크플로우입니다.\n고객에게 보여지는 콘텐츠 액션 또는 응답 버튼이 포함되어 있다면 자동으로 하나만 동작 유형이 됩니다.\n(→\n콘텐츠 액션이란?\n)\n하나만 동작 유형의 워크플로우를 진행 중이라면 다른 워크플로우의 트리거 조건이 충족되더라도 동작하지 않습니다.\n항상 동작\n해당 유형의 워크플로우는 트리거 조건이 일치하면 다른 워크플로우 유형과 관계없이 언제나 동작합니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우란?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우는 고객 유형, 상담 상황별로 맞춤 시나리오를 레고처럼 조립해 상담의 시작부터 끝까지 자동화할 수 있는 기능입니다. 워크플로우를 통해 상담의 모든 여정을 한 곳에서 관리하고 효율화할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전체 구조를 한 화면에서 쉽게 확인할 수 있고, 선을 직접 연결하여 쉽게 흐름을 설정할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객에게 메시지 보내기, 담당자 배정하기, 상담 종료하기와 같이 상담에 필요한 모든 액션을 워크플로우 하나로 설정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 구성 요소"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "더 잘 활용하실 수 있도록 워크플로우의 구성 요소를 소개해드릴게요. 자세한 설정은 ‘워크플로우 설정 방법’ 가이드를 참고해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "트리거"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트리거는 워크플로우가 시작되기 위한 조건을 의미해요. 어떤 상황에서 워크플로우를 동작할지 설정할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우구성요소_트리거.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149578/revisions/261903/usermedia/68091a01b8641d74f7b2",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트리거 예시"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담이 처음 열렸을 때 워크플로우 시작하기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "팀 멤버가 상담을 종료했을 때 워크플로우 시작하기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "더 많은 트리거 종류와 활용 사례는 트리거 가이드에서 확인하실 수 있습니다. (→"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 트리거 가이드 보러 가기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%ED%8A%B8%EB%A6%AC%EA%B1%B0-2184bbc0"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "필터링"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트리거에 부합했다면 필터링을 사용해서 더 세분화된 조건을 설정할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우구성요소_필터링.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149578/revisions/261903/usermedia/68091a10241aa2db3fe1",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터링 예시"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "VIP 고객에게만 보여지는 워크플로우 : 고객 정보나 고객 태그를 활용해서 VIP 필터링하기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객이 ‘교환’이라는 메시지를 보냈을 때 태그 부착하기 : ‘교환’이라는 메시지 내용을 필터링하기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "영어를 쓰는 고객에게만 보여지는 워크플로우 : 고객의 브라우저 또는 기기의 언어를 ‘영어’로 필터링하기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "단계"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단계는 여러 개의 액션으로 구성된 블록이에요. 고객에게 전달할 메시지와 응답 버튼을 사용해서 챗봇처럼 설정할 수도 있고, 어떤 태그를 부착할지, 어떤 팀이 배정될지도 설정할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우구성요소_단계.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149578/revisions/261903/usermedia/68091a1e914f102109a9",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "액션"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "액션은 워크플로우에서 진행되는 동작이에요. 설정한 필터링 조건이 만족되었다면 액션이 동작하게 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "액션의 유형"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "메시지, 입력폼과 같이 고객에게 보여지는 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "콘텐츠 액션"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "다른 단계로 이동하게 하는 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "단계 이동 액션"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "팀 설정, 담당자 배정, 태그 설정과 같이 팀의 관리 업무를 도와주는 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "백그라운드 액션"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "보다 자세한 액션 관련 내용은 액션 가이드에서 확인하실 수 있습니다. (→ "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "액션 가이드 보러 가기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%EC%95%A1%EC%85%98-33ffa757"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "알아두면 좋을 워크플로우 용어"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우를 더 효과적으로 활용할 수 있도록 알아두면 좋을 개념에 대해 추가로 안내드려요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모듈형 워크플로우"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "모듈형 워크플로우는 트리거 없이 생성하는 워크플로우로, 다른 워크플로우 또는 상담 중 원하는 상황에서 불러와 사용할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "모듈형워크플로우.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149578/revisions/261903/usermedia/68091a303b677f704bfd",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "반복적인 안내가 필요한 내용이라면, 모듈형 워크플로우로 만들어서 다른 워크플로우에 연결해 보세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모듈형 워크플로우를 하나만 수정하면 연결된 모든 워크플로우에도 자동으로 반영되니 수정이 쉬워요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 중에 비슷한 문의가 들어오면 매크로 대신 모듈형 워크플로우를 직접 호출할 수도 있습니다. 메시지 입력창에 느낌표(!)를 입력하면 모듈형 워크플로우가 호출됩니다. 매크로를 사용할 때보다 더 복잡한 상담도 해결할 수 있어요. (→ "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "매크로 가이드 보러 가기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/a5905ef6-%EB%A7%A4%ED%81%AC%EB%A1%9C"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담이 종료될 때마다 상담 만족도 조사를 받고 싶다면, 모듈형 워크플로우로 생성 후 필요한 워크플로우에서 불러와서 사용해 보세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "또는 상담 종료 후, 팀 멤버가 직접 상담 만족도 조사 워크플로우를 상담에 전송할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모듈형 워크플로우 사용 방법은 워크플로우 액션 가이드를 참고해 주세요. (→ "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "모듈형 워크플로우 연결 가이드 보러 가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EB%AA%A8%EB%93%88%ED%98%95-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-7f06f167"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우의 유형"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 유형에 따라 다른 워크플로우가 동작 중일 때 함께 동작이 가능한 것과 불가한 것으로 구분됩니다. 자세한 동작 방식은 워크플로우 동작 방식 가이드를 참고해 주세요. (→ "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "워크플로우 동작 방식 가이드 보러 가기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/fe5074f8-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%AA%A9%EB%A1%9D#%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%8F%99%EC%9E%91-%EB%B0%A9%EC%8B%9D"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "하나만 동작"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "해당 워크플로우가 동작 중일 때에는 다른 워크플로우가 트리거 되더라도 동작하지 않는, 단독으로만 동작하는 유형의 워크플로우입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객에게 보여지는 콘텐츠 액션 또는 응답 버튼이 포함되어 있다면 자동으로 하나만 동작 유형이 됩니다."
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-cobalt-normal"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%95%A1%EC%85%98-33ffa757#%EC%BD%98%ED%85%90%EC%B8%A0-%EC%95%A1%EC%85%98"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "콘텐츠 액션이란?"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-dark"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%95%A1%EC%85%98-33ffa757#%EC%BD%98%ED%85%90%EC%B8%A0-%EC%95%A1%EC%85%98"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%95%A1%EC%85%98-33ffa757#%EC%BD%98%ED%85%90%EC%B8%A0-%EC%95%A1%EC%85%98"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "하나만 동작 유형의 워크플로우를 진행 중이라면 다른 워크플로우의 트리거 조건이 충족되더라도 동작하지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "항상 동작"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "해당 유형의 워크플로우는 트리거 조건이 일치하면 다른 워크플로우 유형과 관계없이 언제나 동작합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "61",
+    "name": "Beige",
+    "bio": "Minji Jeon, CX manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/682c4937cd2f30f20527",
+  "linked_faqs": [],
+  "faq_count": 0
+}

@@ -1,0 +1,614 @@
+{
+  "id": "591828",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9D%B4%EC%A7%80%EC%96%B4%EB%93%9C%EB%AF%BC-869393ab",
+  "title": "이지어드민",
+  "summary": "카페24 앱과 이지어드민을 연동하여 주문 관리 업무를 자동화할 수 있습니다.",
+  "plaintext": "주요 기능\n카페24와 이지어드민을 연동하여 주문 관리 업무를 자동화할 수 있습니다. 카페24 앱 태스크 중 [주문 조회]와  [주문 취소]를 이용할 수 있고 추가로 송장번호가 이미 발급된 주문에 대해서도 취소 가능 여부를 설정할 수 있습니다.\n이지어드민 앱 이용 시 카페24 앱 태스크 중 [주문교환], [주문반품] 태스크는 지원되지 않습니다.\n사용 방법\n1. 이지어드민 앱 설치하기\n[채널 설정] → [연동] → [앱스토어]에서 이지 어드민 앱을 설치해 주세요.\n2. API 키 값, Shop ID 입력하기\nAPI 파트너키\n와\nAPI 업체키\n값을 입력 후 저장해 주세요.\nAPI 키 값은 이지 어드민에서 발급받은 정보를 입력해야 합니다.\n이지 어드민으로부터 Open API를 구매하신 domain_key와 partner_key를 입력해 주세요.\n카페24와 연동하는 경우, 이지어드민 사이트에서 채널톡 카페24 앱에 연동된 몰의\n판매처 코드\n를 확인하여\nShop ID\n에 입력해 주세요.\n판매자 코드 확인 경로: [\n이지어드민\n] → [기본 정보 관리] → [판매처 관리] → [판매처 목록]\n3. 카페24 허브 앱에서 WMS 설정 변경하기\n경로: [채널설정] → [연동] → [앱스토어] → [카페24 허브 앱] 선택\n[태스크/커맨드 설정]에서\nWMS 설정\n을 [이지어드민]으로 변경해 주세요.\n이지 어드민 앱 설치 및 설정이 완료되지 않으면 카페24 허브 앱에서 WMS를 이지 어드민으로 변경할 수 없습니다.\n반드시\n이지 어드민 설치 및 설정 완료 후 카페24 허브 앱 설정\n순서로 진행해 주세요.\n4. 송장번호 발급 후 취소 옵션 설정하기 (선택사항)\n송장번호 발급 후 취소 허용 여부\n를 회사 정책에 맞게 설정해 주세요.\nON: 송장번호 발급 후에도 고객 요청 시 주문 취소 가능\nOFF: 송장번호 발급 후에는 주문 취소 불가\n5. 주문 취소, 주문 조회 태스크를 퍼블리시 합니다.\n[\nAI 메뉴] → [태스크] →  [카페24 허브 폴더] →  [주문조회], [주문취소] 태스크 > 우측 ... 버튼 클릭 > 퍼블리시 버튼을 누르면 적용됩니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "주요 기능"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카페24와 이지어드민을 연동하여 주문 관리 업무를 자동화할 수 있습니다. 카페24 앱 태스크 중 [주문 조회]와  [주문 취소]를 이용할 수 있고 추가로 송장번호가 이미 발급된 주문에 대해서도 취소 가능 여부를 설정할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이지어드민 앱 이용 시 카페24 앱 태스크 중 [주문교환], [주문반품] 태스크는 지원되지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "사용 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 이지어드민 앱 설치하기"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] → [연동] → [앱스토어]에서 이지 어드민 앱을 설치해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. API 키 값, Shop ID 입력하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "이지 어드민 (1).png",
+        "height": "2820px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/591828/revisions/1103868/usermedia/6989b7f3f3744fc5a973",
+        "width": "4800px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "API 파트너키"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "와 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "API 업체키"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 값을 입력 후 저장해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "API 키 값은 이지 어드민에서 발급받은 정보를 입력해야 합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이지 어드민으로부터 Open API를 구매하신 domain_key와 partner_key를 입력해 주세요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "이지 어드민_삽아이디 (2).png",
+        "height": "2820px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/591828/revisions/1111014/usermedia/698c03e9ed05be7c27a7",
+        "width": "4800px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카페24와 연동하는 경우, 이지어드민 사이트에서 채널톡 카페24 앱에 연동된 몰의 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "판매처 코드"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 확인하여 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "Shop ID"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "에 입력해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "판매자 코드 확인 경로: ["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "이지어드민"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://www.ezadmin.co.kr/index.html"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] → [기본 정보 관리] → [판매처 관리] → [판매처 목록]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3. 카페24 허브 앱에서 WMS 설정 변경하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "이지 어드민_삽아이디 (1).png",
+        "height": "2820px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/591828/revisions/1103868/usermedia/6989bbf35c10cf6311fd",
+        "width": "4800px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "경로: [채널설정] → [연동] → [앱스토어] → [카페24 허브 앱] 선택"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[태스크/커맨드 설정]에서 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "WMS 설정"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 [이지어드민]으로 변경해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "이지 어드민 앱 설치 및 설정이 완료되지 않으면 카페24 허브 앱에서 WMS를 이지 어드민으로 변경할 수 없습니다. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "반드시 "
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "이지 어드민 설치 및 설정 완료 후 카페24 허브 앱 설정"
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 순서로 진행해 주세요."
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "4. 송장번호 발급 후 취소 옵션 설정하기 (선택사항)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "송장번호 발급 후 취소 허용 여부"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 회사 정책에 맞게 설정해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ON: 송장번호 발급 후에도 고객 요청 시 주문 취소 가능"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "OFF: 송장번호 발급 후에는 주문 취소 불가 "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "5. 주문 취소, 주문 조회 태스크를 퍼블리시 합니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "이지 어드민_삽아이디 (2).png",
+        "height": "2820px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/591828/revisions/1103868/usermedia/6989c095708dec2353c4",
+        "width": "4800px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "AI 메뉴] → [태스크] →  [카페24 허브 폴더] →  [주문조회], [주문취소] 태스크 > 우측 ... 버튼 클릭 > 퍼블리시 버튼을 누르면 적용됩니다."
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/698d83cf6c9d22da583e",
+  "linked_faqs": [],
+  "faq_count": 0
+}

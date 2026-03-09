@@ -1,0 +1,2431 @@
+{
+  "id": "20504",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-FAQ-0907d9ff",
+  "title": "워크플로우 FAQ",
+  "summary": "워크플로우에 대한 궁금해 하셨던 내용을 모아봤어요!",
+  "plaintext": "워크플로우 수정 화면\nQ. 고객이 뒤로가기, 처음으로 가기 할 수 있는 버튼을 만들 수 있나요?\n버튼 개별적으로 수정하거나, 일괄 수정할 수 있습니다.\n개별 수정하기\n[응답 버튼] 액션을 추가하여 '뒤로가기' 혹은 '처음으로' 버튼을 만들어주세요.\n버튼과 이어지는 단계를 아래와 같이 선택해주세요.\n뒤로가기 → 이전 응답 버튼 단계\n처음으로 → 첫 단계\n위와 같이 버튼을 만들면, 각 단계 사이에 연결선이 그려지지 않기 때문에, 여러 경로에서 공통으로 사용하는 단계가 있어도 복잡한 연결선 없이 단계 간 관계를 간결하게 유지할 수 있습니다.\n‘뒤로가기’ 버튼을 누르면, 고객이 실제로 거쳐온 경로 중 마지막으로 응답버튼을 선택한 단계로 돌아가기 때문에, 복잡한 단계 연결 없이도 고객 입장에서 더 자연스럽고 매끄러운 챗봇 경험을 제공할 수 있습니다.\n예시)\n고객 1: A → B → C → D\n고객 2: F → G → H → D\n였다면, D에서 ‘이전으로’ 버튼을 눌렀을 때 고객 1은 C로, 고객 2는 H로 이동합니다.\n위 과정을 통해 모듈형 워크플로우에서 메인 워크플로우로 돌아가는 버튼을 만들 수 있습니다.\n일괄 수정하기\n워크플로우 화면 하단 더보기(:) 버튼 → [응답버튼 일괄변경] 클릭\n'응답버튼명'에 직접 설정했던 버튼명 (이전으로, 뒤로가기 등)을 선택하고 다음 단계를 '이전 응답 버튼 단계'로 설정해주세요.\n(→ 트레이닝 센터 바로가기)\nQ. 실수로 잘못 설정했는데 되돌리기 가능한가요?\n수정화면 하단 되돌리기 아이콘을 누르거나 단축키를 이용해 가능합니다.\n되돌리기: [맥] cmd + Z [윈도우] ctrl+Z\n재실행하기: [맥] cmd + shift + Z [윈도우] ctrl + shift + Z\nQ. 화면 이동이나 확대, 축소는 어떻게 해야 하나요?\n화면 이동은 space 키를 누른 상태에서 마우스 클릭 후 드래그하거나, H키를 누르고 마우스를 움직여 이동할 수 있어요. (다시 포인터로 돌아오려면 V키를 눌러주세요)\n확대 축소는 Ctrl(맥 이라면 command)와 +,- 키를 사용해 주세요.\n더 많은 단축키는 더보기 (︙) 버튼을 눌러 확인하실 수 있습니다.\nQ. 단계 복제나 삭제는 어떻게 하나요?\n특정 단계를 선택하면 툴바가 노출되며, 복제 및 삭제 아이콘을 클릭하여 작업을 진행할 수 있습니다.\n단계를 선택한 후 Backspace 키를 누르면 삭제됩니다.\n복사/붙여넣기 단축키를 사용해 복제도 가능합니다.\n(Windows: Ctrl+C / Ctrl+V, Mac: Command ⌘+C / ⌘+V)\nQ. 연결된 이전/다음 단계를 빠르게 확인하고 싶어요.\n특정 단계를 클릭하면 파란 점선으로 연결된 다음 단계가 명확하게 표시되어 복잡한 워크플로우에서도 어떤 흐름으로 진행되는지 쉽게 확인할 수 있어요.\n단계의 이름을 알고 있다면 좌측 단계 목록에서 검색해 이동할 수 있습니다.\n우측 상단 미리보기 켜기를 눌러 보여지는 좌측 미리보기 화면을 통해 고객 입장에서의 이전/다음 단계를 확인할 수도 있어요.\nQ. 문제가 발생한 단계가 있다는데, 에러를 어떻게 확인할 수 있나요?\n단계 목록 [더보기(︙)] - [오류 단계 보기] 를 선택하면 오류가 발생한 단계만 모아볼 수 있습니다. 오류 단계 앞에는 ⚠︎ 아이콘이 표시됩니다.\n단계 목록에서 ⚠︎ 아이콘이 있는 단계를 클릭하면 해당 단계 수정화면으로 이동됩니다.\n오류가 발생한 액션에서는 오류 사유가 주황색 글씨로 표시되어 쉽게 확인할 수 있습니다.\n( → 오류 사유별 해결방법 자세히보기)\n워크플로우 기본\nQ. 워크플로우는 외부 메신저 (카카오톡 / 네이버 톡톡 / 인스타그램 등)에서는 동작되지 않나요?\n워크플로우 중 응답 버튼, ALF 응대, 자동 메시지 전송, 상담 태그 부착, 담당자 배정 등의 대부분의 액션이 동작합니다.\n단, 입력폼 액션은 채널톡 고유의 기능이기에 외부 메신저에서 작동되지 않습니다.\nQ. 워크플로우 생성에 개수 제한이 있나요?\n워크플로우를 제작하는데 개수 제한은 없습니다. 다만, 동작중인 워크플로우는 총 200개까지 가능합니다.\n워크플로우 세부 설정\nQ. 워크플로우로 바로 진입하는 링크를 복사할 수 있나요?\n워크플로우 [퍼블리시] 후 우측 상단 클립 모양 클릭 → [고객용 링크]를 복사할 수 있습니다.\n'채널톡 버튼에서 새 상담을 시작할 때' 트리거에 한해 링크 복사가 가능합니다.\nQ. 고객이 입력한 정보가 실시간으로 필터링 되나요?\n만약 고객이 메시지를 보냈을 때, 로 트리거한 워크플로우라면 고객이 보낸 메시지에 따라 실시간으로 워크플로우 동작이 가능합니다.\nQ. 워크플로우 시나리오 내에, 마케팅 보내기 설정도 가능한가요?\n액션 중 마케팅 전송 액션은 지원되지 않습니다. 대신 고객에게 메시지 보내기 혹은 문자 보내기 액션을 설정할 수 있어요.\n반대로 워크플로우를 마케팅으로 전송하는 기능은 지원됩니다.\n(→ 아웃바운드 워크플로우 확인하기)\nQ. 워크플로우 별 프로필 설정이 가능한가요?\n워크플로우에서 자동 메시지, 응답 버튼, 입력폼 등을 고객에게 보여줄 때, [봇 프로필]을 지정하실 수 있습니다.\nQ. 고객이 외국인이라 언어를 변경해야할 때도 필터링을 설정하면 되나요?\n트리거 이후 필터링 설정 시, 고객 [위치 / 국가 / 언어] 별로 필터링이 가능합니다.\n예시) 한국 고객과 일본 고객에게 다른 언어로 메시지를 전송하고 싶다면?\n트리거 : 고객이 메시지를 보냈을 때 (혹은 상담을 시작할 때)\n필터링 : 고객 정보 - 국가 : KR 일 경우 / 국가 : JP일 경우를 설정\n액션 : KR 고객이라면 → 한국어로 설정한 메시지 전송 / JP 고객이라면 → 일본어로 입력한 메시지 전송\nQ. 필터링은 무조건 고객등급으로만 가능한가요?\n필터링은 고객 정보 (고객 등급, 방문 횟수 등 고객 프로필에 저장된 모든 정보), 상담 정보 (상담 우선 순위, 어떤 마케팅으로 시작됐는지 등 상담 프로필에 저장된 모든 정보), 외부 메신저, 운영 시간 유무 등 다양한 조건으로 설정 가능합니다.\nQ. 고객이 남긴 문장에 [환불]이라는 특정 키워드가 포함된 것을 기준으로 설정할 수 있나요?\n필터링 조건을 통해 고객이 전송한 메시지에 특정 키워드가 있다면 → 특정 액션 (자동 메시지 / 알프 호출 / 응답 버튼 노출 / 입력폼 전송 등)을 수행하도록 설정이 가능합니다.\n현재 자동화 규칙에서 필터링으로 메시지 내용을 필터링하는 것처럼요!\n해당 내용에 따라 자동으로 상담 태그 설정도 액션을 통해 가능합니다.\nQ. 전화 / 채팅 운영 시간 별도 설정 시, 요일별로 나눠서 설정도 가능한가요?\n네, 요일, 시간 모두 자유롭게 분리해서 설정하실 수 있습니다.\nQ. 상담 자동 배정을 전화 / 채팅 나눠서 별도 설정 가능한가요?\n네, 가능합니다.\n전화 상담팀 / 채팅 상담팀 으로 각각 팀을 만들어주세요.\n그 후 전화 유형의 상담이 인입 시 → 전화 상담팀에 배정, 채팅 상담 인입 시 → 채팅 상담팀에 배정되도록 설정이 가능합니다.\nQ. 입력폼을 통해 정보를 받고, 추가로 이미지(파일)를 받은 후 추가 문의가 있다면 상담 연결 / 추가 문의가 없다면 상담을 바로 종료하도록 설정할 수 있을까요?\n네, 입력폼 혹은 응답버튼 중간에 한 번만 메시지 받기를 활성화해주시고, 그 후 다시 응답버튼을 보여줘서 [상담 연결] 혹은 [처음으로] 등의 버튼을 배치하여 고객이 선택하도록 구성할 수 있어요.\nQ. 상담 중 매크로를 이용해 고객에게 입력폼을 보내고 있어요. 문제는 입력폼을 고객이 입력해도 팀 멤버에게 알림이 오지 않아서 계속 정보 입력 여부를 확인해야했어요. 워크플로우에서는 알림을 받을 수 있을까요?\n네, 모듈형 워크플로우 액션에 [입력폼]과 함께 [팀챗 알림받기] 를 설정하실 수 있습니다. 이를 통해 고객이 입력폼 입력 시 팀챗으로 알림을 받아보실 수 있어요.\n또는 입력폼 입력 후 상담열기 액션을 설정 하시면 고객이 폼에 정보만 입력하고, 따로 메시지를 남기지 않아도 상담 인입으로 이어지도록 설정하실 수 있습니다.\nQ. 자사몰이 아닌 외부 사이트 (플랫폼)의 버튼을 눌러 채널톡 채팅창으로 인입될 경우, 워크플로우의 특정 단계로 건너뛰고 진입이 가능한가요?\n기본적으로 채널톡 채팅창으로 이동하기 위해 [내 채널톡 주소]를 외부 사이트 버튼에 입력해주셨다면 특정 워크플로우가 보여지지 않고, 챗봇 형태로 제작된 기본 워크플로우가 보여집니다.\n만약, 별도 워크플로우 (챗봇 형태로 설정된)를 보여주고 싶다면 해당 워크플로우의 고객용 링크를 외부 사이트 버튼에 삽입해주시면 됩니다.\nQ. 개인정보 관련 입력폼을 설정할 수 있을까요?\n워크플로우에서 고객이 상담을 시작할 때 / 혹은 라운지에서 문의하기 버튼을 클릭하는 시점에 원하시는 자동화 메시지와 함께 입력폼을 전송하실 수 있습니다.\n입력폼에는 개인정보제공 동의 여부를 확인하고, 결과값을 고객 프로필 정보에 저장하도록 설정할 수 있어요.\nQ. 상담중 고객이 답변을 기다릴 때 트리거로 만든 워크플로우가 작동하지 않아요.\n상담중 고객이 답변을 기다릴 때 트리거로 만든 워크플로우가 작동하지 않는다면,\n[새 상담을 시작할 때 챗봇] 워크플로우에서 상담 열기 액션을 통해서 상담이 열리도록 설정이 되어있는지 확인해 주세요.\n'상담 중 고객이 답변을 기다릴 때' 트리거는\n고객 메시지로 상담이 열렸을 때만\n동작합니다.\n워크플로우 상담 열기 액션을 통해 상담이 열린  경우에는 '상담 중 고객이 답변을 기다릴 때' 가 트리거되지 않습니다.\n따라서 이 경우\n메인 챗봇 워크플로우에서 상담 열기 액션을 삭제해주시고 고객이 메세지를 남기도록 유도하거나\n상담 열기 액션\n바로 앞에\n1회 답변 받기 액션을 추가하셔서 고객이 한번 메세지를 보내서 상담이 열리도록 설정하시는 것을 권장드립니다.\n모듈형 워크플로우\nQ. 사진이나 동영상도 모듈형 워크플로우에 넣을 수 있나요?\n모듈형 워크플로우에는 액션을 설정할 수 있습니다.\n액션 종류에는 메시지 보내기 / 응답 버튼 / 입력폼 / ALF 호출 / 상담태그 부착 / 담당자 배정 등등이 있어요.\n이때 메시지 보내기에서 메시지 내에 [사진 / 동영상 / 파일] 첨부가 가능해요!\nQ. 모듈형 워크플로우를 A,B,C 워크플로우에 적용했을 때, A 워크플로우에 있는 모듈형 워크플로우 내용만 수정할 수 있나요?\n불가합니다. 이 경우 A워크플로우에는 다른 모듈형 워크플로우를 만들어서 저장해주셔야해요.\n워크플로우 통계\nQ. 워크플로우 통계 raw 데이터를 다운 받을 수 있나요?\n네, 워크플로우 통계도 데이터 다운로드가 가능합니다.\nQ. 단계분석을 기간별로 조회 가능한가요?\n워크플로우 단계 분석은 특정 기간 별 통계가 아닌, 워크플로우가 수정되어 배포되는 시점 간의 수치 확인이 가능합니다. 워크플로우 단계가 수정될 경우, 수정 전/ 후 워크플로우는 완전히 다른 워크플로우로 볼 수 있어요.  각기 다른 내용의 워크플로우를 단순히 기간으로 묶어서 데이터를 보여드리는 것은 어려워서 퍼블리시 시점, 즉 내용이 변경된 시점으로 구분되어 데이터가 보여집니다.\n비용\nQ. 건 당 과금인가요? 정액제 플랜이 있는지 궁금해요.\n정액제 플랜은 따로 존재하지 않으며, 사용량에 따른 후불 결제가 가능해요.\n실행 당 단가가 적용됩니다.\n1년 치 선불 충전 시, 연구독 할인이 적용되어 더 저렴하게 이용하실 수 있어요 :)\nQ. 워크플로우 개수 당 과금인가요? 실행 수 당 과금인가요?\n워크플로우 트리거가 실행될 때 1회 사용량으로 집계됩니다.\nQ. 워크플로우 내에 챗봇, ALF가 모두 포함되어 횟수 카운팅이 되나요?\n워크플로우 실행 당 과금 O / 워크플로우 개수 당 과금 X / 워크플로우 내 설정한 액션 개수 당 과금 X\n워크플로우 실행이란?\n워크플로우에 설정한 트리거가 동작한 것을 기준으로 실행을 측정합니다.\n하나의 워크플로우에 단계가 여러개있고, 단계가 모두 동작했더라도 트리거는 1개이기에 1번 실행으로 간주합니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 수정 화면"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 고객이 뒤로가기, 처음으로 가기 할 수 있는 버튼을 만들 수 있나요? "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "버튼 개별적으로 수정하거나, 일괄 수정할 수 있습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "개별 수정하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[응답 버튼] 액션을 추가하여 '뒤로가기' 혹은 '처음으로' 버튼을 만들어주세요. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "버튼과 이어지는 단계를 아래와 같이 선택해주세요. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "뒤로가기 → 이전 응답 버튼 단계 "
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "처음으로 → 첫 단계"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": " "
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "FAQ (3).png",
+        "height": "850px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149585/revisions/261916/usermedia/6819c2ed0d9d763539b8",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "April 22nd 2025, 11_02_21 AM.gif",
+        "height": "1440px",
+        "mime": "image/gif",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149585/revisions/261916/usermedia/681b58de3c722ab1c703",
+        "width": "2784px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "위와 같이 버튼을 만들면, 각 단계 사이에 연결선이 그려지지 않기 때문에, 여러 경로에서 공통으로 사용하는 단계가 있어도 복잡한 연결선 없이 단계 간 관계를 간결하게 유지할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "‘뒤로가기’ 버튼을 누르면, 고객이 실제로 거쳐온 경로 중 마지막으로 응답버튼을 선택한 단계로 돌아가기 때문에, 복잡한 단계 연결 없이도 고객 입장에서 더 자연스럽고 매끄러운 챗봇 경험을 제공할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시) "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "고객 1: A → B → C → D"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "고객 2: F → G → H → D"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "였다면, D에서 ‘이전으로’ 버튼을 눌렀을 때 고객 1은 C로, 고객 2는 H로 이동합니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "위 과정을 통해 모듈형 워크플로우에서 메인 워크플로우로 돌아가는 버튼을 만들 수 있습니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일괄 수정하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 화면 하단 더보기(:) 버튼 → [응답버튼 일괄변경] 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'응답버튼명'에 직접 설정했던 버튼명 (이전으로, 뒤로가기 등)을 선택하고 다음 단계를 '이전 응답 버튼 단계'로 설정해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "(→ 트레이닝 센터 바로가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/trainingcenter/ko/articles/workflow-v2-22313afd#%EB%B3%B5%EC%9E%A1%ED%95%9C-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%ED%99%94%EB%A9%B4-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 실수로 잘못 설정했는데 되돌리기 가능한가요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "FAQ.png",
+        "height": "356px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149585/revisions/261916/usermedia/6819bc573396a913b284",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수정화면 하단 되돌리기 아이콘을 누르거나 단축키를 이용해 가능합니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "되돌리기: [맥] cmd + Z [윈도우] ctrl+Z"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "재실행하기: [맥] cmd + shift + Z [윈도우] ctrl + shift + Z"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 화면 이동이나 확대, 축소는 어떻게 해야 하나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "화면 이동은 space 키를 누른 상태에서 마우스 클릭 후 드래그하거나, H키를 누르고 마우스를 움직여 이동할 수 있어요. (다시 포인터로 돌아오려면 V키를 눌러주세요)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "확대 축소는 Ctrl(맥 이라면 command)와 +,- 키를 사용해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "더 많은 단축키는 더보기 (︙) 버튼을 눌러 확인하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "FAQ (2).png",
+        "height": "926px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149585/revisions/261916/usermedia/6819bdb749c6b85e4491",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 단계 복제나 삭제는 어떻게 하나요? "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "특정 단계를 선택하면 툴바가 노출되며, 복제 및 삭제 아이콘을 클릭하여 작업을 진행할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "단계를 선택한 후 Backspace 키를 누르면 삭제됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "복사/붙여넣기 단축키를 사용해 복제도 가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "　(Windows: Ctrl+C / Ctrl+V, Mac: Command ⌘+C / ⌘+V)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_단계 이동 및 복제하기.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149585/revisions/261916/usermedia/6819be09cc2c200859e1",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 연결된 이전/다음 단계를 빠르게 확인하고 싶어요."
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "특정 단계를 클릭하면 파란 점선으로 연결된 다음 단계가 명확하게 표시되어 복잡한 워크플로우에서도 어떤 흐름으로 진행되는지 쉽게 확인할 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계의 이름을 알고 있다면 좌측 단계 목록에서 검색해 이동할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "우측 상단 미리보기 켜기를 눌러 보여지는 좌측 미리보기 화면을 통해 고객 입장에서의 이전/다음 단계를 확인할 수도 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "April 22nd 2025, 10_20_18 AM.gif",
+        "height": "1072px",
+        "mime": "image/gif",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149585/revisions/261916/usermedia/6819bfdd748406f1e27d",
+        "width": "2072px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 문제가 발생한 단계가 있다는데, 에러를 어떻게 확인할 수 있나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계 목록 [더보기(︙)] - [오류 단계 보기] 를 선택하면 오류가 발생한 단계만 모아볼 수 있습니다. 오류 단계 앞에는 ⚠︎ 아이콘이 표시됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계 목록에서 ⚠︎ 아이콘이 있는 단계를 클릭하면 해당 단계 수정화면으로 이동됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오류가 발생한 액션에서는 오류 사유가 주황색 글씨로 표시되어 쉽게 확인할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "( → 오류 사유별 해결방법 자세히보기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EA%B0%80%EC%9D%B4%EB%93%9C-2a90474e"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "6810440ea975227c0673",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149585/revisions/261916/usermedia/6819c0380b3011bf7cd4",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 기본"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 워크플로우는 외부 메신저 (카카오톡 / 네이버 톡톡 / 인스타그램 등)에서는 동작되지 않나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 중 응답 버튼, ALF 응대, 자동 메시지 전송, 상담 태그 부착, 담당자 배정 등의 대부분의 액션이 동작합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단, 입력폼 액션은 채널톡 고유의 기능이기에 외부 메신저에서 작동되지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 워크플로우 생성에 개수 제한이 있나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우를 제작하는데 개수 제한은 없습니다. 다만, 동작중인 워크플로우는 총 200개까지 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 세부 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 워크플로우로 바로 진입하는 링크를 복사할 수 있나요? "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 [퍼블리시] 후 우측 상단 클립 모양 클릭 → [고객용 링크]를 복사할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'채널톡 버튼에서 새 상담을 시작할 때' 트리거에 한해 링크 복사가 가능합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "FAQ (4).png",
+        "height": "672px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149585/revisions/261916/usermedia/6819c6db3f598ba86c8d",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 고객이 입력한 정보가 실시간으로 필터링 되나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "만약 고객이 메시지를 보냈을 때, 로 트리거한 워크플로우라면 고객이 보낸 메시지에 따라 실시간으로 워크플로우 동작이 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 워크플로우 시나리오 내에, 마케팅 보내기 설정도 가능한가요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "액션 중 마케팅 전송 액션은 지원되지 않습니다. 대신 고객에게 메시지 보내기 혹은 문자 보내기 액션을 설정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "반대로 워크플로우를 마케팅으로 전송하는 기능은 지원됩니다."
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " (→ 아웃바운드 워크플로우 확인하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%95%84%EC%9B%83%EB%B0%94%EC%9A%B4%EB%93%9C%EC%84%B1-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-e2dbb0ec"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 워크플로우 별 프로필 설정이 가능한가요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우에서 자동 메시지, 응답 버튼, 입력폼 등을 고객에게 보여줄 때, [봇 프로필]을 지정하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 고객이 외국인이라 언어를 변경해야할 때도 필터링을 설정하면 되나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트리거 이후 필터링 설정 시, 고객 [위치 / 국가 / 언어] 별로 필터링이 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시) 한국 고객과 일본 고객에게 다른 언어로 메시지를 전송하고 싶다면?"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "트리거 : 고객이 메시지를 보냈을 때 (혹은 상담을 시작할 때)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "필터링 : 고객 정보 - 국가 : KR 일 경우 / 국가 : JP일 경우를 설정"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "액션 : KR 고객이라면 → 한국어로 설정한 메시지 전송 / JP 고객이라면 → 일본어로 입력한 메시지 전송"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 필터링은 무조건 고객등급으로만 가능한가요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터링은 고객 정보 (고객 등급, 방문 횟수 등 고객 프로필에 저장된 모든 정보), 상담 정보 (상담 우선 순위, 어떤 마케팅으로 시작됐는지 등 상담 프로필에 저장된 모든 정보), 외부 메신저, 운영 시간 유무 등 다양한 조건으로 설정 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 고객이 남긴 문장에 [환불]이라는 특정 키워드가 포함된 것을 기준으로 설정할 수 있나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터링 조건을 통해 고객이 전송한 메시지에 특정 키워드가 있다면 → 특정 액션 (자동 메시지 / 알프 호출 / 응답 버튼 노출 / 입력폼 전송 등)을 수행하도록 설정이 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "현재 자동화 규칙에서 필터링으로 메시지 내용을 필터링하는 것처럼요!"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해당 내용에 따라 자동으로 상담 태그 설정도 액션을 통해 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 전화 / 채팅 운영 시간 별도 설정 시, 요일별로 나눠서 설정도 가능한가요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네, 요일, 시간 모두 자유롭게 분리해서 설정하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 상담 자동 배정을 전화 / 채팅 나눠서 별도 설정 가능한가요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네, 가능합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화 상담팀 / 채팅 상담팀 으로 각각 팀을 만들어주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "그 후 전화 유형의 상담이 인입 시 → 전화 상담팀에 배정, 채팅 상담 인입 시 → 채팅 상담팀에 배정되도록 설정이 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 입력폼을 통해 정보를 받고, 추가로 이미지(파일)를 받은 후 추가 문의가 있다면 상담 연결 / 추가 문의가 없다면 상담을 바로 종료하도록 설정할 수 있을까요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네, 입력폼 혹은 응답버튼 중간에 한 번만 메시지 받기를 활성화해주시고, 그 후 다시 응답버튼을 보여줘서 [상담 연결] 혹은 [처음으로] 등의 버튼을 배치하여 고객이 선택하도록 구성할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 상담 중 매크로를 이용해 고객에게 입력폼을 보내고 있어요. 문제는 입력폼을 고객이 입력해도 팀 멤버에게 알림이 오지 않아서 계속 정보 입력 여부를 확인해야했어요. 워크플로우에서는 알림을 받을 수 있을까요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네, 모듈형 워크플로우 액션에 [입력폼]과 함께 [팀챗 알림받기] 를 설정하실 수 있습니다. 이를 통해 고객이 입력폼 입력 시 팀챗으로 알림을 받아보실 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "또는 입력폼 입력 후 상담열기 액션을 설정 하시면 고객이 폼에 정보만 입력하고, 따로 메시지를 남기지 않아도 상담 인입으로 이어지도록 설정하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 자사몰이 아닌 외부 사이트 (플랫폼)의 버튼을 눌러 채널톡 채팅창으로 인입될 경우, 워크플로우의 특정 단계로 건너뛰고 진입이 가능한가요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기본적으로 채널톡 채팅창으로 이동하기 위해 [내 채널톡 주소]를 외부 사이트 버튼에 입력해주셨다면 특정 워크플로우가 보여지지 않고, 챗봇 형태로 제작된 기본 워크플로우가 보여집니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "만약, 별도 워크플로우 (챗봇 형태로 설정된)를 보여주고 싶다면 해당 워크플로우의 고객용 링크를 외부 사이트 버튼에 삽입해주시면 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 개인정보 관련 입력폼을 설정할 수 있을까요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우에서 고객이 상담을 시작할 때 / 혹은 라운지에서 문의하기 버튼을 클릭하는 시점에 원하시는 자동화 메시지와 함께 입력폼을 전송하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "입력폼에는 개인정보제공 동의 여부를 확인하고, 결과값을 고객 프로필 정보에 저장하도록 설정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 상담중 고객이 답변을 기다릴 때 트리거로 만든 워크플로우가 작동하지 않아요."
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담중 고객이 답변을 기다릴 때 트리거로 만든 워크플로우가 작동하지 않는다면, "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[새 상담을 시작할 때 챗봇] 워크플로우에서 상담 열기 액션을 통해서 상담이 열리도록 설정이 되어있는지 확인해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'상담 중 고객이 답변을 기다릴 때' 트리거는 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "고객 메시지로 상담이 열렸을 때만"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 동작합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 상담 열기 액션을 통해 상담이 열린  경우에는 '상담 중 고객이 답변을 기다릴 때' 가 트리거되지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "따라서 이 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "메인 챗봇 워크플로우에서 상담 열기 액션을 삭제해주시고 고객이 메세지를 남기도록 유도하거나"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담 열기 액션 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "바로 앞에"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 1회 답변 받기 액션을 추가하셔서 고객이 한번 메세지를 보내서 상담이 열리도록 설정하시는 것을 권장드립니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우 FAQ.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/20504/revisions/1214282/usermedia/69a686ebd029e828a8c0",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모듈형 워크플로우"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 사진이나 동영상도 모듈형 워크플로우에 넣을 수 있나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모듈형 워크플로우에는 액션을 설정할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "액션 종류에는 메시지 보내기 / 응답 버튼 / 입력폼 / ALF 호출 / 상담태그 부착 / 담당자 배정 등등이 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이때 메시지 보내기에서 메시지 내에 [사진 / 동영상 / 파일] 첨부가 가능해요!"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 모듈형 워크플로우를 A,B,C 워크플로우에 적용했을 때, A 워크플로우에 있는 모듈형 워크플로우 내용만 수정할 수 있나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "불가합니다. 이 경우 A워크플로우에는 다른 모듈형 워크플로우를 만들어서 저장해주셔야해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 통계"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 워크플로우 통계 raw 데이터를 다운 받을 수 있나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네, 워크플로우 통계도 데이터 다운로드가 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 단계분석을 기간별로 조회 가능한가요? "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 단계 분석은 특정 기간 별 통계가 아닌, 워크플로우가 수정되어 배포되는 시점 간의 수치 확인이 가능합니다. 워크플로우 단계가 수정될 경우, 수정 전/ 후 워크플로우는 완전히 다른 워크플로우로 볼 수 있어요.  각기 다른 내용의 워크플로우를 단순히 기간으로 묶어서 데이터를 보여드리는 것은 어려워서 퍼블리시 시점, 즉 내용이 변경된 시점으로 구분되어 데이터가 보여집니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "비용"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 건 당 과금인가요? 정액제 플랜이 있는지 궁금해요."
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "정액제 플랜은 따로 존재하지 않으며, 사용량에 따른 후불 결제가 가능해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "실행 당 단가가 적용됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "1년 치 선불 충전 시, 연구독 할인이 적용되어 더 저렴하게 이용하실 수 있어요 :)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 워크플로우 개수 당 과금인가요? 실행 수 당 과금인가요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 트리거가 실행될 때 1회 사용량으로 집계됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Q. 워크플로우 내에 챗봇, ALF가 모두 포함되어 횟수 카운팅이 되나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 실행 당 과금 O / 워크플로우 개수 당 과금 X / 워크플로우 내 설정한 액션 개수 당 과금 X"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 실행이란?"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "워크플로우에 설정한 트리거가 동작한 것을 기준으로 실행을 측정합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "하나의 워크플로우에 단계가 여러개있고, 단계가 모두 동작했더라도 트리거는 1개이기에 1번 실행으로 간주합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "61",
+    "name": "Beige",
+    "bio": "Minji Jeon, CX manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/66a2598f80270e82bdd0",
+  "linked_faqs": [],
+  "faq_count": 0
+}

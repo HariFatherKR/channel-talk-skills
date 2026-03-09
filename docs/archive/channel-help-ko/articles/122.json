@@ -1,0 +1,1904 @@
+{
+  "id": "122",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%A7%A4%ED%81%AC%EB%A1%9C-a5905ef6",
+  "title": "매크로",
+  "summary": "고객이 자주 궁금해하는 질문에 대한 답변을 매크로로 저장해 쉽고 빠르게 답변 해보세요. 여러 명의 팀 멤버가 응대 하더라도 동일한 톤앤매너를 유지할 수 있습니다.",
+  "plaintext": "매크로 생성\n설정 화면에서 만들기\n설정 경로: [채널 설정] - [상\n담] - [매크로] - [+ 만들기] - [새로 만들기]\n생성된 매크로는 언제든 수정이 가능해요.\n한 채널당 최대 4,000개까지 등록 가능해요.\n파일로 일괄 등록하기\n초기에 많은 양의 매크로를 설정해야 할 때 XLSX 파일로 한 번에 등록할 수 있어요.\n설정 경로: [채널 설정] - [상담] - [매크로] - [+ 만들기] - [XLSX 파일로 가져오기] - 파일 등록 후 [가져오기] 클릭\n1) 템플릿 다운로드:\n팝업창 좌측 하단의 [템플릿 다운로드] 버튼을 눌러 양식을 다운로드 해주세요.\n입력 항목:\n필드명\n설명\n필수 입력 여부\n제약조건\n예시\nname\n매크로 제목\n필수\n빈 값 불가\n입력 가능:\n글자, 숫자, 빼기(-), 밑줄(_), 괄호 ()\n입력 불가: 이외 특수 문자(.$%\\) 및 공백\n예:\n채널톡이란\ncontent\n매크로 내용\n필수\n빈 값 불가\n예:\n채널톡은 올인원 AI 메신저입니다.\n참고\n'content(매크로 본문)' 필드의 셀 내에서 줄바꿈이 필요한 경우 Alt + Enter를 사용하면 본문에 그대로 반영돼요.\n2) 파일 등록 기준\n팝업창에 XLSX 파일을 첨부해 주세요.\n파일 용량은 최대 10MB, 파일 개수는 1개 (최대 매크로 3,000건)만 업로드 가능해요\n3) 유의 사항:\n현재는 신규 생성만 지원하며, 기존 매크로의 수정 및 삭제는 지원하지 않아요.\n업로드 중 1건이라도 오류가 발생하면 전체 데이터가 등록되지 않으니, 에러 메시지를 확인 후 수정하여 다시 업로드해 주세요.\n전송한 메시지로 만들기\n고객과 상담 중 전송한 메시지를 바로 매크로로 생성할 수 있어요.\n메시지 위로 마우스를 올려보면 매크로로 만들기 버튼이 나타납니다.\n매크로 사용\n상담창에 #을 누르면 아래 순서로 매크로가 노출됩니다.\n각 팀 멤버가 즐겨찾기한 매크로 (→\n즐겨찾기 설정 방법\n)\nAI 추천 매크로 (고객 문의 내용과 관련해 AI가 가장 적합하다고 판단하는 매크로)\n모든 매크로\n매크로는 [특수문자 → 숫자 → 영문 → 한글] 순서로 보여집니다.\nAI 추천 매크로는 AI가 추천하는 순서로 보여집니다.\n# 을 누르고 검색어를 입력하면, 검색어와 일치하는 매크로만 노출됩니다.\n제목에 포함되는 여러 키워드를 조합해서 검색할 수 있고, 띄어쓰기로 구분된 키워드도\nAND\n조건으로 검색 가능합니다.\n매크로 검색 창에서 내용을 미리 확인할 수 있어요. 그대로 전송하거나 바로 수정하여 보낼 수도 있습니다.\n9월 5일부터 매크로 순서가 변경되었습니다.\n기존 : ‘AI 추천 매크로’ → ‘자주 사용됨’ → ‘모든 매크로’\n변경 :\n‘즐겨찾기’ → ‘AI 추천 매크로’ → ‘모든 매크로’\n채널의 사용량에 맞게 추천되는 것이 아닌, 각 팀 멤버가 원하는 순서대로 볼 수 있도록 '자주 사용됨' 이 '즐겨찾기'로 변경되었습니다.\n매크로 관리\n현재 생성된 매크로 총 갯수와 매크로 제목, 내용, 사용 횟수, 수정 시간, 생성 시간, 최근 수정한\n사람을 확인할 수 있어요.\n'사용 횟수, 수정 시간, 생성 시간'을 기준으로 매크로를 정렬할 수도 있고, '최근 수정한 사람'으로 필터링도 가능합니다.\n여러 개의 매크로를 선택해 일괄적으로 즐겨찾기 설정/해지, 삭제도 가능합니다.\n즐겨찾기\n각 팀 멤버별로\n최대 100개\n까지 가장 많이 사용하는 매크로를 즐겨찾기 할 수 있어요.\nA팀 멤버가 즐겨찾기 한 매크로가 B팀 멤버 화면에서는 즐겨찾기로 보이지 않습니다.\n매크로 추가/수정 창에서 별 이모지(\n)를 클릭해 즐겨찾기 가능해요.\n매크로 설정 페이지 [즐겨찾기] 버튼을 눌러 즐겨찾기된 매크로 리스트를 모아볼 수 있어요.\n매크로 리스트를 클릭 및 드래그하여 즐겨찾기된 매크로 순서를 변경할 수 있어요",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "매크로 생성"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 화면에서 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [상"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "담] - [매크로] - [+ 만들기] - [새로 만들기]"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "생성된 매크로는 언제든 수정이 가능해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "한 채널당 최대 4,000개까지 등록 가능해요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "매크로 생성_설정 화면에서 만들기.png",
+        "height": "800px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/122/revisions/482450/usermedia/68aef27a207e73c958cd",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "파일로 일괄 등록하기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "초기에 많은 양의 매크로를 설정해야 할 때 XLSX 파일로 한 번에 등록할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [상담] - [매크로] - [+ 만들기] - [XLSX 파일로 가져오기] - 파일 등록 후 [가져오기] 클릭"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "매크로 일괄 업로드.png",
+        "height": "960px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/122/revisions/1174035/usermedia/699fbfebdd65d56f1ae4",
+        "width": "2304px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1) 템플릿 다운로드: "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팝업창 좌측 하단의 [템플릿 다운로드] 버튼을 눌러 양식을 다운로드 해주세요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "입력 항목: "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "필드명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "필수 입력 여부"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "제약조건"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예시"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "name"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "매크로 제목"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "필수"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "빈 값 불가"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "입력 가능:"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        },
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "글자, 숫자, 빼기(-), 밑줄(_), 괄호 ()"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "입력 불가: 이외 특수 문자(.$%\\) 및 공백"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예: "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "채널톡이란"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        },
+                        {
+                          "type": "inlineCode"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "content"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "매크로 내용 "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "필수"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "빈 값 불가"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예: "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "채널톡은 올인원 AI 메신저입니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        },
+                        {
+                          "type": "inlineCode"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "참고 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": " 'content(매크로 본문)' 필드의 셀 내에서 줄바꿈이 필요한 경우 Alt + Enter를 사용하면 본문에 그대로 반영돼요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "2) 파일 등록 기준"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팝업창에 XLSX 파일을 첨부해 주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "파일 용량은 최대 10MB, 파일 개수는 1개 (최대 매크로 3,000건)만 업로드 가능해요"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "3) 유의 사항:"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "현재는 신규 생성만 지원하며, 기존 매크로의 수정 및 삭제는 지원하지 않아요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "업로드 중 1건이라도 오류가 발생하면 전체 데이터가 등록되지 않으니, 에러 메시지를 확인 후 수정하여 다시 업로드해 주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전송한 메시지로 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객과 상담 중 전송한 메시지를 바로 매크로로 생성할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지 위로 마우스를 올려보면 매크로로 만들기 버튼이 나타납니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "매크로 생성_전송한 메시지로 만들기.png",
+        "height": "640px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/122/revisions/482450/usermedia/68aef286cc52ba9e3131",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "매크로 사용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담창에 #을 누르면 아래 순서로 매크로가 노출됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "각 팀 멤버가 즐겨찾기한 매크로 (→ "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "즐겨찾기 설정 방법"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/%EB%A7%A4%ED%81%AC%EB%A1%9C-a5905ef6#%EC%A6%90%EA%B2%A8%EC%B0%BE%EA%B8%B0"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ")"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "AI 추천 매크로 (고객 문의 내용과 관련해 AI가 가장 적합하다고 판단하는 매크로)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "모든 매크로"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "매크로는 [특수문자 → 숫자 → 영문 → 한글] 순서로 보여집니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "AI 추천 매크로는 AI가 추천하는 순서로 보여집니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "매크로 사용.png",
+        "height": "960px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/122/revisions/482450/usermedia/68aef3907783da543ff8",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "# 을 누르고 검색어를 입력하면, 검색어와 일치하는 매크로만 노출됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "제목에 포함되는 여러 키워드를 조합해서 검색할 수 있고, 띄어쓰기로 구분된 키워드도 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "AND"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 조건으로 검색 가능합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "매크로 검색 창에서 내용을 미리 확인할 수 있어요. 그대로 전송하거나 바로 수정하여 보낼 수도 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "매크로 사용2.png",
+        "height": "720px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/122/revisions/482450/usermedia/68aef30a2dd8c0cec8ce",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "color": "orange",
+        "icon": "round_pushpin",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "9월 5일부터 매크로 순서가 변경되었습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "기존 : ‘AI 추천 매크로’ → ‘자주 사용됨’ → ‘모든 매크로’"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "변경 : "
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "‘즐겨찾기’ → ‘AI 추천 매크로’ → ‘모든 매크로’"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널의 사용량에 맞게 추천되는 것이 아닌, 각 팀 멤버가 원하는 순서대로 볼 수 있도록 '자주 사용됨' 이 '즐겨찾기'로 변경되었습니다. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "매크로 관리"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "현재 생성된 매크로 총 갯수와 매크로 제목, 내용, 사용 횟수, 수정 시간, 생성 시간, 최근 수정한 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "사람을 확인할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'사용 횟수, 수정 시간, 생성 시간'을 기준으로 매크로를 정렬할 수도 있고, '최근 수정한 사람'으로 필터링도 가능합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "여러 개의 매크로를 선택해 일괄적으로 즐겨찾기 설정/해지, 삭제도 가능합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "매크로 관리.png",
+        "height": "800px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/122/revisions/482450/usermedia/68aef3547ce9d10209dc",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "즐겨찾기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "각 팀 멤버별로 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "최대 100개"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "까지 가장 많이 사용하는 매크로를 즐겨찾기 할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "A팀 멤버가 즐겨찾기 한 매크로가 B팀 멤버 화면에서는 즐겨찾기로 보이지 않습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "매크로 추가/수정 창에서 별 이모지("
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "name": "star"
+                  },
+                  "type": "emoji"
+                },
+                {
+                  "attrs": {
+                    "text": ")를 클릭해 즐겨찾기 가능해요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "매크로 설정 페이지 [즐겨찾기] 버튼을 눌러 즐겨찾기된 매크로 리스트를 모아볼 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "매크로 리스트를 클릭 및 드래그하여 즐겨찾기된 매크로 순서를 변경할 수 있어요"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "즐겨찾기.png",
+        "height": "800px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/122/revisions/482450/usermedia/68aef3683beb5839b736",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "148",
+    "name": "Esther 🌱",
+    "bio": "Hello, I'm CX manager Esther😉"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eff64bdc6b192d7",
+  "linked_faqs": [
+    {
+      "id": "51241",
+      "question": "매크로를 카테고리 별로 분류하거나, 엑셀 파일로 다운받아 수정하고 싶어요.",
+      "answer_plaintext": "- 자주 쓰는 매크로를 카테고리별로 분류 또는 엑셀 파일로 다운로드하는 기능은 지원되지 않습니다.\n- 더 효과적으로 관리하고 싶으시다면 ‘배송_오배송', ‘배송_배송지연' 등과 같이 매크로의 이름으로 나눌 수도 있어요.\n- 매크로를 조금 더 효율적으로 관리할 수 있는 기능은 채널팀이 고민하고 기능을 개선하도록 할게요!"
+    },
+    {
+      "id": "107028",
+      "question": "매크로는 어떤 순서로 정렬되나요?",
+      "answer_plaintext": "매크로 리스트는 특수문자 → 숫자 → 영문 → 한글 순으로 고정되며, 각 항목은 모두 오름차순으로 정렬됩니다.\n\n[채널 설정 → 상담 → 매크로]에서 '제목, 사용 횟수, 수정 시간, 생성 시간'을 기준으로 매크로를 정렬해 보실 수도 있습니다."
+    },
+    {
+      "id": "110503",
+      "question": "사용횟수는 언제부터 집계된 수 인가요?",
+      "answer_plaintext": "'사용횟수 집계' 기능이 추가된 2025년 7월 24일 밤부터 업데이트 된 횟수입니다."
+    },
+    {
+      "id": "110524",
+      "question": "매크로 내용으로 검색도 가능한가요?",
+      "answer_plaintext": "현재는 제목으로만 검색이 가능합니다."
+    },
+    {
+      "id": "266481",
+      "question": "매크로는 최대 몇 개까지 등록할 수 있나요?",
+      "answer_plaintext": "한 채널당 최대 4,000개까지 등록할 수 있습니다. (2026년 2월 26일부터 적용)"
+    },
+    {
+      "id": "267770",
+      "question": "매크로를 다운로드 받거나, 업로드하여 일괄 등록/수정/삭제 할 수 있나요?",
+      "answer_plaintext": "엑셀 파일을 업로드하여 매크로 일괄 등록 가능합니다. \n다만, 매크로 일괄 수정/삭제는 지원하지 않습니다. \n또한 매크로 파일 다운로드도 지원하고 있지 않습니다."
+    }
+  ],
+  "faq_count": 6
+}

@@ -1,0 +1,899 @@
+{
+  "id": "39",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%86%A1%ED%86%A1-%ED%8C%8C%ED%8A%B8%EB%84%88-%EA%B3%84%EC%A0%95-%EC%A4%80%EB%B9%84-8abe2bd7",
+  "title": "톡톡 파트너 계정 준비",
+  "summary": "채널톡과 네이버 톡톡 연동을 위해선 네이버 톡톡 파트너 아이디가 필요합니다.\n또한 스마트스토어 이용 중이라면, 스마트스토어와 연동된 네이버 톡톡 계정을 채널톡과 연동하는 절차를 진행해 주세요.",
+  "plaintext": "이미 계정이 있다면,\n네이버 톡톡 연동하기\n부터 진행하시면 됩니다.\n계정 생성 및 로그인\n이미 톡톡 계정이 있다면 기존 계정 그대로 활용\n하\n시면 됩니다. 계정이 없으시다면 [\n네이버 톡톡 파트너 센터\n] 에서\n[새로운 톡톡 계정 만들기]\n를 클릭해서 만들어주세요.\n톡톡 계정은 생성 후 영업일 기준 1~2일 정도 검수 기간이 소요됩니다.\n네이버 톡톡 계정과\n스마트스토어 연동방법\n톡톡계정과 스마트스토어가 연동 되어있다면, 해당 네이버 톡톡 계정을 채널톡에 연동해 주셔야 합니다. 톡톡계정과 스마트스토어 아직 연동이 되어있지 않다면, 아래 절차대로 진행해주세요.\n[\n네이버 톡톡 파트너 센터\n] 링크 접속 후 → [설정] → [서비스 연결] → [서비스 연결하기] 버튼을 클릭해주세요.\n[네이버 서비스 연결하기] → [스마트 스토어 (쇼핑윈도)] → [서비스 연결하기] 버튼을 클릭해주세요.\n[네이버 커머스 ID로 인증] 버튼을 클릭해주세요.\n[네이버 서비스 연결하기] → 하위 서비스 선택 → [추가] 버튼을 클릭해주세요.\n연동이 완료되면 스마트스토어 정보가 보여집니다.\n이미 연동 완료된 경우\n톡톡계정과 스마트스토어가 이미 연동 되어있다면, 해당 톡톡 계정을 채널톡에 연동해 주셔야 합니다.\n[\n스마트스토어 센터\n]\n→ [노출관리] → [노출 서비스 관리] 에서 스마스스토어 계정과 연결된 네이버 톡톡 계정을 확인해주세요.\n[\n네이버 톡톡 파트너센터\n] 에서 해당 계정을 찾아주세요.\n챗봇 API 설정\n[\n네이버 톡톡 파트너센터\n] 의 계정 목록에서 연동을 원하는 계정의 [계정관리] 를 클릭해주세요. 계정 생성 및 사용 신청, 검수를 완료한 다음 연동을 진행할 수 있습니다.\n[연동 관리] → [챗봇API 설정] 에 접속해주세요.\n챗봇 API\n신청\n챗봇 API [신청하기] 버튼을 눌러 신청해주세요.\n네이버톡톡 챗봇 API 신청서 작성 후 [작성완료] 버튼을 클릭해 주세요.\n자주 묻는 질문\n이미 톡톡 챗봇이\n동작중\n이라고 표시돼요.\n스마트스토어에서 쇼핑챗봇 및 AI FAQ를 이용중이시면, 챗봇 API가 동작하지 않습니다.\n스마트스토어센터에서 비활성화 후 다시 연동해주세요.",
+  "body": [
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "이미 계정이 있다면, "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "네이버 톡톡 연동하기"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/3d8c6ce9"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "부터 진행하시면 됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "계정 생성 및 로그인"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이미 톡톡 계정이 있다면 기존 계정 그대로 활용"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "하"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "시면 됩니다. 계정이 없으시다면 ["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡 파트너 센터"
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://partner.talk.naver.com/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] 에서 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "[새로운 톡톡 계정 만들기]"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 를 클릭해서 만들어주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "talk1",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/39/revisions/112/usermedia/662b10c202b6c8cc5eb0"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "톡톡 계정은 생성 후 영업일 기준 1~2일 정도 검수 기간이 소요됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "네이버 톡톡 계정과"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 스마트스토어 연동방법"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "톡톡계정과 스마트스토어가 연동 되어있다면, 해당 네이버 톡톡 계정을 채널톡에 연동해 주셔야 합니다. 톡톡계정과 스마트스토어 아직 연동이 되어있지 않다면, 아래 절차대로 진행해주세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "["
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡 파트너 센터"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://partner.talk.naver.com/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] 링크 접속 후 → [설정] → [서비스 연결] → [서비스 연결하기] 버튼을 클릭해주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "톡톡__스마트스토어 연동1.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/39/revisions/111886/usermedia/67518c0e539e479d45af",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[네이버 서비스 연결하기] → [스마트 스토어 (쇼핑윈도)] → [서비스 연결하기] 버튼을 클릭해주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "톡톡__스마트스토어 연동2.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/39/revisions/111886/usermedia/67518c19e5e91a37992c",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[네이버 커머스 ID로 인증] 버튼을 클릭해주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "톡톡__스마트스토어 연동4.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/39/revisions/111886/usermedia/67518c3114825502adfc",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 4
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[네이버 서비스 연결하기] → 하위 서비스 선택 → [추가] 버튼을 클릭해주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "톡톡__스마트스토어 연동3.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/39/revisions/111886/usermedia/67518c1f3bd76e9b891b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 5
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동이 완료되면 스마트스토어 정보가 보여집니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "톡톡__스마트스토어 연동5.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/39/revisions/111886/usermedia/67518cd3cc2b7f4387d1",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이미 연동 완료된 경우"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "톡톡계정과 스마트스토어가 이미 연동 되어있다면, 해당 톡톡 계정을 채널톡에 연동해 주셔야 합니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "["
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "스마트스토어 센터"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://sell.smartstore.naver.com/#/home/about"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ [노출관리] → [노출 서비스 관리] 에서 스마스스토어 계정과 연결된 네이버 톡톡 계정을 확인해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/6721ffcf714957c42e8d"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡 파트너센터"
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://partner.talk.naver.com/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] 에서 해당 계정을 찾아주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "챗봇 API 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡 파트너센터"
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://partner.talk.naver.com/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] 의 계정 목록에서 연동을 원하는 계정의 [계정관리] 를 클릭해주세요. 계정 생성 및 사용 신청, 검수를 완료한 다음 연동을 진행할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "p3",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/39/revisions/112/usermedia/662b10c27e76b9e4750c"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[연동 관리] → [챗봇API 설정] 에 접속해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/67220021627a958c4d15"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "챗봇 API"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 신청"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "챗봇 API [신청하기] 버튼을 눌러 신청해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/6722002b3b26900286a4"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네이버톡톡 챗봇 API 신청서 작성 후 [작성완료] 버튼을 클릭해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자주 묻는 질문"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이미 톡톡 챗봇이 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "동작중"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "이라고 표시돼요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "스마트스토어에서 쇼핑챗봇 및 AI FAQ를 이용중이시면, 챗봇 API가 동작하지 않습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "스마트스토어센터에서 비활성화 후 다시 연동해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/usermedia/6722003d6fab88fd3ecd"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "351",
+    "name": "Jupiter",
+    "bio": "- CX Manager\nHey, it's another beautiful day! 🏃🏽‍♀️‍➡️"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ebd8629b1f1b344",
+  "linked_faqs": [],
+  "faq_count": 0
+}

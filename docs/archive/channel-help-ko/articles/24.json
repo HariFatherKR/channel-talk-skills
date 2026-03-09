@@ -1,0 +1,2686 @@
+{
+  "id": "24",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%ED%83%9C%EA%B7%B8-5a5314d8",
+  "title": "상담 태그",
+  "summary": "상담 관리의 기본은 상담을 잘 분류하는 거예요. 채널톡의 강력한 상담 태그 기능으로 상담을 효율적으로 관리하고, 분석해서 비즈니스의 성장에 힌트를 얻을 수 있어요.",
+  "plaintext": "영상으로 배우고 싶다면?\n기존의 상담 관리 툴의 ‘\n카테고리\n'와 차이점은?\n하나의 상담에 다양한 문의를 남겨도, 여러 태그(\n멀티 태그\n)를 달아 문의 내용을 빠짐없이 분류할 수 있어요.\n하나의 태그 안에 하위 태그(\n뎁스\n)를 설정하여 디렉토리 형태로 문의를 효율적으로 관리 할 수 있습니다.\n상담 태그 생성\n유료플랜\n미구독 시\n개별 유저챗에서 생성 및 부착이 가능합니다.\n수신함 좌측 하단과, 상담 목록에는 태그가 보이지 않아요.\n유료플랜\n구독 시\n상담 태그 설정 페이지에서 상담 태그를 생성 및 관리하실 수 있습니다.\n수신함 좌측 메뉴 및 유저챗 목록에서 부착된 상담 태그를 확인하실 수 있습니다.\n벌크 액션으로 여러 유저챗에 상담 태그를 한 번에 붙일 수 있으며\n상담 태그를 검색 필터링 조건으로 사용하실 수 있습니다.\n메뉴에서 만들기\n설정 경로: [채널 설정] - [상담] - [상담 태\n그] - [+ 태그 만들기]\n파일로 일괄 등록하기\n많은 양의 상담태그를 설정해야 할 때 XLSX 파일로 한 번에 등록할 수 있어요.\n설정 경로: [채널 설정] - [상담] - [상담 태그] - [태그 가져오기] - 파일 등록 후 [가져오기] 클릭\n1) 템플릿 다운로드:\n팝업창 좌측 하단의 [템플릿 다운로드] 버튼을 눌러 양식을 다운로드 해주세요.\n입력 항목:\n필드명\n설명\n필수 입력 여부\n제약조건\n예시\nname\n태그 이름.\n/\n로 계층 구분\n필수\n빈 값 불가\n특수 문자(.$%\\) 불가\n공백이 포함된 경우 자동 제거\n예:\n결제문의/카드결제/해외결제\n)\ncolorVariant\n태그 색상\n선택\n허용값: cobalt, red, orange, purple, green, yellow, pink, navy, olive\n예:\ncobalt\ndescription\n태그 설명\n선택\n빈 값 허용\n예:\n결제문의 분류 태그\n참고\n계층 구조 설정:\n/\n기호를 사용해 최대 3단계까지 계층을 구분할 수 있어요. (예:\n결제문의/카드결제/해외결제\n)\n파일 업로드를 통해 신규 '상위태그/하위태그' 업로드시 자동으로 상위태그와 하위태그가 함께 생성됩니다.\n2) 파일 업로드 기준\nXLSX 파일만 업로드 가능해요\n파일 용량은 최대 10MB, 파일 개수는 1개 (최대 상담태그 1000개)만 업로드 가능해요\n3) 유의사항\n현재는 신규 생성만 지원하며, 기존 상담태그 수정 및 삭제는 지원하지 않아요.\n업로드 중 1건이라도 오류가 발생하면 전체 데이터가 등록되지 않으니, 에러 메시지를 확인 후 수정하여 다시 업로드해 주세요.\n수신함에서 만들기\n설정 경로: [유저챗] - [수신함] - [상담 태그] 에서 태그 추가하기\n유저챗에서 만들기\n설정 경로: [유저챗] - [상담 정보] - [상담 태그] 선택에서 추가\n상세 설정하기\n이름에\n/\n를 넣어 하나의 태그를\n최대 3단계\n로 분류할 수 있습니다.\n예시) 상품문의 중 교환 관련 문의를 분류하시려면 '\n상품문의/교환'\n으로 교환 문의를 사이즈관련 불만, 색상 관련 불만으로 구분하려면 '\n상품문의/교환/사이즈'\n, '\n상품문의/교환/색상'\n으로 분류하실 수 있습니다.\n태그를\n색상으로 구분\n하실 수 있습니다. 기능별 / 주제별로 같은 색상으로 태그를 만드셔서 상담을 분류하실 수 있습니다.\n태그에 설명을 작성하여 어떤 상황에 해당 태그가 사용될지 정의할 수 있어요.\n상담 태그 부착\n고객과 상담을 진행하다보면 하나의 상담에서도 2~3개의 주제로 대화를 하는 경우도 많을거예요.\n채널톡은 하나의 상담에\n여러 개의 태그\n를 설정하여 관리하실 수 있도록\n멀티 태그 기능\n을 제공합니다.\n하나의 상담에서 태그는 최대\n8개\n까지 설정 가능합니다.\n수동 부착\n유저챗 우측 상담정보에서 태그를 선택해서 추가할 수 있습니다. 상담 태그는 진행중인 상담, 종료된 상담 모두 설정할 수 있습니다.\n자동 부착\n워크플로우 액션으로 설정하기\n워크플로우의 액션 설정을 통해, 특정 단계에 들어온 고객의 문의에 자동으로 상담 태그를 설정하거나 삭제할 수 있습니다.\n예시) 제품 교환 요청 버튼을 누른 고객에게 '\n상품문의/교환'\n태그가 자동으로 입력되도록 워크플로우 액션을 설정\n(→ 워크플로우 더 알아보기)\n상담 태그 활용\n상담태그는 진행중인 상담에 실시간으로 반영되어 어느 상담이 많이 들어오는지 확인할 수 있어요. 비즈니스의 이슈를 파악하는데 도움이 됩니다.\n또한, 종료된 상담의 태그를 확인하여 어떤 문의가 많이 들어왔는지 분석을 통해 비즈니스의 성장을 돕습니다.\n수신함\n진행 중 상담 확인\n수신함에서 현재 진행중인 상담의 수를 태그 별로 확인할 수 있습니다.\n수신함에 표시되는 태그에 대한 정보\n좌측 상담 목록의 태그 이름은 알파벳 순서대로 자동정렬됩니다(a-b-c...)\n태그의 대소문자를 구분하지 않습니다. (A태그=a태그)\n상담 목록에 표시되는 태그는 가장 하위 단계의 태그만 표시됩니다.\n상담 태그로 검색\n수신함 옆 검색 버튼을 클릭하거나, 키보드 단축키 Ctrl(Command) + F 를 누르면 상담을 검색할 수 있습니다. 검색 필터에서 태그를 선택 혹은 tag: 를 입력하시면, 현재 채널에 설정된 검색 태그를 선택할 수 있습니다.\n상담 태그, 날짜, 담당자 등\n여러 필터를 조합하는 경우\nAND조건으로 검색되며, 모든 조건에 부합하는 결과를 보여줍니다.\n여러 개의 상담 태그를 조합하는 경우\nOR 조건으로 검색되며, 각 태그에 해당하는 모든 검색 결과를 보여줍니다.\n예시) tag:결제 tag:배송 을 검색하면 결제 태그 / 배송 태그 / 결제와 배송 태그가 모두 붙은 상담이 보여집니다.\n(→ 대화 내용 검색 더 알아보기)\n상담 통계\n상담 통계에서 해당 기간동안 어떤 태그의 상담이 많이 들어오는지, 전체 상담 중 어떤 비중을 차지하고 있는지, 기간별로 유입 트랜드는 어떤 변화가 있었는지 확인을 통해 비즈니스의 문제점을 분석할 수 있습니다.\n태그는 이름순, 유입량 순으로 정렬해서 확인할 수 있습니다.\n단계가 있는 태그는 > 버튼을 클릭하여 하위단계의 태그로 나누어 볼 수 있습니다.\n태그 이름을 클릭하면, 자동으로 해당 기간 동안, 해당 태그가 부착된 상담이 검색됩니다.\n(→ 상담 통계 더 알아보기)",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 3분 • 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/상담-문의-유형-분류하기-9e46e02f",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/6960ba6a658c97c72f39/tmp-2025142712.png",
+        "title": "상담 문의 유형 분류하기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "mime": "video/*",
+        "src": "https://www.youtube-nocookie.com/embed/4X_5170Fht0?amp%3Bstart=450"
+      },
+      "type": "video"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/24/revisions/67/usermedia/662b10cae9cfe003d502"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "기존의 상담 관리 툴의 ‘"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "카테고리"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "'와 차이점은?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "하나의 상담에 다양한 문의를 남겨도, 여러 태그("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "멀티 태그"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")를 달아 문의 내용을 빠짐없이 분류할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "하나의 태그 안에 하위 태그("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "뎁스"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")를 설정하여 디렉토리 형태로 문의를 효율적으로 관리 할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 태그 생성"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유료플랜 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "미구독 시"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "개별 유저챗에서 생성 및 부착이 가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "수신함 좌측 하단과, 상담 목록에는 태그가 보이지 않아요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유료플랜 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "구독 시"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담 태그 설정 페이지에서 상담 태그를 생성 및 관리하실 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "수신함 좌측 메뉴 및 유저챗 목록에서 부착된 상담 태그를 확인하실 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "벌크 액션으로 여러 유저챗에 상담 태그를 한 번에 붙일 수 있으며"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담 태그를 검색 필터링 조건으로 사용하실 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "메뉴에서 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [상담] - [상담 태"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "그] - [+ 태그 만들기] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "상담 태그-gnb대응 (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/24/revisions/958524/usermedia/695f33848df68430d626",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "파일로 일괄 등록하기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "많은 양의 상담태그를 설정해야 할 때 XLSX 파일로 한 번에 등록할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [상담] - [상담 태그] - [태그 가져오기] - 파일 등록 후 [가져오기] 클릭"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "상담태그 일괄 업로드.png",
+        "height": "960px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/24/revisions/966312/usermedia/699fc1ce1fe59024a54c",
+        "width": "2178px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1) 템플릿 다운로드: "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팝업창 좌측 하단의 [템플릿 다운로드] 버튼을 눌러 양식을 다운로드 해주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "입력 항목: "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "필드명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "필수 입력 여부"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "제약조건"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예시"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "name"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "태그 이름.  "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "/"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        },
+                        {
+                          "type": "inlineCode"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "로 계층 구분"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "필수"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "빈 값 불가"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "특수 문자(.$%\\) 불가"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "공백이 포함된 경우 자동 제거"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "예: "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "결제문의/카드결제/해외결제"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                },
+                                {
+                                  "type": "inlineCode"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": ")"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "colorVariant"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "태그 색상"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "선택"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "허용값: cobalt, red, orange, purple, green, yellow, pink, navy, olive"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "예: "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "cobalt"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                },
+                                {
+                                  "type": "inlineCode"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "description"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "태그 설명"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "선택"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "빈 값 허용"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "예: "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "결제문의 분류 태그"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                },
+                                {
+                                  "type": "inlineCode"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": " "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "참고"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "계층 구조 설정: "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "/"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 기호를 사용해 최대 3단계까지 계층을 구분할 수 있어요. (예: "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "결제문의/카드결제/해외결제"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ")"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "파일 업로드를 통해 신규 '상위태그/하위태그' 업로드시 자동으로 상위태그와 하위태그가 함께 생성됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "2) 파일 업로드 기준"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "XLSX 파일만 업로드 가능해요"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "파일 용량은 최대 10MB, 파일 개수는 1개 (최대 상담태그 1000개)만 업로드 가능해요"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "3) 유의사항"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "현재는 신규 생성만 지원하며, 기존 상담태그 수정 및 삭제는 지원하지 않아요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "업로드 중 1건이라도 오류가 발생하면 전체 데이터가 등록되지 않으니, 에러 메시지를 확인 후 수정하여 다시 업로드해 주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "수신함에서 만들기      "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [유저챗] - [수신함] - [상담 태그] 에서 태그 추가하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "상담 태그.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/24/revisions/455725/usermedia/69326a8bef67316c9471",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "유저챗에서 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [유저챗] - [상담 정보] - [상담 태그] 선택에서 추가"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "상담 태그 (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/24/revisions/455725/usermedia/69326ad3b61ef4d738b6",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상세 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/24/revisions/67/usermedia/662b10cb74ade7d91587"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이름에 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "/ "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 넣어 하나의 태그를 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "최대 3단계"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 분류할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시) 상품문의 중 교환 관련 문의를 분류하시려면 '"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상품문의/교환'"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 으로 교환 문의를 사이즈관련 불만, 색상 관련 불만으로 구분하려면 '"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상품문의/교환/사이즈'"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ", '"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상품문의/교환/색상'"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 으로 분류하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "태그를 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "색상으로 구분"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "하실 수 있습니다. 기능별 / 주제별로 같은 색상으로 태그를 만드셔서 상담을 분류하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "태그에 설명을 작성하여 어떤 상황에 해당 태그가 사용될지 정의할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 태그 부착"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객과 상담을 진행하다보면 하나의 상담에서도 2~3개의 주제로 대화를 하는 경우도 많을거예요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡은 하나의 상담에 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "여러 개의 태그"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 설정하여 관리하실 수 있도록 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "멀티 태그 기능"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 제공합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "하나의 상담에서 태그는 최대 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "8개"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 까지 설정 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "수동 부착"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유저챗 우측 상담정보에서 태그를 선택해서 추가할 수 있습니다. 상담 태그는 진행중인 상담, 종료된 상담 모두 설정할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "tag",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/24/revisions/67/usermedia/662b10cb8ae38295ca1e"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자동 부착"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 액션으로 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "워크플로우의 액션 설정을 통해, 특정 단계에 들어온 고객의 문의에 자동으로 상담 태그를 설정하거나 삭제할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시) 제품 교환 요청 버튼을 누른 고객에게 '"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "상품문의/교환'"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 태그가 자동으로 입력되도록 워크플로우 액션을 설정"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "(→ 워크플로우 더 알아보기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/a497fa44-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/66a1122da7ac4a122beb"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 태그 활용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담태그는 진행중인 상담에 실시간으로 반영되어 어느 상담이 많이 들어오는지 확인할 수 있어요. 비즈니스의 이슈를 파악하는데 도움이 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "또한, 종료된 상담의 태그를 확인하여 어떤 문의가 많이 들어왔는지 분석을 통해 비즈니스의 성장을 돕습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "수신함"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "진행 중 상담 확인"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수신함에서 현재 진행중인 상담의 수를 태그 별로 확인할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "color": "cobalt",
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "수신함에 표시되는 태그에 대한 정보"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "attrs": {
+            "start": 1
+          },
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "좌측 상담 목록의 태그 이름은 알파벳 순서대로 자동정렬됩니다(a-b-c...)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "태그의 대소문자를 구분하지 않습니다. (A태그=a태그)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 목록에 표시되는 태그는 가장 하위 단계의 태그만 표시됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "orderedList"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "상담 태그 (2).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/24/revisions/455725/usermedia/69326b2ebe6aa39d6c41",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 태그로 검색"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신함 옆 검색 버튼을 클릭하거나, 키보드 단축키 Ctrl(Command) + F 를 누르면 상담을 검색할 수 있습니다. 검색 필터에서 태그를 선택 혹은 tag: 를 입력하시면, 현재 채널에 설정된 검색 태그를 선택할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 태그, 날짜, 담당자 등 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "여러 필터를 조합하는 경우"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " AND조건으로 검색되며, 모든 조건에 부합하는 결과를 보여줍니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "여러 개의 상담 태그를 조합하는 경우"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " OR 조건으로 검색되며, 각 태그에 해당하는 모든 검색 결과를 보여줍니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시) tag:결제 tag:배송 을 검색하면 결제 태그 / 배송 태그 / 결제와 배송 태그가 모두 붙은 상담이 보여집니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 대화 내용 검색 더 알아보기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/c2d439c6"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/24/revisions/67/usermedia/662b10cc0452bd691457"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 통계"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 통계에서 해당 기간동안 어떤 태그의 상담이 많이 들어오는지, 전체 상담 중 어떤 비중을 차지하고 있는지, 기간별로 유입 트랜드는 어떤 변화가 있었는지 확인을 통해 비즈니스의 문제점을 분석할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "태그는 이름순, 유입량 순으로 정렬해서 확인할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계가 있는 태그는 > 버튼을 클릭하여 하위단계의 태그로 나누어 볼 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "태그 이름을 클릭하면, 자동으로 해당 기간 동안, 해당 태그가 부착된 상담이 검색됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "(→ 상담 통계 더 알아보기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/84f597bf"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/24/revisions/67/usermedia/662b10cc196a5962fc80"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eae27f8fd551c10",
+  "linked_faqs": [
+    {
+      "id": "59860",
+      "question": "수신함에서 생성한 상담 태그가 보이지 않아요.",
+      "answer_plaintext": "유료 플랜 구독시에만 수신함 좌측 [상담 태그] 와 상담 목록에서 상담 태그를 보실 수 있습니다. 수신함 좌측에서는 현재 진행중인 상담에 붙은 상담 태그만 보여집니다."
+    },
+    {
+      "id": "59861",
+      "question": "수신함에서 상담 태그로 검색이 되지 않아요.",
+      "answer_plaintext": "유료 플랜 구독 시, 상담 태그 기능이 활성화 되어 검색 필터링 조건으로 사용하실 수 있습니다. 구독 여부를 확인해주세요!"
+    },
+    {
+      "id": "59862",
+      "question": "삭제된 상담 태그가 다시 생성돼요.",
+      "answer_plaintext": "워크플로우에 삭제하려는 상담 태그를 추가하는 액션이 설정되어 있다면, 워크플로우에 의해 태그가 다시 생성 및 추가 됩니다. 그래서 먼저 워크플로우 액션에서 설정된 해당 태그를 삭제해야 다시 생겨나지 않아요."
+    },
+    {
+      "id": "59863",
+      "question": "상담 태그 이름 변경 시 일괄 적용 방법은 어떻게 되나요?",
+      "answer_plaintext": "상담 태그 이름 수정은 불가하기에, 새로운 태그 생성 후 진행해주셔야 해요. \n\n검색 필터로 상담에 달린 상담 태그를 한 번에 삭제하는 방법\n- Ctrl(Command) + F를 눌러주세요.\n- 검색창에서 상담태그(tag:) 필터를 눌러 삭제하고 싶은 태그가 달린 상담을 검색해요.\n- 체크박스와 배너를 눌러 전체 목록을 선택하고 액션 → 상담 태그 수정 → 상담 태그를 체크 해제(삭제) 또는 다른 태그로 변경해주세요.\n\n🕹️ 영상 보고 쉽게 따라하기"
+    },
+    {
+      "id": "59864",
+      "question": "워크플로우 등으로 입력되는 상담 태그가 8개가 넘어가면 어떻게 동작하나요?",
+      "answer_plaintext": "8개 이후에 입력되는건 반영되지 않고 먼저 설정된 8개의 상담 태그만 적용됩니다."
+    },
+    {
+      "id": "59865",
+      "question": "상위 상담 태그 삭제 시 모든 하위 상담 태그도 같이 삭제돼요.",
+      "answer_plaintext": "제일 상위에 있는 상담 태그를 삭제하면 하위의 상담 태그까지 함께 삭제됩니다. 단, 상담 태그를 삭제한다고 해서, 상담에 설정되어있던 태그까지 삭제되지 않아요."
+    },
+    {
+      "id": "267913",
+      "question": "상담태그 파일을 다운로드 받거나, 파일 업로드하여 일괄 등록/수정/삭제 할 수 있나요?",
+      "answer_plaintext": "- 상담태그 파일 다운로드도 지원하고 있지 않습니다.\n- 엑셀 파일을 업로드하여 상담태그 일괄 등록 가능합니다. \n- 다만, 상담태그 일괄 수정/삭제는 지원하지 않습니다."
+    }
+  ],
+  "faq_count": 7
+}

@@ -1,0 +1,1117 @@
+{
+  "generated_at": "2026-03-09T04:01:10Z",
+  "articles": [
+    {
+      "id": "129",
+      "title": "채널톡 시작하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90%ED%86%A1-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-fed198ac",
+      "json_path": "articles/129.json",
+      "markdown_path": "articles/129.md",
+      "faq_count": 0
+    },
+    {
+      "id": "90",
+      "title": "채널톡 설치하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90%ED%86%A1-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-1bfa136b",
+      "json_path": "articles/90.json",
+      "markdown_path": "articles/90.md",
+      "faq_count": 0
+    },
+    {
+      "id": "101",
+      "title": "채널톡 활용하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90%ED%86%A1-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0--30e8dbf6",
+      "json_path": "articles/101.json",
+      "markdown_path": "articles/101.md",
+      "faq_count": 0
+    },
+    {
+      "id": "544239",
+      "title": "채널톡 전문가 찾기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90%ED%86%A1-%EC%A0%84%EB%AC%B8%EA%B0%80-%EC%B0%BE%EA%B8%B0-744b2e01",
+      "json_path": "articles/544239.json",
+      "markdown_path": "articles/544239.md",
+      "faq_count": 7
+    },
+    {
+      "id": "133",
+      "title": "채널톡 구독 이해하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90%ED%86%A1-%EA%B5%AC%EB%8F%85-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-0c124e99",
+      "json_path": "articles/133.json",
+      "markdown_path": "articles/133.md",
+      "faq_count": 0
+    },
+    {
+      "id": "19",
+      "title": "인사말 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9D%B8%EC%82%AC%EB%A7%90-%EC%84%A4%EC%A0%95-d59dc516",
+      "json_path": "articles/19.json",
+      "markdown_path": "articles/19.md",
+      "faq_count": 0
+    },
+    {
+      "id": "46",
+      "title": "팔로업 알림",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%94%EB%A1%9C%EC%97%85-%EC%95%8C%EB%A6%BC-3481edf8",
+      "json_path": "articles/46.json",
+      "markdown_path": "articles/46.md",
+      "faq_count": 0
+    },
+    {
+      "id": "121",
+      "title": "운영 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9A%B4%EC%98%81-%EC%84%A4%EC%A0%95-1e33dadc",
+      "json_path": "articles/121.json",
+      "markdown_path": "articles/121.md",
+      "faq_count": 2
+    },
+    {
+      "id": "122",
+      "title": "매크로",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%A7%A4%ED%81%AC%EB%A1%9C-a5905ef6",
+      "json_path": "articles/122.json",
+      "markdown_path": "articles/122.md",
+      "faq_count": 6
+    },
+    {
+      "id": "24",
+      "title": "상담 태그",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%ED%83%9C%EA%B7%B8-5a5314d8",
+      "json_path": "articles/24.json",
+      "markdown_path": "articles/24.md",
+      "faq_count": 7
+    },
+    {
+      "id": "41",
+      "title": "상담 목표",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%EB%AA%A9%ED%91%9C-8ddfcf0f",
+      "json_path": "articles/41.json",
+      "markdown_path": "articles/41.md",
+      "faq_count": 3
+    },
+    {
+      "id": "20",
+      "title": "다른 언어 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%8B%A4%EB%A5%B8-%EC%96%B8%EC%96%B4-%EC%84%A4%EC%A0%95-f6b84106",
+      "json_path": "articles/20.json",
+      "markdown_path": "articles/20.md",
+      "faq_count": 0
+    },
+    {
+      "id": "23",
+      "title": "채널 프론트",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90-%ED%94%84%EB%A1%A0%ED%8A%B8-6fd32151",
+      "json_path": "articles/23.json",
+      "markdown_path": "articles/23.md",
+      "faq_count": 0
+    },
+    {
+      "id": "40",
+      "title": "채널톡 버튼 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90%ED%86%A1-%EB%B2%84%ED%8A%BC-%EC%84%A4%EC%A0%95-94f34984",
+      "json_path": "articles/40.json",
+      "markdown_path": "articles/40.md",
+      "faq_count": 6
+    },
+    {
+      "id": "95",
+      "title": "채널 프로필 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%84%A4%EC%A0%95-5deb0312",
+      "json_path": "articles/95.json",
+      "markdown_path": "articles/95.md",
+      "faq_count": 0
+    },
+    {
+      "id": "123",
+      "title": "비즈니스 인증",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D-0b034717",
+      "json_path": "articles/123.json",
+      "markdown_path": "articles/123.md",
+      "faq_count": 3
+    },
+    {
+      "id": "22",
+      "title": "팀원 및 봇 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80%EC%9B%90-%EB%B0%8F-%EB%B4%87-%EC%84%A4%EC%A0%95-a215cda0",
+      "json_path": "articles/22.json",
+      "markdown_path": "articles/22.md",
+      "faq_count": 2
+    },
+    {
+      "id": "130",
+      "title": "상담 자동 배정",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%EC%9E%90%EB%8F%99-%EB%B0%B0%EC%A0%95-28b3f0cc",
+      "json_path": "articles/130.json",
+      "markdown_path": "articles/130.md",
+      "faq_count": 9
+    },
+    {
+      "id": "134",
+      "title": "역할",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%97%AD%ED%95%A0-0cdd2005",
+      "json_path": "articles/134.json",
+      "markdown_path": "articles/134.md",
+      "faq_count": 7
+    },
+    {
+      "id": "137",
+      "title": "보안 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%B3%B4%EC%95%88-%EC%84%A4%EC%A0%95-feb16f73",
+      "json_path": "articles/137.json",
+      "markdown_path": "articles/137.md",
+      "faq_count": 1
+    },
+    {
+      "id": "28",
+      "title": "SAML SSO 로그인",
+      "url": "https://docs.channel.io/help/ko/articles/SAML-SSO-%EB%A1%9C%EA%B7%B8%EC%9D%B8-cd70a19d",
+      "json_path": "articles/28.json",
+      "markdown_path": "articles/28.md",
+      "faq_count": 0
+    },
+    {
+      "id": "28344",
+      "title": "IP 주소 제한",
+      "url": "https://docs.channel.io/help/ko/articles/IP-%EC%A3%BC%EC%86%8C-%EC%A0%9C%ED%95%9C-5bc99a3b",
+      "json_path": "articles/28344.json",
+      "markdown_path": "articles/28344.md",
+      "faq_count": 4
+    },
+    {
+      "id": "45337",
+      "title": "보안 패키지 기타 기능",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%B3%B4%EC%95%88-%ED%8C%A8%ED%82%A4%EC%A7%80-%EA%B8%B0%ED%83%80-%EA%B8%B0%EB%8A%A5-10e202d2",
+      "json_path": "articles/45337.json",
+      "markdown_path": "articles/45337.md",
+      "faq_count": 0
+    },
+    {
+      "id": "96",
+      "title": "팀 멤버 프로필 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-%EB%A9%A4%EB%B2%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%84%A4%EC%A0%95-e7941ce4",
+      "json_path": "articles/96.json",
+      "markdown_path": "articles/96.md",
+      "faq_count": 1
+    },
+    {
+      "id": "27",
+      "title": "푸시알림 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%91%B8%EC%8B%9C%EC%95%8C%EB%A6%BC-%EC%84%A4%EC%A0%95-3fccba8f",
+      "json_path": "articles/27.json",
+      "markdown_path": "articles/27.md",
+      "faq_count": 7
+    },
+    {
+      "id": "193574",
+      "title": "계정 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B3%84%EC%A0%95-%EC%84%A4%EC%A0%95-f3e393ff",
+      "json_path": "articles/193574.json",
+      "markdown_path": "articles/193574.md",
+      "faq_count": 0
+    },
+    {
+      "id": "113",
+      "title": "팀 메신저란?",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-%EB%A9%94%EC%8B%A0%EC%A0%80%EB%9E%80-10924b2b",
+      "json_path": "articles/113.json",
+      "markdown_path": "articles/113.md",
+      "faq_count": 0
+    },
+    {
+      "id": "44",
+      "title": "팀원 초대 및 관리",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80%EC%9B%90-%EC%B4%88%EB%8C%80-%EB%B0%8F-%EA%B4%80%EB%A6%AC-4de540d2",
+      "json_path": "articles/44.json",
+      "markdown_path": "articles/44.md",
+      "faq_count": 1
+    },
+    {
+      "id": "114",
+      "title": "팀 메신저 구조",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-%EB%A9%94%EC%8B%A0%EC%A0%80-%EA%B5%AC%EC%A1%B0-c7d7d52d",
+      "json_path": "articles/114.json",
+      "markdown_path": "articles/114.md",
+      "faq_count": 4
+    },
+    {
+      "id": "31",
+      "title": "상담 구조",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%EA%B5%AC%EC%A1%B0-3c201477",
+      "json_path": "articles/31.json",
+      "markdown_path": "articles/31.md",
+      "faq_count": 5
+    },
+    {
+      "id": "34",
+      "title": "수신함",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%88%98%EC%8B%A0%ED%95%A8-c2d439c6",
+      "json_path": "articles/34.json",
+      "markdown_path": "articles/34.md",
+      "faq_count": 9
+    },
+    {
+      "id": "125",
+      "title": "대화 내용 검색",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%8C%80%ED%99%94-%EB%82%B4%EC%9A%A9-%EA%B2%80%EC%83%89-4bacf090",
+      "json_path": "articles/125.json",
+      "markdown_path": "articles/125.md",
+      "faq_count": 4
+    },
+    {
+      "id": "17545",
+      "title": "입력폼",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9E%85%EB%A0%A5%ED%8F%BC-6e4fd112",
+      "json_path": "articles/17545.json",
+      "markdown_path": "articles/17545.md",
+      "faq_count": 8
+    },
+    {
+      "id": "62",
+      "title": "팔로업 알림",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%94%EB%A1%9C%EC%97%85-%EC%95%8C%EB%A6%BC-1ab15b6a",
+      "json_path": "articles/62.json",
+      "markdown_path": "articles/62.md",
+      "faq_count": 4
+    },
+    {
+      "id": "132",
+      "title": "멀티 채널 응대",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%A9%80%ED%8B%B0-%EC%B1%84%EB%84%90-%EC%9D%91%EB%8C%80-643dcb1b",
+      "json_path": "articles/132.json",
+      "markdown_path": "articles/132.md",
+      "faq_count": 0
+    },
+    {
+      "id": "482",
+      "title": "상담 프로필",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%ED%94%84%EB%A1%9C%ED%95%84-53fc25fc",
+      "json_path": "articles/482.json",
+      "markdown_path": "articles/482.md",
+      "faq_count": 3
+    },
+    {
+      "id": "74",
+      "title": "고객 구분",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%EA%B5%AC%EB%B6%84-b2b4aab2",
+      "json_path": "articles/74.json",
+      "markdown_path": "articles/74.md",
+      "faq_count": 0
+    },
+    {
+      "id": "32",
+      "title": "고객 프로필",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%ED%94%84%EB%A1%9C%ED%95%84-70732795",
+      "json_path": "articles/32.json",
+      "markdown_path": "articles/32.md",
+      "faq_count": 2
+    },
+    {
+      "id": "92",
+      "title": "고객 연락처",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%EC%97%B0%EB%9D%BD%EC%B2%98-312d45b2",
+      "json_path": "articles/92.json",
+      "markdown_path": "articles/92.md",
+      "faq_count": 0
+    },
+    {
+      "id": "32220",
+      "title": "고객 관리",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%EA%B4%80%EB%A6%AC-767e3b79",
+      "json_path": "articles/32220.json",
+      "markdown_path": "articles/32220.md",
+      "faq_count": 17
+    },
+    {
+      "id": "67",
+      "title": "고객 태그",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%ED%83%9C%EA%B7%B8-c413386c",
+      "json_path": "articles/67.json",
+      "markdown_path": "articles/67.md",
+      "faq_count": 9
+    },
+    {
+      "id": "54",
+      "title": "이벤트",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9D%B4%EB%B2%A4%ED%8A%B8-f6522c2f",
+      "json_path": "articles/54.json",
+      "markdown_path": "articles/54.md",
+      "faq_count": 0
+    },
+    {
+      "id": "135",
+      "title": "유니피케이션",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9C%A0%EB%8B%88%ED%94%BC%EC%BC%80%EC%9D%B4%EC%85%98-b437a01e",
+      "json_path": "articles/135.json",
+      "markdown_path": "articles/135.md",
+      "faq_count": 6
+    },
+    {
+      "id": "332349",
+      "title": "ALF란?",
+      "url": "https://docs.channel.io/help/ko/articles/ALF%EB%9E%80-d791e043",
+      "json_path": "articles/332349.json",
+      "markdown_path": "articles/332349.md",
+      "faq_count": 1
+    },
+    {
+      "id": "332350",
+      "title": "ALF 주요 변경점 안내",
+      "url": "https://docs.channel.io/help/ko/articles/ALF-%EC%A3%BC%EC%9A%94-%EB%B3%80%EA%B2%BD%EC%A0%90-%EC%95%88%EB%82%B4-01595c2d",
+      "json_path": "articles/332350.json",
+      "markdown_path": "articles/332350.md",
+      "faq_count": 1
+    },
+    {
+      "id": "332351",
+      "title": "규칙",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B7%9C%EC%B9%99-b43e19a1",
+      "json_path": "articles/332351.json",
+      "markdown_path": "articles/332351.md",
+      "faq_count": 0
+    },
+    {
+      "id": "332353",
+      "title": "지식",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%A7%80%EC%8B%9D-803f6ac9",
+      "json_path": "articles/332353.json",
+      "markdown_path": "articles/332353.md",
+      "faq_count": 1
+    },
+    {
+      "id": "332352",
+      "title": "태스크",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%83%9C%EC%8A%A4%ED%81%AC--2a16be8b",
+      "json_path": "articles/332352.json",
+      "markdown_path": "articles/332352.md",
+      "faq_count": 1
+    },
+    {
+      "id": "332355",
+      "title": "배포 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%B0%B0%ED%8F%AC-%EC%84%A4%EC%A0%95-e9dbb764",
+      "json_path": "articles/332355.json",
+      "markdown_path": "articles/332355.md",
+      "faq_count": 0
+    },
+    {
+      "id": "351542",
+      "title": "통계",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%86%B5%EA%B3%84-932cae8a",
+      "json_path": "articles/351542.json",
+      "markdown_path": "articles/351542.md",
+      "faq_count": 0
+    },
+    {
+      "id": "439640",
+      "title": "ALF 대화 목록",
+      "url": "https://docs.channel.io/help/ko/articles/ALF-%EB%8C%80%ED%99%94-%EB%AA%A9%EB%A1%9D-ff7eb52d",
+      "json_path": "articles/439640.json",
+      "markdown_path": "articles/439640.md",
+      "faq_count": 0
+    },
+    {
+      "id": "482164",
+      "title": "ALF 전화 상담 (Beta)",
+      "url": "https://docs.channel.io/help/ko/articles/ALF-%EC%A0%84%ED%99%94-%EC%83%81%EB%8B%B4-Beta-4740f304",
+      "json_path": "articles/482164.json",
+      "markdown_path": "articles/482164.md",
+      "faq_count": 5
+    },
+    {
+      "id": "475438",
+      "title": "ALF 문제 해결",
+      "url": "https://docs.channel.io/help/ko/articles/ALF-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-219af581",
+      "json_path": "articles/475438.json",
+      "markdown_path": "articles/475438.md",
+      "faq_count": 0
+    },
+    {
+      "id": "162691",
+      "title": "팀 ALF",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-ALF-c3ea989d",
+      "json_path": "articles/162691.json",
+      "markdown_path": "articles/162691.md",
+      "faq_count": 10
+    },
+    {
+      "id": "108893",
+      "title": "팀 ALF 호출하기",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-ALF-%ED%98%B8%EC%B6%9C%ED%95%98%EA%B8%B0-957e49ef",
+      "json_path": "articles/108893.json",
+      "markdown_path": "articles/108893.md",
+      "faq_count": 5
+    },
+    {
+      "id": "235771",
+      "title": "팀 ALF 실험실",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-ALF-%EC%8B%A4%ED%97%98%EC%8B%A4-01c8d834",
+      "json_path": "articles/235771.json",
+      "markdown_path": "articles/235771.md",
+      "faq_count": 0
+    },
+    {
+      "id": "79487",
+      "title": "AI 부가기능",
+      "url": "https://docs.channel.io/help/ko/articles/AI-%EB%B6%80%EA%B0%80%EA%B8%B0%EB%8A%A5-83a616d8",
+      "json_path": "articles/79487.json",
+      "markdown_path": "articles/79487.md",
+      "faq_count": 6
+    },
+    {
+      "id": "11947",
+      "title": "워크플로우",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-b606de76",
+      "json_path": "articles/11947.json",
+      "markdown_path": "articles/11947.md",
+      "faq_count": 0
+    },
+    {
+      "id": "11948",
+      "title": "트리거",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8A%B8%EB%A6%AC%EA%B1%B0-2184bbc0",
+      "json_path": "articles/11948.json",
+      "markdown_path": "articles/11948.md",
+      "faq_count": 0
+    },
+    {
+      "id": "11949",
+      "title": "액션",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%95%A1%EC%85%98-33ffa757",
+      "json_path": "articles/11949.json",
+      "markdown_path": "articles/11949.md",
+      "faq_count": 0
+    },
+    {
+      "id": "11950",
+      "title": "워크플로우 생성하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0-a497fa44",
+      "json_path": "articles/11950.json",
+      "markdown_path": "articles/11950.md",
+      "faq_count": 4
+    },
+    {
+      "id": "11951",
+      "title": "워크플로우 목록",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%AA%A9%EB%A1%9D-fe5074f8",
+      "json_path": "articles/11951.json",
+      "markdown_path": "articles/11951.md",
+      "faq_count": 2
+    },
+    {
+      "id": "11952",
+      "title": "아웃바운드성 워크플로우",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%95%84%EC%9B%83%EB%B0%94%EC%9A%B4%EB%93%9C%EC%84%B1-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-e2dbb0ec",
+      "json_path": "articles/11952.json",
+      "markdown_path": "articles/11952.md",
+      "faq_count": 0
+    },
+    {
+      "id": "56993",
+      "title": "모듈형 워크플로우",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%AA%A8%EB%93%88%ED%98%95-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-7f06f167",
+      "json_path": "articles/56993.json",
+      "markdown_path": "articles/56993.md",
+      "faq_count": 2
+    },
+    {
+      "id": "56995",
+      "title": "워크플로우 활용 예시",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%ED%99%9C%EC%9A%A9-%EC%98%88%EC%8B%9C-e0d54e92",
+      "json_path": "articles/56995.json",
+      "markdown_path": "articles/56995.md",
+      "faq_count": 0
+    },
+    {
+      "id": "17089",
+      "title": "워크플로우 통계",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%ED%86%B5%EA%B3%84-8736dea8",
+      "json_path": "articles/17089.json",
+      "markdown_path": "articles/17089.md",
+      "faq_count": 3
+    },
+    {
+      "id": "20504",
+      "title": "워크플로우 FAQ",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-FAQ-0907d9ff",
+      "json_path": "articles/20504.json",
+      "markdown_path": "articles/20504.md",
+      "faq_count": 0
+    },
+    {
+      "id": "162732",
+      "title": "워크플로우 문제 해결 가이드",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EA%B0%80%EC%9D%B4%EB%93%9C-2a90474e",
+      "json_path": "articles/162732.json",
+      "markdown_path": "articles/162732.md",
+      "faq_count": 0
+    },
+    {
+      "id": "551237",
+      "title": "상담",
+      "url": "https://docs.channel.io/help/ko/articles/analytics-chats-10d6b120",
+      "json_path": "articles/551237.json",
+      "markdown_path": "articles/551237.md",
+      "faq_count": 4
+    },
+    {
+      "id": "535963",
+      "title": "커스텀 리포트 만들기",
+      "url": "https://docs.channel.io/help/ko/articles/create-custom-report-db2f47c4",
+      "json_path": "articles/535963.json",
+      "markdown_path": "articles/535963.md",
+      "faq_count": 3
+    },
+    {
+      "id": "535964",
+      "title": "차트 유형 및 옵션",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B0%A8%ED%8A%B8-%EC%9C%A0%ED%98%95-%EB%B0%8F-%EC%98%B5%EC%85%98-c64657c8",
+      "json_path": "articles/535964.json",
+      "markdown_path": "articles/535964.md",
+      "faq_count": 0
+    },
+    {
+      "id": "535967",
+      "title": "리포트 지표 & 필터",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%A6%AC%ED%8F%AC%ED%8A%B8-%EC%A7%80%ED%91%9C--%ED%95%84%ED%84%B0-e99e1425",
+      "json_path": "articles/535967.json",
+      "markdown_path": "articles/535967.md",
+      "faq_count": 0
+    },
+    {
+      "id": "535969",
+      "title": "지표별 상담 목록 및 다운로드",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%A7%80%ED%91%9C%EB%B3%84-%EC%83%81%EB%8B%B4-%EB%AA%A9%EB%A1%9D-%EB%B0%8F-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-03015170",
+      "json_path": "articles/535969.json",
+      "markdown_path": "articles/535969.md",
+      "faq_count": 0
+    },
+    {
+      "id": "202460",
+      "title": "케이스",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%BC%80%EC%9D%B4%EC%8A%A4-f508f467",
+      "json_path": "articles/202460.json",
+      "markdown_path": "articles/202460.md",
+      "faq_count": 4
+    },
+    {
+      "id": "202463",
+      "title": "케이스 통계 다운로드",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%86%B5%EA%B3%84-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-d3312baa",
+      "json_path": "articles/202463.json",
+      "markdown_path": "articles/202463.md",
+      "faq_count": 2
+    },
+    {
+      "id": "68567",
+      "title": "전화 모니터링",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%A0%84%ED%99%94-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-3189edd5",
+      "json_path": "articles/68567.json",
+      "markdown_path": "articles/68567.md",
+      "faq_count": 4
+    },
+    {
+      "id": "105",
+      "title": "오퍼레이터",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%98%A4%ED%8D%BC%EB%A0%88%EC%9D%B4%ED%84%B0-19f891ce",
+      "json_path": "articles/105.json",
+      "markdown_path": "articles/105.md",
+      "faq_count": 11
+    },
+    {
+      "id": "25",
+      "title": "마케팅이란?",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%A7%88%EC%BC%80%ED%8C%85%EC%9D%B4%EB%9E%80-368b4bb5",
+      "json_path": "articles/25.json",
+      "markdown_path": "articles/25.md",
+      "faq_count": 1
+    },
+    {
+      "id": "120",
+      "title": "정보성 메시지란?",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%A0%95%EB%B3%B4%EC%84%B1-%EB%A9%94%EC%8B%9C%EC%A7%80%EB%9E%80-0d720440",
+      "json_path": "articles/120.json",
+      "markdown_path": "articles/120.md",
+      "faq_count": 0
+    },
+    {
+      "id": "78",
+      "title": "일회성 메시지",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9D%BC%ED%9A%8C%EC%84%B1-%EB%A9%94%EC%8B%9C%EC%A7%80-f62c11ab",
+      "json_path": "articles/78.json",
+      "markdown_path": "articles/78.md",
+      "faq_count": 1
+    },
+    {
+      "id": "104",
+      "title": "캠페인",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%BA%A0%ED%8E%98%EC%9D%B8-9064c609",
+      "json_path": "articles/104.json",
+      "markdown_path": "articles/104.md",
+      "faq_count": 0
+    },
+    {
+      "id": "87",
+      "title": "알림톡",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%95%8C%EB%A6%BC%ED%86%A1-9747de9a",
+      "json_path": "articles/87.json",
+      "markdown_path": "articles/87.md",
+      "faq_count": 4
+    },
+    {
+      "id": "310335",
+      "title": "브랜드 메시지(친구톡)",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%B8%8C%EB%9E%9C%EB%93%9C-%EB%A9%94%EC%8B%9C%EC%A7%80%EC%B9%9C%EA%B5%AC%ED%86%A1--08543518",
+      "json_path": "articles/310335.json",
+      "markdown_path": "articles/310335.md",
+      "faq_count": 0
+    },
+    {
+      "id": "91",
+      "title": "마케팅 통계",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%A7%88%EC%BC%80%ED%8C%85-%ED%86%B5%EA%B3%84-f7bb31b2",
+      "json_path": "articles/91.json",
+      "markdown_path": "articles/91.md",
+      "faq_count": 0
+    },
+    {
+      "id": "166703",
+      "title": "이벤트 정보",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%A0%95%EB%B3%B4-353347a0",
+      "json_path": "articles/166703.json",
+      "markdown_path": "articles/166703.md",
+      "faq_count": 0
+    },
+    {
+      "id": "35",
+      "title": "GTM 설정하기",
+      "url": "https://docs.channel.io/help/ko/articles/GTM-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-a7f86e26",
+      "json_path": "articles/35.json",
+      "markdown_path": "articles/35.md",
+      "faq_count": 1
+    },
+    {
+      "id": "77",
+      "title": "연동준비",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%97%B0%EB%8F%99%EC%A4%80%EB%B9%84-19115a20",
+      "json_path": "articles/77.json",
+      "markdown_path": "articles/77.md",
+      "faq_count": 0
+    },
+    {
+      "id": "86",
+      "title": "메신저 연동하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%A9%94%EC%8B%A0%EC%A0%80-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-574171aa",
+      "json_path": "articles/86.json",
+      "markdown_path": "articles/86.md",
+      "faq_count": 7
+    },
+    {
+      "id": "126",
+      "title": "피드 연동하기",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%94%BC%EB%93%9C-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-00334052",
+      "json_path": "articles/126.json",
+      "markdown_path": "articles/126.md",
+      "faq_count": 3
+    },
+    {
+      "id": "37",
+      "title": "DNS 연동",
+      "url": "https://docs.channel.io/help/ko/articles/DNS-%EC%97%B0%EB%8F%99-70153772",
+      "json_path": "articles/37.json",
+      "markdown_path": "articles/37.md",
+      "faq_count": 2
+    },
+    {
+      "id": "38",
+      "title": "수신함 연동",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%88%98%EC%8B%A0%ED%95%A8-%EC%97%B0%EB%8F%99-3011c95f",
+      "json_path": "articles/38.json",
+      "markdown_path": "articles/38.md",
+      "faq_count": 6
+    },
+    {
+      "id": "39",
+      "title": "톡톡 파트너 계정 준비",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%86%A1%ED%86%A1-%ED%8C%8C%ED%8A%B8%EB%84%88-%EA%B3%84%EC%A0%95-%EC%A4%80%EB%B9%84-8abe2bd7",
+      "json_path": "articles/39.json",
+      "markdown_path": "articles/39.md",
+      "faq_count": 0
+    },
+    {
+      "id": "100",
+      "title": "톡톡 연동하기",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%86%A1%ED%86%A1-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-3d8c6ce9",
+      "json_path": "articles/100.json",
+      "markdown_path": "articles/100.md",
+      "faq_count": 13
+    },
+    {
+      "id": "99",
+      "title": "네이버 로그인 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%84%A4%EC%A0%95-6c2e7a24",
+      "json_path": "articles/99.json",
+      "markdown_path": "articles/99.md",
+      "faq_count": 5
+    },
+    {
+      "id": "56159",
+      "title": "네이버 스마트스토어 주문연동",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8A%A4%ED%86%A0%EC%96%B4-%EC%A3%BC%EB%AC%B8%EC%97%B0%EB%8F%99-0729d2f6",
+      "json_path": "articles/56159.json",
+      "markdown_path": "articles/56159.md",
+      "faq_count": 4
+    },
+    {
+      "id": "57",
+      "title": "비즈니스 인증",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D-1b9e3eb9",
+      "json_path": "articles/57.json",
+      "markdown_path": "articles/57.md",
+      "faq_count": 0
+    },
+    {
+      "id": "220854",
+      "title": "카카오톡 연동하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-04f5721d",
+      "json_path": "articles/220854.json",
+      "markdown_path": "articles/220854.md",
+      "faq_count": 20
+    },
+    {
+      "id": "66",
+      "title": "고객 링크",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%EB%A7%81%ED%81%AC-84093dde",
+      "json_path": "articles/66.json",
+      "markdown_path": "articles/66.md",
+      "faq_count": 3
+    },
+    {
+      "id": "69",
+      "title": "슬랙",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%8A%AC%EB%9E%99-9b78becd",
+      "json_path": "articles/69.json",
+      "markdown_path": "articles/69.md",
+      "faq_count": 5
+    },
+    {
+      "id": "116",
+      "title": "트윌리오",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8A%B8%EC%9C%8C%EB%A6%AC%EC%98%A4-eeb061a3",
+      "json_path": "articles/116.json",
+      "markdown_path": "articles/116.md",
+      "faq_count": 0
+    },
+    {
+      "id": "53",
+      "title": "라인",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%9D%BC%EC%9D%B8-1af80f96",
+      "json_path": "articles/53.json",
+      "markdown_path": "articles/53.md",
+      "faq_count": 6
+    },
+    {
+      "id": "73",
+      "title": "잔디",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9E%94%EB%94%94-e8e7aee4",
+      "json_path": "articles/73.json",
+      "markdown_path": "articles/73.md",
+      "faq_count": 4
+    },
+    {
+      "id": "115",
+      "title": "문자",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%AC%B8%EC%9E%90-ba987cea",
+      "json_path": "articles/115.json",
+      "markdown_path": "articles/115.md",
+      "faq_count": 9
+    },
+    {
+      "id": "203",
+      "title": "앱스토어란?",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%95%B1%EC%8A%A4%ED%86%A0%EC%96%B4%EB%9E%80-dcbf543d",
+      "json_path": "articles/203.json",
+      "markdown_path": "articles/203.md",
+      "faq_count": 0
+    },
+    {
+      "id": "108",
+      "title": "카페24 허브",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B9%B4%ED%8E%9824-%ED%97%88%EB%B8%8C--657238c6",
+      "json_path": "articles/108.json",
+      "markdown_path": "articles/108.md",
+      "faq_count": 8
+    },
+    {
+      "id": "310",
+      "title": "쇼피파이 허브",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%87%BC%ED%94%BC%ED%8C%8C%EC%9D%B4-%ED%97%88%EB%B8%8C-22a95d1f",
+      "json_path": "articles/310.json",
+      "markdown_path": "articles/310.md",
+      "faq_count": 4
+    },
+    {
+      "id": "306",
+      "title": "GitHub",
+      "url": "https://docs.channel.io/help/ko/articles/GitHub-5c755cd0",
+      "json_path": "articles/306.json",
+      "markdown_path": "articles/306.md",
+      "faq_count": 2
+    },
+    {
+      "id": "31695",
+      "title": "080 수신거부 앱",
+      "url": "https://docs.channel.io/help/ko/articles/080-%EC%88%98%EC%8B%A0%EA%B1%B0%EB%B6%80-%EC%95%B1-9ca9ea06",
+      "json_path": "articles/31695.json",
+      "markdown_path": "articles/31695.md",
+      "faq_count": 0
+    },
+    {
+      "id": "591828",
+      "title": "이지어드민",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9D%B4%EC%A7%80%EC%96%B4%EB%93%9C%EB%AF%BC-869393ab",
+      "json_path": "articles/591828.json",
+      "markdown_path": "articles/591828.md",
+      "faq_count": 0
+    },
+    {
+      "id": "622693",
+      "title": "구글 스프레드시트",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B5%AC%EA%B8%80-%EC%8A%A4%ED%94%84%EB%A0%88%EB%93%9C%EC%8B%9C%ED%8A%B8-c975a8c9",
+      "json_path": "articles/622693.json",
+      "markdown_path": "articles/622693.md",
+      "faq_count": 0
+    },
+    {
+      "id": "82",
+      "title": "사전 준비",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%82%AC%EC%A0%84-%EC%A4%80%EB%B9%84-ebe39da2",
+      "json_path": "articles/82.json",
+      "markdown_path": "articles/82.md",
+      "faq_count": 2
+    },
+    {
+      "id": "30",
+      "title": "번호 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%B2%88%ED%98%B8-%EC%84%A4%EC%A0%95-2b94d15c",
+      "json_path": "articles/30.json",
+      "markdown_path": "articles/30.md",
+      "faq_count": 1
+    },
+    {
+      "id": "297795",
+      "title": "번호 연동",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%B2%88%ED%98%B8-%EC%97%B0%EB%8F%99-fb35c768",
+      "json_path": "articles/297795.json",
+      "markdown_path": "articles/297795.md",
+      "faq_count": 8
+    },
+    {
+      "id": "42469",
+      "title": "IVR",
+      "url": "https://docs.channel.io/help/ko/articles/IVR-4deef10d",
+      "json_path": "articles/42469.json",
+      "markdown_path": "articles/42469.md",
+      "faq_count": 5
+    },
+    {
+      "id": "119",
+      "title": "사용 방법",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95-28817485",
+      "json_path": "articles/119.json",
+      "markdown_path": "articles/119.md",
+      "faq_count": 0
+    },
+    {
+      "id": "72",
+      "title": "자주 묻는 질문",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9E%90%EC%A3%BC-%EB%AC%BB%EB%8A%94-%EC%A7%88%EB%AC%B8-599632d3",
+      "json_path": "articles/72.json",
+      "markdown_path": "articles/72.md",
+      "faq_count": 0
+    },
+    {
+      "id": "93464",
+      "title": "전화 문제 해결",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%A0%84%ED%99%94-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0--9f84047d",
+      "json_path": "articles/93464.json",
+      "markdown_path": "articles/93464.md",
+      "faq_count": 1
+    },
+    {
+      "id": "68",
+      "title": "음성 미트",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%9D%8C%EC%84%B1-%EB%AF%B8%ED%8A%B8-40d04459",
+      "json_path": "articles/68.json",
+      "markdown_path": "articles/68.md",
+      "faq_count": 0
+    },
+    {
+      "id": "48",
+      "title": "영상 미트",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%98%81%EC%83%81-%EB%AF%B8%ED%8A%B8-6148a224",
+      "json_path": "articles/48.json",
+      "markdown_path": "articles/48.md",
+      "faq_count": 0
+    },
+    {
+      "id": "282",
+      "title": "팀 미트",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-%EB%AF%B8%ED%8A%B8-83c87ab4",
+      "json_path": "articles/282.json",
+      "markdown_path": "articles/282.md",
+      "faq_count": 0
+    },
+    {
+      "id": "42",
+      "title": "서비스 구독",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%EB%8F%85-df0f42a5",
+      "json_path": "articles/42.json",
+      "markdown_path": "articles/42.md",
+      "faq_count": 0
+    },
+    {
+      "id": "59",
+      "title": "구독 세부 설정",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B5%AC%EB%8F%85-%EC%84%B8%EB%B6%80-%EC%84%A4%EC%A0%95-77451f78",
+      "json_path": "articles/59.json",
+      "markdown_path": "articles/59.md",
+      "faq_count": 0
+    },
+    {
+      "id": "21",
+      "title": "결제 정보",
+      "url": "https://docs.channel.io/help/ko/articles/%EA%B2%B0%EC%A0%9C-%EC%A0%95%EB%B3%B4-07285135",
+      "json_path": "articles/21.json",
+      "markdown_path": "articles/21.md",
+      "faq_count": 3
+    },
+    {
+      "id": "52",
+      "title": "사용량 선불 충전",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%82%AC%EC%9A%A9%EB%9F%89-%EC%84%A0%EB%B6%88-%EC%B6%A9%EC%A0%84-3c72fcf1",
+      "json_path": "articles/52.json",
+      "markdown_path": "articles/52.md",
+      "faq_count": 0
+    },
+    {
+      "id": "98",
+      "title": "외부 전송 내역",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%99%B8%EB%B6%80-%EC%A0%84%EC%86%A1-%EB%82%B4%EC%97%AD-062a77af",
+      "json_path": "articles/98.json",
+      "markdown_path": "articles/98.md",
+      "faq_count": 0
+    },
+    {
+      "id": "102",
+      "title": "플랜 변경",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%94%8C%EB%9E%9C-%EB%B3%80%EA%B2%BD-313cbd92",
+      "json_path": "articles/102.json",
+      "markdown_path": "articles/102.md",
+      "faq_count": 1
+    },
+    {
+      "id": "117",
+      "title": "환불 정책",
+      "url": "https://docs.channel.io/help/ko/articles/%ED%99%98%EB%B6%88-%EC%A0%95%EC%B1%85-833c1f34",
+      "json_path": "articles/117.json",
+      "markdown_path": "articles/117.md",
+      "faq_count": 2
+    },
+    {
+      "id": "92508",
+      "title": "청구서 항목별 안내",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B2%AD%EA%B5%AC%EC%84%9C-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%95%88%EB%82%B4-3208623a",
+      "json_path": "articles/92508.json",
+      "markdown_path": "articles/92508.md",
+      "faq_count": 0
+    },
+    {
+      "id": "311",
+      "title": "도큐먼트란?",
+      "url": "https://docs.channel.io/help/ko/articles/%EB%8F%84%ED%81%90%EB%A8%BC%ED%8A%B8%EB%9E%80-77e0c094",
+      "json_path": "articles/311.json",
+      "markdown_path": "articles/311.md",
+      "faq_count": 2
+    },
+    {
+      "id": "312",
+      "title": "스페이스 알아보기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-5e68c207",
+      "json_path": "articles/312.json",
+      "markdown_path": "articles/312.md",
+      "faq_count": 0
+    },
+    {
+      "id": "314",
+      "title": "스페이스 만들기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0-54057ffd",
+      "json_path": "articles/314.json",
+      "markdown_path": "articles/314.md",
+      "faq_count": 0
+    },
+    {
+      "id": "315",
+      "title": "스페이스 설정하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-8c81b1ba",
+      "json_path": "articles/315.json",
+      "markdown_path": "articles/315.md",
+      "faq_count": 0
+    },
+    {
+      "id": "316",
+      "title": "카테고리 관리하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-938bde03",
+      "json_path": "articles/316.json",
+      "markdown_path": "articles/316.md",
+      "faq_count": 0
+    },
+    {
+      "id": "313",
+      "title": "아티클 알아보기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%95%84%ED%8B%B0%ED%81%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-cdcde391",
+      "json_path": "articles/313.json",
+      "markdown_path": "articles/313.md",
+      "faq_count": 0
+    },
+    {
+      "id": "1186",
+      "title": "아티클 작성하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%95%84%ED%8B%B0%ED%81%B4-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-be177b0b",
+      "json_path": "articles/1186.json",
+      "markdown_path": "articles/1186.md",
+      "faq_count": 2
+    },
+    {
+      "id": "318",
+      "title": "아티클 관리하기",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%95%84%ED%8B%B0%ED%81%B4-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-7e6e6913",
+      "json_path": "articles/318.json",
+      "markdown_path": "articles/318.md",
+      "faq_count": 0
+    },
+    {
+      "id": "56",
+      "title": "FAQ",
+      "url": "https://docs.channel.io/help/ko/articles/FAQ-db21218c",
+      "json_path": "articles/56.json",
+      "markdown_path": "articles/56.md",
+      "faq_count": 8
+    },
+    {
+      "id": "31692",
+      "title": "SLA",
+      "url": "https://docs.channel.io/help/ko/articles/SLA-0cf9bb1c",
+      "json_path": "articles/31692.json",
+      "markdown_path": "articles/31692.md",
+      "faq_count": 0
+    },
+    {
+      "id": "421",
+      "title": "채널엑스",
+      "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90%EC%97%91%EC%8A%A4-479e36d6",
+      "json_path": "articles/421.json",
+      "markdown_path": "articles/421.md",
+      "faq_count": 0
+    }
+  ]
+}

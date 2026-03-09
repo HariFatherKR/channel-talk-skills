@@ -1,0 +1,2999 @@
+{
+  "id": "52",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%82%AC%EC%9A%A9%EB%9F%89-%EC%84%A0%EB%B6%88-%EC%B6%A9%EC%A0%84-3c72fcf1",
+  "title": "사용량 선불 충전",
+  "summary": "MU, 시트, 부가 서비스의 월 사용량을 예측하여 미리 구매할 수 있어요. 연간 약정으로 사용량을 선불 충전하면 최대 25% 할인되어 약 3개월 치를 무료로 이용할 수 있어요.",
+  "plaintext": "선불 충전 특징\n12개월 치 예상 사용량을 미리 충전하여 이용할 수 있어요.\n12개월 유효 기간이 지나면 충전한 사용량은 자동 소멸됩니다.\n충전한 사용량은 정해진 월 사용량 범위 내에서만 이용이 가능하며, 월 최소/최대 사용량이 정해져 있어요.\n필요시 사용량은 여러 번에 나누어 추가 구매할 수 있고, 필요한 사용량을 한 번에 구매할 수 있어요.\n무료 체험 중에도 선불 충전 예약이 가능합니다.\n체험이 종료될 때 이용할 선불 충전 사용량을 예약해 둘 수 있어요\n예약한 선불 충전 내역은 [채널 설정] - [구독 및 결제] - [서비스 구독] - [선불 충전 예약]에서 확인 및 변경하실 수 있습니다.\n선불 충전 방법\n설정 경로: [채널 설정] - [구독 및 결제] - [사용량 선불 충전] 클릭 후\n플랜\n기본 기능, 부가 서비스, 연동 서비스 충전을 선택해 주세요.\n구매/예약:\n선불 충전을 구매 또는 예약할 수 있어요.\n구매: 선불 충전을 즉시 구매합니다.\n예약: 다음 결제일에 맞춰 선불 충전 구매가 이루어지도록 예약합니다.\n예시) 선불 충전 예약 시점이 11월 11일이고 결제일이 1일인 경우 12월 1일에 구매합니다.\n월 사용량\n: 예상되는 월 기준 사용량을 입력하면 12개월 치 선불 충전 가격을 확인할 수 있어요.\n구매 갱신:\n유효기간 만료 다음날 선불 충전이 자동으로 갱신됩니다. 구매 갱신은 구매 후에도 on/off 설정을 바꿀 수 있어요.\n월 최소/최대 사용량\n월 최소 사용량(min):\n선불 충전한 월 기준 사용량의 0.5배\n당월 사용량이 없더라도 선불 충전한\n월 최소 사용량\n만큼은 자동으로 차감됩니다.\n월 최대 사용량(max)\n: 선불 충전한 월 기준 사용량의 2배\n이번 달 월 기준 사용량을 모두 소진하였다며 다음 달 사용량에서 자동으로\n당겨쓰기\n됩니다.\n이 때 월 기준 사용량의 최대 2배(월 최대 사용량)까지 당겨서 사용할 수 있어요.\n예시) MU를 [월 기준 사용량 2,000 * 12개월] 선불 충전해 둔 경우,\n월 최소 사용량은 1,000입니다. 당겨쓰기 가능한 월 최대 사용량은 4,000입니다.\nMU 초과 분이 4,500 일 때, 선불 충전한 월 기준 사용량 2,000이 차감됩니다.\n나머지 2,000은 당겨쓰기 가능한 월 최대 사용량에서 차감됩니다.\n잔여 MU 500에 대해서는 후불 요금으로 청구됩니다.\n담기\n버튼을 누르면 우측 구매 목록에서 구매 또는 예약 항목의 수량과 금액을 확인할 수 있습니다.\n구매 목록의 구매하기 버튼을 통해 담은 사용량을 구매해 주시면 됩니다.\n연동 서비스 충전(문자, 소셜미디어)는 선불 충전 할인 및 최대/최소 사용량이 적용되지 않아요.\n선불 충전 예약 수정 또는 취소\n설정 경로: [채널 설정] - [구독 및 결제] - [서비스 구독] - [선불 충전 예약]\nID가 '예약'인 건을 통해 선불 충전 예약 내역을 확인할 수 있습니다.\n목록 우측 [>] 아이콘을 클릭하여 사용량을 수정하거나 구독 갱신을 끄거나 구매 예약을 취소할 수 있어요.\n구매 갱신: 구매 예약이 수행된 이후 다시 1년 후 갱신할지 여부를 설정합니다. 구매 갱신을 끄더라도 예정된 일정에 구매가 발생하며 이후 갱신되지 않습니다.\n구매 예약 취소: 구매 예약 취소 시 구매 예약을 취소하여 예정된 일정에 구매가 발생하지 않습니다.\n선불 충전 시 유의 사항\n실제 정산이 발생하여 충전한 사용량이 차감된 경우 전액 및 부분 환불 적용이 불가하니 확인 후 구매해 주세요.\n(→ 환불 가이드 바로 가기)\n무료 플랜의 경우 선불 충전을 구매할 수 없습니다.\n사용량 선불 충전 시 한 번에 최대 구매 가능한 수(9,999,999,999건)가 한정되어 있어요. 필요 시 사용량은 여러 번에 나누어 추가로 구매할 수 있습니다.\n플랜의 시스템 한도를 초과하여 사용량 선불 충전 시 이용이 불가합니다.\n(→ 사용 한도 가이드 바로 가기)\n수동 한도를 설정한 경우, 설정한 한도보다 사용량을 초과하여 충전했더라도 한도를 늘리면 이용할 수 있어요.\n선불 충전 종류\n필수 기능\n플랜에서 기본 제공되는 MU(관리 고객), 기본 시트, 오퍼레이터 시트보다 더 사용하고 있다면 추가로 구매할 수 있어요.\n부가 서비스\n워크플로우, AI 에이전트 (ALF), 마케팅 사용량, 화이트 라벨, 보안 패키지를 추가로 구매할 수 있어요.\n화이트 라벨: 화이트 라벨은 채널톡 버튼 클릭 시 보여지는 [채널톡 이용 중] 표시를 가려주는 기능입니다. 화이트 라벨은 선불 충전 시에만 이용이 가능하며, 브랜드 규정이 엄격하여 타사 로고 노출이 전혀 불가능한 경우에 사용할 수 있어요.\n연동 서비스 충전\n문자(SMS, LMS), 알림톡, 상담톡 전송 시 발생하는 건당 PU 요금과 전화번호 비용, 발신 통화 시 발생하는 CU 요금을 미리 충전하여 사용할 수 있어요.\n문자: SMS/LMS 전송 당 과금\n소셜미디어: 알림톡 전송 당 과금, 상담톡 대화방 당 과금\n전화번호: 전화 상담을 위해 전화번호를 발급 받을 때 회선 당 과금\n발신 통화료: 발신 통화 시간 당 과금\nPU(Post Unit)\n마케팅 기능으로 알림톡, 문자 메시지를 보내거나, 팔로업 알림을 보낼 때, 상담톡에 답변할 때 PU 요금이 별도 부과됩니다.\nPU(Post Unit) 요금은 문자 및 소셜미디어 사용 시 발생하는 비용으로\n1PU는 1원\n을 의미합니다.\n구독 중인 플랜과 상관없이 사용량에 따라 충전해 사용할 수 있어요.\n충전한 PU는 별도로 월 최소/최대 사용량이 정해져 있지 않아 제한 없이 충전한 만큼 이용할 수 있어요.\n종류\n요금\n카카오 알림톡\n카카오 상담톡\n7PU (7원)\n80PU (80원)\n국내 SMS\n10PU (10원)\n국내 LMS\n28PU (28원)\nCU(Call Unit)\n무선 : 010, 01x 등 휴대전화 번호로 전화를 걸 경우\n유선 : 지역 번호 (02, 031 등), 070 번호 로 전화를 걸 경우\nCU(CallUnit)는 채널톡 내 전화 비용 단위이며, 1CU는 1원을 의미합니다.\n수신 시에는 통화료가 발생하지 않습니다.\n전국대표번호(1588, 1644 등), 안심번호/ 평생번호(050x) 등의 지능망으로 전화를 걸 경우 정보통화료 항목으로 과금되며, 무선 발신 요금과 동일하게 72CU/분 으로 청구됩니다.\n수신자부담번호(080) 로 전화를 걸 경우 요금은 수신자(받는 사람) 측에서 부담합니다.\n종류\n요금\n무선 통화료\n72CU\n(1분/72원)\n유선 통화료\n15CU\n(1분/15원)\n정보 제공, 기부, 결제 등을 목적으로 하는 부가서비스 번호(060)는 발신이 불가합니다.\n전화번호\n번호 발급 시 매달 회선 당 비용이 발생됩니다.\n발급 받았던 회선을 반납 후, 결제 주기 이내에 다시 발급할 경우 1회선으로 간주합니다.\n플랜\n요금\n얼리 스테이지\n5,000원\n그로스, 엔터프라이즈\n9,000원\n글로벌 문자 발송\n채널톡으로 해외 SMS 전송 시 발생하는 요금은 문자 길이에 따라 아래와 같이 산정됩니다.\n북미: 메시지 발송 건 당 14PU + 메시지 세그먼트 당 14.5PU\n일본: 메시지 발송 건 당 14PU + 메시지 세그먼트 당 109PU\n종류\n요금\n글로벌 SMS - 북미\n28.5PU~ (28.5원 이상)\n글로벌 SMS - 일본\n123PU~ (123원 이상)\n1 세그먼트는 140byte입니다. (한국어/일본어 기준 약 70자, 영어 기준 약 160자)\n글자 수에는 자동으로 추가되는 메시지도 포함됩니다.\n글로벌 문자 전송 시 Twilio를 연동하면 제한없이 문자 메시지를 보낼 수 있으며, 이 때 글로벌 문자 이용료는 연동한 Twilio 계정에서 직접 과금됩니다.\n(→ Twilio 가이드 바로가기)\n자주 묻는 질문\n12개월 사용량 선불 충전 후 추가로 충전이 가능한가요?\n필요 시 사용량은 여러 번에 나누어 추가 구매할 수 있어요. 다만, 구매 시 사용량 구간 별 단가가 적용되기 때문에 1,000건씩 나누어 5번 추가 구매하는 것보다 한번 5,000건을 구매하는 것이 더 저렴합니다.\n예를 들어, 워크플로우 [월 사용량 1,000 * 12개월]을 5번에 나누어 총 5,000건을 구매하면 총 47만 5천원(950 x 100원 x 5번)이지만 워크플로우 [월 사용량 5,000 * 12개월]을 한번에 구매하면 총 39만 5천원(2,950 X 100원 x 1번 + 2,000 x 50원 x 1번)의 비용이 들어갑니다.\n워크플로우 구간별 단가표\n실행 수\n건당 이용 요금\n1 ~ 50\n무료\n51 ~ 3,000\n100원\n3,001 ~ 20,000\n50원\n20,001 ~\n10원\n사용량을 나눠서 선불 충전하면 월 최소/ 최대 충전량이 어떻게 되나요?\n사용량은 여러 번에 나누어 추가 구매할 수 있어요. 예를 들어 1/1에 MU를 [월 사용량 100 * 12개월] 선불 충전한 후 6/15에 MU를 [월 사용량 100 * 12개월] 추가로 충전한 경우, 각 기간 별 사용량 범위는 아래와 같습니다.\n2024-01-01 ~ 2024-06-14\n월 사용량: 100, 월 최소 사용량: 50, 월 최대 사용량: 200\n2024-06-15 ~ 2024-12-31\n월 사용량: 200, 월 최소 사용량: 100, 월 최대 사용량: 400\n2025-01-01 ~ 2025-06-14\n월 사용량: 100, 월 최소 사용량: 50, 월 최대 사용량: 200\n연동 서비스 충전(문자, 소셜미디어, 전화번호, 발신 통화료)는 최대/최소 사용량이 적용되지 않아요.\n사용량 선불 충전 시 한 번에 충전할 수 있는 최소/최대 수량이 정해져 있나요?\n선불 충전 시 한 번에 충전 가능한 최소/ 최대 수량은 아래와 같습니다.\n최대 수량\nMU : 100만\n기본 시트/ 오퍼레이터 시트: 1000 시트\n부가 서비스/연동 서비스 충전: 9,999,999,999건\n최소 수량\nMU: 100\n기본 시트/ 오퍼레이터 시트: 1 시트\n부가 서비스/ 연동 서비스 충전 : 100",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "선불 충전 특징"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "12개월 치 예상 사용량을 미리 충전하여 이용할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "12개월 유효 기간이 지나면 충전한 사용량은 자동 소멸됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "충전한 사용량은 정해진 월 사용량 범위 내에서만 이용이 가능하며, 월 최소/최대 사용량이 정해져 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필요시 사용량은 여러 번에 나누어 추가 구매할 수 있고, 필요한 사용량을 한 번에 구매할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "무료 체험 중에도 선불 충전 예약이 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "체험이 종료될 때 이용할 선불 충전 사용량을 예약해 둘 수 있어요"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예약한 선불 충전 내역은 [채널 설정] - [구독 및 결제] - [서비스 구독] - [선불 충전 예약]에서 확인 및 변경하실 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": "howto",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/52/revisions/151/usermedia/662b106602052a0a6bc1"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "선불 충전 방법 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [구독 및 결제] - [사용량 선불 충전] 클릭 후 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "플랜"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "기본 기능, 부가 서비스, 연동 서비스 충전을 선택해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "선불 충전 방법.png",
+        "height": "948px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/52/revisions/91827/usermedia/6731d173e3d2126ccbb9",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "구매/예약: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "선불 충전을 구매 또는 예약할 수 있어요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "구매: 선불 충전을 즉시 구매합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예약: 다음 결제일에 맞춰 선불 충전 구매가 이루어지도록 예약합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시) 선불 충전 예약 시점이 11월 11일이고 결제일이 1일인 경우 12월 1일에 구매합니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-cobalt-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "월 사용량"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 예상되는 월 기준 사용량을 입력하면 12개월 치 선불 충전 가격을 확인할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "구매 갱신:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 유효기간 만료 다음날 선불 충전이 자동으로 갱신됩니다. 구매 갱신은 구매 후에도 on/off 설정을 바꿀 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "월 최소/최대 사용량"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "월 최소 사용량(min): "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "선불 충전한 월 기준 사용량의 0.5배"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "당월 사용량이 없더라도 선불 충전한 "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "월 최소 사용량"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": " 만큼은 자동으로 차감됩니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "월 최대 사용량(max)"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 선불 충전한 월 기준 사용량의 2배"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "이번 달 월 기준 사용량을 모두 소진하였다며 다음 달 사용량에서 자동으로 "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "당겨쓰기"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": " 됩니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "이 때 월 기준 사용량의 최대 2배(월 최대 사용량)까지 당겨서 사용할 수 있어요."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시) MU를 [월 기준 사용량 2,000 * 12개월] 선불 충전해 둔 경우,"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "월 최소 사용량은 1,000입니다. 당겨쓰기 가능한 월 최대 사용량은 4,000입니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MU 초과 분이 4,500 일 때, 선불 충전한 월 기준 사용량 2,000이 차감됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "나머지 2,000은 당겨쓰기 가능한 월 최대 사용량에서 차감됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "잔여 MU 500에 대해서는 후불 요금으로 청구됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "버튼을 누르면 우측 구매 목록에서 구매 또는 예약 항목의 수량과 금액을 확인할 수 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "구매 목록의 구매하기 버튼을 통해 담은 사용량을 구매해 주시면 됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "attrs": {
+                "icon": "warning",
+                "semanticColor": "bgtxt-orange-lightest"
+              },
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "연동 서비스 충전(문자, 소셜미디어)는 선불 충전 할인 및 최대/최소 사용량이 적용되지 않아요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "callout"
+            },
+            {
+              "attrs": {
+                "alt": "선불 충전 방법_구매목록에 담기.png",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/52/revisions/91827/usermedia/6731dcdec10c764f1bd1",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "선불 충전 예약 수정 또는 취소"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [구독 및 결제] - [서비스 구독] - [선불 충전 예약]"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "선불 충전 예약 확인하기.png",
+        "height": "736px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/52/revisions/91827/usermedia/6731e10f775be65464a2",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "ID가 '예약'인 건을 통해 선불 충전 예약 내역을 확인할 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "목록 우측 [>] 아이콘을 클릭하여 사용량을 수정하거나 구독 갱신을 끄거나 구매 예약을 취소할 수 있어요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "선불 충전 취소하기.png",
+        "height": "948px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/52/revisions/91827/usermedia/6736b6888effe3b4a4a4",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "구매 갱신: 구매 예약이 수행된 이후 다시 1년 후 갱신할지 여부를 설정합니다. 구매 갱신을 끄더라도 예정된 일정에 구매가 발생하며 이후 갱신되지 않습니다.  "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "구매 예약 취소: 구매 예약 취소 시 구매 예약을 취소하여 예정된 일정에 구매가 발생하지 않습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "선불 충전 시 유의 사항"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "실제 정산이 발생하여 충전한 사용량이 차감된 경우 전액 및 부분 환불 적용이 불가하니 확인 후 구매해 주세요. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 환불 가이드 바로 가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/833c1f34"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "무료 플랜의 경우 선불 충전을 구매할 수 없습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사용량 선불 충전 시 한 번에 최대 구매 가능한 수(9,999,999,999건)가 한정되어 있어요. 필요 시 사용량은 여러 번에 나누어 추가로 구매할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "플랜의 시스템 한도를 초과하여 사용량 선불 충전 시 이용이 불가합니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 사용 한도 가이드 바로 가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/77451f78"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "icon": "bulb",
+                "semanticColor": "bgtxt-cobalt-lightest"
+              },
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "수동 한도를 설정한 경우, 설정한 한도보다 사용량을 초과하여 충전했더라도 한도를 늘리면 이용할 수 있어요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "callout"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "선불 충전 종류"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/usermedia/66a24abda6397a1eaba2"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "필수 기능"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "플랜에서 기본 제공되는 MU(관리 고객), 기본 시트, 오퍼레이터 시트보다 더 사용하고 있다면 추가로 구매할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "부가 서비스"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우, AI 에이전트 (ALF), 마케팅 사용량, 화이트 라벨, 보안 패키지를 추가로 구매할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "화이트 라벨: 화이트 라벨은 채널톡 버튼 클릭 시 보여지는 [채널톡 이용 중] 표시를 가려주는 기능입니다. 화이트 라벨은 선불 충전 시에만 이용이 가능하며, 브랜드 규정이 엄격하여 타사 로고 노출이 전혀 불가능한 경우에 사용할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 서비스 충전"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "문자(SMS, LMS), 알림톡, 상담톡 전송 시 발생하는 건당 PU 요금과 전화번호 비용, 발신 통화 시 발생하는 CU 요금을 미리 충전하여 사용할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문자: SMS/LMS 전송 당 과금"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "소셜미디어: 알림톡 전송 당 과금, 상담톡 대화방 당 과금"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화번호: 전화 상담을 위해 전화번호를 발급 받을 때 회선 당 과금"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "발신 통화료: 발신 통화 시간 당 과금"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "PU(Post Unit)"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마케팅 기능으로 알림톡, 문자 메시지를 보내거나, 팔로업 알림을 보낼 때, 상담톡에 답변할 때 PU 요금이 별도 부과됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "PU(Post Unit) 요금은 문자 및 소셜미디어 사용 시 발생하는 비용으로 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "1PU는 1원"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 의미합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "구독 중인 플랜과 상관없이 사용량에 따라 충전해 사용할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "충전한 PU는 별도로 월 최소/최대 사용량이 정해져 있지 않아 제한 없이 충전한 만큼 이용할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "종류"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "요금"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "카카오 알림톡"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "카카오 상담톡"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "7PU (7원)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "80PU (80원)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "국내 SMS"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "10PU (10원)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "국내 LMS"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "28PU (28원)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "CU(Call Unit)"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "무선 : 010, 01x 등 휴대전화 번호로 전화를 걸 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유선 : 지역 번호 (02, 031 등), 070 번호 로 전화를 걸 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "CU(CallUnit)는 채널톡 내 전화 비용 단위이며, 1CU는 1원을 의미합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "수신 시에는 통화료가 발생하지 않습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "전국대표번호(1588, 1644 등), 안심번호/ 평생번호(050x) 등의 지능망으로 전화를 걸 경우 정보통화료 항목으로 과금되며, 무선 발신 요금과 동일하게 72CU/분 으로 청구됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "수신자부담번호(080) 로 전화를 걸 경우 요금은 수신자(받는 사람) 측에서 부담합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "종류"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "요금"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "무선 통화료"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "72CU "
+                      },
+                      "marks": [
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "(1분/72원)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유선 통화료"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "15CU "
+                      },
+                      "marks": [
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "(1분/15원)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-red-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "정보 제공, 기부, 결제 등을 목적으로 하는 부가서비스 번호(060)는 발신이 불가합니다."
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화번호"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "번호 발급 시 매달 회선 당 비용이 발생됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "발급 받았던 회선을 반납 후, 결제 주기 이내에 다시 발급할 경우 1회선으로 간주합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "플랜"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "요금"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "얼리 스테이지"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "5,000원"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "그로스, 엔터프라이즈"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "9,000원"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "글로벌 문자 발송"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡으로 해외 SMS 전송 시 발생하는 요금은 문자 길이에 따라 아래와 같이 산정됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "북미: 메시지 발송 건 당 14PU + 메시지 세그먼트 당 14.5PU"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일본: 메시지 발송 건 당 14PU + 메시지 세그먼트 당 109PU"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "종류"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "요금"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "글로벌 SMS - 북미"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "28.5PU~ (28.5원 이상)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "글로벌 SMS - 일본"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "123PU~ (123원 이상)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "1 세그먼트는 140byte입니다. (한국어/일본어 기준 약 70자, 영어 기준 약 160자)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "글자 수에는 자동으로 추가되는 메시지도 포함됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "글로벌 문자 전송 시 Twilio를 연동하면 제한없이 문자 메시지를 보낼 수 있으며, 이 때 글로벌 문자 이용료는 연동한 Twilio 계정에서 직접 과금됩니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ Twilio 가이드 바로가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/eeb061a3"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자주 묻는 질문"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "12개월 사용량 선불 충전 후 추가로 충전이 가능한가요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "필요 시 사용량은 여러 번에 나누어 추가 구매할 수 있어요. 다만, 구매 시 사용량 구간 별 단가가 적용되기 때문에 1,000건씩 나누어 5번 추가 구매하는 것보다 한번 5,000건을 구매하는 것이 더 저렴합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예를 들어, 워크플로우 [월 사용량 1,000 * 12개월]을 5번에 나누어 총 5,000건을 구매하면 총 47만 5천원(950 x 100원 x 5번)이지만 워크플로우 [월 사용량 5,000 * 12개월]을 한번에 구매하면 총 39만 5천원(2,950 X 100원 x 1번 + 2,000 x 50원 x 1번)의 비용이 들어갑니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 구간별 단가표"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "실행 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "건당 이용 요금"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "1 ~ 50"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "무료"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "51 ~ 3,000"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "100원"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "3,001 ~ 20,000"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "50원"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "20,001 ~"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "10원"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "사용량을 나눠서 선불 충전하면 월 최소/ 최대 충전량이 어떻게 되나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "사용량은 여러 번에 나누어 추가 구매할 수 있어요. 예를 들어 1/1에 MU를 [월 사용량 100 * 12개월] 선불 충전한 후 6/15에 MU를 [월 사용량 100 * 12개월] 추가로 충전한 경우, 각 기간 별 사용량 범위는 아래와 같습니다.\n"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "선불충정",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/52/revisions/151/usermedia/662b1066b22e62d7e44c"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2024-01-01 ~ 2024-06-14"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "월 사용량: 100, 월 최소 사용량: 50, 월 최대 사용량: 200"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2024-06-15 ~ 2024-12-31"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "월 사용량: 200, 월 최소 사용량: 100, 월 최대 사용량: 400"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2025-01-01 ~ 2025-06-14"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "월 사용량: 100, 월 최소 사용량: 50, 월 최대 사용량: 200"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "연동 서비스 충전(문자, 소셜미디어, 전화번호, 발신 통화료)는 최대/최소 사용량이 적용되지 않아요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "사용량 선불 충전 시 한 번에 충전할 수 있는 최소/최대 수량이 정해져 있나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "선불 충전 시 한 번에 충전 가능한 최소/ 최대 수량은 아래와 같습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최대 수량"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MU : 100만"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "기본 시트/ 오퍼레이터 시트: 1000 시트"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "부가 서비스/연동 서비스 충전: 9,999,999,999건"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최소 수량"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MU: 100"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "기본 시트/ 오퍼레이터 시트: 1 시트"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "부가 서비스/ 연동 서비스 충전 : 100"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "120",
+    "name": "Nacho",
+    "bio": "CX 팀 데이터 분석\n& 미트 오퍼레이션"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ec939b2f27863f0",
+  "linked_faqs": [],
+  "faq_count": 0
+}

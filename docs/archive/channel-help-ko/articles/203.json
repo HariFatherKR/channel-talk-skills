@@ -1,0 +1,459 @@
+{
+  "id": "203",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%95%B1%EC%8A%A4%ED%86%A0%EC%96%B4%EB%9E%80-dcbf543d",
+  "title": "앱스토어란?",
+  "summary": "채널톡에서 사용할 수 있는 다양한 부가 기능이 담긴 앱을 설치할 수 있는 스토어에요.",
+  "plaintext": "앱스토어를 통해 채널 운영에 필요한 앱을 직접 만들어 이용하실 수 있습니다. 추후 다른 사람이 만든 앱을 다운로드 해 이용할 수도 있어요.\n앱을 제작하고 이용하시는 데 필요한 중요 용어들을 안내해 드릴게요.\n앱(APP)\n앱(App)은 특정 외부 서비스와 채널톡을 연동하여 데이터를 주고받고 활용할 수 있게 해 주는 수단이에요. 채널톡에서 제공하는 카페24 허브가 대표적인 예시입니다.\n카페24 허브 앱을 통해, 카페24 및 WMS(재고관리솔루션)의 주문, 재고 데이터를 채널톡과 연동할 수 있어요.\n고객이 커맨드를 통해 요청한 주문 취소, 교환, 반품 등의 액션이 카페24와 WMS에 반영됩니다. (→\n카페24 허브 가이드 보러 가기\n)\n커맨드(Command)\n커맨드(Command)는 명령어 입력을 통해 앱의 특정 기능을 실행하는 방법입니다. 커맨드는 /(슬래시) 뒤에 명령어를 입력해 호출할 수 있어요.\n카페24의 주문 목록, 주문 취소 등의 기능도 커맨드 중 하나입니다. 고객이 상담을 통해 주문 취소 커맨드를 실행하면, 앱에 내장된 주문 취소 기능이 동작하게 되어요.\n실행 방법\nAI 에이전트 ALF를 이용하고 있는 채널이라면, ALF가 고객의 문의에 맞게 커맨드를 추천해 줍니다.\n“/주문 취소”와 같이 고객이 직접 명령어를 입력하여 커맨드를 실행할 수 있어요.\n워크플로우 또는 수신함에서 메시지 내 커맨드 버튼을 포함하여 전달할 수도 있습니다.\n활용 예시\n이커머스 이외에도, 커맨드는 필요에 따라 다양한 산업군에서 다양한 형태로 개발해 이용할 수 있어요.\n항공 : 예약 조회 및 변경\n호텔 : 룸서비스 주문과 결제\n렌터카 업체 : 차량 예약과 결제\n앱스토어(App Store)\n앱을 등록하고, 탐색하고, 설치할 수 있는 곳입니다. 우리 채널에 맞는 앱을 직접 개발하여 비공개 상태(private)로 이용할 수 있어요.\n이후에는 다른 사람들과 함께 쓸 수 있도록 앱을 공개 상태(public)로 등록하고, 다른 사람이 업로드한 앱을 설치해 이용할 수 있도록 제공될 예정입니다. 공개 상태의 앱 등록 시 채널톡의 심사가 진행되며, 심사가 통과되어야 다른 사람들에게 앱을 공개할 수 있습니다. 공개 상태로의 전환 및 심사 요건은 추후 공개됩니다.\n앱 개발, 제작 및 등록 방법은 아래 개발자 문서를 참고해 주세요.\n(→\n개발자 문서 보러 가기\n)",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "앱스토어를 통해 채널 운영에 필요한 앱을 직접 만들어 이용하실 수 있습니다. 추후 다른 사람이 만든 앱을 다운로드 해 이용할 수도 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "앱을 제작하고 이용하시는 데 필요한 중요 용어들을 안내해 드릴게요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Untitled (64).png",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/203/revisions/621/usermedia/6646efde967e81b0162a"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "앱(APP)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "앱(App)은 특정 외부 서비스와 채널톡을 연동하여 데이터를 주고받고 활용할 수 있게 해 주는 수단이에요. 채널톡에서 제공하는 카페24 허브가 대표적인 예시입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카페24 허브 앱을 통해, 카페24 및 WMS(재고관리솔루션)의 주문, 재고 데이터를 채널톡과 연동할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 커맨드를 통해 요청한 주문 취소, 교환, 반품 등의 액션이 카페24와 WMS에 반영됩니다. (→ "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "카페24 허브 가이드 보러 가기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/657238c6"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "카페24 허브_앱스토어.png",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/203/revisions/621/usermedia/6646f0a42eb1eaa32b2c"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "커맨드(Command)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "커맨드(Command)는 명령어 입력을 통해 앱의 특정 기능을 실행하는 방법입니다. 커맨드는 /(슬래시) 뒤에 명령어를 입력해 호출할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카페24의 주문 목록, 주문 취소 등의 기능도 커맨드 중 하나입니다. 고객이 상담을 통해 주문 취소 커맨드를 실행하면, 앱에 내장된 주문 취소 기능이 동작하게 되어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "실행 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "AI 에이전트 ALF를 이용하고 있는 채널이라면, ALF가 고객의 문의에 맞게 커맨드를 추천해 줍니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "“/주문 취소”와 같이 고객이 직접 명령어를 입력하여 커맨드를 실행할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "앱스토어란__커맨드예시 (4).png",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/203/revisions/621/usermedia/6646f0e72121aa6e2e76"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 또는 수신함에서 메시지 내 커맨드 버튼을 포함하여 전달할 수도 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이커머스 이외에도, 커맨드는 필요에 따라 다양한 산업군에서 다양한 형태로 개발해 이용할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "항공 : 예약 조회 및 변경"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "앱스토어란__항공예시.png",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/203/revisions/621/usermedia/6646f103ca9da9046017"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "호텔 : 룸서비스 주문과 결제"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "앱스토어란__커맨드예시 (3).png",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/203/revisions/621/usermedia/6646f12a66b524fd8e34"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "렌터카 업체 : 차량 예약과 결제"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "앱스토어란__커맨드예시 (2).png",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/203/revisions/621/usermedia/6646f1437ea28adce038"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "앱스토어(App Store)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "앱을 등록하고, 탐색하고, 설치할 수 있는 곳입니다. 우리 채널에 맞는 앱을 직접 개발하여 비공개 상태(private)로 이용할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이후에는 다른 사람들과 함께 쓸 수 있도록 앱을 공개 상태(public)로 등록하고, 다른 사람이 업로드한 앱을 설치해 이용할 수 있도록 제공될 예정입니다. 공개 상태의 앱 등록 시 채널톡의 심사가 진행되며, 심사가 통과되어야 다른 사람들에게 앱을 공개할 수 있습니다. 공개 상태로의 전환 및 심사 요건은 추후 공개됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "앱 개발, 제작 및 등록 방법은 아래 개발자 문서를 참고해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(→"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 개발자 문서 보러 가기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://developers.channel.io/reference/app-getting-started-kr"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/698d8681a87751bd0a07",
+  "linked_faqs": [],
+  "faq_count": 0
+}

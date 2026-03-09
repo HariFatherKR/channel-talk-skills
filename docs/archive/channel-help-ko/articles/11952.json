@@ -1,0 +1,743 @@
+{
+  "id": "11952",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%95%84%EC%9B%83%EB%B0%94%EC%9A%B4%EB%93%9C%EC%84%B1-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-e2dbb0ec",
+  "title": "아웃바운드성 워크플로우",
+  "summary": "아웃바운드성 워크플로우는 워크플로우를 마케팅 메시지로 보낼 수 있는 기능이에요. 고객이 구매를 고민하거나 상담이 필요한 적절한 타이밍에 말을 걸어 유의미한 리드(Lead)를 확보해보세요.",
+  "plaintext": "아웃바운드성 워크플로우는 워크플로우를 마케팅 메시지로 전송할 수 있는 기능이에요. 번거로운 회원 가입 절차 없이 입력폼을 통해 간단한 질문만으로 고객의 정보들을 획득할 수 있어요. 신규 리드 확보를 위한 간단한 설문을 마케팅으로 전송하여 먼저 적극적으로 고객에게 궁금한 점을 물어보세요.\n트리거가 ‘새 상담을 시작할 때 챗봇’인 워크플로우만 아웃바운드성 워크플로우로 이용할 수 있습니다.\n설정 방법\n상황에 맞춰 마케팅 일회성 메시지 혹은 캠페인 중 하나를 선택, ‘채널톡 메시지’로 발송 수단을 선택해주세요.\n일회성 메시지 : 보내고 싶은 시점에 1회만 보내는 메시지\n(→ 일회성 메시지 설정 방법 알아보기)\n캠페인 메시지 : 고객이 사이트에서 특정 행동(회원 가입 등)을 했을 때 자동으로 보내는 메시지(\n→ 캠페인 메시지 설정 방법 알아보기)\n[워크플로우 사용] 클릭 → 저장해 둔 워크플로우를 불러와주세요. (버블, 워크플로우 중 선택 가능)\n메시지를 받을 대상 고객과 운영 조건을 설정 후 전송 또는 퍼블리시 해주시면 됩니다.\n활용 예시\n재입고 알림 신청 받아두기\n고객이 품절된 상품 페이지에 들어왔다면, 재입고 안내를 통해 다시 돌아올 수 있게 해보세요.\n워크플로우 설정\n1) 트리거 : 새 상담을 시작할 때 챗봇\n2) 스케줄링 및 운영 : 비공개로 운영\n3) 입력폼 설정하기 : 안내할 메시지와 함께 상품명 / 컬러와 같은 내용을 입력폼으로 구성. 재입고 대기 상품이 많다면, 입력폼 질문 형식을 주관식이 아닌 단일 선택 드롭다운 등으로 구성 가능\n4) 우측 상단 ‘퍼블리시’ 버튼 클릭\n캠페인 메시지 설정\n1) 마케팅 > 캠페인 메시지 > 우측 상단 [+ 캠페인 만들기] > 발송 수단 “채널톡 메시지”로 선택 > '워크플로우 사용'을 선택\n2) 시작 이벤트 : 페이지 조회 + 접속 URL : 해당 상품의 URL로 설정\n3) 대기시간, 추가 이벤트 필터, 운영 및 목표는 알맞게 설정하기\n도입문의 페이지에서 리드 받기\nB2B나 객단가가 높은 고관여 서비스라면 주목해 주세요! 고관여 서비스는 세일즈가 중요하죠. 이 세일즈의 유의미한 핵심 타겟이 바로 리드(Lead)에요. 아웃바운드성 워크플로우 기능으로 리드 획득을 늘려보세요!\n워크플로우 설정\n1) 트리거 : 새 상담을 시작할 때 챗봇 (스케줄링 및 운영 : 비공개로 운영 선택)\n2) 시작 메시지와 응답 버튼 설정\n3) 응답 버튼과 연결되는 단계에 리드 정보를 받을 수 있는 입력폼 또는 담당자 배정과 같은 액션설정\n4) 우측 상단 ‘퍼블리시’ 버튼 클릭\n캠페인 메시지 설정\n1) 마케팅 > 캠페인 메시지 > 우측 상단 [+ 캠페인 만들기] > 발송 수단 “채널톡 메시지”로 선택 > '워크플로우 사용'을 선택\n2) 시작 이벤트 : 페이지 조회 + 접속 URL : 해당 상품의 URL로 설정\n3) 대기시간, 추가 이벤트 필터, 운영 및 목표는 알맞게 설정하기\n제품 추천 상담 받기\n고객의 피부타입 또는 기존 옷의 사이즈를 입력받아 맞춤형 상담을 진행해 보세요.\n워크플로우 설정\n1) 트리거 : 새 상담을 시작할 때 챗봇\n2) 스케줄링 및 운영 : 비공개로 운영\n3) 입력폼 설정하기 : 안내할 메시지와 함께, 피부 타입과 같은 상담을 위한 입력폼 액션 설정\n4) 우측 상단 ‘퍼블리시’ 버튼 클릭\n캠페인 메시지 설정\n1) 마케팅 > 캠페인 메시지 > 우측 상단 [+ 캠페인 만들기] > 발송 수단 “채널톡 메시지”로 선택 > '워크플로우 사용'을 선택\n2) 시작 이벤트 : 페이지 조회 + 접속 URL : 해당 상품의 URL로 설정\n3) 대기시간, 추가 이벤트 필터, 운영 및 목표는 알맞게 설정하기",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아웃바운드성 워크플로우는 워크플로우를 마케팅 메시지로 전송할 수 있는 기능이에요. 번거로운 회원 가입 절차 없이 입력폼을 통해 간단한 질문만으로 고객의 정보들을 획득할 수 있어요. 신규 리드 확보를 위한 간단한 설문을 마케팅으로 전송하여 먼저 적극적으로 고객에게 궁금한 점을 물어보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "트리거가 ‘새 상담을 시작할 때 챗봇’인 워크플로우만 아웃바운드성 워크플로우로 이용할 수 있습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상황에 맞춰 마케팅 일회성 메시지 혹은 캠페인 중 하나를 선택, ‘채널톡 메시지’로 발송 수단을 선택해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "일회성 메시지 : 보내고 싶은 시점에 1회만 보내는 메시지 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 일회성 메시지 설정 방법 알아보기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/f62c11ab"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "캠페인 메시지 : 고객이 사이트에서 특정 행동(회원 가입 등)을 했을 때 자동으로 보내는 메시지("
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "→ 캠페인 메시지 설정 방법 알아보기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/9064c609"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[워크플로우 사용] 클릭 → 저장해 둔 워크플로우를 불러와주세요. (버블, 워크플로우 중 선택 가능)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지를 받을 대상 고객과 운영 조건을 설정 후 전송 또는 퍼블리시 해주시면 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "재입고 알림 신청 받아두기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 품절된 상품 페이지에 들어왔다면, 재입고 안내를 통해 다시 돌아올 수 있게 해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "1) 트리거 : 새 상담을 시작할 때 챗봇"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2) 스케줄링 및 운영 : 비공개로 운영"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "3) 입력폼 설정하기 : 안내할 메시지와 함께 상품명 / 컬러와 같은 내용을 입력폼으로 구성. 재입고 대기 상품이 많다면, 입력폼 질문 형식을 주관식이 아닌 단일 선택 드롭다운 등으로 구성 가능"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "4) 우측 상단 ‘퍼블리시’ 버튼 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "아웃바운드성_재입고.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149579/revisions/261905/usermedia/681b491086ed45eef625",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "캠페인 메시지 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "1) 마케팅 > 캠페인 메시지 > 우측 상단 [+ 캠페인 만들기] > 발송 수단 “채널톡 메시지”로 선택 > '워크플로우 사용'을 선택"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2) 시작 이벤트 : 페이지 조회 + 접속 URL : 해당 상품의 URL로 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "3) 대기시간, 추가 이벤트 필터, 운영 및 목표는 알맞게 설정하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "아웃바운드성_재입고_마케팅.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149579/revisions/261905/usermedia/681b4929c88de56fbe24",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "도입문의 페이지에서 리드 받기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "B2B나 객단가가 높은 고관여 서비스라면 주목해 주세요! 고관여 서비스는 세일즈가 중요하죠. 이 세일즈의 유의미한 핵심 타겟이 바로 리드(Lead)에요. 아웃바운드성 워크플로우 기능으로 리드 획득을 늘려보세요!"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "1) 트리거 : 새 상담을 시작할 때 챗봇 (스케줄링 및 운영 : 비공개로 운영 선택)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2) 시작 메시지와 응답 버튼 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "3) 응답 버튼과 연결되는 단계에 리드 정보를 받을 수 있는 입력폼 또는 담당자 배정과 같은 액션설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "4) 우측 상단 ‘퍼블리시’ 버튼 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "도입문의 페이지에서 리드 받기.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149579/revisions/261905/usermedia/681b494fceeba68ff22d",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "캠페인 메시지 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "1) 마케팅 > 캠페인 메시지 > 우측 상단 [+ 캠페인 만들기] > 발송 수단 “채널톡 메시지”로 선택 > '워크플로우 사용'을 선택"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2) 시작 이벤트 : 페이지 조회 + 접속 URL : 해당 상품의 URL로 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "3) 대기시간, 추가 이벤트 필터, 운영 및 목표는 알맞게 설정하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "도입문의 페이지에서 리드 받기_마케팅.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149579/revisions/261905/usermedia/681b49b86ce2741a157c",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "제품 추천 상담 받기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객의 피부타입 또는 기존 옷의 사이즈를 입력받아 맞춤형 상담을 진행해 보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "1) 트리거 : 새 상담을 시작할 때 챗봇"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2) 스케줄링 및 운영 : 비공개로 운영"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "3) 입력폼 설정하기 : 안내할 메시지와 함께, 피부 타입과 같은 상담을 위한 입력폼 액션 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "4) 우측 상단 ‘퍼블리시’ 버튼 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "제품 추천 상담 받기.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149579/revisions/261905/usermedia/681b4a6e37cb947a0bbf",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "캠페인 메시지 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "1) 마케팅 > 캠페인 메시지 > 우측 상단 [+ 캠페인 만들기] > 발송 수단 “채널톡 메시지”로 선택 > '워크플로우 사용'을 선택"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2) 시작 이벤트 : 페이지 조회 + 접속 URL : 해당 상품의 URL로 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "3) 대기시간, 추가 이벤트 필터, 운영 및 목표는 알맞게 설정하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "제품 추천 상담 받기_마케팅.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149579/revisions/261905/usermedia/681b4ab8b04a6f3b803f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "61",
+    "name": "Beige",
+    "bio": "Minji Jeon, CX manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/682c4a7d61e0c51d1f7a",
+  "linked_faqs": [],
+  "faq_count": 0
+}

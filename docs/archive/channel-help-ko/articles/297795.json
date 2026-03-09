@@ -1,0 +1,5489 @@
+{
+  "id": "297795",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%B2%88%ED%98%B8-%EC%97%B0%EB%8F%99-fb35c768",
+  "title": "번호 연동",
+  "summary": "채널톡 번호를 기존 고객센터 번호 또는 기존 유선 전화기와 연동해서 사용해보세요.",
+  "plaintext": "영상으로 배우고 싶다면?\n기존 번호 연동\n신규 070 번호를 먼저 발급 받고, 기존 번호와 연동 작업을 진행해주세요.\n기존 번호로 전화 받기↙️ (착신전환)\n1. 대표 번호를 이용 중이라면? (1588,1644 등)\n수신자부담번호(080), 안심번호(050X)도 성격이 비슷한 번호라 절차가 동일합니다.\nA케이스\n전국 대표 번호에 채널톡 070 번호 연동 (권장)\n전국 대표 번호의 통신사 고객센터를 통해 채널톡 070 번호 연동을 요청해주세요.\n대표 번호에 채널톡 070 번호 등록 시 필요한 서류(통신서비스 가입증명원)는 채널팀에 요청하여 수령 가능합니다.\n(→ 채널팀에 서류 요청하기)\nB케이스\n단말기 착신 전환\n기존 물리 전화기에서 직접 착신전환을 설정하실 수 있습니다.\n미트 설정 및 테스트 시 사용해보실 수 있으나, 미트 도입이 결정되면 A 케이스로 연동 후 이용해주시는 것을 권장드립니다.\n직접 착신전환을 설정하시는 경우 전화를 수신할 때도 '착신 전환으로 인한 발신 통화료'가 발생할 수 있으며, 가입하신 통신사 요금제에 따라 달리 적용됩니다.\n2. 일반 번호(02,031 등), 인터넷 번호(070), 핸드폰 번호(010)\n일반 번호, 인터넷 번호의 경우\n통신사에 별도 요청 없이 기존 물리 전화기에서 채널톡 번호로 직접 착신전환을 설정 하실 수 있습니다.\n직접 설정이 어렵다면, 기존 가입 통신사에\n타 통신사 번호(채널톡070)로\n착신전환하는 방법을\n문의해주세요.\n핸드폰 번호의 경우\n통신사의 착신전환 부가서비스를 통해 채널톡 070번호로 착신전환 하실 수 있습니다.\n통신사 측 부가서비스 비용이 별도로 발생할 수 있습니다.\n직접 착신전환을 설정하시는 경우 전화를 수신할 때도 '착신 전환으로 인한 발신 통화료'가 발생할 수 있으며, 가입하신 통신사 요금제에 따라 달리 적용됩니다.\n채널톡에서 일반 번호 사용이 가능하도록 통신사와 협의 중이니 참고부탁드려요.\n기존 번호로 전화 걸기↗️ (발신 번호 변경)\n이용중인 전화 서비스에 따라 연동 방법 및 이용 금액에 차이가 있습니다. 현재 이용하시는 전화 서비스에 따라 착신 전환 신청 및 통신 가입 증명원을 발급받아 채널팀에 전달해주세요.\n(→ 발신 번호 변경 신청하기)\n010 번호는 발신 번호로 변경이 불가합니다.\n[채널 설정] - [미트] - [전화] 탭에서 등록된 전화번호 우측의 수정 버튼을 눌러 기존 번호 연결을 할 수 있습니다.\n연동 신청 후 필요 서류를 제출해주세요. 채널팀에서 확인 후 승인이 완료됩니다.\n연동을 위해서는 통신가입증명원을 통신사에서 발급받아주셔야 합니다.\n제출 서류 확인 후 승인까지 최대 일주일의 시간이 소요됩니다.\n유선 전화기 연동\n연동 기본 개념 이해하기\n채널톡 전화를 유선 전화기에서 걸고 받을 수 있어요.\n유선 전화기 연동 후에도 전화가 울리는 기기(PC/모바일/전화기)를 선택할 수 있어요.\nSIP 연동을 지원하는 전화기라면 연동이 가능해요.\nSIP란?\n\"Session Initiation Protocol\"의 약자로, 실시간 통신을 위해 약속된 통신 방식을 뜻해요. 쉽게 말해 채널톡과 유선 전화기가 서로를 인식하는 신호에요.\nA 팀 멤버에게 할당할 가상의 전화기를 등록하고\n등록된 가상 전화기와 유선 전화기를 연동하면\nA 팀 멤버에게 배정된 채널톡 전화가 유선 전화기에도 울리게 돼요\n대표적인 상황\n채널톡 전화번호 1개\n유선 전화기 수 = 가상 전화기 등록 수 = 전화 상담 팀 멤버 수\n유선전화기가 여러개면 번호를 여러개 발급받아야 할까?\n아니에요! 전화번호 개수와 연동할 전화기 수는 무관해요.\n채널톡 번호 1개로 여러 팀 멤버가 통화를 진행할 수 있듯, 여러 유선 전화기를 연동할 수 있어요.\n채널톡 전화번호가 여러개 필요한 경우\n특정 상담원/상담팀 전용 번호가 필요할 때\n텔레마케팅 등 아웃바운드 콜을 위한 전용 번호가 필요할 때\n세일즈 직원 전용 직통 번호가 필요할 때\n연동 방법 요약\n채널톡에서 팀 멤버별 가상의 전화기 등록\n등록된 가상 전화기의 SIP 연동 정보 확인\n실물 전화기 SIP 설정 화면에서 가상 전화기의 SIP 연동 정보를 입력하면 연동 완료!\n연동 방법\n설정 순서: 사전 준비 →\n채널톡\n전화기 등록 →\n제조사\n전화기 Admin 설정 → 연동 완료\n유의사항(필독)\n기존 통신사의 번호가 부여된 유선 전화기\n에는 채널톡 전화 연동을 시도하지 말아주세요.\n기존 통신사 번호가 부여되어있는 전화기는 SIP 설정 시도 시 아래와 같은 문제가 발생할 수 있습니다. (현재 실사용 여부와 관계 없음)\n❗️SIP 설정 관리자 페이지에 접속이 안될 수 있습니다.\n❗️채널톡 연동 설정 완료 후에도 연동이 끊어질 수 있습니다.\n❗️기존 전화번호 계정이 변경되어 사용이 불가하게 될 수 있습니다.\n❗️인터넷의 설정을 임의로 변경하게 되어 인터넷 사용이 끊어질 수 있습니다.\nSIP 설정을 변경해도 무방한 전화기를 사전에 구비해 주세요.\n휴대전화 개통으로 비유하면, 셀프 개통을 위한 공기계가 필요한 것과 비슷해요.\n*실수로 기존 전화기에 연동을 시도하여 위와 같은 문제가 발생한 경우, 통신사에 연락하여 원상복구를 요청해주세요.\n사전 준비\n필수\n채널톡 번호를 발급 받아주세요.  →\n번호 발급 가이드 확인하기\n필수\nSIP 연동 설정이 가능한 유선 전화기를 미리 준비\n해주세요.\n국내 유통되는 대표적인 전화기 제조/유통사\n누리보이스(구 모임스톤)\nhttp://nurivoice.com/wvs/\nPoly\nhttps://www.hp.com/kr-ko/poly/phones/desk-phones.html\n구매 시 SIP 연동 설정이 가능한지 제조사에 반드시 확인해주세요.\n'인터넷 전화기'라고 명시되어 있는 제품은 SIP 연동을 지원할 확률이 높아요.\n선택\nIVR이 필요한 경우, 팀 또는 담당자 배정을 설정해주세요. →\nIVR 설정 가이드 확인하기\n선택\nIVR이 필요하지 않은 경우, 바로 유선 전화기를 연동하여 사용하는 것도 가능해요.\n채널톡 설정\n전화기 등록\n팀 멤버 별 가상 전화기를 등록하는 단계에요. 연동할 유선 전화기 수 만큼 등록해주세요.\n등록 경로\n⚙채널 설정 - 미트 - 전화 - 전화기 -\n전화기 등록\n한번에 최대 8개까지 등록할 수 있고, 전체 등록 수는 제한이 없어요.\n전화기 이름\n30자 미만으로 중복되지 않게 설정해주세요. 전화기 별 구분이 가능한 이름으로 설정하세요.\n예시)ㅇㅇ상담원 전화기, ㅇㅇ팀 전화기 등\n팀 멤버\n전화기를 주로 사용하는 팀 멤버로 설정해주세요.\n팀을 설정할 수는 없어요. 팀에 소속된 팀 멤버를 선택해주세요.\n전화기 설정\n전화기 등록 후, 우측 수정 아이콘을 눌러 전화기 이름과 팀 멤버를 수정할 수 있어요.\n연동 후 팀 멤버를 수정하더라도 전화기 사용 팀 멤버가 변경될 뿐 연동이 끊어지지는 않아요.\n삭제\n버튼을 누르면 즉시 연동이 끊어져요. 삭제 후 다시 연동하려면 동일 과정으로 연동해주세요.\n연동 설정\n연동 정보 확인\n유선 전화기에 연동할 가상 전화기의\n연동 정보\n들을 확인해주세요.\n제조사 Admin 설정 화면에 그대로 복사(Ctrl/\n⌘+C)\n+ 붙여넣기((Ctrl/\n⌘+V)\n할 정보들이에요.\n채널톡 서버 정보\n국가를\nSouth Korea\n로 선택하신 후\n서버 주소\n와\n포트 번호\n를 확인하세요.\n전화기 정보\n연동이 필요한 전화기만 리스트에 노출되고, 연동이 완료된 전화기는 숨겨져요\n이름\n,\n장치 주소\n,\nID\n,\n비밀번호\n를 확인하세요.\n유선 전화기 Admin 설정\n국내에 유통되는 대표적인 제조사에 대한 SIP 연동 설정 방법이에요.\n보유한 전화기 모델별 설정 화면이 다를 수 있지만, 설정 방법은 크게 다르지 않아요.\n설정 화면이 가이드와 다르다면 전화기 제조사 고객센터에 설정 방법을 문의해주세요.\n누리보이스(구  모임스톤) 전화기\nAdmin 설정을 위한 IP주소 확인\n확인 경로\n전화기 LCD 화면에서 [메뉴 - 상태정보 - 네트워크 정보 -\nIP 주소\n]를 확인하세요.\n만약 LCD화면이 없는 모델이라면, 제조사에 IP주소 확인 경로를 문의해주세요.\n예시\nIP 주소: 192.168.24.75\n포트 번호: 8000 (제조사 설명서에서 확인해주세요)\nAdmin 설정 주소:\nhttp://192.168.24.75:8000\n정보 입력\n확인한 IP 주소 뒤에 포트 번호를 붙여 인터넷 주소창에 입력하여 접속하세요.\n설정을 위해 admin 계정으로 로그인 해주세요. 일반적으로 초기 설정된 계정은 아래와 같습니다.\nID: admin\nPassword: 9999\nuser 계정으로 로그인 할 시, 일부 설정 화면이 노출되지 않을 수 있습니다.\n계정은 기기마다 다를 수 있으며, 만약 틀릴 경우 제조사에 문의해주세요.\nSTEP 1\n통화 설정 - 서버 설정\nSIP 서버 설정\nRegistrar:\n서버 주소\n:\n포트 번호\nProxy:\n서버 주소\n:\n포트 번호\nOutbound Proxy:\n서버 주소\n:\n포트 번호\n저장\nSTEP 2\n통화 설정 - 계정 설정\n사용자 ID :\nID\n암호:\n비밀번호\n인증 이름:\n장치 주소\n표시 이름:\n이름\n→ 전화기 LCD 화면에 표시되는 이름이므로, 채널톡에 등록한 전화기 이름과 동일한 이름으로 설정하는 것을 권장해요.\n저장\nSTEP 3\n통화 설정 - 음성 설정\n음성 설정\nRTP를 통한 DTMF: 사용 → 🔵In-Audio 선택\nSRTP:\n사용 안함\n코덱 설정:\nuLaw(G.\n711\nMu), ALaw(G.\n711\nA) 2개만 사용 설정\n저장\nSTEP 4\n통화 설정 - 고급 설정\n고급 설정\n재 등록 간격: 10초\n등록 실패 시 재 시도 간격: 10초\nSIP Presence Timer\n재 등록 간격: 10초\n등록 실패 시 재 시도 간격: 10초\nSubscribe Expiration: 60초\n✅저장\n모든 설정을 저장하면 연동이 완료돼요\nPoly(구 Polycom) 전화기\nAdmin 설정을 위한 IP주소 확인\n확인 경로\n전화기 LCD 화면에서 [홈 또는 메뉴 버튼 - 설정 - 상태 - 네트워크 - TCP/IP 매개 변수 -\nIPv4 주소\n]를 확인하세요.\n만약 LCD화면이 없는 모델이라면, 제조사에 IPv4 주소 확인 경로를 문의해주세요.\n확인한 IPv4 주소를  인터넷 주소창에 그대로 입력해주세요.\n예시\nIPv4 주소: 192.168.24.67\nAdmin 설정 주소:\nhttp://192.168.24.67\n정보 입력\n확인한 IP 주소 뒤에 포트 번호를 붙여 인터넷 주소창에 입력하여 접속하세요.\n설정을 위해 계정으로 로그인 해주세요. 일반적으로 초기 설정된 계정은 아래와 같습니다.\nID: admin\nPassword: 123\n기기마다 다를 수 있으며, 만약 틀릴 경우 제조사에 문의해주세요.\nSTEP 1\n간편 설정\nSIP 서버\n주소:\n서버 주소\n포트:\n포트 번호\nSIP 회선 확인\n주소:\n장치 주소\n승인 받은 사용자 ID:\nID\n승인 암호:\n비밀번호\n라벨:\n이름\n→ 전화기 LCD 화면에 표시되는 이름이므로, 채널톡에 등록한 전화기 이름과 동일한 이름으로 설정하는 것을 권장해요.\n저장\nSTEP 2\n설정 - 코덱 우선순위\n코덱 우선순위: G711Mu / G711A 추가 (G711u가 있다면 이것도 추가해주세요)\n저장\nSTEP 3\n설정 - SIP\n서버 1\n만료(s): 10\n가입 만료(s): 10\nSRTP 메뉴\nSRTP 활성화:\n사용 안함\nSRTP 제공:\n사용 안함\nSRTP 필요:\n사용 안함\n음성 데이터를 암호화하는 프로토콜로, 현재는 지원하지 않지만 추후 지원을 위해 개발 중이에요.\n저장\n모든 설정을 저장하면 연동이 완료돼요\n연동 상태 확인\n전화기 탭에서\n이름\n앞 상태 표시등을 통해 연동 상태를 확인할 수 있어요\n🟢초록색(연동됨): 정상적으로 연동된 상태에요.\n🟠주황색(신호 없음): 연동 전이거나, 연동된 전화기의 인터넷이 끊어진 상태에요.\n연동 완료 후 알림 설정\n[팀 멤버 설정 - 알림 - 수신함 알림] →\n미트 알림 받을 장치\n에서 전화 링이 울리는 장치를 선택할 수 있어요.\n기본 설정은 모든 장치가 선택 되어 있어요.\n연동한 유선 전화기에서만 링이 울리도록 하려면, 데스크탑과 모바일은 체크를 해제해주세요.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 20분 • 난이도: 중",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/기존-고객센터-번호와-채널톡-070-번호-연결하기-042cb099",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad8971924a2b23c4f7/tmp-4019775978.png",
+        "title": "기존 고객센터 번호와 채널톡 070 번호 연결하기"
+      },
+      "type": "webPage"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 20분 • 난이도: 상",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/유선-전화기-연동하기-8a78d9ed",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad8979b59b61eacf6c/tmp-3976695630.png",
+        "title": "유선 전화기 연동하기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기존 번호 연동"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "신규 070 번호를 먼저 발급 받고, 기존 번호와 연동 작업을 진행해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기존 번호로 전화 받기↙️ (착신전환)"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 대표 번호를 이용 중이라면? (1588,1644 등)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수신자부담번호(080), 안심번호(050X)도 성격이 비슷한 번호라 절차가 동일합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "기존 번호 연동_전화회선.png",
+        "height": "704px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/490445/usermedia/68a52eb48865ce8c9f54",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "A케이스"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 전국 대표 번호에 채널톡 070 번호 연동 (권장)"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전국 대표 번호의 통신사 고객센터를 통해 채널톡 070 번호 연동을 요청해주세요."
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대표 번호에 채널톡 070 번호 등록 시 필요한 서류(통신서비스 가입증명원)는 채널팀에 요청하여 수령 가능합니다. "
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 채널팀에 서류 요청하기)"
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://root.channel.io/workflows/744813"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "B케이스"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 단말기 착신 전환"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기존 물리 전화기에서 직접 착신전환을 설정하실 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미트 설정 및 테스트 시 사용해보실 수 있으나, 미트 도입이 결정되면 A 케이스로 연동 후 이용해주시는 것을 권장드립니다."
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "직접 착신전환을 설정하시는 경우 전화를 수신할 때도 '착신 전환으로 인한 발신 통화료'가 발생할 수 있으며, 가입하신 통신사 요금제에 따라 달리 적용됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. 일반 번호(02,031 등), 인터넷 번호(070), 핸드폰 번호(010)\u001d"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일반 번호, 인터넷 번호의 경우"
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": " 통신사에 별도 요청 없이 기존 물리 전화기에서 채널톡 번호로 직접 착신전환을 설정 하실 수 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "직접 설정이 어렵다면, 기존 가입 통신사에 "
+                          },
+                          "marks": [
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "타 통신사 번호(채널톡070)로"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " "
+                          },
+                          "marks": [
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "착신전환하는 방법을"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 문의해주세요."
+                          },
+                          "marks": [
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "핸드폰 번호의 경우"
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "통신사의 착신전환 부가서비스를 통해 채널톡 070번호로 착신전환 하실 수 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "통신사 측 부가서비스 비용이 별도로 발생할 수 있습니다."
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "직접 착신전환을 설정하시는 경우 전화를 수신할 때도 '착신 전환으로 인한 발신 통화료'가 발생할 수 있으며, 가입하신 통신사 요금제에 따라 달리 적용됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널톡에서 일반 번호 사용이 가능하도록 통신사와 협의 중이니 참고부탁드려요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기존 번호로 전화 걸기↗️ (발신 번호 변경)"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이용중인 전화 서비스에 따라 연동 방법 및 이용 금액에 차이가 있습니다. 현재 이용하시는 전화 서비스에 따라 착신 전환 신청 및 통신 가입 증명원을 발급받아 채널팀에 전달해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(→ 발신 번호 변경 신청하기)"
+          },
+          "marks": [
+            {
+              "type": "color"
+            },
+            {
+              "attrs": {
+                "href": "https://root.channel.io/workflows/744813"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "010 번호는 발신 번호로 변경이 불가합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [미트] - [전화] 탭에서 등록된 전화번호 우측의 수정 버튼을 눌러 기존 번호 연결을 할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "기존 번호 연동_기존 번호 연동.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/490445/usermedia/68a52ee056ae98c16d4d",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동 신청 후 필요 서류를 제출해주세요. 채널팀에서 확인 후 승인이 완료됩니다."
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "연동을 위해서는 통신가입증명원을 통신사에서 발급받아주셔야 합니다."
+                          },
+                          "marks": [
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "제출 서류 확인 후 승인까지 최대 일주일의 시간이 소요됩니다."
+                          },
+                          "marks": [
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "기존 번호 연동_전화신청_4.png",
+        "height": "712px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/490445/usermedia/68a52eeccc60955ec831",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "유선 전화기 연동"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 기본 개념 이해하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 전화를 유선 전화기에서 걸고 받을 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유선 전화기 연동 후에도 전화가 울리는 기기(PC/모바일/전화기)를 선택할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "SIP 연동을 지원하는 전화기라면 연동이 가능해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "SIP란?"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " \"Session Initiation Protocol\"의 약자로, 실시간 통신을 위해 약속된 통신 방식을 뜻해요. 쉽게 말해 채널톡과 유선 전화기가 서로를 인식하는 신호에요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "attrs": {
+        "alt": "image-AddNumber-ko.png",
+        "height": "521px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/490445/usermedia/68a52f81033154a25a22",
+        "width": "1084px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "A 팀 멤버에게 할당할 가상의 전화기를 등록하고"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "등록된 가상 전화기와 유선 전화기를 연동하면"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "A 팀 멤버에게 배정된 채널톡 전화가 유선 전화기에도 울리게 돼요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "대표적인 상황"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 전화번호 1개"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유선 전화기 수 = 가상 전화기 등록 수 = 전화 상담 팀 멤버 수"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "유선전화기가 여러개면 번호를 여러개 발급받아야 할까?"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "아니에요! 전화번호 개수와 연동할 전화기 수는 무관해요. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널톡 번호 1개로 여러 팀 멤버가 통화를 진행할 수 있듯, 여러 유선 전화기를 연동할 수 있어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널톡 전화번호가 여러개 필요한 경우"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "특정 상담원/상담팀 전용 번호가 필요할 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "텔레마케팅 등 아웃바운드 콜을 위한 전용 번호가 필요할 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "세일즈 직원 전용 직통 번호가 필요할 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 방법 요약"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡에서 팀 멤버별 가상의 전화기 등록"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "등록된 가상 전화기의 SIP 연동 정보 확인"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "실물 전화기 SIP 설정 화면에서 가상 전화기의 SIP 연동 정보를 입력하면 연동 완료!"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "설정 순서: 사전 준비 → "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "채널톡"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-red-normal"
+                  },
+                  "type": "color"
+                },
+                {
+                  "type": "inlineCode"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "전화기 등록 → "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "제조사"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-red-normal"
+                  },
+                  "type": "color"
+                },
+                {
+                  "type": "inlineCode"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "전화기 Admin 설정 → 연동 완료"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "유의사항(필독)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-red-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "기존 통신사의 번호가 부여된 유선 전화기"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "에는 채널톡 전화 연동을 시도하지 말아주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "기존 통신사 번호가 부여되어있는 전화기는 SIP 설정 시도 시 아래와 같은 문제가 발생할 수 있습니다. (현재 실사용 여부와 관계 없음)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "❗️SIP 설정 관리자 페이지에 접속이 안될 수 있습니다."
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "❗️채널톡 연동 설정 완료 후에도 연동이 끊어질 수 있습니다."
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "❗️기존 전화번호 계정이 변경되어 사용이 불가하게 될 수 있습니다."
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "❗️인터넷의 설정을 임의로 변경하게 되어 인터넷 사용이 끊어질 수 있습니다."
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "SIP 설정을 변경해도 무방한 전화기를 사전에 구비해 주세요. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "휴대전화 개통으로 비유하면, 셀프 개통을 위한 공기계가 필요한 것과 비슷해요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "*실수로 기존 전화기에 연동을 시도하여 위와 같은 문제가 발생한 경우, 통신사에 연락하여 원상복구를 요청해주세요."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "사전 준비"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필수"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "채널톡 번호를 발급 받아주세요.  → "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "번호 발급 가이드 확인하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EB%B2%88%ED%98%B8-%EC%84%A4%EC%A0%95-2b94d15c#%EC%A0%84%ED%99%94-%EB%B2%88%ED%98%B8-%EB%B0%9C%EA%B8%89"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필수"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "SIP 연동 설정이 가능한 유선 전화기를 미리 준비"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "국내 유통되는 대표적인 전화기 제조/유통사"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "누리보이스(구 모임스톤) "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "http://nurivoice.com/wvs/"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "href": "http://nurivoice.com/wvs/"
+                                      },
+                                      "type": "hyperlink"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "Poly "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "https://www.hp.com/kr-ko/poly/phones/desk-phones.html"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "href": "https://www.hp.com/kr-ko/poly/phones/desk-phones.html"
+                                      },
+                                      "type": "hyperlink"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "구매 시 SIP 연동 설정이 가능한지 제조사에 반드시 확인해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "'인터넷 전화기'라고 명시되어 있는 제품은 SIP 연동을 지원할 확률이 높아요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "선택"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "IVR이 필요한 경우, 팀 또는 담당자 배정을 설정해주세요. → "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "IVR 설정 가이드 확인하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/IVR-4deef10d"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "선택"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "IVR이 필요하지 않은 경우, 바로 유선 전화기를 연동하여 사용하는 것도 가능해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "1. 전화기 연동.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/483319/usermedia/68a410a1895823911842",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화기 등록"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버 별 가상 전화기를 등록하는 단계에요. 연동할 유선 전화기 수 만큼 등록해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "2. 전화기 등록.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/483319/usermedia/68a42c792da55ed71e31",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "등록 경로"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "⚙채널 설정 - 미트 - 전화 - 전화기 - "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "name": "heavy_plus_sign"
+                  },
+                  "type": "emoji"
+                },
+                {
+                  "attrs": {
+                    "text": "전화기 등록"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-blue-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "한번에 최대 8개까지 등록할 수 있고, 전체 등록 수는 제한이 없어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화기 이름"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "30자 미만으로 중복되지 않게 설정해주세요. 전화기 별 구분이 가능한 이름으로 설정하세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시)ㅇㅇ상담원 전화기, ㅇㅇ팀 전화기 등"
+                  },
+                  "marks": [
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 멤버"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화기를 주로 사용하는 팀 멤버로 설정해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀을 설정할 수는 없어요. 팀에 소속된 팀 멤버를 선택해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화기 설정"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화기 등록 후, 우측 수정 아이콘을 눌러 전화기 이름과 팀 멤버를 수정할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "3. 전화기 설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/483319/usermedia/68a4452f0b90a216e73b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동 후 팀 멤버를 수정하더라도 전화기 사용 팀 멤버가 변경될 뿐 연동이 끊어지지는 않아요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "삭제"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 버튼을 누르면 즉시 연동이 끊어져요. 삭제 후 다시 연동하려면 동일 과정으로 연동해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동 설정"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 정보 확인"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "유선 전화기에 연동할 가상 전화기의 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "연동 정보"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-red-normal"
+              },
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "들을 확인해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "제조사 Admin 설정 화면에 그대로 복사(Ctrl/"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "⌘+C)"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " + 붙여넣기((Ctrl/"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "⌘+V)"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 할 정보들이에요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "3. 연동 설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/483319/usermedia/68a4436a97152b6a493b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "5. 연동 정보 확인.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/483319/usermedia/68a42c365c7fa1fb7557",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 서버 정보"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "국가를 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "name": "kr"
+                          },
+                          "type": "emoji"
+                        },
+                        {
+                          "attrs": {
+                            "text": "South Korea"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "로 선택하신 후 "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "서버 주소"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "와 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "포트 번호"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "를 확인하세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화기 정보"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동이 필요한 전화기만 리스트에 노출되고, 연동이 완료된 전화기는 숨겨져요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이름"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ","
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "장치 주소"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ", "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "ID"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ", "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "비밀번호"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 를 확인하세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "유선 전화기 Admin 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "국내에 유통되는 대표적인 제조사에 대한 SIP 연동 설정 방법이에요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "보유한 전화기 모델별 설정 화면이 다를 수 있지만, 설정 방법은 크게 다르지 않아요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 화면이 가이드와 다르다면 전화기 제조사 고객센터에 설정 방법을 문의해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "누리보이스(구  모임스톤) 전화기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-green-normal"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Admin 설정을 위한 IP주소 확인"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "확인 경로"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "전화기 LCD 화면에서 [메뉴 - 상태정보 - 네트워크 정보 - "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "IP 주소"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "]를 확인하세요."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "만약 LCD화면이 없는 모델이라면, 제조사에 IP주소 확인 경로를 문의해주세요."
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "inlineCode"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "예시"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "bgtxt-red-normal"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "IP 주소: 192.168.24.75"
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                },
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "포트 번호: 8000 (제조사 설명서에서 확인해주세요)"
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                },
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "Admin 설정 주소: "
+                                          },
+                                          "type": "plain"
+                                        },
+                                        {
+                                          "attrs": {
+                                            "text": "http://192.168.24.75:8000"
+                                          },
+                                          "marks": [
+                                            {
+                                              "type": "bold"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                }
+                              ],
+                              "type": "bullets"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "정보 입력"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "확인한 IP 주소 뒤에 포트 번호를 붙여 인터넷 주소창에 입력하여 접속하세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정을 위해 admin 계정으로 로그인 해주세요. 일반적으로 초기 설정된 계정은 아래와 같습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ID: admin"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Password: 9999"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "user 계정으로 로그인 할 시, 일부 설정 화면이 노출되지 않을 수 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "계정은 기기마다 다를 수 있으며, 만약 틀릴 경우 제조사에 문의해주세요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "STEP 1"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-green-normal"
+              },
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 통화 설정 - 서버 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "누리보이스 서버 설정.png",
+        "caption": {
+          "content": [
+            {
+              "attrs": {
+                "text": "누리보이스(모임스톤)의 IP215S 모델의 설정화면 예시이며, 모델별로 설정화면이 없거나 다를 수 있습니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/520743/usermedia/68b57801a4acc3abdf74",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "SIP 서버 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Registrar: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "서버 주소"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " : "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "포트 번호"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Proxy: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "서버 주소"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " : "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "포트 번호"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Outbound Proxy: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "서버 주소"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " : "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "포트 번호"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "name": "white_check_mark"
+                  },
+                  "type": "emoji"
+                },
+                {
+                  "attrs": {
+                    "text": "저장"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "STEP 2"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-green-normal"
+              },
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "통화 설정 - 계정 설정"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "누리보이스 계정 설정.png",
+        "caption": {
+          "content": [
+            {
+              "attrs": {
+                "text": "누리보이스(모임스톤)의 IP215S 모델의 설정화면 예시이며, 모델별로 설정화면이 없거나 다를 수 있습니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/483319/usermedia/68a42d37e2c2a234629d",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사용자 ID : "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "ID"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "암호: "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "비밀번호"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "인증 이름: "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "장치 주소"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "표시 이름: "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "이름"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " → 전화기 LCD 화면에 표시되는 이름이므로, 채널톡에 등록한 전화기 이름과 동일한 이름으로 설정하는 것을 권장해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "name": "white_check_mark"
+                  },
+                  "type": "emoji"
+                },
+                {
+                  "attrs": {
+                    "text": "저장"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "STEP 3"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-green-normal"
+              },
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 통화 설정 - 음성 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "누리보이스 음성 설정.png",
+        "caption": {
+          "content": [
+            {
+              "attrs": {
+                "text": "누리보이스(모임스톤)의 IP215S 모델의 설정화면 예시이며, 모델별로 설정화면이 없거나 다를 수 있습니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/490445/usermedia/68a7874267c336a75c17",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "음성 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "RTP를 통한 DTMF: 사용 → 🔵In-Audio 선택"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "SRTP: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "사용 안함"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "코덱 설정: "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "uLaw(G."
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "711"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "Mu), ALaw(G."
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "711"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "A) 2개만 사용 설정"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "name": "white_check_mark"
+                  },
+                  "type": "emoji"
+                },
+                {
+                  "attrs": {
+                    "text": "저장"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "STEP 4"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-green-normal"
+              },
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 통화 설정 - 고급 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "누리보이스 고급 설정.png",
+        "caption": {
+          "content": [
+            {
+              "attrs": {
+                "text": "누리보이스(모임스톤)의 IP215S 모델의 설정화면 예시이며, 모델별로 설정화면이 없거나 다를 수 있습니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/520743/usermedia/68b576222da918f7c2c0",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고급 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "재 등록 간격: 10초"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "등록 실패 시 재 시도 간격: 10초"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "SIP Presence Timer"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "재 등록 간격: 10초"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "등록 실패 시 재 시도 간격: 10초"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Subscribe Expiration: 60초"
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "✅저장"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모든 설정을 저장하면 연동이 완료돼요"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Poly(구 Polycom) 전화기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-green-normal"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Admin 설정을 위한 IP주소 확인"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "확인 경로"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "전화기 LCD 화면에서 [홈 또는 메뉴 버튼 - 설정 - 상태 - 네트워크 - TCP/IP 매개 변수 - "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "IPv4 주소"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "]를 확인하세요."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "만약 LCD화면이 없는 모델이라면, 제조사에 IPv4 주소 확인 경로를 문의해주세요."
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "inlineCode"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "확인한 IPv4 주소를  인터넷 주소창에 그대로 입력해주세요. "
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "예시"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "bgtxt-red-normal"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "IPv4 주소: 192.168.24.67 "
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                },
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "Admin 설정 주소: "
+                                          },
+                                          "type": "plain"
+                                        },
+                                        {
+                                          "attrs": {
+                                            "text": "http://192.168.24.67"
+                                          },
+                                          "marks": [
+                                            {
+                                              "type": "bold"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                }
+                              ],
+                              "type": "bullets"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "정보 입력"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "확인한 IP 주소 뒤에 포트 번호를 붙여 인터넷 주소창에 입력하여 접속하세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정을 위해 계정으로 로그인 해주세요. 일반적으로 초기 설정된 계정은 아래와 같습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ID: admin"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Password: 123"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "기기마다 다를 수 있으며, 만약 틀릴 경우 제조사에 문의해주세요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "STEP 1"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-green-normal"
+              },
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 간편 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "폴리_간편 설정.png",
+        "caption": {
+          "content": [
+            {
+              "attrs": {
+                "text": "Poly의 Edge E450 모델의 설정화면 예시이며, 모델별로 설정화면이 다를 수 있습니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/483319/usermedia/68a434e95929bb11c71a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "SIP 서버"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "주소: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "서버 주소"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "포트: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "포트 번호"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "SIP 회선 확인"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "주소: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "장치 주소"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "승인 받은 사용자 ID: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "ID"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "승인 암호: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "비밀번호"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "라벨: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "이름"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " → 전화기 LCD 화면에 표시되는 이름이므로, 채널톡에 등록한 전화기 이름과 동일한 이름으로 설정하는 것을 권장해요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "name": "white_check_mark"
+                  },
+                  "type": "emoji"
+                },
+                {
+                  "attrs": {
+                    "text": "저장"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "STEP 2"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-green-normal"
+              },
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 설정 - 코덱 우선순위"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "폴리_코덱 우선순위 설정.png",
+        "caption": {
+          "content": [
+            {
+              "attrs": {
+                "text": "Poly의 Edge E450 모델의 설정화면 예시이며, 모델별로 설정화면이 다를 수 있습니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/483319/usermedia/68a441387a92ea1e710d",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "코덱 우선순위: G711Mu / G711A 추가 (G711u가 있다면 이것도 추가해주세요)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "name": "white_check_mark"
+                  },
+                  "type": "emoji"
+                },
+                {
+                  "attrs": {
+                    "text": "저장"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "STEP 3"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-green-normal"
+              },
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 설정 - SIP"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "폴리_SIP 옵션 설정.png",
+        "caption": {
+          "content": [
+            {
+              "attrs": {
+                "text": "Poly의 Edge E450 모델의 설정화면 예시이며, 모델별로 설정화면이 다를 수 있습니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/490445/usermedia/68a7904d8a350f9135a3",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "서버 1"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "만료(s): 10"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "가입 만료(s): 10"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "SRTP 메뉴 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "SRTP 활성화: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "사용 안함"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "SRTP 제공: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "사용 안함"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "SRTP 필요: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "사용 안함"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "음성 데이터를 암호화하는 프로토콜로, 현재는 지원하지 않지만 추후 지원을 위해 개발 중이에요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "name": "white_check_mark"
+                  },
+                  "type": "emoji"
+                },
+                {
+                  "attrs": {
+                    "text": "저장"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모든 설정을 저장하면 연동이 완료돼요"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 상태 확인"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화기 탭에서 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "이름"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-red-normal"
+              },
+              "type": "color"
+            },
+            {
+              "type": "inlineCode"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 앞 상태 표시등을 통해 연동 상태를 확인할 수 있어요"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "6. 전화기 연동 상태 확인.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/483319/usermedia/68a4481d132e5705294e",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "🟢초록색(연동됨): 정상적으로 연동된 상태에요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "🟠주황색(신호 없음): 연동 전이거나, 연동된 전화기의 인터넷이 끊어진 상태에요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 완료 후 알림 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[팀 멤버 설정 - 알림 - 수신함 알림] → "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "미트 알림 받을 장치"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 에서 전화 링이 울리는 장치를 선택할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "5. 유선 전화기 알림 설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/297795/revisions/483319/usermedia/68a447f88db897d96bc4",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기본 설정은 모든 장치가 선택 되어 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동한 유선 전화기에서만 링이 울리도록 하려면, 데스크탑과 모바일은 체크를 해제해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "120",
+    "name": "Nacho",
+    "bio": "CX 팀 데이터 분석\n& 미트 오퍼레이션"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/68a519b7518d36a730b1",
+  "linked_faqs": [
+    {
+      "id": "123137",
+      "question": "SIP 연동을 지원하는 전화기인지 어떻게 확인하나요?",
+      "answer_plaintext": "인터넷 전화기는 대부분 SIP 연동을 지원하지만 전화기의 정확한 스펙은 제조사 상세 설명서를 확인해주세요.\n\n설명서 내 SIP Protocol 에 대한 설명 항목이 있다면 연동이 가능합니다.\n\n모델 별 상세 설명서는 제조사 홈페이지에서도 확인하실 수 있어요.\n\n\n연동 가능한 누리보이스(구 모임스톤) 모델 (및 OS 버전)\n- IP215(S) (1.30.351)\n- IP355 (1.10.014)\n- 확인 시 마다 추가 예정\n홈페이지: http://nurivoice.com/wvs/\n\nPoly(구 Polycom) 홈페이지: https://www.hp.com/kr-ko/poly/phones/desk-phones.html"
+    },
+    {
+      "id": "122561",
+      "question": "확인한 IP주소로 접속이 되지 않아요.",
+      "answer_plaintext": "IP 주소가 https를 지원하지 않아 접속되지 않을 수 있습니다.\ns를 지우고 http:// 뒤에 IP 주소를 붙여 접속해보세요\n\n폴리의 경우 https로만 접속을 제한하는 경우도 있으나, 브라우저에서 접속을 제한하면 접속이 불가할 수 있습니다.\n이 경우, 아래와 같이 설정 후 재시도 해보세요.\n\nLCD 설정 화면에서 웹 서버 구성 요소를 설정하는 방법\n1. 설정 - 고급 - 암호입력(123) - 관리자 설정 - 웹 서버 구성 - 웹 서버 켜짐 확인\n2. 설정 - 고급 - 암호입력(123) - 관리자 설정 - 웹 서버 구성 - 웹 구성 모드 → HTTP/HTTPS 로 설정 - 뒤로 - 구성 저장 - 선택 → 재시동\n3. 이후 http로 접속 재시도"
+    },
+    {
+      "id": "122557",
+      "question": "누리보이스(모임스톤)의 관리자 계정이 틀렸다고 나와요",
+      "answer_plaintext": "연동을 위해 필요한 것은 관리자계정이 아닌 사용자 계정입니다.\n사용자 계정 설정 화면 접속을 위한 초기 계정은 아래와 같아요\nid: user\npassword: 0000\n\n전화기 설정 쪽의 관리자 계정은 연동 과정에는 필요하지 않아요.\n별도 설정이 필요하신 경우 아래 초기 계정으로 접속을 시도해보세요\nid: admin\npassword: 9999\n\n계정 초기 id와 비밀번호를 수정하지 않았는데 접속이 안된다면 초기 계정이 다른 모델일 수 있어요. 이럴 경우, 유선 전화기 제조사에 문의해주세요."
+    },
+    {
+      "id": "121031",
+      "question": "유선 전화기에 있는 다이얼 및 기능 버튼들을 사용할 수 있나요?",
+      "answer_plaintext": "유선 전화기의 다이얼(숫자) 버튼은 사용하실 수 있어요.\n\n단, 재다이얼, 통화 전환, 보류 등의 기능 버튼들은 채널톡과 상호작용하지 않아요. \n\n추후 전화기 기능 버튼 상호작용도 제공할 수 있도록 준비중입니다."
+    },
+    {
+      "id": "123136",
+      "question": "유선 전화기에서 국제전화를 걸 수 있나요?",
+      "answer_plaintext": "+(플러스) 기호를 입력한 후 국가번호와 상대방 번호를 입력하면 가능합니다.\n단, +(플러스)기호를 입력할 수 없는 전화기라면 해당 전화기로는 국제전화를 발신 할 수 없어요. 그럴 경우 채널톡 PC 또는 모바일 어플에서 국제전화를 이용해주세요.\n\n*채널톡 전화는 001, 002, 005 와 같은 국제 전화 서비스 번호는 지원하지 않습니다."
+    },
+    {
+      "id": "125125",
+      "question": "유선 전화기 연동하려면 별도 요금이 발생하나요?",
+      "answer_plaintext": "유선 전화기를 채널톡 전화기와 연동하더라도 별도 요금이 청구되지 않습니다.\n다만, 연동에 필요한 유선 전화기가 없다면 전화기 구매 비용이 별도로 발생할 수 있어요.\n\n채널톡 전화 이용에 따른 실비(전화 번호 발급 비용, 발신 통화료)는 사용량에 따라 발생합니다."
+    },
+    {
+      "id": "125127",
+      "question": "유선 전화기도 채널톡에서 살 수 있나요?",
+      "answer_plaintext": "채널톡은 유선 전화기를 별도로 판매하지 않습니다.\n가이드에 안내된 제조사 등 SIP 설정이 가능한 유선 전화기를 별도로 구매하여 준비해주세요."
+    },
+    {
+      "id": "121032",
+      "question": "유선 전화기가 고장나면 어떻게 하나요?",
+      "answer_plaintext": "채널톡은 유선 전화기에 대한 A/S를 제공하지 않습니다. 유선 전화기에 고장이 발생하거나, 소모품(수화기, 전원 코드, 랜선 등) 일체가 필요한 경우 전화기 제조사에 문의해주시기 바랍니다."
+    }
+  ],
+  "faq_count": 8
+}

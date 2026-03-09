@@ -1,0 +1,782 @@
+{
+  "id": "99",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%84%A4%EC%A0%95-6c2e7a24",
+  "title": "네이버 로그인 설정",
+  "summary": "네이버 로그인 연동으로 네이버 톡톡을 통해 문의주신 고객의 다양한 고객 정보를 연동하고, 메시지를 놓치지 않을 수 있어요.",
+  "plaintext": "연동 방법\n채널톡과 네이버 톡톡을 연동해 주세요.\n(→ 네이버 톡톡 연동 가이드 바로가기)\n네이버 톡톡 연동을 완료했다면, 네이버 로그인 연동을 위해 [채널 설정] → [연동] → [엡스토어] → [네이버]를 클릭해주세요.\n[네이버 로그인 설정] → [연동] 버튼을 클릭해 연동을 시작합니다.\n새로운 브라우저 창이 열리면 네이버 아이디로 로그인 해주세요.\n연동이 시작되면 새롭게 열리는 브라우저 창에서 [동의] 버튼을 클릭해 주세요. 채널톡이 고객사를 대신해 네이버 로그인 앱 생성 권한을 받기 위한 과정입니다.\n네이버 로그인 앱\n이란? 네이버 로그인 서비스 이용을 위해 필요한 계정입니다.\n다시 채널톡 관리자 페이지로 돌아와 [로그인 완료] 버튼을 눌러주세요.\n네이버 로그인 앱 연동하기\n기존 앱 사용 시\n팝업창에 뜨는 앱 목록 중, 연동하고자 하는 앱을 선택 후 [확인] 버튼을 눌러주세요.\n신규 앱 연동 시\n[신규 앱 사용하기] 를 눌러 새로운 앱을 생성해 주세요.\n정보를 입력해주세요\nClient Name:\n운영하시는 사이트 명을 적어주세요.\nClient Image URL:\n고객에게 보여질 서비스 대표 이미지 URL를 입력해 주세요. URL이 없다면 생략하셔도 됩니다.\nWeb URL:\n채널톡이 설치된 웹사이트의 URL을 입력해 주세요.\nMobile Web URL:\n채널톡이 설치된 모바일 웹의 URL을 입력해 주세요.\nAndroid 다운로드 링크:\n채널톡이 설치된 안드로이드 앱의 다운로드 URL을 입력해 주세요.\niOS 다운로드 링크:\n채널톡이 설치된 iOS 앱의 다운로드 URL을 입력해 주세요.\nClient Name\n과\n서비스 환경 정보\n는 필수 정보입니다.\n서비스 환경 정보는 4개 중 1개는\n필수로\n입력해주셔야 합니다. (https:// 까지 입력 필요)\n자주 묻는 질문\n“CallbackURL의 개수는 15개를 넘을 수 없습니다. 관리자 페이지에서 수정해 주세요” 라는 알림이 떠요.\n이미 하나의 앱에 CallbackURL 15개가 연동된 상태이기 때문에, 해당 앱에 등록된 최소 2개의 CallbackURL을 삭제해 주셔야 채널톡 네이버 로그인 완료됩니다. (네이버 로그인 연동 시 2개의 주소가 추가되기 때문에 기존 CallbackURL 중 최소 2개 삭제가 필요합니다.)\n[네이버 개발자 센터]\n→ [내 애플리케이션] → [환경 추가] 클릭 → 서비스 선택 후 네이버로그인 CallbackURL 1개 삭제 → 다시 채널톡 네이버 아이디 로그인 연동을 진행해 주세요.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡과 네이버 톡톡을 연동해 주세요. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 네이버 톡톡 연동 가이드 바로가기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/3d8c6ce9"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡 연동을 완료했다면, 네이버 로그인 연동을 위해 [채널 설정] → [연동] → [엡스토어] → [네이버]를 클릭해주세요."
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "네이버로그인_앱스토어1.png",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/99/revisions/110754/usermedia/67518aa4f3570dbd0d3d",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[네이버 로그인 설정] → [연동] 버튼을 클릭해 연동을 시작합니다."
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "네이버로그인_앱스토어2.png",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/99/revisions/110754/usermedia/67518ab5acacd49cc35d",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "새로운 브라우저 창이 열리면 네이버 아이디로 로그인 해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/99/revisions/292/usermedia/662b10aa4eaf90037408"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동이 시작되면 새롭게 열리는 브라우저 창에서 [동의] 버튼을 클릭해 주세요. 채널톡이 고객사를 대신해 네이버 로그인 앱 생성 권한을 받기 위한 과정입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "icon": "round_pushpin"
+              },
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "네이버 로그인 앱"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": " 이란? 네이버 로그인 서비스 이용을 위해 필요한 계정입니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "callout"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "네이버로그인_UI변경.png",
+                "height": "920px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/99/revisions/112732/usermedia/6752c26f99413f2ecc3d",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "다시 채널톡 관리자 페이지로 돌아와 [로그인 완료] 버튼을 눌러주세요."
+                  },
+                  "marks": [
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "네이버로그인_앱스토어2-1.png",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/99/revisions/110754/usermedia/67518ad3e04c7c4dc105",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "네이버 로그인 앱 연동하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기존 앱 사용 시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팝업창에 뜨는 앱 목록 중, 연동하고자 하는 앱을 선택 후 [확인] 버튼을 눌러주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/99/revisions/292/usermedia/662b10aadcd8df88548c"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "신규 앱 연동 시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[신규 앱 사용하기] 를 눌러 새로운 앱을 생성해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/99/revisions/292/usermedia/662b10ab1351d1e9f2d4"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "정보를 입력해주세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Client Name: "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "운영하시는 사이트 명을 적어주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Client Image URL: "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "고객에게 보여질 서비스 대표 이미지 URL를 입력해 주세요. URL이 없다면 생략하셔도 됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Web URL: "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "채널톡이 설치된 웹사이트의 URL을 입력해 주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Mobile Web URL: "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "채널톡이 설치된 모바일 웹의 URL을 입력해 주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Android 다운로드 링크: "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "채널톡이 설치된 안드로이드 앱의 다운로드 URL을 입력해 주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "iOS 다운로드 링크: "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "채널톡이 설치된 iOS 앱의 다운로드 URL을 입력해 주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "Client Name"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "과 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "서비스 환경 정보"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "는 필수 정보입니다.\n서비스 환경 정보는 4개 중 1개는 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "필수로"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 입력해주셔야 합니다. (https:// 까지 입력 필요)"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자주 묻는 질문"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "“CallbackURL의 개수는 15개를 넘을 수 없습니다. 관리자 페이지에서 수정해 주세요” 라는 알림이 떠요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이미 하나의 앱에 CallbackURL 15개가 연동된 상태이기 때문에, 해당 앱에 등록된 최소 2개의 CallbackURL을 삭제해 주셔야 채널톡 네이버 로그인 완료됩니다. (네이버 로그인 연동 시 2개의 주소가 추가되기 때문에 기존 CallbackURL 중 최소 2개 삭제가 필요합니다.) "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[네이버 개발자 센터] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.naver.com/main/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ [내 애플리케이션] → [환경 추가] 클릭 → 서비스 선택 후 네이버로그인 CallbackURL 1개 삭제 → 다시 채널톡 네이버 아이디 로그인 연동을 진행해 주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/99/revisions/292/usermedia/662b10ab33226d64da79"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/675809bd5df727ee1009",
+  "linked_faqs": [
+    {
+      "id": "69034",
+      "question": "네이버 로그인 앱 연동 시, 네이버 단체 아이디도 채널톡에 연동 가능한가요?",
+      "answer_plaintext": "네이버 단체 아이디와 개인 아이디 모두 채널톡에 연동 가능합니다."
+    },
+    {
+      "id": "69036",
+      "question": "기존 네이버 톡톡 계정과, 네이버 아이디 로그인 계정이 달라도 채널톡에 연동할 수 있나요?",
+      "answer_plaintext": "네이버 톡톡 계정과 네이버 로그인 계정이 달라도 채널톡에 연동하여 사용 가능 합니다. 네이버 톡톡과 네이버 아이디 로그인은 다른 서비스이기 때문이에요."
+    },
+    {
+      "id": "69037",
+      "question": "1개의 채널톡 채널에 여러 개의 네이버 로그인 앱을 연동할 수 있나요?",
+      "answer_plaintext": "채널톡 채널과 네이버 로그인 앱은 1:1로만 연동 가능 합니다."
+    },
+    {
+      "id": "69038",
+      "question": "고객이 채널톡 홈화면의 톡톡 버튼이 아니라, 스마트스토어에서 바로 톡톡 버튼을 눌러 상담을 남기면, 고객 정보가 연동이 되나요?",
+      "answer_plaintext": "스마트 스토어에서 톡톡 버튼을 눌러 바로 상담으로 유입되는 경우에는 고객 정보가 연동되지 않아요.\n채널톡 홈화면에서 '다른 방법으로 문의'를 누르고, '톡톡' 버튼을 눌러 상담을 남겨야 고객 정보가 연동됩니다."
+    },
+    {
+      "id": "69039",
+      "question": "네이버 로그인 앱 연동 시, Client Image URL은 어떻게 생성하나요?",
+      "answer_plaintext": "- Client Image URL은 외부에서 접근가능한 퍼블릭한 링크를 입력해 주셔야 합니다.\n- 링크를 구하기 어렵다면, 이미지를 URL 링크로 변환해 주는 온라인 서비스를 이용하는 방법도 있어요.\n  예시) 웹 상에서 ‘이미지 주소 복사’ 가 가능한 이미지 등"
+    }
+  ],
+  "faq_count": 5
+}

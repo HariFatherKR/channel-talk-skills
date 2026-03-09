@@ -1,0 +1,3873 @@
+{
+  "id": "220854",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-04f5721d",
+  "title": "카카오톡 연동하기",
+  "summary": "상담톡, 알림톡을 이용하기 위해서 카카오톡을 연동이 필요합니다.",
+  "plaintext": "영상으로 배우고 싶다면?\n카카오톡 연동이란?\n카카오 상담톡 또는 카카오 알림톡을 이용하기 위해서 카카오톡 연동이 필요합니다.\n상담톡:\n고객이 카카오톡으로 기업과 1:1\n채팅 상담\n을 할 수 있게 해주는 서비스입니다.\n알림톡:\n기업이 카카오톡을 통해 고객에게 주문, 결제, 배송 안내 등\n정보성\n메시지를 발송할 수 있는 서비스입니다. (*\n정보성 메시지란?\n)\n브랜드 메시지(친구톡):\n기업이 카카오톡을 통해 사용자에게 상품 홍보 등\n광고성\n메시지를 발송할 수 있는 서비스입니다.\n연동 전 준비사항\n공통 준비사항\n[\n카카오톡 채널 관리자\n] → [채널 정보] →  채널 정보 하단의 '고객센터 연락처'에서 고객센터 연락처 정보를 입력해주세요.\n상담톡 연동 전 준비사항\n채널톡과 상담톡을 연동하면\n카카오톡 채널 관리자센터\n의 '1:1 대화' 목록은 더 이상 표시되지 않으며, 이후 들어온 상담은 채널톡에서만 응대·관리할 수 있어요. 따라서 연동 전에 카카오톡 채널 관리자센터에서 진행 중인 상담을 모두 마무리해 주세요.\n알림톡·브랜드 메시지(친구톡) 연동 전 준비사항\n알림톡과 브랜드 메시지를 전송하려면 아래 과정을 모두 완료해야 합니다.\n카카오톡 채널 비즈니스 인증\n채널톡 비즈니스 인증\n카카오톡 채널 비즈니스 인증만 완료된 경우, 팔로업 알림 알림톡은 전송 가능하지만 마케팅 부가서비스를 활용한 메시지는 보낼 수 없습니다.\n카카오 채널 친구가 아닌 고객에게 브랜드 메시지 전송(N, I+N 타겟팅)은 별도 심사가 필요합니다. 아래 조건을 충족한 후 승인 신청을 해주세요.\n카카오 채널 친구 5만 이상\n카카오 채널 전화번호 등록\n최근 3개월 이내 알림톡 발송 이력\n알림톡 메시지 발송 조건\n고객의 휴대폰 번호가 저장되어 있는 고객에게만 발송할 수 있습니다.\n브랜드 메시지(친구톡) 발송 조건\n고객 휴대폰 번호가 저장되어 있고 마케팅 수신 동의한 고객에게 발송할 수 있습니다.\n고객 타겟팅 유형에 따라 발송 조건이 다릅니다. (\n→ 브랜드 메시지 고객 타겟팅 유형 알아보기\n)\n친구가 아닌 고객에게 전송(N, I+N 타겟팅)은 별도 심사 후 이용할 수 있습니다. 아래 조건을 모두 충족한 후 승인 신청을 해주세요. (\n→ 신청 방법 확인하기\n)\n카카오 비즈니스 채널\n카카오 채널 친구 5만 이상\n카카오 채널 전화번호 등록\n최근 3개월 이내 알림톡 발송 이력\n연동 방법\n연동 과정을 영상으로 보고 싶다면\n여기\n를 클릭해 주세요.\n채널톡 왼쪽 하단 [채널 설정] - [연동] - [앱스토어] - [카카오] - [연동] 클릭\n항목 입력 및 사용 기능 선택 후 [다음] 클릭\n카카오톡 채널 아이디: [\n카카오톡 채널 관리자센터\n] - [프로필] - [프로필 설정]에서 '검색용 아이디' 확인 후 입력\n사업자 카테고리: [\n카카오톡 채널 관리자센터\n] - [프로필] - [프로필 설정]에서 '카테고리' 확인 후 입력(*만약 동일한 카테고리가 없다면 유사한 카테고리를 선택해 주셔도 됩니다.)\n사용 기능\n상담톡: 상담톡 이용을 원하는 경우에 켜주세요.\n알림톡: 알림톡 이용을 원하는 경우에 켜주세요.\n브랜드 메시지(친구톡): 브랜드 메시지(친구톡) 이용을 원하는 경우에 켜주세요.\n관리자 휴대폰 번호: [\n카카오톡 채널 관리자센터\n] - 우측 상단 [내 이메일 주소] - [내 정보] - [휴대폰 번호] 확인 후 입력(*연동 시 인증을 위해 활용되며 고객에게 노출되지 않습니다.)\n관리자 휴대폰 번호(카카오톡)로 전송된 인증 번호 입력 후 연동이 완료됩니다.\n기본 카카오 채널 설정\n하나의 채널톡 채널에 여러 카카오톡 채널을 연동하여 이용하시는 경우, 대표로 이용할 카카오 채널을 지정할 수 있습니다. 만약 연동된 다른 카카오톡 채널이 없다면, 새로 연동하는 채널이 자동으로 대표 채널로 설정됩니다.\n프론트 홈에 표시: 고객이 채널톡 홈의\n다른 방법으로 문의\n항목에서 카카오 아이콘 클릭 시 어떤 채널로 상담할지 선택해 주세요.\n팔로업 알림톡에 사용: 고객에게\n팔로업 알림\n(답변 알림)이 전송될 때 사용할 대표 프로필을 선택해 주세요.\n본인 인증 앱에서 사용: ALF 태스크 함수를 활용한 6자리 알림톡 인증(제한시간 내 완료) 기능 설정이에요. (함수 태스크를 이용하는 경우에만 설정이 필요합니다.)\n연동 오류 메시지별 해결 방법\n토큰 인증 대기 중\n카카오 상담톡 연동 시, 카카오톡 비즈니스 채널 관리자센터에 등록된 관리자 휴대폰 번호로 인증 번호 카카오톡 메시지가 전송되는데, 해당 인증 번호가 입력되지 않은 상황에 발생합니다. 올바른 인증 번호를 다시 입력해주세요.\n카카오 api 요청에 실패했습니다. Reason: 등록하려는 발신프로필 채널의 고객센터 정보 입력이 필요합니다. 모바일 카카오톡 채널 관리자 APP > 관리 > 고객센터 연락처에서 고객센터 연락처 정보를 입력해주세요\n.\n[\n카카오톡 채널 관리자\n] → [채널 정보] →  채널 정보 하단의 '고객센터 연락처'에서 고객센터 연락처 정보를 입력하신 후 재연동해주세요.\n카카오 api 요청에 실패했습니다. Reason: 카카오톡 채널 상태를 확인 해주세요.\n[\n카카오톡 채널 관리자센터\n] → [프로필] → [프로필 설정] → [옵션 설정] → [공개 설정] → [채널 공개] 상태를 ON하신 후 재 연동 해주세요.\n카카오 api 요청에 실패했습니다. Reason: 요청한 번호가 카카오톡 채널 관리자 알림 설정 되어있는지 확인해주세요.\n해당 카카오 비즈니스 채널에 관리자로 초대되었는 지 확인 후\n관리자로 초대가 되어 있다면:\n[\n카카오톡 채널 관리자센터\n] → 우측 상단 [이메일] 클릭 → [내 정보] 에서 전화번호 수정 후 동일한 번호로 재인증해 주세요.\n관리자로 초대되지 않았다면:\n해당 채널의 마스터 또는 다른 관리자에게 [\n카카오톡 채널 관리자 센터\n] → [관리] → [관리자]에서 매니저로 초대해달라고 요청해주세요.\n카카오 api 요청에 실패했습니다. Reason: 3018\n카카오 측에서 인증 메시지를 전송할 수 없을 때 발생하는 오류입니다.\n[개인 휴대폰 카카오톡] → [친구] → [우측 상단 톱니바퀴] → [친구 관리] → [차단 친구 관리]에서 카카오톡 비즈메세지 채널이 차단되어있다면 차단 해제해주세요.\n[\n카카오톡 채널 관리자센터\n] → 우측 상단 [이메일] → [내정보]에 등록된 번호와 동일한 번호인지, 비즈메시지 알림톡을 받을 수 있는 상태가 맞는지 체크해주세요.\n카카오톡 미사용자 혹은 7일 간 미접속자일 경우 해당 오류가 발생할 수 있습니다.\n카카오톡 하위 버전(6.0.0 미만)을 사용하고 계시다면 최신 버전으로 카카오톡을 업데이트해주세요.\n카카오 api 요청에 실패했습니다. Reason: 다른 파트너에 의해 이미 상담톡을 이용중인 프로필입니다. 상담톡 이용을 진행하고자 하는 경우 카카오에 문의해주세요.\n이미 다른 채널톡 채널에 연동되어있는 동일한 카카오 상담톡을 새로운 채널에 연동하려고 했을 때 발생하는 오류입니다.\n또는 다른 서비스(루나소프트, 해피톡 등)에 동일한 카카오 상담톡이 연동이 되었을 때 발생하는 오류입니다.\n연동 완료\n상담톡\n채널톡과 카카오 상담톡 연동 후,\n카카오톡 채널 관리자센터\n에서 '1:1 대화' 목록은 미노출되며 이후 들어온 카카오 상담은 채널톡에서 응대 및 관리하게 됩니다.\n채널톡 홈 화면의 다른 방법으로 문의 목록에 카카오 버튼이 표시됩니다. 만약 다른 방법으로 문의 항목이 보이지 않는다면 [채널 설정] - [연동] - [메신저]에서 '채널톡 라운지에서 숨기기'를 해제해 주세요.\n상담톡 고급 설정\n상담톡 고급 설정을 통해 상담이 열리는 시점을 선택할 수 있습니다.\n단, 고급 설정과 관계없이 새 상담을 시작할 때 챗봇 또는 ALF 빠른 배포가 동작하도록 설정된 경우에는 상담이 바로 열리지 않고 준비중 상태에서 새 상담을 시작할 때 챗봇 또는 ALF가 동작합니다.\n상담 연결을 요청했을 때\n다음의 방법으로 상담 연결을 요청하면 메시지를 보내지 않아도 상담이 열립니다.\n채널톡 홈 화면의 다른 방법으로 문의에서 카카오 아이콘 클릭\n카카오의 봇 버튼 중 '상담직원 연결' 버튼 클릭\n카카오톡에서 '상담 연결' 버튼 클릭\n(*상담톡과 카카오 챗봇을 함께 중인 경우 [\n카카오 비즈니스 파트너센터\n] → [채널] → [채널 정보] 내 '상담 직원 연결 버튼' 토글 켜면 '상담 연결' 버튼이 활성화됩니다.)\n아래 형태의 링크로 접근한 경우\nhttps://bizmessage.kakao.com/chat/open/@검색용아이디\n위 방법으로 상담 연결을 요청했을 때, 다음 트리거의 워크플로우가 실행됩니다.\n새 상담을 시작할 때 챗봇\n상담이 인입되었을 때\n메시지를 보낼 때(기본)\n고객이 카카오톡에서 메시지를 보내면 상담이 열립니다.\n고객이 카카오톡에서 메시지를 보냈을 때, 다음 트리거의 워크플로우가 실행됩니다.\n새 상담을 시작할 때 챗봇\n상담이 인입되었을 때\n상담톡으로 인입된 리드 고객을 기존 회원과 연동하는 방법\n고객이 홈페이지(=자사몰) 로그인합니다.\n채널톡 버튼 클릭을 클릭 후\n카카오 아이콘 클릭(위 이미지 참고) 후 카카오 계정에 로그인하면 연동이 완료됩니다.\n알림톡\n팔로업 답변 알림을 알림톡으로 전송할 수 있어요. 알림톡 전송 실패 시 문자로 대체 전송 됩니다. (\n→ 알림톡 팔로업 알림 설정 알아보기\n)\n①마케팅, ②수신함, ③고객 연락처 및 고객 프로필 ④워크플로우에서 고객에게 알림톡을 보낼 수 있어요.\n연관 콘텐츠\n마케팅 > 알림톡 가이드\n수신함 > 알림톡 가이드\n고객프로필 > 알림톡 가이드\n워크플로우 액션 > 다른 서비스로 메시지 보내기 (알림톡) 가이드\n마케팅 레시피\n브랜드 메시지(친구톡)\n브랜드 메시지(친구톡)을 사용하여 고객에게 광고성 메시지를 전송할 수 있습니다.\n①마케팅, ②수신함, ③고객 연락처 및 고객 프로필에서 고객에게 브랜드 메시지(친구톡)을 보낼 수 있어요.\n연관 콘텐츠\n브랜드 메시지(친구톡) 가이드\n다채널 연동 방법\n채널톡 왼쪽 하단 [채널 설정] - [연동] - [앱스토어]- [카카오] - [+추가 연동] 클릭 후 여러 카카오톡 채널을 연동할 수 있습니다.\n이미 다른 채널톡 채널에 연동된 카카오톡 채널은 중복 연동할 수 없습니다.\n비용\n항목\n상담톡\n알림톡\n브랜드 메시지(친구톡)\n비용\n80원(80PU)\n7원(7PU)\n15~20원(15~20PU)\n과금 기준\n상담 1건당 과금\n24시간 동안 동일 고객과 여러 메시지를 주고 받거나 상담이 새로 열려도 1회(80원)만 과금\n24시간은 오전 04:00 ~ 익일 오전 03:59 기준\n알림톡 1건 발송당 과금\n전송 실패 건은 과금에서 제외\n브랜드 메시지 1건 발송당 과금\n기본형: 15PU\n와이드 리스트형: 17PU\n캐러셀 피드형: 20PU\n친구가 아닌 고객에게 전송 시: 메시지 타입 관계없이 20PU |\n상담톡과 알림톡, 브랜드 메시지(친구톡)은 청구서 내 '소셜미디어' 항목으로 함께 표기됩니다.\n[채널 설정\n→ 구독 및 결제 → 외부 전송 내역]에서 전송 내역을 확인할 수 있습니다.\n연동 해제\n[채널설정] - [연동] - [앱스토어] - [카카오] 메뉴에서 해당 카카오톡 채널의 상담톡, 알림톡, 브랜드 메시지(친구톡)을 ❶사용 기능 해제하거나 ❷연동된 카카오 채널을 삭제할 수 있습니다.\n유의사항\n공통 안내\n‘상담톡’, ‘알림톡’, ‘브랜드 메시지(친구톡)’은 동시에 모두 사용 기능 해제를할 수 없습니다. 세 가지 중 하나 이상은 반드시 사용해야 합니다.\n해당 채널이 ‘프론트 홈에 표시’ 또는 ‘팔로업 알림에서 사용’으로 설정된 경우, 사용 기능 해제나 삭제가 불가합니다.\n상담톡\n상담톡 기능을 해제하거나 연동된 카카오 채널을 삭제하면, 진행 중인 카카오 상담은 자동 종료됩니다. 상담을 모두 마친 후 해제 또는 삭제를 진행해 주세요.\n상담톡 해제 또는 채널 삭제 후에 카카오톡 채널 관리자센터에서 1:1 대화를 이용하려면, [\n카카오톡 채널 관리자센터\n→ 1:1 채팅 → 채팅 설정]에서 1:1 채팅 사용을 켜야 합니다.\n알림톡\n알림톡 기능을 해제하거나 연동된 카카오 채널을 삭제하면, 해당 채널에 등록된 알림톡 템플릿은 더 이상 사용할 수 없습니다. 또한, 해당 채널을 발신 정보로 등록한 알림톡 마케팅은 작동하지 않습니다.\n연동된 카카오 채널을 삭제한 뒤 동일 채널을 재연동하더라도, 알림톡 템플릿은 ‘삭제됨’ 상태로 변경되며 재검수가 필요합니다.\n브랜드 메시지(친구톡)\n브랜드 메시지(친구톡) 기능을 해제하거나 연동된 카카오 채널을 삭제하면, 해당 채널을 발신 정보로 등록한 브랜드 메시지(친구톡) 마케팅은 작동하지 않습니다.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 2분 • 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/카카오톡-문의-채널톡에서-답장하기-3669c0d4",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad8715deee284070fc/tmp-708612673.png",
+        "title": "카카오톡 문의 채널톡에서 답장하기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "카카오톡 연동이란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카카오 상담톡 또는 카카오 알림톡을 이용하기 위해서 카카오톡 연동이 필요합니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담톡:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 고객이 카카오톡으로 기업과 1:1 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "채팅 상담"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 할 수 있게 해주는 서비스입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림톡:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 기업이 카카오톡을 통해 고객에게 주문, 결제, 배송 안내 등 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "정보성"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 메시지를 발송할 수 있는 서비스입니다. (*"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "정보성 메시지란?"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%A0%95%EB%B3%B4%EC%84%B1-%EB%A9%94%EC%8B%9C%EC%A7%80%EB%9E%80-0d720440"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ") "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "686e2f3e0836c8801c22",
+                "height": "746px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/507166/usermedia/68c13eab15345844a27e",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "브랜드 메시지(친구톡):"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 기업이 카카오톡을 통해 사용자에게 상품 홍보 등 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "광고성"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 메시지를 발송할 수 있는 서비스입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "68c13ea7b0402686f5d9",
+                "height": "746px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/507166/usermedia/68c13eaf4ba0a4fbdcfe",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 전 준비사항 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "공통 준비사항"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "카카오톡 채널 관리자"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://business.kakao.com/profiles"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] → [채널 정보] →  채널 정보 하단의 '고객센터 연락처'에서 고객센터 연락처 정보를 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "카카오_공통_4 (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/903207/usermedia/695274e3d84d1e7aa8fb",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담톡 연동 전 준비사항"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡과 상담톡을 연동하면 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "카카오톡 채널 관리자센터"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://center-pf.kakao.com/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "의 '1:1 대화' 목록은 더 이상 표시되지 않으며, 이후 들어온 상담은 채널톡에서만 응대·관리할 수 있어요. 따라서 연동 전에 카카오톡 채널 관리자센터에서 진행 중인 상담을 모두 마무리해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "알림톡·브랜드 메시지(친구톡) 연동 전 준비사항"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림톡과 브랜드 메시지를 전송하려면 아래 과정을 모두 완료해야 합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오톡 채널 비즈니스 인증"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "gray",
+                                "semanticColor": "txt-black-dark"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D-1b9e3eb9#%EC%9D%B8%EC%A6%9D-%EC%8B%A0%EC%B2%AD%ED%95%98%EA%B8%B0"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡 비즈니스 인증"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "gray",
+                                "semanticColor": "txt-black-dark"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D-0b034717"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오톡 채널 비즈니스 인증만 완료된 경우, 팔로업 알림 알림톡은 전송 가능하지만 마케팅 부가서비스를 활용한 메시지는 보낼 수 없습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오 채널 친구가 아닌 고객에게 브랜드 메시지 전송(N, I+N 타겟팅)은 별도 심사가 필요합니다. 아래 조건을 충족한 후 승인 신청을 해주세요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오 채널 친구 5만 이상 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오 채널 전화번호 등록 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "최근 3개월 이내 알림톡 발송 이력"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "알림톡 메시지 발송 조건"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객의 휴대폰 번호가 저장되어 있는 고객에게만 발송할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "브랜드 메시지(친구톡) 발송 조건"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 휴대폰 번호가 저장되어 있고 마케팅 수신 동의한 고객에게 발송할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 타겟팅 유형에 따라 발송 조건이 다릅니다. ("
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 브랜드 메시지 고객 타겟팅 유형 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "gray",
+                        "semanticColor": "txt-black-dark"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EB%B8%8C%EB%9E%9C%EB%93%9C-%EB%A9%94%EC%8B%9C%EC%A7%80%EC%B9%9C%EA%B5%AC%ED%86%A1--08543518#%EA%B3%A0%EA%B0%9D-%ED%83%80%EA%B2%9F%ED%8C%85-%EC%9C%A0%ED%98%95-%EC%95%88%EB%82%B4"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "친구가 아닌 고객에게 전송(N, I+N 타겟팅)은 별도 심사 후 이용할 수 있습니다. 아래 조건을 모두 충족한 후 승인 신청을 해주세요. ("
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 신청 방법 확인하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "gray",
+                        "semanticColor": "txt-black-dark"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EB%B8%8C%EB%9E%9C%EB%93%9C-%EB%A9%94%EC%8B%9C%EC%A7%80%EC%B9%9C%EA%B5%AC%ED%86%A1--08543518#%E2%91%A1-%EC%B9%9C%EA%B5%AC%EA%B0%80-%EC%95%84%EB%8B%8C-%EA%B3%A0%EA%B0%9D%EC%97%90%EA%B2%8C%EB%8F%84-%EB%B8%8C%EB%9E%9C%EB%93%9C-%EB%A9%94%EC%8B%9C%EC%A7%80-%EB%B3%B4%EB%82%B4%EA%B3%A0-%EC%8B%B6%EC%9D%84-%EB%95%8C-n-ni-%ED%83%80%EA%B2%9F%ED%8C%85"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오 비즈니스 채널 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오 채널 친구 5만 이상 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오 채널 전화번호 등록 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "최근 3개월 이내 알림톡 발송 이력"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "color": "gray",
+        "icon": "mortar_board",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "연동 과정을 영상으로 보고 싶다면 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "여기"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/channelcampus/ko/articles/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EB%AC%B8%EC%9D%98-%EC%B1%84%EB%84%90%ED%86%A1%EC%97%90%EC%84%9C-%EB%8B%B5%EC%9E%A5%ED%95%98%EA%B8%B0-3669c0d4#%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "를 클릭해 주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 왼쪽 하단 [채널 설정] - [연동] - [앱스토어] - [카카오] - [연동] 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "항목 입력 및 사용 기능 선택 후 [다음] 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "카카오톡연동하기_연동.png",
+                "height": "960px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/507166/usermedia/68c1453664fa87c6bfd7",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오톡 채널 아이디: ["
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "카카오톡 채널 관리자센터"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://center-pf.kakao.com/"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "] - [프로필] - [프로필 설정]에서 '검색용 아이디' 확인 후 입력"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "사업자 카테고리: ["
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "카카오톡 채널 관리자센터"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://center-pf.kakao.com/"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "] - [프로필] - [프로필 설정]에서 '카테고리' 확인 후 입력(*만약 동일한 카테고리가 없다면 유사한 카테고리를 선택해 주셔도 됩니다.)   "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "사용 기능 "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "상담톡: 상담톡 이용을 원하는 경우에 켜주세요. "
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "알림톡: 알림톡 이용을 원하는 경우에 켜주세요. "
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "브랜드 메시지(친구톡): 브랜드 메시지(친구톡) 이용을 원하는 경우에 켜주세요."
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "color": "default",
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "관리자 휴대폰 번호: ["
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "카카오톡 채널 관리자센터"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://center-pf.kakao.com/"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "] - 우측 상단 [내 이메일 주소] - [내 정보] - [휴대폰 번호] 확인 후 입력(*연동 시 인증을 위해 활용되며 고객에게 노출되지 않습니다.) "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "관리자 휴대폰 번호(카카오톡)로 전송된 인증 번호 입력 후 연동이 완료됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기본 카카오 채널 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "하나의 채널톡 채널에 여러 카카오톡 채널을 연동하여 이용하시는 경우, 대표로 이용할 카카오 채널을 지정할 수 있습니다. 만약 연동된 다른 카카오톡 채널이 없다면, 새로 연동하는 채널이 자동으로 대표 채널로 설정됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "카카오톡연동하기_연동.png",
+        "height": "570px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/965134/usermedia/699d1d091599a6b9e5f2",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "프론트 홈에 표시: 고객이 채널톡 홈의 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "다른 방법으로 문의"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90-%ED%94%84%EB%A1%A0%ED%8A%B8-6fd32151#%EB%8B%A4%EB%A5%B8-%EB%B0%A9%EB%B2%95%EC%9C%BC%EB%A1%9C-%EB%AC%B8%EC%9D%98"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 항목에서 카카오 아이콘 클릭 시 어떤 채널로 상담할지 선택해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팔로업 알림톡에 사용: 고객에게 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "팔로업 알림"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%ED%8C%94%EB%A1%9C%EC%97%85-%EC%95%8C%EB%A6%BC-1ab15b6a"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(답변 알림)이 전송될 때 사용할 대표 프로필을 선택해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "본인 인증 앱에서 사용: ALF 태스크 함수를 활용한 6자리 알림톡 인증(제한시간 내 완료) 기능 설정이에요. (함수 태스크를 이용하는 경우에만 설정이 필요합니다.)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 오류 메시지별 해결 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "color": "yellow",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "name": "warning"
+              },
+              "type": "emoji"
+            },
+            {
+              "attrs": {
+                "text": " 토큰 인증 대기 중"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오 상담톡 연동 시, 카카오톡 비즈니스 채널 관리자센터에 등록된 관리자 휴대폰 번호로 인증 번호 카카오톡 메시지가 전송되는데, 해당 인증 번호가 입력되지 않은 상황에 발생합니다. 올바른 인증 번호를 다시 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "color": "yellow",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "name": "warning"
+              },
+              "type": "emoji"
+            },
+            {
+              "attrs": {
+                "text": " 카카오 api 요청에 실패했습니다. Reason: 등록하려는 발신프로필 채널의 고객센터 정보 입력이 필요합니다. 모바일 카카오톡 채널 관리자 APP > 관리 > 고객센터 연락처에서 고객센터 연락처 정보를 입력해주세요"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "카카오톡 채널 관리자"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://business.kakao.com/profiles"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] → [채널 정보] →  채널 정보 하단의 '고객센터 연락처'에서 고객센터 연락처 정보를 입력하신 후 재연동해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "color": "yellow",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "name": "warning"
+              },
+              "type": "emoji"
+            },
+            {
+              "attrs": {
+                "text": " 카카오 api 요청에 실패했습니다. Reason: 카카오톡 채널 상태를 확인 해주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "카카오톡 채널 관리자센터"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://center-pf.kakao.com/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] → [프로필] → [프로필 설정] → [옵션 설정] → [공개 설정] → [채널 공개] 상태를 ON하신 후 재 연동 해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "color": "yellow",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "name": "warning"
+              },
+              "type": "emoji"
+            },
+            {
+              "attrs": {
+                "text": " 카카오 api 요청에 실패했습니다. Reason: 요청한 번호가 카카오톡 채널 관리자 알림 설정 되어있는지 확인해주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해당 카카오 비즈니스 채널에 관리자로 초대되었는 지 확인 후"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "관리자로 초대가 되어 있다면: "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "["
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "카카오톡 채널 관리자센터"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://center-pf.kakao.com/"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "] → 우측 상단 [이메일] 클릭 → [내 정보] 에서 전화번호 수정 후 동일한 번호로 재인증해 주세요. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "관리자로 초대되지 않았다면: "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "해당 채널의 마스터 또는 다른 관리자에게 ["
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "카카오톡 채널 관리자 센터"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://center-pf.kakao.com/profiles"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "] → [관리] → [관리자]에서 매니저로 초대해달라고 요청해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "color": "yellow",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "name": "warning"
+              },
+              "type": "emoji"
+            },
+            {
+              "attrs": {
+                "text": " 카카오 api 요청에 실패했습니다. Reason: 3018"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오 측에서 인증 메시지를 전송할 수 없을 때 발생하는 오류입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[개인 휴대폰 카카오톡] → [친구] → [우측 상단 톱니바퀴] → [친구 관리] → [차단 친구 관리]에서 카카오톡 비즈메세지 채널이 차단되어있다면 차단 해제해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "["
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "카카오톡 채널 관리자센터"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://center-pf.kakao.com/"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "] → 우측 상단 [이메일] → [내정보]에 등록된 번호와 동일한 번호인지, 비즈메시지 알림톡을 받을 수 있는 상태가 맞는지 체크해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오톡 미사용자 혹은 7일 간 미접속자일 경우 해당 오류가 발생할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오톡 하위 버전(6.0.0 미만)을 사용하고 계시다면 최신 버전으로 카카오톡을 업데이트해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "color": "yellow",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "name": "warning"
+              },
+              "type": "emoji"
+            },
+            {
+              "attrs": {
+                "text": " 카카오 api 요청에 실패했습니다. Reason: 다른 파트너에 의해 이미 상담톡을 이용중인 프로필입니다. 상담톡 이용을 진행하고자 하는 경우 카카오에 문의해주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이미 다른 채널톡 채널에 연동되어있는 동일한 카카오 상담톡을 새로운 채널에 연동하려고 했을 때 발생하는 오류입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "또는 다른 서비스(루나소프트, 해피톡 등)에 동일한 카카오 상담톡이 연동이 되었을 때 발생하는 오류입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 완료"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담톡"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "686e345ccfe299bd1838",
+        "height": "980px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/883413/usermedia/694905fda00ed72d4d38",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡과 카카오 상담톡 연동 후, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "카카오톡 채널 관리자센터"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://center-pf.kakao.com/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에서 '1:1 대화' 목록은 미노출되며 이후 들어온 카카오 상담은 채널톡에서 응대 및 관리하게 됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 홈 화면의 다른 방법으로 문의 목록에 카카오 버튼이 표시됩니다. 만약 다른 방법으로 문의 항목이 보이지 않는다면 [채널 설정] - [연동] - [메신저]에서 '채널톡 라운지에서 숨기기'를 해제해 주세요.  "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담톡 고급 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "카카오톡연동하기_고급설정 (2).png",
+        "height": "554px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/965113/usermedia/69606f67031e33a496d5",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담톡 고급 설정을 통해 상담이 열리는 시점을 선택할 수 있습니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "단, 고급 설정과 관계없이 새 상담을 시작할 때 챗봇 또는 ALF 빠른 배포가 동작하도록 설정된 경우에는 상담이 바로 열리지 않고 준비중 상태에서 새 상담을 시작할 때 챗봇 또는 ALF가 동작합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "카카오톡연동하기_고급설정 (3).png",
+        "height": "596px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/965113/usermedia/69606f7930d97997e955",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 연결을 요청했을 때"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "다음의 방법으로 상담 연결을 요청하면 메시지를 보내지 않아도 상담이 열립니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "채널톡 홈 화면의 다른 방법으로 문의에서 카카오 아이콘 클릭"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "카카오의 봇 버튼 중 '상담직원 연결' 버튼 클릭"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "카카오톡에서 '상담 연결' 버튼 클릭 "
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "(*상담톡과 카카오 챗봇을 함께 중인 경우 ["
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "카카오 비즈니스 파트너센터"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "href": "https://business.kakao.com/dashboard"
+                                      },
+                                      "type": "hyperlink"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "] → [채널] → [채널 정보] 내 '상담 직원 연결 버튼' 토글 켜면 '상담 연결' 버튼이 활성화됩니다.)  "
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "아래 형태의 링크로 접근한 경우"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "https://bizmessage.kakao.com/chat/open/@검색용아이디 "
+                                          },
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                }
+                              ],
+                              "type": "bullets"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "위 방법으로 상담 연결을 요청했을 때, 다음 트리거의 워크플로우가 실행됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "새 상담을 시작할 때 챗봇"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담이 인입되었을 때"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지를 보낼 때(기본)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객이 카카오톡에서 메시지를 보내면 상담이 열립니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객이 카카오톡에서 메시지를 보냈을 때, 다음 트리거의 워크플로우가 실행됩니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "새 상담을 시작할 때 챗봇"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "color": "default",
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "상담이 인입되었을 때"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "color": "default",
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담톡으로 인입된 리드 고객을 기존 회원과 연동하는 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "686e3561aac7f9319b31",
+        "height": "940px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/883413/usermedia/69490654438fb1bb4a04",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 홈페이지(=자사몰) 로그인합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 버튼 클릭을 클릭 후"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오 아이콘 클릭(위 이미지 참고) 후 카카오 계정에 로그인하면 연동이 완료됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "알림톡"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "694905db45afc8a99d31",
+        "height": "720px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/883413/usermedia/69490627c3cf3fb69ea8",
+        "width": "1040px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팔로업 답변 알림을 알림톡으로 전송할 수 있어요. 알림톡 전송 실패 시 문자로 대체 전송 됩니다. ("
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 알림톡 팔로업 알림 설정 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "gray",
+                        "semanticColor": "txt-black-dark"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-04f5721d#%EA%B8%B0%EB%B3%B8-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%B1%84%EB%84%90-%EC%84%A4%EC%A0%95"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "①마케팅, ②수신함, ③고객 연락처 및 고객 프로필 ④워크플로우에서 고객에게 알림톡을 보낼 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연관 콘텐츠"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "마케팅 > 알림톡 가이드"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/%EC%95%8C%EB%A6%BC%ED%86%A1-9747de9a"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "수신함 > 알림톡 가이드 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/%EC%88%98%EC%8B%A0%ED%95%A8-c2d439c6#:~:text=%EC%83%81%EB%8B%B4%ED%86%A1%20%EB%8C%80%ED%99%94%EC%B0%BD%EC%97%90%20%EB%B3%B4%EC%97%AC%EC%A7%91%EB%8B%88%EB%8B%A4.-,%EB%A7%9E%EC%B6%A4%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%9E%91%EC%84%B1%20%EB%B0%A9%EB%B2%95,-%EC%9E%85%EB%A0%A5%EC%B0%BD%20%EC%9A%B0%EC%B8%A1%20%ED%95%98%EB%8B%A8%EC%97%90"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객프로필 > 알림톡 가이드"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%ED%94%84%EB%A1%9C%ED%95%84-70732795#%EC%83%88-%EB%8C%80%ED%99%94"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "워크플로우 액션 > 다른 서비스로 메시지 보내기 (알림톡) 가이드 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/%EC%95%A1%EC%85%98-33ffa757#%EB%8B%A4%EB%A5%B8-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A1%9C-%EB%A9%94%EC%8B%9C%EC%A7%80-%EB%B3%B4%EB%82%B4%EA%B8%B0"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "마케팅 레시피"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://channel.io/ko/recipe/tag/%EC%95%8C%EB%A6%BC%ED%86%A1"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "브랜드 메시지(친구톡)"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "브랜드 메시지(친구톡)을 사용하여 고객에게 광고성 메시지를 전송할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "①마케팅, ②수신함, ③고객 연락처 및 고객 프로필에서 고객에게 브랜드 메시지(친구톡)을 보낼 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연관 콘텐츠"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "브랜드 메시지(친구톡) 가이드"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/%EB%B8%8C%EB%9E%9C%EB%93%9C-%EB%A9%94%EC%8B%9C%EC%A7%80%EC%B9%9C%EA%B5%AC%ED%86%A1-08543518"
+                              },
+                              "type": "hyperlink"
+                            },
+                            {
+                              "type": "underline"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "다채널 연동 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 왼쪽 하단 [채널 설정] - [연동] - [앱스토어]- [카카오] - [+추가 연동] 클릭 후 여러 카카오톡 채널을 연동할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이미 다른 채널톡 채널에 연동된 카카오톡 채널은 중복 연동할 수 없습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "비용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "항목"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담톡"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "알림톡"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "브랜드 메시지(친구톡)"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비용"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "80원(80PU)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "7원(7PU)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "15~20원(15~20PU) "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "과금 기준"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 1건당 과금"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "24시간 동안 동일 고객과 여러 메시지를 주고 받거나 상담이 새로 열려도 1회(80원)만 과금"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "24시간은 오전 04:00 ~ 익일 오전 03:59 기준 "
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "알림톡 1건 발송당 과금"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "전송 실패 건은 과금에서 제외"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "브랜드 메시지 1건 발송당 과금"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "기본형: 15PU "
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "와이드 리스트형: 17PU "
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "캐러셀 피드형: 20PU "
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "친구가 아닌 고객에게 전송 시: 메시지 타입 관계없이 20PU |"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담톡과 알림톡, 브랜드 메시지(친구톡)은 청구서 내 '소셜미디어' 항목으로 함께 표기됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "name": "gear"
+                  },
+                  "type": "emoji"
+                },
+                {
+                  "attrs": {
+                    "text": " → 구독 및 결제 → 외부 전송 내역]에서 전송 내역을 확인할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 해제 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "693ab7b7c2783fbb2499",
+        "height": "744px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/220854/revisions/641594/usermedia/693ab7c498e100889e89",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[채널설정] - [연동] - [앱스토어] - [카카오] 메뉴에서 해당 카카오톡 채널의 상담톡, 알림톡, 브랜드 메시지(친구톡)을 ❶사용 기능 해제하거나 ❷연동된 카카오 채널을 삭제할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "유의사항"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "공통 안내"
+                  },
+                  "marks": [
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "‘상담톡’, ‘알림톡’, ‘브랜드 메시지(친구톡)’은 동시에 모두 사용 기능 해제를할 수 없습니다. 세 가지 중 하나 이상은 반드시 사용해야 합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "해당 채널이 ‘프론트 홈에 표시’ 또는 ‘팔로업 알림에서 사용’으로 설정된 경우, 사용 기능 해제나 삭제가 불가합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담톡"
+                  },
+                  "marks": [
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담톡 기능을 해제하거나 연동된 카카오 채널을 삭제하면, 진행 중인 카카오 상담은 자동 종료됩니다. 상담을 모두 마친 후 해제 또는 삭제를 진행해 주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담톡 해제 또는 채널 삭제 후에 카카오톡 채널 관리자센터에서 1:1 대화를 이용하려면, ["
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "카카오톡 채널 관리자센터"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://center-pf.kakao.com/"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " → 1:1 채팅 → 채팅 설정]에서 1:1 채팅 사용을 켜야 합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림톡"
+                  },
+                  "marks": [
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "알림톡 기능을 해제하거나 연동된 카카오 채널을 삭제하면, 해당 채널에 등록된 알림톡 템플릿은 더 이상 사용할 수 없습니다. 또한, 해당 채널을 발신 정보로 등록한 알림톡 마케팅은 작동하지 않습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "연동된 카카오 채널을 삭제한 뒤 동일 채널을 재연동하더라도, 알림톡 템플릿은 ‘삭제됨’ 상태로 변경되며 재검수가 필요합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "브랜드 메시지(친구톡)"
+                  },
+                  "marks": [
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "브랜드 메시지(친구톡) 기능을 해제하거나 연동된 카카오 채널을 삭제하면, 해당 채널을 발신 정보로 등록한 브랜드 메시지(친구톡) 마케팅은 작동하지 않습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/686e2f35cb45514b24d2",
+  "linked_faqs": [
+    {
+      "id": "70806",
+      "question": "카카오 상담톡 연동은 무료플랜에서 가능한가요?",
+      "answer_plaintext": "채널톡과 카카오 상담톡을 연동하는 것 자체에는 비용이 발생하지 않습니다 또한 무료 플랜, 무료 체험 상태에서도 연동이 가능합니다. \n\n실제로 비용이 청구되는 시점은, 카카오 상담톡으로 연동된 상담에 답변할 때입니다. 아래 기준으로 '소셜미디어'비용이 청구됩니다. \n\n매일 오전 4시~익일 오전 3시 59분까지 24시간 단위로,\n- 카카오 상담톡으로 고객이 문의를 남기고 이에 대해 매니저 혹은 워크플로우로 답변 시, 80원이 부과됩니다.\n- 해당 기간 동안 동일 고객과 여러 번 메시지를 주고 받고나, 상담창이 여러 건 열려도 80원만 부과됩니다.\n\n단, 무료 플랜과 무료체험에서는 상담톡 비용(소셜미디어)에 대한 한도가 설정되어있습니다. 한도를 초과할 경우 카카오 상담톡에 답변이 불가해집니다. \n- 무료 플랜 : 소셜미디어 사용량(카카와 상담톡, 알림톡) 이 월 최대 10,000원(PU)\n- 무료 체험 : 소셜미디어 사용량(카카와 상담톡, 알림톡) 이 월 최대 1,000원(PU)"
+    },
+    {
+      "id": "107744",
+      "question": "카카오로 진행 중인 상담이 자동으로 종료되었어요",
+      "answer_plaintext": "아래와 같은 카카오 정책에 따라 카카오 상담이 자동 종료될 수 있습니다. \n\n카카오톡(외부 메신저) 자체 정책에 의한 종료\n- 매니저가 채널톡 데스크에서 상담을 직접 종료한 경우\n- 매니저가 해당 고객을 차단한 경우\n- 상담 고객이 카카오톡 채팅방에서 !종료 메시지를 입력한 경우\n- 상담 고객이 카카오톡 채팅방을 나간 경우\n- 상담 고객이 카카오톡 채널을 차단한 경우\n- 상담 고객이 마지막 메시지를 전송한 이후 30일이 경과한 경우\n  - 이때는 매니저(봇)의 메시지가 아닌, 고객의 메시지 전송을 기준으로 30일이 지나면 자동 종료됩니다."
+    },
+    {
+      "id": "70258",
+      "question": "다른 곳에서 알림톡이랑 브랜드 메시지(친구톡) 쓰고 있는데 채널톡에 연동 되나요?",
+      "answer_plaintext": "채널톡의 알림톡 및 브랜드 메시지(친구톡) 딜러사는 ‘채널톡’입니다. 다른 딜러사를 사용하고 계신 경우에는 채널톡에 추가로 각각 연동하여 이용하실 수 있습니다.\n\n하지만, 상담톡은 다른 딜러사를 통해 이미 사용 중이시라면 해지 후, 채널톡과 연동 가능해요."
+    },
+    {
+      "id": "70260",
+      "question": "카카오 알림톡을 채널톡에 연동 중인데, [휴면 계정입니다] 에러 메시지가 떠요",
+      "answer_plaintext": "- 카카오 비즈니스 계정이 휴면 계정인지 확인해주세요.\n- 1년 이상 카카오 비즈니스 서비스를 이용하지 않은 아이디로 로그인이나 광고 집행을 하지 않았다면 휴면 아이디로 전환돼요.\n- 장기 미사용 계정 (휴면 아이디) 해제 방법은 비즈니스 회원 로그인 및 본인 인증을 통해 해제할 수 있습니다."
+    },
+    {
+      "id": "70243",
+      "question": "상담톡과 알림톡, 브랜드 메시지(친구톡)은 어떻게 다른가요?",
+      "answer_plaintext": "현재 채널톡에서는 카카오 상담톡과 알림톡을 연동할 수 있습니다.\n- 상담톡: 고객이 카카오톡 채널에 메시지를 보내면, 상담원이 채널톡에서 응대할 수 있는 기능입니다. 카카오 채널을 친구 추가하지 않은 고객과도 대화할 수 있습니다.\n- 알림톡: 상담 중 이탈한 고객에게 알림톡을 이용해 답변 알림을 보낼 수 있으며, 채널톡 마케팅 기능과 연동해 정보성 메시지를 자동으로 발송할 수 있어요.\n- 브랜드 메시지(친구톡): 카카오 채널을 친구 추가한 고객에게 광고성 메시지를 발송할 수 있습니다. \n\n상담톡/알림톡/브랜드 메시지(친구톡) 관련 자세한 설명은 카카오 비즈니스 가이드를 참고해 주세요."
+    },
+    {
+      "id": "70254",
+      "question": "무료 플랜에서 상담톡 이용 시 과금이 되나요?",
+      "answer_plaintext": "네, 전송 실비가 발생합니다.\n무료 플랜의 경우, 한 달에 실비(알림톡, 상담톡, 문자) 전송 비용이 10,000PU(원)로 제한되어 있습니다. 한도 초과 시 인입된 상담톡 문의에 답변이 불가할 수 있습니다.\n\n- 참고: 무료 체험의 경우에는 실비 전송 비용이 1,000PU(원)으로 제한되어 있습니다."
+    },
+    {
+      "id": "51296",
+      "question": "알림톡 연동 했는데 왜 문자로만 보내지나요?",
+      "answer_plaintext": "[새 상담 열기]를 통해 상담원이 먼저 말을 걸고, 고객의 답변이 없는 상태에선 알림톡은 발송되지 않고 문자로만 전송됩니다."
+    },
+    {
+      "id": "94173",
+      "question": "카카오 상담톡 연동 해지했는데 카카오톡에서 입력창이 안보여요",
+      "answer_plaintext": "연동 해제 후 다시 [카카오톡 채널 1:1 대화] 기능 이용을 원하신다면, [카카오 채널 관리자 센터 → 1:1 채팅 → 채팅 설정 → 1:1 채팅 사용 활성화]를 해주시면 됩니다.\n\n채널톡에서 카카오 상담톡 연동 해지 시, 진행 중이던 카카오 상담창이 모두 종료처리 되고, 채널톡에서 진행한 카카오 상담 내역은 카카오 비즈니스 관리자 센터에서는 확인이 불가하기 때문에 진행중이던 상담 종료 후 연동 해제하시는 것을 권장드립니다."
+    },
+    {
+      "id": "70251",
+      "question": "카카오 상담톡에서도 채널톡 워크플로우가 작동하나요?",
+      "answer_plaintext": "카카오 상담톡, 네이버 톡톡 등에서도 워크플로우 중 응답 버튼, ALF 응대, 자동 메시지 전송, 상담 태그 부착, 담당자 배정 등의 대부분의 액션이 동작합니다. \n단, 입력폼 액션은 채널톡 고유의 기능이기에 외부 메신저에서 작동되지 않습니다.\n\n외부메신저에서 챗봇형 워크플로우를 설정하시려면 ‘새 상담을 시작할 때 챗봇’ 트리거를 선택해주세요. \n\n- 카카오톡, 네이버 톡톡에서도 AI와 챗봇 사용하기 가이드"
+    },
+    {
+      "id": "70247",
+      "question": "상담톡을 채널톡에 연동하기 이전 카카오 대화 내역도 채널톡으로 연동 되나요?",
+      "answer_plaintext": "- 이전 상담 내역은 카카오 측 정책으로 인해 채널톡으로 연동되지 않으며, 향후 연동을 해제하면 다시 카카오 채널 관리자 센터에서 확인하실 수 있습니다.\n- 채널톡과 연동한 시점부터 모든 상담 기록은 채널톡에 저장됩니다."
+    },
+    {
+      "id": "70253",
+      "question": "상담톡 비용이 과금되는 시점을 자세히 알고싶어요",
+      "answer_plaintext": "과금되는 시점은 아래와 같습니다.\n- 고객의 메시지에 매니저의 첫 답변을 보낸 시점\n- 고객의 메시지에 워크플로우로 자동 메시지가 전송된 시점\n- [채널 설정] - [상담] - [운영] - [운영 시간]에서 부재중 운영 상태가 '새로운 채팅 받지 않기' 또는 '채팅 버튼을 숨김'으로 설정되어, 고객의 문의가 들어왔을 때 시스템 메시지가 전송되는 시점 (→ 운영 설정 더 알아보기)"
+    },
+    {
+      "id": "70249",
+      "question": "카카오 연동 채널 삭제 후 → 다시 채널톡과 연동하였더니 기존 상담했던 고객과 이어져 상담이 진행되지 않아요",
+      "answer_plaintext": "- 채널톡과 상담톡의 연동 삭제 시 카카오톡의 대화 세션이 종료 되고, 상담창이 자동으로 종료됩니다.\n- 외부 메신저를 통해 연동된 상담은 종료 시, 대화를 다시 열 수 없습니다. 고객이 카카오 대화창에서 메시지를 보내면 새로운 상담으로 열리게 됩니다."
+    },
+    {
+      "id": "70248",
+      "question": "상담톡 연동을 해제하면 채널톡에서 받은 카카오톡 상담도 옮겨지나요?",
+      "answer_plaintext": "상담톡 연동을 해제하면 채널톡에서 받은 카카오톡 상담도 옮겨지나요?\n- 연동 해지 시 채널톡에서 진행했던 카카오 상담 내역은 카카오 비즈니스 채널로 이전되지 않습니다.\n- 채널톡과 카카오 상담톡 연동 이후, 카카오 상담톡을 통해 유입된 모든 고객 상담 내용은 채널톡 유저챗으로 남게 됩니다.\n- 즉, 연동 기간 동안의 상담은 채널톡에만 남아있게 됩니다."
+    },
+    {
+      "id": "70245",
+      "question": "채널톡과 카카오 상담톡을 연동했더니 카카오 채널 관리자 센터에서 보이던 이전 대화가 모두 사라졌어요",
+      "answer_plaintext": "- 상담톡을 채널톡에 연동하면 카카오톡 측 정책으로 중복 운영 관리가 불가능하여, 카카오 채널 관리자 센터 ‘카카오 채널' 1:1 대화 사용이 중지됩니다."
+    },
+    {
+      "id": "70244",
+      "question": "카카오 상담톡 연동을 제공하는 다른 서비스와 채널톡의 차별점이 무엇인가요?",
+      "answer_plaintext": "- 상담 통계 관리, 담당자 지정, 워크플로우 등 상담을 운영 효율화하여 관리할 수 있습니다.\n- 마케팅, CRM, 팀챗 등 올인원 비즈 메신저로서 고객 상담 관리 외에도 다양하게 활용이 가능합니다."
+    },
+    {
+      "id": "103394",
+      "question": "한 채널에 여러 카카오톡 채널을 연동할 수 있나요?",
+      "answer_plaintext": "네, 2025년 7월 11일부터 멀티 연동이 제공되어 가능합니다. \n\n현재 연동 가능한 최대 채널 개수의 제한은 없습니다. 다만 차후 제한 정책이 생길 수도 있는 점 참고해 주세요."
+    },
+    {
+      "id": "103396",
+      "question": "연동 채널을 삭제하지 않고 알림톡, 상담톡, 브랜드 메시지(친구톡)을 다 사용 해제할 수 없나요?",
+      "answer_plaintext": "카카오톡 연동 시, 상담톡과 알림톡, 브랜드 메시지(친구톡)을 모두 동시에 사용 해제할 수는 없습니다. \n일시적으로 사용 해제하고자 하신다면, \n- 먼저 상담톡만 해제하시고(진행 중 상담은 모두 종료됨)\n- [채널 설정] - [연동] - [메신저] - [카카오톡]에서 팔로업 알림을 '사용 안 함'으로 변경하시고\n- 해당 카카오 채널로 발신 중인 마케팅 메시지를 종료해 주세요."
+    },
+    {
+      "id": "103397",
+      "question": "카카오 채널의 ‘사용 기능 해제’와 ‘삭제’는 무슨 차이가 있나요?",
+      "answer_plaintext": "사용 기능 해제\n- ‘상담톡’이나 ‘알림톡’ 중 하나만 개별적으로 끌 수 있습니다.  \n- 진행중인 카카오 상담은 모두 종료됩니다. \n- 알림톡 해제 후 다시 켜면, 기존 템플릿을 재검수없이 사용할 수 있습니다. \n삭제\n- 채널 자체를 연동 해제하는 방식이며 삭제 시 ‘상담톡'과 ‘알림톡’  모두 해제됩니다. \n- 진행중인 카카오 상담은 모두 종료됩니다. \n- 채널 삭제 시 기존 템플릿은 '삭제됨' 상태가되며 재검수가 필요합니다."
+    },
+    {
+      "id": "103402",
+      "question": "'먼저 카카오 채널을 기본 카카오 채널 설정에서 제외한 다음 삭제할 수 있어요' 라는 문구가 뜨며 해제가 불가해요",
+      "answer_plaintext": "삭제하려는 카카오 채널이 ‘프론트 홈’이나 ‘팔로업 알림’에 사용되고 있다면, \n상담톡을 해제하거나 채널을 삭제할 수 없습니다.\n채널을 삭제하거나 상담톡을 해제하려면, \n[채널 설정] → [연동] → [메신저] → [카카오톡] → [기본 카카오 채널 설정]에서\n‘프론트 홈에 표시’ 또는 ‘팔로업 알림’을 다른 카카오 채널로 바꾸거나, \n'사용 안 함'으로 설정한 뒤 다시 시도해 주세요."
+    },
+    {
+      "id": "135081",
+      "question": "\"알림톡/친구톡 메시지는 관리자센터에서 확인할 수 없습니다\" 라고 떠요",
+      "answer_plaintext": "채널톡(또는 외부 연동 앱)에서 보낸 메시지는 [카카오톡 채널 관리자] 앱 1:1 대화방에 “알림톡/친구톡 메시지는 관리자센터에서 확인할 수 없습니다” 라고 표시됩니다.\n예전에는 카카오톡 ↔ 채널톡 연동을 해제하면, 연동된 상태에서 채널톡을 통해 보낸 메시지가 [카카오톡 채널 관리자] 앱에서 아예 보이지 않았으나,최근 카카오에서 정책을 수정해 확인이 가능해진 것으로 보입니다.\n따라서 연동 해제 후 [카카오톡 채널 관리자] 앱에서 보신 상담창이 채널톡을 통해 진행된 것이라면,재연동 후 채널톡에서도 해당 상담 내역을 확인하실 수 있습니다.\n단, 채널톡에서도 상담창이 보이지 않는 경우는\n- 해당 상담을 채널톡에서 영구 삭제했거나\n- 해당 메시지가 실제로는 다른 서비스/앱에서 발송된 경우일 수 있습니다."
+    }
+  ],
+  "faq_count": 20
+}

@@ -1,0 +1,2732 @@
+{
+  "id": "310335",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%B8%8C%EB%9E%9C%EB%93%9C-%EB%A9%94%EC%8B%9C%EC%A7%80%EC%B9%9C%EA%B5%AC%ED%86%A1--08543518",
+  "title": "브랜드 메시지(친구톡)",
+  "summary": "이제 카카오 브랜드 메시지도 채널톡으로 손쉽게 전송해 보세요. 광고성 내용이 담긴 카카오톡을 고객들에게 보낼 수 있습니다.",
+  "plaintext": "🏁 영상으로 배우고 싶다면?\n브랜드 메시지(친구톡) 소개\n브랜드 메시지(친구톡)란?\n브랜드 메시지는 기업이 카카오톡을 통해 사용자에게\n광고성 메시지\n를 발송할 수 있는 서비스입니다.\n(참고: 알림톡은 정보성 메시지를 발송하는 서비스입니다.\n→\n알림톡 알아보기\n)\n알림톡과 달리, 사전에 카카오로부터 템플릿 내용을 승인 받을 필요 없이, 바로 작성하여 발송 가능해요.\n브랜드 메시지(친구톡)를 보낼 수 있는 대상\n브랜드 메시지(친구톡)는 채널톡 ‘고객 연락처’에 등록된 고객 중 휴대폰 번호가 있고,\n마케팅 수신 동의\n를 한 고객에게 보낼 수 있습니다.\n카카오 채널을 차단한 고객의 전송 대상에서 제외됩니다.\n고객 타겟팅 유형 안내\n타겟팅 유형에 따라 메시지를 받는 고객 범위가 달라집니다. 현재 I, N, I+N 유형을 지원합니다.\n친구인 고객에게 전송(I 타겟팅)\n카카오 채널 친구이면서, 마케팅 수신 동의까지 완료한\n고객에게 발송합니다.\n활용 예시: 프로모션 혜택 안내\n친구가 아닌 고객에게 전송(N, I+N 타겟팅\n)\n친구가 아닌 고객에게 전송은 카카오 비즈니스 채널, 채널 친구 5만 이상 등 별도 조건을 충족해야 이용할 수 있습니다.\n카카오 채널 친구가 아닌 고객에게 발송(N 타겟팅)\n: 마케팅 수신 동의한 고객 중에 카카오톡 채널 친구가 아닌\n고객에게 발송합니다.\n활용 예시: 카카오 채널 친구 추가를 유도하는 메시지, 친구 추가 시 혜택 안내\n마케팅 동의 고객에게 발송(I+N 타켓팅)\n:\n카카오 채널 친구 여부와 관계없이, 마케팅 수신 동의한 모든 고객에게 발송합니다. 가장 넓은 범위의 타겟팅입니다.\n활용 예시: 전체 고객 대상 대규모 캠페인, 시즌 세일, 브랜드 런칭 등 중요 공지\n발송 전 준비사항\n채널톡 비즈니스 인증을 완료해 주세요. (\n→ 비즈니스 인증 방법 확인하기\n)\n비즈니스 인증이 완료 되었다면 브랜드 메시지(친구톡)를 사용하려면 먼저 아래 설정을 완료해주세요.\n① 친구인 고객에게 전송 (I 타겟팅)\n카카오톡 연동 시 카카오 브랜드 메시지(친구톡)의 토글을 ON으로 설정 후 저장해 주세요.\n(→ 연동 방법 확인하기)\n친구인 고객에게 전송(I유형)의 경우 별도의 승인 없이 브랜드 메시지 활성화만 해주시면 바로 이용이 가능합니다.\n소셜미디어* 사용량을 미리 충전하거나, 후불 청구 방식으로 보내실 수 있습니다.\n(→ 선불 충전 방법 확인하기)\n*소셜미디어 항목은 카카오 알림톡, 상담톡, 브랜드 메시지(친구톡)으로 인한 사용량을 의미해요\n.\n② 친구가 아닌 고객에게도 브랜드 메시지 보내고 싶을 때 (N, N+I 타겟팅)\n이 기능은 별도 심사를 통과해야 이용할 수 있어요. 아래 조건을 충족하면 승인 신청을 해주세요.\n카카오 비즈니스 채널\n카카오 채널 친구 5만 이상\n카카오 채널 전화번호 등록\n최근 3개월 이내 알림톡 발송 이력\n조건을 충족하지 않으면 ① 친구인 고객에게 전송 (I 타겟팅) 가능합니다.\n위의 조건을 충족한다면, 친구가 아닌 고객에게 전송을 체크해 주세요.\n무료 수신 거부 방식을 설정해 주세요.\n080 무료수시거부 앱 또는 수신거부 번호를 직접 입력하는 두 가지 방식으로 모두 가능합니다.\n운영하시는 사이트 내 마케팅 수신 동의 약관을 확인할 수 있는 자료를 파일로 첨부해 주세요.\n파일 첨부까지 모두 완료 했다면, [신청 및 저장]을 눌러주세요.\n서류 제출 후 영업일 기준 3~5일 정도 소요되고 최종 승인이 완료된 이후에 친구가 아닌 고객에게 브랜드 메시지 전송이 가능합니다.\n심사 결과: 신청한 팀 멤버의 나와의 대화방(DM)으로 알림이 전송됩니다.\n신청 내역 확인하기: [신청 내역 보기]를 누르면 등록 상태를 확인하실 수 있습니다.\n발송 방법\n심야 시간에는 브랜드 메시지 발송이 제한됩니다.\n정보통신망 이용 촉진 및 정보보호 등에 관한 법률로 인해\n20시 50분 ~ 익일 08시 00분\n사이에 발송을 시도한 브랜드 메시지는\n발송 실패 처리\n됩니다.\n① 마케팅에서 발송하기\n경로\n일회성\n: [마케팅 메뉴] → [일회성] → [+ 새 메시지 만들기] → [카카오] → [발신 프로필] 선택 후, 메시지 단계에서 메시지 유형을 브랜드 메시지(친구톡)로 선택\n캠페인\n: [마케팅 메뉴] → [캠페인] → [+ 캠페인 만들기] → [+ 새로 만들기] → [카카오] 선택 후, 메시지 단계에서 메시지 유형을 브랜드 메시지(친구톡)로 선택\n설정 방법\n브랜드 메시지를 선택해 주세요.\n고객 타겟팅 유형을 선택해 주세요.\n친구인 고객에게 전송\n(I 타겟팅): 고객 연락처에 대상 고객 중 마케팅 수신을 동의한 카카오 채널 친구인 고객에게 보내집니다.\n친구가 아닌 고객에게 전송\n: 고객 연락처에 대상 고객 중 마케팅 수신을 동의한 고객에게도 보내집니다.\n친구가 아닌 고객에게 전송은 사전에 [친구가 아닌 고객 전송] 승인을 받은 채널만 이용할 수 있어요. 승인 받지 않는 채널은 친구가 아닌 고객에게 전송 선택이 보이지 않습니다.\nN 유형 타겟팅: 고객 연락처에 대상 고객 중 마케팅 수신을 동의한 중에 카카오 채널 친구가 아닌 고객 대상입니다.\nI+N 유형 타겟팅: 고객 연락처에 대상 고객 중 카카오 채널 친구 여부와 관계 없이 마케팅 수신에 동의한 고객 대상입니다.\n브랜드 메시지 유형을 선택해 주세요.\n기본형, 와이드 이미지 형, 캐러설 피드형을 선택할 수 있습니다.\n마케팅 메시지 내용 작성 후 '저장' 버튼을 클릭합니다.\n② 수신함에서 발송하기\n진행중인 카카오 상담창에 접속한 후, '고객응대' 창에서 어떤 프로필로 보낼지 선택합니다. 그 후, '맞춤 메시지' 아이콘을 클릭합니다.\n(참고: 만약, 고객이 먼저 발화를 한 게 아니라면, 아래와 같이 화면이 뜹니다. 동일하게 '맞춤 메시지' 아이콘을 눌러 브랜드 메시지를 보낼 수 있어요.)\n메시지 유형을 '브랜드 메시지'로 선택 후, 고객 타케팅과 메시지 유형 선택해 주세요.\n내용 작성 후 '저장' 버튼을 클릭합니다.\n'고객응대'창에서 '전송' 버튼을 클릭합니다.\n③ 고객 연락처에서 발송하기\n개별 고객 프로필에서 발송하는 방법\n'새 대화' 아이콘을 클릭합니다.\n'카카오'를 선택한 후, 어떤 카카오 채널 프로필로 보낼 지 '발신 프로필'을 선택합니다.\n진행중인 카카오 상담창이 있다면, 해당 상담창으로 이동하게 됩니다. 그 후, '맞춤 메시지' 아이콘을 클릭합니다.\n(참고: 만약, 고객이 먼저 발화를 한 게 아니라면, 아래와 같이 화면이 뜹니다. 동일하게 '맞춤 메시지' 아이콘을 눌러 브랜드 메시지를 보낼 수 있어요.)\n고객 연락처 목록에서 발송하는 방법\n원하는 고객을 선택한 후, '일회성 메시지'를 클릭하여 브랜드 메시지를 발송할 수 있어요.\n발송 유형\n와이드 이미지형\n가로로 넓은 한 장의 이미지를 크게 노출하는 형식으로, 시각적 임팩트가 크고 브랜드 캠페인이나 시즌 메인 배너 등에 주로 활용됩니다.\n최대 글자 수: 본문 76자\n권장 사이즈: 800 × 600px (가로 500px 이상)\n이미지 비율: 2:1 ~ 1:1 (가로:세로)\n기본형\n단일 이미지 또는 영상을 사용해 핵심 문구와 버튼을 함께 노출하는 일반적인 형식으로, 와이드 이미지형보다 입력할 수 있는 최대 글자 수가 와이드 이미지형보다 넓습니다.\n최대 글자 수: 본문 1,300자\n권장 사이즈: 800 × 400px (가로 500px 이상)\n이미지 비율: 2:1 ~ 1.3:1 (가로:세로)\n캐러셀 피드형\n여러 장의 이미지나 카드를 좌우로 넘기며 볼 수 있는 형식으로, 각 카드마다 다른 상품이나 혜택을 소개할 수 있어 다양한 콘텐츠를 한 번에 노출하기에 효과적입니다.\n최대 글자 수: 제목 20자, 본문: 180자\n권장 사이즈: 800 × 400px 또는 800 × 600px (가로 500px 이상)\n이미지 비율: 2:1 ~ 1.3:1 (가로:세로)\n(참고 : 모든 브랜드 메시지 유형에서 사용 가능한 '쿠폰 강조' 중 '채널 쿠폰'의 URL은 [카카오 비즈니스 → 채널 관리자센터 → 비즈니스 도구 → 쿠폰 목록 → 쿠폰 상세 → 브랜드 메시지 URL 복사]를 통해 확인하실 수 있습니다.)\n발송 비용\n메시지 타입 및\n카카오 채널 친구 여부에 따라 다른 과금 기준이 적용됩니다.\n카카오 채널 친구가 아닌 고객에게 전송 시 메시지 타입 유형과 관계 없이 1건당 20PU(원)이 발생합니다.\n메시지 타입\n카카오 채널 친구인 고객에게 전송\n카카오 채널 친구 아닌\n고객에 전송\n기본형\n15PU\n20PU\n와이드 리스트형\n17PU\n20PU\n캐러셀 피드형\n20PU\n20PU\n*1PU = 1원을 의미합니다.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": " 🏁 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 10분 • 난이도: 하 • 추천 대상: 카카오 광고성 메시지를 전송하고 싶은 분",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/카카오-광고성-메시지-보내기-e9c21148",
+        "imageUrl": "https://cf.channel.io/thumb/1200x630,cover,webp/web_page/1/68c8b4b012500842cbec/tmp-1996555415.png",
+        "title": "카카오 광고성 메시지 보내기"
+      },
+      "type": "webPage"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "브랜드 메시지(친구톡) 소개"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "브랜드 메시지(친구톡)란?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "브랜드 메시지는 기업이 카카오톡을 통해 사용자에게 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "광고성 메시지"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 발송할 수 있는 서비스입니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(참고: 알림톡은 정보성 메시지를 발송하는 서비스입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "italic"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " → "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "알림톡 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%95%8C%EB%A6%BC%ED%86%A1-9747de9a"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림톡과 달리, 사전에 카카오로부터 템플릿 내용을 승인 받을 필요 없이, 바로 작성하여 발송 가능해요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "브랜드 메시지(친구톡)를 보낼 수 있는 대상"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "브랜드 메시지(친구톡)는 채널톡 ‘고객 연락처’에 등록된 고객 중 휴대폰 번호가 있고, "
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "마케팅 수신 동의"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 한 고객에게 보낼 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오 채널을 차단한 고객의 전송 대상에서 제외됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 타겟팅 유형 안내"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "가이드 - M,N ,I유형별 도식 이미지_수정.png",
+        "height": "1414px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/732820/usermedia/694009beb65ce318cd6c",
+        "width": "2400px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "타겟팅 유형에 따라 메시지를 받는 고객 범위가 달라집니다. 현재 I, N, I+N 유형을 지원합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "친구인 고객에게 전송(I 타겟팅)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오 채널 친구이면서, 마케팅 수신 동의까지 완료한 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "고객에게 발송합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "활용 예시: 프로모션 혜택 안내"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "친구가 아닌 고객에게 전송(N, I+N 타겟팅"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "친구가 아닌 고객에게 전송은 카카오 비즈니스 채널, 채널 친구 5만 이상 등 별도 조건을 충족해야 이용할 수 있습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오 채널 친구가 아닌 고객에게 발송(N 타겟팅)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 마케팅 수신 동의한 고객 중에 카카오톡 채널 친구가 아닌 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "고객에게 발송합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "활용 예시: 카카오 채널 친구 추가를 유도하는 메시지, 친구 추가 시 혜택 안내"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마케팅 동의 고객에게 발송(I+N 타켓팅)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ":"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-blue-normal"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "카카오 채널 친구 여부와 관계없이, 마케팅 수신 동의한 모든 고객에게 발송합니다. 가장 넓은 범위의 타겟팅입니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "활용 예시: 전체 고객 대상 대규모 캠페인, 시즌 세일, 브랜드 런칭 등 중요 공지"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "발송 전 준비사항"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 비즈니스 인증을 완료해 주세요. ("
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "→ 비즈니스 인증 방법 확인하기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D-0b034717"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "비즈니스 인증이 완료 되었다면 브랜드 메시지(친구톡)를 사용하려면 먼저 아래 설정을 완료해주세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "① 친구인 고객에게 전송 (I 타겟팅)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "브랜드 메시지 연동하기 - 1.png",
+        "height": "744px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/732820/usermedia/6936973599b8db2d7df6",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오톡 연동 시 카카오 브랜드 메시지(친구톡)의 토글을 ON으로 설정 후 저장해 주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 연동 방법 확인하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-04f5721d"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "친구인 고객에게 전송(I유형)의 경우 별도의 승인 없이 브랜드 메시지 활성화만 해주시면 바로 이용이 가능합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "662b10b1af069777f8c3",
+        "height": "726px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/732820/usermedia/69398eb213dbc9d890fa",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "소셜미디어* 사용량을 미리 충전하거나, 후불 청구 방식으로 보내실 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 선불 충전 방법 확인하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/f38990b7"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "*소셜미디어 항목은 카카오 알림톡, 상담톡, 브랜드 메시지(친구톡)으로 인한 사용량을 의미해요"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            },
+            {
+              "type": "italic"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-orange-normal"
+              },
+              "type": "color"
+            },
+            {
+              "type": "italic"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "② 친구가 아닌 고객에게도 브랜드 메시지 보내고 싶을 때 (N, N+I 타겟팅)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이 기능은 별도 심사를 통과해야 이용할 수 있어요. 아래 조건을 충족하면 승인 신청을 해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오 비즈니스 채널"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오 채널 친구 5만 이상"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오 채널 전화번호 등록 "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "최근 3개월 이내 알림톡 발송 이력"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "조건을 충족하지 않으면 ① 친구인 고객에게 전송 (I 타겟팅) 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "브랜드 메시지 연동하기.png",
+        "height": "980px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/732820/usermedia/69369a2cdf5cff316469",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "위의 조건을 충족한다면, 친구가 아닌 고객에게 전송을 체크해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "무료 수신 거부 방식을 설정해 주세요.  "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "080 무료수시거부 앱 또는 수신거부 번호를 직접 입력하는 두 가지 방식으로 모두 가능합니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "운영하시는 사이트 내 마케팅 수신 동의 약관을 확인할 수 있는 자료를 파일로 첨부해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "마케팅약관 (1).png",
+        "height": "744px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/886560/usermedia/6949dca12f8d44c567cf",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 5
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "파일 첨부까지 모두 완료 했다면, [신청 및 저장]을 눌러주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "6936a5fbdbcfaeaa6cba",
+        "height": "980px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/732820/usermedia/693aa9fb6092f49518ac",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 6
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "서류 제출 후 영업일 기준 3~5일 정도 소요되고 최종 승인이 완료된 이후에 친구가 아닌 고객에게 브랜드 메시지 전송이 가능합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "심사 결과: 신청한 팀 멤버의 나와의 대화방(DM)으로 알림이 전송됩니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "신청 내역 확인하기: [신청 내역 보기]를 누르면 등록 상태를 확인하실 수 있습니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "발송 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "심야 시간에는 브랜드 메시지 발송이 제한됩니다."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "정보통신망 이용 촉진 및 정보보호 등에 관한 법률로 인해 "
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "20시 50분 ~ 익일 08시 00분"
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 사이에 발송을 시도한 브랜드 메시지는 "
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "발송 실패 처리"
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "됩니다."
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "① 마케팅에서 발송하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "브랜드메시지-외부메신저 연동 (1).png",
+        "height": "726px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/502903/usermedia/68bfd800371d55d5f26d",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "브랜드메시지-외부메신저 연동 (2).png",
+        "height": "726px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/502903/usermedia/68bfd80d33fbeebfa1ff",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "브랜드 메시지  - 마케팅 전송하기 (1).png",
+        "height": "980px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/732820/usermedia/6936b455532b607f780b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "경로"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일회성"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": [마케팅 메뉴] → [일회성] → [+ 새 메시지 만들기] → [카카오] → [발신 프로필] 선택 후, 메시지 단계에서 메시지 유형을 브랜드 메시지(친구톡)로 선택"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "캠페인"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": [마케팅 메뉴] → [캠페인] → [+ 캠페인 만들기] → [+ 새로 만들기] → [카카오] 선택 후, 메시지 단계에서 메시지 유형을 브랜드 메시지(친구톡)로 선택"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 방법 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "브랜드 메시지를 선택해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 타겟팅 유형을 선택해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "친구인 고객에게 전송"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " (I 타겟팅): 고객 연락처에 대상 고객 중 마케팅 수신을 동의한 카카오 채널 친구인 고객에게 보내집니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "친구가 아닌 고객에게 전송"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 고객 연락처에 대상 고객 중 마케팅 수신을 동의한 고객에게도 보내집니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "친구가 아닌 고객에게 전송은 사전에 [친구가 아닌 고객 전송] 승인을 받은 채널만 이용할 수 있어요. 승인 받지 않는 채널은 친구가 아닌 고객에게 전송 선택이 보이지 않습니다. "
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "N 유형 타겟팅: 고객 연락처에 대상 고객 중 마케팅 수신을 동의한 중에 카카오 채널 친구가 아닌 고객 대상입니다. "
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "I+N 유형 타겟팅: 고객 연락처에 대상 고객 중 카카오 채널 친구 여부와 관계 없이 마케팅 수신에 동의한 고객 대상입니다. "
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "브랜드 메시지 유형을 선택해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "기본형, 와이드 이미지 형, 캐러설 피드형을 선택할 수 있습니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마케팅 메시지 내용 작성 후 '저장' 버튼을 클릭합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "② 수신함에서 발송하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "진행중인 카카오 상담창에 접속한 후, '고객응대' 창에서 어떤 프로필로 보낼지 선택합니다. 그 후, '맞춤 메시지' 아이콘을 클릭합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "68bfea8318fde96649d1",
+                "height": "726px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/502903/usermedia/68c12b1dbbe75dda887c",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "attrs": {
+                "alt": "68c13894d4bba413add5",
+                "height": "726px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/559485/usermedia/68c1389bc3531e696211",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "(참고: 만약, 고객이 먼저 발화를 한 게 아니라면, 아래와 같이 화면이 뜹니다. 동일하게 '맞춤 메시지' 아이콘을 눌러 브랜드 메시지를 보낼 수 있어요.)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "브랜드메시지-고객연락처에서 보내기5.png",
+                "height": "726px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/502903/usermedia/68c12b4e9239a5693d6e",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지 유형을 '브랜드 메시지'로 선택 후, 고객 타케팅과 메시지 유형 선택해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "내용 작성 후 '저장' 버튼을 클릭합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "68bfde456b8fec2fb6b2",
+                "height": "726px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/502903/usermedia/68bfe21b7ccb9a821d60",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'고객응대'창에서 '전송' 버튼을 클릭합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "68bfdddb0dfbeca29e1d",
+                "height": "726px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/502903/usermedia/68bfde497a59b4df0cc7",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "③ 고객 연락처에서 발송하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "개별 고객 프로필에서 발송하는 방법"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "start": 1
+              },
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "'새 대화' 아이콘을 클릭합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": "브랜드메시지-고객연락처에서 보내기1 (2).png",
+                        "height": "726px",
+                        "mime": "image/png",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/559460/usermedia/68c1363630eacb073537",
+                        "width": "1560px"
+                      },
+                      "type": "image"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "'카카오'를 선택한 후, 어떤 카카오 채널 프로필로 보낼 지 '발신 프로필'을 선택합니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": "68c12716d4a600ee82d5",
+                        "height": "726px",
+                        "mime": "image/png",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/502903/usermedia/68c12b76c4eee7539a9e",
+                        "width": "1560px"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "attrs": {
+                        "alt": "68bfeb363975ed49a7ee",
+                        "height": "726px",
+                        "mime": "image/png",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/502903/usermedia/68c12b76cb87aa0feaf8",
+                        "width": "1560px"
+                      },
+                      "type": "image"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "진행중인 카카오 상담창이 있다면, 해당 상담창으로 이동하게 됩니다. 그 후, '맞춤 메시지' 아이콘을 클릭합니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": "68c139a13ae4b2955c0a",
+                        "height": "726px",
+                        "mime": "image/png",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/559485/usermedia/68c13a48ac4e8f4bbee7",
+                        "width": "1560px"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "(참고: 만약, 고객이 먼저 발화를 한 게 아니라면, 아래와 같이 화면이 뜹니다. 동일하게 '맞춤 메시지' 아이콘을 눌러 브랜드 메시지를 보낼 수 있어요.)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": "68c12b4e9239a5693d6e",
+                        "height": "726px",
+                        "mime": "image/png",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/559485/usermedia/68c13a5486f6c26706ff",
+                        "width": "1560px"
+                      },
+                      "type": "image"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "orderedList"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 연락처 목록에서 발송하는 방법"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원하는 고객을 선택한 후, '일회성 메시지'를 클릭하여 브랜드 메시지를 발송할 수 있어요. "
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "브랜드메시지-고객연락처에서 보내기 4 (1).png",
+                "height": "726px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/559460/usermedia/68c13641711f8582d452",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "발송 유형"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "브랜드 메시지_유형.png",
+        "height": "744px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/310335/revisions/570410/usermedia/69019986d8bb74ed1051",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "와이드 이미지형"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "가로로 넓은 한 장의 이미지를 크게 노출하는 형식으로, 시각적 임팩트가 크고 브랜드 캠페인이나 시즌 메인 배너 등에 주로 활용됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최대 글자 수: 본문 76자"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "권장 사이즈: 800 × 600px (가로 500px 이상)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이미지 비율: 2:1 ~ 1:1 (가로:세로)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "기본형 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단일 이미지 또는 영상을 사용해 핵심 문구와 버튼을 함께 노출하는 일반적인 형식으로, 와이드 이미지형보다 입력할 수 있는 최대 글자 수가 와이드 이미지형보다 넓습니다. "
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최대 글자 수: 본문 1,300자"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "권장 사이즈: 800 × 400px (가로 500px 이상)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이미지 비율: 2:1 ~ 1.3:1 (가로:세로)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "캐러셀 피드형"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "여러 장의 이미지나 카드를 좌우로 넘기며 볼 수 있는 형식으로, 각 카드마다 다른 상품이나 혜택을 소개할 수 있어 다양한 콘텐츠를 한 번에 노출하기에 효과적입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최대 글자 수: 제목 20자, 본문: 180자"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "권장 사이즈: 800 × 400px 또는 800 × 600px (가로 500px 이상)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이미지 비율: 2:1 ~ 1.3:1 (가로:세로)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(참고 : 모든 브랜드 메시지 유형에서 사용 가능한 '쿠폰 강조' 중 '채널 쿠폰'의 URL은 [카카오 비즈니스 → 채널 관리자센터 → 비즈니스 도구 → 쿠폰 목록 → 쿠폰 상세 → 브랜드 메시지 URL 복사]를 통해 확인하실 수 있습니다.)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "발송 비용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "메시지 타입 및 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "카카오 채널 친구 여부에 따라 다른 과금 기준이 적용됩니다.  "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카카오 채널 친구가 아닌 고객에게 전송 시 메시지 타입 유형과 관계 없이 1건당 20PU(원)이 발생합니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "메시지 타입"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "카카오 채널 친구인 고객에게 전송"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "카카오 채널 친구 아닌 "
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객에 전송"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "기본형"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "15PU"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "20PU"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "와이드 리스트형"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "17PU"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "20PU"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "캐러셀 피드형"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "20PU"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "20PU"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "*1PU = 1원을 의미합니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/68bfbbcf1e10f3869f19",
+  "linked_faqs": [],
+  "faq_count": 0
+}

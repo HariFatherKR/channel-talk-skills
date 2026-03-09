@@ -1,0 +1,415 @@
+{
+  "id": "332349",
+  "url": "https://docs.channel.io/help/ko/articles/ALF%EB%9E%80-d791e043",
+  "title": "ALF란?",
+  "summary": "기존 ALF와 달라진 ALF에 대해서 알려 드려요.",
+  "plaintext": "ALF 명칭 정리\n2025-11-28부터 ALF v1은 종료되며 ALF v2만 이용 가능합니다.\n2025-11-28부터\n기존의 v1, v2 명칭은 사라지고, ALF로 통합됩니다.\nALF에서 무엇이 좋아졌나요?\nALF는 단순히 질문에 답해주는 것을 넘어, 실제 업무까지 처리할 수 있는 업그레이드된 AI 에이전트입니다. 기존 ALF는 FAQ나 아티클처럼 문서에 적힌 내용을 찾아 질문에 답변하는 것까지 가능했지만 ALF에서는 한 걸음 더 나아가,\n업무(Task) 처리까지 지원\n합니다.\n예를 들어 고객이 “주문을 취소하고 싶어요”라고 말하면, 단순히 방법을 안내하는 데서 끝나는 것이 아니라 실제로 취소 처리, 반품 접수, 예약 변경 같은 일을 바로 진행할 수 있습니다.\n또한 ALF에는\n에이전틱 서치 기술\n이 적용되어, 고객 문의의 의도를 파악하고 필요한 정보를 능동적으로 수집하며, 최종적으로 실행까지 이어지는 완전한 상담 자동화가 가능합니다.\n1. 태스크 : 더 쉽고 유연한 업무 처리\n기존 ‘커맨드’는 UI 안에서 고객이 직접 처리해야 했고, 복잡한 플로우나 화면 구현까지 개발자가 직접 만들어야 했습니다.\n하지만 ALF에서는 태스크를 통해 사람이 직접 물어보고 판단하는 것처럼 자동으로 처리할 수 있으며, 설정 화면에서 바로 만들고 실행할 수 있습니다. 또한 복잡한 로직도 주니어 개발자 수준이면 구현할 수 있어 개발 부담이 크게 줄어듭니다\n2. 지식 : 더 정확하고 정밀한 답변\n25년 11월 28일 이전 ALF에서는 채널에 등록된 FAQ나 아티클 같은 도큐먼트에 한정된 답변만 가능했습니다.\n이제 엑셀, PDF 등 다양한 자료까지 활용할 수 있고, 자료를 폴더별로 관리해 응답 범위를 세밀하게 구분할 수 있습니다. 그 덕분에 고객은 상황에 맞는 더 정확하고 정밀한 답변을 받을 수 있습니다.\n추후 업데이트 예정\n구글 스프레드시트, 웹사이트 등 다양한 자료까지 지식 범위가 확장될 예정입니다.\n3. 규칙 : 더 고도화된 지시문 적용\n25년 11월 28일 이전 ALF에서는 모든 상황에 동일한 역할 설명이 적용되어 세밀한 대응이 어려웠습니다.\nALF에서는 규칙 별로 필터 설정이 가능해서 상황별로 맞춤 규칙을 설정할 수 있습니다. 이를 통해 고객 조건에 따라 필터를 적용하여 자연스럽고 세밀한 응대가 가능해졌습니다.",
+  "body": [
+    {
+      "attrs": {
+        "icon": "bell",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "ALF 명칭 정리"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2025-11-28부터 ALF v1은 종료되며 ALF v2만 이용 가능합니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2025-11-28부터 "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "기존의 v1, v2 명칭은 사라지고, ALF로 통합됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "ALF에서 무엇이 좋아졌나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "height": "720px",
+        "mime": "video/*",
+        "src": "https://youtu.be/V7f6lgNuF0E",
+        "thumb": "https://cf.channel.io/thumb/1280x720,cover,webp/web_page/1/68f75ab5ca09db91dee3/tmp-3995422583.jpeg",
+        "width": "1280px"
+      },
+      "type": "video"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "548c4dc5-7486-4781-bde6-d4ac90b19096.webp",
+        "height": "967px",
+        "mime": "image/webp",
+        "src": "https://cf.channel.io/document/spaces/14463/articles/351267/revisions/571152/usermedia/68cbc5dba188705d335b",
+        "width": "1924px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "ALF는 단순히 질문에 답해주는 것을 넘어, 실제 업무까지 처리할 수 있는 업그레이드된 AI 에이전트입니다. 기존 ALF는 FAQ나 아티클처럼 문서에 적힌 내용을 찾아 질문에 답변하는 것까지 가능했지만 ALF에서는 한 걸음 더 나아가, "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "업무(Task) 처리까지 지원"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "합니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예를 들어 고객이 “주문을 취소하고 싶어요”라고 말하면, 단순히 방법을 안내하는 데서 끝나는 것이 아니라 실제로 취소 처리, 반품 접수, 예약 변경 같은 일을 바로 진행할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "ALF란 무엇이 좋아졌나요1.png",
+        "height": "1760px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332349/revisions/536233/usermedia/68c94a8eed1c3294f79d",
+        "width": "3120px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "또한 ALF에는 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "에이전틱 서치 기술"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "이 적용되어, 고객 문의의 의도를 파악하고 필요한 정보를 능동적으로 수집하며, 최종적으로 실행까지 이어지는 완전한 상담 자동화가 가능합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 태스크 : 더 쉽고 유연한 업무 처리"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "ALF란_태스크 (3).png",
+        "height": "1760px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332349/revisions/694210/usermedia/690064e499ade80d27a0",
+        "width": "3120px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "기존 ‘커맨드’는 UI 안에서 고객이 직접 처리해야 했고, 복잡한 플로우나 화면 구현까지 개발자가 직접 만들어야 했습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "하지만 ALF에서는 태스크를 통해 사람이 직접 물어보고 판단하는 것처럼 자동으로 처리할 수 있으며, 설정 화면에서 바로 만들고 실행할 수 있습니다. 또한 복잡한 로직도 주니어 개발자 수준이면 구현할 수 있어 개발 부담이 크게 줄어듭니다"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. 지식 : 더 정확하고 정밀한 답변"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "ALF란_지식 (2).png",
+        "height": "1760px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332349/revisions/536233/usermedia/68c94aa1ebaafd265abe",
+        "width": "3120px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "25년 11월 28일 이전 ALF에서는 채널에 등록된 FAQ나 아티클 같은 도큐먼트에 한정된 답변만 가능했습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이제 엑셀, PDF 등 다양한 자료까지 활용할 수 있고, 자료를 폴더별로 관리해 응답 범위를 세밀하게 구분할 수 있습니다. 그 덕분에 고객은 상황에 맞는 더 정확하고 정밀한 답변을 받을 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "추후 업데이트 예정"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "구글 스프레드시트, 웹사이트 등 다양한 자료까지 지식 범위가 확장될 예정입니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3. 규칙 : 더 고도화된 지시문 적용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "ALF란_규칙.png",
+        "height": "1760px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332349/revisions/536233/usermedia/68c94aab67866cf5f913",
+        "width": "3120px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "25년 11월 28일 이전 ALF에서는 모든 상황에 동일한 역할 설명이 적용되어 세밀한 대응이 어려웠습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "ALF에서는 규칙 별로 필터 설정이 가능해서 상황별로 맞춤 규칙을 설정할 수 있습니다. 이를 통해 고객 조건에 따라 필터를 적용하여 자연스럽고 세밀한 응대가 가능해졌습니다.  "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "61",
+    "name": "Beige",
+    "bio": "Minji Jeon, CX manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/6928198f56a817e3a389",
+  "linked_faqs": [
+    {
+      "id": "152064",
+      "question": "알프(ALF)는 어떤 언어로 답변하나요?",
+      "answer_plaintext": "ALF는 고객의 메시지 언어가 아닌 고객 프로필에 저장된 언어를 기준으로 답변합니다. \n\n고객 프로필의 기본 언어는 고객이 사용하는 기기 또는 브라우저의 언어 설정에 따라 자동으로 저장됩니다. 또한 고객이 직접 프로필에서 언어를 변경하실 수도 있습니다. (경로: 채널톡 버튼 > 설정(⚙️) > 언어)"
+    }
+  ],
+  "faq_count": 1
+}

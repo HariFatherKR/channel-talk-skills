@@ -1,0 +1,3213 @@
+{
+  "id": "115",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%AC%B8%EC%9E%90-ba987cea",
+  "title": "문자",
+  "summary": "채널톡에서 전송되는 팔로업 알림 및 마케팅 메시지의 발송 번호를 브랜드의 번호로 설정해보세요. 채널톡을 통해 마케팅 문자를 전송하기 위해선 반드시 등록이 필요합니다.",
+  "plaintext": "발신번호 사전등록제 시행으로, 2015년 10월 16일부로 사전에 등록하지 않은 발신번호는 SMS 발송이 제한됩니다. 따라서 SMS 발송을 위해서 사전에 발신번호를 등록해야만 합니다.\n발신번호 사전등록제란, 전기통신사업법 제 84조 의거 거짓으로 표시된 전화번호로 인한 이용자 피해 예방을 위해 이용 고객이 사전 등록된 발신번호로만 문자발송이 가능하도록 하는 제도입니다.\n발신번호를 등록하지 않으면 아래와 같이 동작합니다.\n팔로업 알림 → 채널톡 대표번호로 발송됩니다.\n마케팅 메시지 → 발송이 되지 않습니다.\n문자 발신 번호 등록하기\n국내 발신 번호를 설정할 수 있어요. 기존에 사용하던 고객센터 번호를 등록하거나, 미트(채널톡 전화)를 이용 중이라면 채널톡 070 번호로 발신 번호를 등록할 수 있어요.\n만약 문자 국내 발신 번호를 설정하지 않는다면, 채널톡의 번호로 팔로업 알림 문자가 전송되며, 마케팅 메시지는 전송이 불가합니다.\n문자 발신번호 설정 경로: [채널 설정] - [연동] - [문자] - [국내 설정]\n채널톡 번호와 기존 고객센터 번호 중 어느 번호로 등록할 지 선택할 수 있어요.\n채널톡 번호에서 선택: 미트를 이용 중이라면, 발급 받은 채널의 070 번호를 문자 발신 번호로 사용 가능\n문자 발신 번호 변경 신청: 기존 고객센터 번호를 인증하여 문자 발송 번호로 사용 가능\n채널톡 번호로 설정\n[채널톡 번호에서 선택]을 클릭하면,\n채널톡에서 발급받은 채널톡 070 번호\n를 선택하여 등록할 수 있어요.\n만약 채널톡에서 발급받은 070 번호에 발신 번호 변경이 적용된 상태라면, 등록한 발신 번호로 설정됩니다.\n문자 발신 번호 변경 신청\n발급받은 채널톡 070 번호가 없다면, 신규로 문자 발신 번호를 등록할 수 있어요.\n준비 사항\n설정 경로: [채널 설정] - [연동] - [문자] - [국내 설정] - [발신 번호 설정] - [문자 발신 번호 변경 신청]\n문자 발신번호 신청 가능한 역할\n소유자\n[채널 설정: '일반 및 기타 설정'] 권한이\n있는 멤버\n문자 발신번호 신청 시 준비 사항\n비즈니스 인증 받기 (\n→\n비즈니스 인증 신청하기\n)\n공통 서류: 통신서비스 가입증명원(신청 번호의 명의자를 확인)\n명의자와 신청자간 관계 확인을 위한 서류\n*관계 확인 문서\n예시\n본점-지점 관계: 양 사 모두 기재된 법인등기부등본\n계열사 관계: 지분 관계가 기재된 주주명부\n업무 위수탁 관계: 업무 위수탁 계약서 사본\n그 외 양 사 관계를 확인할 수 있는 문서\n관계 확인을 위한 사항 외 민감한 정보는 마스킹(가림처리) 후 제출해주세요\n*채널톡 표준 위임장\n: 아래 첨부된 파일을 다운로드 하시거나, 케이스 3~6 선택 시 노출되는 \"템플릿 다운로드\" 버튼을 눌러 다운로드 해주세요\n.zip 파일에 포함된 위임장 작성 가이드를 참고하여 작성해주세요\n*(법인)인감증명서\n: 위임장에 날인한 양 사의 (법인)인감증명서\n*'\n양 사 간 채널톡 표준 위임장'과 위임장에 날인한 인감의 '(법인)인감증명서'는\n1개의 PDF 파일로 취합\n하여 [위임장] 파일 첨부란에 업로드해주세요.\n서류 별 유효 기한\n재직증명서: 발급일이 신청일로부터 30일 이내\n법인인감증명서: 발급일이 신청일로부터 3개월 이내\nPASS 본인인증이 가능한 010 연락처\n[개인 설정 → 팀 멤버 설정 → 팀 멤버 프로필 → 연락처]에 저장된 팀 멤버의 연락처 입니다.\nPC 웹 브라우저 접속\nPC앱에서는 진행이 불가합니다. 웹 브라우저로 진행해주세요.\nex)크롬, 사파리, 엣지 등\nPASS인증 유의사항\n본인 인증한 이름과 신청인(대표자 또는 재직자)의 이름이 다를 경우 반려 사유에 해당합니다.\n예) 재직자 A 명의로 본인인증 + 대표자 신분증만 업로드, 재직자 A 재직증명서 누락 → 반려\n예) 재직자 A 명의로 본인인증 + 대표자 신분증, 재직자 B 재직증명서 업로드 → 반려\n아래의 경우 팀 멤버 본인 인증(PASS 인증) 확인 창이 열립니다.\n채널에서 문자 발신 번호를 최초로 신청 하는 경우\n반려 또는 취소 후 재인증을 시도하는 팀 멤버가 이전에 진행한 팀 멤버와 다른 경우\n동일 팀 멤버가 재신청할 때, 팀 멤버의 연락처가 이전과 다른 경우\n문자 발신번호 신청하기\n신청자의 본인인증 진행\n문자 발신 번호 신청을 진행하는 팀 멤버의 신분 확인을 위해 본인인증 절차를 진행합니다.\n웹 브라우저를 통해 진행해주세요.\n신청서 작성 및 서류 제출\n신청자와 등록을 원하는 번호의 명의자에 따라 신청 방식에는 여러 케이스가 존재합니다. 유형을 선택한 후 보여지는 신청서 화면에 따라 내용 입력, 서류를 제출해주세요.\n(\n→ 마스킹 가이드 확인하기\n)\n비즈니스 인증 진행\n해당 채널이 유효한 사업자인지 확인을 위한 비즈니스 인증을 진행합니다.\n이미 비즈니스 인증이 완료된 채널이라면 재인증할 필요는 없어요.\n서류 확인 단계\n제출이 완료되면, 채널팀에서 확인 후 발신 번호 변경이 완료됩니다. 일반적으로 운영일 기준 3-5일 정도 소요될 수 있습니다. 발신 번호 변경이 완료되거나, 반려될 경우 안내드립니다.\n신청자 : 알림톡, 나와의 대화방에 공지봇으로 안내\n채널의 소유자, 일반 설정 권한의 팀 멤버 : 나와의 대화방에 공지봇으로 안내\n신청 후 [대기중] 상태에서 변경 신청을 취소하거나, 정보 수정이 가능합니다.\n채널팀이 정보를 확인 중인 [확인중] 상태에서는 정보 수정 및 신청 취소가 불가합니다.\n반려 사유\n아래와 같은 사유로 문자 발신 번호 변경 요청이 반려될 수 있습니다. 반려 시, 신청자에게는 알림톡과 공지봇으로 , 채널의 소유자, 일반 설정 권한의 팀 멤버에게는 공지봇으로 안내됩니다. 문자 발신 번호 등록 상태는 신규 신청이 가능한 상태로 변경됩니다.\n종류\n사유\n첨부 서류 식별 불가\n제출 서류의 잘림, 해상도 등의 문제로 서류 식별이 어려울 경우\n이미지는 전체가 나오도록 컬러로 스캔하시거나, 카메라로 촬영한 파일을 업로드해주세요.\n필수 서류 미비\na. 제출 누락 (잘목된 파일 업로드 등), 암호화로 서류 확인 불가\nb. 유효 기간 초과 (발급일이 1개월 이내인 재직증명서만 허용)\nc. 직인 없음\nd. 관계 확인 서류 미비 : 양사가 관계사일 경우 별도 위임장과 부속 서류 제출이 필요하며, 채널톡으로 문의를 남겨주시면 위임장 양식과 제출 서류 목록을 안내 받으실 수 있습니다.\n정보 불일치\na. 관계 확인용 문서가 다른 사업자 정보인 경우\nb. 재직증명서의 사업자가 다른 경우\nc. 서류 제출 위치 오류 : 업로드 위치 재확인 필요\n비즈니스 인증이 불가한 사업자일 경우\na. 신청이 불가한 업종\nb. 미성년 대표자 추가 확인 서류 미제출\n이미 삭제된 채널일 경우\n문자 발신 번호 신청 채널이 삭제되었을 경우\n연동 확인하기\n[채널 설정] - [연동] - [문자] - [국내 설정] 에서 등록된 번호가 맞는지 확인해주세요.\n광고 수신거부 방식 설정\n광고 문자 메시지 하단에는 무료로 수신거부가 가능한 방식을 안내해야 합니다. 광고 문자 전송 시 고객에게 보여질 문자 수신거부 방식을 설정해 주세요.\n경로: [채널 설정] - [연동] - [문자] - [국내 설정] - [광고 수신거부 방식]\n채널톡 수신거부 링크: 광고 문자 수신거부 방식이 링크 형태로 전송됩니다. 링크 클릭하여 채널톡 설정 화면에서 문자 수신 거부 여부를 직접 변경하실 수 있어요.\n직접 입력: 기존에 이용하던 080 무료 수신거부 번호가 있다면, 직접 해당 번호를 입력하여 설정해 주세요.\n080 무료수신거부: 채널톡 080 수신거부 앱을 통해 발급 받은 번호를 이용할 수 있어요. (→\n080 수신거부 앱 가이드 보러가기\n)\n단, 직접 입력한 080 번호를 통해 고객의 문자 수신 거부값이 변경될 때 채널톡에 수신 거부값이 바로 연동되지 않기에 별도의 업데이트 작업이 필요합니다. 개발자 가이드를 참고하여 문자 수신 거부값을 업데이트해 주세요. (→\n개발자 가이드\n)\n해외 설정\n해외 서비스 혹은 해외 고객에게 문자 메시지를 보내기 위한 설정 입니다.\n국내 서비스만 진행하신다면, 등록하지 않으셔도\n괜찮습니다.\nSender ID 설정 방법\nSender ID란 도메인 위장과 피싱을 방지하기 위해 사용되는 발신자 이메일 인증 방식입니다.\n채널톡에서는 일본, 등 Sender ID를 지원하는 해외 수신자에게\n마케팅 (일회성 메시지, 캠페인) 기능을 통해 문자\n를 보내기 위해 필요합니다. Sender ID를 설정하면, 수신자에게 지정한 Sender ID로 발신번호가 표시되기 때문에 브랜드명으로 설정하는 것을 권장드려요.\nSender ID를 설정하지 않았을 경우 고객이 오프라인일 때 상담 답변을 알리는 답변 알림은 “ChannelTalk” 이라는 ID로 전송됩니다.\n[채널 설정] - [연동] - [문자] 의 [해외 설정] 탭에서 Sender ID를 등록해주세요.\n이\n문서\n에서 Sender ID를 지원하는 국가를 확인할 수 있어요.\n일부 국가는 Sender ID를 지원하지만, Twilio를 통해 사용할 Sender ID를 사전 등록하는 절차가 필요해요.\n북미 지역 문자 서비스 설정 방법\n북미 지역의 수신자에게 문자 메시지를 보낼 때는 Sender ID 설정을 지원하지 않습니다.\n트윌리오 연동을 통해 이미 보유한 미국 전화번호나, 미국 전화번호를 새로 구매하여 문자 메시지를 보낼 수 있습니다.\n북미 지역에서\n마케팅 (일회성 메시지, 캠페인) 기능을 통해 문자\n를 발송하기 위해서는 1) 트윌리오 연동을 진행하고 2)미국 현지 브랜드 등록 3)Twilio Messaging Service 연동을 진행해야 합니다.\n트윌리오 연동을 설정하지 않았을 경우, 고객이 오프라인일 때 상담 답변을 알리는 답변 알림은 고정된 전화번호로 전송됩니다.\n[채널 설정] - [연동] - [문자] 의 [트윌리오 연동] 탭에서 연동을 진행해 주세요.\n트윌리오 연동 가이드와 트윌리오 Messaging Service 연동 가이드\n를 참고해 주세요.\n문자 발송 한도\n한국 외 지역의 수신자에게 발송하는 문자는\n일일 500건\n으로 제한됩니다. (2023.08.03 적용)\n한도 이상으로 문자 메시지를 보내기 위해서는\n트윌리오 연동\n을 진행해 해주세요.\n(→ 트윌리오 연동 가이드)\n문자 발송 한도와 현재 사용량은 [채널 설정] - [연동] - [문자] 페이지에서 확인할 수 있습니다.\n업체명 설정\n마케팅에서 고객에게 광고성 문자 메시지를 보낼 때, 발신자 표기를 위한 업체명을 설정해야해요. 광고성 문자 본문 첫 부분에 업체명이 자동으로 설정되어 전송됩니다.\n수신자가 한국, 북미일 경우 업체명 설정이 필요해요.\n업체명을 설정하지 않을 경우, 운영 중이신 [채널명]으로 자동으로 설정되어 발송됩니다.\nSender ID를 사용하는 국가의 경우 업체명을 추가하지 않아도 설정한 Sender ID가 업체명을 대체하여 전송됩니다.\n문자 발송 비용\n문자 및 소셜 네트워크(알림톡) 발송 비용은 아래와 같습니다.\n알림톡 : 7PU / 국내 SMS : 10PU / 국내 LMS : 28PU\nPU는 채널톡 내에서 문자 등을 보낼 때 사용되는 단위입니다 (1PU=1원)\n한국 문자의 경우 메시지 길이가 짧으면 SMS, 길면 LMS로 자동 발송됩니다.\n문자 시스템 상 글자 스타일이나 이모지 등은 무시될 수 있습니다.\n해외 SMS: 원가 제공 (국가와 서비스 벤더마다 상이합니다.)\n발송 금액은\n이곳에서 확인해주세요.\n일본이나 해외로 SMS전송 시 140byte(한국어/일본어 기준 약 70자, 영어 기준 약 160자) 기준으로 가격이 변동됩니다. (글자 수에는 자동으로 추가되는 메시지도 포함됩니다.)\n트윌리오 연동을 진행했다면, 해외 고객에게 전송한 문자 이용료는 연동한 트윌리오 계정에 직접 과금됩니다.\n결제 방법\n후불 결제 또는 필요한 만큼 선불 충전할 수 있어요.\n발송 비용 선불 충전은 (\n→ 사용량 선불 충전 가이드\n)를 참고해주세요.",
+  "body": [
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "발신번호 사전등록제 시행으로, 2015년 10월 16일부로 사전에 등록하지 않은 발신번호는 SMS 발송이 제한됩니다. 따라서 SMS 발송을 위해서 사전에 발신번호를 등록해야만 합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "발신번호 사전등록제란, 전기통신사업법 제 84조 의거 거짓으로 표시된 전화번호로 인한 이용자 피해 예방을 위해 이용 고객이 사전 등록된 발신번호로만 문자발송이 가능하도록 하는 제도입니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "발신번호를 등록하지 않으면 아래와 같이 동작합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "팔로업 알림 → 채널톡 대표번호로 발송됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마케팅 메시지 → 발송이 되지 않습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "문자 발신 번호 등록하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "국내 발신 번호를 설정할 수 있어요. 기존에 사용하던 고객센터 번호를 등록하거나, 미트(채널톡 전화)를 이용 중이라면 채널톡 070 번호로 발신 번호를 등록할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "만약 문자 국내 발신 번호를 설정하지 않는다면, 채널톡의 번호로 팔로업 알림 문자가 전송되며, 마케팅 메시지는 전송이 불가합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문자 발신번호 설정 경로: [채널 설정] - [연동] - [문자] - [국내 설정]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/115/revisions/340/usermedia/662b0f7c1ff99af58c36"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 번호와 기존 고객센터 번호 중 어느 번호로 등록할 지 선택할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡 번호에서 선택: 미트를 이용 중이라면, 발급 받은 채널의 070 번호를 문자 발신 번호로 사용 가능"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "문자 발신 번호 변경 신청: 기존 고객센터 번호를 인증하여 문자 발송 번호로 사용 가능"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/66b0b3aa4ed9be53fcf9"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 번호로 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[채널톡 번호에서 선택]을 클릭하면, "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "채널톡에서 발급받은 채널톡 070 번호"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 선택하여 등록할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "만약 채널톡에서 발급받은 070 번호에 발신 번호 변경이 적용된 상태라면, 등록한 발신 번호로 설정됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/115/revisions/340/usermedia/662b0f7c8bd1ea6ae3a9"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "문자 발신 번호 변경 신청"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "발급받은 채널톡 070 번호가 없다면, 신규로 문자 발신 번호를 등록할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "문자_발신번호변경.png",
+        "height": "960px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/115/revisions/442679/usermedia/68885fc9948a7bf322c6",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "준비 사항"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [연동] - [문자] - [국내 설정] - [발신 번호 설정] - [문자 발신 번호 변경 신청]"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문자 발신번호 신청 가능한 역할"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "소유자"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[채널 설정: '일반 및 기타 설정'] 권한이"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "있는 멤버"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문자 발신번호 신청 시 준비 사항"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "비즈니스 인증 받기 ("
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "→ "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/0b034717-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "비즈니스 인증 신청하기"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-dark"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/0b034717-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ")"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "공통 서류: 통신서비스 가입증명원(신청 번호의 명의자를 확인)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "명의자와 신청자간 관계 확인을 위한 서류"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Group 7375.png",
+        "height": "1120px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/115/revisions/466390/usermedia/6890326ead917d7bb931",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bgtxt-green-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "*관계 확인 문서"
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 예시"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "본점-지점 관계: 양 사 모두 기재된 법인등기부등본"
+                      },
+                      "marks": [
+                        {
+                          "type": "backgroundColor"
+                        },
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "계열사 관계: 지분 관계가 기재된 주주명부"
+                      },
+                      "marks": [
+                        {
+                          "type": "backgroundColor"
+                        },
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "업무 위수탁 관계: 업무 위수탁 계약서 사본"
+                      },
+                      "marks": [
+                        {
+                          "type": "backgroundColor"
+                        },
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "그 외 양 사 관계를 확인할 수 있는 문서"
+                      },
+                      "marks": [
+                        {
+                          "type": "backgroundColor"
+                        },
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "관계 확인을 위한 사항 외 민감한 정보는 마스킹(가림처리) 후 제출해주세요"
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "*채널톡 표준 위임장"
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": ": 아래 첨부된 파일을 다운로드 하시거나, 케이스 3~6 선택 시 노출되는 \"템플릿 다운로드\" 버튼을 눌러 다운로드 해주세요"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": ".zip 파일에 포함된 위임장 작성 가이드를 참고하여 작성해주세요"
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "*(법인)인감증명서"
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": ": 위임장에 날인한 양 사의 (법인)인감증명서"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "*'"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "양 사 간 채널톡 표준 위임장'과 위임장에 날인한 인감의 '(법인)인감증명서'는 "
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "1개의 PDF 파일로 취합"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-red-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "하여 [위임장] 파일 첨부란에 업로드해주세요."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "mime": "application/zip",
+        "name": "KR-POA-template_bizCertification.zip",
+        "size": "7032976",
+        "src": "https://cf.channel.io/document/spaces/6/articles/115/revisions/442679/usermedia/688212e4ea7ebd35ef3b"
+      },
+      "type": "file"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "서류 별 유효 기한"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "재직증명서: 발급일이 신청일로부터 30일 이내"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "법인인감증명서: 발급일이 신청일로부터 3개월 이내"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "PASS 본인인증이 가능한 010 연락처"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[개인 설정 → 팀 멤버 설정 → 팀 멤버 프로필 → 연락처]에 저장된 팀 멤버의 연락처 입니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "PC 웹 브라우저 접속"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "PC앱에서는 진행이 불가합니다. 웹 브라우저로 진행해주세요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ex)크롬, 사파리, 엣지 등"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "PASS인증 유의사항"
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "본인 인증한 이름과 신청인(대표자 또는 재직자)의 이름이 다를 경우 반려 사유에 해당합니다."
+                      },
+                      "marks": [
+                        {
+                          "type": "backgroundColor"
+                        },
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예) 재직자 A 명의로 본인인증 + 대표자 신분증만 업로드, 재직자 A 재직증명서 누락 → 반려"
+                      },
+                      "marks": [
+                        {
+                          "type": "backgroundColor"
+                        },
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예) 재직자 A 명의로 본인인증 + 대표자 신분증, 재직자 B 재직증명서 업로드 → 반려"
+                      },
+                      "marks": [
+                        {
+                          "type": "backgroundColor"
+                        },
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "아래의 경우 팀 멤버 본인 인증(PASS 인증) 확인 창이 열립니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채널에서 문자 발신 번호를 최초로 신청 하는 경우"
+                      },
+                      "marks": [
+                        {
+                          "type": "backgroundColor"
+                        },
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "반려 또는 취소 후 재인증을 시도하는 팀 멤버가 이전에 진행한 팀 멤버와 다른 경우"
+                      },
+                      "marks": [
+                        {
+                          "type": "backgroundColor"
+                        },
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "동일 팀 멤버가 재신청할 때, 팀 멤버의 연락처가 이전과 다른 경우"
+                      },
+                      "marks": [
+                        {
+                          "type": "backgroundColor"
+                        },
+                        {
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "문자 발신번호 신청하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신청자의 본인인증 진행"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문자 발신 번호 신청을 진행하는 팀 멤버의 신분 확인을 위해 본인인증 절차를 진행합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "웹 브라우저를 통해 진행해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/66b0b49dec85df2fe321"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신청서 작성 및 서류 제출"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신청자와 등록을 원하는 번호의 명의자에 따라 신청 방식에는 여러 케이스가 존재합니다. 유형을 선택한 후 보여지는 신청서 화면에 따라 내용 입력, 서류를 제출해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "("
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "→ 마스킹 가이드 확인하기"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/0b034717-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D#%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EB%A7%88%EC%8A%A4%ED%82%B9-%EA%B0%80%EC%9D%B4%EB%93%9C"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ")"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/66b0b4aea10fe067ca7d"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비즈니스 인증 진행"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해당 채널이 유효한 사업자인지 확인을 위한 비즈니스 인증을 진행합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이미 비즈니스 인증이 완료된 채널이라면 재인증할 필요는 없어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "서류 확인 단계"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "제출이 완료되면, 채널팀에서 확인 후 발신 번호 변경이 완료됩니다. 일반적으로 운영일 기준 3-5일 정도 소요될 수 있습니다. 발신 번호 변경이 완료되거나, 반려될 경우 안내드립니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "신청자 : 알림톡, 나와의 대화방에 공지봇으로 안내"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널의 소유자, 일반 설정 권한의 팀 멤버 : 나와의 대화방에 공지봇으로 안내"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "신청 후 [대기중] 상태에서 변경 신청을 취소하거나, 정보 수정이 가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널팀이 정보를 확인 중인 [확인중] 상태에서는 정보 수정 및 신청 취소가 불가합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "attrs": {
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/usermedia/66b0b4d327f1c8492bdb"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "반려 사유"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/usermedia/66b0b4f52a86fc9b9825"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아래와 같은 사유로 문자 발신 번호 변경 요청이 반려될 수 있습니다. 반려 시, 신청자에게는 알림톡과 공지봇으로 , 채널의 소유자, 일반 설정 권한의 팀 멤버에게는 공지봇으로 안내됩니다. 문자 발신 번호 등록 상태는 신규 신청이 가능한 상태로 변경됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "종류"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "사유"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "첨부 서류 식별 불가"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "제출 서류의 잘림, 해상도 등의 문제로 서류 식별이 어려울 경우 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "이미지는 전체가 나오도록 컬러로 스캔하시거나, 카메라로 촬영한 파일을 업로드해주세요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "필수 서류 미비"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "a. 제출 누락 (잘목된 파일 업로드 등), 암호화로 서류 확인 불가 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "b. 유효 기간 초과 (발급일이 1개월 이내인 재직증명서만 허용)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "c. 직인 없음 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "d. 관계 확인 서류 미비 : 양사가 관계사일 경우 별도 위임장과 부속 서류 제출이 필요하며, 채널톡으로 문의를 남겨주시면 위임장 양식과 제출 서류 목록을 안내 받으실 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "정보 불일치"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "a. 관계 확인용 문서가 다른 사업자 정보인 경우 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "b. 재직증명서의 사업자가 다른 경우 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "c. 서류 제출 위치 오류 : 업로드 위치 재확인 필요"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비즈니스 인증이 불가한 사업자일 경우"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "a. 신청이 불가한 업종 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "b. 미성년 대표자 추가 확인 서류 미제출"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "이미 삭제된 채널일 경우"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "문자 발신 번호 신청 채널이 삭제되었을 경우"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 확인하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[채널 설정] - [연동] - [문자] - [국내 설정] 에서 등록된 번호가 맞는지 확인해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/115/revisions/340/usermedia/662b0f7d0676165c778a"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "광고 수신거부 방식 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "광고 문자 메시지 하단에는 무료로 수신거부가 가능한 방식을 안내해야 합니다. 광고 문자 전송 시 고객에게 보여질 문자 수신거부 방식을 설정해 주세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "경로: [채널 설정] - [연동] - [문자] - [국내 설정] - [광고 수신거부 방식]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "문자_광고수신거부방식.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/115/revisions/294839/usermedia/682185c567b6c8dcf307",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 수신거부 링크: 광고 문자 수신거부 방식이 링크 형태로 전송됩니다. 링크 클릭하여 채널톡 설정 화면에서 문자 수신 거부 여부를 직접 변경하실 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "직접 입력: 기존에 이용하던 080 무료 수신거부 번호가 있다면, 직접 해당 번호를 입력하여 설정해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "080 무료수신거부: 채널톡 080 수신거부 앱을 통해 발급 받은 번호를 이용할 수 있어요. (→ "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "080 수신거부 앱 가이드 보러가기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/080-%EC%88%98%EC%8B%A0%EA%B1%B0%EB%B6%80-%EC%95%B1-9ca9ea06"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ") "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "단, 직접 입력한 080 번호를 통해 고객의 문자 수신 거부값이 변경될 때 채널톡에 수신 거부값이 바로 연동되지 않기에 별도의 업데이트 작업이 필요합니다. 개발자 가이드를 참고하여 문자 수신 거부값을 업데이트해 주세요. (→ "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "개발자 가이드"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://developers.channel.io/docs/update-a-user"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": ") "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "해외 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "해외 서비스 혹은 해외 고객에게 문자 메시지를 보내기 위한 설정 입니다. "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "국내 서비스만 진행하신다면, 등록하지 않으셔도"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 괜찮습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/115/revisions/340/usermedia/662b0f7d3638c8bdcd44"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Sender ID 설정 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Sender ID란 도메인 위장과 피싱을 방지하기 위해 사용되는 발신자 이메일 인증 방식입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡에서는 일본, 등 Sender ID를 지원하는 해외 수신자에게 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "마케팅 (일회성 메시지, 캠페인) 기능을 통해 문자"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 보내기 위해 필요합니다. Sender ID를 설정하면, 수신자에게 지정한 Sender ID로 발신번호가 표시되기 때문에 브랜드명으로 설정하는 것을 권장드려요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Sender ID를 설정하지 않았을 경우 고객이 오프라인일 때 상담 답변을 알리는 답변 알림은 “ChannelTalk” 이라는 ID로 전송됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [연동] - [문자] 의 [해외 설정] 탭에서 Sender ID를 등록해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "문서"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://support.twilio.com/hc/en-us/articles/223133767-International-support-for-Alphanumeric-Sender-ID"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에서 Sender ID를 지원하는 국가를 확인할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "일부 국가는 Sender ID를 지원하지만, Twilio를 통해 사용할 Sender ID를 사전 등록하는 절차가 필요해요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "북미 지역 문자 서비스 설정 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "북미 지역의 수신자에게 문자 메시지를 보낼 때는 Sender ID 설정을 지원하지 않습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오 연동을 통해 이미 보유한 미국 전화번호나, 미국 전화번호를 새로 구매하여 문자 메시지를 보낼 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "북미 지역에서 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "마케팅 (일회성 메시지, 캠페인) 기능을 통해 문자"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 발송하기 위해서는 1) 트윌리오 연동을 진행하고 2)미국 현지 브랜드 등록 3)Twilio Messaging Service 연동을 진행해야 합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트윌리오 연동을 설정하지 않았을 경우, 고객이 오프라인일 때 상담 답변을 알리는 답변 알림은 고정된 전화번호로 전송됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [연동] - [문자] 의 [트윌리오 연동] 탭에서 연동을 진행해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트윌리오 연동 가이드와 트윌리오 Messaging Service 연동 가이드"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/eeb061a3"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 참고해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "문자 발송 한도"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "한국 외 지역의 수신자에게 발송하는 문자는 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "일일 500건"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "으로 제한됩니다. (2023.08.03 적용)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "한도 이상으로 문자 메시지를 보내기 위해서는 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "트윌리오 연동"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 진행해 해주세요. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 트윌리오 연동 가이드)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/eeb061a3"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문자 발송 한도와 현재 사용량은 [채널 설정] - [연동] - [문자] 페이지에서 확인할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "트윌리오",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/115/revisions/340/usermedia/662b0f7d81bd493bc674"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "업체명 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "문자_업체명 설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/115/revisions/33683/usermedia/66ab956b92201aec7ec3",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "마케팅에서 고객에게 광고성 문자 메시지를 보낼 때, 발신자 표기를 위한 업체명을 설정해야해요. 광고성 문자 본문 첫 부분에 업체명이 자동으로 설정되어 전송됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신자가 한국, 북미일 경우 업체명 설정이 필요해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "업체명을 설정하지 않을 경우, 운영 중이신 [채널명]으로 자동으로 설정되어 발송됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Sender ID를 사용하는 국가의 경우 업체명을 추가하지 않아도 설정한 Sender ID가 업체명을 대체하여 전송됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "문자 발송 비용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "문자 및 소셜 네트워크(알림톡) 발송 비용은 아래와 같습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림톡 : 7PU / 국내 SMS : 10PU / 국내 LMS : 28PU"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "PU는 채널톡 내에서 문자 등을 보낼 때 사용되는 단위입니다 (1PU=1원)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "한국 문자의 경우 메시지 길이가 짧으면 SMS, 길면 LMS로 자동 발송됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "문자 시스템 상 글자 스타일이나 이모지 등은 무시될 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해외 SMS: 원가 제공 (국가와 서비스 벤더마다 상이합니다.)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "발송 금액은 "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "이곳에서 확인해주세요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://www.twilio.com/sms/pricing"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "일본이나 해외로 SMS전송 시 140byte(한국어/일본어 기준 약 70자, 영어 기준 약 160자) 기준으로 가격이 변동됩니다. (글자 수에는 자동으로 추가되는 메시지도 포함됩니다.)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "트윌리오 연동을 진행했다면, 해외 고객에게 전송한 문자 이용료는 연동한 트윌리오 계정에 직접 과금됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "결제 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "후불 결제 또는 필요한 만큼 선불 충전할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "발송 비용 선불 충전은 ("
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "→ 사용량 선불 충전 가이드"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/3c72fcf1"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")를 참고해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "105",
+    "name": "Helen",
+    "bio": "Hi! Im currently working as Sales Manager in Korea Office. \nPlease contact me with any kind of business. Your message is always welcome :)"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0efa4ce7b48fc797",
+  "linked_faqs": [
+    {
+      "id": "70307",
+      "question": "발송 번호 등록하면 어디에 노출되나요?",
+      "answer_plaintext": "팔로업 알림과 마케팅 메시지 발송 시 노출됩니다.\n\n1. 팔로업 알림: 고객이 사이트에서 대화를 하다 이탈하여 오프라인 상태가 되었을 때, 상담원이 답변을 보내면 채팅을 이어갈 수 있는 링크가 자동으로 붙은 메시지가 전송될 때 등록한 발송번호로 전송됩니다.\n2. 마케팅 메시지: 마케팅 문자를 보낼 때 등록한 발송번호로 전송됩니다."
+    },
+    {
+      "id": "70308",
+      "question": "문자 비용은 유료플랜 금액에 포함되나요?",
+      "answer_plaintext": "문자 이용료(실비)는 건 당 계산되어, 후불로 청구 됩니다.\n\n- 국내 SMS : 10PU(원)\n  - 90byte의 단문 메시지 (한국어 기준 약 45자, 영어 기준 약 90자)\n- 국내 LMS : 28PU(원)\n  - 최대 2,000byte까지 입력 가능한 장문 메시지 (한국어 기준 약 1,000자, 영어 기준 약 2,000자"
+    },
+    {
+      "id": "70310",
+      "question": "문자 발신 번호를 연동하면, 문자 상담도 채널톡에서 확인되나요?",
+      "answer_plaintext": "문자 발신 번호 등록은 서비스가 고객에게 문자를 발송할 때 보여지는 발송 번호를 등록하는 기능입니다. 해당 문자에 고객이 답변을 남기더라도, 문자 내용이 채널톡 수신함에 연동되어 들어오지는 않는 점 참고부탁드려요."
+    },
+    {
+      "id": "70311",
+      "question": "문자 발송 시, 몇 글자까지 보내지나요?",
+      "answer_plaintext": "- 한국 문자의 경우 메시지 길이가 짧으면 SMS, 길면 LMS로 자동 발송됩니다.\n- 일본이나 해외로 SMS전송시 140byte(한국어/일본어 기준 약 70자, 영어 기준 약 160자)기준으로 가격이 변동됩니다. (글자수에는 자동으로 추가되는 메시지도 포함됩니다.)"
+    },
+    {
+      "id": "70312",
+      "question": "개인번호로도 문자 발신 번호 등록이 가능한가요?",
+      "answer_plaintext": "네, 가능합니다."
+    },
+    {
+      "id": "70313",
+      "question": "사용하는 번호가 여러 개인데, 모두 문자 발송 번호로 등록이 가능한가요?",
+      "answer_plaintext": "문자 발송 번호는 하나만 등록 가능합니다. 여러 개의 번호를 사용하신다면, 대표번호 1개만 등록해주세요."
+    },
+    {
+      "id": "70316",
+      "question": "SMS, LMS글자수 차이가 궁금해요",
+      "answer_plaintext": "SMS\n- 90byte\n- 한글 기준: 최대 약 45자\n- 영어 기준 : 최대 약 90자\n\nLMS\n- 2,000byte\n- 한글 기준: 최대 약 1,000자\n- 영어 기준: 최대 약 2,000자\n\n(참고: 알림톡은 부가정보, 문구, 본문 포함 최대 1,000자입니다.)"
+    },
+    {
+      "id": "70318",
+      "question": "문자 월간 사용량 한도를 모두 소진했다는 안내 메시지를 받았어요.",
+      "answer_plaintext": "무료 체험 기간 중에는 1,000PU(원) 내의 실비 사용(문자, 알림톡, 상담톡)이 가능해요.\n체험 기간 이후 유료 플랜 구독 시 발송 건 수 제한없이 이용해 보실 수 있습니다."
+    },
+    {
+      "id": "330868",
+      "question": "마케팅 문자가 전송되지 않은 이유가 무엇인가요?",
+      "answer_plaintext": "[마케팅 문자 전송 실패 체크리스트]\n- 구독 및 서비스 설정: 유료 플랜 (혹은 무료체험) 구독, 비즈니스 인증 및 문자 발신 번호 등록이 완료되었는지 확인하세요.\n- 전송 한도 확인: 무료체험 한도(1,000 PU 및 마케팅 1,000건) 또는 관리자가 직접 설정한 전송 한도가 초과되지 않았는지 체크하세요.\n- 발송 대상 및 시간: 대상 고객의 휴대폰 번호가 올바르게 등록되었는지 확인하세요. 광고성 메시지라면 고객의 수신 동의 여부와 야간 발송 제한 시간(한국은 08:00-20:00 전송 가능)을 점검하세요.\n- 상세 실패 사유 확인: 위 항목에 해당하지 않는 경우, [채널 설정] > [구독 및 결제] > [외부 전송 내역]에서 구체적인 실패 원인을 확인하세요."
+    }
+  ],
+  "faq_count": 9
+}

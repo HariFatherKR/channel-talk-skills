@@ -1,0 +1,1489 @@
+{
+  "id": "72",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9E%90%EC%A3%BC-%EB%AC%BB%EB%8A%94-%EC%A7%88%EB%AC%B8-599632d3",
+  "title": "자주 묻는 질문",
+  "summary": "채널톡 전화 기능에 대해 자주 묻는 질문과 채널톡의 기존 기능과 결합하여 더 잘 사용할 수 있도록 사용법에 대해 준비해봤어요.",
+  "plaintext": "채널팀은 음질을 최우선으로 생각합니다. 음질을 높이는 작업은 꾸준히 진행 중입니다. 통화 중 음질이 좋지 않은 경험을 했다면 주저말고 채널팀으로 제보해주세요.\n(→ 음질 이슈 제보하기)\n미트 FAQ\n전화로 상담한 내역만 검색할 수 있나요?\n검색 시 필터링 조건으로 [연동 메신저] - [전화] 를 선택해서, 전화 상담만 모아서 확인할 수 있습니다.\n전화 상담이 자동 배정되지 않아요\n아래 경우에는 전화 상담이 자동 배정되지 않습니다.\n오퍼퍼레이터 시트가 꺼진 경우\n오퍼레이터 상태가 '대기 중' 또는 '채팅 중'이 아닌 경우\n[개인 설정] - [팀 멤버 설정] - [수신함] - [상담 배정]의 전화 상담 유형이 꺼진 경우\n여러 채널 참여 중이고 다른 채널에 진행 중인 전화 상담이 있는 경우\n이외 방해 금지를 켜둔 경우 전화 자동 배정이 되더라도 링이 울리지 않아 전화를 받지 못할 수 있으니 전화 상담 중에는 방해 금지를 해제해 주세요.\n부재중 전화가 발생한 사유 및 콜백 이력을 확인할 수 있나요?\n상담원과 전화가 연결되지 않고 종료된 부재중 전화의 상담창에서, 부재중 사유를 확인\n할 수 있어요.\n부재중 사유는 아래와 같이 분류됩니다.\n채널의 운영 시간 아닐 때 걸려온 전화\n모든 상담원 통화 중으로 종료된 전화\n연결중 고객이 먼저 끊은 전화\n링이 울리는 시간을 초과한 전화\n부재중 전화 상담창 안의 ‘전화 걸기’\n버튼을 눌러 전화를 걸면, 해당 상담창에서\n부재중 전화를 시도한 담당자의 콜백 이력\n이 남아요.\n부재중 전화에 팀 멤버가 콜백 시 새로운 상담창(전화)이 생성됩니다.\n[유저챗 보기] 버튼을 통해 콜백 상담창으로 바로 이동할 수 있어요.\n전화 상담에 대한 실시간 모니터링이 제공되나요?\n네, 실시간 전화 현황 전황 기능이 제공됩니다. 실시간으로 대기 중인 콜 수, 통화중인 상담원 수를 비교해보면서 상담인원을 조정하거나 전화 상담을 효율적으로 운영할 수 있어요.\n확인 경로: [분석] - [전화 모니터링]\n전화 상담에 대한 통계가 제공되나요?\n상담 통계의 대시보드에서는 현재 전화 유형의 상담이 기간 별 몇 건 인입되었는지 확인이 가능해요. 상담 통계에서 raw data를 다운로드 시, 인바운드/아웃바운드/부재중 콜을 확인하실 수 있습니다. 추가로, 통계는 더 고도화될 예정이라 통계로 확인이 필요한 데이터가 있다면 언제든 피드백을 남겨주세요 :)\n상담 통계 raw data 확인하기\nUserChat meet data 탭\ndirection 컬럼에서 인/아웃바운드 콜 구분 확인 가능\nmissedReason 컬럼에 사유가 찍혀있다면 부재중 콜\nnotInOperation: 운영시간이 아닐 때\nnoOperator: 전화 가능한 상담원이 없을 때\nabandonedInQueue: 대기열에서 1시간 대기 후 끊어졌을 때\nringTimeOver: 상담원에게 배정된 후 링타임이 초과되었을 때\nuserleft: 고객이 먼저 끊었을 때\npreservedNumber: 사용하다가 등록이 해지된 번호로 전화가 왔을 때\nunregisteredNumber: 등록되지 않은 번호로 전화가 왔을 때\nexceededQueue: 대기열 내에서 대기할 수 있는 고객수(200개)를 초과했을 때\nworkflow: workflow 액션을 통해 종료되었을 때\nduration 컬럼에서 총 통화 시간 확인\n(→ 상담 통계 raw data 더 알아보기)\n전화에 참여할 때, 자동으로 마이크가 음소거되게 설정할 수 있나요?\n[개인 설정] - [팀 멤버 설정] - [미팅]에서 미팅에 참여할 때 음소거 설정을 해두시면, 전화 상담 참여 시 음소거 상태로 시작할 수 있습니다.\n업로드한 안내 음성 파일이 너무 빠르거나, 느리게 들려요.\n커스텀 음성 파일의 주파수 및 코덱을 적합한 형태로 설정해주셔야합니다. 아래 방법에 따라 인코딩을 진행해주세\nhttps://convertio.co/kr/ 접속\n음성 파일 업로드 (\n한글명 파일은 오류가 발생하니 영문명으로 수정해주세요.\n)\n파일 확장자\nWAV\n로 선택\n톱니바퀴 설정 클릭 후 →\n오디오채널 : 모노(1.0), 주파수 48000 Hz\n로 설정\n변환 후 파일 다운로드\n일반 전화기와 채널톡 전화를 함께 사용은 어렵나요?\n채널톡은 인터넷 전화입니다. 따라서 전화기 없이 채널톡 앱만으로 전화가 가능해요. 불편한 전화기에서 해방되어 편리하게 전화 상담을 진행해보세요.\n전화 당겨받기/가로채기 기능이 있나요?\n기본적으로 컨퍼런스 콜 형태로 제공되기 때문에 다른 팀 멤버가 통화에 참여하여 통화 내용을 청취할 수 있습니다. 통화 중 내부 대화를 통해 팀 멤버 간 소통도 가능해요.\n또한 당겨받기/가로채기의 개념보다는 채널톡 수신함으로 전화가 왔다는 알림이 오고, 각 팀 멤버가 참여 혹은 다른 팀 멤버를 초대 하는 형식으로 전화에 참여할 수 있는 형태입니다. 유저챗에 팀 멤버를 팔로워로 초대하는 개념과 유사해요.\n다른 채널에서 온 전화도 받을 수 있나요?\n기본적으로 하나의 전화에만 참여가 가능합니다. 기존에 통화 중인 전화가 있을경우, 다른 채널에서 특정 전화에 초대되거나 담당자로 배정되면 푸시 알림(PC)을 받거나, 링(모바일)이 울리게 됩니다. 해당 전화를 수락하면 기존 통화 중인 전화는 끊어지고 채널이 이동하면서 새로운 전화에 참여하게 됩니다.\n미트 활용 방법\n헤드폰을  연결 하여도 마이크 장치 설정 옵션이 보이지 않아요.\n본체의 헤드폰 Input 포트가 스피커/마이크 통합이 아닌 스피커/마이크로 나누어져 있다면 설정 옵션이 보이지 않을 수 있어요.\n각각 스피커와 마이크 단자에 헤드폰을 연결해보았을 때 아래와 같은 상황인 경우 별도 젠더가 필요합니다.\n채널톡 데스크 [개인 설정] - [팀 멤버 설정] - [미트]에서 마이크와 스피커 장치로 헤드셋 기기 선택이 동시에 불가\n윈도우 소리 설정에서 출력과 입력 장치로 헤드셋 기기 선택이 동시에 불가\n이 경우 y잭 연결 케이블 별도로 구매하여 기존 이용하고 있는 헤드셋에 추가 연결하여 이용해 주세요.\n인바운드 콜 채팅 상담으로 유도하기\n아웃바운드콜만 운영하고, 인바운드는 채팅 상담만 운영 중이신가요? 이 경우에도 미트를 활용하실 수 있어요. 들어오는 전화 상담은 문자를 통해 채팅 상담으로 유도하도록 설정해보세요.\n전화가 인입되지 않도록 채널에 참여한 모든 팀 멤버가 \"담당자 없는 전화 알림\"을 꺼주세요.\n[개인 설정] - [팀 멤버 설정] - [알림] - [수신함 알림] - [담당자 없는 전화 알림 OFF]\n고객에게 전화 상담은 운영 되지 않음을 안내하기 위해, 안내 음성을 설정해주세요. 이 때, 운영 시간과 미 운영 시간은 설정이 달라지니 이미지를 참고해주세요.\n[채널 설정] - [미트] - [전화] - [안내 음성]\n채널톡 워크플로우 기능을 통해 전화 대신 채팅으로 이용하실 수 있게 문자 메시지를 발송해보세요. (선택 사항)",
+  "body": [
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널팀은 음질을 최우선으로 생각합니다. 음질을 높이는 작업은 꾸준히 진행 중입니다. 통화 중 음질이 좋지 않은 경험을 했다면 주저말고 채널팀으로 제보해주세요. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(→ 음질 이슈 제보하기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://root.channel.io/support-bots/69007"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "미트 FAQ"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화로 상담한 내역만 검색할 수 있나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "검색 시 필터링 조건으로 [연동 메신저] - [전화] 를 선택해서, 전화 상담만 모아서 확인할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f5457a2ec8bfbd0"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 상담이 자동 배정되지 않아요 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아래 경우에는 전화 상담이 자동 배정되지 않습니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼퍼레이터 시트가 꺼진 경우"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 상태가 '대기 중' 또는 '채팅 중'이 아닌 경우   "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[개인 설정] - [팀 멤버 설정] - [수신함] - [상담 배정]의 전화 상담 유형이 꺼진 경우"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "여러 채널 참여 중이고 다른 채널에 진행 중인 전화 상담이 있는 경우"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이외 방해 금지를 켜둔 경우 전화 자동 배정이 되더라도 링이 울리지 않아 전화를 받지 못할 수 있으니 전화 상담 중에는 방해 금지를 해제해 주세요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "부재중 전화가 발생한 사유 및 콜백 이력을 확인할 수 있나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "부재중전화_로그 남음",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f54b9f16338bda0"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담원과 전화가 연결되지 않고 종료된 부재중 전화의 상담창에서, 부재중 사유를 확인"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "부재중 사유는 아래와 같이 분류됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널의 운영 시간 아닐 때 걸려온 전화"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "모든 상담원 통화 중으로 종료된 전화"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "연결중 고객이 먼저 끊은 전화"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "링이 울리는 시간을 초과한 전화"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "부재중 전화 상담창 안의 ‘전화 걸기’"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 버튼을 눌러 전화를 걸면, 해당 상담창에서 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "부재중 전화를 시도한 담당자의 콜백 이력"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "이 남아요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "부재중 전화에 팀 멤버가 콜백 시 새로운 상담창(전화)이 생성됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[유저챗 보기] 버튼을 통해 콜백 상담창으로 바로 이동할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 상담에 대한 실시간 모니터링이 제공되나요? "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "네, 실시간 전화 현황 전황 기능이 제공됩니다. 실시간으로 대기 중인 콜 수, 통화중인 상담원 수를 비교해보면서 상담인원을 조정하거나 전화 상담을 효율적으로 운영할 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "확인 경로: [분석] - [전화 모니터링]"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 상담에 대한 통계가 제공되나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 통계의 대시보드에서는 현재 전화 유형의 상담이 기간 별 몇 건 인입되었는지 확인이 가능해요. 상담 통계에서 raw data를 다운로드 시, 인바운드/아웃바운드/부재중 콜을 확인하실 수 있습니다. 추가로, 통계는 더 고도화될 예정이라 통계로 확인이 필요한 데이터가 있다면 언제든 피드백을 남겨주세요 :)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 통계 raw data 확인하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "UserChat meet data 탭"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f54ef4fb5711762"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "direction 컬럼에서 인/아웃바운드 콜 구분 확인 가능"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f5539836d509d9c"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "missedReason 컬럼에 사유가 찍혀있다면 부재중 콜"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "notInOperation: 운영시간이 아닐 때"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "noOperator: 전화 가능한 상담원이 없을 때"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "abandonedInQueue: 대기열에서 1시간 대기 후 끊어졌을 때"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "ringTimeOver: 상담원에게 배정된 후 링타임이 초과되었을 때"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "userleft: 고객이 먼저 끊었을 때"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "preservedNumber: 사용하다가 등록이 해지된 번호로 전화가 왔을 때"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "unregisteredNumber: 등록되지 않은 번호로 전화가 왔을 때"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "exceededQueue: 대기열 내에서 대기할 수 있는 고객수(200개)를 초과했을 때"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "workflow: workflow 액션을 통해 종료되었을 때"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f5591d424b90c28"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "duration 컬럼에서 총 통화 시간 확인"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f561c50800abdd1"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "(→ 상담 통계 raw data 더 알아보기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/f89932f1"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화에 참여할 때, 자동으로 마이크가 음소거되게 설정할 수 있나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[개인 설정] - [팀 멤버 설정] - [미팅]에서 미팅에 참여할 때 음소거 설정을 해두시면, 전화 상담 참여 시 음소거 상태로 시작할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f565d2035a09764"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "업로드한 안내 음성 파일이 너무 빠르거나, 느리게 들려요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "커스텀 음성 파일의 주파수 및 코덱을 적합한 형태로 설정해주셔야합니다. 아래 방법에 따라 인코딩을 진행해주세"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "https://convertio.co/kr/ 접속"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://convertio.co/kr/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "음성 파일 업로드 ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "한글명 파일은 오류가 발생하니 영문명으로 수정해주세요."
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "파일 확장자 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "WAV"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 로 선택"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f56953de29c4b9e"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "톱니바퀴 설정 클릭 후 → "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "오디오채널 : 모노(1.0), 주파수 48000 Hz"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 로 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f56c8ce455823dd"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "변환 후 파일 다운로드"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "일반 전화기와 채널톡 전화를 함께 사용은 어렵나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡은 인터넷 전화입니다. 따라서 전화기 없이 채널톡 앱만으로 전화가 가능해요. 불편한 전화기에서 해방되어 편리하게 전화 상담을 진행해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 당겨받기/가로채기 기능이 있나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "기본적으로 컨퍼런스 콜 형태로 제공되기 때문에 다른 팀 멤버가 통화에 참여하여 통화 내용을 청취할 수 있습니다. 통화 중 내부 대화를 통해 팀 멤버 간 소통도 가능해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "또한 당겨받기/가로채기의 개념보다는 채널톡 수신함으로 전화가 왔다는 알림이 오고, 각 팀 멤버가 참여 혹은 다른 팀 멤버를 초대 하는 형식으로 전화에 참여할 수 있는 형태입니다. 유저챗에 팀 멤버를 팔로워로 초대하는 개념과 유사해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "add",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f574f89379ab41f"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "다른 채널에서 온 전화도 받을 수 있나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "기본적으로 하나의 전화에만 참여가 가능합니다. 기존에 통화 중인 전화가 있을경우, 다른 채널에서 특정 전화에 초대되거나 담당자로 배정되면 푸시 알림(PC)을 받거나, 링(모바일)이 울리게 됩니다. 해당 전화를 수락하면 기존 통화 중인 전화는 끊어지고 채널이 이동하면서 새로운 전화에 참여하게 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "미트 활용 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "헤드폰을  연결 하여도 마이크 장치 설정 옵션이 보이지 않아요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "본체의 헤드폰 Input 포트가 스피커/마이크 통합이 아닌 스피커/마이크로 나누어져 있다면 설정 옵션이 보이지 않을 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "각각 스피커와 마이크 단자에 헤드폰을 연결해보았을 때 아래와 같은 상황인 경우 별도 젠더가 필요합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 데스크 [개인 설정] - [팀 멤버 설정] - [미트]에서 마이크와 스피커 장치로 헤드셋 기기 선택이 동시에 불가"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "윈도우 소리 설정에서 출력과 입력 장치로 헤드셋 기기 선택이 동시에 불가"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이 경우 y잭 연결 케이블 별도로 구매하여 기존 이용하고 있는 헤드셋에 추가 연결하여 이용해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "인바운드 콜 채팅 상담으로 유도하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아웃바운드콜만 운영하고, 인바운드는 채팅 상담만 운영 중이신가요? 이 경우에도 미트를 활용하실 수 있어요. 들어오는 전화 상담은 문자를 통해 채팅 상담으로 유도하도록 설정해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화가 인입되지 않도록 채널에 참여한 모든 팀 멤버가 \"담당자 없는 전화 알림\"을 꺼주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[개인 설정] - [팀 멤버 설정] - [알림] - [수신함 알림] - [담당자 없는 전화 알림 OFF]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객에게 전화 상담은 운영 되지 않음을 안내하기 위해, 안내 음성을 설정해주세요. 이 때, 운영 시간과 미 운영 시간은 설정이 달라지니 이미지를 참고해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [미트] - [전화] - [안내 음성]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "  ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/211/usermedia/662b0f57dc8f140147c3"
+              },
+              "type": "image"
+            },
+            {
+              "attrs": {
+                "alt": "jeonhwa-jongryo_2412",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/72/revisions/115873/usermedia/675a25fc37350090c36c",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 워크플로우 기능을 통해 전화 대신 채팅으로 이용하실 수 있게 문자 메시지를 발송해보세요. (선택 사항)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ed96955c6643ad2",
+  "linked_faqs": [],
+  "faq_count": 0
+}

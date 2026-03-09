@@ -1,0 +1,2160 @@
+{
+  "id": "101",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90%ED%86%A1-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0--30e8dbf6",
+  "title": "채널톡 활용하기",
+  "summary": "채널톡을 활용해서 단골 고객을 끌어모을 수 있는 방법! 채널톡 이렇게 사용하면 잘 사용할 수 있어요.",
+  "plaintext": "채널톡과 함께 걸어갈 여러분을 환영합니다\n🤗\n많은 분들이 이용하는 만큼 채널톡은 대표님의 고민들을 정말 많이 들었어요.\n'내 사업이 성공하려면 뭘 해야하지?'\n'지금 내가 비즈니스를 키워도 되는 상황일까?'\n'무언가 부족한데 지금 뭘 해야할까?'\n고객사와 함께 성장하는 것이 제일 중요하기에, 채널톡도 이 고민들의 답이 무엇일지 함께 고민했어요.\n그리고 우리는 고민을 해결할 수 있는 정답 중 하나를\n단골\n로 보고있어요.\n지금 고객부터 나의 고객으로 만드는 법, 단골을 더 늘릴 수 있는 방법.\n단골을 단골답게\n,\n채널톡\n이 여러분의 시간을 줄여드릴게요!\n단골 만들 준비\n단골을 만들기 위해서는 고객이 누구인지 알 때 쉽게 만들 수 있어요. 고객이 어떤 이야기를 전하고 싶어하는지, 한 눈에 알아볼 준비가 필요해요.\n고객이 우선 순위인 비즈니스는 성공할 수 있어요.\n1. 상담 채널 통합\n한 명의 고객도 놓치지 않도록, 모든 문의 창구를 통합하고, 하나의 솔루션에서 관리하세요. 그러면 고객과\n소통할 수 있어요\n. 고객과 대화할 수 없는 일방향 커뮤니케이션보다 함께 대화하며 우리 고객은 어떤 이야기를 하는지 들을 수 있어요.\n카카오 상담톡 연동하기\n네이버 톡톡 연동하기\n라인 연동하기\n미트(전화) 연동하기\n인스타그램 메신저 연동하기\n이메일 수신함 연동하기\n2. 채널톡 공지하기\n고객에게 우리와 쉽게 대화할 수 있다고 알려주세요. 항상 기다려야했던 고객들에게 그럴 필요 없다고 말해주세요. 잘 쓴 메시지 하나로 고객의 마음을 잡을 수 있습니다.\n고객에게 먼저 메시지를 보낼 수 있는 기능은\n마케팅 부가서비스\n를 통해 이용할 수 있습니다.\n2-1. 캠페인 채널톡 메시지로 보내기\n원하는 메시지를 입력합니다.\n하단에 말풍선으로 표시되는 버블과 전체화면 중 선택할 수 있어요.\n대상 고객을 모든 대상자로 설정해요.\n만약 특정 세그먼트가 있다면 클릭 후 [세그먼트 불러오기]를 할 수 있어요.\n시작 이벤트를 '페이지 조회'로 선택합니다.\n대기 시간은 즉시로 하게되면, 사이트 접속 후 즉시 설정한 메시지가 뜨게 되어있어요.\n캠페인 메시지가 반복으로 뜨게 하려면, 운영의 [반복 운영]을 켜주세요.\n반복 운영을 설정하지 않으면, 한번만 뜨게 됩니다.\n더 자세한 설명을 보고, 다양한 캠페인을 만드려면 아래 링크를 클릭해주세요.\n(→ 캠페인 가이드 확인하기)\n2-2. 일회성 메시지 문자로 보내기\n문자 메시지를 보낼 때\n발송 건당 PU(Post Unit) 요금이\n발생합니다. 문자 사용량과 발송 건 별 금액은 아래 경로에서 확인할 수 있어요.\n[채널 설정] → [구독 및 결제] → [서비스구독]→ [이번 달 사용량] → [문자]\n유료 플랜 구독 시 아래 경로에서 PU 요금을\n미리 충전하여 사용\n할 수 있습니다.\n[채널 설정] → [구독 및 결제] → [사용량 선불 충전] → [연동 서비스 충전] → [문자]\n(→ 문자 충전 자세한 내용 확인하기)\n원하는 메시지를 입력합니다.\n오른쪽에서 미리보기 화면으로 내용을 확인할 수 있어요.\n대상 고객은 기본적으로 [휴대폰 번호 값이 있는]으로 선택되어 있어요.\n만약 추가할 특정 세그먼트가 있다면 클릭 후 [세그먼트 불러오기]나, [+ AND 조건 추가]를 눌러 조건을 추가해주세요.\n광고성 메시지가 들어가는 경우는 광고성 메시지를 반드시 체크해주세요.\n맨 앞의 (광고)와 수신 거부 링크가 함께 전송됩니다.\n일회성 메시지의 더 자세한 내용이 궁금하다면, 아래 링크를 클릭해주세요.\n(→ 일회성 메시지 가이드 확인하기)\n3. 상담 한 눈에 보기\n고객들이 무엇을 궁금해 할까요? 가장 많이 불만을 갖는 부분은 뭘까요? 고객들은 무엇을 좋아할까요?\n고객들을 채널톡에 모았다면, 그들의 흐름을 파악할 수 있어요.\n상담 채널을 통합하여 상담이 많아지면, 채팅 내용을 모두 기억할 수 없어요.\n이럴 때 상담 태그를 활용해서 들어온 채팅들을 분류하세요.\n태그가 붙은 채팅들은 이후 상담 통계에서 한 눈에 파악할 수 있습니다 😘\n3-1. 상담 태그 부착하기\n[수신함] → [상담 태그] → [+ 태그 추가하기] 클릭 후 추가\n[수신함] → [상담 정보] → [상담 태그] 선택에서 추가\n상담 태그의 활용법이 궁금하다면 아래 링크를 클릭해주세요.\n(→ 상담 태그 가이드 확인하기)\n3-2. 상담 통계 확인하기\n[분석] - [상담 통계] 메뉴에서 인입된 상담에 대한 통계를 확인해보실 수 있습니다.\n상담 태그 항목에서 설정한 기간동안 어떤 태그가 붙은 상담이 들어왔는지 확인할 수 있어요. 결제/취소문의처럼 2단계의 태그라면, 결제 옆 > 버튼을 눌러 하위 태그의 숫자까지 확인이 가능해요.\n(→ 상담 통계 가이드 확인하기)\n단골 알아보기\n1. 고객 정의\n나의 고객을 찾았다면, 이제 그 고객이 어떤 사람인지 알아야해요. 고객을 안다는 것은 많은 시행착오를 줄일 수 있습니다.\n고객을 만나 나의 단골을 정의하는 문장을 만들어요. 설문조사, 인터뷰, 점심 식사 등 다양한 방법으로 고객을 만나고, 알아보세요.\n(→ 채널톡으로 만족도 조사 만드는 방법 알아보기)\n2. 고객 세그먼트\n\b고객을 알아보았다면 그 기준으로 고객을 분류하세요. 채널톡은 이걸 고객 세그먼트라고 불러요.\n모든 고객에게 동일한 경험을 주는 것보다 단골은 단골 대접 받기를 기대하고 있기에, 객단가 기준으로 고객을 나눌 수 있어야해요.\n[고객 연락처]에서 [고급 필터]를 눌러 원하는 조건을 검색해주세요.\n조건이 모두 모였다면 [세그먼트 저장]을 눌러주면 오른쪽에 추가됩니다.\n세그먼트는 검색된 고객의 목록을 저장하는게 아닌,\n필터링 조건\n을 저장합니다.\n같은 세그먼트여도 일주일 전과, 일주일 후의 대상 고객이 달라질 수 있어요.\n단골 만들기\n이제 고객들이 우리를 좋아할 수 있게, 단골은 우리를 더 좋아할 수 있게 만들어주세요. 가장 중요한 포인트는 서비스 퀄리티를 올리는 일입니다.\n1. 워크플로우로 고객 경험 설계\n단골을 단골답게 챙길 수 있는 가장 좋은 방법.\n단골에게는 핫라인 상담 창구로 즉각적인 응대를, 모수가 많지만 객단가가 낮은 신규 고객에게는 단순하고 반복적인 문의 해결을 위해 ALF가 자주 묻는 질문을 먼저 응대하도록 설정할 수 있어요.\n1-1. 워크플로우 레시피 적용하기\n[워크플로우] - [+ 워크플로우 만들기]에서 상담 목적에 맞는 레시피를 선택해, 클릭 한 번으로 설정을 시작해보세요. 채팅/전화 상담용 레시피가 구분되어 있고, 상담 단계별로 다양한 템플릿이 준비되어 있어요.\n레시피에 적용된 내용은 예시입니다. 서비스에 맞게 자동 메시지, 태그 등을 수정하여 이용해주세요.\n2. 일회성 메시지 활용\n단골은 내가 좋아하는 곳에 대해 더 많이 알고 싶고, 더 빨리 알고 싶어하고, 가까이 있고 싶어하는 특징이 있어요.\n단골에게 더 빠르게 알려서 좋은 고객 경험을 주고, 성장한 고객 사례들도 많이 있으니 시도해보세요.\n3. 캠페인 활용\n단골들을 자주 방문하게 해주세요. 사이트에 자주 방문하게 만들 수록 단골이 될 확률이 높아집니다. 고객의 방문 주기를 높이기 위해, 자동화된 캠페인을 활용하세요.\n운영에서 자동화 할 수 있는 영역을 모두 세팅하고, 만들어진 시간에 단골을 챙기는 데 쓴다면, 어느새 훌쩍 성장한 나의 비즈니스를 만날 수 있을 거에요.\n3-1. 구매한지 30일이 지난 고객에게 메시지 보내기\n'결제 완료'\n이벤트가 제공되는 빌더사나, '\n결제 완료'\n이벤트를 생성해 놓은 자체 제작 사이트에서 이용이 가능한 캠페인이에요.\n대상 고객은 [회원 여부가 맞는]으로 설정합니다.\n시작 이벤트는 [결제 완료]를 선택해주세요.\n대기 시간은 30일로 설정합니다.\n이렇게 설정하면, 구매한지 30일이 지난 고객에게 자동으로 입력한 메시지가 띄워지게 되어요.\n위 예시에서 추가 이벤트 필터에 [\n결제 완료\n가 발생하지 않았을 때]를 설정하시면,\n구매 후 30일 동안 추가 구매가 없는 고객\n을 타겟으로 메시지를 보낼 수 있어요.\n3-2. 고객에게 1:1 상담 유도하기\n상세 페이지에 오래 머물거나, 여러 페이지를 살펴보는 고객에게는 먼저 말을 걸어 상담을 유도해보세요.\n3-3. 알림톡으로 신규가입 회원에게 혜택 안내하기\n알림톡은 미리 카카오로부터 승인받은 템플릿을 발송 가능해요. 하지만 회원 가입 혜택, 주문/결제/배송 안내, 구매 리뷰 작성 등\n많이 사용되는 템플릿\n은 채널톡에서 제공하는\n마케팅 레시피\n로 쉽게 보내실 수 있습니다\n'회원 가입'\n이벤트가 제공되는 빌더사나, '\n회원 가입'\n이벤트를 생성해 놓은 자체 제작 사이트에서 이용이 가능한 캠페인이에요.\n신규가입 회원에게 혜택 안내하기의 [케이스 따라해보기]를 눌러주세요.\n[브랜드명을 입력해주세요]와 [https://를 제외한 주소를 입력해주세요]를 클릭하여 사이트에 맞게 변경합니다.\n목표의 [마이페이지 URL을 입력해주세요]를 클릭하여 사이트의 마이페이지 주소를 입력해주세요.\n이후 고객이 알림톡을 보고 마이페이지로 접속하면 목표가 달성되고, 통계에서 달성률을 확인할 수 있습니다.\n캠페인을 더 자세히 알고 싶다면 아래 링크를 클릭해주세요.\n(→ 캠페인 가이드 확인하기)\n비즈니스에서 우리의 고객이 누군지 알고, 고객의 특징을 아는 것은 굉장히 중요해요.\n고객들이 우리를 좋아하게 만들고, 단골은 우리를 더 좋아하게 만들기 위해서 고객에게 많이 연락하고 대화해야해요.\n모든 고객이 단골 고객이 되기를 기도할게요.\n채널톡\n은 이 글을 읽는 모든 분들의 단골이 늘어나기를 응원해요 🤗",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡과 함께 걸어갈 여러분을 환영합니다"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 🤗"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "많은 분들이 이용하는 만큼 채널톡은 대표님의 고민들을 정말 많이 들었어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "'내 사업이 성공하려면 뭘 해야하지?'\n'지금 내가 비즈니스를 키워도 되는 상황일까?'\n'무언가 부족한데 지금 뭘 해야할까?'"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객사와 함께 성장하는 것이 제일 중요하기에, 채널톡도 이 고민들의 답이 무엇일지 함께 고민했어요. \n그리고 우리는 고민을 해결할 수 있는 정답 중 하나를 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "단골"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "로 보고있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "지금 고객부터 나의 고객으로 만드는 법, 단골을 더 늘릴 수 있는 방법."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단골을 단골답게"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ",\n"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "채널톡"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "이 여러분의 시간을 줄여드릴게요!"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "단골 만들 준비"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단골을 만들기 위해서는 고객이 누구인지 알 때 쉽게 만들 수 있어요. 고객이 어떤 이야기를 전하고 싶어하는지, 한 눈에 알아볼 준비가 필요해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 우선 순위인 비즈니스는 성공할 수 있어요."
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 상담 채널 통합"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "한 명의 고객도 놓치지 않도록, 모든 문의 창구를 통합하고, 하나의 솔루션에서 관리하세요. 그러면 고객과 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "소통할 수 있어요"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ". 고객과 대화할 수 없는 일방향 커뮤니케이션보다 함께 대화하며 우리 고객은 어떤 이야기를 하는지 들을 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "외부메신저_통합",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc6d956faa5a843"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카카오 상담톡 연동하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/c27b26a7"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡 연동하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/3d8c6ce9"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "라인 연동하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/1af80f96"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미트(전화) 연동하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/categories/2c980445"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "인스타그램 메신저 연동하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/574171aa"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이메일 수신함 연동하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/3011c95f"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. 채널톡 공지하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객에게 우리와 쉽게 대화할 수 있다고 알려주세요. 항상 기다려야했던 고객들에게 그럴 필요 없다고 말해주세요. 잘 쓴 메시지 하나로 고객의 마음을 잡을 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "게시판종료",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc70dfe07163f88"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "고객에게 먼저 메시지를 보낼 수 있는 기능은 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "마케팅 부가서비스"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "를 통해 이용할 수 있습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2-1. 캠페인 채널톡 메시지로 보내기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "캠페인1",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc744b56bea5ea3"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "캠페인2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc7736b6b09c52c"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "캠페인2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc79f7e1dc0aa6f"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원하는 메시지를 입력합니다.\n하단에 말풍선으로 표시되는 버블과 전체화면 중 선택할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대상 고객을 모든 대상자로 설정해요.\n만약 특정 세그먼트가 있다면 클릭 후 [세그먼트 불러오기]를 할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "시작 이벤트를 '페이지 조회'로 선택합니다.\n대기 시간은 즉시로 하게되면, 사이트 접속 후 즉시 설정한 메시지가 뜨게 되어있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "캠페인 메시지가 반복으로 뜨게 하려면, 운영의 [반복 운영]을 켜주세요.\n반복 운영을 설정하지 않으면, 한번만 뜨게 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "더 자세한 설명을 보고, 다양한 캠페인을 만드려면 아래 링크를 클릭해주세요.\n"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 캠페인 가이드 확인하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/9064c609"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2-2. 일회성 메시지 문자로 보내기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "문자 메시지를 보낼 때 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "발송 건당 PU(Post Unit) 요금이 "
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "발생합니다. 문자 사용량과 발송 건 별 금액은 아래 경로에서 확인할 수 있어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "[채널 설정] → [구독 및 결제] → [서비스구독]→ [이번 달 사용량] → [문자]"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "유료 플랜 구독 시 아래 경로에서 PU 요금을 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "미리 충전하여 사용"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "할 수 있습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "[채널 설정] → [구독 및 결제] → [사용량 선불 충전] → [연동 서비스 충전] → [문자] \n"
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "(→ 문자 충전 자세한 내용 확인하기)"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "href": "https://docs.channel.io/help/ko/articles/3c72fcf1"
+                          },
+                          "type": "hyperlink"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "일회성문자1",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc7d29efe576606"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "일회성_문자2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc80f0a79b1987c"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원하는 메시지를 입력합니다.\n오른쪽에서 미리보기 화면으로 내용을 확인할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대상 고객은 기본적으로 [휴대폰 번호 값이 있는]으로 선택되어 있어요.\n만약 추가할 특정 세그먼트가 있다면 클릭 후 [세그먼트 불러오기]나, [+ AND 조건 추가]를 눌러 조건을 추가해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "광고성 메시지가 들어가는 경우는 광고성 메시지를 반드시 체크해주세요.\n맨 앞의 (광고)와 수신 거부 링크가 함께 전송됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "일회성 메시지의 더 자세한 내용이 궁금하다면, 아래 링크를 클릭해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(→ 일회성 메시지 가이드 확인하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/f62c11ab"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3. 상담 한 눈에 보기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객들이 무엇을 궁금해 할까요? 가장 많이 불만을 갖는 부분은 뭘까요? 고객들은 무엇을 좋아할까요? \n고객들을 채널톡에 모았다면, 그들의 흐름을 파악할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 채널을 통합하여 상담이 많아지면, 채팅 내용을 모두 기억할 수 없어요.\n이럴 때 상담 태그를 활용해서 들어온 채팅들을 분류하세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "태그가 붙은 채팅들은 이후 상담 통계에서 한 눈에 파악할 수 있습니다 😘"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3-1. 상담 태그 부착하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "addtag",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc8ed7ca5c446eb"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "addtag2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc92e8132b6bde1"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[수신함] → [상담 태그] → [+ 태그 추가하기] 클릭 후 추가"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[수신함] → [상담 정보] → [상담 태그] 선택에서 추가"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 태그의 활용법이 궁금하다면 아래 링크를 클릭해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(→ 상담 태그 가이드 확인하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/5a5314d8"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3-2. 상담 통계 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "통계",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc95cea487ae6e2"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[분석] - [상담 통계] 메뉴에서 인입된 상담에 대한 통계를 확인해보실 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 태그 항목에서 설정한 기간동안 어떤 태그가 붙은 상담이 들어왔는지 확인할 수 있어요. 결제/취소문의처럼 2단계의 태그라면, 결제 옆 > 버튼을 눌러 하위 태그의 숫자까지 확인이 가능해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(→ 상담 통계 가이드 확인하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/84f597bf"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "단골 알아보기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 고객 정의"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "나의 고객을 찾았다면, 이제 그 고객이 어떤 사람인지 알아야해요. 고객을 안다는 것은 많은 시행착오를 줄일 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객을 만나 나의 단골을 정의하는 문장을 만들어요. 설문조사, 인터뷰, 점심 식사 등 다양한 방법으로 고객을 만나고, 알아보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "만족도조사",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fc9c4cfbac5842f"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(→ 채널톡으로 만족도 조사 만드는 방법 알아보기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://channel.io/ko/blog/articles/8f002186"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. 고객 세그먼트"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "\b고객을 알아보았다면 그 기준으로 고객을 분류하세요. 채널톡은 이걸 고객 세그먼트라고 불러요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "모든 고객에게 동일한 경험을 주는 것보다 단골은 단골 대접 받기를 기대하고 있기에, 객단가 기준으로 고객을 나눌 수 있어야해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "세그먼트1",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fca3426537e0c41"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "세그먼트2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fca65691b3f6b18"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[고객 연락처]에서 [고급 필터]를 눌러 원하는 조건을 검색해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "조건이 모두 모였다면 [세그먼트 저장]을 눌러주면 오른쪽에 추가됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "세그먼트는 검색된 고객의 목록을 저장하는게 아닌, "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "필터링 조건"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "을 저장합니다.\n같은 세그먼트여도 일주일 전과, 일주일 후의 대상 고객이 달라질 수 있어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "단골 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이제 고객들이 우리를 좋아할 수 있게, 단골은 우리를 더 좋아할 수 있게 만들어주세요. 가장 중요한 포인트는 서비스 퀄리티를 올리는 일입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 워크플로우로 고객 경험 설계"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단골을 단골답게 챙길 수 있는 가장 좋은 방법."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단골에게는 핫라인 상담 창구로 즉각적인 응대를, 모수가 많지만 객단가가 낮은 신규 고객에게는 단순하고 반복적인 문의 해결을 위해 ALF가 자주 묻는 질문을 먼저 응대하도록 설정할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "채널톡활용하기1.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/28405/usermedia/66a1012ec74e6792dc05",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1-1. 워크플로우 레시피 적용하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "1-1. 워크플로우 레시피 적용하기.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/416861/usermedia/68762866ce974f283e52",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[워크플로우] - [+ 워크플로우 만들기]에서 상담 목적에 맞는 레시피를 선택해, 클릭 한 번으로 설정을 시작해보세요. 채팅/전화 상담용 레시피가 구분되어 있고, 상담 단계별로 다양한 템플릿이 준비되어 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "레시피에 적용된 내용은 예시입니다. 서비스에 맞게 자동 메시지, 태그 등을 수정하여 이용해주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. 일회성 메시지 활용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단골은 내가 좋아하는 곳에 대해 더 많이 알고 싶고, 더 빨리 알고 싶어하고, 가까이 있고 싶어하는 특징이 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단골에게 더 빠르게 알려서 좋은 고객 경험을 주고, 성장한 고객 사례들도 많이 있으니 시도해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "일회성예시",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fcb3507bcd1eb98"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3. 캠페인 활용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단골들을 자주 방문하게 해주세요. 사이트에 자주 방문하게 만들 수록 단골이 될 확률이 높아집니다. 고객의 방문 주기를 높이기 위해, 자동화된 캠페인을 활용하세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "운영에서 자동화 할 수 있는 영역을 모두 세팅하고, 만들어진 시간에 단골을 챙기는 데 쓴다면, 어느새 훌쩍 성장한 나의 비즈니스를 만날 수 있을 거에요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "리마인드예시",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fcb6c9daa8878c6"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3-1. 구매한지 30일이 지난 고객에게 메시지 보내기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "'결제 완료'"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 이벤트가 제공되는 빌더사나, '"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "결제 완료'"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 이벤트를 생성해 놓은 자체 제작 사이트에서 이용이 가능한 캠페인이에요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "구매30일",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fcbc97d3d06f730"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대상 고객은 [회원 여부가 맞는]으로 설정합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "시작 이벤트는 [결제 완료]를 선택해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대기 시간은 30일로 설정합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이렇게 설정하면, 구매한지 30일이 지난 고객에게 자동으로 입력한 메시지가 띄워지게 되어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "위 예시에서 추가 이벤트 필터에 ["
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "결제 완료"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "가 발생하지 않았을 때]를 설정하시면, \n"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "구매 후 30일 동안 추가 구매가 없는 고객"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "을 타겟으로 메시지를 보낼 수 있어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3-2. 고객에게 1:1 상담 유도하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "상담유도",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fcc0b249b1bed88"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상세 페이지에 오래 머물거나, 여러 페이지를 살펴보는 고객에게는 먼저 말을 걸어 상담을 유도해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3-3. 알림톡으로 신규가입 회원에게 혜택 안내하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "알림톡은 미리 카카오로부터 승인받은 템플릿을 발송 가능해요. 하지만 회원 가입 혜택, 주문/결제/배송 안내, 구매 리뷰 작성 등 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "많이 사용되는 템플릿"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "은 채널톡에서 제공하는 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "마케팅 레시피"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "로 쉽게 보내실 수 있습니다"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "'회원 가입'"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 이벤트가 제공되는 빌더사나, '"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "회원 가입'"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 이벤트를 생성해 놓은 자체 제작 사이트에서 이용이 가능한 캠페인이에요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "회원가입_알림톡",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fcc3445a833a910"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "회원가입_알림톡2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fcc6fdd5bf032af"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "회원가입알림톡3",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/101/revisions/298/usermedia/662b0fcca6fec3b35f8f"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신규가입 회원에게 혜택 안내하기의 [케이스 따라해보기]를 눌러주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/root/recipe/alimtalk-sign-up"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[브랜드명을 입력해주세요]와 [https://를 제외한 주소를 입력해주세요]를 클릭하여 사이트에 맞게 변경합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "목표의 [마이페이지 URL을 입력해주세요]를 클릭하여 사이트의 마이페이지 주소를 입력해주세요.\n이후 고객이 알림톡을 보고 마이페이지로 접속하면 목표가 달성되고, 통계에서 달성률을 확인할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "캠페인을 더 자세히 알고 싶다면 아래 링크를 클릭해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(→ 캠페인 가이드 확인하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/9064c609"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "비즈니스에서 우리의 고객이 누군지 알고, 고객의 특징을 아는 것은 굉장히 중요해요.\n고객들이 우리를 좋아하게 만들고, 단골은 우리를 더 좋아하게 만들기 위해서 고객에게 많이 연락하고 대화해야해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "모든 고객이 단골 고객이 되기를 기도할게요.\n"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "채널톡"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "은 이 글을 읽는 모든 분들의 단골이 늘어나기를 응원해요 🤗\n"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "45964",
+    "name": "May",
+    "bio": "CS manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/686b9f1c2f5c6aa1611d",
+  "linked_faqs": [],
+  "faq_count": 0
+}

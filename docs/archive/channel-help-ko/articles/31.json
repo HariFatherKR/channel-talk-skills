@@ -1,0 +1,791 @@
+{
+  "id": "31",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%EA%B5%AC%EC%A1%B0-3c201477",
+  "title": "상담 구조",
+  "summary": "채널톡의 상담 구조의 특징에 대해 확인해보세요. 상담을 담당하는 담당자와 상담 상태에 대해 알아볼 수 있습니다.",
+  "plaintext": "영상으로 배우고 싶다면?\n담당팀과 담당자\n각 상담에는 상담을 책임지는 담당팀과 담당자가 있습니다.\n담당팀\n문의 내용에 대해 가장 잘 알고 해결할 수 있는 팀입니다.\n팀을 지정하면 상담 자동 배정 기능으로 적합한 담당자를 자동으로 배정할 수 있어요.\n(→ 상담 자동 배정 알아보기)\n담당자\n상담을 책임지는 사람입니다.\n본인이 배정된 상담을 관리하며, 상담을 종료시키는 책임과 권한을 갖고 있어요.\n이 역할과 책임을 명확하게 하기 위해 단일 담당자 시스템을 적용하고 있어요.\n유료 플랜 구독 시 오퍼레이터 시트 권한이 있는 경우에만 담당자가 될 수 있어요.\n만약 다른 동료의 도움이 필요하다면, 함께 해결할\n팔로워\n를 초대해 보세요.\n상담 상태\n(상담을\n효율적으로 처리하기 위해 채널톡은 4가지 상태\n진행중, 보류중, 부재중, 종료됨\n으로 관리하고 있어요.)\n진행중, 보류중, 부재중, 종료됨 탭을 클릭하여 간편하게 상태 별 상담 리스트를 확인할 수 있어요. 각 상담의 고객 이름과 담당자, 상담 태그, 최근 메시지 수신일 같은 정보를 한 눈에 확인할 수 있습니다.\n진행중\n현재 진행 중인 상담이며, 채널톡의 수신함은 진행중인 상담에 집중할 수 있도록 구성되어 있습니다.\n진행중인 상담을 종료까지 잘 마무리하는 것이 핵심이에요.\n보류중\n바로 답변하거나 종료하기 어려운 상담은 일정 시간 동안 보류할 수 있습니다.\n설정한 보류 시간이 지나면 자동으로 진행중으로 바뀝니다.\n부재중\n전화가 부재중으로 끊어지면 부재중 목록에 쌓입니다.\n부재중 상태의 전화는 종료하거나, 다시 진행중, 보류중 상태로 변경할 수 있습니다.\n종료됨\n상담이 완료된 상태입니다. 완료된 상담은 추후 검색하여 언제든 찾아볼 수 있어요.\n이미 완료되었기 때문에 집중해야 하는 상태는 아니에요.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 3분 • 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/고객과-상담하는-방법-81c19800",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad8b774e2da3e4d306/tmp-1465166737.png",
+        "title": "고객과 상담하는 방법"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "height": "720px",
+        "mime": "video/*",
+        "src": "https://youtu.be/rGhKLkVwX0c",
+        "thumb": "https://cf.channel.io/thumb/1280x720,cover,webp/web_page/1/68889a32942575653229/tmp-4117638979.jpeg",
+        "width": "1280px"
+      },
+      "type": "video"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "담당팀과 담당자"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "각 상담에는 상담을 책임지는 담당팀과 담당자가 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당팀"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "문의 내용에 대해 가장 잘 알고 해결할 수 있는 팀입니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "팀을 지정하면 상담 자동 배정 기능으로 적합한 담당자를 자동으로 배정할 수 있어요. "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 상담 자동 배정 알아보기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/28b3f0cc"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당자"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담을 책임지는 사람입니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "본인이 배정된 상담을 관리하며, 상담을 종료시키는 책임과 권한을 갖고 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이 역할과 책임을 명확하게 하기 위해 단일 담당자 시스템을 적용하고 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "유료 플랜 구독 시 오퍼레이터 시트 권한이 있는 경우에만 담당자가 될 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "만약 다른 동료의 도움이 필요하다면, 함께 해결할 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "팔로워"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "를 초대해 보세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 상태"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/31/revisions/88/usermedia/662b104c04e3301c03e4"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "(상담을 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "효율적으로 처리하기 위해 채널톡은 4가지 상태 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "진행중, 보류중, 부재중, 종료됨 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "으로 관리하고 있어요.)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "수신함 34.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/31/revisions/275187/usermedia/6808cb0a821945dc33e7",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "진행중, 보류중, 부재중, 종료됨 탭을 클릭하여 간편하게 상태 별 상담 리스트를 확인할 수 있어요. 각 상담의 고객 이름과 담당자, 상담 태그, 최근 메시지 수신일 같은 정보를 한 눈에 확인할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "진행중"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "현재 진행 중인 상담이며, 채널톡의 수신함은 진행중인 상담에 집중할 수 있도록 구성되어 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "진행중인 상담을 종료까지 잘 마무리하는 것이 핵심이에요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "보류중"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "바로 답변하거나 종료하기 어려운 상담은 일정 시간 동안 보류할 수 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "설정한 보류 시간이 지나면 자동으로 진행중으로 바뀝니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "부재중"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "전화가 부재중으로 끊어지면 부재중 목록에 쌓입니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "부재중 상태의 전화는 종료하거나, 다시 진행중, 보류중 상태로 변경할 수 있습니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "종료됨"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담이 완료된 상태입니다. 완료된 상담은 추후 검색하여 언제든 찾아볼 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이미 완료되었기 때문에 집중해야 하는 상태는 아니에요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/681d82b0c672d7189f68",
+  "linked_faqs": [
+    {
+      "id": "51278",
+      "question": "준비중 상태의 유저챗은 무엇인가요?",
+      "answer_plaintext": "'준비중' 상태의 유저챗은\n- 고객이 워크플로우, 마케팅 메시지를 받은 후 문의를 입력하지 않아 상담원으로 연결되지 않은 경우 \n- IVR 진행 중에 고객이 전화를 끊어서 상담이 인입되지 않은 경우\n를 의미합니다. \n\n이때 고객이나 매니저(상담원)가 메시지를 남기면 '진행중' 상태의 상담으로 변경됩니다."
+    },
+    {
+      "id": "73698",
+      "question": "상담 상태를 직접 부재중으로 변경할 수 있나요?",
+      "answer_plaintext": "전화가 부재중으로 끊어져야 부재중 상태로 부재중 목록에 쌓이게 됩니다. 매니저가 수동으로 상태를 부재중으로 변경할 수 없어요."
+    },
+    {
+      "id": "73699",
+      "question": "부재중 상담을 진행중, 보류중으로 변경할 수 있나요?",
+      "answer_plaintext": "네 가능합니다!"
+    },
+    {
+      "id": "76663",
+      "question": "부재중 상담에 전화를 걸면(콜백) 자동으로 종료됨으로 변경되나요?",
+      "answer_plaintext": "부재중 상담에 전화를 걸어도 자동으로 종료됨으로 변경되지 않습니다. \n처리가 완료되었다면 부재중 상담을 직접 상담 종료 처리해 주세요."
+    },
+    {
+      "id": "263410",
+      "question": "상담상태가 보류중일때 고객이 다시 문의하면 보류 해제일 상관 없이 진행중 상태로 변경되나요?",
+      "answer_plaintext": "보류중 상담에 고객이나 매니저가 메세지를 보내면, 해당 상담창은 보류해두었던 시간과 무관하게 바로 상담이 진행중 상태로 변경됩니다."
+    }
+  ],
+  "faq_count": 5
+}

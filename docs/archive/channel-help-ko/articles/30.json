@@ -1,0 +1,4291 @@
+{
+  "id": "30",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%B2%88%ED%98%B8-%EC%84%A4%EC%A0%95-2b94d15c",
+  "title": "번호 설정",
+  "summary": "복잡한 절차 없이 070 신규 번호를 1분만에 발급 받고, 채널톡 전화를 사용해보세요.",
+  "plaintext": "영상으로 배우고 싶다면?\n전화 번호 발급\n채널팀은 음질을 최우선으로 생각합니다. 음질을 높이는 작업은 꾸준히 진행 중입니다. 통화 중 음질이 좋지 않은 경험을 했다면 주저말고 채널팀으로 제보해주세요.\n(→ 음질 이슈 제보하기)\n채널톡에서 필요한 만큼 번호를 발급 받아보세요.\n전화번호는 제한 없이 원하시는 만큼 발급해서 사용이 가능합니다!\n원하는 번호를 선택하면 끝! 발급 받은 번호는 언제든 삭제도 가능하여 기존 번호와 연동하여 사용할 수 있어요.\n번호 발급 방법: [채널 설정] - [미트] - [전화] - [번호 추가]\n채널톡에서 발급받은 070번호의 통신사는 \"(주)채널코퍼레이션\"입니다.\n번호 옆에 표시된\n통신망(\nSKB/KT/LGU+)는 이용하는 망을 단순 표시한 것입니다.\n채널톡 번호 가입증명원 발급 요청하기\n타 서비스에서 채널톡 070 번호 활용 시 필요한 서류(통신서비스 가입증명원)는 채널팀에 요청하여 수령 가능합니다.\n(\n→ 채널팀에 서류 발급 요청하기\n)\n전화 번호 설정하기\n전화번호 설정 화면에서 발급된 번호 별 변경된 발신 번호, 라우팅, 기본 번호 설정을 한눈에 확인하실 수 있어요. 설정을 원하시는 번호를 클릭하여, 번호 별 전화 상담 운영, 라우팅, 안내 음성 설정이 가능합니다.\n24년 8월 27일 이전부터 발급받아 사용 중이던 번호는 기존에 설정해두신 전화 상담 운영, 안내 음성 설정이 그대로 유지됩니다. 단, 라우팅은 사용 안함 상태로 기본 적용되니 참고부탁드려요.\n*워크플로우 내에서 특정 담당자, 팀 배정을 설정해두었다면 워크플로우 설정과 동일하게 동작합니다.\n전화 후처리 설정 (모든 번호 적용)\n통화 종료 시 후처리 시간 사용 여부와 후처리 작업 제한 시간을 설정할 수 있어요.\n[채널 설정] - [미트] - [전화] -  [전화 후처리]\n전화 후처리 설정은 전화 번호 별 개별 설정은 제공하지 않으며, 채널에서 진행되는 모든 전화 상담에 일괄 적용됩니다.\n1) 전화 후처리 ON:\n통화를 마치고 후처리 작업을 하는 동안 다음 전화가 울리지 않아요. 후처리 작업 완료 후 팀 멤버가 직접 상담을 종료하면 다음 전화가 울리게 됩니다.\n2) 시간 제한\n: 후처리 작업 제한 시간을 설정할 수 있어요. 제한 시간이 지나면 자동으로 상담이 종료되어 다음 전화가 울리게 됩니다.\n시간 제한 기본 설정 값은 2분이며, 시간 제한은 최소 10초, 최대 60분까지 설정이 가능합니다.\n3) 전화 후처리 OFF\n: 통화를 마치면 후처리 시간 없이 상담이 즉시 종료되어 다음 전화를 받을 수 있어요.\n설정 시 주황색 경고 문구가 보이면 확인해 주세요!\n트리거가 \"전화가 종료되었을 때\" 인 워크플로우가 동작 중이라면 아래 이미지와 같은 주황색 경고 문구가 보여집니다.\n이 경우, 전화 후처리 설정을 대체할 수 있는 워크플로우가 작동 중인지 확인이 필요해요.\n트리거가 \"전화가 종료되었을 때\"인 워크플로우를 통해\n상담을 자동 종료\n하고 있다면,\n중복된 설정으로 워크플로우 사용량에 대한 요금이 발생하지 않도록 해당 워크플로우를 종료해 주세요.\n전화 상담 운영\n(번호별 적용)\n설정 경로: [채널설정] - [미트] - [전화] - 전화 번호 우측 [>] - [전화 상담 운영]\n전화벨이 울리는 시간\n고객이 통화 연결까지 기다리는 대기 시간을 설정하실 수 있습니다.\n대기 시간이 지나면, [모든 상담원 통화중] 안내 음성이 나간 후 전화가 종료됩니다.\n(부재중 사유가 '링 시간 초과(ringtime over)'로 남습니다.)\n최소 10초 이상~최대 120초 이하로 설정 가능해요.\nIVR 진행 시간은 포함되지 않습니다. IVR 종료 후 상담원 연결 시 \"응답 대기 중\"이 지속 되는 시간에 해당합니다.\n대기열에 체류하는 시간은 포함되지 않습니다.\n전화 연결음(고객용)\n고객이 듣게 되는 연결음을 선택하실 수 있습니다.\n순환음(기본):\n'뚜두두두-' 하는 기본 음성이 송출됩니다.\n신호음:\n발급 받은 채널톡 전화번호의 국가 번호에 따라 다른 국가별 표준음(신호음)이 송출됩니다.\n채널톡 전화번호가 한국(+82)인 경우 = 한국 표준음\n채널톡 전화번호가 일본(+81)인 경우 = 일본 표준음\n커스텀 연결음 추가\n음성 파일로 업로드하여 커스텀 연결음를 이용하실 수 있습니다.\n업로드 지원 파일 형식: mp4, m4a, mp3, amr, flac, wav\n음성 파일 생성 시 코덱은 PCM으로 설정해주세요.\n업로드한 파일의 음성이 너무 빠르거나, 느리게 나온다면 음성 파일을 적절한 형태로 인코딩해야해요. 아래 자주 묻는 질문의 가이드를 참고하여 파일을 인코딩 후 업로드해주세요. (\n→ 자주 묻는 질문 바로가기)\n이전 상담 이어가기\n하나의 전화 상담창에 여러 건의 전화 통화를 쌓을 수 있습니다.\n동작 기준\n동일한 번호의 고객과의 이력이 가장 최근인 상담에 새 통화로 쌓입니다.\n‘가장 최근 상담’이란, 동일 고객과의 전화 상담 중\n마지막 통화 시작 또는 마지막 내부대화 메시지 전송 시간이 제일 최신인 상담입니다.\n번호 마다 ‘이전 상담 이어가기’ 옵션을 개별적으로 설정할 수 있습니다.\n수신 통화\n‘가장 최근 상담’ 중 [종료되지 않은 상담 → 종료된 상담] → 최초일 경우 새 상담 순으로 이력이 쌓입니다.\n새 전화가 인입될 때마다 팀/담당자 정보가 비워지고, 라우팅 설정에 따라 다시 배정됩니다.\n발신 통화\n네비게이션 바의 [전화 걸기] 아이콘을 눌러 전화를 거는 경우, 수신 통화와 동일한 기준에 따라 통화 이력이 쌓입니다.\n수신함의 [미트] 아이콘을 눌러 전화를 거는 경우, 이전 상담 이어가기 설정과 무관하게 해당 상담에 통화 이력이 쌓입니다.\n부재중 통화\n부재중 전화의 [전화 걸기] 버튼을 통해 콜백을 하는 경우, 이전 상담 이어가기 설정과 무관하게 해당 부재중 전화 상담에서 통화 이력이 쌓입니다.\n*따라서 기존의 콜백 상담 링크용 로그 메시지(\"유저챗 보기\" 링크 버튼)는 더이상 제공되지 않습니다.\n부재중 상태의 상담을 다른 상태(종료됨 제외)로 변경하거나 새 전화가 인입되면 ‘부재중 전화 사유’는 삭제됩니다. 새 전화도 부재중으로 끊어지면, 최근 부재중 전화 사유로 다시 기록됩니다.\n설정\nOFF(끔): 수신 통화가 항상 새 상담으로 열립니다. 최초 설정 시 OFF가 기본값입니다.\n단, 부재중 전화의 [전화 걸기] 버튼으로 회신(콜백)을 하거나,\n특정 상담창의 상단 우측 [미트] 버튼을 통해 발신 전화를 시도하는 경우\n설정과 무관하게 해당 상담에 통화 이력이 쌓입니다.\nON(켬): 상담 종료 후 설정된 시간 안에 걸려온 전화는 이전 상담에서 통화가 이어집니다.\n설정 시간\n항상: 동일 고객과는 하나의 상담이 열린 후 항상 이전 상담이 다시 열립니다.\n이 설정은 여러 건의 통화도 1회의 상담으로 집계됩니다.\n통화 건 수를 집계하려면, 전화 모니터링을 확인해주세요.(\n→전화 모니터링 알아보기\n)\n분: 1 ~ 99분\n시간: 1 ~ 99시간\n일: 1 ~ 90일\n설정 시간은 상담 종료 시간을 기준으로 카운팅해요.\n아래 상황에서는 설정과 무관하게 항상 통화 이력이 기존 상담에서 이어져요.\n부재중 전화에서 [전화 걸기] 버튼을 눌러 회신(콜백)하는 경우\n특정 전화 상담창에서 상단 우측 [미트-전화] 버튼을 눌러 발신 통화를 하는 경우\n활용하기\n부재중 전화 회신(콜백)을 하나의 상담창에서 이어가보세요\n동일 고객과의 세일즈 콜 등의 이력을 하나의 상담창에서 이어가보세요.\n기존 상담에 이어진 전화는 통화 연결 전 IVR 진행 중에도 고객이 어떤 버튼을 누르고 있는지 통화 연결 전에 미리 확인할 수 있어요.\n통화 종료 직후 콜백 리마인드가 필요한 경우, ‘전화가 종료되었을 때’ 워크플로우를 사용하여 [상담 보류] 또는 [상담 열기] 액션으로 자동화할 수 있습니다.\n통계에서는요?\n전화 모니터링\n전화 모니터링에 집계되는 통화 건 수에는 영향이 없어요.\n통화 건 수\n만을 확인하시려면, 전화 모니터링을 확인해주세요. (\n→전화 모니터링 알아보기\n)\n상담별 통계\n[항상]으로 설정하는 경우, 여러 건의 통화도 하나의 상담창에 쌓이기 때문에\n상담은 1건으로 집계됩니다.\n상담창 개수를 기준\n으로 상담 건 수를 확인하시려면, \"상담별 통계\"를 확인해보세요. (\n→상담별 통계 알아보기\n)\n케이스별 통계\n상담 종료를 기준\n으로 상담 건 수를 확인하시려면, \"케이스별 통계\"를 확인해보세요. (\n→케이스별 통계 알아보기\n)\n채팅 상담과의 경험을 통일하시려면, [종료된 상담 답변 막기] 시간과 [이전 상담 이어가기] 시간을 일치시키는 것을 권장드려요. (\n→종료된 상담 답변 막기 알아보기\n)\n라우팅 (번호별 적용)\n라우팅\n이란? 관리하는 번호 별로 전화를 받을 담당자/팀을 지정할 수 있는 기능입니다.\n라우팅을 통해 전화가 적절한 팀이나 담당자에게 연결되도록 설정할 수 있어요.\n설정 경로: [채널설정] - [미트] - [전화] - 전화 번호 우측 [>] - [라우팅]\n라우팅된 전화 번호에 맞게 발신 시 번호가 보여집니다.\n본인에게 할당된 번호가 없다면 기본 번호가 보여집니다.\n라우팅은 팀 멤버 혹은 팀에 배정이 가능합니다.\n워크플로우 이용 중이라면 확인해주세요.\n라우팅 설정으로 팀 멤버, 팀에게 배정하는 경우, 전화 유형의 워크플로우가 동작하지 않습니다.\n태그 부착, 고객 정보 추가와 같이 워크플로우 설정이 필요한 경우 ‘라우팅 안 함’으로 설정 후 라우팅에서 워크플로우를 연결해주세요.\n팀 멤버 라우팅 설정\n각 팀 멤버에게 전용 번호를 지정하여 고객의 문의가 자동으로 해당 담당자에게 배정되도록 설정할 수 있습니다.\n활용 방법\n특정 개인과의 빠른 연결을 필요로 하는 내용이 있거나 고객의 담당자가 있을때 해당 번호를 이용하여 담당자 직통 번호 처럼 유용하게 사용할 수 있어요!\n해당 번호의 안내 음성도 담당자의 목소리를 직접 녹음하여 친밀감을 높여볼 수도 있어요.\n팀 라우팅 설정\n각 팀에 전용 번호를 지정하여 고객의 문의가 자동으로 팀에 배정되도록 설정할 수 있습니다.\n활용 방법\n각 팀의 운영 시간에 맞춰 상담 대기 시간을 설정할 수 있으며, 팀을 소개하는 인사말을 통해 고객이 올바른 팀에 문의를 하고 있는지 확인할 수 있어요.\n추가적으로 문의가 많은 팀은 전화 상담 운영 시간을 길게 설정하거나, 팀별 운영시간을 인사말에 적용해 팀별 운영시간을 적용하는 것도 권장드려요.\n워크플로우 설정\n원하는 IVR을 연결하여 번호 별 다른 시나리오를 들려줄 수 있어요.\n활용 방법\n문의 유형에 따라 영업팀, 고객상담팀, 인사팀 내선 번호가 다르다면 각 번호별 IVR를 설계하여 각각 다른 안내를 들려줄 수 있습니다.\n(→ IVR 알아보기)\n라우팅 사용 안함\n라우팅을 사용 안 함으로 설정하면 ‘담당자 없는 전화 알림’을 켜 둔 팀 멤버에게 링이 울리게 됩니다.\n활용 방법\n특정 팀 멤버/팀 지정이 필요 없는 경우 유용하게 사용할 수 있어요.\n별도 '고객이 전화를 걸었을 때' 워크플로우를 설정해둔 경우 사용해 보세요.\n안내 음성 설정 (번호별 적용)\n전화 연결 시 고객에게 송출되는\n자동 응답 메시지\n를 다양한 상황에 맞게 직접 설정할 수 있어요. 전화를 받은 고객이 우리 브랜드를 알 수 있도록 간결한 문장으로 설정하는 것을 권장드려요.\n인사말\n: 고객이 전화를 걸었을 때 기본으로 전달되는 메시지입니다.\n모든 상담원 통화중\n: 운영 시간 내 고객이 전화를 걸었으나, 채널에서 전화를 받을 수 있는 모든 상담원이 통화 중일 때 전달되는 메시지입니다. 이 메시지가 전달된 후 통화는 종료되며, 부재중 전화 기록으로 남겨져요.\n운영 시간 아님\n: 미 운영 시간 내 연결된 전화에서 전달되는 메시지입니다. 이 메시지가 전달된 후 통화는 종료되며, 부재중 전화 기록으로 남겨져요.\n번역추가\n: 고객의 언어별로 송출되는 안내음성을 다르게 설정할 수 있어요.\n영어, 일본어, 중국어, 스페인어를 설정할 수 있어요.\n그 외 언어는 영어에 설정한 안내음성이 돼요.\n기존 고객: 고객 프로필의 언어(language)에 따른 언어\n리드 고객: 전화번호의 국가번호에 따른 언어\nex) +82 → ko(한국), +81 → ja(일본)\n안내 음성 커스터마이징\n안내 내용은 간단히 텍스트로 작성해서 바로 변경하거나, 직접 녹음한 음성 파일을 업로드하여 사용도 가능해요. 변경에 발생되는 추가 비용은 없으며, 변경 시 별도의 대기 시간 없이 바로 적용됩니다.\n기본 음성 사용\n: 채널톡에서 준비한 기본 메시지를 사용합니다.\n텍스트 변환\n: 원하는 문구를 작성 후 바로 음성으로 변환하여 사용할 수 있습니다.\n파일 업로드\n: 음성 파일이 있다면, 업로드하여 안내 음성으로 활용이 가능해요. 음성 파일 생성할 때 코덱을 \"PCM\"으로 설정해주세요.\n업로드한 파일의 안내 음성이 너무 빠르거나, 느리게 나온다면 음성 파일을 적절한 형태로 인코딩해야해요. 아래 자주 묻는 질문의 가이드를 참고하여 파일을 인코딩 후 업로드해주세요. (\n→ 자주 묻는 질문 바로가기)\n자주 묻는 질문\n업로드한 안내 음성 파일이 너무 빠르거나, 느리게 들려요.\n커스텀 음성 파일의 주파수 및 코덱을 적합한 형태로 설정해주셔야합니다. 아래 방법에 따라 인코딩을 진행해 주세요.\nhttps://convertio.co/kr/ 접속\n음성 파일 업로드 (\n한글명 파일은 오류가 발생하니 영문명으로 수정해주세요.\n)\n파일 확장자\nWAV\n로 선택\n톱니바퀴 설정 클릭 후 →\n오디오채널 : 모노(1.0), 주파수 48000 Hz\n로 설정\n변환 후 파일 다운로드",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 3분 • 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/채널톡-전화번호-발급하기-173cd861",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad894d2d40f5f65774/tmp-2212412590.png",
+        "title": "채널톡 전화번호 발급하기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 번호 발급"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널팀은 음질을 최우선으로 생각합니다. 음질을 높이는 작업은 꾸준히 진행 중입니다. 통화 중 음질이 좋지 않은 경험을 했다면 주저말고 채널팀으로 제보해주세요. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(→ 음질 이슈 제보하기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://root.channel.io/support-bots/69007"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡에서 필요한 만큼 번호를 발급 받아보세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화번호는 제한 없이 원하시는 만큼 발급해서 사용이 가능합니다!"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "원하는 번호를 선택하면 끝! 발급 받은 번호는 언제든 삭제도 가능하여 기존 번호와 연동하여 사용할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "번호 발급 방법: [채널 설정] - [미트] - [전화] - [번호 추가]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 사용_번호추가(통신망으로 수정).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/520740/usermedia/68b4df5425c36abcfe1f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "icon": "satellite_antenna",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널톡에서 발급받은 070번호의 통신사는 \"(주)채널코퍼레이션\"입니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "번호 옆에 표시된 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "통신망("
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "SKB/KT/LGU+)는 이용하는 망을 단순 표시한 것입니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 번호 가입증명원 발급 요청하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "타 서비스에서 채널톡 070 번호 활용 시 필요한 서류(통신서비스 가입증명원)는 채널팀에 요청하여 수령 가능합니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "("
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://root.channel.io/support-bots/68645"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 채널팀에 서류 발급 요청하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://root.channel.io/workflows/744813"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://root.channel.io/support-bots/68645"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 번호 설정하기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화번호 설정 화면에서 발급된 번호 별 변경된 발신 번호, 라우팅, 기본 번호 설정을 한눈에 확인하실 수 있어요. 설정을 원하시는 번호를 클릭하여, 번호 별 전화 상담 운영, 라우팅, 안내 음성 설정이 가능합니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "24년 8월 27일 이전부터 발급받아 사용 중이던 번호는 기존에 설정해두신 전화 상담 운영, 안내 음성 설정이 그대로 유지됩니다. 단, 라우팅은 사용 안함 상태로 기본 적용되니 참고부탁드려요. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "*워크플로우 내에서 특정 담당자, 팀 배정을 설정해두었다면 워크플로우 설정과 동일하게 동작합니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 번호 설정하기(통시망으로 수정).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/520740/usermedia/68b4df7ec7109aa40974",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 후처리 설정 (모든 번호 적용)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "통화 종료 시 후처리 시간 사용 여부와 후처리 작업 제한 시간을 설정할 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [미트] - [전화] -  [전화 후처리]"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "전화 후처리 설정은 전화 번호 별 개별 설정은 제공하지 않으며, 채널에서 진행되는 모든 전화 상담에 일괄 적용됩니다. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": "전화 후처리 설정 (1).png",
+        "height": "1320px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/195769/usermedia/67c5be69d51fbafaa8de",
+        "width": "2340px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1) 전화 후처리 ON:"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 통화를 마치고 후처리 작업을 하는 동안 다음 전화가 울리지 않아요. 후처리 작업 완료 후 팀 멤버가 직접 상담을 종료하면 다음 전화가 울리게 됩니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2) 시간 제한"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 후처리 작업 제한 시간을 설정할 수 있어요. 제한 시간이 지나면 자동으로 상담이 종료되어 다음 전화가 울리게 됩니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "시간 제한 기본 설정 값은 2분이며, 시간 제한은 최소 10초, 최대 60분까지 설정이 가능합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "3) 전화 후처리 OFF"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ": 통화를 마치면 후처리 시간 없이 상담이 즉시 종료되어 다음 전화를 받을 수 있어요.  "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 후처리 설정 디테일 (1).png",
+        "height": "1719px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/195769/usermedia/67c5bfafe65e75459e4d",
+        "width": "2340px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "설정 시 주황색 경고 문구가 보이면 확인해 주세요! "
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "트리거가 \"전화가 종료되었을 때\" 인 워크플로우가 동작 중이라면 아래 이미지와 같은 주황색 경고 문구가 보여집니다. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "이 경우, 전화 후처리 설정을 대체할 수 있는 워크플로우가 작동 중인지 확인이 필요해요. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "트리거가 \"전화가 종료되었을 때\"인 워크플로우를 통해 "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "상담을 자동 종료"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 하고 있다면, "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "중복된 설정으로 워크플로우 사용량에 대한 요금이 발생하지 않도록 해당 워크플로우를 종료해 주세요."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": "전화 후처리 설정_경고 문구.png",
+        "height": "632px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/195769/usermedia/67c5c092acb9c819c4aa",
+        "width": "1672px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 상담 운영 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(번호별 적용)"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "전화활용_1_250724(멀티미트, 이전 상담 이어가기).png",
+        "height": "1094px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/356422/usermedia/68798eb1c1b70bdcc53e",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널설정] - [미트] - [전화] - 전화 번호 우측 [>] - [전화 상담 운영] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화벨이 울리는 시간"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 통화 연결까지 기다리는 대기 시간을 설정하실 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대기 시간이 지나면, [모든 상담원 통화중] 안내 음성이 나간 후 전화가 종료됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "(부재중 사유가 '링 시간 초과(ringtime over)'로 남습니다.)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최소 10초 이상~최대 120초 이하로 설정 가능해요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "IVR 진행 시간은 포함되지 않습니다. IVR 종료 후 상담원 연결 시 \"응답 대기 중\"이 지속 되는 시간에 해당합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "대기열에 체류하는 시간은 포함되지 않습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 연결음(고객용)"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 듣게 되는 연결음을 선택하실 수 있습니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "순환음(기본):"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " '뚜두두두-' 하는 기본 음성이 송출됩니다.  "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신호음:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 발급 받은 채널톡 전화번호의 국가 번호에 따라 다른 국가별 표준음(신호음)이 송출됩니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡 전화번호가 한국(+82)인 경우 = 한국 표준음"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡 전화번호가 일본(+81)인 경우 = 일본 표준음"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "커스텀 연결음 추가"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "음성 파일로 업로드하여 커스텀 연결음를 이용하실 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "업로드 지원 파일 형식: mp4, m4a, mp3, amr, flac, wav"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "음성 파일 생성 시 코덱은 PCM으로 설정해주세요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "업로드한 파일의 음성이 너무 빠르거나, 느리게 나온다면 음성 파일을 적절한 형태로 인코딩해야해요. 아래 자주 묻는 질문의 가이드를 참고하여 파일을 인코딩 후 업로드해주세요. ("
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "→ 자주 묻는 질문 바로가기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                },
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/2b94d15c-%EB%B2%88%ED%98%B8-%EC%84%A4%EC%A0%95#%EC%9E%90%EC%A3%BC-%EB%AC%BB%EB%8A%94-%EC%A7%88%EB%AC%B8"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이전 상담 이어가기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "하나의 전화 상담창에 여러 건의 전화 통화를 쌓을 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "동작 기준"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "동일한 번호의 고객과의 이력이 가장 최근인 상담에 새 통화로 쌓입니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "‘가장 최근 상담’이란, 동일 고객과의 전화 상담 중 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "마지막 통화 시작 또는 마지막 내부대화 메시지 전송 시간이 제일 최신인 상담입니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "번호 마다 ‘이전 상담 이어가기’ 옵션을 개별적으로 설정할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신 통화"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "‘가장 최근 상담’ 중 [종료되지 않은 상담 → 종료된 상담] → 최초일 경우 새 상담 순으로 이력이 쌓입니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "새 전화가 인입될 때마다 팀/담당자 정보가 비워지고, 라우팅 설정에 따라 다시 배정됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "발신 통화"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "네비게이션 바의 [전화 걸기] 아이콘을 눌러 전화를 거는 경우, 수신 통화와 동일한 기준에 따라 통화 이력이 쌓입니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "수신함의 [미트] 아이콘을 눌러 전화를 거는 경우, 이전 상담 이어가기 설정과 무관하게 해당 상담에 통화 이력이 쌓입니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "부재중 통화"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "부재중 전화의 [전화 걸기] 버튼을 통해 콜백을 하는 경우, 이전 상담 이어가기 설정과 무관하게 해당 부재중 전화 상담에서 통화 이력이 쌓입니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "*따라서 기존의 콜백 상담 링크용 로그 메시지(\"유저챗 보기\" 링크 버튼)는 더이상 제공되지 않습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "부재중 상태의 상담을 다른 상태(종료됨 제외)로 변경하거나 새 전화가 인입되면 ‘부재중 전화 사유’는 삭제됩니다. 새 전화도 부재중으로 끊어지면, 최근 부재중 전화 사유로 다시 기록됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "OFF(끔): 수신 통화가 항상 새 상담으로 열립니다. 최초 설정 시 OFF가 기본값입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "단, 부재중 전화의 [전화 걸기] 버튼으로 회신(콜백)을 하거나, "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "특정 상담창의 상단 우측 [미트] 버튼을 통해 발신 전화를 시도하는 경우 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "설정과 무관하게 해당 상담에 통화 이력이 쌓입니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "ON(켬): 상담 종료 후 설정된 시간 안에 걸려온 전화는 이전 상담에서 통화가 이어집니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "설정 시간"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "항상: 동일 고객과는 하나의 상담이 열린 후 항상 이전 상담이 다시 열립니다."
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "이 설정은 여러 건의 통화도 1회의 상담으로 집계됩니다."
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    },
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "통화 건 수를 집계하려면, 전화 모니터링을 확인해주세요.("
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        },
+                                        {
+                                          "attrs": {
+                                            "text": "→전화 모니터링 알아보기"
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            },
+                                            {
+                                              "attrs": {
+                                                "href": "https://docs.channel.io/help/ko/articles/%EC%A0%84%ED%99%94-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-3189edd5#%EB%88%84%EC%A0%81(%EC%A0%84%ED%99%94-%ED%86%B5%EA%B3%84)"
+                                              },
+                                              "type": "hyperlink"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        },
+                                        {
+                                          "attrs": {
+                                            "text": ")"
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                }
+                              ],
+                              "type": "bullets"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "분: 1 ~ 99분"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "시간: 1 ~ 99시간"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "일: 1 ~ 90일"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정 시간은 상담 종료 시간을 기준으로 카운팅해요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "아래 상황에서는 설정과 무관하게 항상 통화 이력이 기존 상담에서 이어져요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "부재중 전화에서 [전화 걸기] 버튼을 눌러 회신(콜백)하는 경우"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "특정 전화 상담창에서 상단 우측 [미트-전화] 버튼을 눌러 발신 통화를 하는 경우"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "부재중 전화 회신(콜백)을 하나의 상담창에서 이어가보세요"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "동일 고객과의 세일즈 콜 등의 이력을 하나의 상담창에서 이어가보세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기존 상담에 이어진 전화는 통화 연결 전 IVR 진행 중에도 고객이 어떤 버튼을 누르고 있는지 통화 연결 전에 미리 확인할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "통화 종료 직후 콜백 리마인드가 필요한 경우, ‘전화가 종료되었을 때’ 워크플로우를 사용하여 [상담 보류] 또는 [상담 열기] 액션으로 자동화할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "통계에서는요?"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전화 모니터링"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "전화 모니터링에 집계되는 통화 건 수에는 영향이 없어요. "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "통화 건 수"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "만을 확인하시려면, 전화 모니터링을 확인해주세요. ("
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "→전화 모니터링 알아보기"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                },
+                                {
+                                  "attrs": {
+                                    "href": "https://docs.channel.io/help/ko/articles/%EC%A0%84%ED%99%94-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-3189edd5#%EB%88%84%EC%A0%81(%EC%A0%84%ED%99%94-%ED%86%B5%EA%B3%84)"
+                                  },
+                                  "type": "hyperlink"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": ")"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담별 통계"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "[항상]으로 설정하는 경우, 여러 건의 통화도 하나의 상담창에 쌓이기 때문에"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        },
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "상담은 1건으로 집계됩니다. "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "상담창 개수를 기준"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "으로 상담 건 수를 확인하시려면, \"상담별 통계\"를 확인해보세요. ("
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "→상담별 통계 알아보기"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                },
+                                {
+                                  "attrs": {
+                                    "href": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%ED%86%B5%EA%B3%84-%EC%83%81%EB%8B%B4%EB%B3%84-84f597bf"
+                                  },
+                                  "type": "hyperlink"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": ")"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스별 통계"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "상담 종료를 기준"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "으로 상담 건 수를 확인하시려면, \"케이스별 통계\"를 확인해보세요. ("
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "→케이스별 통계 알아보기"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                },
+                                {
+                                  "attrs": {
+                                    "href": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%ED%86%B5%EA%B3%84-%EC%BC%80%EC%9D%B4%EC%8A%A4%EB%B3%84-f508f467"
+                                  },
+                                  "type": "hyperlink"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": ")"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채팅 상담과의 경험을 통일하시려면, [종료된 상담 답변 막기] 시간과 [이전 상담 이어가기] 시간을 일치시키는 것을 권장드려요. ("
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "bgtxt-cobalt-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "→종료된 상담 답변 막기 알아보기"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "bgtxt-cobalt-normal"
+                          },
+                          "type": "color"
+                        },
+                        {
+                          "attrs": {
+                            "href": "https://docs.channel.io/help/ko/articles/%EC%9A%B4%EC%98%81-%EC%84%A4%EC%A0%95-1e33dadc#%EC%A2%85%EB%A3%8C%EB%90%9C-%EC%83%81%EB%8B%B4-%EB%8B%B5%EB%B3%80-%EB%A7%89%EA%B8%B0"
+                          },
+                          "type": "hyperlink"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": ")"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "bgtxt-cobalt-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "라우팅 (번호별 적용)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "라우팅"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "이란? 관리하는 번호 별로 전화를 받을 담당자/팀을 지정할 수 있는 기능입니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "라우팅을 통해 전화가 적절한 팀이나 담당자에게 연결되도록 설정할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화신청_2.0.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/77811/usermedia/6718cc0d47abeeca6374",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널설정] - [미트] - [전화] - 전화 번호 우측 [>] - [라우팅] "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "라우팅된 전화 번호에 맞게 발신 시 번호가 보여집니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "본인에게 할당된 번호가 없다면 기본 번호가 보여집니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "라우팅은 팀 멤버 혹은 팀에 배정이 가능합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "워크플로우 이용 중이라면 확인해주세요."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "라우팅 설정으로 팀 멤버, 팀에게 배정하는 경우, 전화 유형의 워크플로우가 동작하지 않습니다. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "태그 부착, 고객 정보 추가와 같이 워크플로우 설정이 필요한 경우 ‘라우팅 안 함’으로 설정 후 라우팅에서 워크플로우를 연결해주세요."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버 라우팅 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "각 팀 멤버에게 전용 번호를 지정하여 고객의 문의가 자동으로 해당 담당자에게 배정되도록 설정할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "활용 방법"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "특정 개인과의 빠른 연결을 필요로 하는 내용이 있거나 고객의 담당자가 있을때 해당 번호를 이용하여 담당자 직통 번호 처럼 유용하게 사용할 수 있어요!"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "해당 번호의 안내 음성도 담당자의 목소리를 직접 녹음하여 친밀감을 높여볼 수도 있어요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 라우팅 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "각 팀에 전용 번호를 지정하여 고객의 문의가 자동으로 팀에 배정되도록 설정할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "활용 방법"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "각 팀의 운영 시간에 맞춰 상담 대기 시간을 설정할 수 있으며, 팀을 소개하는 인사말을 통해 고객이 올바른 팀에 문의를 하고 있는지 확인할 수 있어요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "추가적으로 문의가 많은 팀은 전화 상담 운영 시간을 길게 설정하거나, 팀별 운영시간을 인사말에 적용해 팀별 운영시간을 적용하는 것도 권장드려요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "원하는 IVR을 연결하여 번호 별 다른 시나리오를 들려줄 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "활용 방법"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "문의 유형에 따라 영업팀, 고객상담팀, 인사팀 내선 번호가 다르다면 각 번호별 IVR를 설계하여 각각 다른 안내를 들려줄 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "(→ IVR 알아보기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/4deef10d-IVR"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "라우팅 사용 안함"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "라우팅을 사용 안 함으로 설정하면 ‘담당자 없는 전화 알림’을 켜 둔 팀 멤버에게 링이 울리게 됩니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "활용 방법"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "특정 팀 멤버/팀 지정이 필요 없는 경우 유용하게 사용할 수 있어요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "별도 '고객이 전화를 걸었을 때' 워크플로우를 설정해둔 경우 사용해 보세요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "안내 음성 설정 (번호별 적용)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "전화활용_2.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/324061/usermedia/683828e5721089397a4f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 연결 시 고객에게 송출되는 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "자동 응답 메시지"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 다양한 상황에 맞게 직접 설정할 수 있어요. 전화를 받은 고객이 우리 브랜드를 알 수 있도록 간결한 문장으로 설정하는 것을 권장드려요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "인사말"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 고객이 전화를 걸었을 때 기본으로 전달되는 메시지입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모든 상담원 통화중"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 운영 시간 내 고객이 전화를 걸었으나, 채널에서 전화를 받을 수 있는 모든 상담원이 통화 중일 때 전달되는 메시지입니다. 이 메시지가 전달된 후 통화는 종료되며, 부재중 전화 기록으로 남겨져요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "운영 시간 아님"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 미 운영 시간 내 연결된 전화에서 전달되는 메시지입니다. 이 메시지가 전달된 후 통화는 종료되며, 부재중 전화 기록으로 남겨져요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "번역추가"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": ": 고객의 언어별로 송출되는 안내음성을 다르게 설정할 수 있어요. "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "영어, 일본어, 중국어, 스페인어를 설정할 수 있어요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "그 외 언어는 영어에 설정한 안내음성이 돼요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "기존 고객: 고객 프로필의 언어(language)에 따른 언어"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "리드 고객: 전화번호의 국가번호에 따른 언어 "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        },
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "ex) +82 → ko(한국), +81 → ja(일본)"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "안내 음성 커스터마이징"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "안내 내용은 간단히 텍스트로 작성해서 바로 변경하거나, 직접 녹음한 음성 파일을 업로드하여 사용도 가능해요. 변경에 발생되는 추가 비용은 없으며, 변경 시 별도의 대기 시간 없이 바로 적용됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "662b0ff59fda92973de5",
+        "height": "712px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/161367/usermedia/67a34934c02974d49410",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기본 음성 사용"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 채널톡에서 준비한 기본 메시지를 사용합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "텍스트 변환"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 원하는 문구를 작성 후 바로 음성으로 변환하여 사용할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "파일 업로드"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 음성 파일이 있다면, 업로드하여 안내 음성으로 활용이 가능해요. 음성 파일 생성할 때 코덱을 \"PCM\"으로 설정해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "icon": "warning",
+                "semanticColor": "bgtxt-orange-lightest"
+              },
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "업로드한 파일의 안내 음성이 너무 빠르거나, 느리게 나온다면 음성 파일을 적절한 형태로 인코딩해야해요. 아래 자주 묻는 질문의 가이드를 참고하여 파일을 인코딩 후 업로드해주세요. ("
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "→ 자주 묻는 질문 바로가기)"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "href": "https://docs.channel.io/help/ko/articles/2b94d15c-%EB%B2%88%ED%98%B8-%EC%84%A4%EC%A0%95#%EC%9E%90%EC%A3%BC-%EB%AC%BB%EB%8A%94-%EC%A7%88%EB%AC%B8"
+                          },
+                          "type": "hyperlink"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "callout"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자주 묻는 질문"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "업로드한 안내 음성 파일이 너무 빠르거나, 느리게 들려요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "커스텀 음성 파일의 주파수 및 코덱을 적합한 형태로 설정해주셔야합니다. 아래 방법에 따라 인코딩을 진행해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "https://convertio.co/kr/ 접속"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://convertio.co/kr/"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "음성 파일 업로드 ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "한글명 파일은 오류가 발생하니 영문명으로 수정해주세요."
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "파일 확장자 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "WAV"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 선택"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/85/usermedia/662b0ff6406c25ba658e"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "톱니바퀴 설정 클릭 후 → "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "오디오채널 : 모노(1.0), 주파수 48000 Hz"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 로 설정"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/30/revisions/85/usermedia/662b0ff65c7b3a33bd14"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "변환 후 파일 다운로드"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/v2/poster/icon/eyJpY29uQ29sb3IiOiIjNWIzZmYzIiwiaWNvbiI6ImNhbGwtbWVldCIsImJhY2tncm91bmRDb2xvciI6IiNkZWU3ZmYiLCJ3aWR0aCI6MTQwMCwiaGVpZ2h0Ijo3MzJ9",
+  "linked_faqs": [
+    {
+      "id": "94344",
+      "question": "이미 채널톡 번호를 발급 받아 사용중인데, 이용신청서를 작성해야하는 이유는 무엇인가요?",
+      "answer_plaintext": "신청서가 채널톡 전화 개통을 위한 절차는 아니며, \n채널톡 미트(전화)는 비즈니스 인증 승인 직후 전화 번호 및 사용하실 수 있도록 전화 가입 절차를 간소화하였습니다.\n\n따라서 요청드린 신청서가 생소하실 수 있는데요,\n- 발급 받으신 번호에 대해 발신번호를 변경(RID서비스)하시거나, \n- 해당 번호에 대해 통신가입증명원 발급이 필요하신 경우에는 \n법적으로 요구되는 절차와 서류들이 있어 불가피하게 신청서 작성과 필요 서류 제출을 요청드리고 있습니다\n\n신청서를 작성하시면서 어려운 점 있으시면 문의 남겨주세요 :)"
+    }
+  ],
+  "faq_count": 1
+}

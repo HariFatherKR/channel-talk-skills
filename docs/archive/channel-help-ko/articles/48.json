@@ -1,0 +1,3608 @@
+{
+  "id": "48",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%98%81%EC%83%81-%EB%AF%B8%ED%8A%B8-6148a224",
+  "title": "영상 미트",
+  "summary": "대화 중 나의 화면을 공유하거나 화상으로 소통할 수 있어요.",
+  "plaintext": "현재 일부 인앱 브라우저는 미트가 지원되지 않습니다. 이후 인앱 브라우저 내 미트가 지원되도록 개선된 뒤 업데이트 소식으로 안내해 드릴게요.\n채널톡은 고객과 팀 멤버 모두 참여할 수 있는 컨퍼런스 콜을 미트라는 이름으로 제공하고 있어요. 미트는 전화, 음성 미트, 영상 미트로 나뉘어집니다.\n전화\n채널톡에서 발급받은 070 전화 번호를 사용하여 고객과 통화할 수 있어요.\n채널톡 전화번호 ↔ 고객 전화번호를 연결하기에 새로운 상담이 열립니다.\n전화로 열린 상담은 통화 상담으로 분류되어요.\n음성 미트, 영상 미트\n전화번호 발급 없이 네트워크만으로 상담 안에서 음성이나 영상으로 소통할 수 있어요.\n담당자가 있는 상담 안에서 음성 미트, 영상 미트가 가능하기에 진행 중인 채팅이 유지됩니다.\n채팅 안에서 열리기에 미트는 채팅 상담으로 분류되어요.\n음성 미트, 영상 미트\n전화\n비즈니스 인증\nX\nO\n전화 번호\nX\nO\n플랜\n유료 플랜 + 오퍼레이터 시트가 있는 팀 멤버\n유료 플랜 + 오퍼레이터 시트가 있는 팀 멤버\n통화료\nX\nO\n(예정)\n음성 텍스트 변환\nX\nO\n녹음\nX\nO\n요약\nX\nO\n참여 인원\n최대 10명\n최대 10명\n열리는 방식\n진행중인 상담 내에서 열림\n새로운 상담으로 열림\n상담 자동 배정\nX\nO\n설정하기\n채널 설정하기\n모바일 SDK에서는 미트를 지원하지 않습니다.\n[채널 설정] - [미트] - [음성, 영상 미트]에서 고객이 먼저 팀 멤버에게 음성 미트를 열 수 있도록 설정할 수 있습니다. 설정했을 때 고객의 채팅 화면에서 미트를 열 수 있는 버튼이 표시됩니다.\n고객의 채팅 화면에서 담당자가 있는 채팅일 때에만 미트 버튼이 노출되고, 고객이 미트를 걸게 되면 그 채팅의 담당자에게 링이 울리게 됩니다.\n만약 고객이 오프라인이라면, 팔로업 알림으로 미트 링크가 전송될 수 있습니다.\n팀 멤버 설정하기\n[개인 설정] - [팀 멤버 설정] - [미트]에서 연결된 카메라와 마이크, 스피커를 확인하실 수 있습니다.\n미트에 참여할 때, 마이크가 기본적으로 음소거되게 설정하실 수 있습니다.\n미트 중 배경 영상이 흐리게 보이도록 설정하거나, 마이크 배경 소음 억제(노이즈 캔슬링)을 설정하실 수 있습니다.\n영상 버전 흐리게\n기능 참고 사항\nSafari 브라우저 및 안드로이드 기기에서는 영상 배경 흐리게 기능이 지원되지 않습니다.\niOS는 버전 17부터 이용할 수 있습니다.\n마이크 배경 소음 억제\n기능 참고 사항\n모바일 앱에서는 배경 소음 억제 기능이 지원되지 않으며, 추후 지원될 예정입니다.\n발신\n기존 상담에서 미트 발신하기\n외부 메신저로 열린 상담에서는 미트가 불가능하기에, 미트 버튼이 노출되지 않습니다.\n고객과 대화 중일 때 [미트] 버튼을 눌러 고객에게 미트를 열 수 있습니다.\n수신함 상단의 [미트] - [영상 미트]를 클릭해 주세요.\n고객이 온라인이라면 고객에게 링이 보여지고, 오프라인이면 팔로업 알림 문자가 전송됩니다.\n새로운 상담에서 미트 발신하기\n또한 고객 프로필 상세 화면에서도 [미트] 버튼을 눌러 새 상담으로 미트를 열 수 있습니다.\n경로: 고객의 상세 프로필 화면 - [미트] - [영상 미트]\n영상 미트로 전환하기\n한번 영상 미트로 전환된 미트는 영상 미트로 기록에 남게 됩니다.\n고객과 음성 미트를 진행하다가 [비디오] 버튼을 켜거나, [화면 공유]를 하게 되면 영상 미트로 전환됩니다. 영상 미트로 전환 후 영상을 종료하더라도, [음성 미트]로 속성이 변경되지 않아요.\n비디오: 클릭 시 카메라가 켜지고 영상 미트로 전환됩니다.\n화면 공유: 클릭 시 어떤 화면을 공유할지 선택하는 창이 뜨고, 내 화면을 미트 참여자에게 공유할 수 있습니다.\n전화로 인입된 고객과 통화 중일 때, 팀 멤버가 영상을 켜더라도 고객은 영상을 볼 수 없습니다. 고객과의 영상 미트는 채널톡 내 [미트] 버튼을 통해서만 가능해요.\n화면 공유\n모바일 웹을 통해 들어온 경우, 고객은 화면 공유가 지원되지 않습니다.\n화면 공유 버튼을 누르고, 나의 창이나 전체 화면을 영상 미트로 공유할 수 있습니다. 접속한 브라우저에 따라 공유 화면을 선택하는 창은 다르게 보일 수 있어요.\n화면 공유 권한 설정하기\n모바일 앱 (iOS, Android)는 별도 권한 허용 없이 미트 중 화면 공유가 바로 가능합니다.\n화면 공유 권한이 없을 때, 권한 설정을 요청하는 화면이 뜨게 됩니다. [설정] 버튼을 눌러 화면 공유 권한을 허용해 주세요.\n웹 브라우저\nWindows\n는 별도 권한 허용 없이 영상 미트 중 화면 공유가 바로 가능합니다.\n사파리(Safari)\n사파리는 화면 공유 시 항상 화면 공유 팝업이 노출됩니다. 해당 팝업의 허용을 눌러 화면 공유를 시작해 주세요.\n크롬 (Chrome)\n[시스템 환경 설정] - [개인 정보 및 보안] - [화면 기록]에서 Google Chrome 앱의 화면 기록 엑세스를 허용해 주세요.\nEdge\n[시스템 환경 설정] - [개인 정보 및 보안] - [화면 기록]에서 Microsoft Edge 앱의 화면 기록 엑세스를 허용해 주세요.\n데스크탑 앱\nWindows는 별도 권한 허용 없이 영상 미트 중 화면 공유가 바로 가능합니다.\nMac\n[시스템 환경 설정] - [개인 정보 및 보안] - [화면 기록]에서 Channel Talk 앱의 화면 기록 엑세스를 허용해 주세요.\n팀 영상 미트\n팀챗의 대화방이나 다이렉트 메시지에서도 영상 미트 사용이 가능합니다. 팀챗 상단의 [미트] - [영상 미트] 버튼을 눌러 팀 멤버들간의 회의가 가능합니다.\n단축키\n링이 울릴 때 미트 참여하기\n윈도우\nCtrl+Shift+\nSpace\nMAC\nCommand(\n⌘)+Shift+D+\nSpace\n미트 참여중 마이크 끄기/켜키\n윈도우\nCtrl+Shift+\nM\nMAC\nCommand(\n⌘)+Shift+\nM\n미트 참여중 모두에게 나가기\n윈도우\nCtrl+Shift+\nO\nMAC\nCommand(\n⌘)+Shift+\nO\n미트 참여중 (나만) 나가기\n윈도우\nCtrl+\nO\nMAC\nCommand(\n⌘)+\nO\n마이크와 카메라 권한 설정하기\n권한을 설정한 후에도 미트가 진행되지 않는다면, 새로고침을 한번 하시고 다시 시도해 주세요.\n영상 미트 시 카메라와 마이크 권한 허용을 꼭 진행해 주세요. 아래 내용을 참고하여 사용 중인 플랫폼에서 마이크와 카메라 권한을 모두 허용해 주세요.\n웹 브라우저 (PC)\nChrome\n우측 상단의 더보기 버튼을 누른 후 [설정]에 접속해 주세요.\n[개인정보 및 보안] - [사이트 설정]에 접속해 주세요.\n[권한] - [카메라], [마이크]에 각각 접속해 주세요.\n사이트에서 카메라와 마이크 사용을 요청할 수 있음이 체크되어있는지 확인 및 채널톡 주소 (\ndesk.channel.io) 가 차단되어있지 않은지 확인해 주세요.\n영상 미트를 사용하기 전, 좌측 상단에 표시되는 카메라와 마이크 사용 권한을 허용해주세요\n만약, 위의 설정으로도 동작이 안되는 경우, 운영체제 (Windows/Mac) 설정에서 크롬 앱에 대한 카메라와 마이크 권한이 허용되지 않았는지 확인해주세요\nEdge\n우측 상단의 [더보기] - [설정]에 접속해주세요\n[쿠키 및 사이트 권한] - [카메라], [마이크]로 접속해 각각 [엑세스 전에 확인(권장)] 을 활성화 해주세요.\nSafari\n좌측 상단의 [Safari] - [환경설정]에 접속해주세요.\n[웹사이트] - [카메라], [마이크]에서 각각 채널톡 주소 (\ndesk.channel.io)에 대해서 권한 허용을 해주세요.\n웹 브라우저 (모바일)\nChrome 앱은 설정 변경 시 기존 미트가 종료되므로, 권한 허용 후 미트를 다시 시도해 주세요.\niOS 웹 브라우저\n[설정] - [본인이 사용하는 브라우저 앱] 을 선택 후 마이크, 카메라 접근을 허용해 주시고 브라우저 앱으로 다시 접속해 주세요.\n예시) Chrome 사용 시\n[설정] - [Chrome]을 선택해 주세요.\n마이크와 카메라 접근을 허용해 주시고, 크롬으로 다시 돌아가 주세요.\n크롬 앱 특성상 설정을 변경하면 기존 미트는 종료되므로, 미트를 다시 한번 시도해 주세요.\nAndroid 웹 브라우저\n[설정] - [애플리케이션] - [본인이 사용하는 브라우저 앱] - [권한] - [마이크], [카메라]를 선택 후 각각 권한을 허용해 주세요.\n허용 후 미트 창으로 돌아가 마이크 버튼과 카메라 버튼을 다시 한번 눌러주시고, 팝업의 [허용] 버튼을 누르시면 마이크 사용이 가능해집니다.\n예시) Chrome 사용 시\nChrome 앱을 꾹 누르고, 정보 아이콘을 눌러 주세요.\n[애플리케이션 정보]에서 [권한]을 눌러 주세요.\n마이크와 카메라를 각각 클릭해 주세요.\n각 권한을 [앱 사용 중에만 허용]으로 변경해 주세요.\n크롬으로 다시 돌아가 주세요.\n크롬 앱 특성상 설정을 변경하면 기존 미트는 종료되므로, 미트를 다시 한번 시도해 주세요.\n데스크탑 앱\nWindows 채널톡 프로그램\n[시스템 환경 설정] - [개인 정보 및 보안] - [마이크], [카메라] 에서 마이크 접근 및 Channel.Talk 앱의 마이크와 카메라 엑세스를 허용해주세요.\n설정 후 Channel Talk 앱을 반드시 껐다가 켜주셔야 권한이 적용됩니다.\n[채널톡 관리자 프로그램 왼쪽 상단 아이콘] - [Channel Talk] - [Quit]\n만약 윈도우 앱에서 마이크 설정이 이루어지지 않는다면 채널톡 앱을 [관리자 권한으로 실행] 후 사용해주세요.\n[바탕화면] → [채널톡 앱 우클릭] → [관리자 권한으로 실행]\nMac 채널톡 프로그램\n[시스템 환경설정] - [개인정보 보호 및 보안] - [마이크], [카메라]를 선택해주세요\n[마이크], [카메라]에서 각각 Channel Talk의 권한을 허용해주세요\n모바일 앱\niOS 채널톡 앱\n[설정] - [채널톡] 을 선택 후 마이크, 카메라의 사용 권한을 추가해 주세요.\nAndroid 채널톡 앱\n[설정] - [애플리케이션] 메뉴에서 채널톡을 선택해 주세요.\n[마이크], [카메라]를 클릭하여 각각 액세스 권한을 허용해 주세요.",
+  "body": [
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "현재 일부 인앱 브라우저는 미트가 지원되지 않습니다. 이후 인앱 브라우저 내 미트가 지원되도록 개선된 뒤 업데이트 소식으로 안내해 드릴게요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡은 고객과 팀 멤버 모두 참여할 수 있는 컨퍼런스 콜을 미트라는 이름으로 제공하고 있어요. 미트는 전화, 음성 미트, 영상 미트로 나뉘어집니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡에서 발급받은 070 전화 번호를 사용하여 고객과 통화할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 전화번호 ↔ 고객 전화번호를 연결하기에 새로운 상담이 열립니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화로 열린 상담은 통화 상담으로 분류되어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "음성 미트, 영상 미트"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화번호 발급 없이 네트워크만으로 상담 안에서 음성이나 영상으로 소통할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당자가 있는 상담 안에서 음성 미트, 영상 미트가 가능하기에 진행 중인 채팅이 유지됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채팅 안에서 열리기에 미트는 채팅 상담으로 분류되어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "음성 미트, 영상 미트"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전화"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비즈니스 인증"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전화 번호"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "플랜"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유료 플랜 + 오퍼레이터 시트가 있는 팀 멤버"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유료 플랜 + 오퍼레이터 시트가 있는 팀 멤버"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화료"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O "
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "(예정)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "음성 텍스트 변환"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "녹음"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "요약"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "참여 인원"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "최대 10명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "최대 10명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "열리는 방식"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "진행중인 상담 내에서 열림"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "새로운 상담으로 열림"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 자동 배정"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "모바일 SDK에서는 미트를 지원하지 않습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[채널 설정] - [미트] - [음성, 영상 미트]에서 고객이 먼저 팀 멤버에게 음성 미트를 열 수 있도록 설정할 수 있습니다. 설정했을 때 고객의 채팅 화면에서 미트를 열 수 있는 버튼이 표시됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객의 채팅 화면에서 담당자가 있는 채팅일 때에만 미트 버튼이 노출되고, 고객이 미트를 걸게 되면 그 채팅의 담당자에게 링이 울리게 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "만약 고객이 오프라인이라면, 팔로업 알림으로 미트 링크가 전송될 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "setmeet",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f82dadfc20f5bdf"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "setmeet2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8321a917dfa4b9"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "영상미트_매니저설정.png",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/694/usermedia/664b0744491461efe561"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[개인 설정] - [팀 멤버 설정] - [미트]에서 연결된 카메라와 마이크, 스피커를 확인하실 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미트에 참여할 때, 마이크가 기본적으로 음소거되게 설정하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미트 중 배경 영상이 흐리게 보이도록 설정하거나, 마이크 배경 소음 억제(노이즈 캔슬링)을 설정하실 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bust_in_silhouette",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "영상 버전 흐리게"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 기능 참고 사항"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Safari 브라우저 및 안드로이드 기기에서는 영상 배경 흐리게 기능이 지원되지 않습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "iOS는 버전 17부터 이용할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "icon": "mute",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "마이크 배경 소음 억제"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 기능 참고 사항"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "모바일 앱에서는 배경 소음 억제 기능이 지원되지 않으며, 추후 지원될 예정입니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "발신"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기존 상담에서 미트 발신하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "외부 메신저로 열린 상담에서는 미트가 불가능하기에, 미트 버튼이 노출되지 않습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객과 대화 중일 때 [미트] 버튼을 눌러 고객에게 미트를 열 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신함 상단의 [미트] - [영상 미트]를 클릭해 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "meetcall",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f838eb2d48117b9"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 온라인이라면 고객에게 링이 보여지고, 오프라인이면 팔로업 알림 문자가 전송됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "영상미트_발신2",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f83c8ece9d5bfa3"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "새로운 상담에서 미트 발신하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "또한 고객 프로필 상세 화면에서도 [미트] 버튼을 눌러 새 상담으로 미트를 열 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "경로: 고객의 상세 프로필 화면 - [미트] - [영상 미트]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "영상미트_발신3",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8412864e6c9c11"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "영상 미트로 전환하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "한번 영상 미트로 전환된 미트는 영상 미트로 기록에 남게 됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객과 음성 미트를 진행하다가 [비디오] 버튼을 켜거나, [화면 공유]를 하게 되면 영상 미트로 전환됩니다. 영상 미트로 전환 후 영상을 종료하더라도, [음성 미트]로 속성이 변경되지 않아요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "영상미트_발신4",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f844e8162eb2bff"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비디오: 클릭 시 카메라가 켜지고 영상 미트로 전환됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "화면 공유: 클릭 시 어떤 화면을 공유할지 선택하는 창이 뜨고, 내 화면을 미트 참여자에게 공유할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "전화로 인입된 고객과 통화 중일 때, 팀 멤버가 영상을 켜더라도 고객은 영상을 볼 수 없습니다. 고객과의 영상 미트는 채널톡 내 [미트] 버튼을 통해서만 가능해요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "화면 공유"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "모바일 웹을 통해 들어온 경우, 고객은 화면 공유가 지원되지 않습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "화면 공유 버튼을 누르고, 나의 창이나 전체 화면을 영상 미트로 공유할 수 있습니다. 접속한 브라우저에 따라 공유 화면을 선택하는 창은 다르게 보일 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "영상미트_화면공유",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f847a986aa99159"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "화면 공유 권한 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "모바일 앱 (iOS, Android)는 별도 권한 허용 없이 미트 중 화면 공유가 바로 가능합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "화면 공유 권한이 없을 때, 권한 설정을 요청하는 화면이 뜨게 됩니다. [설정] 버튼을 눌러 화면 공유 권한을 허용해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "웹 브라우저"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "Windows"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "는 별도 권한 허용 없이 영상 미트 중 화면 공유가 바로 가능합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "사파리(Safari)"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "사파리는 화면 공유 시 항상 화면 공유 팝업이 노출됩니다. 해당 팝업의 허용을 눌러 화면 공유를 시작해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "safari",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f84b9a8fc2dae15"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "크롬 (Chrome)"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[시스템 환경 설정] - [개인 정보 및 보안] - [화면 기록]에서 Google Chrome 앱의 화면 기록 엑세스를 허용해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "chrome",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f850a35145ee95e"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Edge"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[시스템 환경 설정] - [개인 정보 및 보안] - [화면 기록]에서 Microsoft Edge 앱의 화면 기록 엑세스를 허용해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "edge",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f855892a6e9d1fc"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "데스크탑 앱"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "Windows는 별도 권한 허용 없이 영상 미트 중 화면 공유가 바로 가능합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Mac"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[시스템 환경 설정] - [개인 정보 및 보안] - [화면 기록]에서 Channel Talk 앱의 화면 기록 엑세스를 허용해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "mac",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f858fb2d9517fd0"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 영상 미트"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀챗의 대화방이나 다이렉트 메시지에서도 영상 미트 사용이 가능합니다. 팀챗 상단의 [미트] - [영상 미트] 버튼을 눌러 팀 멤버들간의 회의가 가능합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "영상미트_팀",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f85ccfa48328b17"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "단축키"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "링이 울릴 때 미트 참여하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "윈도우"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Ctrl+Shift+"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Space"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MAC"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " Command("
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "⌘)+Shift+D+"
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Space"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": " 미트 참여중 마이크 끄기/켜키"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "윈도우"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Ctrl+Shift+"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "M"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MAC"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " Command("
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "⌘)+Shift+"
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "M"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미트 참여중 모두에게 나가기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "윈도우"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Ctrl+Shift+"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "O"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MAC"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " Command("
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "⌘)+Shift+"
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "O"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미트 참여중 (나만) 나가기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "윈도우"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Ctrl+"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "O"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MAC"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " Command("
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "⌘)+"
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "O"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "bgtxt-red-normal"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "마이크와 카메라 권한 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "권한을 설정한 후에도 미트가 진행되지 않는다면, 새로고침을 한번 하시고 다시 시도해 주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "영상 미트 시 카메라와 마이크 권한 허용을 꼭 진행해 주세요. 아래 내용을 참고하여 사용 중인 플랫폼에서 마이크와 카메라 권한을 모두 허용해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "웹 브라우저 (PC)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Chrome"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "우측 상단의 더보기 버튼을 누른 후 [설정]에 접속해 주세요.\n"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "chrome",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f860dc4d9756ef0"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[개인정보 및 보안] - [사이트 설정]에 접속해 주세요.\n"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f864a18fd6f93c8"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[권한] - [카메라], [마이크]에 각각 접속해 주세요.\n"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "마이크카메라",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8688cc78be625e"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사이트에서 카메라와 마이크 사용을 요청할 수 있음이 체크되어있는지 확인 및 채널톡 주소 ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "desk.channel.io) 가 차단되어있지 않은지 확인해 주세요.\n"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "//desk.channel.io"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "chromeMike",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f86bd364e1cf27c"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "카메라",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f87297aab60e37d"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "영상 미트를 사용하기 전, 좌측 상단에 표시되는 카메라와 마이크 사용 권한을 허용해주세요\n"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "미트_카메라권한_크롬",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f876ecbf0b30a11"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "만약, 위의 설정으로도 동작이 안되는 경우, 운영체제 (Windows/Mac) 설정에서 크롬 앱에 대한 카메라와 마이크 권한이 허용되지 않았는지 확인해주세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Edge"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "우측 상단의 [더보기] - [설정]에 접속해주세요\n"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "edge",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8845412f8beedb"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[쿠키 및 사이트 권한] - [카메라], [마이크]로 접속해 각각 [엑세스 전에 확인(권장)] 을 활성화 해주세요.\n"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f88809bad71937c"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "카메라_엣지",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f88b3ed2c2a8a3d"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Safari"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "좌측 상단의 [Safari] - [환경설정]에 접속해주세요.\n"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8903b1e7c88916"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[웹사이트] - [카메라], [마이크]에서 각각 채널톡 주소 ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "desk.channel.io)에 대해서 권한 허용을 해주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "//desk.channel.io"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "camera",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f892d1fdc60a194"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f89530b4c04bdb8"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "웹 브라우저 (모바일)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "Chrome 앱은 설정 변경 시 기존 미트가 종료되므로, 권한 허용 후 미트를 다시 시도해 주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "iOS 웹 브라우저"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[설정] - [본인이 사용하는 브라우저 앱] 을 선택 후 마이크, 카메라 접근을 허용해 주시고 브라우저 앱으로 다시 접속해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예시) Chrome 사용 시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "영상미트_아이폰_권한",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f898dca0ad799f6"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[설정] - [Chrome]을 선택해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마이크와 카메라 접근을 허용해 주시고, 크롬으로 다시 돌아가 주세요.\n크롬 앱 특성상 설정을 변경하면 기존 미트는 종료되므로, 미트를 다시 한번 시도해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Android 웹 브라우저"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[설정] - [애플리케이션] - [본인이 사용하는 브라우저 앱] - [권한] - [마이크], [카메라]를 선택 후 각각 권한을 허용해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "허용 후 미트 창으로 돌아가 마이크 버튼과 카메라 버튼을 다시 한번 눌러주시고, 팝업의 [허용] 버튼을 누르시면 마이크 사용이 가능해집니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예시) Chrome 사용 시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "안드_권한",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f89c2fec9a6ae01"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "안드_권한2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8a22205cbfea26"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Chrome 앱을 꾹 누르고, 정보 아이콘을 눌러 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[애플리케이션 정보]에서 [권한]을 눌러 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마이크와 카메라를 각각 클릭해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "각 권한을 [앱 사용 중에만 허용]으로 변경해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "크롬으로 다시 돌아가 주세요.\n크롬 앱 특성상 설정을 변경하면 기존 미트는 종료되므로, 미트를 다시 한번 시도해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "데스크탑 앱"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Windows 채널톡 프로그램"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[시스템 환경 설정] - [개인 정보 및 보안] - [마이크], [카메라] 에서 마이크 접근 및 Channel.Talk 앱의 마이크와 카메라 엑세스를 허용해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "mikewin",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8a4ec875e77c7a"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 후 Channel Talk 앱을 반드시 껐다가 켜주셔야 권한이 적용됩니다.\n[채널톡 관리자 프로그램 왼쪽 상단 아이콘] - [Channel Talk] - [Quit]\n"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "quit",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8a8f3514636298"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "만약 윈도우 앱에서 마이크 설정이 이루어지지 않는다면 채널톡 앱을 [관리자 권한으로 실행] 후 사용해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "[바탕화면] → [채널톡 앱 우클릭] → [관리자 권한으로 실행]"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    },
+                    {
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": "window",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8ac40323554480"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Mac 채널톡 프로그램"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[시스템 환경설정] - [개인정보 보호 및 보안] - [마이크], [카메라]를 선택해주세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8b054062f92512"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[마이크], [카메라]에서 각각 Channel Talk의 권한을 허용해주세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "mikemac",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8b4184731e5646"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "cammac",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8b9d3ac14835dc"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모바일 앱"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "iOS 채널톡 앱"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[설정] - [채널톡] 을 선택 후 마이크, 카메라의 사용 권한을 추가해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8bd1cfe64f8087"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Android 채널톡 앱"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[설정] - [애플리케이션] 메뉴에서 채널톡을 선택해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "and1",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8c0aee3c34f876"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[마이크], [카메라]를 클릭하여 각각 액세스 권한을 허용해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "and32",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/48/revisions/139/usermedia/662b0f8c4371c1a372de"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "120",
+    "name": "Nacho",
+    "bio": "CX 팀 데이터 분석\n& 미트 오퍼레이션"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ec5ae0dd296b45d",
+  "linked_faqs": [],
+  "faq_count": 0
+}

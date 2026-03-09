@@ -1,0 +1,1942 @@
+{
+  "id": "67",
+  "url": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%ED%83%9C%EA%B7%B8-c413386c",
+  "title": "고객 태그",
+  "summary": "고객 관리의 기본은 고객을 잘 분류하는 거에요. 고객 프로필과 더불어 채널톡의 강력한 고객 태그 기능으로 고객을 효율적으로 관리할 수 있어요.",
+  "plaintext": "고객\n태그\n아래의 유효하지 않은 문자가 포함된 고객 태그는 생성되지 않습니다.\n.\n$$\n공백\n\\\n고객 태그를 이용하여 고객의 유형, 관심 제품, 고객 특성을 기록해두고 고객을 구분하고 관리하는데 사용할 수 있어요.\n하나의 고객에게 고객 특성에 맞는 여러개(\n멀티 태그\n) 붙여 관리할 수 있어요.\n하나의 태그 안에 하위 태그(\n단계\n)를 설정하여 디렉토리 형태로 고객을 효율적으로 관리할 수 있습니다.\n예를 들어, 김채널 고객에게 [고객 구분/VIP], [23여름이벤트/당첨], [재입고문의/린넨셔츠/M-아이보리]와 같이 단계 구분이 되어있는 여러 개의 고객 태그를 부착할 수 있어요.\n고객\n태그 생성\n유료 플랜 구독 시\n고객 연락처에서 한 번에 다수의 고객을 선택해 생성 및 부착이 가능합니다.\n고객 연락처 좌측 메뉴에서 태그가 부착된 고객 수를 확인하고 고객 태그를 수정할 수 있습니다.\n고객 태그 관리 페이지에서 태그가 부착된 고객 수를 확인하고 고객 태그를 생성 및 관리할 수 있습니다.\n개별 고객 프로필 페이지에서 생성 및 부착이 가능합니다.\n워크플로우 액션으로 특정 단계에 들어온 고객에게 자동으로 태그를 부착할 수 있어요.\n마케팅 기능에서 대상 고객 선택 시, 고급 필터 기능으로 태그가 부착된 고객을 확인하고 메시지를 한 번에 보낼 수 있습니다. (\n→ 고급 필터 더 알아보기\n)\n메뉴에서 만들기\n설정 경로: [고객 연락처] - [고객 태그 설정] 에서 고객 태그 추가 및 관리\n고객 태그는 다음 규칙이 적용됩니다.\n1. 고객 연락처 좌측 메뉴에서 제공되는 태그 이름은 알파벳 순서대로 자동정렬됩니다(a-b-c...)\n2. 고객 태그는 대소문자를 구분하지 않습니다. (A태그=a태그) 먼저 생성된 태그의 대소문자를 기준으로 표시됩니다.\n예를 들어, A 태그가 먼저 생성되었다면, 이후에 a 태그를 추가하더라도 A태그로 보입니다.\n3. 고객에게 달린 태그는 가장 하위 단계의 태그만 표시됩니다.\n4. 한 고객에게 최대 20개 까지 고객 태그를 붙일 수 있어요.\n고객 연락처\n에서 만들기\n1) 설정 경로: [고객 연락처] - 좌측 메뉴에서 태그 추가하기를 통해 고객 태그를 만들 수 있어요.\n2) 설정 경로: [고객 연락처] - 고객 선택 후 고객 태그 열에서 고객 태그를 만들고 관리할 수 있어요.\n고객 프로필 페이지\n에서 만들기\n설정 경로: [고객 연락처] - [고객 프로필] 에서 고객 태그 속성값 추가하여 관리할 수 있어요.\n상세\n설정하기\n이름에\n/\n를 넣어 하나의 태그를\n최대 3단계\n로 분류할 수 있습니다.\n예시) 재입고 문의 중 특정 상품명을 분류하시려면\n'재입고문의/브이넥티셔츠'\n로, 상품을 사이즈 관련, 색상 관련 옵션으로 구분하려면 '\n재입고문의/브이넥티셔츠/스몰'\n, '\n재입고문의/브이넥티셔츠/화이트'\n로 분류하실 수 있습니다.\n태그를\n색상으로 구분\n하실 수 있습니다. 기능별 / 주제별로 같은 색상으로 태그를 만드셔서 고객을 분류하실 수 있습니다.\n태그에 설명을 작성하여 어떤 상황에 해당 태그가 사용될지 정의할 수 있어요.\n고객\n태그 액션\n일치 고객 바로가기\n고객 태그를 선택한 후 '일치 고객 바로가기'를 클릭하면 해당 태그가 부착된 고객 목록을 빠르게 검색해 불러올 수 있어요.\n고객 태그 관리 목록에 보여지는 일치 고객 수는 다음 규칙이 적용됩니다.\n‘>’로 접혀있는 태그는 하위 태그가 달린 고객도 포함한 수를 제공합니다. (전체)\n‘#’로 펼쳐져있는 태그는 해당 태그가 달린 고객의 수를 제공합니다. (정확히 일치)\n고객 태그 목록 순서를 이름, 일치 고객 수, 수정 시간 별로 정렬할 수 있어요.\n일회성 메시지 만들기\n일회성 메시지 만들기: 선택한 태그가 부착된 고객들을 대상으로 한 번에 일회성 메시지를 보낼 수 있어요.\n세그먼트 만들기\n세그먼트 만들기: 선택한 태그가 부착된 고객들을 그룹화하여 관리할 수 있어요.\n세그먼트 만들기를 통해 특정 태그가 부착된 고객 목록을 빠르게 확인할 수 있고, 마케팅 메시지 설정 시 대상 고객 그룹으로 한 번에 불러올 수도 있어요. (\n→ 세그먼트 더 알아보기, 마케팅 더 알아보기\n)\n수정하기\n더보기 아이콘을 눌러 태그의 이름, 색상, 설명을 수정할 수 있어요.\n한 번에 하나의 태그만 수정 가능하며, 상위 태그 이름을 수정하면 하위 태그 이름도 함께 수정됩니다.\n목록에서 태그 이름 수정 후, 고객에게 부착되어 있던 기존 태그도 수정된 태그 이름으로 한 번에 변경할 수 있어요.\n병합하기\n고객 태그 병합은 선택한 태그를 다른 태그로 합치는 기능이에요. 이 때 선택된 태그의 하위 태그까지 포함하여 병합됩니다.\n목록에서 태그 병합 후, 고객에게 부착되어 있던 기존 태그도 한 번에 삭제하고 병합한 새로운 태그를 부착할 수 있어요.\n삭제하기\n태그를 선택하여 삭제할 수 있어요. 상위 태그를 삭제하면 하위 태그도 함께 삭제됩니다.\n목록에서 태그 삭제 후, 고객에게 부착된 태그도 한 번에 삭제할 수 있어요.\n고객\n태그 활용\n고객 태그가 부착된 고객은 상담 시 어떤 유형의 고객인지 특성을 확인할 수 있고, 마케팅에서 특정 고객 태그가 부착된 대상 고객을 쉽게 불러와 메시지를 보내실 수도 있어요.\n활용 예시\n아래 예시처럼 버티컬 별로 고객 태그를 구분하여 설정해보실 수 있어요.\n커머스 버티컬 고객이라면\n고객 구분 - VIP, VVIP, 내부 인원, 블랙 고객, …\n재입고 알림 신청 - 상품명/옵션명, …\n구매 채널 - 자사몰, 네이버, 지그재그, …\n의료 버티컬 고객이라면\n환자 유형 - 수험생, 임산부, 청소년, 갱년기, …\n통증 - 머리, 목, 어깨(왼쪽), …\n고민 - 만성피로, 다이어트, 면역력, 알러지, …\n여행 버티컬 고객이라면\n여행지 - 대륙/나라/도시, …\n플랫폼 버티컬 고객이라면\n고객 구분 - 공급 Side, 수요 Side, 개발자, …\n교육, 에이전시 혹은 버티컬 공통\n클래스/기수/이벤트/NPS - 참여자, 수강생, 당첨자, 응답 기록, …\n고객 설명 프로필 추가\n고객 태그는 최대 128자까지 입력할 수 있어요. 128자 이상의 상세한 고객 정보를 기재해야 한다면, 고객 태그 대신에 ‘고객 설명’ 이라는 고객 프로필 필드값을 추가하여 활용해 보세요. (\n→ 고객 프로필 추가 더 알아보기\n)\n다른 직원과 함께 봐야 할 인수인계 사항은 ‘고객 설명’ 필드를 활용해보세요!\n고객 태그보다 더 긴 내용을 작성하여 고객 정보 및 특성을 관리할 수 있어요.\nShift + Enter 로 줄바꿈도 가능합니다",
+  "body": [
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "태그"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "아래의 유효하지 않은 문자가 포함된 고객 태그는 생성되지 않습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "$$"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "공백"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "\\"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 태그를 이용하여 고객의 유형, 관심 제품, 고객 특성을 기록해두고 고객을 구분하고 관리하는데 사용할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객 태그 ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b10230aeef2097882"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "하나의 고객에게 고객 특성에 맞는 여러개("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "멀티 태그"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ") 붙여 관리할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "하나의 태그 안에 하위 태그("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "단계"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")를 설정하여 디렉토리 형태로 고객을 효율적으로 관리할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예를 들어, 김채널 고객에게 [고객 구분/VIP], [23여름이벤트/당첨], [재입고문의/린넨셔츠/M-아이보리]와 같이 단계 구분이 되어있는 여러 개의 고객 태그를 부착할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "태그 생성"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유료 플랜 구독 시"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객 연락처에서 한 번에 다수의 고객을 선택해 생성 및 부착이 가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객 연락처 좌측 메뉴에서 태그가 부착된 고객 수를 확인하고 고객 태그를 수정할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객 태그 관리 페이지에서 태그가 부착된 고객 수를 확인하고 고객 태그를 생성 및 관리할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "개별 고객 프로필 페이지에서 생성 및 부착이 가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 액션으로 특정 단계에 들어온 고객에게 자동으로 태그를 부착할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마케팅 기능에서 대상 고객 선택 시, 고급 필터 기능으로 태그가 부착된 고객을 확인하고 메시지를 한 번에 보낼 수 있습니다. ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 고급 필터 더 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/312d45b2"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "메뉴에서 만들기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [고객 연락처] - [고객 태그 설정] 에서 고객 태그 추가 및 관리"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b1023432f9adc8b98"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "고객 태그는 다음 규칙이 적용됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "1. 고객 연락처 좌측 메뉴에서 제공되는 태그 이름은 알파벳 순서대로 자동정렬됩니다(a-b-c...)"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "2. 고객 태그는 대소문자를 구분하지 않습니다. (A태그=a태그) 먼저 생성된 태그의 대소문자를 기준으로 표시됩니다. \n예를 들어, A 태그가 먼저 생성되었다면, 이후에 a 태그를 추가하더라도 A태그로 보입니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "3. 고객에게 달린 태그는 가장 하위 단계의 태그만 표시됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "4. 한 고객에게 최대 20개 까지 고객 태그를 붙일 수 있어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 연락처"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "에서 만들기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1) 설정 경로: [고객 연락처] - 좌측 메뉴에서 태그 추가하기를 통해 고객 태그를 만들 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "2) 설정 경로: [고객 연락처] - 고객 선택 후 고객 태그 열에서 고객 태그를 만들고 관리할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b1023990b3c63ffad"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 프로필 페이지"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "에서 만들기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [고객 연락처] - [고객 프로필] 에서 고객 태그 속성값 추가하여 관리할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b1023cdda203bc285"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상세 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "설정하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b1024257dde279d45"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이름에 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "/"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 를 넣어 하나의 태그를 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "최대 3단계"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 분류할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시) 재입고 문의 중 특정 상품명을 분류하시려면 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "'재입고문의/브이넥티셔츠'"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 로, 상품을 사이즈 관련, 색상 관련 옵션으로 구분하려면 '"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "재입고문의/브이넥티셔츠/스몰'"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ", '"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "재입고문의/브이넥티셔츠/화이트'"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 로 분류하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "태그를 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "색상으로 구분"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "하실 수 있습니다. 기능별 / 주제별로 같은 색상으로 태그를 만드셔서 고객을 분류하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "태그에 설명을 작성하여 어떤 상황에 해당 태그가 사용될지 정의할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "태그 액션"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b1024512c2cd2a7b0"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "일치 고객 바로가기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 태그를 선택한 후 '일치 고객 바로가기'를 클릭하면 해당 태그가 부착된 고객 목록을 빠르게 검색해 불러올 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b10248c158579c905"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 태그 관리 목록에 보여지는 일치 고객 수는 다음 규칙이 적용됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "‘>’로 접혀있는 태그는 하위 태그가 달린 고객도 포함한 수를 제공합니다. (전체)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "‘#’로 펼쳐져있는 태그는 해당 태그가 달린 고객의 수를 제공합니다. (정확히 일치)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "\u001d고객 태그 목록 순서를 이름, 일치 고객 수, 수정 시간 별로 정렬할 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b1024d36bcbe63c24"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b102505151075856e"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "일회성 메시지 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일회성 메시지 만들기: 선택한 태그가 부착된 고객들을 대상으로 한 번에 일회성 메시지를 보낼 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b10252c53dc1f9993"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "세그먼트 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "세그먼트 만들기: 선택한 태그가 부착된 고객들을 그룹화하여 관리할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "세그먼트 만들기를 통해 특정 태그가 부착된 고객 목록을 빠르게 확인할 수 있고, 마케팅 메시지 설정 시 대상 고객 그룹으로 한 번에 불러올 수도 있어요. ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 세그먼트 더 알아보기, 마케팅 더 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/312d45b2"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b10255c3f9bc353e9"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "수정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "더보기 아이콘을 눌러 태그의 이름, 색상, 설명을 수정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "한 번에 하나의 태그만 수정 가능하며, 상위 태그 이름을 수정하면 하위 태그 이름도 함께 수정됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "목록에서 태그 이름 수정 후, 고객에게 부착되어 있던 기존 태그도 수정된 태그 이름으로 한 번에 변경할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b102586f74eb6d4c2"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "병합하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 태그 병합은 선택한 태그를 다른 태그로 합치는 기능이에요. 이 때 선택된 태그의 하위 태그까지 포함하여 병합됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "목록에서 태그 병합 후, 고객에게 부착되어 있던 기존 태그도 한 번에 삭제하고 병합한 새로운 태그를 부착할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b1025cb894852a0b6"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "삭제하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "태그를 선택하여 삭제할 수 있어요. 상위 태그를 삭제하면 하위 태그도 함께 삭제됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "목록에서 태그 삭제 후, 고객에게 부착된 태그도 한 번에 삭제할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b10263082b62ac846"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "태그 활용"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 태그가 부착된 고객은 상담 시 어떤 유형의 고객인지 특성을 확인할 수 있고, 마케팅에서 특정 고객 태그가 부착된 대상 고객을 쉽게 불러와 메시지를 보내실 수도 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아래 예시처럼 버티컬 별로 고객 태그를 구분하여 설정해보실 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b102676fcb0daec46"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "커머스 버티컬 고객이라면"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 구분 - VIP, VVIP, 내부 인원, 블랙 고객, …"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "재입고 알림 신청 - 상품명/옵션명, …"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "구매 채널 - 자사몰, 네이버, 지그재그, …"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "의료 버티컬 고객이라면"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "환자 유형 - 수험생, 임산부, 청소년, 갱년기, …"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "통증 - 머리, 목, 어깨(왼쪽), …"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고민 - 만성피로, 다이어트, 면역력, 알러지, …"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "여행 버티컬 고객이라면"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "여행지 - 대륙/나라/도시, …"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "플랫폼 버티컬 고객이라면"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 구분 - 공급 Side, 수요 Side, 개발자, …"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "교육, 에이전시 혹은 버티컬 공통"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "클래스/기수/이벤트/NPS - 참여자, 수강생, 당첨자, 응답 기록, …"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 설명 프로필 추가"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 태그는 최대 128자까지 입력할 수 있어요. 128자 이상의 상세한 고객 정보를 기재해야 한다면, 고객 태그 대신에 ‘고객 설명’ 이라는 고객 프로필 필드값을 추가하여 활용해 보세요. ("
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "→ 고객 프로필 추가 더 알아보기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/70732795"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "고객태그",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/67/revisions/196/usermedia/662b1026a8aa509cdea2"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "다른 직원과 함께 봐야 할 인수인계 사항은 ‘고객 설명’ 필드를 활용해보세요!"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객 태그보다 더 긴 내용을 작성하여 고객 정보 및 특성을 관리할 수 있어요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Shift + Enter 로 줄바꿈도 가능합니다"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ed59043016149c8",
+  "linked_faqs": [
+    {
+      "id": "59862",
+      "question": "삭제된 상담 태그가 다시 생성돼요.",
+      "answer_plaintext": "워크플로우에 삭제하려는 상담 태그를 추가하는 액션이 설정되어 있다면, 워크플로우에 의해 태그가 다시 생성 및 추가 됩니다. 그래서 먼저 워크플로우 액션에서 설정된 해당 태그를 삭제해야 다시 생겨나지 않아요."
+    },
+    {
+      "id": "51307",
+      "question": "고객 태그 이름 변경 시 기존 고객 태그에 일괄 적용 방법은 어떻게 되나요?",
+      "answer_plaintext": "다음 두 가지 방법으로 기존 고객에게도 일괄 적용할 수 있어요.\n1. 고객 태그 관리 페이지에서 설정\n- 목록에서 고객 태그 이름 변경 후\n- 고객에게 부착된 기존 태그 이름도 함 수정할지 물어보는 모달에서 일괄 적용을 선택\n2. 고객 연락처에서 고객 선택 후 변경\n- 고급 필터로 고객 태그(tags)가 ‘기존 태그 이름’과 ‘하나라도 해당되는’ 고객을 검색\n- 변경하고 싶은 고객을 선택\n- 테이블 위 우측 ‘태그 설정’ 아이콘 클릭\n- 기존 태그는 체크 해제, 새로운 이름의 태그를 추가 혹은 체크 후 저장"
+    },
+    {
+      "id": "51308",
+      "question": "고객 태그는 몇 개 까지 만들 수 있나요?",
+      "answer_plaintext": "고객 태그는 총 1,000개 까지 만들 수 있고, 한 고객에게 최대 20개의 상담 태그를 부착할 수 있습니다."
+    },
+    {
+      "id": "51309",
+      "question": "워크플로우 등으로 입력되는 고객 태그가 20개가 넘어가면 어떻게 동작하나요?",
+      "answer_plaintext": "20개 이후에 달리는 태그는 반영되지 않고, 먼저 달려있는 20개 태그만 적용됩니다."
+    },
+    {
+      "id": "51310",
+      "question": "상위 태그 이름 변경 시 모든 하위 태그도 같이 이름이 변경돼요",
+      "answer_plaintext": "상위 태그의 이름을 변경하면 하위 태그의 이름까지 함께 변경됩니다. 단, 목록에서 태그 이름을 변경한다고 해서 기존 고객에 달려있던 태그까지 수정되지는 않아요.\n목록에서 태그 이름 수정 후 고객에게 달린 태그도 이름을 수정할지 물어보는 모달에서 기존 고객에 달려있던 태그도 함께 이름을 수정할 수 있어요."
+    },
+    {
+      "id": "51311",
+      "question": "고객태그 상위 태그 삭제 시 모든 하위 태그도 같이 삭제돼요",
+      "answer_plaintext": "상위 태그를 삭제하면 하위 태그까지 함께 삭제됩니다. 단, 목록에서 태그를 삭제한다고 해서 기존 고객에 달려있던 태그까지 삭제되진 않아요.\n목록에서 태그 삭제 후 고객에게 달린 태그도 삭제할지 물어보는 모달에서 기존 고객에 달려있던 태그도 함께 삭제할 수 있어요."
+    },
+    {
+      "id": "51312",
+      "question": "상위 태그는 남겨두고 하위 태그만 삭제하고 싶어요",
+      "answer_plaintext": "다음 두 가지 방법으로 상위 태그는 남겨두고 하위 태그만 삭제할 수 있어요.\n1. 원하는 하위 태그만 선택하여 삭제\n- 고객 태그 관리 목록에서 태그 이름 순(오름차순/내림차순)으로 정렬해 주세요.\n- 상위 태그 이름 앞의 '>' 를 클릭 후 하위 태그 목록을 펼쳐 주세요.\n- 원하는 하위 태그를 선택해 삭제할 수 있어요.  [A] 상위 태그 목록에서 → [A/1], [A/2]만 선택 후 삭제\n- 삭제 후, 기존 하위 태그가 부착된 고객에게서 해당 태그를 삭제하거나 그대로 남겨둘 수 있어요.\n2. 상위 태그와 병합하여 삭제\n- 삭제하고자 하는 상위 태그와 하위 태그를 전체 선택해 주세요.\n- 병합하기를 눌러 상위 태그로 병합할 수 있어요.  [A], [A/1], [A/2] 선택 → [A]로 병합\n- 병합 후, 기존 하위 태그가 부착된 고객에게 병합된 상위 태그가 부착되도록 변경하거나 그대로 남겨둘 수 있어요."
+    },
+    {
+      "id": "51313",
+      "question": "고객 태그 이름을 다른 이름으로 수정할 수 있나요?",
+      "answer_plaintext": "이미 존재하는 태그 이름으로는 수정할 수 없어요, 하지만 병합 기능을 통하여 고객 태그를 다른 태그명으로 통합할 수 있습니다.\n\nex1) [A], [A/1], [A/2] 고객 태그를 이미 존재하는 [B], [B/1], [B/2]로 합쳐야하는 경우\n- 하위 태그 부터 병합하여 합칠 수 있습니다.\n[A/1] → [B/1], [A/2] → [B/2]를 먼저 합친 뒤 [A] → [B]으로 병합이 가능합니다.\n\nex2) [A], [A/1], [A/2], [B] 고객 태그가 있을 때, [A], [A/1], [A/2]를 [B] 태그 하위로 넣고 싶은 경우\n- 하위 태그가 없을 때에는 바로 이름 수정이 가능합니다.\n[A/1] → [B/1], [A/2] → [B/2]로 이름을 수정합니다.\n- 하위 태그를 옮긴 후 병합하여 합칠 수 있습니다.\n[A] → [B]로 병합이 가능합니다"
+    },
+    {
+      "id": "51314",
+      "question": "상위 태그를 하위 태그로 합칠 수 있나요?",
+      "answer_plaintext": "네, 상위 태그도 하위 태그로 합쳐질 수 있어요. 예를 들어 고객 태그 [재입고요청]을 [재입고요청/안내완료]라는 하위 고객 태그로 합칠 수 있습니다."
+    }
+  ],
+  "faq_count": 9
+}

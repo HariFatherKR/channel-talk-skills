@@ -1,0 +1,1707 @@
+{
+  "id": "56995",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%ED%99%9C%EC%9A%A9-%EC%98%88%EC%8B%9C-e0d54e92",
+  "title": "워크플로우 활용 예시",
+  "summary": "워크플로우를 활용하여 상담 여정 별로 업무를 효율화, 자동화할 수 있는 예시를 소개합니다. \n상담 시작 전 → 상담 진행 중 → 상담 종료 후의 여정을 준비된 워크플로우 레시피를 활용하여 원클릭으로 설정해 보실 수 있어요.",
+  "plaintext": "상담 시작 전\n상담 시작 전 고객이 자주 묻는 문의를 응답 버튼으로 만들어 고객이 궁금한 내용을 스스로 빠르게 해결 할 수 있어요.\n운영 시간이 아니더라도 챗봇을 통해 24시간 온라인 점원 역할을 하도록 설정하고, 단골 고객 만을 위한 챗봇을 설계하여 차등화된 고객 경험을 만들 수도 있어요.\n구매를 망설이는 고객이 있다면 먼저 말을 걸어 상담을 유도할 수도 있어요\n예시 1) 단순 반복 문의 줄이기\n객관식 응답형 챗봇\n상담 시작 전 고객이 자주 묻는 문의를 응답 버튼으로 만들어 고객이 궁금한 내용을 스스로 빠르게 해결 할 수 있어요.\n레시피로 설정하기\n챗봇 활용 콘텐츠 보러가기\nIVR(대화형 음성 응답)\n고객이 전화를 걸었을 때 음성 응답 설정을 통해 간단한 질문에 대한 답변은 상담원 연결없이 음성 메시지로 안내할 수 있어요.\n레시피로 설정하기\nIV 활용 콘텐츠 보러가기\n예시 2) 고객 경험 설계하기\n운영 시간 별 챗봇\n시작 화면에서 운영 시간을 안내하여 비운영 시간(부재중)에는 담당자와의 상담이 어려운 점을 인지하도록 안내할 수 있어요.\n트리거: 새 상담을 시작할 때 챗봇\n필터링: 스케줄링 및 운영에서 \"운영시간일 때\" 또는 \"운영시간 아닐 때\" 선택\n회원 여부에 따른 챗봇\n회원과 비회원 고객에게 보여지는 문의 유형을 다르게 구성할 수 있어요. 비회원 고객의 경우 로그인 후 상담을 진행할 수 있도록 안내해 주세요.\n트리거: 새 상담을 시작할 때 챗봇\n필터링: 필터 추가 → 고객 정보 → \"회원 여부가 맞는\" 또는 \"회원 여부가 아닌\" 선택\n고객 등급 별 챗봇\n고객 등급 별 챗봇을 만들어 단골 고객들을 위한 차등화 고객 경험을 설계할 수 있어요\n트리거: 새 상담을 시작할 때 챗봇\n필터링: 필터 추가 → 고객 정보 → \"고객 등급 VIP와 일치\" 또는 \"고객 등급 VIP와 일치하지 않음\" 선택\n예시 3) 상담 유도하기\n구매를 망설이는 고객에게 먼저 말을 걸어 상담을 유도하여 구매 전환의 기회를 만들 수 있어요\n아웃바운드성 워크플로우 설정하기\n상담 진행 중\n미리 정해놓은 규칙에 따라 단순 반복되는 업무를 자동으로 처리하고, 적절한 타이밍에 효과적으로 고객 맞춤 상담을 진행할 수 있어요.\n자동화 설정 콘텐츠 보러가기\n예시 1) 자동 안내 메시지 보내기\n첫 응대 지연 안내 (운영 시간)\n운영 시간일 때 상담을 기다리고 있는 고객에게 대기 안내 메시지를 자동으로 전송할 수 있어요.\n설정해 둔 대기시간까지 팀 멤버가 답변하지 않았을 경우, 고객에게 대기 안내 메시지가 전송됩니다.\n레시피 설정하기\n미운영 시간 안내\n운영시간이 아닐 때 고객이 메시지를 보냈다면 운영시간에 대한 안내를 해보세요.\n레시피 설정하기\n고객이 답장 없을 때 추가 질문\n팀 멤버가 답변을 보낸 후 고객이 답장이 없을 경우 추가 문의가 없는지 다시 질문해 보세요. 고객이 상담 내용을 놓치지 않도록 리마인드 알림을 드려 상담 경험을 챙길 수 있어요.\n레시피 설정하기\n상담 자동 종료\n상담이 마무리 되었다면, 상담이 자동 종료되도록 설정할 수 있어요.\n레시피 설정하기\n예시 2) 자동 백그라운드 액션 설정하기\n고객 메시지에 따라 우선순위 설정\n고객이 보낸 메시지 내용에 따라 상담의 우선순위를 설정해 보세요.\n‘오류’, ‘구독 해지’와 같이 중요도가 높은 키워드가 전송되었을 때, 상담 우선순위를 높여 더 빠르게 확인하고 처리할 수 있습니다.\n레시피 설정하기\n답변 누락 알림 전송\n상담이 누락되지 않도록 아직 답변을 보내지 못한 상담에 내부대화 알림을 설정해 보세요.\n여러 개의 상담을 동시에 진행해도 빠짐 없이 답변할 수 있어요.\n레시피 설정하기\n예시 3) 외부 메신저로 인입된 상담의 반복 문의 줄이기\n외부메신저용 챗봇\n외부메신저(카카오톡, 네이버톡톡, 인스타그램 등)로 인입된 상담에도 챗봇처럼 응답 버튼을 활용하여 상담을 효율화할 수 있어요. 상담이 인입되었을 때 문의 유형 별 응답 버튼을 제공하여 고객이 스스로 문의 내용을 해결할 수 있도록 안내 할 수 있어요.\n트리거: 새 상담을 시작할 때 챗봇\n트리거 설정: [연동앱 필터링] - [외부메신저] ON\n레시피 설정하기\n외부메신저 활용 콘텐츠 보러가기\n외부메신저용 AI 응대\n카카오 상담톡, 네이버 톡톡과 같은 외부 메신저로 들어온 상담에도 채널톡 고객 ALF가 응대할 수 있어요.등록된 FAQ와 도큐먼트를 기반으로 고객 ALF가 상담원 대신 답변할 수 있도록 설정해보세요.\n트리거: 새 상담을 시작할 때 챗봇\n트리거 설정: [연동앱 필터링] - [외부메신저] ON\n레시피 설정하기\nFAQ 설정방법 보러가기\n도큐먼트 설정방법 보러가기\n상담 종료 후\n예시 1) 만족도 조사하기\n상담 만족도 조사\n상담이 종료될 때 만족도 조사를 진행하여 고객의 불편함을 빠르게 인지하여 상담 품질을 개선할 수 있어요.\n레시피로 설정하기\n상담 만족도 조사 콘텐츠 보러가기\n예시 2) 통화 종료 후 문자 보내기\n통화 종료 후 문자\n부재중 전화일 때, 운영시간이 아닐 때, 전화 통화 후 종료되었을 때, 각각 상황에 맞게 고객에게 자동으로 메시지를 보낼 수 있어요.\n레시피로 설정하기",
+  "body": [
+    {
+      "attrs": {
+        "alt": "워크플로우활용예시-1.jpg",
+        "height": "630px",
+        "mime": "image/jpeg",
+        "src": "https://cf.channel.io/document/spaces/6/articles/56995/revisions/111961/usermedia/6752a42a823ce32487be",
+        "width": "1200px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 시작 전 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 시작 전 고객이 자주 묻는 문의를 응답 버튼으로 만들어 고객이 궁금한 내용을 스스로 빠르게 해결 할 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "운영 시간이 아니더라도 챗봇을 통해 24시간 온라인 점원 역할을 하도록 설정하고, 단골 고객 만을 위한 챗봇을 설계하여 차등화된 고객 경험을 만들 수도 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "구매를 망설이는 고객이 있다면 먼저 말을 걸어 상담을 유도할 수도 있어요 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 1) 단순 반복 문의 줄이기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "객관식 응답형 챗봇"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 시작 전 고객이 자주 묻는 문의를 응답 버튼으로 만들어 고객이 궁금한 내용을 스스로 빠르게 해결 할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피로 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=57"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "챗봇 활용 콘텐츠 보러가기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/ko/blog/articles/3a9b267c"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "662b0f951a059dcf9b3c",
+        "height": "780px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53931/revisions/104822/usermedia/6745f2984c9d2bba430a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "IVR(대화형 음성 응답) "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 전화를 걸었을 때 음성 응답 설정을 통해 간단한 질문에 대한 답변은 상담원 연결없이 음성 메시지로 안내할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피로 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=42"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "IV 활용 콘텐츠 보러가기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/ko/blog/articles/5f674582"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우 활용 예시_IVR(대화형 음성 응답).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149575/revisions/261894/usermedia/681084f911af7c6f3e6e",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 2) 고객 경험 설계하기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "운영 시간 별 챗봇 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "시작 화면에서 운영 시간을 안내하여 비운영 시간(부재중)에는 담당자와의 상담이 어려운 점을 인지하도록 안내할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트리거: 새 상담을 시작할 때 챗봇"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터링: 스케줄링 및 운영에서 \"운영시간일 때\" 또는 \"운영시간 아닐 때\" 선택 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우 활용 예시_운영 시간 별 챗봇 (3).png",
+        "height": "1320px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53931/revisions/104822/usermedia/6751b2943ef78ddb90e5",
+        "width": "2340px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "회원 여부에 따른 챗봇"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "회원과 비회원 고객에게 보여지는 문의 유형을 다르게 구성할 수 있어요. 비회원 고객의 경우 로그인 후 상담을 진행할 수 있도록 안내해 주세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트리거: 새 상담을 시작할 때 챗봇"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터링: 필터 추가 → 고객 정보 → \"회원 여부가 맞는\" 또는 \"회원 여부가 아닌\" 선택"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우 활용 예시_회원 여부 별 챗봇 (1).png",
+        "height": "1320px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53931/revisions/104822/usermedia/6751b3433e1f1e0ab73e",
+        "width": "2340px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 등급 별 챗봇"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 등급 별 챗봇을 만들어 단골 고객들을 위한 차등화 고객 경험을 설계할 수 있어요 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트리거: 새 상담을 시작할 때 챗봇"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터링: 필터 추가 → 고객 정보 → \"고객 등급 VIP와 일치\" 또는 \"고객 등급 VIP와 일치하지 않음\" 선택"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우 활용 예시_회원 등급 별 챗봇 (1).png",
+        "height": "1320px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53931/revisions/104822/usermedia/6751b3f556bbb0b9319d",
+        "width": "2340px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 3) 상담 유도하기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "구매를 망설이는 고객에게 먼저 말을 걸어 상담을 유도하여 구매 전환의 기회를 만들 수 있어요 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "아웃바운드성 워크플로우 설정하기 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/e2dbb0ec-%EC%95%84%EC%9B%83%EB%B0%94%EC%9A%B4%EB%93%9C%EC%84%B1-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우 활용 예시_상담 유도하기 (1).png",
+        "height": "1452px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53931/revisions/104822/usermedia/6751b78ab0bcd97f81fe",
+        "width": "2340px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우 활용 예시_상담 유도하기2.png",
+        "height": "968px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53931/revisions/104822/usermedia/6751b78fabbfc86b3e2a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 진행 중 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미리 정해놓은 규칙에 따라 단순 반복되는 업무를 자동으로 처리하고, 적절한 타이밍에 효과적으로 고객 맞춤 상담을 진행할 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "자동화 설정 콘텐츠 보러가기 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/ko/blog/articles/5bc06bcb"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 1) 자동 안내 메시지 보내기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "첫 응대 지연 안내 (운영 시간)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "운영 시간일 때 상담을 기다리고 있는 고객에게 대기 안내 메시지를 자동으로 전송할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정해 둔 대기시간까지 팀 멤버가 답변하지 않았을 경우, 고객에게 대기 안내 메시지가 전송됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=8"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "첫 응대 지연 안내(운영시간).png",
+        "height": "908px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149575/revisions/261894/usermedia/681085117f79596d0f22",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "미운영 시간 안내 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "운영시간이 아닐 때 고객이 메시지를 보냈다면 운영시간에 대한 안내를 해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피 설정하기 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=6"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "미운영 시간 안내.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149575/revisions/261894/usermedia/68108518c0cc06c5537a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 답장 없을 때 추가 질문"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버가 답변을 보낸 후 고객이 답장이 없을 경우 추가 문의가 없는지 다시 질문해 보세요. 고객이 상담 내용을 놓치지 않도록 리마인드 알림을 드려 상담 경험을 챙길 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피 설정하기 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=38"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "답변이 없을 때 추가 질문.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149575/revisions/261894/usermedia/68108522b8d76f10fbf4",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 자동 종료"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담이 마무리 되었다면, 상담이 자동 종료되도록 설정할 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피 설정하기 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=41"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "상담 자동 종료.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149575/revisions/261894/usermedia/6810852a3dd748afb2cf",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 2) 자동 백그라운드 액션 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 메시지에 따라 우선순위 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 보낸 메시지 내용에 따라 상담의 우선순위를 설정해 보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "‘오류’, ‘구독 해지’와 같이 중요도가 높은 키워드가 전송되었을 때, 상담 우선순위를 높여 더 빠르게 확인하고 처리할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=13"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "고객 메시지에 따라 우선순위 설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149575/revisions/261894/usermedia/68108531429195e9a646",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "답변 누락 알림 전송 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담이 누락되지 않도록 아직 답변을 보내지 못한 상담에 내부대화 알림을 설정해 보세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "여러 개의 상담을 동시에 진행해도 빠짐 없이 답변할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피 설정하기 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=40"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "답변 알림 누락 전송.png",
+        "height": "786px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149575/revisions/261894/usermedia/6810854517039b9e6846",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 3) 외부 메신저로 인입된 상담의 반복 문의 줄이기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "외부메신저용 챗봇"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "외부메신저(카카오톡, 네이버톡톡, 인스타그램 등)로 인입된 상담에도 챗봇처럼 응답 버튼을 활용하여 상담을 효율화할 수 있어요. 상담이 인입되었을 때 문의 유형 별 응답 버튼을 제공하여 고객이 스스로 문의 내용을 해결할 수 있도록 안내 할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트리거: 새 상담을 시작할 때 챗봇"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "트리거 설정: [연동앱 필터링] - [외부메신저] ON "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=62"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "외부메신저 활용 콘텐츠 보러가기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/ko/blog/articles/7e3faa66"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "외부메신저.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149575/revisions/292579/usermedia/681c8976503a3c7a95e2",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "외부메신저용 AI 응대"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카카오 상담톡, 네이버 톡톡과 같은 외부 메신저로 들어온 상담에도 채널톡 고객 ALF가 응대할 수 있어요.등록된 FAQ와 도큐먼트를 기반으로 고객 ALF가 상담원 대신 답변할 수 있도록 설정해보세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트리거: 새 상담을 시작할 때 챗봇"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "트리거 설정: [연동앱 필터링] - [외부메신저] ON "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=51"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "FAQ 설정방법 보러가기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/ko/blog/articles/7e2a6695"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "도큐먼트 설정방법 보러가기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/ko/blog/articles/beff5074"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "외부메신저2.png",
+        "height": "816px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149575/revisions/292579/usermedia/681c898ad0161e6c23cb",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 종료 후"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 1) 만족도 조사하기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 만족도 조사 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담이 종료될 때 만족도 조사를 진행하여 고객의 불편함을 빠르게 인지하여 상담 품질을 개선할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피로 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=5"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 만족도 조사 콘텐츠 보러가기 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/ko/blog/articles/8f002186"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "672cb72c5f6f9bc23654",
+        "height": "2268px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53931/revisions/104822/usermedia/6745f7e4df2617cd36df",
+        "width": "3813px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예시 2) 통화 종료 후 문자 보내기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "통화 종료 후 문자 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "부재중 전화일 때, 운영시간이 아닐 때, 전화 통화 후 종료되었을 때, 각각 상황에 맞게 고객에게 자동으로 메시지를 보낼 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레시피로 설정하기 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://desk.channel.io/#/channels?next=workflow-recipe&caseId=2"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "통화 종료 후 문자.png",
+        "height": "828px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149575/revisions/261894/usermedia/6810855242953f6659fb",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/6752a4209e12a9b7092b",
+  "linked_faqs": [],
+  "faq_count": 0
+}

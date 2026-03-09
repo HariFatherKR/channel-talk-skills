@@ -1,0 +1,129 @@
+{
+  "id": "19",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9D%B8%EC%82%AC%EB%A7%90-%EC%84%A4%EC%A0%95-d59dc516",
+  "title": "인사말 설정",
+  "summary": "고객이 대화를 하고싶어해요. 이 때 친절하게 먼저 인사를 건네주면 좋겠죠. 브랜드 이미지에 맞는 인사말을 설정하여 고객을 반갑게 맞이해주세요!",
+  "plaintext": "인사말 설정하기\n인사말 설정을 통해 고객이 새 문의하기 버튼 클릭 시 표시되는 문구를 설정할 수 있습니다. [채널 설정] - [상담] - [인사말]에서 대화를 시작할 때 고객에게 건네는 인사말을 설정할 수 있습니다.\n글로벌 서비스를 운영중이라면, 국가별 언어로 인사말을 설정해보세요. 영어, 일본어 뿐 아니라 더 많은 국가의 언어를 설정할 수 있어요.\n(→ 한국어 외에 다른 언어로 설정하기)\n또 개인화 변수를 이용하여 고객의 이름을 불러줄 수 있어요.\n(→ 개인화 변수 가이드 확인하기)\n고객이 접속한 브라우저의 언어 설정에 따라, 자동으로 고객에게 보여지는 언어가 변경됩니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "인사말 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "인사말 설정을 통해 고객이 새 문의하기 버튼 클릭 시 표시되는 문구를 설정할 수 있습니다. [채널 설정] - [상담] - [인사말]에서 대화를 시작할 때 고객에게 건네는 인사말을 설정할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "글로벌 서비스를 운영중이라면, 국가별 언어로 인사말을 설정해보세요. 영어, 일본어 뿐 아니라 더 많은 국가의 언어를 설정할 수 있어요. "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 한국어 외에 다른 언어로 설정하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/f6b84106"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "또 개인화 변수를 이용하여 고객의 이름을 불러줄 수 있어요. "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 개인화 변수 가이드 확인하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/f62c11ab"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "고객이 접속한 브라우저의 언어 설정에 따라, 자동으로 고객에게 보여지는 언어가 변경됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "인사말 설정하기",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/19/revisions/52/usermedia/662b110b4a9eed5ab41c"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "36",
+    "name": "Channel",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ea8ab19df635ae0",
+  "linked_faqs": [],
+  "faq_count": 0
+}

@@ -1,0 +1,438 @@
+{
+  "id": "66",
+  "url": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%EB%A7%81%ED%81%AC-84093dde",
+  "title": "고객 링크",
+  "summary": "상담 중 더 많은 회원 정보를 확인하기 위해 고객 링크를 설정해보세요. 외부 고객DB에서 빠르게 고객 정보를 확인 할 수 있어요.",
+  "plaintext": "연동 방법\n빌더사로 만든 웹사이트의 경우 설계된 구조에 따라 연동이 불가능할 수 있습니다.\n설정 경로: [채널 설정] - [연동] - [기타]에서 고객링크 [설치]를 클릭해주세요.\n필드가 포함된 URL 링크를 입력해주세요. (필드가 포함된 URL에 대한 설명은 아래를 참고해주세요.)\n필드가 포함된 URL이란?\n해당 고객의 정보가 담긴 페이지를 의미합니다.\n사용하시는 관리자 페이지의 고객정보 페이지 등 고객 정보를 관리하는 페이지의 URL을 입력해주세요.\n필드가 포함된 URL 확인 방법\n해당 빌더사, 자체제작 홈페이지의 고객 식별 정보가 채널톡과 연동된 정보여야 각 고객 정보 페이지로 이동이 가능합니다.\n연동 불가한 고객 정보 페이지라면?\n각 빌더사의 관리자 페이지 혹은 고객 정보를 검색할 수 있는 페이지 URL 입력 후, 해당 페이지에서 고객 정보를 검색하여 사용하실 수 있습니다.\n외부 고객 링크 연동 예시\n자체 제작 사이트\nhttps://홈페이지주소/admin/${number}\n채널톡과 자체제작 사이트 연동된 고객 정보 중 number 값이 포함되었기에 고객 정보 페이지 연동이 가능합니다.\n빌더사\n카페 24: https://홈페이지주소/admin/php/shop1/c/member_admin_d_f.php?user_id=${id}\n채널톡과 연동된 고객 정보 중 memberid 값이 포함되어 있기에 고객 정보 페이지와 연동이 가능합니다.\n아임웹: https://홈페이지주소/admin/${signupdate}\n채널톡과 연동된 고객 정보 중 signupdate(가입날짜) 값이 포함되지 않았기에 고객 정보 페이지와 연동이 불가능합니다.\n연동 확인 방법\n수신함 우측 고객정보에 표시되는 아이콘을 클릭하면, 연동한 외부 고객 링크로 이동하게 됩니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "빌더사로 만든 웹사이트의 경우 설계된 구조에 따라 연동이 불가능할 수 있습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [연동] - [기타]에서 고객링크 [설치]를 클릭해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "link",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/66/revisions/193/usermedia/662b0f8c936de11ee31f"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필드가 포함된 URL 링크를 입력해주세요. (필드가 포함된 URL에 대한 설명은 아래를 참고해주세요.)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/66/revisions/193/usermedia/662b0f8cb3007f6b23be"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "필드가 포함된 URL이란?"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "해당 고객의 정보가 담긴 페이지를 의미합니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "사용하시는 관리자 페이지의 고객정보 페이지 등 고객 정보를 관리하는 페이지의 URL을 입력해주세요."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "필드가 포함된 URL 확인 방법"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "해당 빌더사, 자체제작 홈페이지의 고객 식별 정보가 채널톡과 연동된 정보여야 각 고객 정보 페이지로 이동이 가능합니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "연동 불가한 고객 정보 페이지라면?"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "각 빌더사의 관리자 페이지 혹은 고객 정보를 검색할 수 있는 페이지 URL 입력 후, 해당 페이지에서 고객 정보를 검색하여 사용하실 수 있습니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "외부 고객 링크 연동 예시"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "자체 제작 사이트"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "https://홈페이지주소/admin/${number}"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡과 자체제작 사이트 연동된 고객 정보 중 number 값이 포함되었기에 고객 정보 페이지 연동이 가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "빌더사"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카페 24: https://홈페이지주소/admin/php/shop1/c/member_admin_d_f.php?user_id=${id} \n채널톡과 연동된 고객 정보 중 memberid 값이 포함되어 있기에 고객 정보 페이지와 연동이 가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "아임웹: https://홈페이지주소/admin/${signupdate} \n채널톡과 연동된 고객 정보 중 signupdate(가입날짜) 값이 포함되지 않았기에 고객 정보 페이지와 연동이 불가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 확인 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수신함 우측 고객정보에 표시되는 아이콘을 클릭하면, 연동한 외부 고객 링크로 이동하게 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/66/revisions/193/usermedia/662b0f8d0022f7c8f268"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ed4af5abb1edbb5",
+  "linked_faqs": [
+    {
+      "id": "70274",
+      "question": "외부 고객 링크에 있는 정보를 채널톡에 다 연동할 수 없나요?",
+      "answer_plaintext": "카페24, 고도몰과 같은 빌더사의 경우 채널톡에 연동되는 정보가 제한되어 있습니다. \n자체제작 사이트의 경우 스크립트 수정을 통해 고객 정보를 연동할 수 있습니다. 자체제작 사이트 고객 정보 연동 스크립트는 개발자 문서에서 확인 가능합니다."
+    },
+    {
+      "id": "70275",
+      "question": "해당 빌더사의 고객 식별 정보를 어떻게 알 수 있나요?",
+      "answer_plaintext": "각 고객 마이페이지 주소 비교 시, 변동하는 문구가 무엇인지 확인 가능합니다. \n정확한 고객 변수가 어떤 정보인지는 각 빌더사에 문의하시는 것이 정확합니다."
+    },
+    {
+      "id": "70278",
+      "question": "외부 고객 링크 연동 시, 꼭 마이페이지 URL만 입력 가능한가요?",
+      "answer_plaintext": "아닙니다. 마이페이지가 아닌 연동하고 싶은 URL 주소를 넣으셔도 상관없습니다."
+    }
+  ],
+  "faq_count": 3
+}

@@ -1,0 +1,296 @@
+{
+  "id": "113",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-%EB%A9%94%EC%8B%A0%EC%A0%80%EB%9E%80-10924b2b",
+  "title": "팀 메신저란?",
+  "summary": "채널톡에서는 팀과의 대화, 고객과의 대화를 한번에 할 수 있습니다. 채널톡 팀메신저의 특징을 확인해 보세요.",
+  "plaintext": "채널톡 팀 메신저를 써야 하는 이유\n고객 상담과 팀 메신저의 일원화\n고객의 소리도, 동료의 소리도 놓치지 않고 한 곳에서 빠르게 확인할 수 있어요. 채널톡 하나만으로 고객 상담과 팀과의 상담을 자유롭게 넘나 들어보세요. 관리는 수월해지고 업무 효율은 높아져요.\n간편한 멤버 초대 및 유연한 팀원 관리\n함께 업무를 하는 팀원을 초대해, 자유롭게 대화를 나눌 수 있어요!\n또한, 새로운 팀원이 입사할 때마다 일일이 대화방에 초대하거나, 퇴사한 팀원이 스스로 나가지 않으면 매번 새로운 대화방을 만들어야했지만! 채널톡은 복잡한 절차 없이 팀원, 관리자 모두 대화방에 자유롭게 들어가거나 내보낼 수 있으며, 퇴사한 팀원이라면 자동으로 대화방에서 삭제됩니다.\n제한없이 저장되는 메시지 및 파일\n팀 메신저에서 나누는 모든 메시지와 파일은 최대 저장 용량 및 기간에 관계없이 모두 무료로 무제한 저장되며, 언제든지 찾아볼 수 있어요. 업무상 중요한 히스토리를 언제든 누구나 필터를 통해 검색하고 확인해 보세요.\n사이드 뷰를 통한 업무의 확장성\n업무 히스토리를 한 눈에 확인하고, 중요한 유저챗을 팀원들과 공유하며 논의하고 싶으신가요? 스레드, 유저챗의 내용을 링크로 팀원들과 공유하고 사이드 뷰를 통해 화면 이동 없이 한 번에 확인해보세요.\n스레드 기능과 리액션\n나와 관련된 중요한 업무 내용만 한 눈에 모아보고 알림을 받고 싶다면 스레드 기능을 이용해보세요. 멘션을 통해 팀원을 스레드에 참여시킬 수도 있고, 내가 관심 있는 업무 내용이라면 직접 스레드에 참여할 수도 있어요. 참여했다면? 활발히 이야기 하고, 간단한 리액션도 남겨보세요.\n대화방 그룹 관리\n채널에 참여한 모든 팀원이 자동으로 참여하는 단체방과 프로젝트별, 팀별, 주제 별로 원하는 공개 그룹을 생성하여 업무를 효율적으로 관리할 수 있어요. 인사 기록과 같이 모든 팀원에게 공개하기 어려운 주제라면 비공개 그룹을 생성하여 꼭 필요한 인원만 참여할 수도 있어요.",
+  "body": [
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "mime": "video/*",
+        "src": "https://www.youtube-nocookie.com/embed/o2Ch1dYkaG8?amp%3Bstart=450"
+      },
+      "type": "video"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 팀 메신저를 써야 하는 이유"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 상담과 팀 메신저의 일원화"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객의 소리도, 동료의 소리도 놓치지 않고 한 곳에서 빠르게 확인할 수 있어요. 채널톡 하나만으로 고객 상담과 팀과의 상담을 자유롭게 넘나 들어보세요. 관리는 수월해지고 업무 효율은 높아져요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "팀메신저1",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/113/revisions/334/usermedia/662b103de6dc24ab5803"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "간편한 멤버 초대 및 유연한 팀원 관리"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "함께 업무를 하는 팀원을 초대해, 자유롭게 대화를 나눌 수 있어요!"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "또한, 새로운 팀원이 입사할 때마다 일일이 대화방에 초대하거나, 퇴사한 팀원이 스스로 나가지 않으면 매번 새로운 대화방을 만들어야했지만! 채널톡은 복잡한 절차 없이 팀원, 관리자 모두 대화방에 자유롭게 들어가거나 내보낼 수 있으며, 퇴사한 팀원이라면 자동으로 대화방에서 삭제됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "팀메신저2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/113/revisions/334/usermedia/662b103e1cad1c51a354"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "제한없이 저장되는 메시지 및 파일"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 메신저에서 나누는 모든 메시지와 파일은 최대 저장 용량 및 기간에 관계없이 모두 무료로 무제한 저장되며, 언제든지 찾아볼 수 있어요. 업무상 중요한 히스토리를 언제든 누구나 필터를 통해 검색하고 확인해 보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "팀메신저3",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/113/revisions/334/usermedia/662b103e45b43932fb10"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "사이드 뷰를 통한 업무의 확장성"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "업무 히스토리를 한 눈에 확인하고, 중요한 유저챗을 팀원들과 공유하며 논의하고 싶으신가요? 스레드, 유저챗의 내용을 링크로 팀원들과 공유하고 사이드 뷰를 통해 화면 이동 없이 한 번에 확인해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/113/revisions/334/usermedia/662b103e7a0095e13c9b"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "스레드 기능과 리액션"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "나와 관련된 중요한 업무 내용만 한 눈에 모아보고 알림을 받고 싶다면 스레드 기능을 이용해보세요. 멘션을 통해 팀원을 스레드에 참여시킬 수도 있고, 내가 관심 있는 업무 내용이라면 직접 스레드에 참여할 수도 있어요. 참여했다면? 활발히 이야기 하고, 간단한 리액션도 남겨보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/113/revisions/334/usermedia/662b103eb5e35baa1fe6"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "대화방 그룹 관리"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널에 참여한 모든 팀원이 자동으로 참여하는 단체방과 프로젝트별, 팀별, 주제 별로 원하는 공개 그룹을 생성하여 업무를 효율적으로 관리할 수 있어요. 인사 기록과 같이 모든 팀원에게 공개하기 어려운 주제라면 비공개 그룹을 생성하여 꼭 필요한 인원만 참여할 수도 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "30",
+    "name": "Dugi",
+    "bio": "[Web, Backend]"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ef86a806e5768be",
+  "linked_faqs": [],
+  "faq_count": 0
+}

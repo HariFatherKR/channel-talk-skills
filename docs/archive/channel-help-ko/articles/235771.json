@@ -1,0 +1,489 @@
+{
+  "id": "235771",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-ALF-%EC%8B%A4%ED%97%98%EC%8B%A4-01c8d834",
+  "title": "팀 ALF 실험실",
+  "summary": "팀 ALF 정식 출시 전, 다양한 기능을 빠르게 배포해 보며 테스트 해보고 있어요.",
+  "plaintext": "꼭 알아두세요\n실험실에 기재된 기능들은 정해진 주기 없이 비정기적으로 추가, 변경 또는 삭제될 수 있습니다. 실험에 성공하면 팀 ALF의 정식 기능으로 출시될 예정이에요.\n사용 중인 OS에 따라 실험중인 기능이 다를 수 있습니다.\n지금 실험 중인 기능들\n빠른 질문 버튼\n팀챗이나 수신함에서 버튼 클릭 한 번으로 간편하게 팀 ALF에게 질문할 수 있어요.\n사용 방법\n팀챗 : 메시지에 마우스를 올렸을 때 가장 우측 아이콘 클릭\n수신함 : 메시지에 마우스를 올렸을 때 가장 첫 번째 아이콘 클릭\n이렇게 작동해요\n메시지 위의 아이콘을 클릭하면, 그 메시지가 화면 오른쪽 팀 ALF 사이드 뷰의 입력창에 자동으로 복사됩니다. 여러 개의 메시지에서 클릭하면 입력창 아래쪽에 차례대로 붙여넣어져요.\n입력창에서 원하는대로 메시지를 수정한 다음, 팀 ALF에게 물어보세요!\n입력창에 붙여넣기\n팀 ALF의 답변을 버튼 클릭 한 번으로 간편하게 입력창에 붙여넣을 수 있어요.\n사용 방법\n팀 ALF 답변 하단의 ↵ 아이콘을 클릭하세요.\n이렇게 작동해요\n수신함 뿐만아니라 팀챗에서도 사용할 수 있어요.\n현재 활성화 된 입력창에 자동으로 붙여넣기 됩니다.\n고객응대 창이 활성화되어 있으면 → 고객 응대 창에,\n내부대화 창이 활성화되어 있으면 → 내부대화 창에 붙여넣기 됩니다.\n팀 ALF에 대한 피드백은 언제든 환영입니다.\n건의하실 내용이 있다면 아래 링크로 남겨주세요!\n피드백 남기기",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "꼭 알아두세요"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "실험실에 기재된 기능들은 정해진 주기 없이 비정기적으로 추가, 변경 또는 삭제될 수 있습니다. 실험에 성공하면 팀 ALF의 정식 기능으로 출시될 예정이에요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "사용 중인 OS에 따라 실험중인 기능이 다를 수 있습니다. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "지금 실험 중인 기능들"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "빠른 질문 버튼"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-blue-normal"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀챗이나 수신함에서 버튼 클릭 한 번으로 간편하게 팀 ALF에게 질문할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "사용 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀챗 : 메시지에 마우스를 올렸을 때 가장 우측 아이콘 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신함 : 메시지에 마우스를 올렸을 때 가장 첫 번째 아이콘 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "gksrnr.gif",
+        "height": "292px",
+        "mime": "image/gif",
+        "src": "https://cf.channel.io/document/spaces/6/articles/235771/revisions/390753/usermedia/6862684bc4c9210057c4",
+        "width": "800px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이렇게 작동해요"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "메시지 위의 아이콘을 클릭하면, 그 메시지가 화면 오른쪽 팀 ALF 사이드 뷰의 입력창에 자동으로 복사됩니다. 여러 개의 메시지에서 클릭하면 입력창 아래쪽에 차례대로 붙여넣어져요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "입력창에서 원하는대로 메시지를 수정한 다음, 팀 ALF에게 물어보세요!"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "입력창에 붙여넣기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-blue-normal"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 ALF의 답변을 버튼 클릭 한 번으로 간편하게 입력창에 붙여넣을 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "사용 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 ALF 답변 하단의 ↵ 아이콘을 클릭하세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "한국어슉.gif",
+        "height": "602px",
+        "mime": "image/gif",
+        "src": "https://cf.channel.io/document/spaces/6/articles/235771/revisions/395437/usermedia/6864be616c9556ca5ee2",
+        "width": "800px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이렇게 작동해요"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신함 뿐만아니라 팀챗에서도 사용할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "현재 활성화 된 입력창에 자동으로 붙여넣기 됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객응대 창이 활성화되어 있으면 → 고객 응대 창에,"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "내부대화 창이 활성화되어 있으면 → 내부대화 창에 붙여넣기 됩니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 ALF에 대한 피드백은 언제든 환영입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "건의하실 내용이 있다면 아래 링크로 남겨주세요!"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "point_right"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "피드백 남기기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://root.channel.io/workflows/753083"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "101",
+    "name": "Marie🍀",
+    "bio": "Product Marketer"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/686b77a6c8024ac9a7e5",
+  "linked_faqs": [],
+  "faq_count": 0
+}

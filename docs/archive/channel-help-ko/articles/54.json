@@ -1,0 +1,1084 @@
+{
+  "id": "54",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9D%B4%EB%B2%A4%ED%8A%B8-f6522c2f",
+  "title": "이벤트",
+  "summary": "이벤트(Event)는 웹 또는 앱 상에서 어떤 상호작용이 발생한 것을 의미합니다. 고객의 행동 변화를 추적할 수 있기 때문에 매우 중요합니다.",
+  "plaintext": "이벤트란?\n이벤트(event)는 웹 또는 앱 상에서 어떤 상호작용이 발생한 것을 의미합니다.\n예를 들어 볼게요. 유저가 사이트를 방문하여, 몇 개의 상세 상품 페이지를 둘러봅니다. 스크롤하며 상세 내용을 살펴보지만 선뜻 장바구니에 상품을 담거나 구매 버튼을 누르지 못해요.\n이럴 때 오프라인 매장이라면 어떻게 할까요? 특정 코너에서 망설이는 고객이 있다면 직원이 다가가 찾으시는 제품이 있는지 물어보고, 비슷한 제품을 추천해 드리면서 구매를 유도하겠죠.\n온라인에서도 마찬가지입니다.\n고객의 상황에 맞게 대응하려면 고객의 행동을 파악할 수 있어야 합니다. 중요한 고객 행동의 퍼널에 맞게 이벤트를 만들어 채널톡으로 보내주면, 채널톡은 이 정보를 받아 고객에게 적절한 시점에 말을 걸고 다음 행동을 유도할 수 있습니다. 마치 온라인 매장의 직원과 같아요.\n고객의 행동을 이해하는 것은 비즈니스 성공의 중요한 열쇠입니다. 채널톡에서 이벤트를 활용하여 서비스를 최적화하고 고객 경험을 극대화 해보세요.\n이벤트 값\n기본제공 이벤트\n채널톡을 사이트나 앱에 설치하면 자동으로 추적하는 값입니다.\n페이지 조회 (PageView)\n: 고객이 특정 페이지에 도착했을 때 발생\n새 상담 열기 (UserChatOpen)\n: 고객이 채팅상담을 시작했을 때 발생\n마케팅 메시지 조회 (MarketingView)\n: 고객이 마케팅 메시지를 조회했을 때 발생\n메시지\n: 버블일 경우에는 메시지를 눌러보면 조회로 잡힙니다. 전체화면일 경우 뜨기만 하면 조회로 잡힙니다.\n문자\n: 문자 내에 있는 링크를 클릭하면 조회로 잡힙니다. (문자 수신만으로는 조회가 잡히지 않습니다)\n메일\n: 열어 보면 조회로 잡힙니다. (단 구글 메일일 경우 조회로 안 잡힐 수 있습니다)\n마케팅 메시지 내 링크 클릭 (MarketingClick)\n: 고객이 마케팅 메시지 안에 포함된 url 링크를 눌렀을 때 발생\n메시지 내에 링크나 사진, 유튜브 등 미디어를 넣었고, 그것을 클릭했을 때 집계합니다. 다만 이메일의 경우 지원되지 않습니다.\n마케팅 목표 달성 (MarketingGoal)\n: 마케팅 메시지에서 목표로 설정한 이벤트 값이 발생했을 때 발생\n마케팅 전송 (MarketingSend)\n: 고객에게 마케팅 메시지를 발송할 때 발생\n마케팅 ID 조건과 함께 설정하면, A 마케팅이 전송된 경우 B 마케팅 메시지를 자동 전송하도록 설정 가능\n이벤트가 강력해지는 이유 중 하나는 프로퍼티(Property) 덕분이에요. 프로퍼티(Property)는 이벤트를 설명해주는 하위 정보들입니다. 프로퍼티 데이터를 바탕으로 이벤트를 좀 더 자세하게 파악할 수 있고 더 적합한 의사결정을 내리는 데 도움을 얻을 수 있습니다.\nPage 세팅\n이벤트에서 가져오는 Page 정보는 별도 설정이 없다면 브라우저의 URL과 동일합니다.\nPage를 별도로 설정하려면\n개발 리소스가 필요해요.\nPage에 대한 개발자 문서\nPage를 세팅하는 방법 :\n웹 / iOS SDK / Android SDK\n표준 URL에 대한 개발자 문서\ncanonical URL\n확인을 원하는 URL을 복사해 주세요.\nhttps://channel.io/check-canonical-url 에 해당 URL을 넣고, Check를 눌러주세요.\ncanonical URL is 뒤에 뜬 URL이 해당 주소의 canonical URL 입니다.\n연동 방법\n웹빌더사\n앱스토어에서 채널톡 설치가 가능한 빌더사의 경우, 자동으로 빌더사 홈페이지에서 정해진 이벤트 값을 채널톡으로 보내줍니다.\n빌더사마다 보내주는 이벤트 값이 다르니,\n개별 설치 가이드를 참고해 주세요.\n자체 제작 사이트\n자바 스크립트 SDK를 이용하여 이벤트를 만든 후 채널톡이 이벤트를 인식하도록 만들어 주세요.\n이벤트와 프로퍼티 참고하기\n(→ 개발자 문서)\nTrack 함수 사용하기\n(→ 개발자 문서)\nOpenAPI활용해서 이벤트 보내주기\n(→ 개발자 문서)\nsetPage 활용해서 SPA 에서도 페이지정보 얻기\n(→ 개발자 문서)\nGTM\n구글에서 제공하는 Google Tag Manager를 활용하면, 채널톡에서 자주 사용할 수 있는 이벤트를 만들 수 있습니다.\n(→ GTM으로 이벤트 설정하기)\n확인 방법\n고객 상세 프로필 또는 수신함 우측 하단의 '이벤트'에서 고객의 이벤트를 모아볼 수 있어요.\n고객이 어떤 페이지에서 채팅상담으로 들어왔는지 알 수 있어요.\n고객의 행동에 맞게 마케팅 캠페인 메시지를 보낼 수 있어요.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이벤트란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이벤트(event)는 웹 또는 앱 상에서 어떤 상호작용이 발생한 것을 의미합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예를 들어 볼게요. 유저가 사이트를 방문하여, 몇 개의 상세 상품 페이지를 둘러봅니다. 스크롤하며 상세 내용을 살펴보지만 선뜻 장바구니에 상품을 담거나 구매 버튼을 누르지 못해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이럴 때 오프라인 매장이라면 어떻게 할까요? 특정 코너에서 망설이는 고객이 있다면 직원이 다가가 찾으시는 제품이 있는지 물어보고, 비슷한 제품을 추천해 드리면서 구매를 유도하겠죠."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "온라인에서도 마찬가지입니다."
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "고객의 상황에 맞게 대응하려면 고객의 행동을 파악할 수 있어야 합니다. 중요한 고객 행동의 퍼널에 맞게 이벤트를 만들어 채널톡으로 보내주면, 채널톡은 이 정보를 받아 고객에게 적절한 시점에 말을 걸고 다음 행동을 유도할 수 있습니다. 마치 온라인 매장의 직원과 같아요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객의 행동을 이해하는 것은 비즈니스 성공의 중요한 열쇠입니다. 채널톡에서 이벤트를 활용하여 서비스를 최적화하고 고객 경험을 극대화 해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이벤트 값"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기본제공 이벤트"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡을 사이트나 앱에 설치하면 자동으로 추적하는 값입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "페이지 조회 (PageView)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 고객이 특정 페이지에 도착했을 때 발생"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "새 상담 열기 (UserChatOpen)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 고객이 채팅상담을 시작했을 때 발생"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마케팅 메시지 조회 (MarketingView)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 고객이 마케팅 메시지를 조회했을 때 발생"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "메시지"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 버블일 경우에는 메시지를 눌러보면 조회로 잡힙니다. 전체화면일 경우 뜨기만 하면 조회로 잡힙니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "문자"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 문자 내에 있는 링크를 클릭하면 조회로 잡힙니다. (문자 수신만으로는 조회가 잡히지 않습니다)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "메일"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 열어 보면 조회로 잡힙니다. (단 구글 메일일 경우 조회로 안 잡힐 수 있습니다)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마케팅 메시지 내 링크 클릭 (MarketingClick)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 고객이 마케팅 메시지 안에 포함된 url 링크를 눌렀을 때 발생"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "메시지 내에 링크나 사진, 유튜브 등 미디어를 넣었고, 그것을 클릭했을 때 집계합니다. 다만 이메일의 경우 지원되지 않습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마케팅 목표 달성 (MarketingGoal)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 마케팅 메시지에서 목표로 설정한 이벤트 값이 발생했을 때 발생"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마케팅 전송 (MarketingSend)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 고객에게 마케팅 메시지를 발송할 때 발생"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "마케팅 ID 조건과 함께 설정하면, A 마케팅이 전송된 경우 B 마케팅 메시지를 자동 전송하도록 설정 가능"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "이벤트가 강력해지는 이유 중 하나는 프로퍼티(Property) 덕분이에요. 프로퍼티(Property)는 이벤트를 설명해주는 하위 정보들입니다. 프로퍼티 데이터를 바탕으로 이벤트를 좀 더 자세하게 파악할 수 있고 더 적합한 의사결정을 내리는 데 도움을 얻을 수 있습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Page 세팅"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이벤트에서 가져오는 Page 정보는 별도 설정이 없다면 브라우저의 URL과 동일합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Page를 별도로 설정하려면"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "개발 리소스가 필요해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Page에 대한 개발자 문서"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://developers.channel.io/reference/page-kr"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Page를 세팅하는 방법 : "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "웹 / iOS SDK / Android SDK"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://developers.channel.io/reference/web-channelio-kr#setpage"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "표준 URL에 대한 개발자 문서"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://developers.channel.io/reference/canonical-url-kr"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "canonical URL"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "확인을 원하는 URL을 복사해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "https://channel.io/check-canonical-url 에 해당 URL을 넣고, Check를 눌러주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/check-canonical-url"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "canonical URL is 뒤에 뜬 URL이 해당 주소의 canonical URL 입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "canonical",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/54/revisions/157/usermedia/662b10b144ecdc6c18a0"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "웹빌더사"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "앱스토어에서 채널톡 설치가 가능한 빌더사의 경우, 자동으로 빌더사 홈페이지에서 정해진 이벤트 값을 채널톡으로 보내줍니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "빌더사마다 보내주는 이벤트 값이 다르니, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "개별 설치 가이드를 참고해 주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/en/categories/Installation-Guide-for-Builders%ED%95%9C%EA%B5%AD%EC%96%B4-748dc8d5"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자체 제작 사이트"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "자바 스크립트 SDK를 이용하여 이벤트를 만든 후 채널톡이 이벤트를 인식하도록 만들어 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이벤트와 프로퍼티 참고하기 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 개발자 문서)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://developers.channel.io/reference/event-kr"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Track 함수 사용하기 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 개발자 문서)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://developers.channel.io/docs/web-channelio#track"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "OpenAPI활용해서 이벤트 보내주기 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 개발자 문서)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://developers.channel.io/docs/create-an-event-1"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "setPage 활용해서 SPA 에서도 페이지정보 얻기 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 개발자 문서)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://developers.channel.io/docs/web-channelio#setpage"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "GTM"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "구글에서 제공하는 Google Tag Manager를 활용하면, 채널톡에서 자주 사용할 수 있는 이벤트를 만들 수 있습니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ GTM으로 이벤트 설정하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/a7f86e26"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "확인 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 상세 프로필 또는 수신함 우측 하단의 '이벤트'에서 고객의 이벤트를 모아볼 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 어떤 페이지에서 채팅상담으로 들어왔는지 알 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객의 행동에 맞게 마케팅 캠페인 메시지를 보낼 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "61",
+    "name": "Beige",
+    "bio": "Minji Jeon, CX manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ecb1a3f05c2b1a8",
+  "linked_faqs": [],
+  "faq_count": 0
+}

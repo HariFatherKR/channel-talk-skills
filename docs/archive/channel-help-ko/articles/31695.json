@@ -1,0 +1,942 @@
+{
+  "id": "31695",
+  "url": "https://docs.channel.io/help/ko/articles/080-%EC%88%98%EC%8B%A0%EA%B1%B0%EB%B6%80-%EC%95%B1-9ca9ea06",
+  "title": "080 수신거부 앱",
+  "summary": "080 수신거부 설정이 꼭 필요한 이유 정보통신망 이용촉진 및 정보보호 등에 관한 법률 및 그 시행령(법 제50조) 에 따르면 영리목적의 광고성 정보를 전송하려는 경우 전송자는 수신자가 수신거부나 수신동의의 철회를 할 때 발생하는 전화요금 등의 금전적 비용을 수신자가 부담하지 않도록 조치를 취해야 합니다. 따라서 광고성 문자를 전송하는 경우, 보다 안전하게 080 수신거부 설정하여 이용하시기를 강력히 권해드립니다. 080 수신거부 앱이란? 앱 설치 후 080 수신거부 번호를 발급받을 수 있습니다. 한국 수신자에게는 광고 문자에 수신거부 링크 대신 080 번호를 사용할 수 있어요. - 앱 설치 후 080 수신거부 번호를 발급 받기 위해서, 사전에 비즈니스 인증 승인이 필요합니다. (→ 비즈니스 인증 바로가기) 080 수신거부 앱 설치 [채널 설정] - [연동] - [앱스토어] 에서 080 수신거부 앱을 선택 후 설치할 수 있습니다. 번호 발급 및 설정 - 번호 발급 - 비즈니스 인증이",
+  "plaintext": "080 수신거부 설정이 꼭 필요한 이유\n정보통신망 이용촉진 및 정보보호 등에 관한 법률 및 그 시행령(\n법 제50조\n) 에 따르면 영리목적의 광고성 정보를 전송하려는 경우 전송자는 수신자가 수신거부나 수신동의의 철회를 할 때 발생하는 전화요금 등의 금전적 비용을 수신자가 부담하지 않도록 조치를 취해야 합니다.\n따라서 광고성 문자를 전송하는 경우, 보다 안전하게 080 수신거부 설정하여 이용하시기를 강력히 권해드립니다.\n080 수신거부 앱이란?\n앱 설치 후 080 수신거부 번호를 발급받을 수 있습니다. 한국 수신자에게는 광고 문자에 수신거부 링크 대신 080 번호를 사용할 수 있어요.\n앱 설치 후 080 수신거부 번호를 발급 받기 위해서, 사전에 비즈니스 인증 승인이 필요합니다. (\n→ 비즈니스 인증 바로가기\n)\n080 수신거부 앱 설치\n[채널 설정] - [연동] - [앱스토어] 에서 080 수신거부 앱을 선택 후 설치할 수 있습니다.\n번호 발급 및 설정\n번호 발급\n비즈니스 인증이 완료된 상태라면, 설정 탭에서 080 번호 발급이 가능합니다.\n번호는 1개만 발급 가능하며, 랜덤 발급되어 번호 선택은 불가합니다.\n발급된 080 번호로 통화한 사용자는 설정한 연결 방식에 따라, 즉시 수신 거부 처리되거나 사용자의 입력을 통해 거부 혹은 동의 처리가 가능합니다.\n연결 방식\n연결 즉시 처리: 통화 연결 즉시 수신거부 처리됩니다. 이미 거부된 고객이 다시 전화해도 거부 상태로 유지됩니다.\n사용자 입력 받기: 사용자가 안내에 따라 번호를 입력하여 수신거부 혹은 수신동의 처리를 선택할 수 있습니다.\n음성 안내\n통화 연결 시 송출되는 안내 음성을 확인할 수 있어요.\n안내 음성은 변경이 불가합니다.\n처리 내역\n080 수신거부 번호를 통해 처리된 내역을 확인할 수 있어요.\n기간 별, 유무선 구분, 처리 결과에 따라 필터를 걸어 확인해볼 수 있습니다.\n처리 내역은 CSV 파일로 다운로드가 가능합니다.\nFAQ\n같은 번호를 가진 여러 사용자가 있을 때 어떻게 처리 되나요?\n검증된 연락처인 프로필이 수신 거부 처리가 됩니다.\n(\n→ 검증된 연락처란?\n)\n검증된 연락처가 여러개 존재한다면, 동일한 검증된 번호를 가진 모든 고객이 수신 거부/동의 됩니다.\n비용이 발생하나요?\n한시적으로 무료로 제공됩니다.\n080 수신거부 앱을 삭제하면 어떻게 되나요?\n발급 받은 080 번호가 있다면 앱 삭제 즉시 반환되며, 결번 처리됩니다.\n문자 수신거부 방식은 링크 수신거부 방식으로 변경됩니다.\n결번 & 반환된 번호로 사용자가 전화할 경우 연결에 실패하거나 해당 번호를 발급한 다른 채널으로 연결될 수 있습니다.\n앱을 삭제한 경우에도 이전에 처리되었던 결과는 계속해서 확인할 수 있습니다.\n해외 고객도 080 서비스를 통해 수신 거부/동의 할 수 있나요?\n국제전화는 080 번호로 발신할 수 없습니다.\n채널톡에 저장되지 않은 고객이 080 수신거부 앱으로 전화할 경우 어떻게 처리되나요?\n해당 번호의 고객을 채널톡 연락처에 새로운 고객으로 생성 후 수신 거부 처리합니다.\n연락처에 검증되지 않은 번호만 있는 경우, 새로운 검증된 리드를 만들고 해당 리드를 수신거부 처리 합니다.\n080 수신거부 앱을 사용하지 않고 광고성 메시지를 보내고 싶어요\n광고성 메시지(마케팅) 전송 시 전송 수단은 '채널톡 메시지(사이트 내 팝업)'로 선택해 주세요.\n오프라인 알림 보내기 항목의 '문자'를 선택 해제 후 전송해 주세요.\n채널톡에서 발급받은 080 번호를 외부 서비스에서 사용해도 되나요?\n채널톡에서 발급된 080 번호는 고객이 해당 번호로 전화할 경우 채널톡 고객 연락처에 저장된 고객 정보가 수신 거부가 처리되는 방식입니다.자사몰 등 외부 서비스의 고객 정보에는 수신 거부가 반영되지 않아 불일치가 발생할 수 있으므로 사용을 권장하지 않습니다.",
+  "body": [
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "080 수신거부 설정이 꼭 필요한 이유"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 및 그 시행령("
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "법 제50조"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://www.law.go.kr/LSW//lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000688185&lsId=000030&print=print"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": ") 에 따르면 영리목적의 광고성 정보를 전송하려는 경우 전송자는 수신자가 수신거부나 수신동의의 철회를 할 때 발생하는 전화요금 등의 금전적 비용을 수신자가 부담하지 않도록 조치를 취해야 합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "따라서 광고성 문자를 전송하는 경우, 보다 안전하게 080 수신거부 설정하여 이용하시기를 강력히 권해드립니다. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "080 수신거부 앱이란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "앱 설치 후 080 수신거부 번호를 발급받을 수 있습니다. 한국 수신자에게는 광고 문자에 수신거부 링크 대신 080 번호를 사용할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "앱 설치 후 080 수신거부 번호를 발급 받기 위해서, 사전에 비즈니스 인증 승인이 필요합니다. ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 비즈니스 인증 바로가기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/0b034717-%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "Group_84.png",
+        "height": "1179px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/31695/revisions/54775/usermedia/66de8d1d9cc9537e9a3a",
+        "width": "2000px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "080 수신거부 앱 설치"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[채널 설정] - [연동] - [앱스토어] 에서 080 수신거부 앱을 선택 후 설치할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "080수신거부앱 (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/31695/revisions/54775/usermedia/66de8d2506343094b3bb",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "번호 발급 및 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "번호 발급"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "비즈니스 인증이 완료된 상태라면, 설정 탭에서 080 번호 발급이 가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "번호는 1개만 발급 가능하며, 랜덤 발급되어 번호 선택은 불가합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "발급된 080 번호로 통화한 사용자는 설정한 연결 방식에 따라, 즉시 수신 거부 처리되거나 사용자의 입력을 통해 거부 혹은 동의 처리가 가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연결 방식"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "연결 즉시 처리: 통화 연결 즉시 수신거부 처리됩니다. 이미 거부된 고객이 다시 전화해도 거부 상태로 유지됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "사용자 입력 받기: 사용자가 안내에 따라 번호를 입력하여 수신거부 혹은 수신동의 처리를 선택할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "음성 안내"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "통화 연결 시 송출되는 안내 음성을 확인할 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "안내 음성은 변경이 불가합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "080수신거부앱.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/31695/revisions/54775/usermedia/66de8d390a9714ad3506",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "처리 내역"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "080 수신거부 번호를 통해 처리된 내역을 확인할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기간 별, 유무선 구분, 처리 결과에 따라 필터를 걸어 확인해볼 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "처리 내역은 CSV 파일로 다운로드가 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "image (9).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/31695/revisions/54775/usermedia/66de8d479eea907d843a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "FAQ"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "같은 번호를 가진 여러 사용자가 있을 때 어떻게 처리 되나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "검증된 연락처인 프로필이 수신 거부 처리가 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "("
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "→ 검증된 연락처란?"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/b2b4aab2-%EA%B3%A0%EA%B0%9D-%EA%B5%AC%EB%B6%84#:~:text=%EC%A7%81%EC%A0%91%20%EC%9E%85%EB%A0%A5%ED%95%9C%20%EC%A0%95%EB%B3%B4-,qualified%20%EA%B2%80%EC%A6%9D%EB%90%9C%20%EC%A0%95%EB%B3%B4,-%EC%9C%A0%EC%A0%80%EA%B0%80%20%EC%A7%81%EC%A0%91%20%EC%9E%85%EB%A0%A5%ED%95%9C"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ")"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "검증된 연락처가 여러개 존재한다면, 동일한 검증된 번호를 가진 모든 고객이 수신 거부/동의 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "비용이 발생하나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "한시적으로 무료로 제공됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "080 수신거부 앱을 삭제하면 어떻게 되나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "발급 받은 080 번호가 있다면 앱 삭제 즉시 반환되며, 결번 처리됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문자 수신거부 방식은 링크 수신거부 방식으로 변경됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "결번 & 반환된 번호로 사용자가 전화할 경우 연결에 실패하거나 해당 번호를 발급한 다른 채널으로 연결될 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "앱을 삭제한 경우에도 이전에 처리되었던 결과는 계속해서 확인할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "해외 고객도 080 서비스를 통해 수신 거부/동의 할 수 있나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "국제전화는 080 번호로 발신할 수 없습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡에 저장되지 않은 고객이 080 수신거부 앱으로 전화할 경우 어떻게 처리되나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해당 번호의 고객을 채널톡 연락처에 새로운 고객으로 생성 후 수신 거부 처리합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연락처에 검증되지 않은 번호만 있는 경우, 새로운 검증된 리드를 만들고 해당 리드를 수신거부 처리 합니다."
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "080 수신거부 앱을 사용하지 않고 광고성 메시지를 보내고 싶어요"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "광고성 메시지(마케팅) 전송 시 전송 수단은 '채널톡 메시지(사이트 내 팝업)'로 선택해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오프라인 알림 보내기 항목의 '문자'를 선택 해제 후 전송해 주세요.  "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡에서 발급받은 080 번호를 외부 서비스에서 사용해도 되나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡에서 발급된 080 번호는 고객이 해당 번호로 전화할 경우 채널톡 고객 연락처에 저장된 고객 정보가 수신 거부가 처리되는 방식입니다.자사몰 등 외부 서비스의 고객 정보에는 수신 거부가 반영되지 않아 불일치가 발생할 수 있으므로 사용을 권장하지 않습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/698d86b53ce69499af7f",
+  "linked_faqs": [],
+  "faq_count": 0
+}
