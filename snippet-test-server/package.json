@@ -15,6 +15,7 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "5.1.4",
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "16.3.0",
     "@types/node": "24.10.1",
