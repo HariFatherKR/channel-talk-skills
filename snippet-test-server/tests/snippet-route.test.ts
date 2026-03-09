@@ -19,7 +19,7 @@ describe("snippet api route", () => {
     const json = await response.json();
 
     expect(response.status).toBe(200);
-    expect(json.layout[0].id).toBe("intro-text");
+    expect(json.snippet.layout[0].id).toBe("intro-text");
   });
 
   it("returns reservation details for a known reservation number", async () => {
@@ -43,8 +43,8 @@ describe("snippet api route", () => {
     const json = await response.json();
 
     expect(response.status).toBe(200);
-    expect(json.params.reservationNumber).toBe("RSV-2026-0001");
-    expect(json.layout).toEqual(
+    expect(json.snippet.params.reservationNumber).toBe("RSV-2026-0001");
+    expect(json.snippet.layout).toEqual(
       expect.arrayContaining([
         expect.objectContaining({ id: "reservation-details", type: "key-value" })
       ])
@@ -72,7 +72,7 @@ describe("snippet api route", () => {
     const json = await response.json();
 
     expect(response.status).toBe(200);
-    expect(json.layout).toEqual(
+    expect(json.snippet.layout).toEqual(
       expect.arrayContaining([
         expect.objectContaining({ id: "reservation-missing", type: "text" }),
         expect.objectContaining({ id: "open-channel-consult", type: "button" })

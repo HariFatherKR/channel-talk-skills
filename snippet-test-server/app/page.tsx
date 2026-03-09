@@ -43,6 +43,12 @@ type SnippetResponse = {
   layout: SnippetLayoutItem[];
 };
 
+type SnippetApiResponse =
+  | SnippetResponse
+  | {
+      snippet: SnippetResponse;
+    };
+
 const API_PATH = "/api/channel-talk/snippet";
 
 async function requestSnippet(payload: Record<string, unknown>) {
@@ -54,7 +60,9 @@ async function requestSnippet(payload: Record<string, unknown>) {
     body: JSON.stringify(payload)
   });
 
-  return (await response.json()) as SnippetResponse;
+  const json = (await response.json()) as SnippetApiResponse;
+
+  return "snippet" in json ? json.snippet : json;
 }
 
 export default function Page() {

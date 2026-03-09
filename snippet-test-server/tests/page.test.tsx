@@ -18,15 +18,19 @@ describe("snippet preview page", () => {
         const payload = init?.body ? JSON.parse(String(init.body)) : {};
 
         if (!payload.componentId) {
-          return Response.json(buildInitSnippet());
+          return Response.json({ snippet: buildInitSnippet() });
         }
 
         if (payload.submit?.["reservation-number"] === "RSV-2026-0001") {
-          return Response.json(buildReservationFoundSnippet(reservation!));
+          return Response.json({ snippet: buildReservationFoundSnippet(reservation!) });
         }
 
         return Response.json(
-          buildReservationNotFoundSnippet(payload.submit?.["reservation-number"] ?? "")
+          {
+            snippet: buildReservationNotFoundSnippet(
+              payload.submit?.["reservation-number"] ?? ""
+            )
+          }
         );
       })
     );

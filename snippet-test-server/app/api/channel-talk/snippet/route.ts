@@ -11,10 +11,10 @@ interface SnippetRequestBody {
 }
 
 export async function POST(request: Request) {
-  const body = (await request.json()) as SnippetRequestBody;
+  const body = await parseRequestBody(request);
 
   if (!body.componentId) {
-    return Response.json(buildInitSnippet());
+    return Response.json({ snippet: buildInitSnippet() });
   }
 
   const reservationNumber = body.submit?.["reservation-number"]?.trim() ?? "";
@@ -22,11 +22,25 @@ export async function POST(request: Request) {
   if (body.componentId === "lookup-reservation" && reservationNumber) {
     const reservation = findReservationByNumber(reservationNumber);
     if (reservation) {
-      return Response.json(buildReservationFoundSnippet(reservation));
+      return Response.json({ snippet: buildReservationFoundSnippet(reservation) });
     }
 
-    return Response.json(buildReservationNotFoundSnippet(reservationNumber));
+    return Response.json({ snippet: buildReservationNotFoundSnippet(reservationNumber) });
   }
 
-  return Response.json(buildInitSnippet());
+  return Response.json({ snippet: buildInitSnippet() });
+}
+
+async function parseRequestBody(request: Request): Promise<SnippetRequestBody> {
+  const rawBody = await request.text();
+
+  if (!rawBody) {
+    return {};
+  }
+
+  try {
+    return JSON.parse(rawBody) as SnippetRequestBody;
+  } catch {
+    return {};
+  }
 }
