@@ -28,7 +28,7 @@ type SnippetLayoutItem =
   | {
       id: string;
       type: "button";
-      text: string;
+      label: string;
       action: SnippetAction;
     }
   | {
@@ -158,7 +158,7 @@ function SnippetRenderer({ snippet }: { snippet: SnippetResponse }) {
         if (item.type === "button") {
           return (
             <button className="snippet-button" key={item.id} type="button">
-              {item.text}
+              {item.label}
             </button>
           );
         }

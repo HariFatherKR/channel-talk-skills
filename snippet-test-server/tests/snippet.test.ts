@@ -19,6 +19,7 @@ describe("snippet builders", () => {
         expect.objectContaining({
           id: "lookup-reservation",
           type: "button",
+          label: "예약 조회",
           action: { type: "submit" }
         })
       ]
@@ -63,6 +64,7 @@ describe("snippet builders", () => {
         expect.objectContaining({
           id: "open-channel-consult",
           type: "button",
+          label: "채널톡 상담 연결",
           action: { type: "url", url: "https://channel.io" }
         })
       ])

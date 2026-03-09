@@ -19,7 +19,7 @@ export function buildInitSnippet() {
       {
         id: "lookup-reservation",
         type: "button",
-        text: "예약 조회",
+        label: "예약 조회",
         action: {
           type: "submit"
         }
@@ -83,7 +83,7 @@ export function buildReservationNotFoundSnippet(reservationNumber: string) {
       {
         id: "open-channel-consult",
         type: "button",
-        text: "채널톡 상담 연결",
+        label: "채널톡 상담 연결",
         action: {
           type: "url",
           url: "https://channel.io"
