@@ -1,0 +1,6589 @@
+{
+  "id": "68567",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%A0%84%ED%99%94-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-3189edd5",
+  "title": "전화 모니터링",
+  "summary": "실시간으로 전화 상담을 모니터링하며 상담 인원을 조정하거나 전화 상담을 효율적으로 운영해 보세요.",
+  "plaintext": "오퍼레이션 권한이 있는 팀 멤버만 조회할 수 있습니다.\n(→ 권한 설정하기)\n전화 모니터링이란?\n수발신한 전화 상담의 응대, 부재중 건수를 확인할 수 있고, 전화 상담에 참여하고 있는 상담원의 상태를 한눈에 확인할 수 있는 대시보드에요.\n실시간으로 대기 중인 콜 수, 통화중인 상담원 수를 비교해보면서 상담인원을 조정하거나 전화 상담을 효율적으로 운영해 보세요.\n지표 설정\n전화 모니터링을 확인하기에 앞서, 지표의 세부 항목을 설정하여 목표를 세워보세요.\n부재중 전화\n의 사유 별 통계 포함 여부와\n서비스 레벨 및 응답 속도 준수율\n의 목표 시간을 설정할 수 있어요.\n지표 설정 값은 채널 단위로 저장되어 채널에 속한 모든 상담원이 동일한 지표를 확인할 수 있어요.\n현황\n과\n누적\n탭 모두에 적용돼요.\n대시보드 화면과\n누적\n탭에서 다운로드한 엑셀 파일에도 적용돼요.\n부재중 사유\n지표에서 보고자하는 부재중 사유를 자유롭게 선택해보세요.\n운영시간 아님\n: 미운영시간에 걸려와 끊어진 전화를 포함/제외\n고객의 전화 종료\n: 연결 도중 고객이 끊어서 종료된 전화를 포함/제외\n링 시간 초과\n: 상담원 배정 후 링 시간이 초과하여 종료된 전화를 포함/제외\n모든 상담원 미트중\n: 전화를 받을 수 있는 상담원이 없어 종료된 전화를 포함/제외\n최대 대기열 수 초과\n: 대기열이 200건을 초과하여 종료된 전화를 포함/제외\n대기열 최대 대기시간 초과\n: 대기열의 대기시간이 1시간을 초과하여 종료된 전화를 포함/제외\n워크플로우로 전화 종료\n: IVR 또는 대기열 워크플로우의 통화종료 액션으로 종료된 전화를 포함/제외\n서비스 레벨\n수신된 전화 중 고객이 연결 대기를 시작한지 N초(목표 시간)내에 응답한 전화의 비율을 뜻해요.\n설정 시간: 1초에서 3600초(1시간)까지 설정할 수 있어요. (초기 설정은 20초)\n계산 기준\nIVR 사용시: IVR종료 후 상담원 연결 시작 시간부터 측정해요.\nIVR 종료 액션을 통해 종료되지 않고 도중에 이탈한 콜은 부재중으로 집계하지 않아요.\nIVR 미사용시: 인사말 송출 후 상담원 연결 시작 시간부터 측정해요.\n*'상담원 연결 시작 시간' 데이터는 엑셀 파일의 firstWaitingStartedAt 값으로 제공됩니다.\n응답 속도 준수율\n수신된 전화 중 링이 울리기 시작한지 N초(목표 시간)내에 응답한 전화의 비율을 뜻해요.\n설정 시간: 1초에서 3600초(1시간)까지 설정할 수 있어요. (초기 설정은 20초)\n계산 기준\n전화 링이 울린 시간 시간부터 측정해요.\n*'링이 울린 시간' 데이터는 엑셀 파일의 firstRingStartedAt 값으로 제공됩니다.\n현황\n당일 전화 통계 (구 전화 현황)\n1일 누적 전화 수발신 현황을 볼 수 있는 대시보드 입니다.\n[채널 프로필]에 설정된 시간대 기준으로 매일 00시에 리셋 됩니다.\n집계 수치는 1분마다 업데이트 됩니다.\n카드별 의미\n수신 응답률\n:\n총 인입된 전화(수신 콜 + 부재중 콜) 중, 고객과 상담원이 연결된 전화의 비율입니다. 1일 전 동일한 시간대의 응답율과 비교한 값이 보입니다.\n(=[수신 전화 중 연결된 통화 수] / [총 수신 전화 수] * 100)\n발신 응답률\n: 상담원이 고객에게 전화를 걸었을 때 연결된 전화의 비율입니다. 1일전 동일한 시간대의 응답율과 비교한 값이 보여집니다.\n(=[발신 전화 중 연결된 통화 수] / [총 발신 전화 수] * 100)\n총 인입 전화\n: 오늘 총 인입된 전화의 수로, 응답 전화와 부재중 전화의 합산입니다.\n응답 전화\n: 총 인입 전화 중, 고객과 상담원이 연결된 전화의 수 입니다.\n발신 전화\n: 상담원이 고객에게 전화를 건 수입니다.\n부재중 전화\n: 총 인입 전화 중, 연결되지 않고 끊어진 전화의 수 입니다.\n서비스 레벨:\n총 인입된 전화(수신 콜 + 부재중 콜) 중, 고객의 연결 대기 시간이 목표 시간 이내인 응답 전화의 비율입니다.\n응답 속도 준수율:\n총 인입된 전화(수신 콜 + 부재중 콜) 중, 링 울린 시간이 목표 시간 이내인 응답 전화의 비율입니다.\n수신된 전화 중 종료되지 않은 전화는 집계되지 않으며, 종료된 후에 '응답 전화' 또는 '부재중 전화'로 집계됩니다.\n계산 공식\n서비스 레벨\n= [고객이 연결 대기한 시점부터 N초 내 응답한 수신 콜 수] / [수신 콜 수 + 부재중 콜 수]\n예시)\n목표 시간 내 응답한 수신 콜 수: 80건\n수신 콜 수: 90건\n부재중 콜 수: 10건\n수신 응답률: 90% = 90/(90+10)\n서비스 레벨: 80% = 80/(90+10)\n응답 속도 준수율\n= [링이 울린 시점부터 N초 내 응답한 수신 콜 수] / [수신 콜 수 + 부재중 콜 수]\n예시)\n목표 시간 내 응답한 수신 콜 수: 85건\n수신 콜 수: 90건\n부재중 콜 수: 10건\n수신 응답률: 90% = 90/(90+10)\n서비스 레벨: 85% = 85/(90+10)\n26년 1월 16일부터 새로운 기준의 서비스 레벨이 제공됩니다.\n새로운 기준의 서비스 레벨은 26년 1월 1일 이후 데이터부터 제공됩니다.\n26년 1월 1일 이전 날짜가 포함된 기간 조회 시 서비스 레벨 지표가 제공되지 않습니다.\n기존에 제공되었던 서비스 레벨은 \"응답 속도 준수율\"로 명칭으로 변경됩니다.\n순서 변경\n카드의 순서를 원하는대로 변경할 수 있어요.\n카드를 추가하거나 삭제할 수는 없어요.\n카드의 순서를 변경하면 새 창에도 변경된 순서가 반영돼요.\n알림 설정\n수신 응답률과 서비스 레벨의 목표 수치를 정할 수 있어요\n수치를 0으로 저장한 값은 알림이 동작하지 않아요.\n목표 수치보다 미달할 경우 해당 카드가\n붉은 테두리\n로 강조되고, 필요 시 팀챗 공개 그룹방으로 알림을 보낼 수 있어요.\n동일한 지표에 대한 알림은 30분에 한 번만 전송돼요.\n만약 알림이 전송되는 그룹방이 비공개로 변경되면 더이상 알림이 전송되지 않아요.\n시간과 전화번호를 조합하여 여러개의 알림을 설정할 수 있어요.\n최대 8개\n까지 저장이 가능해요.\n알림 설정은 채널에 속한 모든 상담원에게 반영돼요.\n특정 상담원의 의도치 않은 변경을 방지하려면, 권한 설정을 활용하여 오퍼레이션 권한을 비활성화 해주세요. (\n권한 설정 가이드 바로가기 →\n)\n설정 방법\n알림을 설정할\n시간과 #전화번호를 선택하세요.\n알림 버튼을 클릭하세요.\n알림을 2개 이상 추가하려면, 알림버튼 클릭 후 '알림 설정 추가'를 누르세요.\n목표 수신 응답률 또는 목표 서비스 레벨을 입력하세요.\n공개 그룹방으로 알림을 받으려면 '그룹 대화 추가'를 눌러 그룹방을 선택하세요.\n저장 버튼을 누르세요\n전화 인입 추이\n📊'전화 인입 추이' 버튼을 클릭하면 직전 2시간 동안 5분 단위의 전화 인입 추이를 확인할 수 있어요.\n필터링\n시간\n: '전체 시간(기본)', '운영 시간', '지정 시간' 중에 선택할 수 있어요.\n전화번호\n: '모든 전화번호(기본)', '선택 전화번호' 중에 선택할 수 있어요.\n실시간 상담 현황\n오퍼레이터 시트가 켜져있는 상담원 중에 전화 상담이 가능한 상담원들의 상태를 실시간으로 확인할 수 있는 대시보드 입니다.\n[오퍼레이터 - 현황]의 상담원 별 상태 값을 기반으로 실시간으로 업데이트 됩니다.\n카드별 의미\n대기 중 전화\n: 전화를 받을 수 있는\n상담원이\n없어 현재 대기열에서 대기 중인 전화의 수 입니다.\n통화 중 상담원\n: 현시간 통화 중인 상담원의 수 입니다.\n전화 대기 중 상담원\n: 전화 상담을 담당하며, 통화 중이나 후처리 중이 아닌 전화 배정이 가능한 상담원의 수 입니다.\n전화 후처리 중 상담원\n: 진행 중인 전화 상담이 있어 현재 전화 배정이 불가능한 상태의 상담원 수 입니다. 진행 중인 전화 상담을 종료하면 전화 대기 중 상담원로 전환됩니다.\n채팅 중 상담원\n: 최근 5분 이내 메시지를 전송하거나 상담 정보를 변경한 상담원의 수 입니다.\n자리 비움 상담원\n: [식사 중, 휴식 중, 회의 중, 교육 중, 다른 업무 중]인 상담원의 수 입니다.\n순서 변경\n카드의 순서를 원하는대로 변경할 수 있어요.\n카드를 추가하거나 삭제할 수는 없어요.\n카드의 순서를 변경하면 새 창에도 변경된 순서가 반영돼요.\n팀 선택\n전화를 받는 팀별로 실시간 상담 현황을 확인할 수 있어요\n팀을 삭제하면 전화를 받을 수 있는 모든 상담원의 현황을 조회할 수 있어요.\n새 창\n전화 모니터링 대시보드를 새 창으로 열 수 있어요.\n대시보드를 별도의 창으로 띄워 한눈에 확인해보세요.\n새 창의 업데이트 주기는 [전화 현황]과 [실시간] 대시보드의 업데이트 주기를 따릅니다.\n카드의 순서를 변경하면 새 창에도 변경된 순서가 반영돼요\n새 창을 켠 브라우저 또는 앱을 새로고침 할 경우 새 창을 종료할지 묻는 알림 창이 떠요.\n새 창이 꺼지지 않도록 하시려면,\n브라우저에서 주로 보는 탭(A) 외에 보조 탭(B)에서 채널톡을 새로 열어 보조 탭(B)에서 전화 모니터링 새 창을 켜주세요.\n누적(전화 통계)\n대시보드\n지정한 기간동안 누적된 전화 통계를 볼 수 있는 대시보드 입니다.\n복잡한 계산 없이 한 눈에 전화 통계를 확인해보세요\n수신 응답률\n: 총 인입 전화 중, 고객과\n상담원이\n연결된 전화의 비율입니다.\n서비스 레벨\n: 고객이 전화 연결 대기를 시작한 후, 목표 시간 내에 상담원이 전화를 받은 비율입니다.\n발신 응답률\n:\n상담원이\n고객에게 전화를 걸었을 때 연결된 전화의 비율입니다.\n평균 대기 시간\n: 고객이 전화를 걸었을 때,\n상담원이\n전화를 받기 전까지 기다린 평균 대기 시간입니다.\n*수신 통화에 대한 통계만 제공됩니다. (startedAt부터 engagedAt 까지의 시간의 평균)\n평균 통화 시간\n: 고객과 상담원의 평균 통화 시간입니다. 수신, 발신 모든 통화를 포함합니다.\n평균 후처리 시간\n: 조회한 기간동안 전화 상담을 진행한 상담원의 \"전화 후처리 시간\"을 평균한 값입니다.\n시간 단위는 아래와 같은 규칙으로 표기됩니다\n24시간 미만 → 00시 00분 00초 (1초 미만 시간 버림)\n24시간 이상 ~ 744시간(31일) 미만 → N일 N시간\n31일 이상 ~ 365일 미만 → N개월 N일\n365일 이상: N년\n처리 시간 옆 비교 정보(⬆︎/⬇︎)는 설정한 기간과 동일한 직전 기간 대비 변화 수치를 보여 줍니다. 직전 기간과 변화가 없다면 0, 직전 기간 데이터가 없다면 - 로 표기됩니다.\n예시) 2025.02.01 - 2025.02.28 기간을 검색했다면, 직전 28일인 2025.01.04 - 2025.01.31 기간과 비교 수치를 보여줍니다.\n필터링\n기간\n대시보드를 조회할 기간을 선택합니다.\n시간\n전체: 00시 부터 24시까지 조회합니다.\n운영 시간: 저장된 운영 시간을 선택하여 조회합니다.\n자동화 설정이 켜져 있는 [운영 시간]만 선택할 수 있습니다. (\n운영 시간 자동화란?\n)\n조회하는 기간 도중에 선택한 [운영 시간]의 설정 시간을 변경한 경우라도, 항상 현재 설정된 시간을 기준으로 조회합니다.\n시간 지정: 특정 시간을 선택하여 조회합니다.\n예시)조회하는 기간 도중 선택한 [운영 시간]을 변경한 경우\n운영시간 변경\n2월 10일: [A운영 시간]을 10시~17시 →\n9시~17시\n로 변경\n2월 13일: [A운영 시간]을 9시~17시 →\n10시~17시\n로 변경\n[A운영 시간] 필터링으로 조회\n2월 11일에 조회하면 조회기간과 상관없이\n9시~17시 기준으로\n조회\n2월 14일에 조회하면 조회기간과 상관없이\n10시~17시 기준으로\n조회\n전화번호\n: 여러개의 번호를 사용 중이라면, 전화번호 별 통계를 확인할 수 있습니다.\n평균 후처리 시간\n은 전화번호 별 조회를 지원하지 않습니다.\n전화 수\n설정한 기간동안의 일별 수신, 발신, 부재중 전화 수 입니다.\n수신:\n인입된 전화 중 연결된 전화 수\n부재중:\n인입된 전화 중 연결되지 않은 전화 수\nIVR 도중 끊어지면 부재중에 포함되지 않음\n발신:\n고객에게 건 전화 중 연결된 전화 수\n발신 미연결:\n고객에게 건 전화 중 연결되지 않은 전화 수\n단, 고객이 받지 않아 음성사서함으로 넘어갔을 때, 삐 소리 이후 소리샘으로 연결된 경우 \"발신\"으로 집계됩니다. 소리샘으로 연결되기 전에 끊은 경우 \"발신 미연결\"로 집계됩니다.\n통화 시간\n설정한 기간동안의 일별 수신, 발신 통화 시간입니다.\n*조건에 맞는 통화 건들의 평균 시간을 구한 후 초 미만 단위는 버림하여 제공합니다.\n시간대별 전화 유입량\n설정한 기간동안의 시간대별 인입된 전화의 수입니다.\n시간대별 비율과 직전 동일 기간과의 증감율을 함께 확인해보세요.\n부재중 전화 유형별 유입량\n설정한 기간동안의 부재중 전화 유형별 수입니다.\n유형별 비율과 직전 동일 기간과의 증감율을 함께 확인해보세요.\n전화 통계 데이터 다운로드\n\b전화 상담 데이터를 엑셀 파일로 다운로드 해보세요. 전화 상담 데이터를 가공하여 확인할 수 있도록 엑셀 파일로 제공합니다.\n데이터 항목 별 의미\n데이터 값\n설명\n비고\nid\nmeet id\n전화/영상/음성 미트에 부여되는 id입니다.\nuserChatId\n유저챗의 고유 ID\nstartedAt\n전화가 인입된 시간\n- 수신 시 IVR이 설정되어있는 경우, IVR 시작 시간 부터 집계\n*초 미만 단위는 버림하여 제공\nendedAt\n전화가 종료된 시간\n*초 미만 단위는 버림하여 제공\nengagedAt\n전화가 연결된 시간\n*초 미만 단위는 버림하여 제공\nfrom\n발신자 번호\nto\n수신자 번호\ndirection\n인/아웃바운드 콜 구분\n- inbound : 수신\n- outbound : 발신\n- missed: 부재중\nmissedReason\n부재중 사유\n- notInOperation: 운영시간 아님\n- noOperator: 모든 상담원 미트중\n- abandonedInQueue: 대기열 최대 대기시간 초과\n- ringTimeOver: 링 시간 초과\n- userleft: 고객의 전화 종료\n- exceededQueue: 최대 대기열 수 초과\n- workflow: 워크플로우로 전화 종료\n상세 설명\n- notInOperation: 운영시간이 아닐 때\n- noOperator: 전화 가능한 상담원이 없을 때\n- abandonedInQueue: 대기열에서 1시간 대기 후 끊어졌을 때\n- ringTimeOver: 상담원에게 배정된 후 링타임이 초과되었을 때\n- userleft: 고객이 먼저 끊었을 때\n- exceededQueue: 대기열 내에서 대기할 수 있는 고객수(200개)를 초과했을 때\n- workflow: workflow 액션을 통해 종료되었을 때\nduration\n총 통화시간\n=endedAt - engagedAt\n*초 미만 단위는 버림하여 제공\ntype\n유형\n- call : 전화\n- frontMeet : 고객과 상담원 간 진행된 음성 또는 영상 미트\nprimaryNumber\n채널톡에서 발급 받은 원번호\nrepresentativeNumber\nRID(발신 번호 변경)한 번호\n(→ 발신 번호 변경 신청하기)\nfirstWaitingStartedAt\n고객이 연결 대기음을 듣기 시작한 시간\n(IVR 종료 후) 고객이 전화 연결 대기를 시작한 시간입니다.\n고객이 연결까지 대기한 시간 = engagedAt - firstWaitingStartedAt\n\"고객이 연결까지 대기한 시간\"은\n서비스 레벨\n준수 여부의 판단 기준입니다.\n*초 미만 단위는 버림하여 제공되므로, 엑셀에서 직접 계산 시 실제 준수 여부와 다를 수 있습니다.\nfirstRingStartedAt\n링이 울리기 시작한 시간\n팀 멤버에게 링이 울리기 시작한 시간입니다.\n연결까지 링이 울린 시간 = engagedAt - firstRingStartedAt\n\"링이 울린 시간\"은\n응답 속도 준수\n여부의 판단 기준입니다.\n*초 미만 단위는 버림하여 제공되므로, 엑셀에서 직접 계산 시 실제 준수 여부와 다를 수 있습니다.",
+  "body": [
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "오퍼레이션 권한이 있는 팀 멤버만 조회할 수 있습니다."
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " (→ 권한 설정하기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/%EC%97%AD%ED%95%A0-0cdd2005#부가-서비스"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 모니터링이란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수발신한 전화 상담의 응대, 부재중 건수를 확인할 수 있고, 전화 상담에 참여하고 있는 상담원의 상태를 한눈에 확인할 수 있는 대시보드에요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "실시간으로 대기 중인 콜 수, 통화중인 상담원 수를 비교해보면서 상담인원을 조정하거나 전화 상담을 효율적으로 운영해 보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_현황_260115.png",
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/907374/usermedia/69602a88ddf76f9886b0",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "지표 설정"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 모니터링을 확인하기에 앞서, 지표의 세부 항목을 설정하여 목표를 세워보세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "부재중 전화"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "의 사유 별 통계 포함 여부와 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "서비스 레벨 및 응답 속도 준수율"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "의 목표 시간을 설정할 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "지표 설정 값은 채널 단위로 저장되어 채널에 속한 모든 상담원이 동일한 지표를 확인할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "현황"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "과 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "누적"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 탭 모두에 적용돼요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대시보드 화면과 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "누적"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 탭에서 다운로드한 엑셀 파일에도 적용돼요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_현황_지표 설정_260115.png",
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/907374/usermedia/69602c850a23bf16ae01",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "부재중 사유"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표에서 보고자하는 부재중 사유를 자유롭게 선택해보세요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "운영시간 아님"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 미운영시간에 걸려와 끊어진 전화를 포함/제외"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객의 전화 종료"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 연결 도중 고객이 끊어서 종료된 전화를 포함/제외"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "링 시간 초과"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 상담원 배정 후 링 시간이 초과하여 종료된 전화를 포함/제외"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "모든 상담원 미트중"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 전화를 받을 수 있는 상담원이 없어 종료된 전화를 포함/제외"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "최대 대기열 수 초과"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 대기열이 200건을 초과하여 종료된 전화를 포함/제외"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "대기열 최대 대기시간 초과"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 대기열의 대기시간이 1시간을 초과하여 종료된 전화를 포함/제외"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "워크플로우로 전화 종료"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": IVR 또는 대기열 워크플로우의 통화종료 액션으로 종료된 전화를 포함/제외"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "서비스 레벨"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신된 전화 중 고객이 연결 대기를 시작한지 N초(목표 시간)내에 응답한 전화의 비율을 뜻해요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "설정 시간: 1초에서 3600초(1시간)까지 설정할 수 있어요. (초기 설정은 20초)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "계산 기준"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "IVR 사용시: IVR종료 후 상담원 연결 시작 시간부터 측정해요. "
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "IVR 종료 액션을 통해 종료되지 않고 도중에 이탈한 콜은 부재중으로 집계하지 않아요."
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "IVR 미사용시: 인사말 송출 후 상담원 연결 시작 시간부터 측정해요."
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "*'상담원 연결 시작 시간' 데이터는 엑셀 파일의 firstWaitingStartedAt 값으로 제공됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "응답 속도 준수율"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신된 전화 중 링이 울리기 시작한지 N초(목표 시간)내에 응답한 전화의 비율을 뜻해요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "설정 시간: 1초에서 3600초(1시간)까지 설정할 수 있어요. (초기 설정은 20초)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "계산 기준"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "전화 링이 울린 시간 시간부터 측정해요."
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "*'링이 울린 시간' 데이터는 엑셀 파일의 firstRingStartedAt 값으로 제공됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "현황"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "당일 전화 통계 (구 전화 현황)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1일 누적 전화 수발신 현황을 볼 수 있는 대시보드 입니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[채널 프로필]에 설정된 시간대 기준으로 매일 00시에 리셋 됩니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "집계 수치는 1분마다 업데이트 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_현황_당일 전화 통계_260115.png",
+        "height": "919px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/907374/usermedia/69602ad33699f9732cf4",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "카드별 의미"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신 응답률"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "총 인입된 전화(수신 콜 + 부재중 콜) 중, 고객과 상담원이 연결된 전화의 비율입니다. 1일 전 동일한 시간대의 응답율과 비교한 값이 보입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "(=[수신 전화 중 연결된 통화 수] / [총 수신 전화 수] * 100)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "발신 응답률"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 상담원이 고객에게 전화를 걸었을 때 연결된 전화의 비율입니다. 1일전 동일한 시간대의 응답율과 비교한 값이 보여집니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "(=[발신 전화 중 연결된 통화 수] / [총 발신 전화 수] * 100)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "총 인입 전화"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 오늘 총 인입된 전화의 수로, 응답 전화와 부재중 전화의 합산입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "응답 전화"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 총 인입 전화 중, 고객과 상담원이 연결된 전화의 수 입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "발신 전화"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 상담원이 고객에게 전화를 건 수입니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "부재중 전화"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 총 인입 전화 중, 연결되지 않고 끊어진 전화의 수 입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "서비스 레벨:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 총 인입된 전화(수신 콜 + 부재중 콜) 중, 고객의 연결 대기 시간이 목표 시간 이내인 응답 전화의 비율입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "응답 속도 준수율: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "총 인입된 전화(수신 콜 + 부재중 콜) 중, 링 울린 시간이 목표 시간 이내인 응답 전화의 비율입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "수신된 전화 중 종료되지 않은 전화는 집계되지 않으며, 종료된 후에 '응답 전화' 또는 '부재중 전화'로 집계됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "icon": "scales",
+        "semanticColor": "bgtxt-green-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "계산 공식"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "서비스 레벨 "
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "= [고객이 연결 대기한 시점부터 N초 내 응답한 수신 콜 수] / [수신 콜 수 + 부재중 콜 수]"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "예시)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "목표 시간 내 응답한 수신 콜 수: 80건"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "수신 콜 수: 90건"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "부재중 콜 수: 10건"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "수신 응답률: 90% = 90/(90+10)"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "서비스 레벨: 80% = 80/(90+10)"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "응답 속도 준수율"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "= [링이 울린 시점부터 N초 내 응답한 수신 콜 수] / [수신 콜 수 + 부재중 콜 수]"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "예시)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "목표 시간 내 응답한 수신 콜 수: 85건"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "수신 콜 수: 90건"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "부재중 콜 수: 10건"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "수신 응답률: 90% = 90/(90+10)"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "서비스 레벨: 85% = 85/(90+10)"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "semanticColor": "bgtxt-red-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "26년 1월 16일부터 새로운 기준의 서비스 레벨이 제공됩니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "새로운 기준의 서비스 레벨은 26년 1월 1일 이후 데이터부터 제공됩니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "26년 1월 1일 이전 날짜가 포함된 기간 조회 시 서비스 레벨 지표가 제공되지 않습니다."
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "기존에 제공되었던 서비스 레벨은 \"응답 속도 준수율\"로 명칭으로 변경됩니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "순서 변경"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카드의 순서를 원하는대로 변경할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_순서 변경_260115.png",
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/907374/usermedia/69602b15dd74e2092645",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카드를 추가하거나 삭제할 수는 없어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카드의 순서를 변경하면 새 창에도 변경된 순서가 반영돼요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "알림 설정"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수신 응답률과 서비스 레벨의 목표 수치를 정할 수 있어요"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_알림 설정_260115.png",
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/907374/usermedia/69602b3186ff6e8acdfa",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수치를 0으로 저장한 값은 알림이 동작하지 않아요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "목표 수치보다 미달할 경우 해당 카드가 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "붉은 테두리"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 강조되고, 필요 시 팀챗 공개 그룹방으로 알림을 보낼 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "동일한 지표에 대한 알림은 30분에 한 번만 전송돼요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "만약 알림이 전송되는 그룹방이 비공개로 변경되면 더이상 알림이 전송되지 않아요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "시간과 전화번호를 조합하여 여러개의 알림을 설정할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "최대 8개"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "까지 저장이 가능해요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림 설정은 채널에 속한 모든 상담원에게 반영돼요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "특정 상담원의 의도치 않은 변경을 방지하려면, 권한 설정을 활용하여 오퍼레이션 권한을 비활성화 해주세요. ("
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "권한 설정 가이드 바로가기 →"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/%EC%97%AD%ED%95%A0-0cdd2005#%EB%B6%80%EA%B0%80-%EC%84%9C%EB%B9%84%EC%8A%A4"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ")"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "gear",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "설정 방법"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "attrs": {
+            "start": 1
+          },
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "알림을 설정할 "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "name": "clock4"
+                      },
+                      "type": "emoji"
+                    },
+                    {
+                      "attrs": {
+                        "text": "시간과 #전화번호를 선택하세요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "name": "bell"
+                      },
+                      "type": "emoji"
+                    },
+                    {
+                      "attrs": {
+                        "text": "알림 버튼을 클릭하세요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "start": 1
+                  },
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "알림을 2개 이상 추가하려면, 알림버튼 클릭 후 '알림 설정 추가'를 누르세요."
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "orderedList"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "목표 수신 응답률 또는 목표 서비스 레벨을 입력하세요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "start": 1
+                  },
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "공개 그룹방으로 알림을 받으려면 '그룹 대화 추가'를 눌러 그룹방을 선택하세요."
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "orderedList"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "저장 버튼을 누르세요"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "orderedList"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 인입 추이"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_전화 인입 추이.png",
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/252510/usermedia/67f7c2c33a94aae020e3",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "📊'전화 인입 추이' 버튼을 클릭하면 직전 2시간 동안 5분 단위의 전화 인입 추이를 확인할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "필터링"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "시간"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": '전체 시간(기본)', '운영 시간', '지정 시간' 중에 선택할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화번호"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": '모든 전화번호(기본)', '선택 전화번호' 중에 선택할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "실시간 상담 현황"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 시트가 켜져있는 상담원 중에 전화 상담이 가능한 상담원들의 상태를 실시간으로 확인할 수 있는 대시보드 입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[오퍼레이터 - 현황]의 상담원 별 상태 값을 기반으로 실시간으로 업데이트 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_실시간 상담 현황_250430.png",
+        "height": "919px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/284640/usermedia/6810e335ca70bdb84438",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "카드별 의미"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대기 중 전화"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 전화를 받을 수 있는 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상담원이"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 없어 현재 대기열에서 대기 중인 전화의 수 입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "통화 중 상담원"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 현시간 통화 중인 상담원의 수 입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화 대기 중 상담원"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 전화 상담을 담당하며, 통화 중이나 후처리 중이 아닌 전화 배정이 가능한 상담원의 수 입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화 후처리 중 상담원"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 진행 중인 전화 상담이 있어 현재 전화 배정이 불가능한 상태의 상담원 수 입니다. 진행 중인 전화 상담을 종료하면 전화 대기 중 상담원로 전환됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채팅 중 상담원"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 최근 5분 이내 메시지를 전송하거나 상담 정보를 변경한 상담원의 수 입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "자리 비움 상담원"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": [식사 중, 휴식 중, 회의 중, 교육 중, 다른 업무 중]인 상담원의 수 입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "순서 변경"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카드의 순서를 원하는대로 변경할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_실시간 상담 현황_순서변경_250430.png",
+        "height": "919px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/284640/usermedia/6810e33f4d8b407c517e",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카드를 추가하거나 삭제할 수는 없어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카드의 순서를 변경하면 새 창에도 변경된 순서가 반영돼요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 선택"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화를 받는 팀별로 실시간 상담 현황을 확인할 수 있어요"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_실시간 상담 현황_팀선택_250430.png",
+        "height": "919px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/284640/usermedia/6810e34a4fd7ba744d49",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀을 삭제하면 전화를 받을 수 있는 모든 상담원의 현황을 조회할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "새 창"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 모니터링 대시보드를 새 창으로 열 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "대시보드를 별도의 창으로 띄워 한눈에 확인해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_현황_새 창_260115.png",
+        "height": "919px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/907374/usermedia/69602c18042d0ae1506c",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "새 창의 업데이트 주기는 [전화 현황]과 [실시간] 대시보드의 업데이트 주기를 따릅니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카드의 순서를 변경하면 새 창에도 변경된 순서가 반영돼요"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "새 창을 켠 브라우저 또는 앱을 새로고침 할 경우 새 창을 종료할지 묻는 알림 창이 떠요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "새 창이 꺼지지 않도록 하시려면,"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "브라우저에서 주로 보는 탭(A) 외에 보조 탭(B)에서 채널톡을 새로 열어 보조 탭(B)에서 전화 모니터링 새 창을 켜주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "누적(전화 통계)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "대시보드"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "지정한 기간동안 누적된 전화 통계를 볼 수 있는 대시보드 입니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "복잡한 계산 없이 한 눈에 전화 통계를 확인해보세요"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_누적_대시보드_260115.png",
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/907374/usermedia/69602c29ef9c4e16ef6a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신 응답률"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 총 인입 전화 중, 고객과 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상담원이"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 연결된 전화의 비율입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "서비스 레벨"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 고객이 전화 연결 대기를 시작한 후, 목표 시간 내에 상담원이 전화를 받은 비율입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "발신 응답률"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ":"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상담원이"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 고객에게 전화를 걸었을 때 연결된 전화의 비율입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "평균 대기 시간"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 고객이 전화를 걸었을 때, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상담원이"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 전화를 받기 전까지 기다린 평균 대기 시간입니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "*수신 통화에 대한 통계만 제공됩니다. (startedAt부터 engagedAt 까지의 시간의 평균)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "평균 통화 시간"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 고객과 상담원의 평균 통화 시간입니다. 수신, 발신 모든 통화를 포함합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "평균 후처리 시간"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 조회한 기간동안 전화 상담을 진행한 상담원의 \"전화 후처리 시간\"을 평균한 값입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "시간 단위는 아래와 같은 규칙으로 표기됩니다"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "attrs": {
+                    "start": 1
+                  },
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "24시간 미만 → 00시 00분 00초 (1초 미만 시간 버림)"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "24시간 이상 ~ 744시간(31일) 미만 → N일 N시간"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "31일 이상 ~ 365일 미만 → N개월 N일"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "365일 이상: N년"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "orderedList"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "처리 시간 옆 비교 정보(⬆︎/⬇︎)는 설정한 기간과 동일한 직전 기간 대비 변화 수치를 보여 줍니다. 직전 기간과 변화가 없다면 0, 직전 기간 데이터가 없다면 - 로 표기됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예시) 2025.02.01 - 2025.02.28 기간을 검색했다면, 직전 28일인 2025.01.04 - 2025.01.31 기간과 비교 수치를 보여줍니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "필터링"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기간"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "대시보드를 조회할 기간을 선택합니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "시간"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_누적_필터_시간_250430.png",
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/284640/usermedia/6810e57c0c06eb10024f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전체: 00시 부터 24시까지 조회합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "운영 시간: 저장된 운영 시간을 선택하여 조회합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "자동화 설정이 켜져 있는 [운영 시간]만 선택할 수 있습니다. ("
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "운영 시간 자동화란?"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/%EC%9A%B4%EC%98%81-%EC%84%A4%EC%A0%95-1e33dadc#%EC%9E%90%EB%8F%99%ED%99%94"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ")"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "조회하는 기간 도중에 선택한 [운영 시간]의 설정 시간을 변경한 경우라도, 항상 현재 설정된 시간을 기준으로 조회합니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "시간 지정: 특정 시간을 선택하여 조회합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "예시)조회하는 기간 도중 선택한 [운영 시간]을 변경한 경우"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "운영시간 변경"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "2월 10일: [A운영 시간]을 10시~17시 → "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "9시~17시"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "로 변경"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "2월 13일: [A운영 시간]을 9시~17시 → "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "10시~17시"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "로 변경"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "[A운영 시간] 필터링으로 조회"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "2월 11일에 조회하면 조회기간과 상관없이 "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "9시~17시 기준으로 "
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "조회"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "2월 14일에 조회하면 조회기간과 상관없이  "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "10시~17시 기준으로 "
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "조회"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화번호"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 여러개의 번호를 사용 중이라면, 전화번호 별 통계를 확인할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "평균 후처리 시간"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "은 전화번호 별 조회를 지원하지 않습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_누적_필터_전화번호_250430.png",
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/284640/usermedia/6810e5829ba914fab2eb",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 수"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정한 기간동안의 일별 수신, 발신, 부재중 전화 수 입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_누적_전화 수_250430.png",
+        "height": "502px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/284640/usermedia/6810e3c21b4a0dfa60ce",
+        "width": "780px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 인입된 전화 중 연결된 전화 수"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "부재중:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 인입된 전화 중 연결되지 않은 전화 수"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "IVR 도중 끊어지면 부재중에 포함되지 않음"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "발신:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 고객에게 건 전화 중 연결된 전화 수"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "발신 미연결:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 고객에게 건 전화 중 연결되지 않은 전화 수"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "단, 고객이 받지 않아 음성사서함으로 넘어갔을 때, 삐 소리 이후 소리샘으로 연결된 경우 \"발신\"으로 집계됩니다. 소리샘으로 연결되기 전에 끊은 경우 \"발신 미연결\"로 집계됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "통화 시간"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정한 기간동안의 일별 수신, 발신 통화 시간입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "*조건에 맞는 통화 건들의 평균 시간을 구한 후 초 미만 단위는 버림하여 제공합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_누적_통화 시간_250430.png",
+        "height": "502px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/284640/usermedia/6810e3c99cc295aebce1",
+        "width": "780px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "시간대별 전화 유입량"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정한 기간동안의 시간대별 인입된 전화의 수입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "시간대별 비율과 직전 동일 기간과의 증감율을 함께 확인해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_누적_시간대별 전화 유입량.png",
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/168789/usermedia/67adcfab71265d658847",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "부재중 전화 유형별 유입량"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정한 기간동안의 부재중 전화 유형별 수입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "유형별 비율과 직전 동일 기간과의 증감율을 함께 확인해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_누적_부재중 전화 유형별 유입량_250430.png",
+        "caption": {
+          "content": [
+            {
+              "attrs": {
+                "text": "위 이미지는 예시로, 모든 부재중 전화 종류 및 정의는 [전화 통계 다운로드_데이터 항목 별 의미] 중 \"부재중 사유\"의 비고란 내용을 확인해주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/284868/usermedia/68118741a37d41cb21b9",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 통계 데이터 다운로드"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "\b전화 상담 데이터를 엑셀 파일로 다운로드 해보세요. 전화 상담 데이터를 가공하여 확인할 수 있도록 엑셀 파일로 제공합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 모니터링_누적_데이터 다운로드_250430.png",
+        "height": "1004px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/68567/revisions/284640/usermedia/6810e57243fbc5bc5ba7",
+        "width": "1558px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "데이터 항목 별 의미"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터 값"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비고"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "id"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "meet id"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전화/영상/음성 미트에 부여되는 id입니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatId"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유저챗의 고유 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "startedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전화가 인입된 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- 수신 시 IVR이 설정되어있는 경우, IVR 시작 시간 부터 집계"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "*초 미만 단위는 버림하여 제공"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "endedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전화가 종료된 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "*초 미만 단위는 버림하여 제공"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "engagedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전화가 연결된 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "*초 미만 단위는 버림하여 제공"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "from"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "발신자 번호"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "to"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "수신자 번호"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "direction"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "인/아웃바운드 콜 구분"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- inbound : 수신 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- outbound : 발신"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- missed: 부재중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "missedReason"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "부재중 사유"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- notInOperation: 운영시간 아님"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- noOperator: 모든 상담원 미트중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- abandonedInQueue: 대기열 최대 대기시간 초과"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- ringTimeOver: 링 시간 초과"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- userleft: 고객의 전화 종료"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- exceededQueue: 최대 대기열 수 초과"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- workflow: 워크플로우로 전화 종료"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상세 설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- notInOperation: 운영시간이 아닐 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- noOperator: 전화 가능한 상담원이 없을 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- abandonedInQueue: 대기열에서 1시간 대기 후 끊어졌을 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- ringTimeOver: 상담원에게 배정된 후 링타임이 초과되었을 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- userleft: 고객이 먼저 끊었을 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- exceededQueue: 대기열 내에서 대기할 수 있는 고객수(200개)를 초과했을 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- workflow: workflow 액션을 통해 종료되었을 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "duration"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "총 통화시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "=endedAt - engagedAt"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "*초 미만 단위는 버림하여 제공"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "type"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유형"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- call : 전화 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- frontMeet : 고객과 상담원 간 진행된 음성 또는 영상 미트"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "primaryNumber"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채널톡에서 발급 받은 원번호"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "representativeNumber"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "RID(발신 번호 변경)한 번호"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "(→ 발신 번호 변경 신청하기)"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        },
+                        {
+                          "attrs": {
+                            "href": "https://root.channel.io/workflows/744813"
+                          },
+                          "type": "hyperlink"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "firstWaitingStartedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객이 연결 대기음을 듣기 시작한 시간"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "(IVR 종료 후) 고객이 전화 연결 대기를 시작한 시간입니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "고객이 연결까지 대기한 시간 = engagedAt - firstWaitingStartedAt"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "\"고객이 연결까지 대기한 시간\"은 "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "서비스 레벨"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": " 준수 여부의 판단 기준입니다."
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "*초 미만 단위는 버림하여 제공되므로, 엑셀에서 직접 계산 시 실제 준수 여부와 다를 수 있습니다. "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "firstRingStartedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "링이 울리기 시작한 시간"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "팀 멤버에게 링이 울리기 시작한 시간입니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "연결까지 링이 울린 시간 = engagedAt - firstRingStartedAt"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "\"링이 울린 시간\"은 "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "응답 속도 준수"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": " 여부의 판단 기준입니다."
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "*초 미만 단위는 버림하여 제공되므로, 엑셀에서 직접 계산 시 실제 준수 여부와 다를 수 있습니다. "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "120",
+    "name": "Nacho",
+    "bio": "CX 팀 데이터 분석\n& 미트 오퍼레이션"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/6810e23132d98faddf97",
+  "linked_faqs": [
+    {
+      "id": "53509",
+      "question": "전화 모니터링 탭에서 전화 상담을 태그 별로 모아서 볼 수도 있나요?",
+      "answer_plaintext": "아니요. 아직 태그별 대시보드는 제공되지 않아요.\n[상담 통계]탭에서 [연동 서비스_전화]로 필터를 걸어 태그별 유입량을 조회하실 수 있고, 상담 데이터 다운로드 후 [UserChat data] 시트의 tags 항목과 [UserChat meet data] 시트를 비교하여 간접적으로 확인해보실 수 있어요."
+    },
+    {
+      "id": "53551",
+      "question": "전화 모니터링 탭에서 엑셀로 다운 받은 데이터로 직접 계산한 평균 통화 시간과 모니터링 대시보드에 나온 평균 통화 시간이 서로 달라요",
+      "answer_plaintext": "엑셀 파일의 시간 데이터는 실제 데이터에서 초 미만 단위를 버림하여 제공하고, 대시보드 평균 시간은 실제 데이터를 평균낸 후 초 미만 단위를 버림하여 제공합니다.\n따라서 엑셀로 직접 계산할 경우 최대 1초의 편차가 발생할 수 있으며, 대시보드의 값보다 항상 작거나 같습니다.\n- 예시) 실제 통화시간 : 1분 1.5초, 2분 1.9초, 2분 3.2초 인 경우\n  엑셀 데이터 통화시간 : 1분 1초, 2분 1초, 2분 3초 로 제공 → 평균 계산 시 1분 41.6초\n  대시보드 평균 통화시간 : 1분 42.2초 → 1분 42초로 제공"
+    },
+    {
+      "id": "53552",
+      "question": "전화 통계에서 평균 후처리 시간을 전화번호 별로 필터링해서 볼 수도 있나요?",
+      "answer_plaintext": "평균 후처리 시간은 전화 상담을 진행한 매니저의 오퍼레이터 상태값 중 \"전화 후처리 중\" 시간을 토대로 계산하므로, 전화번호로 구분되지 않습니다.\n오퍼레이터 상태란?(바로가기)"
+    },
+    {
+      "id": "220520",
+      "question": "엑셀로 직접 계산한 '서비스 레벨' 지표가 대시보드에 표기된 수치와 맞지 않아요.",
+      "answer_plaintext": "엑셀과 대시보드 수치가 다른 이유는 '밀리초(ms) 처리 로직' 때문입니다. 서버는 밀리초 단위까지 정밀 계산 후 소수점을 버리지만, 엑셀은 초 단위 미만이 생략되어 오차가 발생할 수 있습니다.\n\n💡 예시 (기준 20초)\n- 서버: 시작(09.6초), 연결(30.1초) → 차이 20.5초 → 20초 판정 (준수)\n- 엑셀: 시작(09초), 연결(30초) → 차이 21초 계산 (미준수)\n\nfirstWaitingStartedAt, engagedAt, firstRingStartedAt 등 주요 지표는 서버에 밀리초 단위로 기록됩니다. 정확한 분석을 위해 대시보드 수치를 최종 지표로 참고해 주세요. 직접 계산 시에는 위와 같은 로직 차이가 발생할 수 있음을 유의 바랍니다."
+    }
+  ],
+  "faq_count": 4
+}

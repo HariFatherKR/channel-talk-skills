@@ -1,0 +1,1109 @@
+{
+  "id": "332351",
+  "url": "https://docs.channel.io/help/ko/articles/%EA%B7%9C%EC%B9%99-b43e19a1",
+  "title": "규칙",
+  "summary": "규칙은 ALF가 비즈니스의 상황에 딱 맞게 상담을 진행할 수 있도록 팀 멤버가 미리 작성하는 지시문(프롬프트) 입니다. 상황별 다양한 규칙을 설정해보세요.",
+  "plaintext": "규칙이란?\n알프가 비즈니스의 상황에 딱 맞게 상담을 진행할 수 있도록 미리 작성하는 지시문(프롬프트) 입니다.\nALF가 따라야 할 규칙을 작성해두면 더 정확하고 똑똑하게 답변합니다. 여러개의 규칙을 설정할 수 있고 필터링을 통해 문의 유형, 고객 정보, 상황에 따라 다른 규칙 적용이 가능합니다.\n기존에 있던 ‘역할 설명’, ‘맞춤형 설명’, ‘용어사전’ 기능이 모두\n규칙\n으로 통합되었습니다.\n규칙 작성하기\n하나의 채널에 여러개의 규칙을 만들 수 있어요.\n각 규칙은 작동중, 비공개 상태로 선택하여 관리할 수 있어 상황에 따라 다른 규칙을 적용하기 용이합니다.\n예시)\n일반 문의에서 ALF의 톤앤매너 규칙\n고객 컴플레인시 대응 방법\n고객이 자주 묻는 재질문 리스트\n버그 리포트시 조치 방법 규칙\n필터 설정을 통해 규칙이 동작할 특정 조건을 설정할 수 있어요.\n필터링\n예시\n고객 정보\n- 접속 국가가 KR인 고객\n- 고객 등급이 VVIP인 고객\n상담 정보\n- 상담 태그에 ‘컴플레인’이 부착되어있는 상담\n- 상담 우선순위가 ‘높음’인 상담\n동작할 서비스\n- 채널톡 메시지, 카카오 상담톡, 네이버 톡톡, 전화 등 특정 연동 서비스에서만 동작하는 규칙\n규칙에 개인화 변수를 포함할 수 있어요.\n규칙 화면 하단의 {⋅⋅⋅} 아이콘 클릭 또는 단축키 앳(@)을 입력해 실행합니다.\n채널톡에 저장된 고객 정보를 읽고 맞춤형 답변이 가능해요.\n규칙으로 상담 처리 액션을 수행할 수 있어요.\n규칙 화면 하단의 {⋅⋅⋅} 아이콘 클릭 또는 단축키 앳(@)을 입력해 실행합니다.\n팀 배정, 담당자 배정, 팔로워 설정, 고객 태그 설정, 상담 태그 설정 액션을 지원합니다.\n활용 예시\n배송 지연, 배송 일자, 운송장 조회 등 배송 관련 표현이 감지되면\n상담 태그 설정: 배송\n을 실행합니다.\n제품 불량, 제품 파손 표현이 감지되면\n팀 배정: 상품검수팀\n을 실행합니다.\n리뷰 이벤트 문의 시\n고객 태그 설정: 리뷰이벤트문의\n를 실행합니다.\n규칙 미리보기\n미리보기를 통해 고객 공개 전에 규칙이 의도대로 잘 적용되는지 테스트할 수 있습니다. 고객에게 적용되기 전, 충분히 테스트해보며 규칙을 수정할 수 있도록 하는 안전장치에요.\n미리보기에서는\n[작동중]\n상태의 규칙,\n미리보기 채팅이 시작되는 시점에 펼쳐져있는 규칙\n만 답변에 적용됩니다.\n고객 화면 미리보기\n고객 문의 화면(프론트)과 동일한 환경을 미리볼 수 있습니다.\nALF가 어떤 생각 과정을 통해 답변을 작성했는지 상세하게 확인할 수 있습니다.\n채널톡 관리자 화면 (데스크 수신함) 과 동일한 환경을 미리볼 수 있습니다.\n대화 로그 미리보기\n각 답변에 어떤 규칙이 적용되었는지 자세히 확인할 수 있습니다.\n태스크가 실행되어야 할 때를 로그를 통해 확인할 수 있습니다. 미리보기에서는 태스크가 실제로 트리거 되지는 않습니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "규칙이란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "알프가 비즈니스의 상황에 딱 맞게 상담을 진행할 수 있도록 미리 작성하는 지시문(프롬프트) 입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "ALF가 따라야 할 규칙을 작성해두면 더 정확하고 똑똑하게 답변합니다. 여러개의 규칙을 설정할 수 있고 필터링을 통해 문의 유형, 고객 정보, 상황에 따라 다른 규칙 적용이 가능합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "규칙이란.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332351/revisions/536235/usermedia/68c1445ce1ac12e67712",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "기존에 있던 ‘역할 설명’, ‘맞춤형 설명’, ‘용어사전’ 기능이 모두 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "규칙"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "으로 통합되었습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "규칙 작성하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "하나의 채널에 여러개의 규칙을 만들 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "각 규칙은 작동중, 비공개 상태로 선택하여 관리할 수 있어 상황에 따라 다른 규칙을 적용하기 용이합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "일반 문의에서 ALF의 톤앤매너 규칙"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객 컴플레인시 대응 방법"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객이 자주 묻는 재질문 리스트"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "버그 리포트시 조치 방법 규칙"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "규칙 작성하기_1.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332351/revisions/536235/usermedia/68c2ab2ebd622d2b588a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터 설정을 통해 규칙이 동작할 특정 조건을 설정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "규칙 작성하기_2.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332351/revisions/536235/usermedia/68c2a9c9137e576dae81",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "필터링"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예시"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객 정보"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- 접속 국가가 KR인 고객 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- 고객 등급이 VVIP인 고객"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 정보"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- 상담 태그에 ‘컴플레인’이 부착되어있는 상담"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- 상담 우선순위가 ‘높음’인 상담"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "동작할 서비스"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- 채널톡 메시지, 카카오 상담톡, 네이버 톡톡, 전화 등 특정 연동 서비스에서만 동작하는 규칙"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "규칙에 개인화 변수를 포함할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "규칙 화면 하단의 {⋅⋅⋅} 아이콘 클릭 또는 단축키 앳(@)을 입력해 실행합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡에 저장된 고객 정보를 읽고 맞춤형 답변이 가능해요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "규칙 작성하기_3 (1).png",
+        "height": "1168px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332351/revisions/1048135/usermedia/6977296fa73fa00f2d02",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 4
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "규칙으로 상담 처리 액션을 수행할 수 있어요. "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "규칙 화면 하단의 {⋅⋅⋅} 아이콘 클릭 또는 단축키 앳(@)을 입력해 실행합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "팀 배정, 담당자 배정, 팔로워 설정, 고객 태그 설정, 상담 태그 설정 액션을 지원합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "규칙 작성하기_4.png",
+        "height": "954px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332351/revisions/1048135/usermedia/6977299caa43ef056560",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "배송 지연, 배송 일자, 운송장 조회 등 배송 관련 표현이 감지되면 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상담 태그 설정: 배송"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 실행합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "제품 불량, 제품 파손 표현이 감지되면 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "팀 배정: 상품검수팀"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 실행합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "리뷰 이벤트 문의 시 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "고객 태그 설정: 리뷰이벤트문의"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 실행합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "규칙 미리보기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "미리보기를 통해 고객 공개 전에 규칙이 의도대로 잘 적용되는지 테스트할 수 있습니다. 고객에게 적용되기 전, 충분히 테스트해보며 규칙을 수정할 수 있도록 하는 안전장치에요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미리보기에서는 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "[작동중]"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 상태의 규칙, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "미리보기 채팅이 시작되는 시점에 펼쳐져있는 규칙"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "만 답변에 적용됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 화면 미리보기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 문의 화면(프론트)과 동일한 환경을 미리볼 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "ALF가 어떤 생각 과정을 통해 답변을 작성했는지 상세하게 확인할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 관리자 화면 (데스크 수신함) 과 동일한 환경을 미리볼 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "규칙_미리보기_고객화면.png",
+        "height": "920px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332351/revisions/536235/usermedia/68c2a9e58fe93e04653f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "대화 로그 미리보기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "각 답변에 어떤 규칙이 적용되었는지 자세히 확인할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "태스크가 실행되어야 할 때를 로그를 통해 확인할 수 있습니다. 미리보기에서는 태스크가 실제로 트리거 되지는 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "규칙_미리보기_대화로그.png",
+        "height": "920px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332351/revisions/536235/usermedia/68c2a9eb3835b3affed7",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "61",
+    "name": "Beige",
+    "bio": "Minji Jeon, CX manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/68fa022c790b9249f408",
+  "linked_faqs": [],
+  "faq_count": 0
+}

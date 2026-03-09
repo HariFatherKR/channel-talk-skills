@@ -1,0 +1,870 @@
+{
+  "id": "96",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80-%EB%A9%A4%EB%B2%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%84%A4%EC%A0%95-e7941ce4",
+  "title": "팀 멤버 프로필 설정",
+  "summary": "팀 멤버의 프로필을 수정해보세요. 브랜드의 이미지를 맞추기 위해 동일한 느낌으로 설정하거나 개인의 개성을 강조하는 이미지로 설정하실 수 있습니다.",
+  "plaintext": "영상으로 배우고 싶다면?\n팀 멤버 프로필\n채널 관리자 왼쪽의 [팀 멤버 프로필 아이콘 클릭] → [개인 설정]에서 프로필 및 알림에 대한 설정을 할 수 있습니다.\n프로필\n고객과 팀 멤버에게 보여지는 프로필을 설정할 수 있습니다. (번역 추가에 관하여 확인하고 싶다면?\n→ 다른 언어 설정 가이드 확인하기)\n연락처\n입력한 휴대폰 번호와 이메일은 팀 멤버 프로필에서 표시되며, 다른 팀 멤버들이 확인할 수 있습니다.\n사용자 지정 정보\n추가적으로 필요한 정보는 사용자 지정 정보에서 [+ 새 정보 추가]를 눌러 추가할 수 있습니다. 추가한 정보는 다른 팀 멤버들이 확인할 수 있어요.\n고객에게 공개\n입력한 프로필 설명, 휴대폰 번호, 이메일을 공개 여부를 설정할 수 있어요. 모든 정보를 공개했을 때, 고객이 팀 멤버 프로필을 클릭하면 아래 이미지처럼 보여집니다.\n모든 정보를 비공개로 하시면, 고객이 상담창에서 팀 멤버 프로필을 클릭할 수 없습니다.\n수신함\n채널 프로필로 응대\n오퍼레이터 시트를 가지고 있다면 팀 멤버의 프로필이 아닌 채널의 프로필로 고객 상담을 응대할 수 있습니다. 브랜드의 통일된 이미지로 응대를 원하신다면 이 기능을 사용해주세요.\n채널 프로필로 응대를 사용할 때, 채널 프로필 아이콘에 마우스를 올리면 상담한 팀 멤버의 프로필이 나타납니다.\n상담 배정\n응대할 상담 유형과 자동 배정 방식을 설정할 수 있어요. 수동 배정이나 워크플로우를 통한 담당자 배정(팀 배정이 아닌)과 수신함 조회에는 영향을 주지 않아요.\n상담 유형:\n선택한 유형의 상담에 대해서 상담 자동 배정을 받을 수 있어요.\n최대 자동 배정 수:\n설정한 개수에 도달할 때까지 '채팅' 상담이 자동 배정됩니다.('전화' 상담의 최대 자동 배정 수는 1개입니다.)\n통화 중 채팅 배정:\n통화 중 채팅 배정을 켜면 오퍼레이터 상태가 통화 중, 미트 중, 통화 후처리 중이더라도 '채팅' 상담은 자동 배정됩니다.\n로그 표시\n상담의 열림/닫힘 상태나 워크플로우 실행 기록 등은 회색 글씨로 된 시스템 메시지로 수신함의 대화창에 표시됩니다. 각 팀 멤버는 이러한 로그 메시지를 항상 펼쳐서 볼지, 접어둘지를 팀 멤버 설정에서 선택할 수 있습니다.\n테마\n고객 화면도, 팀 멤버 화면도 모두 다크모드 설정이 가능해요.\n→ 고객 화면 테마 설정하는 법 확인하기\n시스템 설정에 따라, 라이트 테마, 다크 테마로 적용 가능하며, [시스템 설정에 따라]로 설정하신 경우 팀 멤버의 시스템(브라우저) 설정을 따라가게 됩니다.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 1분\n• 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/고객에게-보여지는-내-프로필-설정하기-4cb17f50",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad8bf05084cb679f5b/tmp-3842113108.png",
+        "title": "고객에게 보여지는 내 프로필 설정하기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버 프로필"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널 관리자 왼쪽의 [팀 멤버 프로필 아이콘 클릭] → [개인 설정]에서 프로필 및 알림에 대한 설정을 할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "팉멤버프로필설정_팀멤버프로필_251222_캡처.png",
+        "height": "1046px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/96/revisions/579352/usermedia/694940b5b14c05481dfb",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "프로필"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객과 팀 멤버에게 보여지는 프로필을 설정할 수 있습니다. (번역 추가에 관하여 확인하고 싶다면? "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "→ 다른 언어 설정 가이드 확인하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            },
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/f6b84106"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "매니저프로필설정_프로필_250108 (4).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/96/revisions/135583/usermedia/677f261e8f755039db98",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연락처"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "입력한 휴대폰 번호와 이메일은 팀 멤버 프로필에서 표시되며, 다른 팀 멤버들이 확인할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "매니저프로필설정_연락처_250108 (3).png",
+        "height": "864px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/96/revisions/135583/usermedia/677f25ee3727a9a0a37f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "사용자 지정 정보"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "추가적으로 필요한 정보는 사용자 지정 정보에서 [+ 새 정보 추가]를 눌러 추가할 수 있습니다. 추가한 정보는 다른 팀 멤버들이 확인할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "매니저프로필설정_사용자지정정보.png",
+        "height": "920px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/96/revisions/190181/usermedia/67bd8abe68fca3771229",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객에게 공개"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "입력한 프로필 설명, 휴대폰 번호, 이메일을 공개 여부를 설정할 수 있어요. 모든 정보를 공개했을 때, 고객이 팀 멤버 프로필을 클릭하면 아래 이미지처럼 보여집니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "매니저프로필_공개",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/96/revisions/283/usermedia/662b0fbe2f7dd6aee186"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "모든 정보를 비공개로 하시면, 고객이 상담창에서 팀 멤버 프로필을 클릭할 수 없습니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "수신함"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "팀멤버프로필설정_수신함.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/96/revisions/579352/usermedia/694940bf8ccb990e3534",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널 프로필로 응대"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 시트를 가지고 있다면 팀 멤버의 프로필이 아닌 채널의 프로필로 고객 상담을 응대할 수 있습니다. 브랜드의 통일된 이미지로 응대를 원하신다면 이 기능을 사용해주세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널 프로필로 응대를 사용할 때, 채널 프로필 아이콘에 마우스를 올리면 상담한 팀 멤버의 프로필이 나타납니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/96/revisions/283/usermedia/662b0fbe985244c1bed9"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 배정 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "응대할 상담 유형과 자동 배정 방식을 설정할 수 있어요. 수동 배정이나 워크플로우를 통한 담당자 배정(팀 배정이 아닌)과 수신함 조회에는 영향을 주지 않아요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 유형:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 선택한 유형의 상담에 대해서 상담 자동 배정을 받을 수 있어요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최대 자동 배정 수:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 설정한 개수에 도달할 때까지 '채팅' 상담이 자동 배정됩니다.('전화' 상담의 최대 자동 배정 수는 1개입니다.)   "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "통화 중 채팅 배정:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 통화 중 채팅 배정을 켜면 오퍼레이터 상태가 통화 중, 미트 중, 통화 후처리 중이더라도 '채팅' 상담은 자동 배정됩니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "팀멤버프로필설정_로그표시.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/96/revisions/579352/usermedia/694940c67068e4df5967",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "로그 표시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담의 열림/닫힘 상태나 워크플로우 실행 기록 등은 회색 글씨로 된 시스템 메시지로 수신함의 대화창에 표시됩니다. 각 팀 멤버는 이러한 로그 메시지를 항상 펼쳐서 볼지, 접어둘지를 팀 멤버 설정에서 선택할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "테마"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "고객 화면도, 팀 멤버 화면도 모두 다크모드 설정이 가능해요. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "→ 고객 화면 테마 설정하는 법 확인하기"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                },
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/94f34984"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "시스템 설정에 따라, 라이트 테마, 다크 테마로 적용 가능하며, [시스템 설정에 따라]로 설정하신 경우 팀 멤버의 시스템(브라우저) 설정을 따라가게 됩니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/96/revisions/283/usermedia/662b0fbed685fd014ca0"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eecee051e1128f1",
+  "linked_faqs": [
+    {
+      "id": "51257",
+      "question": "채널톡 앱의 자동 실행 어떻게 끄나요?",
+      "answer_plaintext": "- Windows: [채널톡 PC 앱 실행] → [좌측 상단 채널톡 버튼] → [시작 프로그램으로 등록]을 Off해주세요.\n- Mac: [채널톡 PC 앱 실행] → [PC 상단의 Channel.io 클릭] → [로그인 시 열기]를 체크 해제해주세요."
+    }
+  ],
+  "faq_count": 1
+}

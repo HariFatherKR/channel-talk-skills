@@ -1,0 +1,1599 @@
+{
+  "id": "38",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%88%98%EC%8B%A0%ED%95%A8-%EC%97%B0%EB%8F%99-3011c95f",
+  "title": "수신함 연동",
+  "summary": "이메일 수신함과 채널톡을 연동해보세요. 고객이 보낸 메일도 채널톡에서 응대할 수 있어 채널톡 하나로 고객문의를 관리할 수 있습니다.",
+  "plaintext": "연동 방법\n설정 경로: [채널 설정] - [연동] - [이메일] - [수신함 연동 설정] 클릭\n채널톡 수신 이메일 주소를 복사해주세요.\n사용하시는 메일 업체에서 메일 전달 (포워딩 설정)을 진행해주시면 됩니다.\n이전 이메일 상담 이어가기\n상담이 종료된 후 고객이 고객이 설정한 시간 내에 답변을 보내면 새 상담이 열리지 않아요.\n기존 상담창이 다시 열려 하나의 상담에서 대화를 이어갈 수 있어요.\n설정\nOFF(끔)\n고객이 종료된 상담에 회신을 하는 경우, 새로운 창으로 상담이 열립니다.\nON(켬): 상담 종료 후 설정된 시간 안에 회신 온 이메일은 이전 창에서 상담이 이어집니다.\n설정시간을 변경하지 않으면 기본 설정인 3일로 적용됩니다.\n설정 시간\n항상: 동일 고객과는 하나의 상담이 열린 후 항상 이전 상담이 다시 열립니다.\n분: 1 ~ 99분\n시간: 1 ~ 99시간\n일: 1 ~ 90\n적용 시점\n2026.01.28 이전 생성 채널\n자동으로 적용되지 않아 사용을 원하시는 경우\n수동으로 활성화\n해야 합니다.\n외부 메일함에서 포워딩 설정\n외부로 메일 전달하기 기능을 지원하지 않는\n네이버, 다음 메일은 이메일 연동 기능을 사용할 수 없습니다.\nGmail 연동하기\n자세한 활용 방법은\nGmail 가이드를 참고해주세요.\n우측 상단의 [설정] - [모든 설정 보기] 를 클릭해주세요.\n[전달 및 POP/IMAP] 메뉴 클릭 후 [전달 주소 추가]를 클릭해주세요.\n채널톡에서 복사한 이메일 주소를 입력해주세요.\n연동을 위한 확인 링크가 채널톡으로 전송됩니다. 수신함에서 링크 클릭하여 연동 확인 버튼을 눌러 주세요.\n메일 [전달 및 POP/IMAP] 메뉴에서도 전달 설정을 체크한 후, 하단의 [변경사항 저장]을 클릭해주세요.\nOutlook 연동 방법\n자세한 활용 방법은\nOutlook 가이드 를 참고해주세요.\n우측 상단의 [설정] - [모든 Outlook 설정 보기]를 클릭해주세요.\n[전달 사용]을 클릭 후 복사한 이메일 주소를 넣어주세요.\n수신함에서 이메일 확인하기\n워크플로우를 설정하신 경우, 메일을 통해 인입된 상담에도 동작하게 됩니다.\n메일로 인입된 상담에 워크플로우에서 설정한 내용이 적용되는걸 원치 않으신다면,  필터링 조건의 [연동앱 필터링]에서 이메일은 Off 처리해주시면 됩니다.\n메일 상담이 인입되면 수신함에 메일 아이콘과 함께 표시됩니다. 메일의 제목은 유저챗의 타이틀로 설정되어 표시됩니다.\n이메일 원본보기를 사용하면 테이블, css 스타일링 등 이메일 클라이언트에서 보이는 형태와 유사한 모습을 확인할 수 있습니다. HTML와 Source 두가지 정보를 함께 제공합니다.\n채팅창에 답변을 남기면, 해당 메시지가 메일로 전송됩니다.\n고객이 메일에 답변을 할 경우, 상담창으로 답변 메일이 전달됩니다.\n상담이 종료된 상태일 때, 고객이 이메일로 답변 시 새 상담으로 열립니다.\n팀 멤버는 종료된 이메일 상담을 다시 열 수 없습니다.\n발신 메일의 주소는 도메인 인증 여부에 따라 달라집니다. 도메인 인증 여부는 [채널 설정] - [연동] - [이메일] - [발신 설정] 에서 확인할 수 있어요.\n(→ 이메일 DNS 연동방법 보러가기)\n메일을 보낸 사람의 이름 및 이메일 주소가 채널톡 고객정보에 저장됩니다.\n고객 연락처에 일치하는 검증된 이메일이 있는 경우, 동일한 고객으로 판단하여 대화 내역 및 정보가 연동됩니다.\n고객 연락처에 일치하는 이메일이 없는 경우, 새로운 리드가 생성됩니다.\n외부로 이메일 전달하기\n고객과 채널톡에서 주고받은 대화를 외부 이메일로 전달하고 싶을 때, 해당 기능을 사용해주세요.\n고객에게 먼저 이메일 보내기\n상담사는 고객 메일에 답장할 뿐 아니라, 먼저 이메일을 보낼 수도 있어요. 적절한 제목과 메시지를 입력해 상담을 시작해 보세요.\n① 고객 연락처 목록에서 보내는 방법\n'이메일'에 위에 마우스를 올리면 '이메일 보내기' 아이콘이 뜹니다. 이를 클릭하여 이메일을 보낼 수 있어요.\n② 고객 프로필에서 보내는 방법\n'새 대화' 아이콘을 클릭하여, 이메일을 보낼 수 있어요.\n③  수신함에서 보내는 방법\n우측 고객 정보에서 '이메일'에 위에 마우스를 올리면 '이메일 보내기' 아이콘이 뜹니다. 이를 클릭하여 이메일을 보낼 수 있어요.\n자주 묻는 질문\n워크플로우 자동 메시지가 이메일 상담에는 동작하지 않게 하고 싶어요\n메일로 인입된 상담에 워크플로우가 작동되지 않도록 하려면, 필터링 조건에서 [연동앱 필터링]을 선택하고 이메일을 Off로 설정하시면 됩니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [연동] - [이메일] - [수신함 연동 설정] 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 수신 이메일 주소를 복사해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사용하시는 메일 업체에서 메일 전달 (포워딩 설정)을 진행해주시면 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "이메일_수신함_이메일 상담 이어가기 1 (1).png",
+        "height": "840px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/731067/usermedia/69733d34b57606c8c98e",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이전 이메일 상담 이어가기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담이 종료된 후 고객이 고객이 설정한 시간 내에 답변을 보내면 새 상담이 열리지 않아요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "기존 상담창이 다시 열려 하나의 상담에서 대화를 이어갈 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "이메일_수신함_상담설정.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/731067/usermedia/69734144c21a9ecea87f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "OFF(끔)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객이 종료된 상담에 회신을 하는 경우, 새로운 창으로 상담이 열립니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "ON(켬): 상담 종료 후 설정된 시간 안에 회신 온 이메일은 이전 창에서 상담이 이어집니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "설정시간을 변경하지 않으면 기본 설정인 3일로 적용됩니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "설정 시간"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "항상: 동일 고객과는 하나의 상담이 열린 후 항상 이전 상담이 다시 열립니다."
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "분: 1 ~ 99분"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "시간: 1 ~ 99시간"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "일: 1 ~ 90"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "적용 시점"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2026.01.28 이전 생성 채널 "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "자동으로 적용되지 않아 사용을 원하시는 경우 "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "수동으로 활성화"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": " 해야 합니다. "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "외부 메일함에서 포워딩 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "외부로 메일 전달하기 기능을 지원하지 않는 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "네이버, 다음 메일은 이메일 연동 기능을 사용할 수 없습니다."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Gmail 연동하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "자세한 활용 방법은 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "Gmail 가이드를 참고해주세요."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://support.google.com/mail/answer/10957?hl=ko#zippy=%2C%EC%9E%90%EB%8F%99-%EC%A0%84%EB%8B%AC-%EC%82%AC%EC%9A%A9-%EB%98%90%EB%8A%94-%EC%82%AC%EC%9A%A9-%EC%A4%91%EC%A7%80"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "우측 상단의 [설정] - [모든 설정 보기] 를 클릭해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/109/usermedia/662b1037b3a7417c0668"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[전달 및 POP/IMAP] 메뉴 클릭 후 [전달 주소 추가]를 클릭해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/109/usermedia/662b1037e59635d642a0"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡에서 복사한 이메일 주소를 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/109/usermedia/662b1038219d1f6a9481"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동을 위한 확인 링크가 채널톡으로 전송됩니다. 수신함에서 링크 클릭하여 연동 확인 버튼을 눌러 주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "이메일_수신함_5_수정 (1).png",
+                "height": "738px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/688829/usermedia/690c65d2c43fdaf239c0",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "attrs": {
+                "alt": "이메일_수신함_5_수정_2.png",
+                "height": "512px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/688829/usermedia/690c65d8978d796d3bab",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메일 [전달 및 POP/IMAP] 메뉴에서도 전달 설정을 체크한 후, 하단의 [변경사항 저장]을 클릭해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/109/usermedia/662b103873364ce0eab8"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Outlook 연동 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "자세한 활용 방법은 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "Outlook 가이드 를 참고해주세요."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://support.office.live.com/ko-kr/article/outlook-com%ec%97%90%ec%84%9c-%ec%9e%90%eb%8f%99-%ec%a0%84%eb%8b%ac-%ec%bc%9c%ea%b1%b0%eb%82%98-%eb%81%84%ea%b8%b0-6246987c-6c8f-4144-b255-14fc07007dad?ns=OLWACB&version=16&ui=ko-KR&rs=ko-KR&ad=KR"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "우측 상단의 [설정] - [모든 Outlook 설정 보기]를 클릭해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/109/usermedia/662b1038a1a9ac4d7c40"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[전달 사용]을 클릭 후 복사한 이메일 주소를 넣어주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/109/usermedia/662b1038cc64a5e18536"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "수신함에서 이메일 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "워크플로우를 설정하신 경우, 메일을 통해 인입된 상담에도 동작하게 됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "메일로 인입된 상담에 워크플로우에서 설정한 내용이 적용되는걸 원치 않으신다면,  필터링 조건의 [연동앱 필터링]에서 이메일은 Off 처리해주시면 됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/109/usermedia/662b10390d5c8d44d886"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메일 상담이 인입되면 수신함에 메일 아이콘과 함께 표시됩니다. 메일의 제목은 유저챗의 타이틀로 설정되어 표시됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이메일 원본보기를 사용하면 테이블, css 스타일링 등 이메일 클라이언트에서 보이는 형태와 유사한 모습을 확인할 수 있습니다. HTML와 Source 두가지 정보를 함께 제공합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/109/usermedia/662b10394ab4e30af8c7"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채팅창에 답변을 남기면, 해당 메시지가 메일로 전송됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객이 메일에 답변을 할 경우, 상담창으로 답변 메일이 전달됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담이 종료된 상태일 때, 고객이 이메일로 답변 시 새 상담으로 열립니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "팀 멤버는 종료된 이메일 상담을 다시 열 수 없습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "icon": "round_pushpin"
+                      },
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "발신 메일의 주소는 도메인 인증 여부에 따라 달라집니다. 도메인 인증 여부는 [채널 설정] - [연동] - [이메일] - [발신 설정] 에서 확인할 수 있어요. "
+                              },
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "(→ 이메일 DNS 연동방법 보러가기)"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "href": "https://docs.channel.io/help/ko/articles/70153772"
+                                  },
+                                  "type": "hyperlink"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "callout"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메일을 보낸 사람의 이름 및 이메일 주소가 채널톡 고객정보에 저장됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객 연락처에 일치하는 검증된 이메일이 있는 경우, 동일한 고객으로 판단하여 대화 내역 및 정보가 연동됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객 연락처에 일치하는 이메일이 없는 경우, 새로운 리드가 생성됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "외부로 이메일 전달하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객과 채널톡에서 주고받은 대화를 외부 이메일로 전달하고 싶을 때, 해당 기능을 사용해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/109/usermedia/662b1039705fceb72ea3"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객에게 먼저 이메일 보내기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담사는 고객 메일에 답장할 뿐 아니라, 먼저 이메일을 보낼 수도 있어요. 적절한 제목과 메시지를 입력해 상담을 시작해 보세요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "이메일_수신함_제목설정.png",
+        "height": "780px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/595982/usermedia/68d659b4a431ab23ebbf",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "① 고객 연락처 목록에서 보내는 방법"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'이메일'에 위에 마우스를 올리면 '이메일 보내기' 아이콘이 뜹니다. 이를 클릭하여 이메일을 보낼 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "이메일_수신함_고객연락처목록에서보내기.png",
+        "height": "780px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/595982/usermedia/68d6584a23c9d5c2bd28",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "② 고객 프로필에서 보내는 방법"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'새 대화' 아이콘을 클릭하여, 이메일을 보낼 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "이메일_수신함_고객프로필에서보내기.png",
+        "height": "780px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/595982/usermedia/68d658624464ae2fca10",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "이메일_수신함_고객프로필에서보내기2.png",
+        "height": "780px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/595982/usermedia/68d658678fd3d2fa15ee",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "③  수신함에서 보내는 방법"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "우측 고객 정보에서 '이메일'에 위에 마우스를 올리면 '이메일 보내기' 아이콘이 뜹니다. 이를 클릭하여 이메일을 보낼 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "이메일_수신함_수신함에서보내기.png",
+                "height": "780px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/595982/usermedia/68d6587e603b65c7800d",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자주 묻는 질문"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 자동 메시지가 이메일 상담에는 동작하지 않게 하고 싶어요"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "메일로 인입된 상담에 워크플로우가 작동되지 않도록 하려면, 필터링 조건에서 [연동앱 필터링]을 선택하고 이메일을 Off로 설정하시면 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "상담태그.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/38/revisions/29389/usermedia/66a23b4793d61589406a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ebc77333ec621b7",
+  "linked_faqs": [
+    {
+      "id": "63502",
+      "question": "채널톡에서 외부로 보낸 메일이 외부 메일함에서 보이지 않아요",
+      "answer_plaintext": "채널톡 수신함으로 전달된 메일에 답변하시면, 해당 답변 내역은 외부 메일함에 표시되지 않습니다. 채널톡에서만 내용을 확인할 수 있습니다. 만약 외부 메일함에서도 대화 이력을 확인하고 싶다면, '외부로 이메일 전송하기' 기능을 사용하세요."
+    },
+    {
+      "id": "63503",
+      "question": "채널톡 수신함에서 스팸 메일 설정은 안되나요?",
+      "answer_plaintext": "아쉽게도, 채널톡에서 스팸 메일 설정은 제공하지 않습니다. 워크플로우를 사용하거나, 각 외부 메일 서비스에서 전달되는 메일에 대한 필터링 기능을 활용해주세요.\n\n[워크플로우 사용 방법] \n1. 상담이 인입되었을 때 트리거로 워크플로우를 생성해주세요. \n2. 트리거 필터링 → 메시지 → 메시지 내용 필터를 추가하여, 스팸 메일에 공통적으로 포함되어있는 키워드를 입력해주세요. \n3. 다음으로 이어지는 단계에 [상담 종료] 액션을 추가해주세요."
+    },
+    {
+      "id": "63505",
+      "question": "참조(CC)와 숨은참조(BCC) 기능은 안되나요?",
+      "answer_plaintext": "아쉽게도, 참조(CC)와 숨은참조(BCC) 기능은 지원되지 않습니다.\n채널톡 채팅과 동일하게 1명의 고객과 상담을 하는 형태로 동작됩니다. \n그렇기에 답변도 메일을 보낸 1명에게만 전송됩니다."
+    },
+    {
+      "id": "63509",
+      "question": "이메일 도메인 인증에 따라 전송되는 메일 주소가 어떻게 달라지나요?",
+      "answer_plaintext": "- 도메인 인증이 안된 경우, 채널의 기본 발신 이메일 주소로 전송됩니다.\n- 도메인이 인증된 경우, 매니저이름@인증된 도메인 주소로 전송됩니다."
+    },
+    {
+      "id": "63508",
+      "question": "채널톡에 메일 연동 시, 첨부파일이 10개 이상이면 어떻게 확인하나요?",
+      "answer_plaintext": "채널톡에서는 최대 10개까지 파일을 첨부할 수 있습니다. 만약 첨부파일이 10개 이상인 경우, 원본 보기에서 불러오지 못했다는 알림이 표시됩니다. 이 경우, 외부 메일함이나 '외부로 이메일 전달하기' 기능을 통해 파일을 확인할 수 있습니다."
+    },
+    {
+      "id": "69895",
+      "question": "고객이 종료된 이메일 상담에 답변하면 어떻게 되나요?",
+      "answer_plaintext": "상담이 종료된 상태에서 고객이 이메일로 답변할 경우, 새 상담으로 열립니다.\n(참고: 매니저는 종료된 이메일 상담을 다시 열 수 없습니다.)"
+    }
+  ],
+  "faq_count": 6
+}

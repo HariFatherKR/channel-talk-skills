@@ -1,0 +1,4924 @@
+{
+  "id": "202463",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%86%B5%EA%B3%84-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-d3312baa",
+  "title": "케이스 통계 다운로드",
+  "summary": "상담 흐름, 더 꼼꼼하게 보고 싶으신가요? \n상담 재개 시점, 태그 변경 이력 등 케이스 단위의 데이터를 내려받아 직접 가공하고 분석할 수 있어요.",
+  "plaintext": "안내 사항\n케이스 통계 및 케이스 통계 API는\n2026년 4월 30일부로 지원 종료\n됩니다. 이후 상담 통계 및 커스텀 리포트 활용을 부탁드리겠습니다.\n(\n→ 공지 확인하기\n)\n케이스 통계에서 제공하는 주요 지표는 상담 통계 또는 커스텀 리포트에서도 다운로드할 수 있습니다.\n(\n→ 케이스 통계 / 상담 통계 지표 비교표 보기\n)\n데이터 다운로드 가이드\n케이스별 통계 대시보드에서 확인할 수 있는 정보를 엑셀 형식의 로우 데이터로 다운로드할 수 있어요. 이를 자유롭게 가공하여 활용할 수 있습니다.\n※ 데이터 다운로드는 다운로드 권한이 있는 팀 멤버만 이용할 수 있어요.\nXLSX 파일의 최대 행 개수 제한으로 인해, 한 번에 최대 100만 건의 케이스 데이터를 다운로드할 수 있습니다.\n최대 6개월간의 데이터를 다운로드하실 수 있어요.\n단, 종료일은 조회 시작일로부터 6개월 이내이면서, 그 달의 마지막 날을 넘길 수는 없어요.\n또한,\n조회 가능 기간은 케이스 통계 기능이 도입된 2025년 6월 26일부터 시작돼요.\n예시) 조회 가능 범위: 2025년 6월 26일 ~ 2025년 12월 26일\n다운로드 시 아래 항목을 반드시 입력해야 합니다:\n파일 비밀번호 설정: 영문과 숫자만 사용 가능해요.\n다운로드 사유 작성: 내부 기록을 위한 항목입니다.\n※ 비밀번호를 분실할 경우 파일을 열 수 없습니다. 이 경우, 파일을 다시 다운로드해 주세요.\n다운로드 방법\n경로:\n[\n분석\n] → [케이스] → 우측 상단 [다운로드] 버튼\n케이스별 통계 대시보드에서 원하는 조건으로 필터링하면, 해당 조건이 그대로 반영된 파일이 다운로드됩니다.\n※ 데이터 양이 많을 경우, 다운로드에 시간이 다소 소요될 수 있습니다.\nUserChatCase data\n데이터 값\n설명\n비고\nuserChatCaseCreatedAt\n기록 시작\n케이스 데이터가 기록되기 시작한 시간\n• firstQueuedAt과 firstOpenedAt 중 최소값\nuserChatCase\n케이스\n한 대화방에서 몇 번째 이루어진 상담인지 나타내는 값\nuserChatCaseId\n케이스 ID\n각 케이스의 고유한 아이디\nuserChatCaseState\n기록 상태\n케이스의 데이터 기록 완료 여부를 나타냄\n• inProgress(기록중): 상담이 종료되지 않았거나 종료 후 1시간이 경과하지 않아서 데이터가 갱신되고 있는 상태\n• completed(완료): 상담 종료 후 1시간이 경과하였거나, 다음 케이스가 시작되어서 이 케이스의 데이터가 더 이상 갱신되지 않는 상태\nuserChatCaseUpdatedAt\n최근 갱신\n케이스 데이터가 마지막으로 업데이트된 시간\nuserChatId\n유저챗 ID\n각 상담의 고유한 아이디\ndirection\n시작 방식\n(수신/발신)\n• 수신(INBOUND): 케이스를 고객이 시작한 경우\n• 발신(OUTBOUND): 케이스를 상담원이 시작한 경우\nuserChatState\n상담 상태\n현재 상담의 상태가 무엇인지 보여주는 값\n• 상담 종료 후 한 시간이 경과하여, 케이스의 상태가 completed(완료)가 되면 상담 상태는 더 이상 갱신되지 않음\n• 대부분의 경우, 완료 후에는 ‘종료됨’ 상태\n• 상태값:\nqueued : 대기열\nopen : 진행중\nmissed : 부재중\nsnoozed : 보류됨\nclosed : 종료됨\nuserChatUrl\n유저챗 링크\n해당 케이스가 포함된 상담의 팀 멤버용 링크\nteamId\n팀 ID\n상담에 담당팀으로 참여하고 있는 팀의 고유한 아이디\nteamName\n팀 이름\n상담에 담당팀으로 참여하고 있는 팀의 이름\nassigneeId\n담당자 ID\n상담에 담당자로 참여하고 있는 팀 멤버의 고유한 아이디\nassigneeName\n담당자 이름\n상담에 담당자로 참여하고 있는 팀 멤버의 이름\nmanagerIds\n팔로워 ID\n상담에 팔로워로 참여하고 있는 팀 멤버의 고유한 아이디\nmanagerNames\n팔로워 이름\n상담에 팔로워로 참여하고 있는 팀 멤버의 이름\nuserId\n고객 ID\nuserName\n고객 이름\n해당 상담을 남긴 고객의 이름\ncreatedAt\n대화방이 생성된 시간\nfirstQueuedAt\n대기열 진입 시간\n상담이 처음 대기열에 들어온 시간\n• 상담이 다시 열려도 갱신되지 않음\nfirstOpenedAt\n첫 열린 시간\n상담이 처음 열린 시간\n• 상담이 다시 열려도 갱신되지 않음\nfirstAskedAt\n첫 문의 시간\n(첫응대시간 계산을 위한 보조 값)\n• 상담이 다시 열려도 갱신되지 않음\n채팅\n상담이 자동배정 되었을 때:\n고객이 첫 메시지를 보낸 후 상담이 열린 최초 시간\n상담을 수동으로 배정 했을 때: 상담이 처음 열린 후 고객의 첫 메시지 전송 시간\n전화\n수신 전화: firstOpenedAt\n과 동일한 값.\n발신 전화, 부재중 전화 또는 대기열에 있는 전화를 담당자가 수동 배정하는 경우에는 값이 존재하지 않습니다.\nfirstRepliedAt\n첫 답변 시간\n고객의 첫 메시지에 대한 답변을 팀 멤버가 처음으로 보낸 시간\n• 상담이 다시 열려도 갱신되지 않음\n• 채팅일 경우에만 값 존재\nclosedAt\n종료 시간\n상담이 종료된 시간\n• 상담을 종료하면 케이스가 종료되므로, 케이스별로 하나의 종료 시간만 존재함\nwaitingTime\n첫 응대 시간\n상담이 열린 후 고객이 보낸 첫 메시지에 팀 멤버가 답변하기까지 걸린 시간\n• 이 케이스 기준으로 최초의 ‘첫 응대 시간’\n• 상담이 보류되었다가 다시 열려도 갱신되지 않음\n• firstRepliedAt - min(firstOpenedAt, firstQueuedAt, firstAskedAt)\n• 값이 '초' 단위로 제공됩니다.\ntotalReplyTime\n총 응답 시간\n고객의 메시지에 팀 멤버가 답변하기까지 걸린 시간의 총합\n• 상담이 다시 열리면 갱신됨\n• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음\n• 값이 '초' 단위로 제공됩니다.\nreplyCount\n총 답변 수\n고객의 문의에 팀 멤버가 답변한 횟수 총합\n• 상담이 다시 열리면 갱신됨\n• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음\navgReplyTime\n평균 응답 시간\n고객의 문의에 팀 멤버가 한 번 답변할 때 걸리는 평균 소요시간\n• 상담이 다시 열리면 갱신됨\n• totalReplyTime/replyCount\n• 값이 '초' 단위로 제공됩니다.\nresolutionTime\n상담 처리 시간\n상담이 열렸을 때부터 종료까지의 소요 시간\n• 케이스별로 기록된 후 갱신되지 않음\n• closedAt-firstOpenedAt\n• 값이 '초' 단위로 제공됩니다.\ntotalSnoozedTime\n총 보류 시간\n상담이 보류 상태였던 시간의 총합\n• 상담이 다시 열려도 갱신되지 않음\n• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음\n• 값이 '초' 단위로 제공됩니다.\nleadTime\n총 응대 시간\n보류 시간을 제외하고 상담 종료까지 소요된 시간\n• resolutionTime-totalSnoozedTime\n• 상담을 종료하기 전에 다시 보류되면 갱신됨\n• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음\n• 값이 '초' 단위로 제공됩니다.\nsnoozedCount\n보류 횟수\n케이스 진행 중 상담을 보류한 횟수\n• 상담을 종료하기 전에 다시 보류되면 갱신됨\n• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음\nmissedCount\n부재중 횟수\n케이스 진행 중 발생한 부재중 전화 수\n• 8월 멀티 미트 기능 출시 이후부터, 부재중 전화가 쌓이면 갱신됨\n• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음\ndescription\n상담 설명\n상담 설명란에 기재한 내용\nsummarizedMessage\n상담 요약\nAI 부가 기능으로 생성된 상담 요약\ntags\n상담 태그\nmediumName\n(25.7.17 이전까지는\ncontactMediumType\n로 제공됩니다.)\n연동 서비스\n상담이 인입될 때 사용된 외부 메신저\n• inAppChat : 채널톡 메시지\n• phoneNumber : 전화\n• email : 이메일\n• appNaverTalk : 네이버톡톡\n• appInstagramMessenger : 인스타그램 메신저\n• appLine : 라인\n• appKakao : 카카오\nmediumSenderName\n(25.7.17 이전까지는\nappMessenger\n로 제공됩니다.)\n연동 서비스 ID\n25.7.17 이전\n계정의 ID가 아니라 채널톡이 구분을 위해 부여한 내부 ID\n25.7.17 이후\nphoneNumber : 전화번호 (예: +8216444052)\nemail : 이메일 → 값이 존재하지 않습니다. [User data]시트의\nprofile.email 값\n을 확인하세요.\nappNaverTalk : 네이버톡톡 파트너 아이디 (예: wc21w7)\nappInstagramMessenger : 인스타그램 메신저 instagramUserName (예: channel.io)\nappLine : 라인 basicId (예: @channel.io)\nappKakao : 카카오 상담톡 검색용 아이디 (예: @channel)\nmarketingType\n마케팅 유형\n채널톡으로 보낸 마케팅 메시지의 종류\n• 일회성 메시지 : oneTimeMsg• 캠페인 : campaign\nmarketingId\n마케팅 ID\n채널톡으로 보낸 마케팅 메시지의 ID\nworkflowId\n시작 워크플로우\n상담이 열릴 때 최초 실행된 워크플로우의 ID\n• 이 케이스에서 처음 실행된 워크플로우가 아니라, 상담 전체에서 처음 실행된 워크플로우의 ID\npage\n유입 페이지\n고객이 상담을 최초로 시작한 웹페이지의 링크\n• 상담하기 버튼을 누른 경로\npriority\n우선순위\nprofile.csat\nCSAT\n상담 만족도 점수\n• 케이스 기록이 종료된 순간에 상담 프로필에 채워져있는 값이 기록됨\n• 이전 케이스 때 입력된 값이라도 비워주지 않음\nprofile.csatComment\nCSAT 의견\n상담 만족도 주관식 의견\n• 케이스 기록이 종료된 순간에 상담 프로필에 채워져있는 값이 기록됨\n• 이전 케이스 때 입력된 값이라도 비워주지 않음\n{custom profile key}\n커스텀 상담 프로필\n고객사에서 직접 추가한 상담 프로필 정보",
+  "body": [
+    {
+      "attrs": {
+        "color": "gray",
+        "icon": "warning"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "안내 사항"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스 통계 및 케이스 통계 API는 "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "2026년 4월 30일부로 지원 종료"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "됩니다. 이후 상담 통계 및 커스텀 리포트 활용을 부탁드리겠습니다. "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "("
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "→ 공지 확인하기"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        },
+                        {
+                          "attrs": {
+                            "href": "https://docs.channel.io/updates/ko/articles/%EC%A4%91%EC%9A%94-%EA%B3%B5%EC%A7%80-%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%86%B5%EA%B3%84-%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%86%B5%EA%B3%84-API-%EB%B0%8F-%EA%B5%AC%EB%B2%84%EC%A0%84-%ED%86%B5%EA%B3%84-%EC%A7%80%EC%9B%90-%EC%A2%85%EB%A3%8C-%EC%95%88%EB%82%B4-260430-256fd89a"
+                          },
+                          "type": "hyperlink"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": ")"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스 통계에서 제공하는 주요 지표는 상담 통계 또는 커스텀 리포트에서도 다운로드할 수 있습니다. "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "("
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "→ 케이스 통계 / 상담 통계 지표 비교표 보기"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        },
+                        {
+                          "attrs": {
+                            "href": "https://docs.channel.io/help/ko/articles/%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%86%B5%EA%B3%84-%EC%83%81%EB%8B%B4-%ED%86%B5%EA%B3%84-%EC%A7%80%ED%91%9C-%EB%B9%84%EA%B5%90%ED%91%9C-2780f28a"
+                          },
+                          "type": "hyperlink"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": ")"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "gray"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "데이터 다운로드 가이드"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "케이스별 통계 대시보드에서 확인할 수 있는 정보를 엑셀 형식의 로우 데이터로 다운로드할 수 있어요. 이를 자유롭게 가공하여 활용할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "※ 데이터 다운로드는 다운로드 권한이 있는 팀 멤버만 이용할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "XLSX 파일의 최대 행 개수 제한으로 인해, 한 번에 최대 100만 건의 케이스 데이터를 다운로드할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최대 6개월간의 데이터를 다운로드하실 수 있어요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "단, 종료일은 조회 시작일로부터 6개월 이내이면서, 그 달의 마지막 날을 넘길 수는 없어요. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "또한, "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "조회 가능 기간은 케이스 통계 기능이 도입된 2025년 6월 26일부터 시작돼요."
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시) 조회 가능 범위: 2025년 6월 26일 ~ 2025년 12월 26일"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "다운로드 시 아래 항목을 반드시 입력해야 합니다:"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "파일 비밀번호 설정: 영문과 숫자만 사용 가능해요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "다운로드 사유 작성: 내부 기록을 위한 항목입니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "※ 비밀번호를 분실할 경우 파일을 열 수 없습니다. 이 경우, 파일을 다시 다운로드해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "다운로드 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "경로:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " ["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "분석"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] → [케이스] → 우측 상단 [다운로드] 버튼"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "케이스별 통계 대시보드에서 원하는 조건으로 필터링하면, 해당 조건이 그대로 반영된 파일이 다운로드됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "※ 데이터 양이 많을 경우, 다운로드에 시간이 다소 소요될 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "상담 통계(상담 회차별) - 다운로드 (1).jpg",
+        "height": "1260px",
+        "mime": "image/jpeg",
+        "src": "https://cf.channel.io/document/spaces/6/articles/202463/revisions/343758/usermedia/684ffcc457cf8b0fdeef",
+        "width": "2400px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "UserChatCase data"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터 값"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비고"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatCaseCreatedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "기록 시작"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스 데이터가 기록되기 시작한 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• firstQueuedAt과 firstOpenedAt 중 최소값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatCase"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "한 대화방에서 몇 번째 이루어진 상담인지 나타내는 값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatCaseId"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스 ID"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "각 케이스의 고유한 아이디"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatCaseState"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "기록 상태"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스의 데이터 기록 완료 여부를 나타냄"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• inProgress(기록중): 상담이 종료되지 않았거나 종료 후 1시간이 경과하지 않아서 데이터가 갱신되고 있는 상태 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• completed(완료): 상담 종료 후 1시간이 경과하였거나, 다음 케이스가 시작되어서 이 케이스의 데이터가 더 이상 갱신되지 않는 상태"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatCaseUpdatedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "최근 갱신"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스 데이터가 마지막으로 업데이트된 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatId"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유저챗 ID"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "각 상담의 고유한 아이디"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "direction"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "시작 방식"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "(수신/발신)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 수신(INBOUND): 케이스를 고객이 시작한 경우"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 발신(OUTBOUND): 케이스를 상담원이 시작한 경우"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatState"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 상태"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "현재 상담의 상태가 무엇인지 보여주는 값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담 종료 후 한 시간이 경과하여, 케이스의 상태가 completed(완료)가 되면 상담 상태는 더 이상 갱신되지 않음"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 대부분의 경우, 완료 후에는 ‘종료됨’ 상태"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상태값: "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "queued : 대기열 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "open : 진행중 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "missed : 부재중 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "snoozed : 보류됨 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "closed : 종료됨"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatUrl"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유저챗 링크"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "해당 케이스가 포함된 상담의 팀 멤버용 링크"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "teamId"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "팀 ID"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담에 담당팀으로 참여하고 있는 팀의 고유한 아이디"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "teamName"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "팀 이름"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담에 담당팀으로 참여하고 있는 팀의 이름"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "assigneeId"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "담당자 ID"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담에 담당자로 참여하고 있는 팀 멤버의 고유한 아이디"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "assigneeName"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "담당자 이름"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담에 담당자로 참여하고 있는 팀 멤버의 이름"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "managerIds"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "팔로워 ID"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담에 팔로워로 참여하고 있는 팀 멤버의 고유한 아이디"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "managerNames"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "팔로워 이름"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담에 팔로워로 참여하고 있는 팀 멤버의 이름"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userId"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객 ID"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userName"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객 이름"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "해당 상담을 남긴 고객의 이름"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "createdAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "대화방이 생성된 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "firstQueuedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "대기열 진입 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 처음 대기열에 들어온 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담이 다시 열려도 갱신되지 않음"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "firstOpenedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "첫 열린 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 처음 열린 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담이 다시 열려도 갱신되지 않음"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "firstAskedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "첫 문의 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "(첫응대시간 계산을 위한 보조 값)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담이 다시 열려도 갱신되지 않음"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "채팅"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": " "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        },
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "상담이 자동배정 되었을 때:"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        },
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "고객이 첫 메시지를 보낸 후 상담이 열린 최초 시간"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        },
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "상담을 수동으로 배정 했을 때: 상담이 처음 열린 후 고객의 첫 메시지 전송 시간"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "전화"
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        },
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "수신 전화: firstOpenedAt"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": " "
+                              },
+                              "marks": [
+                                {
+                                  "type": "bold"
+                                },
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "과 동일한 값."
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        },
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "발신 전화, 부재중 전화 또는 대기열에 있는 전화를 담당자가 수동 배정하는 경우에는 값이 존재하지 않습니다."
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "firstRepliedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "첫 답변 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객의 첫 메시지에 대한 답변을 팀 멤버가 처음으로 보낸 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담이 다시 열려도 갱신되지 않음"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 채팅일 경우에만 값 존재"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "closedAt"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "종료 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 종료된 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담을 종료하면 케이스가 종료되므로, 케이스별로 하나의 종료 시간만 존재함"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "waitingTime"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "첫 응대 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 열린 후 고객이 보낸 첫 메시지에 팀 멤버가 답변하기까지 걸린 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 이 케이스 기준으로 최초의 ‘첫 응대 시간’"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담이 보류되었다가 다시 열려도 갱신되지 않음"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• firstRepliedAt - min(firstOpenedAt, firstQueuedAt, firstAskedAt)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 값이 '초' 단위로 제공됩니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "totalReplyTime"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "총 응답 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객의 메시지에 팀 멤버가 답변하기까지 걸린 시간의 총합"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담이 다시 열리면 갱신됨"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 값이 '초' 단위로 제공됩니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "replyCount"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "총 답변 수"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객의 문의에 팀 멤버가 답변한 횟수 총합"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담이 다시 열리면 갱신됨"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "avgReplyTime"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "평균 응답 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객의 문의에 팀 멤버가 한 번 답변할 때 걸리는 평균 소요시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담이 다시 열리면 갱신됨"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• totalReplyTime/replyCount"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 값이 '초' 단위로 제공됩니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "resolutionTime"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 처리 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 열렸을 때부터 종료까지의 소요 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 케이스별로 기록된 후 갱신되지 않음"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• closedAt-firstOpenedAt"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 값이 '초' 단위로 제공됩니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "totalSnoozedTime"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "총 보류 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 보류 상태였던 시간의 총합"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담이 다시 열려도 갱신되지 않음"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 값이 '초' 단위로 제공됩니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "leadTime"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "총 응대 시간"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "보류 시간을 제외하고 상담 종료까지 소요된 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• resolutionTime-totalSnoozedTime"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담을 종료하기 전에 다시 보류되면 갱신됨"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 값이 '초' 단위로 제공됩니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "snoozedCount"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "보류 횟수"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스 진행 중 상담을 보류한 횟수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담을 종료하기 전에 다시 보류되면 갱신됨"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "missedCount"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "부재중 횟수"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "케이스 진행 중 발생한 부재중 전화 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 8월 멀티 미트 기능 출시 이후부터, 부재중 전화가 쌓이면 갱신됨"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담 종료 후 케이스 기록이 끝나면 갱신되지 않음"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "description"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 설명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 설명란에 기재한 내용"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "summarizedMessage"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 요약"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "AI 부가 기능으로 생성된 상담 요약"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "tags"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 태그"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "mediumName"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "(25.7.17 이전까지는 "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "red",
+                            "semanticColor": "bgtxt-red-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "contactMediumType"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "red",
+                            "semanticColor": "bgtxt-red-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": " 로 제공됩니다.)"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "red",
+                            "semanticColor": "bgtxt-red-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "연동 서비스"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 인입될 때 사용된 외부 메신저"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• inAppChat : 채널톡 메시지"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• phoneNumber : 전화"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• email : 이메일"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• appNaverTalk : 네이버톡톡"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• appInstagramMessenger : 인스타그램 메신저"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• appLine : 라인"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• appKakao : 카카오"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "mediumSenderName"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "(25.7.17 이전까지는 "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "red",
+                            "semanticColor": "bgtxt-red-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "appMessenger"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "red",
+                            "semanticColor": "bgtxt-red-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": " 로 제공됩니다.)"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "red",
+                            "semanticColor": "bgtxt-red-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "연동 서비스 ID"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "25.7.17 이전"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "red",
+                            "semanticColor": "bgtxt-red-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "계정의 ID가 아니라 채널톡이 구분을 위해 부여한 내부 ID"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "25.7.17 이후"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "red",
+                            "semanticColor": "bgtxt-red-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "phoneNumber : 전화번호 (예: +8216444052)"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "email : 이메일 → 값이 존재하지 않습니다. [User data]시트의 "
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "profile.email 값"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                },
+                                {
+                                  "attrs": {
+                                    "href": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%ED%94%84%EB%A1%9C%ED%95%84-70732795#%EC%B6%94%EA%B0%80-%EC%97%B0%EB%8F%99-%EC%A0%95%EB%B3%B4"
+                                  },
+                                  "type": "hyperlink"
+                                }
+                              ],
+                              "type": "plain"
+                            },
+                            {
+                              "attrs": {
+                                "text": "을 확인하세요."
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "appNaverTalk : 네이버톡톡 파트너 아이디 (예: wc21w7)"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "appInstagramMessenger : 인스타그램 메신저 instagramUserName (예: channel.io)"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "appLine : 라인 basicId (예: @channel.io)"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "appKakao : 카카오 상담톡 검색용 아이디 (예: @channel)"
+                              },
+                              "marks": [
+                                {
+                                  "attrs": {
+                                    "color": "default",
+                                    "semanticColor": "txt-black-darkest"
+                                  },
+                                  "type": "color"
+                                }
+                              ],
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "marketingType"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마케팅 유형"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채널톡으로 보낸 마케팅 메시지의 종류"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 일회성 메시지 : oneTimeMsg• 캠페인 : campaign"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "marketingId"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마케팅 ID"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채널톡으로 보낸 마케팅 메시지의 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "workflowId"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "시작 워크플로우"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 열릴 때 최초 실행된 워크플로우의 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 이 케이스에서 처음 실행된 워크플로우가 아니라, 상담 전체에서 처음 실행된 워크플로우의 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "page"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유입 페이지"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객이 상담을 최초로 시작한 웹페이지의 링크"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 상담하기 버튼을 누른 경로"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "priority"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "우선순위"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "profile.csat"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "CSAT"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 만족도 점수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 케이스 기록이 종료된 순간에 상담 프로필에 채워져있는 값이 기록됨"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 이전 케이스 때 입력된 값이라도 비워주지 않음"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "profile.csatComment"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "CSAT 의견"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 만족도 주관식 의견"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 케이스 기록이 종료된 순간에 상담 프로필에 채워져있는 값이 기록됨"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "• 이전 케이스 때 입력된 값이라도 비워주지 않음"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "{custom profile key}"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "커스텀 상담 프로필"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": " "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객사에서 직접 추가한 상담 프로필 정보"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "120",
+    "name": "Nacho",
+    "bio": "CX 팀 데이터 분석\n& 미트 오퍼레이션"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/684f982128c985cede3c",
+  "linked_faqs": [
+    {
+      "id": "99892",
+      "question": "케이스별 통계를 다운로드했는데, Time 항목에 찍힌 숫자는 단위가 뭐에요?",
+      "answer_plaintext": "아래 시간 데이터의 단위는 ‘초’입니다.\n초 단위로 제공되는 이유는 데이터를 보다 쉽게 가공하고 계산할 수 있도록 하기 위함입니다.기존에는 시:분:초 형식의 텍스트로 표시되어 개별 확인은 편리했지만, 합산이나 계산에는 한계가 있었습니다.이에 따라 계산이 가능한 형태로 개선되었음을 안내드립니다.\n\n시:분:초 형식으로 확인하고 싶으신 경우, 엑셀 수식을 통해 손쉽게 변환하실 수 있습니다.\n아래 수식을 참고해 주세요.=TEXT(셀주소/86400, \"[hh]:mm:ss\")\n\n적용되는 항목:\n- waitingTime (첫 응대 시간)\n- totalReplyTime (총 응답 시간)\n- avgReplyTime (평균 응답 시간)\n- resolutionTime (상담 처리 시간)\n- totalSnoozedTime (총 보류 시간)\n- leadTime (총 응대 시간)"
+    },
+    {
+      "id": "270693",
+      "question": "통계 데이터를 다운로드 받았는데 firstRepliedAt 항목이 공란이에요.",
+      "answer_plaintext": "문의하신 firstRepliedAt 데이터가 공란으로 표시되는 사유와 해결 방법을 안내해 드립니다.\n\n1. 데이터가 공란(누락)인 이유\n- 매니저 선 발신 : 매니저가 새 상담을 먼저 시작하면, 첫 메시지 발송 시점에 상담이 시작되어 시스템상 첫 메시지는 집계에서 제외됩니다.\n- ALF 상담 개입 : ALF 상담 중 매니저가 개입하여 메시지를 보내면 동일하게 상담이 새로 열리는 구조라 첫 메시지가 집계되지 않습니다.\n\n2. 정상 집계 방법\n데이터를 정확히 기록하려면 메시지 전송 전, 우측 [상담 열기] 아이콘을 클릭해 상담 상태를 먼저 활성화한 뒤 답변을 작성해 주세요."
+    }
+  ],
+  "faq_count": 2
+}

@@ -1,0 +1,1828 @@
+{
+  "id": "125",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%8C%80%ED%99%94-%EB%82%B4%EC%9A%A9-%EA%B2%80%EC%83%89-4bacf090",
+  "title": "대화 내용 검색",
+  "summary": "채널톡의 상담 검색을 통해 쉽고 빠르게 대화를 검색할 수 있습니다. 또한 검색된 상담에 벌크 액션(일괄 상태 적용)이 가능합니다.",
+  "plaintext": "검색 시작하기\n수신함 옆\n돋보기 버튼\n을 클릭하거나,\nCtrl+F\n혹은\nCommand+F\n를 눌러 검색을 시작할 수 있습니다.\n대화방 필터\n와\n메시지 필터\n를 사용할 수도 있어요.\n대화방 검색하기\n대화방이 열린 날짜, 상담 태그, 담당자, 상담 상태 등으로\n대화방\n을 검색할 수 있습니다.\n대화방 필터 종류\n이름\n명령어\n설명\n담당자\nassignee:\n특정 담당자 혹은 ‘담당자 없음’ 으로 검색할 수 있습니다.\n팀\nteam:\n특정 팀으로 검색할 수 있습니다.\n팔로워\nfollower:\n특정 팔로워로 검색할 수 있습니다.\n상담 상태\nstate:\n진행중, 보류중, 종료됨 상태로 검색할 수 있습니다.\n상담 목표\ngoal:\n상담 목표의 달성 여부로 검색할 수 있습니다.\n상담 태그\ntag:\n상담 태그로 검색할 수 있습니다.\n연동 서비스\nintegration:\n특정 연동 서비스로 검색할 수 있습니다.\n날짜\nbefore:\nafter:\n특정 날짜를 기준으로 이전, 이후에 열린 유저챗을 검색할 수 있습니다.\n(특정 날짜를 포함하여 검색합니다.)\n메시지 검색하기\n누가, 언제 어떤\n메시지\n를 보냈는지 검색할 수 있습니다.\n메시지 필터 종류\n이름\n명령어\n설명\n작성자\nfrom:\n메시지를 보낸 사람을 이름으로 검색할 수 있습니다.\n날짜\nbefore:\nafter:\n특정 날짜를 기준으로 이전, 이후에 열린 유저챗을 검색할 수 있습니다. (특정 날짜를 포함하여 검색합니다)\n메시지 검색 결과에는\n내부대화\n도 포함됩니다.\n멀티 필터\n필터와 필터, 필터와 텍스트를 조합해서 보다 강력하게 검색할 수 있습니다. 다만,\n대화방 필터\n와\n메시지 필터\n를 혼합할 순 없어요.\n대화방 필터\n담당자가 '베이지' 면서, 상담태그는 'VIP'고, '2023-01-23~31'에 오픈된 유저챗만 검색됩니다.\n멀티필터는 AND 조건으로 검색돼요.\n메시지 필터\n메시지 작성자가 '코니'이고, '2023-01-25~31' 사이에 전송된 메시지들이 검색됩니다.\n대화방 필터+텍스트\n담당자가 'Carol' 이면서, 상담 태그는 '배송/반품' 이고, 상담 설명 혹은 대화방 이름에 '교환'이 포함된 대화방이 검색됩니다.\n텍스트로 대화방을 검색하면, 상담 설명 혹은 대화방 이름이 검색됩니다.\n메시지 필터+텍스트\n작성자가 '이너스' 이고, 메시지에 '교환'을 포함하는 메시지들이 검색됩니다.\n텍스트를 띄어쓰면, 해당 텍스트들을 모두 포함하는 조건으로 검색할 수 있습니다.\n'화분 교환'으로 검색하면, 메시지에 '화분'와 '교환'이 모두 포함된 메시지만 검색됩니다.\n검색과 벌크액션\n벌크액션을 통해 검색된 대화방들의 상태를 일괄 변경할 수 있습니다.\n벌크액션 적용하기\n대화방 선택 후 검색결과 오른쪽의 액션을 누르면 벌크액션 선택 메뉴가 나타납니다. 선택된 대화방의 정보를 일괄적으로 변경하거나 추가할 수 있고, 메시지를 보내거나 데이터를 다운로드할 수 있습니다.\n검색결과 오른쪽의 체크박스를 선택해서 전체 선택 할 수 있습니다.\n각 대화방의\n프로필 이미지를 클릭해서 개별 선택할 수 있습니다.\n오퍼레이터 시트가 켜진 사람만 벌크 액션을 적용할 수 있어요.\n벌크액션의 종류\n담당자 배정: 담당자를 배정하거나 수정할 수 있습니다.\n담당자 비우기: 담당자가 없는 상태로 변경합니다.\n팔로워 수정: 팔로워를 추가하거나 내보낼 수 있습니다.\n상담 태그 수정: 상담 태그를 추가하거나 삭제할 수 있습니다.\n메시지 보내기: 고객 응대, 내부 대화 메시지를 보낼 수 있습니다.\n상담 열기: 상담을 진행중 상태로 변경합니다.\n상담 보류: 상담을 보류중 상태로 변경합니다.\n상담 종료: 상담을 종료됨 상태로 변경합니다.\n상담 나가기: 팔로워로 초대된 방에서 나갑니다.\n데이터 다운로드: 상담 데이터를 다운로드합니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "검색 시작하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수신함 옆 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "돋보기 버튼"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "을 클릭하거나, "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "Ctrl+F "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "혹은"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " Command+F"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 눌러 검색을 시작할 수 있습니다. "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "대화방 필터"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "와 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "메시지 필터"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 사용할 수도 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/125/revisions/370/usermedia/662b0fae90b93ac9a6b8"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "대화방 검색하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "대화방이 열린 날짜, 상담 태그, 담당자, 상담 상태 등으로 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "대화방"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "을 검색할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/125/revisions/370/usermedia/662b0faee2c235ac97ad"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "대화방 필터 종류"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "이름"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "명령어"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "담당자"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "assignee:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "특정 담당자 혹은 ‘담당자 없음’ 으로 검색할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "팀"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "team:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "특정 팀으로 검색할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "팔로워"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "follower:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "특정 팔로워로 검색할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 상태"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "state:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "진행중, 보류중, 종료됨 상태로 검색할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 목표"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "goal:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 목표의 달성 여부로 검색할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 태그"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "tag:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 태그로 검색할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "연동 서비스"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "integration:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "특정 연동 서비스로 검색할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "날짜"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "before:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "after:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "특정 날짜를 기준으로 이전, 이후에 열린 유저챗을 검색할 수 있습니다. \n(특정 날짜를 포함하여 검색합니다.)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "메시지 검색하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "누가, 언제 어떤"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 메시지"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 보냈는지 검색할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/125/revisions/370/usermedia/662b0faf245f61c4a15f"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "메시지 필터 종류"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "이름"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "명령어"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "작성자"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "from:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "메시지를 보낸 사람을 이름으로 검색할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "날짜"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "before:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "after:"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "특정 날짜를 기준으로 이전, 이후에 열린 유저챗을 검색할 수 있습니다. (특정 날짜를 포함하여 검색합니다)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "메시지 검색 결과에는 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "내부대화"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "도 포함됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "멀티 필터"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "필터와 필터, 필터와 텍스트를 조합해서 보다 강력하게 검색할 수 있습니다. 다만, "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "대화방 필터"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "와 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "메시지 필터"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 혼합할 순 없어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대화방 필터"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "담당자가 '베이지' 면서, 상담태그는 'VIP'고, '2023-01-23~31'에 오픈된 유저챗만 검색됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "멀티필터는 AND 조건으로 검색돼요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/125/revisions/370/usermedia/662b0faf4750a709e38d"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지 필터"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "메시지 작성자가 '코니'이고, '2023-01-25~31' 사이에 전송된 메시지들이 검색됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/125/revisions/370/usermedia/662b0faf6981c2bd88e9"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대화방 필터+텍스트"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "담당자가 'Carol' 이면서, 상담 태그는 '배송/반품' 이고, 상담 설명 혹은 대화방 이름에 '교환'이 포함된 대화방이 검색됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "텍스트로 대화방을 검색하면, 상담 설명 혹은 대화방 이름이 검색됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/125/revisions/370/usermedia/662b0fafa0ecae623a14"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 4
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지 필터+텍스트"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "작성자가 '이너스' 이고, 메시지에 '교환'을 포함하는 메시지들이 검색됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/125/revisions/370/usermedia/662b0fafd1fc29a0c09d"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 5
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "텍스트를 띄어쓰면, 해당 텍스트들을 모두 포함하는 조건으로 검색할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "'화분 교환'으로 검색하면, 메시지에 '화분'와 '교환'이 모두 포함된 메시지만 검색됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/125/revisions/370/usermedia/662b0fb00e03a7dcca5b"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "검색과 벌크액션"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "벌크액션을 통해 검색된 대화방들의 상태를 일괄 변경할 수 있습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "벌크액션 적용하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "대화방 선택 후 검색결과 오른쪽의 액션을 누르면 벌크액션 선택 메뉴가 나타납니다. 선택된 대화방의 정보를 일괄적으로 변경하거나 추가할 수 있고, 메시지를 보내거나 데이터를 다운로드할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "검색결과 오른쪽의 체크박스를 선택해서 전체 선택 할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "각 대화방의"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "프로필 이미지를 클릭해서 개별 선택할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 시트가 켜진 사람만 벌크 액션을 적용할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/125/revisions/370/usermedia/662b0fb03dfc527fb1d8"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "벌크액션의 종류"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당자 배정: 담당자를 배정하거나 수정할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당자 비우기: 담당자가 없는 상태로 변경합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팔로워 수정: 팔로워를 추가하거나 내보낼 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 태그 수정: 상담 태그를 추가하거나 삭제할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지 보내기: 고객 응대, 내부 대화 메시지를 보낼 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 열기: 상담을 진행중 상태로 변경합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 보류: 상담을 보류중 상태로 변경합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 종료: 상담을 종료됨 상태로 변경합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 나가기: 팔로워로 초대된 방에서 나갑니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "데이터 다운로드: 상담 데이터를 다운로드합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/125/revisions/370/usermedia/662b0fb0729768067e00"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0f01de7820cffcae",
+  "linked_faqs": [
+    {
+      "id": "51284",
+      "question": "필터 검색 결과는 어떤 순으로 표시되나요?",
+      "answer_plaintext": "메시지 필터는 메시지가 작성된 시간 기준 최근 순으로 표시되고, 대화방 필터는 마지막 메시지가 작성된 시간 기준 최근 순으로 표시됩니다."
+    },
+    {
+      "id": "51285",
+      "question": "대화방이 25개밖에 선택이 안 돼요",
+      "answer_plaintext": "스크롤을 내린 뒤 체크박스를 누르면 25개 단위로 선택 수가 추가되며, 최대 200개까지 한 번에 선택 가능하고, [전체 상담 선택하기] 클릭 시 목록에 있는 전체 상담이 선택됩니다."
+    },
+    {
+      "id": "51286",
+      "question": "고객 이름으로 상담 내역을 검색하고 싶어요",
+      "answer_plaintext": "1. 수신함 옆 돋보기 아이콘 클릭 또는 Ctrl+F / Command+F를 눌러 검색해 주세요.\n2. 검색창이 활성화되면, 고객 이름을 입력해 주세요.\n3. 대화방 탭을 선택해 주세요."
+    },
+    {
+      "id": "51287",
+      "question": "벌크 액션이 적용되지 않아요",
+      "answer_plaintext": "오퍼레이터 시트가 켜진 사람만 벌크 액션을 적용할 수 있어요. [매니저 설정] 또는 [채널 설정] - [오퍼레이터 시트]에서 내 계정의 오퍼레이터 시트 ON/OFF를 설정할 수 있어요."
+    }
+  ],
+  "faq_count": 4
+}

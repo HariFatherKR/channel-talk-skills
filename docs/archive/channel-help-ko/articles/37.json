@@ -1,0 +1,1276 @@
+{
+  "id": "37",
+  "url": "https://docs.channel.io/help/ko/articles/DNS-%EC%97%B0%EB%8F%99-70153772",
+  "title": "DNS 연동",
+  "summary": "이메일 도메인과 채널톡을 연동하면, 회사의 메일주소로 마케팅 메시지와 팔로업 알림을 보낼 수 있어요. 브랜드의 이름으로 고객에게 메일을 전송해보세요.",
+  "plaintext": "DNS 연동 규칙 강화\n메일 서비스 제공업체인 gmail, yahoo는 이메일 수단에 잠재된 위협을 최소화하기 위해, 중요한 규칙 중 하나는 많은 양의 메일을 발송하는 도메인 소유자는 DMARC 레코드를 설정해야 합니다.\n이에 따라 채널톡을 사용하는 고객사도 커스텀 도메인을 발신 이메일 주소로 사용하기 위해서 DMARC 레코드 설정이 필요 합니다. 레코드를 설정하지 않고 다량의 메일을 발송하는 경우, 메일 서비스 제공업체의 정책에 따라 전송이 제한되거나 스팸처리될 수 있습니다. 메일이 고객에게 안전하게 전달될 수 있도록\nDMARC 레코드를 설정해 주세요.\nDMARC란 무엇인가요?\nDMARC(Domain-based Message Authentication Reporting and Conformance)는 도메인 소유자가 도메인이 스팸 혹은 피싱에 활용되는 것을 방지하는 이메일 인증 방법입니다.\n채널톡에서는 가장 단순한 형태의 레코드 입력을 요구합니다.\n하지만 고객사의 정책에 따라 자유롭게 수정할 수 있습니다.\nDMARC 레코드에 설정할 수 있는 정책은 아래 페이지를 참고해 주세요.\n→ DMARC 레코드 설정 정책 확인하기\n이메일 도메인 구입\n이미 도메인을 구입하셨다면, 이 단계는 통과하셔도 됩니다.\n왜 이메일 도메인을 구입 해야 할까요?\n도메인은 숫자로 이루어진 인터넷상의 컴퓨터 주소(IP 주소)를 알기 쉽게 영문으로 표현한 것입니다. 고객이 찾아올 수 있는 자사 브랜드(회사) 주소지와 같습니다.\n도메인을 독립된 브랜드로 활용할 수 있어요.\n서버를 옮겨도 도메인은 그대로 사용할 수 있어요.\n이메일 도메인을 등록하지 않으면,\n팔로업 알림: 채널톡 이메일로 발송됩니다.\n도메인 구입처\n가비아, 카페24, 후이즈 등 도메인 구입처에서 도메인을 구매하실 수 있습니다.\n설정 방법\n채널톡은\n소유한 도메인에 DNS 레코드를 설정함\n으로써 구입하신 도메인을 발신 이메일 주소로 설정할 수 있습니다.\n이메일 서비스의 수신 정책에 따라 DNS 레코드를 등록할 도메인이 필요해요.\n도메인 구입처에서\n레코드 설정\n을 설정하신 뒤, 채널톡에서 이메일 도메인을 인증 완료해 주세요.\n설정 경로: [채널 설정] - [연동] - [이메일] - [도메인 설정]을 선택해 주세요.\n구입한 회사 이메일 도메인 주소와 도메인이 포함된 기본 발송 이메일 주소를 입력 후, [다음]을 클릭해주세요.\n도메인 : www.를 제외한 나머지 주소 입력\n예시) www.channeltalktest.shop의 도메인일 경우 channeltalktest.shop 입력\n기본 발송 이메일 : 아이디를 포함한 이메일 주소 입력, 채널의 아이디와 일치하지 않아도 무관해요.\n예시) test@channeltalktest.shop 입력\nType, Host / name, Value 내용을 확인 후, 구입한 도메인 사이트의 레코드를 설정해주세요.\n확인한 값을\n도메인 관리 사이트에서 입력/생성하는 과정이 필요\n합니다.\nDKIM 레코드와 DMARC 레코드를 모두 도메인 관리 사이트에 등록해 주세요.\nDNS 레코드 등록 완료 후 , 채널톡에서 인증을 클릭\n해주세요.\n도메인 레코드 전파까지는 일반적으로\n48시간 정도\n소요됩니다.\n도메인 관리 제공업체마다 호스트네임을 입력할 수 있는 양식이 다를 수 있습니다.\n만약 channel._domainkey.ooo.com 을 호스트네임으로 등록해야 한다면, 일부 제공업체는 소유한 도메인을 제외하고 입력해야 할 수 있습니다.\n여기서 소유한 도메인이란 직접 관리하는 도메인을 의미하며, 위의 예시에서는 ooo.com 를 지칭합니다. 이런 경우에서는 입력창에 channel._domainkey을 입력해야 합니다.\n반대로 그 외에는 소유한 도메인을 포함한 전체, 즉 channel._domainkey.ooo.com 을 입력해야 합니다.\n도메인 목록의 상태가 [인증됨]으로 변경된 것을 확인해주세요.\n도메인 사이트별 설정 방법\n도메인 사이트별로 DNS 연동 방법이 다르니, 사용하시는 도메인 사이트의 가이드를 확인해주세요.\n카페24 DNS 연동 가이드\n[별칭 CNAME 추가하기]에 채널톡에서 확인한 정보를 입력해주세요.\n도메인 별칭: 채널톡 이메일 도메인 인증 화면 → Host / Name 값 붙여넣기\n실제 도메인명: 채널톡 이메일 도메일 인증 화면 → Value 값 붙여넣기\n후이즈 DNS 연동 가이드\n[CNAME 레코드 관]에 채널톡에서 확인한 정보를 입력해주세요.\n서비스 선택 중 '신청'을 선택합니다.\n호스트명:\nchannel._domainkey\nCNAME 레코드:\n채널톡 이메일 도메일 인증 화면 → Value 값 붙여넣기\n입력이 완료되면, [다음 단계로] 버튼을 클릭해주세요.\n가비아 DNS 연동 가이드\n[CNAME 레코드 설정하기]에 채널톡에서 확인한 정보를 입력해주세요.\n레코드 타입: CNAME\n호스트: channel._domainkey\n값: 채널톡 이메일 도메일 인증 화면 → Value 값 붙여넣기\n작성 내용 '확인' 후, '저장' 버튼을 눌러주세요.\nCNAME 레코드 값은 반드시 마침표(.)로 끝나야 합니다.\n예시) abc.channel.io. (O) / abc.channel.io (X)\n그 외의 서비스\n레코드 설정 화면에서 CNAME 레코드, Host / Name, Value 값 붙여넣기를 진행해주세요.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "DNS 연동 규칙 강화"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "메일 서비스 제공업체인 gmail, yahoo는 이메일 수단에 잠재된 위협을 최소화하기 위해, 중요한 규칙 중 하나는 많은 양의 메일을 발송하는 도메인 소유자는 DMARC 레코드를 설정해야 합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이에 따라 채널톡을 사용하는 고객사도 커스텀 도메인을 발신 이메일 주소로 사용하기 위해서 DMARC 레코드 설정이 필요 합니다. 레코드를 설정하지 않고 다량의 메일을 발송하는 경우, 메일 서비스 제공업체의 정책에 따라 전송이 제한되거나 스팸처리될 수 있습니다. 메일이 고객에게 안전하게 전달될 수 있도록 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "DMARC 레코드를 설정해 주세요."
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "DMARC란 무엇인가요?"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "DMARC(Domain-based Message Authentication Reporting and Conformance)는 도메인 소유자가 도메인이 스팸 혹은 피싱에 활용되는 것을 방지하는 이메일 인증 방법입니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널톡에서는 가장 단순한 형태의 레코드 입력을 요구합니다. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "하지만 고객사의 정책에 따라 자유롭게 수정할 수 있습니다."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "DMARC 레코드에 설정할 수 있는 정책은 아래 페이지를 참고해 주세요.\n"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "→ DMARC 레코드 설정 정책 확인하기"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://support.google.com/a/answer/10032169?hl=en"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이메일 도메인 구입"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "이미 도메인을 구입하셨다면, 이 단계는 통과하셔도 됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "왜 이메일 도메인을 구입 해야 할까요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "도메인은 숫자로 이루어진 인터넷상의 컴퓨터 주소(IP 주소)를 알기 쉽게 영문으로 표현한 것입니다. 고객이 찾아올 수 있는 자사 브랜드(회사) 주소지와 같습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "도메인을 독립된 브랜드로 활용할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "서버를 옮겨도 도메인은 그대로 사용할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이메일 도메인을 등록하지 않으면,"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팔로업 알림: 채널톡 이메일로 발송됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "도메인 구입처"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "가비아, 카페24, 후이즈 등 도메인 구입처에서 도메인을 구매하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡은 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "소유한 도메인에 DNS 레코드를 설정함"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "으로써 구입하신 도메인을 발신 이메일 주소로 설정할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이메일 서비스의 수신 정책에 따라 DNS 레코드를 등록할 도메인이 필요해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "도메인 구입처에서 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "레코드 설정"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 설정하신 뒤, 채널톡에서 이메일 도메인을 인증 완료해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [연동] - [이메일] - [도메인 설정]을 선택해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "dns",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/37/revisions/106/usermedia/662b0f451b555170d1cf"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "구입한 회사 이메일 도메인 주소와 도메인이 포함된 기본 발송 이메일 주소를 입력 후, [다음]을 클릭해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "도메인 : www.를 제외한 나머지 주소 입력"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "예시) www.channeltalktest.shop의 도메인일 경우 channeltalktest.shop 입력"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "기본 발송 이메일 : 아이디를 포함한 이메일 주소 입력, 채널의 아이디와 일치하지 않아도 무관해요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "예시) test@channeltalktest.shop 입력"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "attrs": {
+                                "alt": " ",
+                                "mime": "image/*",
+                                "src": "https://cf.channel.io/document/spaces/6/articles/37/revisions/106/usermedia/662b0f454f6ffa675955"
+                              },
+                              "type": "image"
+                            },
+                            {
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Type, Host / name, Value 내용을 확인 후, 구입한 도메인 사이트의 레코드를 설정해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "확인한 값을 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "도메인 관리 사이트에서 입력/생성하는 과정이 필요"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "DKIM 레코드와 DMARC 레코드를 모두 도메인 관리 사이트에 등록해 주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "DNS 레코드 등록 완료 후 , 채널톡에서 인증을 클릭"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "도메인 레코드 전파까지는 일반적으로 "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "48시간 정도"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": " 소요됩니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "type": "text"
+                            },
+                            {
+                              "attrs": {
+                                "alt": "dns4",
+                                "mime": "image/*",
+                                "src": "https://cf.channel.io/document/spaces/6/articles/37/revisions/106/usermedia/662b0f45746fe495bafb"
+                              },
+                              "type": "image"
+                            },
+                            {
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "attrs": {
+                "icon": "bulb",
+                "semanticColor": "bgtxt-cobalt-lightest"
+              },
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "도메인 관리 제공업체마다 호스트네임을 입력할 수 있는 양식이 다를 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "만약 channel._domainkey.ooo.com 을 호스트네임으로 등록해야 한다면, 일부 제공업체는 소유한 도메인을 제외하고 입력해야 할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "여기서 소유한 도메인이란 직접 관리하는 도메인을 의미하며, 위의 예시에서는 ooo.com 를 지칭합니다. 이런 경우에서는 입력창에 channel._domainkey을 입력해야 합니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "반대로 그 외에는 소유한 도메인을 포함한 전체, 즉 channel._domainkey.ooo.com 을 입력해야 합니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "callout"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "도메인 목록의 상태가 [인증됨]으로 변경된 것을 확인해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "도메인 사이트별 설정 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "도메인 사이트별로 DNS 연동 방법이 다르니, 사용하시는 도메인 사이트의 가이드를 확인해주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카페24 DNS 연동 가이드"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://help.cafe24.com/cs/cs_faq_view.php?idx=4265&page=1&select_os=&mode=search&s_value=DNS&categoryIdx=35&faq_list=35&contentNum=4"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[별칭 CNAME 추가하기]에 채널톡에서 확인한 정보를 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "도메인 별칭: 채널톡 이메일 도메인 인증 화면 → Host / Name 값 붙여넣기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "실제 도메인명: 채널톡 이메일 도메일 인증 화면 → Value 값 붙여넣기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": "카페24 DNS 연동방법",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/37/revisions/106/usermedia/662b0f459fb894aa695e"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "후이즈 DNS 연동 가이드"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://cs.whois.co.kr/manual/?p=view&number=434"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[CNAME 레코드 관]에 채널톡에서 확인한 정보를 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "서비스 선택 중 '신청'을 선택합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "호스트명: "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "channel._domainkey"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "CNAME 레코드: "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "채널톡 이메일 도메일 인증 화면 → Value 값 붙여넣기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "입력이 완료되면, [다음 단계로] 버튼을 클릭해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "가비아 DNS 연동 가이드"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://customer.gabia.com/manual/domain/287/1201"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[CNAME 레코드 설정하기]에 채널톡에서 확인한 정보를 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "레코드 타입: CNAME"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "호스트: channel._domainkey"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "값: 채널톡 이메일 도메일 인증 화면 → Value 값 붙여넣기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "작성 내용 '확인' 후, '저장' 버튼을 눌러주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "CNAME 레코드 값은 반드시 마침표(.)로 끝나야 합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "예시) abc.channel.io. (O) / abc.channel.io (X)"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "그 외의 서비스"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "레코드 설정 화면에서 CNAME 레코드, Host / Name, Value 값 붙여넣기를 진행해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ebb020125a48d8e",
+  "linked_faqs": [
+    {
+      "id": "63493",
+      "question": "Gmail, Naver 등과 같은 이메일 계정을 발신 이메일 주소로 설정할 수 없나요?",
+      "answer_plaintext": "해당 메일 도메인으로 메일을 발송하려면 인증을 받아야 합니다.\n아래와 같이 본인이 소유한 도메인이 아닌 이메일 주소를 사용하면 SPF, DKIM 설정이 불가능하여 등록이 불가합니다.\n(예: user@naver.com, user@daum.net, user@gmail.com)"
+    },
+    {
+      "id": "63496",
+      "question": "가이드대로 모든 절차를 진행했는데, 채널톡에서 DNS 발신 이메일 주소 등록이 되지 않아요",
+      "answer_plaintext": "DNS 인증이 완료되기까지 최대 48시간 이상 소요될 수 있습니다. 하루 이틀 후에 다시 시도 부탁드립니다."
+    }
+  ],
+  "faq_count": 2
+}

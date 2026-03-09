@@ -1,0 +1,2600 @@
+{
+  "id": "27",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%91%B8%EC%8B%9C%EC%95%8C%EB%A6%BC-%EC%84%A4%EC%A0%95-3fccba8f",
+  "title": "푸시알림 설정",
+  "summary": "알림을 잘 설정하여 업무 효율을 높여보세요. 채널톡에서는 받고 싶은 알림만 개인화하거나, 방해 금지 모드를 통해 알림 없이 집중도 가능해요.",
+  "plaintext": "팀챗 알림\n팀원과 원활한 협업을 위해 방 종류마다 적절한 알림으로 설정해주세요. 우리 팀이나 중요한 그룹방은 푸시 알림으로 설정하고, 그룹방이나 DM은 우선순위에 따라 방마다 알림을 다르게 설정하세요.\n메시지 종류\n일반 메시지:\n멤버를 특정하지 않고 보내는 메시지 및 팀 멘션 메시지\n@all 태그:\n그룹 내의 모든 멤버를 태그한 메시지\n@팀 멤버 태그\n: 나를 직접 멘션한 메시지\n@팀 태그\n: 팀을 멘션한 메시지\n그룹 알림\n팀챗 내 대화방의 기본 알림을 설정할 수 있어요. 필요 시 그룹방 마다 개별 설정도 가능해요.\n중요 메시지란?\n내가 직접 멘션되었거나\n(@팀 멤버)\n, 내가 속한 팀이 멘션되었거나\n(@팀)\n, 전체가 멘션\n(@all)\n된 경우를 말해요.\n모든 알림 받기:\n참여 중인 그룹에서 오는 모든 메시지에 대해 푸시, 배지, 소리 알림을 받아요.\n중요\n알림만 받기:\n중요 메시지에 대해 푸시 알림 및 배지를 띄워주고, 그 외의 일반 메시지는 작은 점으로 표시됩니다.\n알림\n없이 표시만 하기:\n중요 메시지만 작은 점으로 표시되며 푸시, 배지, 소리 알림은 오지 않아요. 그 외의 메시지는 알림 표시가 없어요.\n알림의 범위는 그룹 / 다이렉트 메시지(DM) 별 다르게 설정이 가능해요.\n비공개 메시지 미리보기\n비공개 그룹이나 DM에서 오는 메시지 내용을 푸시 알림에서 미리보기 되지 않도록 설정할 수 있어요.\n개별 설정 대화방 확인\n일부 그룹방 알림은 기본 알림과 다르게 설정 하셨다면,\n팀 멤버 알림 설정\n에서 개별 설정한 그룹방 목록을 한 번에 모아볼 수 있어요. 개별 설정된 팀 대화방 목록에서 설정 값을 바로 변경도 가능해요.\n기본 설정을 따라감:\n팀 멤버 알림 설정과 동일하게 알림을 받아요. '[개인 설정] - [팀 멤버 프로필] - [알림] - [그룹]의 설정 값'을 참고해주세요.\n모든 메시지 알림: 모든 메시지\n에 대해 푸시, 배지, 소리 알림을 받아요.\n중요 알림 받기: @all\n,\n@팀 멤버, @팀\n에 대해 푸시, 배지, 소리 알림을 받아요.\n알림 없음:\n모든 메시지에 대해 알림을 받지 않아요.\n고급 설정\n나에게 맞는 그룹의 @all 태그 알림만 중요 메시지로 설정해서 알림을 받아보세요. 내게 꼭 필요하지 않은 그룹은 @all 태그여도 알림 받지 않도록 설정이 가능해요.\n고급 설정은\n중요 메시지 알림, 알림 없음\n상태에서 설정이 가능해요.\n기본 설정을 따라감\n: 팀 멤버 알림 설정과 동일\n켜짐:\n해당 그룹에서 @all 태그에 대한 알림을 받아요.\n꺼짐:\n해당 그룹에서 @all 태그에 대한 알림을 받지 않아요.\n팀챗 알림 개별 설정\n그룹방 알림 개별 설정은 팀챗 각각의 그룹방에서도 설정 변경이 가능해요.\n수신함 알림\n상담에 관한 모든 알림을 자세히 설정할 수 있어요.\n설정 경로: 채널 관리자 왼쪽의 [팀 멤버 프로필 아이콘 클릭] - [개인 설정] - [알림] - [수신함 알림]\n기본 알림 설정\n기본 알림 설정에 관계 없이\n담당자 없음 알림\n이 꺼져있다면 새로운 상담이 들어왔을 때 알림이 오지 않습니다.\n모든 알림 받기:\n담당자, 팔로워, 담당팀으로 들어간 모든 상담에 대해 알림을 받을 수 있어요.\n중요 알림만 받기:\n담당자로 참여한 상담에 대해 푸시, 배지, 소리 알림을 받을 수 있어요. 팔로워로 참여 중인 상담은 작은 점으로 표시되며 푸시, 배지, 소리 알림은 오지 않아요.\n알림 없이 표시만 하기:\n담당자로 참여한 상담은 작은 점으로, 팔로업 및 기타 상담에 대해서는 알림 표시가 보이지 않아요.\n담당자 없음 알림\n담당자 없음 알림을 켜면 담당자 없는 새 채팅 또는 전화 상담이 들어올 때, 푸시, 배지, 소리로 알림을 받을 수 있어요.\n단, 전화의 경우 '담당자 없음 알림'을 켜더라도 상담 유형에 전화가 없는 경우 알림을 받을 수 없으니 담당자 없는 전화 알림을 받으려면 상담 유형에서 전화를 켜주세요.\n기본 알림 설정\n과\n담당자 없음 알림\n조합을 통해 알림을 받는 범위를 다르게 설정할 수 있어요.\n유저챗 알림이\n모든 알림 받기\n또는\n중요 알림만 받기\n로 설정된 상태\n유저챗 알림이\n알림 없이 표시만 하기\n로 설정된 상태\n부재중 상담 알림\n전화 상담이 부재중으로 바뀔 때, 푸시, 배지, 소리로 알림을 받을 수 있어요.\n이메일 리마인더\n모바일 앱을 설치하지 않았거나 담당자 없는 상담을 10분 동안 응대하지 않은 경우 내 이메일로 알림을 받아보세요. (담당자 없음 알림을 켜야만, 이메일 리마인더도 켤 수 있어요.)\n채널톡 모바일 앱을 설치하면, 이메일을 받지 않고도 고객의 메시지를 실시간 앱 푸시를 통해 알림을 받을 수 있어요. 이메일 리마인더가 ON 상태라도 팀 멤버에게 메일 알림은 가지 않아요. (→\n모바일 앱 설치하기)\n미트(전화) 알림 설정\n미트 알림 받을 장치 설정으로 PC와 모바일 중 미트(전화) 알림을 받을 기기를 선택할 수 있어요.\n팀챗과 수신함을 구분하여 각각 알림 설정이 가능해요.\n팀챗은 팀원과의 팀 음성미트, 영상미트에 대한 알림 수신 설정입니다.\n수신함은 고객과의 전화, 음성미트, 영상미트에 대한 알림 설정이에요.\n소리 및 기타\n푸시 알림 외 소리 알림만 끄고 켤 수 있고, 다른 프로그램과 구분을 위해 알림 소리 변경도 가능해요. 그리고\n중요 메시지\n를 내가 정의할 수 있어요.\n소리\n메시지 소리:\n알림을 음소거하거나, 여러 가지 소리로 변경할 수 있어요. 원하는 소리로 변경하고, 다른 프로그램 알림과 혼동 없이 사용하세요.\n전화 벨소리:\n전화 수신 시 팀 멤버가 들을 전화 벨소리를 변경할 수 있어요.\n중요 메시지 정의\n전체 멘션:\n팀챗 내 @all 태그 메시지는 중요 메시지로 분류되어 알림이 전송됩니다.\n고객의 메시지:\n상담 시, 고객의 메시지는 중요 메시지로 분류되어 알림이 전송됩니다.\n모바일 알림 항상 받기\n모바일 알림 항상 받기 옵션은 채널톡 앱 10.17.0 이상 최신 버전에서 사용 가능합니다.\n확인 경로: 채널톡 모바일 앱 > 나 > 채널톡 정보 > 앱 버전\n꺼짐(기본)\n: 팀 멤버가 PC를 사용 중인 상태에서는 모바일 알림을 받지 않습니다.\n켜짐\n: 팀 멤버가 PC를 사용 중인 상태여도 항상 모바일 알림을 받습니다.\nios android 모두 10.17.0 버전 이상\n방해 금지 모드\n집중이 필요할 때나, 퇴근 후엔 방해 금지 모드를 켜두세요. 원하는 시간까지 푸시 알림을 받지 않을 수 있어요.\n방해 금지 모드\n를 사용 중에도 안 읽은 메시지 숫자는 보여지기에, 메시지는 놓치지 않고 원하는 타이밍에 확인할 수 있어요. 방해 금지 모드의 시간은 팀 멤버의 접속 기기의 설정된 시간대(TimeZone) 기준으로 보여지게 됩니다.\n25년 1월 업데이트 이후부터 방해 금지 모드는 알림 허용 여부를 설정하는 기능으로 변경되어 방해 금지 모드를 켜더라도\n상담 자동 배정 여부에 영향을 주지 않습니다.\n단, 방해 금지를 켜둔 경우 전화 자동 배정이 되더라도 링이 울리지 않아 전화를 받지 못할 수 있으니 전화 상담 중에는 방해 금지를 해제해 주세요.\n설정 경로: [개인 설정] - [방해 금지]\n사용자 지정을 클릭하여 최대 90일까지 방해 금지 모드를 설정할 수 있어요\n방해 금지 모드인 팀원은 팀 멤버 아이콘 옆에 달 표시가 나타나요.\n초록 달: 팀원이 채널에 온라인 상태예요.\n주황 달: 팀원이 채널에 오프라인 상태예요.\n윈도우 앱 알림센터\n윈도우를 이용 중이라면, 채널톡 알림을 자동으로 알림 센터에서 모아보실 수 있어요.\n고객 그리고 팀과 나누는 대화를 놓치지 않고, 쉽게 메시지를 확인할 수 있습니다. 많은 메시지를 주고 받으면서 놓치기 쉬운 중요한 메시지도 빠짐 없이 알림센터에서 확인해 보세요.\n각 채널에 들어온 팀챗/수신함 알림을 하나로 묶어서, 메세지를 채널별로 구분하여 보여줍니다.\n총 100개 까지 알림이 쌓일 수 있으며, 그 이후 새로운 알림이 오면 가장 오래된 과거 알림부터 삭제 됩니다.\n‘모두 읽음’ 버튼을 클릭하여 수신한 전체 메시지를 읽기 처리하고 알림메시지를 닫을 수 있습니다. 또한 각 채널별로 그룹화된 메세지를 ‘모두 읽음’ 처리 할 수 있습니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀챗 알림"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀원과 원활한 협업을 위해 방 종류마다 적절한 알림으로 설정해주세요. 우리 팀이나 중요한 그룹방은 푸시 알림으로 설정하고, 그룹방이나 DM은 우선순위에 따라 방마다 알림을 다르게 설정하세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "메시지 종류"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일반 메시지: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "멤버를 특정하지 않고 보내는 메시지 및 팀 멘션 메시지"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "@all 태그: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "그룹 내의 모든 멤버를 태그한 메시지"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "@팀 멤버 태그"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 나를 직접 멘션한 메시지"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "@팀 태그"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 팀을 멘션한 메시지"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/76/usermedia/662b0f2ded0dedbdfa3f"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "그룹 알림"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀챗 내 대화방의 기본 알림을 설정할 수 있어요. 필요 시 그룹방 마다 개별 설정도 가능해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "중요 메시지란?"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 내가 직접 멘션되었거나"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(@팀 멤버)"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": ", 내가 속한 팀이 멘션되었거나"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(@팀)"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": ", 전체가 멘션"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(@all)"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "된 경우를 말해요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모든 알림 받기: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "참여 중인 그룹에서 오는 모든 메시지에 대해 푸시, 배지, 소리 알림을 받아요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "중요"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 알림만 받기: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "중요 메시지에 대해 푸시 알림 및 배지를 띄워주고, 그 외의 일반 메시지는 작은 점으로 표시됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 없이 표시만 하기: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "중요 메시지만 작은 점으로 표시되며 푸시, 배지, 소리 알림은 오지 않아요. 그 외의 메시지는 알림 표시가 없어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/76/usermedia/662b0f2e2da3d8faeb52"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림의 범위는 그룹 / 다이렉트 메시지(DM) 별 다르게 설정이 가능해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/76/usermedia/662b0f2e5a0f42413b69"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "비공개 메시지 미리보기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "비공개 그룹이나 DM에서 오는 메시지 내용을 푸시 알림에서 미리보기 되지 않도록 설정할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/76/usermedia/662b0f2e9a7c51451626"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "개별 설정 대화방 확인"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "일부 그룹방 알림은 기본 알림과 다르게 설정 하셨다면, "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "팀 멤버 알림 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "에서 개별 설정한 그룹방 목록을 한 번에 모아볼 수 있어요. 개별 설정된 팀 대화방 목록에서 설정 값을 바로 변경도 가능해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기본 설정을 따라감: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "팀 멤버 알림 설정과 동일하게 알림을 받아요. '[개인 설정] - [팀 멤버 프로필] - [알림] - [그룹]의 설정 값'을 참고해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모든 메시지 알림: 모든 메시지"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에 대해 푸시, 배지, 소리 알림을 받아요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "중요 알림 받기: @all"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ", "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "@팀 멤버, @팀"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에 대해 푸시, 배지, 소리 알림을 받아요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림 없음: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "모든 메시지에 대해 알림을 받지 않아요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/76/usermedia/662b0f2eccde6a5ba4a4"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고급 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "나에게 맞는 그룹의 @all 태그 알림만 중요 메시지로 설정해서 알림을 받아보세요. 내게 꼭 필요하지 않은 그룹은 @all 태그여도 알림 받지 않도록 설정이 가능해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "고급 설정은 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "중요 메시지 알림, 알림 없음"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 상태에서 설정이 가능해요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기본 설정을 따라감"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 팀 멤버 알림 설정과 동일"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "켜짐: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "해당 그룹에서 @all 태그에 대한 알림을 받아요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "꺼짐: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "해당 그룹에서 @all 태그에 대한 알림을 받지 않아요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/76/usermedia/662b0f2f0f8e39dc701d"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀챗 알림 개별 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "그룹방 알림 개별 설정은 팀챗 각각의 그룹방에서도 설정 변경이 가능해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/76/usermedia/662b0f2f4cb297e66713"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "수신함 알림"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담에 관한 모든 알림을 자세히 설정할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: 채널 관리자 왼쪽의 [팀 멤버 프로필 아이콘 클릭] - [개인 설정] - [알림] - [수신함 알림] "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "푸시알림_8_수신함알림_팀멤버_20251222_캡처.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/648665/usermedia/694943b9304b728ab9e8",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기본 알림 설정"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "기본 알림 설정에 관계 없이 "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "담당자 없음 알림"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "이 꺼져있다면 새로운 상담이 들어왔을 때 알림이 오지 않습니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모든 알림 받기: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "담당자, 팔로워, 담당팀으로 들어간 모든 상담에 대해 알림을 받을 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "중요 알림만 받기: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "담당자로 참여한 상담에 대해 푸시, 배지, 소리 알림을 받을 수 있어요. 팔로워로 참여 중인 상담은 작은 점으로 표시되며 푸시, 배지, 소리 알림은 오지 않아요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "알림 없이 표시만 하기: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "담당자로 참여한 상담은 작은 점으로, 팔로업 및 기타 상담에 대해서는 알림 표시가 보이지 않아요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "담당자 없음 알림"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "담당자 없음 알림을 켜면 담당자 없는 새 채팅 또는 전화 상담이 들어올 때, 푸시, 배지, 소리로 알림을 받을 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "단, 전화의 경우 '담당자 없음 알림'을 켜더라도 상담 유형에 전화가 없는 경우 알림을 받을 수 없으니 담당자 없는 전화 알림을 받으려면 상담 유형에서 전화를 켜주세요. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "기본 알림 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "과 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "담당자 없음 알림"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 조합을 통해 알림을 받는 범위를 다르게 설정할 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유저챗 알림이 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "모든 알림 받기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 또는 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "중요 알림만 받기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 설정된 상태"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "푸시알림_9_담당자없는채팅알림1_251015.png",
+                "height": "826px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/648613/usermedia/68ef510164c181807993",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유저챗 알림이 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "알림 없이 표시만 하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 설정된 상태"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "푸시알림_10_담당자없는채팅알림1_251015.png",
+                "height": "826px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/648613/usermedia/68ef50cdb941b93d7918",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "부재중 상담 알림"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 상담이 부재중으로 바뀔 때, 푸시, 배지, 소리로 알림을 받을 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "푸시알림_15_부재중 상담 알림_251015.png",
+        "height": "862px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/648613/usermedia/68ef5180d2675e3d9781",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이메일 리마인더"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "모바일 앱을 설치하지 않았거나 담당자 없는 상담을 10분 동안 응대하지 않은 경우 내 이메일로 알림을 받아보세요. (담당자 없음 알림을 켜야만, 이메일 리마인더도 켤 수 있어요.)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널톡 모바일 앱을 설치하면, 이메일을 받지 않고도 고객의 메시지를 실시간 앱 푸시를 통해 알림을 받을 수 있어요. 이메일 리마인더가 ON 상태라도 팀 멤버에게 메일 알림은 가지 않아요. (→ "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "모바일 앱 설치하기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://channel.io/ko/download"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "9_이메일 리마인더.png",
+        "height": "1014px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/648665/usermedia/6949454c05e95594cc38",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "미트(전화) 알림 설정"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미트 알림 받을 장치 설정으로 PC와 모바일 중 미트(전화) 알림을 받을 기기를 선택할 수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀챗과 수신함을 구분하여 각각 알림 설정이 가능해요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀챗은 팀원과의 팀 음성미트, 영상미트에 대한 알림 수신 설정입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신함은 고객과의 전화, 음성미트, 영상미트에 대한 알림 설정이에요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "푸시알림_미트 전화 알림 설정_251015.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/648613/usermedia/68ef522492bf7bb1cf0b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "소리 및 기타"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "푸시 알림 외 소리 알림만 끄고 켤 수 있고, 다른 프로그램과 구분을 위해 알림 소리 변경도 가능해요. 그리고 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "중요 메시지"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 내가 정의할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "푸시알림_12_소리및기타.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/929065/usermedia/69538d570d03f27e6896",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "소리"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메시지 소리:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 알림을 음소거하거나, 여러 가지 소리로 변경할 수 있어요. 원하는 소리로 변경하고, 다른 프로그램 알림과 혼동 없이 사용하세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화 벨소리:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 전화 수신 시 팀 멤버가 들을 전화 벨소리를 변경할 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "중요 메시지 정의"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전체 멘션: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "팀챗 내 @all 태그 메시지는 중요 메시지로 분류되어 알림이 전송됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객의 메시지: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상담 시, 고객의 메시지는 중요 메시지로 분류되어 알림이 전송됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모바일 알림 항상 받기 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "모바일 알림 항상 받기 옵션은 채널톡 앱 10.17.0 이상 최신 버전에서 사용 가능합니다. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "확인 경로: 채널톡 모바일 앱 > 나 > 채널톡 정보 > 앱 버전 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "꺼짐(기본)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 팀 멤버가 PC를 사용 중인 상태에서는 모바일 알림을 받지 않습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "켜짐"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 팀 멤버가 PC를 사용 중인 상태여도 항상 모바일 알림을 받습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ios android 모두 10.17.0 버전 이상"
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "방해 금지 모드"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "집중이 필요할 때나, 퇴근 후엔 방해 금지 모드를 켜두세요. 원하는 시간까지 푸시 알림을 받지 않을 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "방해 금지 모드"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 사용 중에도 안 읽은 메시지 숫자는 보여지기에, 메시지는 놓치지 않고 원하는 타이밍에 확인할 수 있어요. 방해 금지 모드의 시간은 팀 멤버의 접속 기기의 설정된 시간대(TimeZone) 기준으로 보여지게 됩니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "25년 1월 업데이트 이후부터 방해 금지 모드는 알림 허용 여부를 설정하는 기능으로 변경되어 방해 금지 모드를 켜더라도 "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "상담 자동 배정 여부에 영향을 주지 않습니다."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "단, 방해 금지를 켜둔 경우 전화 자동 배정이 되더라도 링이 울리지 않아 전화를 받지 못할 수 있으니 전화 상담 중에는 방해 금지를 해제해 주세요. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [개인 설정] - [방해 금지]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사용자 지정을 클릭하여 최대 90일까지 방해 금지 모드를 설정할 수 있어요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "푸시알림_13_방해금지모드_250108.png",
+                "height": "640px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/133828/usermedia/677e63421adfbd8112da",
+                "width": "1560px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "방해 금지 모드인 팀원은 팀 멤버 아이콘 옆에 달 표시가 나타나요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "초록 달: 팀원이 채널에 온라인 상태예요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "주황 달: 팀원이 채널에 오프라인 상태예요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/76/usermedia/662b0f3110a1c7022b97"
+                      },
+                      "type": "image"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "윈도우 앱 알림센터"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "윈도우를 이용 중이라면, 채널톡 알림을 자동으로 알림 센터에서 모아보실 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 그리고 팀과 나누는 대화를 놓치지 않고, 쉽게 메시지를 확인할 수 있습니다. 많은 메시지를 주고 받으면서 놓치기 쉬운 중요한 메시지도 빠짐 없이 알림센터에서 확인해 보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "6684f2764d9f4aee2a4e",
+        "height": "884px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/11148/usermedia/66a23167b61563f46e88",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "각 채널에 들어온 팀챗/수신함 알림을 하나로 묶어서, 메세지를 채널별로 구분하여 보여줍니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "6684f87289054ed302d4",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/11148/usermedia/66a23167a9817a548495",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "총 100개 까지 알림이 쌓일 수 있으며, 그 이후 새로운 알림이 오면 가장 오래된 과거 알림부터 삭제 됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "‘모두 읽음’ 버튼을 클릭하여 수신한 전체 메시지를 읽기 처리하고 알림메시지를 닫을 수 있습니다. 또한 각 채널별로 그룹화된 메세지를 ‘모두 읽음’ 처리 할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "66a0a6861d39b152837b",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/27/revisions/11148/usermedia/66a231679ab6f2acd42c",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eb0c2539204f1bd",
+  "linked_faqs": [
+    {
+      "id": "51245",
+      "question": "방해 금지 모드를 켰는데 상담 자동 배정이 동작해요",
+      "answer_plaintext": "25년 1월 업데이트 이후부터 방해 금지 모드는 알림 허용 여부를 설정하는 기능으로 변경되어 방해 금지 모드를 켜더라도 상담 자동 배정될 수 있습니다. \n상담 자동 배정을 막기 위해서는 [개인 설정] - [오퍼레이터]에서 오퍼레이터 상태를 '자리 비움' 또는 '근무 종료'로 설정해 주세요."
+    },
+    {
+      "id": "51246",
+      "question": "담당자 없는 채팅(전화) 알림이 보이지 않아요.",
+      "answer_plaintext": "25년 1월 업데이트 이후부터 '담당자 없는 채팅 알림'과 '담당자 없는 전화 알림'이 '담당자 없음 알림'으로 통합되었습니다."
+    },
+    {
+      "id": "51247",
+      "question": "방해 금지 모드 자동화는 어떻게 설정하나요?",
+      "answer_plaintext": "방해 금지 모드는 [스케줄링] 기능이 지원되지 않습니다. 필요 시 수동으로 설정해주세요."
+    },
+    {
+      "id": "51250",
+      "question": "Mac에서는 윈도우 앱 알림센터 기능을 사용할 수 없나요 ?",
+      "answer_plaintext": "이미 Mac 자체적으로 지원하는 알림센터 기능이 있기 때문에, 채널톡에서 별도로 알림센터 기능을 지원하고 있지 않습니다."
+    },
+    {
+      "id": "51249",
+      "question": "알림이 오지 않아요",
+      "answer_plaintext": "아래의 4가지 경우가 아닌지 확인 부탁드려요\n- 데스크탑(PC)를 4분 30초 이상 사용하지 않을 시 오프라인으로 처리되며 모바일로 알림이 가요.\n- 데스크탑 앱이 켜져있다면, 모바일 알림은 중복으로 수신되지 않아요. PC에서 채널톡을 끄고 다시 확인해주세요.\n- 하나의 계정을 여러명이 사용하는 경우, 사용시간이 겹쳐 알림이 오지 않을 수 있어요. 상담자 별로 계정 생성, 분리하여 사용하시길 권장드려요.\n(→ 팀원 초대하는 방법 확인하러 가기)\n- 모바일 알림 항상 받기 옵션이 꺼져있는 경우, 팀 멤버가 PC를 사용 중인 상태에서는 모바일 알림이 오지 않습니다. (*설정 경로: 팀 멤버 설정 > 알림 > 소리 및 기타 > 모바일 알림 항상 받기)"
+    },
+    {
+      "id": "76665",
+      "question": "부재중 상담 알림을 끄고 싶어요",
+      "answer_plaintext": "[개인 설정 → 매니저 설정 → 알림 → 수신함 알림]에서 '부재중 상담 알림'을 꺼주시면 됩니다."
+    },
+    {
+      "id": "83596",
+      "question": "야간에 푸시 알림 소리를 받거나 끄고 싶어요",
+      "answer_plaintext": "야간 푸시 알림 소리는 [개인 설정] > [계정 설정] > [야간 푸시 소리 켬] 항목에서 켜거나 끌 수 있습니다.\n밤 10시부터 오전 6시 사이에도 푸시 알림을 받고 싶다면, '야간 푸시 소리 켬' 옵션을 활성화해 주세요."
+    }
+  ],
+  "faq_count": 7
+}

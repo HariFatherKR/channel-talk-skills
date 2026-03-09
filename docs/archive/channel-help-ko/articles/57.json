@@ -1,0 +1,326 @@
+{
+  "id": "57",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D-1b9e3eb9",
+  "title": "비즈니스 인증",
+  "summary": "채널톡과 카카오 상담톡 및 알림톡 연동을 위해서는 카카오톡 채널의 비즈니스 인증이 필요합니다.",
+  "plaintext": "이미 인증을 받았다면, 이 단계는 통과하셔도 됩니다.\n인증 신청하기\n카카오톡 채널 관리자 센터\n에서 [관리] - [비즈니스 채널 신청] - [신청하기]를 진행해 주세요.\n비즈니스 채널 신청 준비사항은 다음과 같습니다.\n(→ 비즈니스 채널 신청 가이드 보러가기)\n아래의 필수 제출 서류를 준비해 주세요.\n사업자등록증(혹은 고유번호증)\n통신판매업, 의료기기판매업, 건강기능식품판매업 신고증 (해당하는 사업자의 경우)\n재직증명서 또는 대표자의 신분증\n해외사업자의 경우 신청 불가\n신청 채널의\n마스터\n가 신청 가능합니다.\n필수 서류와 관리 메뉴에 설정된 정보가 일치해야 합니다.\n심사 및 승인까지 영업일 기준 3~5일이 소요 됩니다.\n인증 상태 확인하기\n심사가 완료되면 관리자센터 알림, 카카오톡 메시지 등으로 안내를 받으실 수 있습니다.",
+  "body": [
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "이미 인증을 받았다면, 이 단계는 통과하셔도 됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "인증 신청하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카카오톡 채널 관리자 센터"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://center-pf.kakao.com"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "에서 [관리] - [비즈니스 채널 신청] - [신청하기]를 진행해 주세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://center-pf.kakao.com"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/57/revisions/166/usermedia/662b111f133863b74c53"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "비즈니스 채널 신청 준비사항은 다음과 같습니다. "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 비즈니스 채널 신청 가이드 보러가기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://t1.daumcdn.net/biz/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%20%EC%B1%84%EB%84%90/%5B%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%20%EC%B1%84%EB%84%90%5D%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EC%B1%84%EB%84%90%20%EC%8B%A0%EC%B2%AD%EA%B0%80%EC%9D%B4%EB%93%9C_ver2.2_%EC%99%B8%EB%B6%80%EC%9A%A9.pdf"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "아래의 필수 제출 서류를 준비해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "사업자등록증(혹은 고유번호증)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "통신판매업, 의료기기판매업, 건강기능식품판매업 신고증 (해당하는 사업자의 경우)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "재직증명서 또는 대표자의 신분증"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "해외사업자의 경우 신청 불가"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신청 채널의 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "마스터"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "가 신청 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필수 서류와 관리 메뉴에 설정된 정보가 일치해야 합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "심사 및 승인까지 영업일 기준 3~5일이 소요 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "인증 상태 확인하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "심사가 완료되면 관리자센터 알림, 카카오톡 메시지 등으로 안내를 받으실 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/57/revisions/166/usermedia/662b111f534b610bde51"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "30",
+    "name": "Dugi",
+    "bio": "[Web, Backend]"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ecd692ea8ac72c1",
+  "linked_faqs": [],
+  "faq_count": 0
+}

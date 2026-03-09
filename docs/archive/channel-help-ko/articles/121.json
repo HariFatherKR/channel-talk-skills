@@ -1,0 +1,1840 @@
+{
+  "id": "121",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9A%B4%EC%98%81-%EC%84%A4%EC%A0%95-1e33dadc",
+  "title": "운영 설정",
+  "summary": "브랜드의 운영 시간을 설정하고, 문의에 대해 얼마나 빠르게 답변을 받을 수 있는지, 비 운영 시간에는 상담을 어떻게 관리할지 설정할 수 있어요.",
+  "plaintext": "영상으로 배우고 싶다면?\n운영 설정\n하나의 채널에서도 팀별로 각각 운영 시간을 다르게 설정할 수 있어요.\n[기본 운영 설정]이 있고 [+] 버튼으로 새 운영 설정을 추가할 수 있습니다.\n새 운영 설정을 추가하지 않을 경우 [기본 운영 설정]이 적용됩니다.\n운영 설정은 최대 30개까지 추가할 수 있습니다.\n‘기본 운영 시간만 있는 경우’와 ‘운영 시간이 2개 이상인 경우’ 프론트 동작이 달라집니다.\n운영 시간\n운영 상태를 설정하여 고객에게 상담이 가능한 시간인지 알려주세요.\n자동화 기능을 통해 운영 시간과 비 운영 시간(부재중 상태)을 자동으로 전환할 수도 있습니다.\n비 운영 시간에 새롭게 들어오는 문의를 받을지 받지 않을지도 설정할 수 있어요.\n시간대\n서비스를 운영하는 국가 및 시간대를 설정할 수 있고, 설정한 시간대(Timezone)에 따라 채널 운영 상태가 변경됩니다.\n운영 상태\n수동으로 운영 상태를 변경할 수 있습니다.\n운영 시간일 때는 답변 속도가, 비 운영 시간에는 다음 운영 시간 시작 시점이 표시됩니다.\n운영 설정에 따라 동작이 달라지며 프론트 가이드에서 자세히 살펴보실 수 있습니다. (→\n채널 프론트 보러가기\n)\n자동화\n자동화를 설정할 경우, 설정한 시간에 맞춰 자동으로 운영 상태가 변경됩니다.\n자동화를 설정 하더라도 운영 상태를 수동으로 끄거나 켤 수 있어요. 운영 시간이 아닐 때 수동으로 운영 시간을 켠다면 그 다음 자동화가 적용되는 시간까지 적용돼요.\n예시) 이미지와 같이\n운영 시간 9시-18시\n,\n점심 시간(비운영 시간) 12시-13시\n로 설정 했을 때\n월요일\n오전 7시(비운영 시간)\n에\n수동으로 운영 시간을 켤\n경우,\n오전 11시 59분\n까지 운영 상태가 유지\n화요일\n오후 3시(운영 시간)\n에\n수동으로 운영 시간을 끌\n경우,\n수요일 오전 8시 59분\n까지 비 운영 상태가 유지\n휴일 설정\n기본적으로 채널의 시간대를 따라갑니다.\n채널의 시간대는 [채널 설정] → [일반 설정] → [채널 프로필] → [연락처 및 위치]에서 설정할 수 있어요.\n공휴일 또는 창립기념일 등 자체적인 휴무일을 휴일로 설정하여 운영 상태에 반영할 수 있어요.\n휴일 설정 유의 사항\n운영 시간 내 '자동화' 옵션을 켠 상태에서만 휴일 설정이 가능합니다.\n운영 시간 내 '자동화' 옵션이 켜져있어야 정해진 휴일에 자동으로 운영 상태가 꺼지면 부재중 운영 상태를 따라갑니다.\n오늘 및 과거 날짜는 휴일로 등록할 수 없습니다. 이 경우 수동으로 운영 상태를 변경해 주셔야 합니다.\n휴일 추가\n[채널 설정] - [상담] - [운영]에서 휴일을 등록하고자 하는 운영 시간을 선택합니다.\n[+ 휴일 추가] 버튼을 클릭하고 원하는 날짜를 휴일로 등록합니다.\n단, 오늘(당일)은 휴일로 추가할 수 없어요.\n휴일 삭제\n휴일을 삭제하고 싶을 때는 날짜 위에 마우스를 올려 휴지통 아이콘을 클릭합니다.\n지난 휴일은 자동으로 삭제됩니다.\n공휴일 구독\n안내 사항\n현재 공휴일 구독은 설정 시점 기준 1년치 공휴일만 등록됩니다.\n자동 갱신 기능은\n2026년 상반기 내 지원 예정\n이며, 기능 적용 이후에는 별도 설정 없이 매년 최신 공휴일 기준으로 자동 갱신됩니다.\n최근 공휴일로 재지정된 제헌절은 기존 구독 내역에 포함되어 있지 않습니다. 자동 갱신 기능이 적용되면 함께 반영될 예정이나, 우려된다면 제헌절은 수동으로 추가해 주시기 바랍니다.\n[채널 설정] - [상담] - [운영]에서 공휴일 구독할 운영 시간을 선택합니다.\n[공휴일 구독] 클릭 후 어떤 국가의 공휴일을 휴일로 등록할지 선택합니다.\n현재는 대한민국, 일본의 공휴일만 지원합니다.(국가별로 운영 시간을 나눠 설정해 주세요.)\n선택한 국가의 공휴일이 자동으로 휴일로 설정됩니다.\n단, 오늘(당일)은 공휴일로 추가할 수 없어요.\n공휴일 삭제\n공휴일 구독을 해제하고 싶다면 공휴일 우측 X 아이콘을 눌러 삭제할 수 있습니다.\n특정 날짜만 휴일에서 제외하고 싶다면 날짜 우측 점 3개 클릭 후 삭제할 수 있습니다.\n모바일 휴일 설정\n모바일 앱 왼쪽 상단 메뉴(≡)를 클릭하고 '운영 설정' 메뉴를 선택합니다.\n휴일을 등록하고자 하는 운영 시간을 선택합니다.\n'운영 시간' 클릭 후 [+ 휴일 추가]를 클릭하여 휴일을 등록할 수 있어요.\n모바일에서는 공휴일 구독 설정을 지원하지 않습니다.\n부재중 운영 상태\n비 운영 시간일 때 들어오는 새로운 상담을 어떻게 관리할지 설정이 가능해요.\n상담 운영하기\n비 운영 시간에 들어오는 새로운 상담도 모두 수신함에 쌓여요. 이때 비 운영 시간임을 고객에게 잘 알려주면 고객이 오래 기다릴 일이 없겠죠? 워크플로우를 통해 자동 메시지를 설정해보세요. (\n→ 워크플로우 알아보기\n)\n새로운 채팅 받지 않기\n비 운영 시간에는 새로운 상담을 받지 않아요. 비 운영 시간에 들어온 고객에게는 ‘새 문의 하기' 버튼이 보이지 않습니다.\n답변 속도\n설정한 응답 속도에 따라, 문의 시 고객이 어느 정도 대기 시간이 필요한지 예측할 수 있어요.\n[채널 설정 따라가기]를 키면 채널 기본 운영 설정을 따라갑니다.\n팀 멤버 프로필을 켜면\n답변 속도 빠름, 보통일 때\n상담할 수 있는 팀 멤버의 프로필이 문의하기 버튼 하단에 노출됩니다.\n→ 팀 멤버 노출 조건 확인하기\n종료된 상담 답변 막기\n한 채팅 창 안에서 여러 문의를 진행하다보면 상담 유형을 파악하기 쉽지 않죠. 이 때 종료된 상담 답변 막기 기능을 활용하시면, 고객이 새로운 상담창을 통해 문의하도록 유도할 수 있어요.\n[채널 설정] - [상담] - [운영] 내 운영시간 선택 - 종료된 상담 답변 막기 메뉴에서 설정할 수 있습니다.\n상담이 종료된 후, 설정한 대기 시간 동안은 고객이 답변을 입력할 수 있어요. 대기 시간이 지나면 해당 채팅창으로 더 이상 메시지를 남길 수 없어요.\n답변 막기는 [상담 종료] 버튼을 누른 즉시 답변이 불가하도록 설정이 가능합니다.\n함께 보면 좋은 글",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 1분 • 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/고객-상담-시간-설정하기-9294be40",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad8c3f2da1bdb1d7c1/tmp-900458537.png",
+        "title": "고객 상담 시간 설정하기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "운영 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "하나의 채널에서도 팀별로 각각 운영 시간을 다르게 설정할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[기본 운영 설정]이 있고 [+] 버튼으로 새 운영 설정을 추가할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "새 운영 설정을 추가하지 않을 경우 [기본 운영 설정]이 적용됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "운영 설정은 최대 30개까지 추가할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "‘기본 운영 시간만 있는 경우’와 ‘운영 시간이 2개 이상인 경우’ 프론트 동작이 달라집니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "운영설정.png",
+        "height": "800px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/121/revisions/1201/usermedia/66a21a9be18b616765fc",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "운영 시간"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "운영 상태를 설정하여 고객에게 상담이 가능한 시간인지 알려주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "자동화 기능을 통해 운영 시간과 비 운영 시간(부재중 상태)을 자동으로 전환할 수도 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비 운영 시간에 새롭게 들어오는 문의를 받을지 받지 않을지도 설정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "시간대"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "서비스를 운영하는 국가 및 시간대를 설정할 수 있고, 설정한 시간대(Timezone)에 따라 채널 운영 상태가 변경됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "운영 상태"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수동으로 운영 상태를 변경할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "운영 시간일 때는 답변 속도가, 비 운영 시간에는 다음 운영 시간 시작 시점이 표시됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "운영 설정에 따라 동작이 달라지며 프론트 가이드에서 자세히 살펴보실 수 있습니다. (→ "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "채널 프론트 보러가기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/6fd32151-%EC%B1%84%EB%84%90-%ED%94%84%EB%A1%A0%ED%8A%B8"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자동화"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "자동화를 설정할 경우, 설정한 시간에 맞춰 자동으로 운영 상태가 변경됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "자동화를 설정 하더라도 운영 상태를 수동으로 끄거나 켤 수 있어요. 운영 시간이 아닐 때 수동으로 운영 시간을 켠다면 그 다음 자동화가 적용되는 시간까지 적용돼요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예시) 이미지와 같이 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "운영 시간 9시-18시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ", "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "점심 시간(비운영 시간) 12시-13시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "로 설정 했을 때"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "월요일 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "오전 7시(비운영 시간)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "수동으로 운영 시간을 켤"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 경우, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "오전 11시 59분"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "까지 운영 상태가 유지"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "화요일 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "오후 3시(운영 시간)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "에 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "수동으로 운영 시간을 끌"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 경우, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "수요일 오전 8시 59분"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "까지 비 운영 상태가 유지"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/121/revisions/358/usermedia/662b0ff9e3c6d2f28baa"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "휴일 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "기본적으로 채널의 시간대를 따라갑니다. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널의 시간대는 [채널 설정] → [일반 설정] → [채널 프로필] → [연락처 및 위치]에서 설정할 수 있어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "공휴일 또는 창립기념일 등 자체적인 휴무일을 휴일로 설정하여 운영 상태에 반영할 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "휴일 설정 유의 사항"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "운영 시간 내 '자동화' 옵션을 켠 상태에서만 휴일 설정이 가능합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "운영 시간 내 '자동화' 옵션이 켜져있어야 정해진 휴일에 자동으로 운영 상태가 꺼지면 부재중 운영 상태를 따라갑니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오늘 및 과거 날짜는 휴일로 등록할 수 없습니다. 이 경우 수동으로 운영 상태를 변경해 주셔야 합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "휴일 추가"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [상담] - [운영]에서 휴일을 등록하고자 하는 운영 시간을 선택합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[+ 휴일 추가] 버튼을 클릭하고 원하는 날짜를 휴일로 등록합니다.  "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "단, 오늘(당일)은 휴일로 추가할 수 없어요. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "휴일 삭제"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "휴일을 삭제하고 싶을 때는 날짜 위에 마우스를 올려 휴지통 아이콘을 클릭합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지난 휴일은 자동으로 삭제됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "운영설정_휴일설정 (1).png",
+        "height": "816px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/121/revisions/905108/usermedia/69854ed3ae2023187b57",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "공휴일 구독"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "안내 사항"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "현재 공휴일 구독은 설정 시점 기준 1년치 공휴일만 등록됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "자동 갱신 기능은 "
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "2026년 상반기 내 지원 예정"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "이며, 기능 적용 이후에는 별도 설정 없이 매년 최신 공휴일 기준으로 자동 갱신됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "최근 공휴일로 재지정된 제헌절은 기존 구독 내역에 포함되어 있지 않습니다. 자동 갱신 기능이 적용되면 함께 반영될 예정이나, 우려된다면 제헌절은 수동으로 추가해 주시기 바랍니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [상담] - [운영]에서 공휴일 구독할 운영 시간을 선택합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[공휴일 구독] 클릭 후 어떤 국가의 공휴일을 휴일로 등록할지 선택합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "현재는 대한민국, 일본의 공휴일만 지원합니다.(국가별로 운영 시간을 나눠 설정해 주세요.)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "선택한 국가의 공휴일이 자동으로 휴일로 설정됩니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "단, 오늘(당일)은 공휴일로 추가할 수 없어요. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "공휴일 삭제"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "공휴일 구독을 해제하고 싶다면 공휴일 우측 X 아이콘을 눌러 삭제할 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "특정 날짜만 휴일에서 제외하고 싶다면 날짜 우측 점 3개 클릭 후 삭제할 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "69854ee60d824f1d48b4",
+        "height": "982px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/121/revisions/905108/usermedia/69893a574018d1aa3282",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "모바일 휴일 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모바일 앱 왼쪽 상단 메뉴(≡)를 클릭하고 '운영 설정' 메뉴를 선택합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "휴일을 등록하고자 하는 운영 시간을 선택합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'운영 시간' 클릭 후 [+ 휴일 추가]를 클릭하여 휴일을 등록할 수 있어요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "모바일에서는 공휴일 구독 설정을 지원하지 않습니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "운영설정_모바일.png",
+        "height": "786px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/121/revisions/905108/usermedia/698572b6860aa49d1bb7",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "부재중 운영 상태"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "비 운영 시간일 때 들어오는 새로운 상담을 어떻게 관리할지 설정이 가능해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 운영하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비 운영 시간에 들어오는 새로운 상담도 모두 수신함에 쌓여요. 이때 비 운영 시간임을 고객에게 잘 알려주면 고객이 오래 기다릴 일이 없겠죠? 워크플로우를 통해 자동 메시지를 설정해보세요. ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 워크플로우 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/categories/67f801ce-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0%EB%9E%80"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "새로운 채팅 받지 않기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비 운영 시간에는 새로운 상담을 받지 않아요. 비 운영 시간에 들어온 고객에게는 ‘새 문의 하기' 버튼이 보이지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "운영설정_부재중운영상태.png",
+        "height": "900px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/121/revisions/1201/usermedia/66a21b694bcea7d4d8d3",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "답변 속도 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정한 응답 속도에 따라, 문의 시 고객이 어느 정도 대기 시간이 필요한지 예측할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[채널 설정 따라가기]를 키면 채널 기본 운영 설정을 따라갑니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "운영설정",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/121/revisions/358/usermedia/662b0ff968bc18957f43"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "팀 멤버 프로필을 켜면 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "답변 속도 빠름, 보통일 때"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 상담할 수 있는 팀 멤버의 프로필이 문의하기 버튼 하단에 노출됩니다. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "→ 팀 멤버 노출 조건 확인하기"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://channel.io/ko/guides/general/channel-home#faq"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "종료된 상담 답변 막기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "한 채팅 창 안에서 여러 문의를 진행하다보면 상담 유형을 파악하기 쉽지 않죠. 이 때 종료된 상담 답변 막기 기능을 활용하시면, 고객이 새로운 상담창을 통해 문의하도록 유도할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [상담] - [운영] 내 운영시간 선택 - 종료된 상담 답변 막기 메뉴에서 설정할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담이 종료된 후, 설정한 대기 시간 동안은 고객이 답변을 입력할 수 있어요. 대기 시간이 지나면 해당 채팅창으로 더 이상 메시지를 남길 수 없어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "답변 막기는 [상담 종료] 버튼을 누른 즉시 답변이 불가하도록 설정이 가능합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/121/revisions/358/usermedia/662b0ffb15f39a3ecca4"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "함께 보면 좋은 글"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 15분 • 난이도: 상",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/채팅과-전화-상담-운영-시간-다르게-설정하기-0705541f",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68d4c8b4dcf92d1940e3/tmp-2928052250.png",
+        "title": "채팅과 전화 상담 운영 시간 다르게 설정하기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0efe7dd3f49a5528",
+  "linked_faqs": [
+    {
+      "id": "51239",
+      "question": "부재중 운영 상태를 '새로운 채팅 받지 않기'로 설정했더니, 미운영 시간에 들어온 외부 메신저 상담이 확인되지 않아요.",
+      "answer_plaintext": "부재중 '새로운 채팅 받지 않기' 상태는 미운영 시간에 신규 상담을 받지 않도록 설정하는 기능입니다. 고객이 카카오톡이나 네이버 톡톡으로 메시지를 보내도 채널톡 수신함에서는 신규 채팅이 생성되지 않아 상담 확인이 불가합니다.\n\n- 상담이 누락될 수 있기에, 고객에게는 자동으로 아래와 같은 시스템 안내 메시지가 전송됩니다. '지금은 상담 운영시간이 아닙니다. 🌜 운영시간에 문의해주시면 가능한 빨리 응답해드리겠습니다. 감사합니다.' \n  \n- 카카오 상담톡의 경우, 위 자동 메시지가 발송되면 채팅방 과금이 발생되니 운영 상태 설정에 참고부탁드립니다. (24시간 기준 대화방 당 80원) \n\n*참고사항\n2025년 5월 15일 채널톡 상담 구조가 개편됨에 따라, 운영 상태가 새로운 채팅 받지 않기 설정되어있을 때 미운영 시간에 외부 메신저로 들어온 상담에도 워크플로우 동작이 가능합니다. (→ 관련 공지사항 확인하기)"
+    },
+    {
+      "id": "51240",
+      "question": "'채널 기본 운영' 이름을 변경하고 싶어요.",
+      "answer_plaintext": "'채널 기본 운영' 설정은 기본 설정으로, 이름 변경이 어렵습니다."
+    }
+  ],
+  "faq_count": 2
+}

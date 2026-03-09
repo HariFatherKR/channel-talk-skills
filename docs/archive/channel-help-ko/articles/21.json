@@ -1,0 +1,1191 @@
+{
+  "id": "21",
+  "url": "https://docs.channel.io/help/ko/articles/%EA%B2%B0%EC%A0%9C-%EC%A0%95%EB%B3%B4-07285135",
+  "title": "결제 정보",
+  "summary": "채널톡 유료플랜 구독에 필요한 결제 수단을 확인해보세요. 카드 등록을 통해 손쉽게 구독을 갱신 할 수 있고, 예치금 입금을 통해 채널톡 이용도 가능합니다.",
+  "plaintext": "채널톡은\n(1) 신용카드\n(2)\n예치금 (3) 크레딧\n세 가지 방법으로 결제가 가능합니다.\n구독료 및 문자 비용은 크레딧 → 예치금 → 카드 순으로 결제됩니다.\n신용카드\n채널에 등록된 카드로 결제하는 방식입니다. 카드 결제 시 이용되는 PG사는 아래와 같습니다.\n국내 결제: Nicepay\n해외 결제: Stripe\n쇼피파이(Shopify):\n쇼피파이와 연동한 경우, 채널톡의 모든 결제는 쇼피파이에 등록한 결제 수단으로 진행됩니다.\n결제 카드 등록하기\n[채널 설정] - [서비스 구독 및 결제] - [서비스 구독] 에서 [유료 기능 14일 체험하기] 버튼을 눌러주세요.\n원하시는 플랜을 선택하신 다음, [14일 무료 체험 시작] → [무료 체험 시작] 버튼을 눌러주세요.\n결제될 카드 정보를 입력하신 다음, 결제용 이메일을 입력해주세요.\n\b모두 입력 후 등록 버튼을 누르시면, 결제 정보가 등록됩니다.\n결제용 이메일을 등록하지 않으면 결제 성공, 실패와 같은 메일을 받아보실 수 없으니 꼭 입력해 주세요.\n쇼피파이 결제\n쇼피파이에서 채널톡을 연동하신 경우, 채널톡에서 발생하는 모든 결제는 쇼피파이에 등록한 결제 수단으로 진행됩니다.\n결제 수단 등록\n쇼피파이와 연동이 되어있는 경우 유료플랜 구독 혹은 결제 수단 등록 시 아래 메시지가 표시됩니다. [결제수단 등록]을 누르면 연동된 쇼피파이 스토어로 이동됩니다.\n쇼피파이 화면에서 원하시는 결제 방법을 추가해주세요.\n결제 방법 추가 후 오른쪽 상단의 [승인] 버튼을 클릭합니다.\n이후\n채널톡 화면에서 보라색 [확인] 버튼\n을 꼭 눌러주세요.\n결제 한도 금액 수정\n설정 경로: [채널 설정] - [서비스 구독 및 결제] - [결제 정보]에서 등록된 카드를 클릭하여 한도 금액을 변경하실 수 있습니다.\n한도 금액에는 채널톡에서 청구되는 구독, 부가 서비스, 문자 충전 등 모든 비용이 포함되어 있으며, 한도 금액은 목록 외 금액도 수기로 입력 가능합니다.\n결제 카드 변경하기\n[채널 설정] - [서비스 구독 및 결제] - [결제 정보] - [결제 수단 추가] 버튼을 눌러 새로운 결제 수단을 등록해주세요.\n[기본으로 설정]을 클릭해 기본 결제 카드로 설정해 주시면, 다음 결제일부터 변경된 카드로 결제가 진행됩니다.\n예치금\n예치금은 아래 두 가지 경로로 발생합니다.\n계좌이체를 통해 예치금을 충전하신 경우\n계좌이체를 통해 예치금을 충전하여 결제수단으로 사용하실 수 있습니다.\n결제 금액이 예치금을 초과할 경우, 잔액은 등록하신 카드로 결제됩니다.\n플랜 환불 시 발생되는 반환금\n플랜 환불 시 남은 기간동안의 금액이 예치금으로 반환됩니다.\n예치금 충전 방법\n예치금으로 충전하시고자 하는 금액 + 부가세 10%를 합산하여 계좌이체 해주세요.\n세금계산서 발행 신청서 작성 후 제출해 주세요. 요청 시 세금계산서 선발행도 가능합니다.\n( → 세금계산서 발행신청서 제출하기)\n예치금 충전이 완료되면, [채널 설정] - [결제 정보] - [예치금] 탭에서 확인하실 수 있습니다.\n예치금 특징\n충전 또는 반환된 예치금은 별도의 유효기간 없이 현금처럼 쓰실 수 있습니다.\n예치금 출금 시\n10%의 환불 위약금\n이 발생합니다.\n(단, 충전한 예치금 전액을 사용하지 않은 경우 출금 시 별도 위약금이 발생하지 않습니다.)\n크레딧\n크레딧이란 채널톡 내에서 현금처럼 사용하실 수 있는 결제 수단입니다. 일반적으로 채널톡에서 결제 처리 등을 위해 사용됩니다.\n설정 경로: [채널 설정] - [결제 정보] - [크레딧] 에서 전달받은 크레딧 코드를 입력해 추가하실 수 있습니다.\n크레딧에는 세금(10%)이 포함되지 않습니다.\n예시) 7만원 결제시 잔여 크레딧 35000원, 카드 35000원으로 결제가 될 경우 → 카드로 총 38500원이 결제됩니다. (카드결제분에 대해서만 세금 적용)\n청구서\n플랜 및 사용량에 따른 결제 청구서를 확인하실 수 있어요.\n[채널 설정] - [구독 및 결제] - [결제 정보]의 청구서 탭에서 확인할 수 있으며, 개별 청구서를 인쇄하실 수 있습니다.\n플랜과 함께 후불로 결제된 사용량이나, 선불로 충전하신 금액을 확인하실 수 있어요.\n2020년 10월 이전 영수증을 확인하시려면, 채널톡으로 문의해주세요.\n(→ 채널팀으로 문의하기)\n결제용 회사 정보\n아래와 같은 상황에서 기재해 주셔야 하는 정보이며, 카드로 결제하는 경우에는 필수로 기재하지 않으셔도 됩니다.\n사이트 사업자와 세금계산서 발행 사업자가 달라 정보 확인이 필요한 경우\n세금계산서 이메일을 다른 이메일로 기재하셔야 하는 경우",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡은 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(1) 신용카드"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(2)"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "예치금 (3) 크레딧"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 세 가지 방법으로 결제가 가능합니다.\n구독료 및 문자 비용은 크레딧 → 예치금 → 카드 순으로 결제됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "신용카드"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널에 등록된 카드로 결제하는 방식입니다. 카드 결제 시 이용되는 PG사는 아래와 같습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "국내 결제: Nicepay"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해외 결제: Stripe"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "쇼피파이(Shopify):"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 쇼피파이와 연동한 경우, 채널톡의 모든 결제는 쇼피파이에 등록한 결제 수단으로 진행됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "결제 카드 등록하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "enrollcard",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/21/revisions/58/usermedia/662b101198941fccf784"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [서비스 구독 및 결제] - [서비스 구독] 에서 [유료 기능 14일 체험하기] 버튼을 눌러주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원하시는 플랜을 선택하신 다음, [14일 무료 체험 시작] → [무료 체험 시작] 버튼을 눌러주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "결제될 카드 정보를 입력하신 다음, 결제용 이메일을 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "\b모두 입력 후 등록 버튼을 누르시면, 결제 정보가 등록됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "결제용 이메일을 등록하지 않으면 결제 성공, 실패와 같은 메일을 받아보실 수 없으니 꼭 입력해 주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "쇼피파이 결제"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "쇼피파이에서 채널톡을 연동하신 경우, 채널톡에서 발생하는 모든 결제는 쇼피파이에 등록한 결제 수단으로 진행됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "결제 수단 등록"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "shopify",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/21/revisions/58/usermedia/662b1011ba0b3b834cd8"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "유료플랜구독_쇼피파이2",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/21/revisions/58/usermedia/662b1011d6a49cc986cb"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "유료플랜구독_쇼피파이3",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/21/revisions/58/usermedia/662b101205ad5a056e84"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "쇼피파이와 연동이 되어있는 경우 유료플랜 구독 혹은 결제 수단 등록 시 아래 메시지가 표시됩니다. [결제수단 등록]을 누르면 연동된 쇼피파이 스토어로 이동됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "쇼피파이 화면에서 원하시는 결제 방법을 추가해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "결제 방법 추가 후 오른쪽 상단의 [승인] 버튼을 클릭합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이후 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "채널톡 화면에서 보라색 [확인] 버튼"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 꼭 눌러주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "결제 한도 금액 수정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [서비스 구독 및 결제] - [결제 정보]에서 등록된 카드를 클릭하여 한도 금액을 변경하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "한도 금액에는 채널톡에서 청구되는 구독, 부가 서비스, 문자 충전 등 모든 비용이 포함되어 있으며, 한도 금액은 목록 외 금액도 수기로 입력 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/21/revisions/58/usermedia/662b10122e2ba877173a"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "결제 카드 변경하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "change_card",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/21/revisions/58/usermedia/662b10125990fa374b60"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [서비스 구독 및 결제] - [결제 정보] - [결제 수단 추가] 버튼을 눌러 새로운 결제 수단을 등록해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[기본으로 설정]을 클릭해 기본 결제 카드로 설정해 주시면, 다음 결제일부터 변경된 카드로 결제가 진행됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예치금"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "예치금은 아래 두 가지 경로로 발생합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "계좌이체를 통해 예치금을 충전하신 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "계좌이체를 통해 예치금을 충전하여 결제수단으로 사용하실 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "결제 금액이 예치금을 초과할 경우, 잔액은 등록하신 카드로 결제됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "플랜 환불 시 발생되는 반환금"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "플랜 환불 시 남은 기간동안의 금액이 예치금으로 반환됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예치금 충전 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예치금으로 충전하시고자 하는 금액 + 부가세 10%를 합산하여 계좌이체 해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "세금계산서 발행 신청서 작성 후 제출해 주세요. 요청 시 세금계산서 선발행도 가능합니다. \n"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "( → 세금계산서 발행신청서 제출하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://app.bolta.io/request/rZhUrUgFOg3w4rh1Dxkr5srTIk3n2FqE5LALH10sAaH7hqIH"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예치금 충전이 완료되면, [채널 설정] - [결제 정보] - [예치금] 탭에서 확인하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "예치금 특징"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "충전 또는 반환된 예치금은 별도의 유효기간 없이 현금처럼 쓰실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예치금 출금 시"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 10%의 환불 위약금"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "이 발생합니다.\n(단, 충전한 예치금 전액을 사용하지 않은 경우 출금 시 별도 위약금이 발생하지 않습니다.)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "크레딧"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "크레딧이란 채널톡 내에서 현금처럼 사용하실 수 있는 결제 수단입니다. 일반적으로 채널톡에서 결제 처리 등을 위해 사용됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [결제 정보] - [크레딧] 에서 전달받은 크레딧 코드를 입력해 추가하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "크레딧에는 세금(10%)이 포함되지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시) 7만원 결제시 잔여 크레딧 35000원, 카드 35000원으로 결제가 될 경우 → 카드로 총 38500원이 결제됩니다. (카드결제분에 대해서만 세금 적용)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "청구서"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "플랜 및 사용량에 따른 결제 청구서를 확인하실 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [구독 및 결제] - [결제 정보]의 청구서 탭에서 확인할 수 있으며, 개별 청구서를 인쇄하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "플랜과 함께 후불로 결제된 사용량이나, 선불로 충전하신 금액을 확인하실 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2020년 10월 이전 영수증을 확인하시려면, 채널톡으로 문의해주세요. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 채널팀으로 문의하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://root.channel.io"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "bill",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/21/revisions/58/usermedia/662b101281eba3a867e4"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "결제용 회사 정보"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아래와 같은 상황에서 기재해 주셔야 하는 정보이며, 카드로 결제하는 경우에는 필수로 기재하지 않으셔도 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사이트 사업자와 세금계산서 발행 사업자가 달라 정보 확인이 필요한 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "세금계산서 이메일을 다른 이메일로 기재하셔야 하는 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "payment_info",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/21/revisions/58/usermedia/662b1012a8f0ce1507d8"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "43",
+    "name": "Inus",
+    "bio": "Jongeun Lee, CX Team Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eaae85e8d87e67d",
+  "linked_faqs": [
+    {
+      "id": "73416",
+      "question": "결제 카드 등록이 실패해요.",
+      "answer_plaintext": "결제 카드 등록이 실패한 이유는 다음과 같을 수 있습니다.\n\n• 잔액 부족, 거래 정지 카드, 한도 초과, 신규발급카드 사용요망  등\n해당 메시지는 실제 카드사에서 제공하는 안내 문구이며, 정확한 사유 확인을 위해 카드사에 문의해 주시길 바랍니다.\n \n- 카드 '유효기간 오류'의 경우 결제 카드 등록 시 유효기간이 제대로 입력되었는지 확인해주세요. (연도에는 '2025'와 같이 4자리로 입력해주세요)"
+    },
+    {
+      "id": "73417",
+      "question": "쇼피파이 이용 중인데, 결제 카드 변경이 되지 않아요.",
+      "answer_plaintext": "쇼피파이와 채널톡 연동 시, 쇼피파이에 직접 등록한 결제 방법으로 결제가 진행됩니다.\n만약 결제 수단 변경이 필요하신 경우 쇼피파이의 [설정] - [청구]에서 기존 결제 방법 삭제 후 [채널 설정] - [구독 및 결제] - [결제 정보]에서 [결제수단 등록]을 통해 쇼피파이의 결제 정보를 등록해주세요. 이후 채널톡 화면의 구독 승인이 필요하며, 팝업에서 [확인] 버튼을 눌러야 변경이 완료됩니다"
+    },
+    {
+      "id": "86862",
+      "question": "결제 카드가 여러개면 어떤 순서로 결제되나요?",
+      "answer_plaintext": "결제 카드가 여러개 등록되어 있는 경우, 기본 결제카드로 등록된 카드에서 결제를 먼저 시도합니다. 만약 결제가 실패한 경우 등록된 다른 결제카드에서 다시 결제를 시도합니다."
+    }
+  ],
+  "faq_count": 3
+}

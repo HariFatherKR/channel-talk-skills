@@ -1,0 +1,1113 @@
+{
+  "id": "56159",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8A%A4%ED%86%A0%EC%96%B4-%EC%A3%BC%EB%AC%B8%EC%97%B0%EB%8F%99-0729d2f6",
+  "title": "네이버 스마트스토어 주문연동",
+  "summary": "상담 화면 내에서 네이버 스토어 주문내역을 실시간으로 확인하여 더욱 간편히 응대할 수 있어요! \n수신함 우측 목록에서 주문 상품, 결제 금액, 결제 수단, 배송 정보 까지 상세 주문 정보를 확인해보세요.",
+  "plaintext": "연동하기\n1. 채널톡과 네이버 계정 연동\n네이버 톡톡을 먼저 연동한 이후에 스마트스토어 주문내역을 연동할 수 있습니다. (→\n네이버 톡톡 연동방법 확인하기\n)\n톡톡 파트너센터에서 톡톡 계정과 스마트스토어 연동된 상태일 때, 주문내역을 정상적으로 확인할 수 있습니다. (→\n네이버 톡톡 계정과 스마트스토어 연동방법 확인하기\n)\n2. 주문내역 연동 설정\n경로: [채널 설정] → [연동] → [앱스토어] → [네이버] → [톡톡 설정] 에서 ‘\n스마트스토어 주문\n’ 토글을\nON\n해주세요.\n3. 고객 정보 제공 동의 절차\n최종적으로 고객이 정보 제공에 동의를 완료 해야만 주문내역이 표시됩니다. 팀 멤버가 정보제공 동의를 요청하고 고객이 동의하는 방식으로 진행됩니다.\n1) 정보 제공 동의 요청\n팀 멤버가 우측 목록의 주문내역 '동의 요청하기' 버튼을 클릭 하면, 정보 제공 동의를 요청하는 메시지가 전송됩니다.\n2) 정보 제공 동의\n고객이 개인정보 제공 동의 요청 메시지에\n‘확인’\n버튼을 클릭하면 동의가 완료됩니다.\n동의 완료 후\n내부 대화 메시지를 통해 동의 완료 알림을 받습니다.\n수신함 우측 목록에 주문내역이 표시됩니다.\n3) 정보 제공 거부\n고객이 개인정보 제공 동의 요청 메시지에 ‘\n취소\n’버튼을 클릭하면 거부 됩니다.\n수신함 우측 목록에서 주문내역을 확인할 수 없습니다.\n팀 멤버는\n‘동의 요청하기’\n버튼을 클릭하여 고객에게 정보 제공 동의를 요청할 수 있습니다. 버튼 클릭 시 자동으로 요청 메시지가 전송 됩니다.\n주문내역 확인하기\n정보 제공에 동의한 고객의 주문내역만 확인할 수 있습니다.\n유료플랜 이용 중에만 주문내역을 확인할 수 있습니다.\n주문내역\n수신함 우측 목록에서 고객의 주문내역이 한눈에 확인할 수 있습니다.\n각 주문을 클릭하면, 해당 주문에 포함된 상품의 상세 내역을 볼 수 있습니다.\n연동 정보\n최근 1달 내에 주문한 내역을 확인할 수 있습니다.\n주문 및 배송 정보\n상품 정보\n주문 날짜\n상품 번호\n주문 상태(환불, 반품, 결제완료 등등)\n상품명, 상품 옵션(컬러, 사이즈 등)\n주문 번호\n상품 이미지\n주문 금액 (결제 금액, 할인 금액, 배송 금액, 상품금액 등)\n상품 금액\n주문한 상품의 수량\n배송지 정보\n배송 상태\n주문내역 갱신 시점\n정보 제공 동의 요청에 즉시 응답한 경우\n고객의 주문내역이 연동되어 보여집니다.\n정보 제공 동의 요청 30초 이후에 응답한 경우\n상담창을 새로고침하면 고객의 주문내역이 연동되어 보여집니다.\n상담 중 추가 주문 등 변경 사항이 발생한 경우\n변경 건은 채널톡에 즉시 반영되지 않기에, 스마트스토어에서 확인이 필요합니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 채널톡과 네이버 계정 연동"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡을 먼저 연동한 이후에 스마트스토어 주문내역을 연동할 수 있습니다. (→ "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "네이버 톡톡 연동방법 확인하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/3d8c6ce9-%ED%86%A1%ED%86%A1-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "톡톡 파트너센터에서 톡톡 계정과 스마트스토어 연동된 상태일 때, 주문내역을 정상적으로 확인할 수 있습니다. (→"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 네이버 톡톡 계정과 스마트스토어 연동방법 확인하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%ED%86%A1%ED%86%A1-%ED%8C%8C%ED%8A%B8%EB%84%88-%EA%B3%84%EC%A0%95-%EC%A4%80%EB%B9%84-8abe2bd7#%EB%84%A4%EC%9D%B4%EB%B2%84-%ED%86%A1%ED%86%A1-%EA%B3%84%EC%A0%95%EA%B3%BC-%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8A%A4%ED%86%A0%EC%96%B4-%EC%97%B0%EB%8F%99%EB%B0%A9%EB%B2%95"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. 주문내역 연동 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "경로: [채널 설정] → [연동] → [앱스토어] → [네이버] → [톡톡 설정] 에서 ‘"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "스마트스토어 주문"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "’ 토글을 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "ON"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "톡톡_앱스토어설치4.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/56159/revisions/109669/usermedia/675187e5cccf6c7b2142",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "3. 고객 정보 제공 동의 절차"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "최종적으로 고객이 정보 제공에 동의를 완료 해야만 주문내역이 표시됩니다. 팀 멤버가 정보제공 동의를 요청하고 고객이 동의하는 방식으로 진행됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1) 정보 제공 동의 요청"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버가 우측 목록의 주문내역 '동의 요청하기' 버튼을 클릭 하면, 정보 제공 동의를 요청하는 메시지가 전송됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "6751880f5f895ed73f81",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/56159/revisions/132780/usermedia/67727220354ccbe5feb6",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "스마트스토어주문내역_2 (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/56159/revisions/109669/usermedia/675187f3d71a8c18c321",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "2) 정보 제공 동의"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 개인정보 제공 동의 요청 메시지에 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "‘확인’"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 버튼을 클릭하면 동의가 완료됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "동의 완료 후"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "내부 대화 메시지를 통해 동의 완료 알림을 받습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신함 우측 목록에 주문내역이 표시됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "스마트스토어주문내역_3.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/56159/revisions/109669/usermedia/67518800a0579edbea41",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "3) 정보 제공 거부"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 개인정보 제공 동의 요청 메시지에 ‘"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "취소"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "’버튼을 클릭하면 거부 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신함 우측 목록에서 주문내역을 확인할 수 없습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 멤버는 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "‘동의 요청하기’"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 버튼을 클릭하여 고객에게 정보 제공 동의를 요청할 수 있습니다. 버튼 클릭 시 자동으로 요청 메시지가 전송 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "스마트스토어주문내역_4.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/56159/revisions/109669/usermedia/6751880f5f895ed73f81",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "주문내역 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "color": "gray",
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "정보 제공에 동의한 고객의 주문내역만 확인할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유료플랜 이용 중에만 주문내역을 확인할 수 있습니다. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "주문내역"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수신함 우측 목록에서 고객의 주문내역이 한눈에 확인할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "각 주문을 클릭하면, 해당 주문에 포함된 상품의 상세 내역을 볼 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "스마트스토어주문내역_1.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/56159/revisions/109669/usermedia/67518825f29b3275998c",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 정보"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "최근 1달 내에 주문한 내역을 확인할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주문 및 배송 정보"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상품 정보"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주문 날짜"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상품 번호"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주문 상태(환불, 반품, 결제완료 등등)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상품명, 상품 옵션(컬러, 사이즈 등)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주문 번호"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상품 이미지"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주문 금액 (결제 금액, 할인 금액, 배송 금액, 상품금액 등)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상품 금액"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주문한 상품의 수량"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "배송지 정보"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "배송 상태"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "주문내역 갱신 시점"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "정보 제공 동의 요청에 즉시 응답한 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객의 주문내역이 연동되어 보여집니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "정보 제공 동의 요청 30초 이후에 응답한 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담창을 새로고침하면 고객의 주문내역이 연동되어 보여집니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 중 추가 주문 등 변경 사항이 발생한 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "변경 건은 채널톡에 즉시 반영되지 않기에, 스마트스토어에서 확인이 필요합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/6751863a8899b78fe39d",
+  "linked_faqs": [
+    {
+      "id": "69040",
+      "question": "네이버 로그인 연동을 해야만 네이버 스마트 스토어 주문내역 연동이 가능한가요?",
+      "answer_plaintext": "네이버 로그인 연동을 하지 않아도 주문내역 연동이 가능합니다. 단, 네이버 톡톡이 먼저 연동되어야만 주문내역 연동이 가능합니다."
+    },
+    {
+      "id": "69041",
+      "question": "채널톡 고객 프로필에서도 네이버 스마트 스토어 주문내역을 볼 수 있나요?",
+      "answer_plaintext": "고객 프로필에서는 네이버 스마트 스토어 주문 내역이 보여지지 않습니다. 이 기능은 추후 제공될 예정입니다. 현재는 수신함 우측 목록에서만 주문 내역을 확인할 수 있습니다."
+    },
+    {
+      "id": "69042",
+      "question": "고객이 정보 제공 동의를 했는데, 왜 네이버 스마트 스토어 주문 내역이 보여지지 않나요?",
+      "answer_plaintext": "- 네이버 톡톡 계정과 스마트 스토어 주문 연동이 되어있는지 다시 확인해주세요. 채널톡과 네이버 톡톡 및 주문 내역 연동을 완료하더라도, 톡톡계정과 스마트 스토어가 연동되어 있지 않다면 주문 내역이 표시되지 않습니다.\n- 주문 내역 연동은 유료 플랜에서만 가능합니다. 만약 무료 플랜 이용 중이라면 주문 연동을 해주시더라도, 실제로 수신함 내 주문 내역은 표시되지 않습니다.\n- 네이버 페이 주문건은 주문내역 연동이 진행되지 않습니다.\n  단, 여기서 ‘네이버페이 주문건’이란 네이버 스토어가 아닌 자사몰에서 네이버페이로 결제한 주문을 의미합니다.네이버 스토어 내 네이버페이 결제 주문은 해당되지 않습니다."
+    },
+    {
+      "id": "269168",
+      "question": "네이버 주문 내역 연동 동의는 상담마다 매번 받아야 하나요?",
+      "answer_plaintext": "고객이 네이버 주문 내역 연동을 위한 '개인정보 제3자 제공 동의'를 한 번 완료하면, 신규 상담으로 다시 인입되더라도 동의 상태가 계속 유지됩니다. \n\n따라서 매번 다시 동의를 받을 필요가 없습니다. 새로운 상담이 열릴 때마다 최신 주문 정보가 자동으로 갱신되어 편리하게 확인하실 수 있습니다."
+    }
+  ],
+  "faq_count": 4
+}

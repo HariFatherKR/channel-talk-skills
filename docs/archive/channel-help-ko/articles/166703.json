@@ -1,0 +1,1086 @@
+{
+  "id": "166703",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%A0%95%EB%B3%B4-353347a0",
+  "title": "이벤트 정보",
+  "summary": "채널톡에서 수집되는 고객의 행동 데이터 종류를 한 곳에서 모아볼 수 있어요. 이벤트 이름을 수정하거나 더 이상 사용하지 않는 이벤트는 숨김 처리도 가능합니다.",
+  "plaintext": "이벤트 정보\n채널톡이 설치된 사이트에서 발생되는 고객 행동을 이벤트로 정의하고 채널톡에 연동하여 활용할 수 있어요. 이벤트는 마케팅, 상담 목표 설정 시 활용 가능합니다.\n자체 제작일 경우 자유롭게 이벤트를 만들고 채널톡에 연동하여 활용 가능하며, 빌더사의 경우 각 빌더사마다 채널톡에 연동되는 이벤트가 다르니 참고해서 활용해주세요.\n기본 연동 정보\n채널톡에서 기본적으로 제공되는 이벤트 정보입니다. 기본 연동 정보는 수정할 수 없어요.\n데이터 키\n보여지는 이름\n설명\nPageView\n페이지 조회\n채널톡이 설치된 사이트에 방문하면 발생\nMarketingSend\n마케팅 전송\n마케팅이 전송되면 발생\nMarketingView\n마케팅 조회\n전송된 마케팅 메시지를 클릭하여 조회하면 발생\nMarketingClick\n마케팅 메시지 내 클릭\n전송한 마케팅 내에 첨부된 이미지/파일, 버튼 등을 클릭했을 때 발생\nMarketingGoal\n마케팅 목표 달성\n설정한 마케팅 목표가 달성되었을 때 발생\nUserchatOpen\n새 상담 열기\n채널톡의 새 상담이 열렸을 때 발생\n빌더사 별 연동 정보\n각 빌더사마다 연동되는 이벤트가 다릅니다. 아래 페이지를 참고하여 빌더사 별 연동 이벤트 값을 확인해주세요.\n채널톡 연동 제공 빌더사\n카페24\n아임웹\n식스샵\n고도몰\n가비아 퍼스트몰\n메이크샵\n쇼피파이\n워드프레스\n샵바이\n셀러허브 스토어\n자체 제작 사이트 연동 정보\n자체 제작 사이트라면, 원하는 모든 이벤트를 직접 제작하고 연동하여 사용할 수 있습니다.\n마케팅 매출 이벤트 생성을 원할 경우, 개발자 문서를 확인하여 이벤트 생성 시 revenue 속성 값을 추가해주세요.\n개발자 문서 확인하기\n이벤트 속성\n목록 중 원하는 이벤트를 클릭하여 이벤트의 상세 속성을 확인할 수 있습니다.\n속성이란? 이벤트가 발생될 때 함께 수집되는 정보를 의미해요. 이를 통해 마케팅을 더 풍부하게 활용해볼 수 있습니다.\n이벤트 활용 쪽에 $ 표시가 있다면, 매출액 지표가 수집되는 이벤트입니다.\n이벤트 명 / 이벤트 속성 명 수정\n이벤트나 이벤트 속성의 보여지는 이름을 원하는 이름으로 수정할 수 있습니다.\n자체 제작 이벤트는 수정이 가능하나, 채널톡에서 기본 제공되거나 빌더사에서 연동되는 이벤트 이름과 속성 이름은 수정이 불가하니 참고해주세요.\n이벤트 아카이브\n더 이상 사용하지 않는 이벤트는 아카이브를 통해 숨김처리하여 이벤트 목록을 깔끔하게 관리할 수 있어요. 아카이브 된 이벤트는 언제든 다시 되돌려 사용할 수 있습니다.\n아카이브한 이벤트가 마케팅에서 사용 중이었다면, 해당 마케팅은 더 이상 동작하지 않습니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이벤트 정보"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡이 설치된 사이트에서 발생되는 고객 행동을 이벤트로 정의하고 채널톡에 연동하여 활용할 수 있어요. 이벤트는 마케팅, 상담 목표 설정 시 활용 가능합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "자체 제작일 경우 자유롭게 이벤트를 만들고 채널톡에 연동하여 활용 가능하며, 빌더사의 경우 각 빌더사마다 채널톡에 연동되는 이벤트가 다르니 참고해서 활용해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "이벤트정보.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/166703/revisions/290319/usermedia/681b4eb6256f0aa77eb2",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기본 연동 정보"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡에서 기본적으로 제공되는 이벤트 정보입니다. 기본 연동 정보는 수정할 수 없어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터 키"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "보여지는 이름"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "PageView"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "페이지 조회"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채널톡이 설치된 사이트에 방문하면 발생"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "MarketingSend"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마케팅 전송"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마케팅이 전송되면 발생"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "MarketingView"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마케팅 조회"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전송된 마케팅 메시지를 클릭하여 조회하면 발생"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "MarketingClick"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마케팅 메시지 내 클릭"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전송한 마케팅 내에 첨부된 이미지/파일, 버튼 등을 클릭했을 때 발생"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "MarketingGoal"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마케팅 목표 달성"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 마케팅 목표가 달성되었을 때 발생"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "UserchatOpen"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "새 상담 열기"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채널톡의 새 상담이 열렸을 때 발생"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "빌더사 별 연동 정보"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "각 빌더사마다 연동되는 이벤트가 다릅니다. 아래 페이지를 참고하여 빌더사 별 연동 이벤트 값을 확인해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 연동 제공 빌더사"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카페24"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/cafe24-app#%EC%B9%B4%ED%8E%9824%EC%97%90%EC%84%9C-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-%EA%B3%A0%EA%B0%9D-%EC%A0%95%EB%B3%B4:~:text=unsubscribeTexting%20%ED%95%84%EB%93%9C%20%EB%AF%B8%EC%A0%9C%EA%B3%B5-,2)%20%EC%9D%B4%EB%B2%A4%ED%8A%B8(event)%20%EC%A0%95%EB%B3%B4,-%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%ED%8A%B9%EC%A0%95%20%ED%96%89%EB%8F%99%EC%9D%84"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "아임웹"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/imweb#%EC%95%84%EC%9E%84%EC%9B%B9%EC%97%90%EC%84%9C-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-%EA%B3%A0%EA%B0%9D-%EC%A0%95%EB%B3%B4:~:text=%EB%A7%88%EC%BC%80%ED%8C%85%20%EB%AC%B8%EC%9E%90%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%88%98%EC%8B%A0%EA%B1%B0%EB%B6%80-,2)%20%EC%9D%B4%EB%B2%A4%ED%8A%B8(event)%20%EC%A0%95%EB%B3%B4,-%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%ED%8A%B9%EC%A0%95%20%ED%96%89%EB%8F%99%EC%9D%84"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "식스샵"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/sixshop#%EC%8B%9D%EC%8A%A4%EC%83%B5%EC%97%90%EC%84%9C-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-%EA%B3%A0%EA%B0%9D-%EC%A0%95%EB%B3%B4:~:text=%EC%A0%81%EC%9D%B4%20%EC%9E%88%EC%96%B4%EC%95%BC%20%EC%A7%91%EA%B3%84%EB%90%A8-,2)%20%EC%9D%B4%EB%B2%A4%ED%8A%B8(event)%20%EC%A0%95%EB%B3%B4,-%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%ED%8A%B9%EC%A0%95%20%ED%96%89%EB%8F%99%EC%9D%84"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고도몰"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/godomall#%EA%B3%A0%EB%8F%84%EB%AA%B05%EC%97%90-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0:~:text=%EB%AC%B8%EC%84%9C%EB%A5%BC%20%EC%B0%B8%EA%B3%A0%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94.-,2)%20%EC%9D%B4%EB%B2%A4%ED%8A%B8(event)%20%EC%A0%95%EB%B3%B4,-%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%ED%8A%B9%EC%A0%95%20%ED%96%89%EB%8F%99%EC%9D%84"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "가비아 퍼스트몰"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/firstmall#%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%AA%B0%EC%97%90%EC%84%9C-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-%EA%B3%A0%EA%B0%9D-%EC%A0%95%EB%B3%B4:~:text=%EA%B3%A0%EA%B0%9D%20%EC%9C%A0%ED%98%95-,2)%20%EC%9D%B4%EB%B2%A4%ED%8A%B8(event)%20%EC%A0%95%EB%B3%B4,-%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%ED%8A%B9%EC%A0%95%20%ED%96%89%EB%8F%99%EC%9D%84"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메이크샵"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/makeshop#%EB%A9%94%EC%9D%B4%ED%81%AC%EC%83%B5%EC%97%90%EC%84%9C-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-%EA%B3%A0%EA%B0%9D-%EC%A0%95%EB%B3%B4:~:text=%EC%A0%81%EC%9D%B4%20%EC%9E%88%EC%96%B4%EC%95%BC%20%EC%A7%91%EA%B3%84%EB%90%A8-,2)%20%EC%9D%B4%EB%B2%A4%ED%8A%B8(event)%20%EC%A0%95%EB%B3%B4,-%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%ED%8A%B9%EC%A0%95%20%ED%96%89%EB%8F%99%EC%9D%84"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "쇼피파이"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/%EC%87%BC%ED%94%BC%ED%8C%8C%EC%9D%B4-shopify#%EC%87%BC%ED%94%BC%ED%8C%8C%EC%9D%B4%EC%97%90%EC%84%9C-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-%EA%B3%A0%EA%B0%9D-%EC%A0%95%EB%B3%B4:~:text=%EA%B8%B0%EB%B3%B8%20%EB%B0%B0%EC%86%A1%EC%A7%80%EC%9D%98%20%EC%9A%B0%ED%8E%B8%EB%B2%88%ED%98%B8-,2)%20%EC%9D%B4%EB%B2%A4%ED%8A%B8(event)%20%EC%A0%95%EB%B3%B4,-%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%ED%8A%B9%EC%A0%95%20%ED%96%89%EB%8F%99%EC%9D%84"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워드프레스"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-wordpress#%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EC%97%90%EC%84%9C-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-%EA%B3%A0%EA%B0%9D-%EC%A0%95%EB%B3%B4:~:text=%ED%9A%8C%EC%9B%90%20%EC%9D%B4%EB%A9%94%EC%9D%BC-,2)%20%EC%9D%B4%EB%B2%A4%ED%8A%B8(event)%20%EC%A0%95%EB%B3%B4,-%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%ED%8A%B9%EC%A0%95%20%ED%96%89%EB%8F%99%EC%9D%84"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "샵바이"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/%EC%83%B5%EB%B0%94%EC%9D%B4-shop-by#%EC%83%B5%EB%B0%94%EC%9D%B4%EC%97%90%EC%84%9C-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-%EA%B3%A0%EA%B0%9D-%EC%A0%95%EB%B3%B4:~:text=%EC%A0%81%EC%9D%B4%20%EC%9E%88%EC%96%B4%EC%95%BC%20%EC%A7%91%EA%B3%84%EB%90%A8-,2)%20%EC%9D%B4%EB%B2%A4%ED%8A%B8(event)%20%EC%A0%95%EB%B3%B4,-%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%ED%8A%B9%EC%A0%95%20%ED%96%89%EB%8F%99%EC%9D%84"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "셀러허브 스토어"
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/sellerhubstore#%EC%8B%9D%EC%8A%A4%EC%83%B5-%ED%94%84%EB%A1%9C%EC%97%90%EC%84%9C-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-%EA%B3%A0%EA%B0%9D-%EC%A0%95%EB%B3%B4:~:text=%EC%97%AC%EC%84%B1%20/%20male%3A%20%EB%82%A8%EC%84%B1-,2)%20%EC%9D%B4%EB%B2%A4%ED%8A%B8(event)%20%EC%A0%95%EB%B3%B4,-%EA%B3%A0%EA%B0%9D%EC%9D%B4%20%ED%8A%B9%EC%A0%95%20%ED%96%89%EB%8F%99%EC%9D%84"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자체 제작 사이트 연동 정보"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "자체 제작 사이트라면, 원하는 모든 이벤트를 직접 제작하고 연동하여 사용할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "마케팅 매출 이벤트 생성을 원할 경우, 개발자 문서를 확인하여 이벤트 생성 시 revenue 속성 값을 추가해주세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "개발자 문서 확인하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/reference/web-channelio-kr#track"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이벤트 속성"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "목록 중 원하는 이벤트를 클릭하여 이벤트의 상세 속성을 확인할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "속성이란? 이벤트가 발생될 때 함께 수집되는 정보를 의미해요. 이를 통해 마케팅을 더 풍부하게 활용해볼 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이벤트 활용 쪽에 $ 표시가 있다면, 매출액 지표가 수집되는 이벤트입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "이벤트정보 (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/166703/revisions/290319/usermedia/681edb3fdc634e10a54f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이벤트 명 / 이벤트 속성 명 수정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이벤트나 이벤트 속성의 보여지는 이름을 원하는 이름으로 수정할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "자체 제작 이벤트는 수정이 가능하나, 채널톡에서 기본 제공되거나 빌더사에서 연동되는 이벤트 이름과 속성 이름은 수정이 불가하니 참고해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "이벤트정보 (2).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/166703/revisions/290319/usermedia/681edb5acef0ad3826e7",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이벤트 아카이브"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "더 이상 사용하지 않는 이벤트는 아카이브를 통해 숨김처리하여 이벤트 목록을 깔끔하게 관리할 수 있어요. 아카이브 된 이벤트는 언제든 다시 되돌려 사용할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "아카이브한 이벤트가 마케팅에서 사용 중이었다면, 해당 마케팅은 더 이상 동작하지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "이벤트정보-1.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/166703/revisions/290319/usermedia/681c16aae11d17dbe67b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "102",
+    "name": "Carol",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/6822cf6030f606777313",
+  "linked_faqs": [],
+  "faq_count": 0
+}

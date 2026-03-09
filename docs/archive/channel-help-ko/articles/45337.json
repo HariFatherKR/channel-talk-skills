@@ -1,0 +1,322 @@
+{
+  "id": "45337",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%B3%B4%EC%95%88-%ED%8C%A8%ED%82%A4%EC%A7%80-%EA%B8%B0%ED%83%80-%EA%B8%B0%EB%8A%A5-10e202d2",
+  "title": "보안 패키지 기타 기능",
+  "summary": "엔터프라이즈 플랜 이용 시 추가 구독하여 사용 가능한 보안 패키지 기능입니다. '보안 패키지' 기능을 별도로 선불 충전 후 사용이 가능합니다. (→ 가격 문의하기) 1. 고객 정보 수정 및 상담 삭제 이력 다운로드 기본 제공되는 활동 로그 외 추가 이력을 다운로드하여 확인할 수 있습니다. 고객 정보 수정 고객 정보를 생성, 수정, 삭제한 내역을 다운로드하여 누가, 언제 고객 정보를 변경했는지 확인하는 기능입니다. 단, 고객이 자신의 정보를 직접 수정한 이력은 확인되지 않습니다. 상담 삭제 어떤 상담을 누가, 언제, 어디서(IP) 삭제했는지 다운로드하여 확인하는 기능입니다. - 경로: [채널 설정] - [보안 및 개발] - [보안] - [팀 멤버 활동 로그] - 최대 한 달 치, 최근 일 년 치까지만 다운로드가 가능합니다. - 소유자 권한을 가진 팀 멤버만 다운로드가 가능합니다. - (→ 팀 멤버 활동 로그 데이터 항목별 의미 확인하기) 2. 세션 타임아웃 특정 시간동안 활동이 없는",
+  "plaintext": "엔터프라이즈 플랜 이용 시 추가 구독하여 사용 가능한 보안 패키지 기능입니다. '보안 패키지' 기능을 별도로 선불 충전 후 사용이 가능합니다. (\n→ 가격 문의하기\n)\n1. 고객 정보 수정 및 상담 삭제 이력 다운로드\n기본 제공되는 활동 로그 외 추가 이력을 다운로드하여 확인할 수 있습니다.\n고객 정보 수정\n고객 정보를 생성, 수정, 삭제한 내역을 다운로드하여 누가, 언제 고객 정보를 변경했는지 확인하는 기능입니다. 단, 고객이 자신의 정보를 직접 수정한 이력은 확인되지 않습니다.\n상담 삭제\n어떤 상담을 누가, 언제, 어디서(IP) 삭제했는지 다운로드하여 확인하는 기능입니다.\n경로: [채널 설정] - [보안 및 개발] - [보안] - [팀 멤버 활동 로그]\n최대 한 달 치, 최근 일 년 치까지만 다운로드가 가능합니다.\n소유자 권한을 가진 팀 멤버만 다운로드가 가능합니다.\n(\n→ 팀 멤버 활동 로그 데이터 항목별 의미 확인하기\n)\n2. 세션 타임아웃\n특정 시간동안 활동이 없는 경우 세션이 만료되어 자동으로 로그아웃시켜 안전하게 계정을 보호하는 기능입니다.\n경로: [채널 설정] - [보안 및 개발] - [보안] - [세션 타임아웃]",
+  "body": [
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "엔터프라이즈 플랜 이용 시 추가 구독하여 사용 가능한 보안 패키지 기능입니다. '보안 패키지' 기능을 별도로 선불 충전 후 사용이 가능합니다. ("
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "→ 가격 문의하기"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://root.channel.io/home"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": ")"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 고객 정보 수정 및 상담 삭제 이력 다운로드 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "기본 제공되는 활동 로그 외 추가 이력을 다운로드하여 확인할 수 있습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "보안설정_9_고객정보수정및상담삭제이력.png",
+        "height": "960px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/45337/revisions/97854/usermedia/673b1ccc3d78a1255a6b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객 정보 수정"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객 정보를 생성, 수정, 삭제한 내역을 다운로드하여 누가, 언제 고객 정보를 변경했는지 확인하는 기능입니다. 단, 고객이 자신의 정보를 직접 수정한 이력은 확인되지 않습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 삭제"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "어떤 상담을 누가, 언제, 어디서(IP) 삭제했는지 다운로드하여 확인하는 기능입니다. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "경로: [채널 설정] - [보안 및 개발] - [보안] - [팀 멤버 활동 로그] "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최대 한 달 치, 최근 일 년 치까지만 다운로드가 가능합니다.   "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "소유자 권한을 가진 팀 멤버만 다운로드가 가능합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 팀 멤버 활동 로그 데이터 항목별 의미 확인하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/feb16f73-%EB%B3%B4%EC%95%88-%EC%84%A4%EC%A0%95#%EB%A7%A4%EB%8B%88%EC%A0%80-%ED%99%9C%EB%8F%99-%EB%A1%9C%EA%B7%B8-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%9D%98%EB%AF%B8"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ") "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. 세션 타임아웃 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "보안설정_10_세션타임아웃.png",
+        "height": "660px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/28344/revisions/81047/usermedia/671f681cb5c8b6e18bbb",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "특정 시간동안 활동이 없는 경우 세션이 만료되어 자동으로 로그아웃시켜 안전하게 계정을 보호하는 기능입니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "경로: [채널 설정] - [보안 및 개발] - [보안] - [세션 타임아웃] "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "351",
+    "name": "Jupiter",
+    "bio": "- CX Manager\nHey, it's another beautiful day! 🏃🏽‍♀️‍➡️"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/6721ffc53b1779296217",
+  "linked_faqs": [],
+  "faq_count": 0
+}

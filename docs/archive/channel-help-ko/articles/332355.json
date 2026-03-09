@@ -1,0 +1,2389 @@
+{
+  "id": "332355",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%B0%B0%ED%8F%AC-%EC%84%A4%EC%A0%95-e9dbb764",
+  "title": "배포 설정",
+  "summary": "배포 메뉴에서는 상담에 적용될 ALF 기본 프로필부터 답변 시 적용되는 규칙·지식·태스크를 한눈에 모아 점검하고 관리할 수 있어요.",
+  "plaintext": "ALF 명칭 정리\n2025-11-28부터 ALF v1은 종료되며 ALF v2만 이용 가능합니다.\n2025-11-28부터\n기존의 v1, v2 명칭은 사라지고, ALF로 통합됩니다.\n배포\n배포에서는 상담에 적용될 ALF 설정을 한 곳에 모아 점검해보고, 미리보기 화면을 통해서 실제 ALF 상담을 테스트해 볼 수 있어요. 채널톡 채팅뿐만 아니라 각 외부 서비스별 ALF 설정도 함께 확인할 수 있습니다.\n채팅\n채널톡 채팅 상담에서 동작할 고객 ALF의 기본 프로필을 설정하고, 답변 시 적용되는 규칙·지식·태스크를 한눈에 모아 점검하고 관리할 수 있어요.\n채팅 설정\n채널톡 채팅 상담에 적용될 고객 ALF의 기본 프로필과 고객용 출처 표기 여부를 설정할 수 있어요.\n프로필/ 이름 : ALF의 프로필 이미지와 이름을 등록할 수 있습니다.\n고객용 출처 표기: ALF가 답변할 때 참조한 지식의 출처를 고객에게 표시할지 여부를 설정할 수 있습니다.\n고객용 출처 표기 옵션을\nON\n으로 설정하면 ALF 답변의 오해를 줄이고 신뢰도를 높일 수 있어요.\n출처 표기는 퍼블리시한 스페이스 아티클이나 웹사이트 지식을 참조한 경우에만 고객에게 표시됩니다.\n옵션을\nOFF\n로 설정해도 채널톡 수신함에서는 참조한 모든 지식이 표시됩니다.\n적용되는 설정\n채널톡 채팅 상담에서 고객 ALF가 답변할 때 적용되는 규칙·지식·태스크를 한눈에 모아 점검할 수 있어요. 현재 적용 중인 설정을 확인할 수 있으며, 클릭하면 해당 설정 페이지로 이동해 추가로 수정할 수도 있습니다.\n빠른 배포\n빠른 배포는 채팅 상담에서 고객 ALF를 워크플로우 없이 바로 사용하고자 할때 설정하실 수 있는 기능입니다. 고객이 문의를 시작하면 인사말 메시지와 함께 ALF와 대화할 수 있는 채팅 입력창이 바로 노출됩니다. 배포 버튼을 클릭하면 빠른 배포가 바로 적용됩니다.\n첫 인사말\n고객이 채팅 버튼을 클릭했을 때 보여질 첫 인사말을 입력해 주세요. 작성하지 않으면 채널에 설정된 기본 인사말이 자동으로 노출됩니다.\n[번역 추가] 를 활용하면 고객의 언어에 맞게 인사말을 자동 번역해 보여줄 수 있어요.\n추천 질문\nALF 응대 전 추천 질문을 버튼으로 노출하여, 고객이 쉽게 ALF에게 말을 걸도록 유도하는 기능입니다.\n[AI 메뉴] - [배포] - [채팅] - [빠른 배포]에서 추천 질문을 설정할 수 있어요.\n[번역 추가]를 활용하여 고객 언어에 맞게 추천 질문을 여러 언어로 보여줄 수 있어요.\n추천 질문은 최대 3개까지 입력 가능합니다.\n추천 질문은 외부 메신저에서는 동작하지 않습니다.\n상담 열기 허용\nALF 응대 중 상담 연결을 허용할지 여부를 선택할 수 있습니다.\nON: 상담 연결 허용\nOFF: 상담 연결되지 않는다는 안내 문구와 함께 상담 연결 미허용\n고급 설정\n필터링 - 상담 정보: 상담 시작 페이지 정보 조건을 추가하여 특정 페이지에서만 빠른 배포 기능을 노출할 수 있습니다.  고객의 접속 페이지에 따라 빠른 배포 노출 여부를 다르게 설정해보세요.\n예시) 메인 페이지에서는 빠른 배포 사용, 결제 페이지에서는 미사용\n필터링 - 고객 정보: 특정 고객 조건에 따라 빠른 배포 적용 여부를 설정할 수 있습니다. 고객 세그먼트에 따라 맞춤형 ALF 경험을 제공해보세요.\n예시)\n회원 여부 (로그인/비로그인)\n고객 등급 (VIP, 일반 등)\n고객 태그 (구매 이력, 장바구니 존재 등)\n언어 (기기 및 브라우저 언어)\n스케줄링: 운영시간 여부에 따라 빠른 배포를 설정할 수 있습니다.\n예시) 영업 시간(09:00~18:00)에는 상담원 연결 가능한 워크플로우 동작, 미운영 시간에는 ALF 빠른 배포 활성화\n워크플로우\n고객 ALF가 연결되어 작동 중인 워크플로우를 한눈에 확인하고 관리할 수 있어요.\n어떤 워크플로우에 고객 ALF 응대가 설정되어 있는지 쉽게 확인할 수 있고, 클릭하여 각 워크플로우 설정화면으로도 이동이 가능합니다.\n전화\n상담원 대신 ALF가 전화 상담을 직접 응대할 수 있습니다. 전화 ALF의 목소리 설정부터 답변 시 적용되는 규칙·지식를 한눈에 모아 점검하고 관리할 수 있어요. (\n전화 ALF 자세히 확인하기\n)\n전화 설정\n전화 상담에서 적용할 고객 ALF의 목소리, 배경음 등을 설정할 수 있어요. 모든 설정 완료 후 ALF와 전화 테스트를 진행해볼 수 있습니다.\n이름 : ALF의 이름을 등록할 수 있습니다.\n상담원 목소리: 전화 ALF와 통화할 때 상담원 목소리를 다양한 옵션 중 선택할 수 있어요.\n배경음 : 전화 ALF와 통화할 때 배경음을 선택할 수 있습니다.\n적용되는 설정\n전화 상담 시 ALF에게 적용 되는 지식, 규칙 설정을 한 눈에 모아 확인할 수 있어요. 현재 적용 중인 설정을 확인할 수 있으며, 클릭하면 해당 설정 페이지로 이동해 추가로 수정할 수도 있습니다.\n빠른 배포\nIVR 워크플로우 설정 없이도 고객이 전화를 하면, 바로 전화 ALF가 응대하도록 설정하는 방식입니다. 고객과 ALF가 연결되면 인사말로 설정한 음성 메시지와 함께 ALF와 대화가 바로 시작 됩니다. 배포 버튼을 클릭하면 빠른 배포가 바로 적용됩니다\n전화번호 라우팅\n빠른 배포를 적용할 전화번호를 선택해 설정할 수 있습니다.\n첫 인사말\nALF와 고객이 연결 되었을 때 ALF가 고객에게 첫 인사말을 입력해 주세요. 작성하지 않으면 채널에 설정된 기본 인사말이 자동으로 노출됩니다.\n[번역 추가] 를 활용하면 고객의 언어에 맞게 인사말을 자동 번역해 들려주수 있어요.\n상담원 연결 허용\nALF 응대 중 상담원 연결을 허용할지 여부를 선택할 수 있습니다.\nON: 상담원 연결 허용\nOFF: 상담원이 연결되지 않는다는 안내 메시지와 함께 상담원 연결 미허용\n상담원 연결 메시지 설정\nALF 응대 후 상담원 연결이 필요할 때 고객에게 안내 되는 메시지를 설정해 주세요. 상담원 연결 메시지를 언어별로 번역하여 설정해둘 수 있습니다.\n자동 생성: ALF가 상황에 따라 적절한 상담원 연결 안내 메시지를 생성하여 고객에게 전달합니다.\n고정 문구: 설정된 특정 안내 메시지가 항상 고객에게 전달됩니다.\n고급설정 (필터링, 스케줄링)\n필터링 : 고객 정보, 상담 정보를 필터링하여 특정 조건에서만 ALF 연결 되도록 설정할 수 있습니다. 조건에 해당하지 않으면 ALF가 연결이 되지 않고 상담원 연결을 시도합니다.\n스케줄링 : ALF가 언제 동작하게 할지 설정할 수 있습니다. 24시간 혹은 특정 운영시간으로 설정 가능합니다.\n워크플로우\n전화 ALF가 적용된 워크플로우를 확인할 수 있어요. 전화 ALF의 경우 고객이 전화를 걸었을 때 IVR 트리거에서 설정이 가능합니다.\n외부서비스\n카카오톡, 네이버 톡톡, 인스타그램 등 외부 서비스로 인입된 상담에서 고객 ALF의 답변 출처 표기 여부를 설정하고, 답변 시 적용되는 규칙·지식·태스크를 한눈에 모아 점검·관리할 수 있어요.\n외부 서비스 설정\n고객용 출처 표기: ALF가 답변할 때 참조한 지식의 출처를 고객에게 표시할지 여부를 설정할 수 있습니다.\n고객용 출처 표기 옵션을\nON\n으로 설정하면 ALF 답변의 오해를 줄이고 신뢰도를 높일 수 있어요.\n출처 표기는 퍼블리시한 스페이스 아티클이나 웹사이트 지식을 참조한 경우에만 고객에게 표시됩니다.\n옵션을\nOFF\n로 설정해도 채널톡 수신함에서는 참조한 모든 지식이 표시됩니다.\n적용되는 설정\n외부 서비스별로 고객 ALF가 답변할 때 적용되는 규칙·지식·태스크를 한눈에 모아 점검할 수 있어요. 현재 적용 중인 설정을 확인할 수 있으며, 클릭하면 해당 설정 페이지로 이동해 추가로 수정할 수도 있습니다.\n배포\n외부 메신저별로 고객 ALF가 응대하는 방식을 설정할 수 있습니다. 워크플로우 없이 간편하게 시작하는 빠른 배포와, 워크플로우를 활용하는 방식 중 선택할 수 있어요.\n빠른 배포\n워크플로우 설정 없이 고객 ALF를 바로 사용하고 싶을 때 활용하는 기능입니다. 배포 버튼을 누르면 빠른 배포가 바로 적용됩니다.\n상담 열기 허용:  상담 열기 ON/OFF 설정을 할 수 있습니다.\n고급설정 (필터링, 스케줄링)\n필터링 : 고객 정보, 상담 정보를 필터링하여 특정 조건에서만 ALF 연결 되도록 설정할 수 있습니다. 조건에 해당하지 않으면 ALF가 연결이 되지 않고 상담원 연결을 시도합니다.\n스케줄링 : ALF가 언제 동작하게 할지 설정할 수 있습니다. 24시간 혹은 특정 운영시간으로 설정 가능합니다.\n외부 메신저에서는 빠른 배포 시 인사말, 추천 질문 기능을 지원하지 않습니다. 인사말과 추천 질문 설정은 채널톡 채팅 상담에서만 가능합니다.\n워크플로우\n외부 메신저별로 고객 ALF가 연결된 워크플로우를 관리할 수 있습니다. 어떤 워크플로우에 ALF 응대가 설정되어 있는지 한눈에 확인할 수 있고, 클릭하면 해당 워크플로우 설정 화면으로 바로 이동합니다.\n미리보기\n배포 메뉴의 미리보기 화면에서는 현재 설정 그대로 ALF 상담을 무료로 테스트해 볼 수 있어요. 채팅과 전화 중 미리보기할 서비스를 선택한 후 ALF가 잘 답변하는지 고객 화면과 대화 로그를 보면 확인할 수 있습니다.\n고객 화면 미리보기\n테스트 문의 후 ALF가 답변 시 실제 고객에게 보여지는 화면을 확인할 수 있어요.\n대화 로그 미리보기\n대화 로그 화면에서는 ALF 답변 시 적용된 규칙과 답변 생성 시의 *에이전틱 서치 로그를 확인할 수 있어요.\n*에이전틱 서치란?\nAI가 단순 검색 엔진이 아니라 ‘검색을 수행하는 능동적 에이전트’로서 필요한 정보를 스스로 찾아내고, 가공해주는 방식이에요. 사용자의 질문을 이해하고 재구성하며, 필요한 경우 추가 검색을 실행하고 여러 출처를 탐색·정리·요약해 최종 답변을 만들어주는 방식을 의미합니다.",
+  "body": [
+    {
+      "attrs": {
+        "icon": "bell",
+        "semanticColor": "bgtxt-yellow-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "ALF 명칭 정리"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2025-11-28부터 ALF v1은 종료되며 ALF v2만 이용 가능합니다."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2025-11-28부터 "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "기존의 v1, v2 명칭은 사라지고, ALF로 통합됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "배포"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "배포에서는 상담에 적용될 ALF 설정을 한 곳에 모아 점검해보고, 미리보기 화면을 통해서 실제 ALF 상담을 테스트해 볼 수 있어요. 채널톡 채팅뿐만 아니라 각 외부 서비스별 ALF 설정도 함께 확인할 수 있습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "배포.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/14463/articles/351274/revisions/577998/usermedia/68cbe2975c0c5bdb7403",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채팅"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 채팅 상담에서 동작할 고객 ALF의 기본 프로필을 설정하고, 답변 시 적용되는 규칙·지식·태스크를 한눈에 모아 점검하고 관리할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채팅 설정 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 채팅 상담에 적용될 고객 ALF의 기본 프로필과 고객용 출처 표기 여부를 설정할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "채팅 설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/14463/articles/351274/revisions/577998/usermedia/68cbed350f55ed4690d9",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "프로필/ 이름 : ALF의 프로필 이미지와 이름을 등록할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객용 출처 표기: ALF가 답변할 때 참조한 지식의 출처를 고객에게 표시할지 여부를 설정할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객용 출처 표기 옵션을 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "ON"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "으로 설정하면 ALF 답변의 오해를 줄이고 신뢰도를 높일 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "출처 표기는 퍼블리시한 스페이스 아티클이나 웹사이트 지식을 참조한 경우에만 고객에게 표시됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "옵션을 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "OFF"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "로 설정해도 채널톡 수신함에서는 참조한 모든 지식이 표시됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "적용되는 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 채팅 상담에서 고객 ALF가 답변할 때 적용되는 규칙·지식·태스크를 한눈에 모아 점검할 수 있어요. 현재 적용 중인 설정을 확인할 수 있으며, 클릭하면 해당 설정 페이지로 이동해 추가로 수정할 수도 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "채팅설정-적용되는 설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/14463/articles/351274/revisions/577998/usermedia/68cbed636269cfe37832",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "빠른 배포 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "빠른 배포는 채팅 상담에서 고객 ALF를 워크플로우 없이 바로 사용하고자 할때 설정하실 수 있는 기능입니다. 고객이 문의를 시작하면 인사말 메시지와 함께 ALF와 대화할 수 있는 채팅 입력창이 바로 노출됩니다. 배포 버튼을 클릭하면 빠른 배포가 바로 적용됩니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "채팅설정-빠른배포-추천질문.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332355/revisions/709416/usermedia/691bfede8871c75033e6",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "첫 인사말 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객이 채팅 버튼을 클릭했을 때 보여질 첫 인사말을 입력해 주세요. 작성하지 않으면 채널에 설정된 기본 인사말이 자동으로 노출됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[번역 추가] 를 활용하면 고객의 언어에 맞게 인사말을 자동 번역해 보여줄 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "추천 질문"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ALF 응대 전 추천 질문을 버튼으로 노출하여, 고객이 쉽게 ALF에게 말을 걸도록 유도하는 기능입니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[AI 메뉴] - [배포] - [채팅] - [빠른 배포]에서 추천 질문을 설정할 수 있어요. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[번역 추가]를 활용하여 고객 언어에 맞게 추천 질문을 여러 언어로 보여줄 수 있어요. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "추천 질문은 최대 3개까지 입력 가능합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "추천 질문은 외부 메신저에서는 동작하지 않습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 열기 허용 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ALF 응대 중 상담 연결을 허용할지 여부를 선택할 수 있습니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ON: 상담 연결 허용"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "OFF: 상담 연결되지 않는다는 안내 문구와 함께 상담 연결 미허용"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고급 설정 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터링 - 상담 정보: 상담 시작 페이지 정보 조건을 추가하여 특정 페이지에서만 빠른 배포 기능을 노출할 수 있습니다.  고객의 접속 페이지에 따라 빠른 배포 노출 여부를 다르게 설정해보세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시) 메인 페이지에서는 빠른 배포 사용, 결제 페이지에서는 미사용"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "퀵 퍼블리시5.png",
+        "height": "536px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/14463/articles/351274/revisions/577998/usermedia/68cbec2109eac3cef946",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터링 - 고객 정보: 특정 고객 조건에 따라 빠른 배포 적용 여부를 설정할 수 있습니다. 고객 세그먼트에 따라 맞춤형 ALF 경험을 제공해보세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "회원 여부 (로그인/비로그인)"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "고객 등급 (VIP, 일반 등)"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "고객 태그 (구매 이력, 장바구니 존재 등)"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "언어 (기기 및 브라우저 언어)"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "6852b63f6a6a20bb5b90",
+        "height": "536px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332355/revisions/536239/usermedia/68cac8eb6661330b2361",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "스케줄링: 운영시간 여부에 따라 빠른 배포를 설정할 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시) 영업 시간(09:00~18:00)에는 상담원 연결 가능한 워크플로우 동작, 미운영 시간에는 ALF 빠른 배포 활성화"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 ALF가 연결되어 작동 중인 워크플로우를 한눈에 확인하고 관리할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "어떤 워크플로우에 고객 ALF 응대가 설정되어 있는지 쉽게 확인할 수 있고, 클릭하여 각 워크플로우 설정화면으로도 이동이 가능합니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/14463/articles/351274/revisions/577998/usermedia/68cbeca113234aa526fa",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담원 대신 ALF가 전화 상담을 직접 응대할 수 있습니다. 전화 ALF의 목소리 설정부터 답변 시 적용되는 규칙·지식를 한눈에 모아 점검하고 관리할 수 있어요. ("
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "전화 ALF 자세히 확인하기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            },
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%EC%A0%84%ED%99%94-ALF-Beta-bedc2f9c"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 설정"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 상담에서 적용할 고객 ALF의 목소리, 배경음 등을 설정할 수 있어요. 모든 설정 완료 후 ALF와 전화 테스트를 진행해볼 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "배포 _ 전화 (1).png",
+        "height": "1760px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332355/revisions/709416/usermedia/6915dbd81716af679102",
+        "width": "3120px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이름 : ALF의 이름을 등록할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담원 목소리: 전화 ALF와 통화할 때 상담원 목소리를 다양한 옵션 중 선택할 수 있어요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "배경음 : 전화 ALF와 통화할 때 배경음을 선택할 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "적용되는 설정"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "적용되는 설정.png",
+        "height": "1760px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332355/revisions/709416/usermedia/6915ce7e743f4b92b93b",
+        "width": "3120px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 상담 시 ALF에게 적용 되는 지식, 규칙 설정을 한 눈에 모아 확인할 수 있어요. 현재 적용 중인 설정을 확인할 수 있으며, 클릭하면 해당 설정 페이지로 이동해 추가로 수정할 수도 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "빠른 배포"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "IVR 워크플로우 설정 없이도 고객이 전화를 하면, 바로 전화 ALF가 응대하도록 설정하는 방식입니다. 고객과 ALF가 연결되면 인사말로 설정한 음성 메시지와 함께 ALF와 대화가 바로 시작 됩니다. 배포 버튼을 클릭하면 빠른 배포가 바로 적용됩니다"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화 ALF 05.라우팅설정방식(2) (1).png",
+        "height": "648px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332355/revisions/709416/usermedia/6915cf27a812db2879fa",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "전화 ALF 06.퀵퍼블리시설정.png",
+        "height": "562px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332355/revisions/709416/usermedia/6915cf3a3729405d45ed",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화번호 라우팅 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "빠른 배포를 적용할 전화번호를 선택해 설정할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "첫 인사말 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "ALF와 고객이 연결 되었을 때 ALF가 고객에게 첫 인사말을 입력해 주세요. 작성하지 않으면 채널에 설정된 기본 인사말이 자동으로 노출됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[번역 추가] 를 활용하면 고객의 언어에 맞게 인사말을 자동 번역해 들려주수 있어요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담원 연결 허용 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "ALF 응대 중 상담원 연결을 허용할지 여부를 선택할 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ON: 상담원 연결 허용"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "OFF: 상담원이 연결되지 않는다는 안내 메시지와 함께 상담원 연결 미허용"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "start": 4
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담원 연결 메시지 설정"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "ALF 응대 후 상담원 연결이 필요할 때 고객에게 안내 되는 메시지를 설정해 주세요. 상담원 연결 메시지를 언어별로 번역하여 설정해둘 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "자동 생성: ALF가 상황에 따라 적절한 상담원 연결 안내 메시지를 생성하여 고객에게 전달합니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고정 문구: 설정된 특정 안내 메시지가 항상 고객에게 전달됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "start": 5
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고급설정 (필터링, 스케줄링)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터링 : 고객 정보, 상담 정보를 필터링하여 특정 조건에서만 ALF 연결 되도록 설정할 수 있습니다. 조건에 해당하지 않으면 ALF가 연결이 되지 않고 상담원 연결을 시도합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "스케줄링 : ALF가 언제 동작하게 할지 설정할 수 있습니다. 24시간 혹은 특정 운영시간으로 설정 가능합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 ALF가 적용된 워크플로우를 확인할 수 있어요. 전화 ALF의 경우 고객이 전화를 걸었을 때 IVR 트리거에서 설정이 가능합니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "외부서비스"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "카카오톡, 네이버 톡톡, 인스타그램 등 외부 서비스로 인입된 상담에서 고객 ALF의 답변 출처 표기 여부를 설정하고, 답변 시 적용되는 규칙·지식·태스크를 한눈에 모아 점검·관리할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "외부 서비스 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "외부서비스설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/14463/articles/351274/revisions/577998/usermedia/68cbede302c992adc5e8",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객용 출처 표기: ALF가 답변할 때 참조한 지식의 출처를 고객에게 표시할지 여부를 설정할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객용 출처 표기 옵션을 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "ON"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "으로 설정하면 ALF 답변의 오해를 줄이고 신뢰도를 높일 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "출처 표기는 퍼블리시한 스페이스 아티클이나 웹사이트 지식을 참조한 경우에만 고객에게 표시됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "옵션을 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "OFF"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "로 설정해도 채널톡 수신함에서는 참조한 모든 지식이 표시됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "적용되는 설정 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "외부 서비스별로 고객 ALF가 답변할 때 적용되는 규칙·지식·태스크를 한눈에 모아 점검할 수 있어요. 현재 적용 중인 설정을 확인할 수 있으며, 클릭하면 해당 설정 페이지로 이동해 추가로 수정할 수도 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "외부서비스 적용되는 설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/14463/articles/351274/revisions/577998/usermedia/68cbee3c32271557dbf9",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "배포"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "외부 메신저별로 고객 ALF가 응대하는 방식을 설정할 수 있습니다. 워크플로우 없이 간편하게 시작하는 빠른 배포와, 워크플로우를 활용하는 방식 중 선택할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "외부 서비스 - 배포 (1).png",
+        "height": "1760px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332355/revisions/800548/usermedia/694a43e91fd6689c126b",
+        "width": "3120px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "빠른 배포"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 설정 없이 고객 ALF를 바로 사용하고 싶을 때 활용하는 기능입니다. 배포 버튼을 누르면 빠른 배포가 바로 적용됩니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 열기 허용:  상담 열기 ON/OFF 설정을 할 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고급설정 (필터링, 스케줄링)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "필터링 : 고객 정보, 상담 정보를 필터링하여 특정 조건에서만 ALF 연결 되도록 설정할 수 있습니다. 조건에 해당하지 않으면 ALF가 연결이 되지 않고 상담원 연결을 시도합니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "스케줄링 : ALF가 언제 동작하게 할지 설정할 수 있습니다. 24시간 혹은 특정 운영시간으로 설정 가능합니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": " 외부 메신저에서는 빠른 배포 시 인사말, 추천 질문 기능을 지원하지 않습니다. 인사말과 추천 질문 설정은 채널톡 채팅 상담에서만 가능합니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "외부 메신저별로 고객 ALF가 연결된 워크플로우를 관리할 수 있습니다. 어떤 워크플로우에 ALF 응대가 설정되어 있는지 한눈에 확인할 수 있고, 클릭하면 해당 워크플로우 설정 화면으로 바로 이동합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "외부 서비스 - 워크플로우.png",
+        "height": "1760px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332355/revisions/800548/usermedia/694a455a474384b433f8",
+        "width": "3120px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "미리보기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "배포 메뉴의 미리보기 화면에서는 현재 설정 그대로 ALF 상담을 무료로 테스트해 볼 수 있어요. 채팅과 전화 중 미리보기할 서비스를 선택한 후 ALF가 잘 답변하는지 고객 화면과 대화 로그를 보면 확인할 수 있습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "미리보기 - 수정.png",
+        "caption": {
+          "content": [
+            {
+              "attrs": {
+                "text": "이미지 변경"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/332355/revisions/707325/usermedia/690204a337db5f224959",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 화면 미리보기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "테스트 문의 후 ALF가 답변 시 실제 고객에게 보여지는 화면을 확인할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "대화 로그 미리보기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "대화 로그 화면에서는 ALF 답변 시 적용된 규칙과 답변 생성 시의 *에이전틱 서치 로그를 확인할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "*에이전틱 서치란? "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "AI가 단순 검색 엔진이 아니라 ‘검색을 수행하는 능동적 에이전트’로서 필요한 정보를 스스로 찾아내고, 가공해주는 방식이에요. 사용자의 질문을 이해하고 재구성하며, 필요한 경우 추가 검색을 실행하고 여러 출처를 탐색·정리·요약해 최종 답변을 만들어주는 방식을 의미합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "미리보기.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/14463/articles/351274/revisions/577998/usermedia/68cbf2903ae1a1e4b6b1",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "61",
+    "name": "Beige",
+    "bio": "Minji Jeon, CX manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/68fa037fe0486bc07bbc",
+  "linked_faqs": [],
+  "faq_count": 0
+}

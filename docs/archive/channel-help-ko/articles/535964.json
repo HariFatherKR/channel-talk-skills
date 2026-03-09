@@ -1,0 +1,2383 @@
+{
+  "id": "535964",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%B0%A8%ED%8A%B8-%EC%9C%A0%ED%98%95-%EB%B0%8F-%EC%98%B5%EC%85%98-c64657c8",
+  "title": "차트 유형 및 옵션",
+  "summary": "데이터 목적에 맞는 차트 선택 가이드입니다. 9가지 차트별 핵심 용도와 설정 방법을 확인하여 리포트를 구성해보세요.",
+  "plaintext": "커스텀 리포트에서 총 9가지 유형의 차트를 제공합니다.\n막대\n시간의 흐름에 따른 변화(추세)나, 여러 항목 간 수치를 비교할 때 적합합니다.\n구성 요소\n지표: 막대의 높이로 표현할 값을 선택합니다. (Y축)\n가로축: 막대를 어떤 순서로 나열할지 기준을 선택합니다. (X축)\n차트 그룹: 막대를 그룹으로 나눠 보고 싶을 때 선택합니다.\n차트 옵션:\n누적값 표시:\n차트 그룹별 총합을 보고 싶을 때 선택합니다.\n동일 전기간과 비교: 동일 전기간 대비 증감 여부를 시각적으로 대조할 수 있습니다.\n데이터 레이블: 막대 위에 정확한 수치를 텍스트로 표시합니다.\n목표 표시: 목표로 설정한 수치를 가로선으로 표시합니다.\n활용 예시\n일자별 인입된 상담 수 추이 확인하기\n지표: 인입된 상담 수\n가로축: 시간-일별\n월별 CSAT 점수 비교하기\n지표: CSAT 점수(%)\n가로축: 시간-월별\n가로 막대\n긴 항목 이름을 한눈에 읽어야 하거나, 여러 항목 간의 순위를 비교할 때 적합합니다.\n지표: 막대의 길이로 표현할 값을 선택합니다. (X축)\n세로축: 항목을 어떤 기준으로 나열할지 선택합니다. (Y축)\n차트 그룹: 막대를 그룹으로 나눠 보고 싶을 때 선택합니다.\n차트 옵션:\n누적값 표시: 차트 그룹을 나눈 경우, 항목별 총합을 보고 싶을 때 선택합니다.\n동일 전기간과 비교: 동일 전기간 대비 증감 여부를 시각적으로 대조할 수 있습니다.\n데이터 레이블: 막대 끝에 정확한 수치를 텍스트로 표시합니다.\n목표 표시: 목표로 설정한 수치를 세로선으로 표시합니다.\n활용 예시\n상담 태그별 평균 응답 시간 확인\n지표: 평균 응답 시간\n세로축: 상담 태그\n담당자별 CSAT 점수 확인\n지표: CSAT 점수(%)\n세로축: 담당자(표시 기준 선택)\n라인\n라인 그래프는 시간의 경과에 따라 데이터가 어떻게 변하는지 연속적인 추세를 파악할 때 적합합니다.\n구성 요소\n지표: 선의 높낮이로 표현할 값을 선택합니다. (Y축)\n가로축: 데이터를 어떤 기준으로 나열할지 선택합니다. 라인 차트에서는 주로 시간을 사용합니다. (X축)\n차트 옵션:\n동일 전기간과 비교: 동일 전기간 대비 증감 여부를 시각적으로 대조할 수 있습니다.\n데이터 레이블: 선의 꺾이는 지점마다 수치를 텍스트로 표시합니다.\n목표 표시: 목표로 설정한 수치를 기준선으로 표시합니다.\n활용 예시\n주차별 상담 대기 시간 변화 추이 확인하고 동일 전기간과 비교하기\n지표: 상담 대기 시간\n가로축: 시간-주별\n동일 전기간과 비교: 켜기\n월별 ALF CX score 추이 확인하기\n지표: ALF CX score\n가로축: 시간-월별\n파이\n파이 차트는 전체 데이터 중 각 항목이 차지하는 상대적인 비율(%)을 한눈에 파악하기에 가장 좋은 도구입니다.\n구성 요소\n지표: 파이의 크기(합계)를 결정하는 값입니다. 각 조각의 합은 100%가 됩니다.\n분류 기준: 전체 데이터를 어떤 카테고리로 나눌 것인지 결정합니다.\n차트 옵션:\n데이터 레이블: 각 조각에 비중(%)과 실제 수치를 함께 표시합니다.\n활용 예시\n담당자별 이관율 확인하기\n지표: 담당자 이관율\n분류 기준: 담당자\nKPI\nKPI 차트는 데이터를 자세한 분석 없이 가장 빠르게 핵심 수치를 확인할 때 적합합니다.\n구성 요소\n지표: 차트 중앙에 표시되는 값으로, 선택한 기간 동안의 데이터 평균 수치로 표시됩니다.\n차트 옵션\n동일 전기간과 비교: 직전 동일 기간과 비교해 증감 값을 함께 표시합니다.\n목표 표시: 목표 수치를 함께 표시해 달성 여부를 파악할 수 있습니다.\n활용 예시\nCSAT 점수(%) 한눈에 확인하기\n지표: CSAT 점수(%)\n동일 전기간과 비교: 켜기\n목표 표시: 켜기\n콤보\n콤보 차트는 세로 막대와 선 그래프가 함께 표시되며 성격이 다른 두 가지 지표를 한 화면에 담아, 서로 어떤 영향을 주고받는지 비교하기에 적합합니다.\n구성 요소\n지표: 차트에서 비교할 두 가지 지표를 선택합니다.\n첫 번째 지표: 세로 막대로 표시되며, 왼쪽 Y축 기준을 따릅니다.\n두 번째 지표: 선 그래프로 표시되며, 오른쪽 Y축 기준을 따릅니다.\n가로축: 데이터를 어떤 기준으로 나열할 것인지 결정합니다.\n차트 옵션\n데이터 레이블: 막대와 선 위에 각각의 정확한 수치를 텍스트로 표시합니다.\n활용 예시\n일별 인입량과 첫 응대 속도를 함께 비교하기\n첫 번째 지표: 인입된 상담 수\n두 번째 지표: 첫 문의 후 첫 응대까지의 시간\n가로축: 시간-일별\n주별 인입량과 CSAT 변화를 함께 보기\n첫 번째 지표: 인입된 상담 수\n두 번째 지표: CSAT 점수(%)\n가로축: 시간-주별\n영역\n영역 차트는 시간에 따른 누적 변화를 볼 때 적합합니다. 선 아래 영역이 채워져 전체 규모 변화를 더 직관적으로 확인할 수 있습니다.\n구성 요소\n지표: 선의 높이와 채워진 면적의 크기를 결정하는 값입니다. (Y축)\n가로축: 데이터를 어떤 기준으로 나열할지 선택합니다. (X축)\n차트 그룹: 영역을 그룹으로 나눠 항목별 비중 변화를 보고 싶을 때 선택합니다. 여러 항목으로 그룹을 나누면 색상 영역이 겹치거나 쌓이면서 각 항목이 차지하는 비중 변화를 볼 수 있습니다.\n차트 옵션:\n누적값 표시: 차트 그룹을 나눈 경우, 항목별 비중보다 전체 총합의 추이를 보고 싶을 때 선택합니다.\n데이터 레이블: 선이 꺾이는 지점마다 정확한 수치를 표시합니다.\n목표 표시: 목표 수치를 기준선으로 표시합니다.\n활용 예시\nALF CX Score가 낮은 ALF 상담 확인\n지표: ALF CX Score-최솟값\n가로축: 시간-일별\n확인 방법: '상담 목록 보기' 클릭 후 해당하는 상담 확인\n히트맵\n히트맵은 데이터의 분포를 색깔의 진하기로 보여주어, 요일/시간대별 패턴을 빠르게 파악할 때 적합합니다. 이 차트는 요일별, 시간별 데이터만 볼 수 있도록 고정되어 있습니다.\n구성 요소\n지표: 칸마다 채워질 색상의 진하기를 결정하는 수치 데이터입니다. 색이 연해지거나 진해지는 칸을 통해 데이터의 흐름이나 특이한 변화를 즉시 알 수 있습니다.\n활용 예시\n고객 대기 시간 집중 구간 확인하기\n지표: 상담이 열린 후 첫 응대까지의 시간\n테이블\n테이블은 여러 지표를 한눈에 나열하여 세부적인 수치를 정확하게 비교하고 분석할 때 사용합니다.\n구성 요소\n지표: 테이블의 각 열에 표시할 데이터 항목입니다. '+지표 추가'를 통해 여러 개의 지표를 추가하여 한 행에 나란히 보여줄 수 있습니다.\n행 기준: 데이터를 나누어 보는 기준이 되는 가로행입니다.\n차트 옵션:\n동일 전기간과 비교: 현재 수치 옆에 이전 기간 대비 증감 성과를 함께 표시합니다.(행 기준이 '시간'일 때 사용 가능)\n목표 표시: 목표 달성 여부를 배경색으로 표시합니다. (달성: 초록, 미달성: 빨강)\n활용 예시\n담당자별 운영 성과 비교하기\n지표: 인입된 상담 수, CSAT 점수(%), 평균 응답 시간 (미운영 시간 제외), 담당자 배정 후 첫 응대까지의 시간 (미운영 시간 제외)\n(*특정 담당자만 확인하고자 하는 경우 '+필터 추가'로 담당자 필터를 걸어주세요.)\n행 기준: 담당자",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "커스텀 리포트에서 총 9가지 유형의 차트를 제공합니다.  "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "막대 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "차트 유형 및 옵션-막대.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/535964/revisions/918490/usermedia/695ce00ccdb38bccb8bf",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "시간의 흐름에 따른 변화(추세)나, 여러 항목 간 수치를 비교할 때 적합합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "구성 요소"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지표: 막대의 높이로 표현할 값을 선택합니다. (Y축)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "가로축: 막대를 어떤 순서로 나열할지 기준을 선택합니다. (X축)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 그룹: 막대를 그룹으로 나눠 보고 싶을 때 선택합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 옵션: "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "누적값 표시: "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "차트 그룹별 총합을 보고 싶을 때 선택합니다. "
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "동일 전기간과 비교: 동일 전기간 대비 증감 여부를 시각적으로 대조할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "데이터 레이블: 막대 위에 정확한 수치를 텍스트로 표시합니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "목표 표시: 목표로 설정한 수치를 가로선으로 표시합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일자별 인입된 상담 수 추이 확인하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: 인입된 상담 수"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "가로축: 시간-일별"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "월별 CSAT 점수 비교하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: CSAT 점수(%)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "가로축: 시간-월별"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "가로 막대"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "차트 유형 및 옵션-막대 (11).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/535964/revisions/918490/usermedia/695ce20d72b7705a3cfd",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "긴 항목 이름을 한눈에 읽어야 하거나, 여러 항목 간의 순위를 비교할 때 적합합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지표: 막대의 길이로 표현할 값을 선택합니다. (X축)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "세로축: 항목을 어떤 기준으로 나열할지 선택합니다. (Y축)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 그룹: 막대를 그룹으로 나눠 보고 싶을 때 선택합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 옵션: "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "누적값 표시: 차트 그룹을 나눈 경우, 항목별 총합을 보고 싶을 때 선택합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "동일 전기간과 비교: 동일 전기간 대비 증감 여부를 시각적으로 대조할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "데이터 레이블: 막대 끝에 정확한 수치를 텍스트로 표시합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "목표 표시: 목표로 설정한 수치를 세로선으로 표시합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 태그별 평균 응답 시간 확인 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: 평균 응답 시간"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "세로축: 상담 태그"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당자별 CSAT 점수 확인"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: CSAT 점수(%)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "세로축: 담당자(표시 기준 선택)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "라인"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "차트 유형 및 옵션-막대 (2).png",
+        "height": "830px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/535964/revisions/918490/usermedia/695ce0b5f3572e2a8a9f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "라인 그래프는 시간의 경과에 따라 데이터가 어떻게 변하는지 연속적인 추세를 파악할 때 적합합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "구성 요소"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지표: 선의 높낮이로 표현할 값을 선택합니다. (Y축)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "가로축: 데이터를 어떤 기준으로 나열할지 선택합니다. 라인 차트에서는 주로 시간을 사용합니다. (X축)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 옵션: "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "동일 전기간과 비교: 동일 전기간 대비 증감 여부를 시각적으로 대조할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "데이터 레이블: 선의 꺾이는 지점마다 수치를 텍스트로 표시합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "목표 표시: 목표로 설정한 수치를 기준선으로 표시합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "주차별 상담 대기 시간 변화 추이 확인하고 동일 전기간과 비교하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: 상담 대기 시간"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "가로축: 시간-주별"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "동일 전기간과 비교: 켜기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "월별 ALF CX score 추이 확인하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: ALF CX score"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "가로축: 시간-월별"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "파이"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "차트 유형 및 옵션-막대 (12).png",
+        "height": "674px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/535964/revisions/918490/usermedia/695ce2597b42ca7eab18",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "파이 차트는 전체 데이터 중 각 항목이 차지하는 상대적인 비율(%)을 한눈에 파악하기에 가장 좋은 도구입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "구성 요소"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지표: 파이의 크기(합계)를 결정하는 값입니다. 각 조각의 합은 100%가 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "분류 기준: 전체 데이터를 어떤 카테고리로 나눌 것인지 결정합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 옵션: "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "데이터 레이블: 각 조각에 비중(%)과 실제 수치를 함께 표시합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당자별 이관율 확인하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: 담당자 이관율"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "분류 기준: 담당자"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "KPI"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "차트 유형 및 옵션-막대 (4).png",
+        "height": "610px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/535964/revisions/918490/usermedia/695ce262a8fa75bf818f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "KPI 차트는 데이터를 자세한 분석 없이 가장 빠르게 핵심 수치를 확인할 때 적합합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "구성 요소"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지표: 차트 중앙에 표시되는 값으로, 선택한 기간 동안의 데이터 평균 수치로 표시됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 옵션 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "동일 전기간과 비교: 직전 동일 기간과 비교해 증감 값을 함께 표시합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "목표 표시: 목표 수치를 함께 표시해 달성 여부를 파악할 수 있습니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "CSAT 점수(%) 한눈에 확인하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: CSAT 점수(%)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "동일 전기간과 비교: 켜기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "목표 표시: 켜기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "콤보"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "차트 유형 및 옵션-막대 (8).png",
+        "height": "796px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/535964/revisions/918490/usermedia/695ce26b325f81928fb1",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "콤보 차트는 세로 막대와 선 그래프가 함께 표시되며 성격이 다른 두 가지 지표를 한 화면에 담아, 서로 어떤 영향을 주고받는지 비교하기에 적합합니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "구성 요소"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지표: 차트에서 비교할 두 가지 지표를 선택합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "첫 번째 지표: 세로 막대로 표시되며, 왼쪽 Y축 기준을 따릅니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "두 번째 지표: 선 그래프로 표시되며, 오른쪽 Y축 기준을 따릅니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "가로축: 데이터를 어떤 기준으로 나열할 것인지 결정합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 옵션"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "데이터 레이블: 막대와 선 위에 각각의 정확한 수치를 텍스트로 표시합니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일별 인입량과 첫 응대 속도를 함께 비교하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "첫 번째 지표: 인입된 상담 수"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "두 번째 지표: 첫 문의 후 첫 응대까지의 시간"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "가로축: 시간-일별"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "주별 인입량과 CSAT 변화를 함께 보기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "첫 번째 지표: 인입된 상담 수"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "두 번째 지표: CSAT 점수(%)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "가로축: 시간-주별"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "영역"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "차트 유형 및 옵션-막대 (7).png",
+        "height": "822px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/535964/revisions/918490/usermedia/695ce275c00038823098",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "영역 차트는 시간에 따른 누적 변화를 볼 때 적합합니다. 선 아래 영역이 채워져 전체 규모 변화를 더 직관적으로 확인할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "구성 요소"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지표: 선의 높이와 채워진 면적의 크기를 결정하는 값입니다. (Y축)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "가로축: 데이터를 어떤 기준으로 나열할지 선택합니다. (X축)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 그룹: 영역을 그룹으로 나눠 항목별 비중 변화를 보고 싶을 때 선택합니다. 여러 항목으로 그룹을 나누면 색상 영역이 겹치거나 쌓이면서 각 항목이 차지하는 비중 변화를 볼 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 옵션: "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "누적값 표시: 차트 그룹을 나눈 경우, 항목별 비중보다 전체 총합의 추이를 보고 싶을 때 선택합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "데이터 레이블: 선이 꺾이는 지점마다 정확한 수치를 표시합니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "목표 표시: 목표 수치를 기준선으로 표시합니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "ALF CX Score가 낮은 ALF 상담 확인 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: ALF CX Score-최솟값 "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "가로축: 시간-일별"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "확인 방법: '상담 목록 보기' 클릭 후 해당하는 상담 확인"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "히트맵"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "차트 유형 및 옵션-막대 (9).png",
+        "height": "692px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/535964/revisions/918490/usermedia/695ce1297dc681fa1285",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "히트맵은 데이터의 분포를 색깔의 진하기로 보여주어, 요일/시간대별 패턴을 빠르게 파악할 때 적합합니다. 이 차트는 요일별, 시간별 데이터만 볼 수 있도록 고정되어 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "구성 요소"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지표: 칸마다 채워질 색상의 진하기를 결정하는 수치 데이터입니다. 색이 연해지거나 진해지는 칸을 통해 데이터의 흐름이나 특이한 변화를 즉시 알 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 대기 시간 집중 구간 확인하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: 상담이 열린 후 첫 응대까지의 시간"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "테이블"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "차트 유형 및 옵션-막대 (13).png",
+        "height": "822px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/535964/revisions/918490/usermedia/695ce354174bdd038442",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "테이블은 여러 지표를 한눈에 나열하여 세부적인 수치를 정확하게 비교하고 분석할 때 사용합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "구성 요소"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지표: 테이블의 각 열에 표시할 데이터 항목입니다. '+지표 추가'를 통해 여러 개의 지표를 추가하여 한 행에 나란히 보여줄 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "행 기준: 데이터를 나누어 보는 기준이 되는 가로행입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "차트 옵션:"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "동일 전기간과 비교: 현재 수치 옆에 이전 기간 대비 증감 성과를 함께 표시합니다.(행 기준이 '시간'일 때 사용 가능)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "목표 표시: 목표 달성 여부를 배경색으로 표시합니다. (달성: 초록, 미달성: 빨강)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당자별 운영 성과 비교하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지표: 인입된 상담 수, CSAT 점수(%), 평균 응답 시간 (미운영 시간 제외), 담당자 배정 후 첫 응대까지의 시간 (미운영 시간 제외)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "(*특정 담당자만 확인하고자 하는 경우 '+필터 추가'로 담당자 필터를 걸어주세요.)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "행 기준: 담당자"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/696dd7cb23d1bf592d94",
+  "linked_faqs": [],
+  "faq_count": 0
+}

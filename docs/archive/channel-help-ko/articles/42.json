@@ -1,0 +1,2102 @@
+{
+  "id": "42",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%EB%8F%85-df0f42a5",
+  "title": "서비스 구독",
+  "summary": "비즈니스 규모에 맞는 합리적인 구독료로 유료 플랜을 구독해보세요",
+  "plaintext": "결제 이해하기\n채널톡의 서비스 구독은 플랜에 대한 결제와 사용량에 대한 결제로 구분됩니다. 채널에 맞는 플랜 제공량을 확인 후 비즈니스 규모에 맞게 플랜을 결제하면 구독이 시작됩니다.\n플랜 제공량 소진 이후 필요한 초과 사용량은 2가지 방식으로 결제가 가능합니다.\n후불 결제\n선불 충전\n사용자가 플랜과 사용량을 원하는 결제 방식으로 조합하여 이용할 수 있습니다. 하단의 서비스 구독 예시에서 자세하게 확인하실 수 있어요.\n유료 플랜\n각 플랜별 기본적으로 포함되어있는 사용량이 제공되며, 월 구독이나 연 구독으로 이용할 수 있습니다.\n연매출 100억 이상의 기업이라면 엔터프라이즈 플랜 구독이 필요합니다. 만약 상황에 맞지않는 플랜을 구독할 경우, 채널톡 사용에 제한이 있을 수 있습니다.\n얼리 스테이지는 최대 사용 한도가 정해져 있기에, 한도를 초과하면 그로스 플랜을 이용해주셔야 합니다.\n그로스 플랜과 엔터프라이즈 플랜은 사용 한도 없이 지속적으로 이용이 가능합니다.\n사용량\nMU, 시트, 부가 서비스는 플랜 제공량을 초과하게 되면, 추가 과금되어 결제됩니다. 사용량은 선불로 미리 충전하시거나, 후불로 결제하여 이용할 수 있습니다.\n구간별 단가가 적용되어, 많이 사용할 수록 가격이 내려갑니다.\nMU (관리 고객)\nMU 사용량은 고객 연락처에 저장되는 전체 고객 수를 기준으로 집계합니다.\n포함된 플랜 제공량 초과 시, 구간별 단가로 계산됩니다.\n저장된 고객 숫자가 많을 수록 단가가 내려갑니다.\n고객 연락처에 고객 정보를 1개씩 개별 추가하거나\nCSV 파일 업로드를 통해 여러 명의 고객 정보를 한 번에 업데이트 하는 경우 MU 사용량이 증가할 수 있습니다.\nMU는 결제 주기 동안 고객 연락처에 한 번이라도 저장된 관리 고객 수를 모두 사용량으로 집계합니다. 따라서 해당 결제 주기 내에 고객 정보를 삭제하거나 MU 한도를 설정하더라도, 사용량에서 제외되지 않습니다.\n예시) 그로스 플랜에서 3,000명을 추가로 저장한 경우 (총 MU 6,000명)\n1,000명 X 30원 = 30,000원\n2,000명 X 20원 = 40,000원\n총 추가 비용은 70,000원으로, 위와 같이\n구간별 단가가 순차적으로 적용\n됩니다.\n시트\n기본 시트 (일반 구성원)\n채널에 참여하게 되면 기본 시트로 추가됩니다.\n팀챗 이용이 가능합니다.\n고객의 상담 내역을 조회 및 확인할 수 있습니다.\n고객 상담에 팔로워로 참여하여 고객 대화, 내부 대화로 소통이 가능합니다.\n오퍼레이터 시트 (상담원)\n기본 시트를 가진 팀 멤버 중 상담 권한을 추가할 수 있습니다.\n상담의 담당자가 될 수 있기에 전화, 채팅 상담의 담당자가 가능합니다.\n(→ 오퍼레이터 설정 방법 확인하기)\n시트는 채널당 구매가 아닌, 팀 멤버 당 구매입니다.\n시트 추가 즉시 사용량으로 집계됩니다.\n활성화 된 시트를 다른 팀 멤버에게 이전할 수 없습니다.\n사용량으로 집계된 팀 멤버를 채널에서 삭제하더라도 사용량에서 차감되지 않습니다.\n오퍼레이터 시트의 경우, 집계 기간 내 한 번이라도 키면 [오퍼레이터] 화면에서\n이 붙게되며 이 수를 사용량으로 집계됩니다. 만약 다음달에 시트를 사용하지 않을 예정이라면, 구독 갱신일 전에 시트를 비활성화 해주세요.\n시트의 최소 사용량 단위는 한달입니다. 한 번 활성화하게 되면 이번달 사용량으로 책정되어 한달동안의 사용 요금이 청구됩니다.\n부가 서비스\n워크플로우 실행 수\n워크플로우에서 설정한 트리거가 동작할 경우 1건 실행입니다.\n예시) ‘새 상담을 시작할 때 챗봇’ 트리거를 사용한 워크플로우의 경우, 고객이 채널톡 버튼 - 문의하기를 눌러 워크플로우를 조회하면 1건 실행입니다.\nAI 에이전트 (ALF) 상담 참여 건수\n상담 참여당 과금이란:\nALF가 최초 답변을 시작하고 ALF가 답변을 종료할 때까지를 1건으로 과금합니다. 담당자 연결 요청으로 상담이 열리거나 혹은 상담원이 개입하여 상담을 열거나 혹은 고객 답변으로부터 24시간이 지나 세션이 만료되면 ALF 답변이 종료됩니다.\n일반적으로 한 상담에 1건 발생하며, 한 상담에서 여러 번 ALF가 연결된 경우에는 2회 이상 발생할 수도 있습니다.\nAU란:\nAU(ALF Unit)는 ALF 사용량의 통합 단위를 의미합니다.(1AU = 1원)\n태스크란:\n태스크(Task)는 고객이 자주 요청하는 업무를 자동화 ALF가 단순 질의 응답을 넘어 실제 업무까지 처리할 수 있는 신규 기능입니다. 설정된 태스크 트리거 조건에 따라 태스크가 실행되면 과금됩니다.\n마케팅 발송 수\n마케팅이 고객에게 전송된 숫자를 의미합니다. 개별 마케팅 통계의 전송 수치로 확인해볼 수 있어요.\n구독 방식\n월 구독\n매월 구독일마다 플랜 기본 비용이 결제됩니다.\n플랜 제공량을 초과한 사용량(MU, 시트, 부가 서비스)이 있다면 그 다음달 결제일에 결제됩니다.\nex) 1월의 초과 사용량은 2월에 결제됩니다.\n2월 결제 금액 = 2월 플랜 비용 + 1월 초과 사용량 (MU, 시트, 부가 서비스)\n연 구독\n연 구독은 월 구독 대비 25%의 할인을 제공합니다.\n플랜 기본 비용의 12개월 치를 한번에 결제합니다.\n후불 사용량이 있다면 플랜 비용과 별개로 월마다 후불 결제가 진행됩니다.\n🏁 영상으로 배우고 싶다면?\n연구독 갱신을 앞두고 결제 예정 금액 등을 확인하고자 한다면 아래 코스를 확인해 주세요.\n결제 방식\n후불 결제\nMU와 시트는 플랜 제공량을 초과한 사용량이 계산됩니다.\n부가 기능은 실행 건수에 따라 구간별 단가가 계산됩니다.\n이번 주기 사용량 화면에서 예상되는 결제 금액을 확인하실 수 있습니다.\n(→ 구독 세부 설정 확인하기)\n선불 충전\nMU, 시트, ALF, 워크플로우, 마케팅 중 원하는 항목을 12개월치 구매할 수 있습니다.\n선불 구매 시 할인이 제공됩니다. (문자, 알림톡, 전화 발신통화료 실비 제외)\n월 최소 / 최대 사용량이 정해져 있어 월 사용량 범위 내에서 이용이 가능합니다.\n(→ 사용량 선불 충전 가이드 확인하기)\n수동 한도\n적정 사용량을 예측하여 한도를 미리 설정할 수 있습니다.\n수동 한도는 변경, 삭제가 가능하기에 예상하지 못한 추가 과금이 발생할 것 같다면, 미리 설정해 주세요.\n서비스 구독 예시\n월 구독, 연 구독, 사용량 선불 충전, 후불 결제를 상황에 맞추어 조합할 수 있습니다. 채널톡을 회사 상황에 맞춘 적합한 플랜으로 이용해 주세요.\nex) 유료 플랜과 워크플로우는 1년동안 쓸 것 같은데, 6월쯤 마케팅 사용이 필요한 경우 → 플랜 연 구독 + 워크플로우 사용량 선불 충전 + 6월 마케팅 사용량 후불 결제로 사용 가능\n플랜 구독하기\n구독 방법\n[채널 설정 → 구독 및 결제 → 서비스 구독 → 플랜 업그레이드] 클릭\n[월 / 연], 원하는 플랜 선택 후 [플랜 변경]을 클릭해 주세요.\n변경되는 금액 확인 후 [플랜 변경]을 클릭해 주세요, 결제 정보 등록이 되어있지 않은 경우 카드 등록창이 뜰 수 있습니다.\n플랜 변경 후 수동 한도 설정이나, 사용량 선불 충전을 설정할 수 있습니다.\n플랜 예약 방법\n플랜 구독 갱신을 설정하거나 예정된 플랜을 변경하고 싶을 때 아래 방법으로 플랜을 예약해 주세요.\n[채널 설정 → 구독 및 결제 → 서비스 구독 → 구독 개요]에서 '플랜 설정' 클릭\n[예약] 탭 클릭 후 [월 / 연] 및 플랜 선택 후 '플랜 변경 예약' 클릭\n플랜 변경 예약하면 구독 개요에 예정된 플랜으로 표기되며 다음 플랜 갱신일에 예정된 플랜으로 구독을 시작합니다.\n플랜 변경 유의 사항\n선불 충전 예약이 존재하는 경우 선불 충전 예약 내역이 모두 삭제됩니다. [채널 설정 → 구독 및 결제 → 사용량 선불 충전]에서 다시 선불 충전 예약해 주세요.\n예정된 플랜이 얼리 스테이지 플랜인 경우 갱신 시점에 플랜 이용 조건에 부합하지 않으면 무료 플랜으로 전환되니 유의해 주세요. (*얼리 스테이지 이용 조건: MU 3,000이하 / 기본 시트 10이하 / 오퍼레이터 시트 5이하)",
+  "body": [
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "height": "720px",
+        "mime": "video/*",
+        "src": "https://www.youtube.com/watch?v=Bs9fawD4D4o",
+        "thumb": "https://cf.channel.io/thumb/1280x720,cover,webp/web_page/1/667a481cf33431f86b17/tmp-3888389419.jpeg",
+        "width": "1280px"
+      },
+      "type": "video"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "결제 이해하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡의 서비스 구독은 플랜에 대한 결제와 사용량에 대한 결제로 구분됩니다. 채널에 맞는 플랜 제공량을 확인 후 비즈니스 규모에 맞게 플랜을 결제하면 구독이 시작됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "플랜 제공량 소진 이후 필요한 초과 사용량은 2가지 방식으로 결제가 가능합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "후불 결제"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "선불 충전"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "사용자가 플랜과 사용량을 원하는 결제 방식으로 조합하여 이용할 수 있습니다. 하단의 서비스 구독 예시에서 자세하게 확인하실 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "유료 플랜"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "각 플랜별 기본적으로 포함되어있는 사용량이 제공되며, 월 구독이나 연 구독으로 이용할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "플랜제공량",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/121/usermedia/662b1039ea4abf110b04"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "연매출 100억 이상의 기업이라면 엔터프라이즈 플랜 구독이 필요합니다. 만약 상황에 맞지않는 플랜을 구독할 경우, 채널톡 사용에 제한이 있을 수 있습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "얼리 스테이지는 최대 사용 한도가 정해져 있기에, 한도를 초과하면 그로스 플랜을 이용해주셔야 합니다.\n그로스 플랜과 엔터프라이즈 플랜은 사용 한도 없이 지속적으로 이용이 가능합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "사용량"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "MU, 시트, 부가 서비스는 플랜 제공량을 초과하게 되면, 추가 과금되어 결제됩니다. 사용량은 선불로 미리 충전하시거나, 후불로 결제하여 이용할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "구간별 단가가 적용되어, 많이 사용할 수록 가격이 내려갑니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "MU (관리 고객)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MU 사용량은 고객 연락처에 저장되는 전체 고객 수를 기준으로 집계합니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "포함된 플랜 제공량 초과 시, 구간별 단가로 계산됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "저장된 고객 숫자가 많을 수록 단가가 내려갑니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "고객 연락처에 고객 정보를 1개씩 개별 추가하거나 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "CSV 파일 업로드를 통해 여러 명의 고객 정보를 한 번에 업데이트 하는 경우 MU 사용량이 증가할 수 있습니다. "
+                          },
+                          "marks": [
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MU는 결제 주기 동안 고객 연락처에 한 번이라도 저장된 관리 고객 수를 모두 사용량으로 집계합니다. 따라서 해당 결제 주기 내에 고객 정보를 삭제하거나 MU 한도를 설정하더라도, 사용량에서 제외되지 않습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "예시) 그로스 플랜에서 3,000명을 추가로 저장한 경우 (총 MU 6,000명)  "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "1,000명 X 30원 = 30,000원 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2,000명 X 20원 = 40,000원  "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "총 추가 비용은 70,000원으로, 위와 같이 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "구간별 단가가 순차적으로 적용"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "MU단가",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/121/usermedia/662b103a283b5df42c15"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "시트"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "기본 시트 (일반 구성원)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "채널에 참여하게 되면 기본 시트로 추가됩니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "팀챗 이용이 가능합니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "고객의 상담 내역을 조회 및 확인할 수 있습니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "고객 상담에 팔로워로 참여하여 고객 대화, 내부 대화로 소통이 가능합니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "오퍼레이터 시트 (상담원)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "기본 시트를 가진 팀 멤버 중 상담 권한을 추가할 수 있습니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "상담의 담당자가 될 수 있기에 전화, 채팅 상담의 담당자가 가능합니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "(→ 오퍼레이터 설정 방법 확인하기)"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "href": "https://docs.channel.io/help/ko/articles/19f891ce"
+                                      },
+                                      "type": "hyperlink"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "시트는 채널당 구매가 아닌, 팀 멤버 당 구매입니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "시트 추가 즉시 사용량으로 집계됩니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "활성화 된 시트를 다른 팀 멤버에게 이전할 수 없습니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "사용량으로 집계된 팀 멤버를 채널에서 삭제하더라도 사용량에서 차감되지 않습니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "오퍼레이터 시트의 경우, 집계 기간 내 한 번이라도 키면 [오퍼레이터] 화면에서 "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "name": "headphones"
+                                  },
+                                  "type": "emoji"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": " 이 붙게되며 이 수를 사용량으로 집계됩니다. 만약 다음달에 시트를 사용하지 않을 예정이라면, 구독 갱신일 전에 시트를 비활성화 해주세요. "
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "시트의 최소 사용량 단위는 한달입니다. 한 번 활성화하게 되면 이번달 사용량으로 책정되어 한달동안의 사용 요금이 청구됩니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "attrs": {
+                "alt": "June 12th 2024, 3_44_53 PM.png",
+                "height": "572px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/1065/usermedia/6669444d9b86af084284",
+                "width": "1200px"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "부가 서비스"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 실행 수"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "워크플로우에서 설정한 트리거가 동작할 경우 1건 실행입니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "예시) ‘새 상담을 시작할 때 챗봇’ 트리거를 사용한 워크플로우의 경우, 고객이 채널톡 버튼 - 문의하기를 눌러 워크플로우를 조회하면 1건 실행입니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "mime": "image/jpeg",
+        "src": "https://cf.channel.io/document/spaces/6/usermedia/66a2444cc0969c11c1d1"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "AI 에이전트 (ALF) 상담 참여 건수"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "bgtxt-red-lightest"
+                      },
+                      "type": "backgroundColor"
+                    },
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담 참여당 과금이란: "
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "ALF가 최초 답변을 시작하고 ALF가 답변을 종료할 때까지를 1건으로 과금합니다. 담당자 연결 요청으로 상담이 열리거나 혹은 상담원이 개입하여 상담을 열거나 혹은 고객 답변으로부터 24시간이 지나 세션이 만료되면 ALF 답변이 종료됩니다. "
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "일반적으로 한 상담에 1건 발생하며, 한 상담에서 여러 번 ALF가 연결된 경우에는 2회 이상 발생할 수도 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "AU란: "
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "AU(ALF Unit)는 ALF 사용량의 통합 단위를 의미합니다.(1AU = 1원)"
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "태스크란: "
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "태스크(Task)는 고객이 자주 요청하는 업무를 자동화 ALF가 단순 질의 응답을 넘어 실제 업무까지 처리할 수 있는 신규 기능입니다. 설정된 태스크 트리거 조건에 따라 태스크가 실행되면 과금됩니다."
+                          },
+                          "marks": [
+                            {
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "Component 11.png",
+        "height": "954px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/761446/usermedia/691fcd63276c6459add5",
+        "width": "1800px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "마케팅 발송 수"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "마케팅이 고객에게 전송된 숫자를 의미합니다. 개별 마케팅 통계의 전송 수치로 확인해볼 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "마케팅_단가",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/121/usermedia/662b103ac03e023c27b7"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "구독 방식"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "월 구독"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "매월 구독일마다 플랜 기본 비용이 결제됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "플랜 제공량을 초과한 사용량(MU, 시트, 부가 서비스)이 있다면 그 다음달 결제일에 결제됩니다.\nex) 1월의 초과 사용량은 2월에 결제됩니다.\n2월 결제 금액 = 2월 플랜 비용 + 1월 초과 사용량 (MU, 시트, 부가 서비스)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "월구독",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/121/usermedia/662b103b03a4970ed75c"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "연 구독"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연 구독은 월 구독 대비 25%의 할인을 제공합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "플랜 기본 비용의 12개월 치를 한번에 결제합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "후불 사용량이 있다면 플랜 비용과 별개로 월마다 후불 결제가 진행됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "연구독",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/121/usermedia/662b103b7700d3a3a10e"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "🏁 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "연구독 갱신을 앞두고 결제 예정 금액 등을 확인하고자 한다면 아래 코스를 확인해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요시간: 15분 • 난이도: 중-하 • 추천 대상: 연구독 갱신을 앞둔 채널",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/categories/연구독-갱신-완전정복-코스-00c5d52c",
+        "imageUrl": "https://cf.channel.io/thumb/1200x630,cover,webp/web_page/1/68ec65181da7993fbf7a/tmp-2484106426.png",
+        "title": "연구독 갱신 완전정복 코스"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "결제 방식"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "후불 결제"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MU와 시트는 플랜 제공량을 초과한 사용량이 계산됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "부가 기능은 실행 건수에 따라 구간별 단가가 계산됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이번 주기 사용량 화면에서 예상되는 결제 금액을 확인하실 수 있습니다.\n"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 구독 세부 설정 확인하기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/77451f78"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "선불 충전"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "MU, 시트, ALF, 워크플로우, 마케팅 중 원하는 항목을 12개월치 구매할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "선불 구매 시 할인이 제공됩니다. (문자, 알림톡, 전화 발신통화료 실비 제외)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "월 최소 / 최대 사용량이 정해져 있어 월 사용량 범위 내에서 이용이 가능합니다.\n"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 사용량 선불 충전 가이드 확인하기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/3c72fcf1"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "수동 한도"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "적정 사용량을 예측하여 한도를 미리 설정할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "수동 한도는 변경, 삭제가 가능하기에 예상하지 못한 추가 과금이 발생할 것 같다면, 미리 설정해 주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "서비스 구독 예시"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "월 구독, 연 구독, 사용량 선불 충전, 후불 결제를 상황에 맞추어 조합할 수 있습니다. 채널톡을 회사 상황에 맞춘 적합한 플랜으로 이용해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "ex) 유료 플랜과 워크플로우는 1년동안 쓸 것 같은데, 6월쯤 마케팅 사용이 필요한 경우 → 플랜 연 구독 + 워크플로우 사용량 선불 충전 + 6월 마케팅 사용량 후불 결제로 사용 가능"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "월?연?",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/121/usermedia/662b103bab2f4da3cedb"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "후불?선불?",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/121/usermedia/662b103bef08a2fb965f"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "플랜 구독하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "구독 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정 → 구독 및 결제 → 서비스 구독 → 플랜 업그레이드] 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "1",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/121/usermedia/662b103c336f469afc49"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[월 / 연], 원하는 플랜 선택 후 [플랜 변경]을 클릭해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "유료플랜 구독하기2_241121.png",
+        "height": "954px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/91930/usermedia/6731e7f89c8f4e0f9b7c",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "변경되는 금액 확인 후 [플랜 변경]을 클릭해 주세요, 결제 정보 등록이 되어있지 않은 경우 카드 등록창이 뜰 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "유료플랜 구독하기3_241121.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/91930/usermedia/6731e7fd1b9b32f49ef6",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 4
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "플랜 변경 후 수동 한도 설정이나, 사용량 선불 충전을 설정할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "4",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/121/usermedia/662b103cd25b25eb4442"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "플랜 예약 방법"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "플랜 구독 갱신을 설정하거나 예정된 플랜을 변경하고 싶을 때 아래 방법으로 플랜을 예약해 주세요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정 → 구독 및 결제 → 서비스 구독 → 구독 개요]에서 '플랜 설정' 클릭"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "67347630b111324c6d2c",
+                "height": "914px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/605829/usermedia/68da17a7c2be4194fa6a",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[예약] 탭 클릭 후 [월 / 연] 및 플랜 선택 후 '플랜 변경 예약' 클릭"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "673475e2e26b53391c2c",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/605829/usermedia/68da17ad9c7fbc7e16d9",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "플랜 변경 예약하면 구독 개요에 예정된 플랜으로 표기되며 다음 플랜 갱신일에 예정된 플랜으로 구독을 시작합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "673475dda0ed305abcde",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/42/revisions/605829/usermedia/68da17b2b9c54b7fcc43",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "플랜 변경 유의 사항"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "선불 충전 예약이 존재하는 경우 선불 충전 예약 내역이 모두 삭제됩니다. [채널 설정 → 구독 및 결제 → 사용량 선불 충전]에서 다시 선불 충전 예약해 주세요. "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예정된 플랜이 얼리 스테이지 플랜인 경우 갱신 시점에 플랜 이용 조건에 부합하지 않으면 무료 플랜으로 전환되니 유의해 주세요. (*얼리 스테이지 이용 조건: MU 3,000이하 / 기본 시트 10이하 / 오퍼레이터 시트 5이하) "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ec187cd8426b6b6",
+  "linked_faqs": [],
+  "faq_count": 0
+}

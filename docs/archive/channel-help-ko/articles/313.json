@@ -1,0 +1,211 @@
+{
+  "id": "313",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%95%84%ED%8B%B0%ED%81%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-cdcde391",
+  "title": "아티클 알아보기",
+  "summary": "아티클은 작성자가 작성한 글로 하나의 문서 단위에요. 아티클의 기본 구성에 대해서 알려드려요.",
+  "plaintext": "아티클의 기본 개념\n아티클은 작성자가 작성한 글로 하나의 문서 단위입니다.\n아티클 상태 구분\n공개\n퍼블리시된 아티클이며 웹사이트 및 해당 아티클이 속한 카테고리가 공개 상태인 경우 웹사이트에 노출돼요.\n아티클 공개 후에도 계속 수정 가능하며, 수정한 버전을 웹사이트에 반영하고 싶다면 반드시 업데이트 버튼을 통해 퍼블리시 해주셔야 적용됩니다.\n비공개\n현재 웹사이트에 공개되어 있지 않은 아티클을 의미합니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "아티클의 기본 개념 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아티클은 작성자가 작성한 글로 하나의 문서 단위입니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "아티클기본개념.jpg",
+        "height": "626px",
+        "mime": "image/jpeg",
+        "src": "https://cf.channel.io/document/spaces/6/articles/313/revisions/496840/usermedia/68a8301a1a49a24d1ff1",
+        "width": "1200px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "아티클 상태 구분 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "고객구분.jpg",
+        "height": "626px",
+        "mime": "image/jpeg",
+        "src": "https://cf.channel.io/document/spaces/6/articles/313/revisions/496840/usermedia/68a830654407a5eb213f",
+        "width": "1200px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "공개"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "퍼블리시된 아티클이며 웹사이트 및 해당 아티클이 속한 카테고리가 공개 상태인 경우 웹사이트에 노출돼요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "아티클 공개 후에도 계속 수정 가능하며, 수정한 버전을 웹사이트에 반영하고 싶다면 반드시 업데이트 버튼을 통해 퍼블리시 해주셔야 적용됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "68c11c6c3054e89213dc",
+                "height": "880px",
+                "mime": "image/png",
+                "src": "https://cf.channel.io/document/spaces/6/articles/313/revisions/525436/usermedia/68c11c6ea76ef3fb72a2",
+                "width": "1560px"
+              },
+              "type": "image"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "비공개"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "현재 웹사이트에 공개되어 있지 않은 아티클을 의미합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "102",
+    "name": "Carol",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/666e74fe43f7eac6333f",
+  "linked_faqs": [],
+  "faq_count": 0
+}

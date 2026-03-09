@@ -1,0 +1,701 @@
+{
+  "id": "77",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%97%B0%EB%8F%99%EC%A4%80%EB%B9%84-19115a20",
+  "title": "연동준비",
+  "summary": "채널톡과 인스타그램을 연동하기 위해 페이스북 비즈니스 계정과 인스타그램  비즈니스 계정이 필요합니다.",
+  "plaintext": "페이스북 페이지 생성\n이미 페이스북 페이지가 있다면, 이 단계는 통과하셔도 됩니다.\n페이스북에 로그인 후 [페이지] 메뉴에서 새 페이지를 만듭니다.\n인스타그램 비즈니스 계정으로 설정\n인스타그램 연동은 페이스북 페이지와 연동된\n인스타그램 비즈니스 계정\n만 연동이 가능해요.\n이미 인증을 받았다면, 이 단계는 통과하셔도 됩니다.\n인스타그램 [메뉴] - [설정 및 개인 정보] - [계정 유형 및 도구] - [프로페셔널 계정으로 전환] 을 누르세요. 앱 버전에 따라 [설정 및 개인 정보]가 [설정 및 활동]으로 보일 수 있어요.\n카테고리 선택 및 비즈니스 계정으로 설정, 연락처 정보를 입력하고 새 Facebook 페이지를 만들거나, 이미 생성된 페이지가 있다면 연결하시면 됩니다.\n더 상세한 설정 방법은\n인스타그램 도움말\n을 확인해주세요.\n페이스북 비즈니스 계정 만들기\n인스타그램 비즈니스 계정 연동을 위해\n페이스북 비즈니스 계정\n이 필요해요.\n이미 비즈니스 계정이 있다면, 이 단계는 통과하셔도 됩니다.\nbusiness.facebook.com\n에 접속 - [계정 만들기]를 누르세요.\n인스타그램에 연동할 페이스북 계정으로 로그인 하여 페이스북 비즈니스 계정을 만들어야 합니다.\n페이스북 페이지와 인스타그램 계정 연동 확인하기\nPC에서 설정하기\nbusiness.facebook.com\n접속하여 [Instagram 연결] 또는 [Instagram 프로필 설정 을 클릭합니다.\n액세스 허용 및 [계속] 버튼 클릭하여 인스타그램 연결을 완료합니다.\n모바일에서 설정하기\n인스타그램 비즈니스 계정으로 접속 후 [프로필 편집]을 누르고, [페이지]에서 페이스북 페이지 연결을\n합니다.\n계정 연결 확인 방법\n연동할 페이스북 페이지가 있다면 →\n기존 페이지 연결\n을 선택하세요요\n연동할 페이스북 페이지가 없다면 →\nFacebook 페이지 만들기\n를 선택하세요\n더 상세한 설정 방법은\n인스타그램 도움말\n을 참고하시면 됩니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "페이스북 페이지 생성"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "이미 페이스북 페이지가 있다면, 이 단계는 통과하셔도 됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "페이스북에 로그인 후 [페이지] 메뉴에서 새 페이지를 만듭니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "페이스북 페이지 생성",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/77/revisions/226/usermedia/662b0f2014ba0b7a53c4"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "인스타그램 비즈니스 계정으로 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "인스타그램 연동은 페이스북 페이지와 연동된 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "인스타그램 비즈니스 계정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "만 연동이 가능해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "이미 인증을 받았다면, 이 단계는 통과하셔도 됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "인스타그램 [메뉴] - [설정 및 개인 정보] - [계정 유형 및 도구] - [프로페셔널 계정으로 전환] 을 누르세요. 앱 버전에 따라 [설정 및 개인 정보]가 [설정 및 활동]으로 보일 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "insta",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/77/revisions/226/usermedia/662b0f204027cc4bf937"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "카테고리 선택 및 비즈니스 계정으로 설정, 연락처 정보를 입력하고 새 Facebook 페이지를 만들거나, 이미 생성된 페이지가 있다면 연결하시면 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/77/revisions/226/usermedia/662b0f206bbd3d0894ff"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "더 상세한 설정 방법은 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "인스타그램 도움말"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://www.facebook.com/help/instagram/502981923235522?helpref=related"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "을 확인해주세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://www.facebook.com/help/instagram/502981923235522?helpref=related"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "페이스북 비즈니스 계정 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "인스타그램 비즈니스 계정 연동을 위해 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "페이스북 비즈니스 계정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "이 필요해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "이미 비즈니스 계정이 있다면, 이 단계는 통과하셔도 됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "business.facebook.com"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "//business.facebook.com"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 에 접속 - [계정 만들기]를 누르세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "//business.facebook.com"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "페이스북 비즈니스 계정",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/77/revisions/226/usermedia/662b0f20a2956e8ac4dd"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "인스타그램에 연동할 페이스북 계정으로 로그인 하여 페이스북 비즈니스 계정을 만들어야 합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "페이스북 비즈니스 계정",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/77/revisions/226/usermedia/662b0f20cbe7c4756d75"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "페이스북 페이지와 인스타그램 계정 연동 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "PC에서 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "business.facebook.com"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "//business.facebook.com"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 접속하여 [Instagram 연결] 또는 [Instagram 프로필 설정 을 클릭합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "//business.facebook.com"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "인스타그램 계정 연결",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/77/revisions/226/usermedia/662b0f21042bad145d6e"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "액세스 허용 및 [계속] 버튼 클릭하여 인스타그램 연결을 완료합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "인스타그램 계정 연결",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/77/revisions/226/usermedia/662b0f2137e006cb8a97"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모바일에서 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "인스타그램 비즈니스 계정으로 접속 후 [프로필 편집]을 누르고, [페이지]에서 페이스북 페이지 연결을 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "인스타그램 계정 연결",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/77/revisions/226/usermedia/662b0f216e74cdd0c907"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "계정 연결 확인 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동할 페이스북 페이지가 있다면 → "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "기존 페이지 연결"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 선택하세요요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동할 페이스북 페이지가 없다면 → "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "Facebook 페이지 만들기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 선택하세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "더 상세한 설정 방법은 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "인스타그램 도움말"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://www.facebook.com/help/instagram/570895513091465"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "을 참고하시면 됩니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://www.facebook.com/help/instagram/570895513091465"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "30",
+    "name": "Dugi",
+    "bio": "[Web, Backend]"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eddd9310bc0facd",
+  "linked_faqs": [],
+  "faq_count": 0
+}

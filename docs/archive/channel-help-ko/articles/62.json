@@ -1,0 +1,1231 @@
+{
+  "id": "62",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%8C%94%EB%A1%9C%EC%97%85-%EC%95%8C%EB%A6%BC-1ab15b6a",
+  "title": "팔로업 알림",
+  "summary": "팔로업 알림 설정을 통해 고객이 상담 도중 사이트를 나가도 문자(카카오 알림톡), 이메일로 상담을 이어갈 수 있어요.",
+  "plaintext": "영상으로 배우고 싶다면?\n팔로업 알림이란?\n팔로업 알림 기능을 통해 입력된 고객의 정보는\n고객이 요청한 상담 업무 응대를 위한 목적\n으로만 사용하여야 합니다. 그 외의 목적으로 이용하고자 한다면 워크플로우의 입력폼 기능을 활용하여\n고객으로부터 별도의 수집 동의를 받아야 하는 점\n참고해주세요.\n(→ 입력폼 알아보기)\n상담 도중에 고객이 오프라인 상태일 때, 상담원이 답변을 남기면 알림을 보내는 기능입니다.\n오프라인 상태란?\n고객이 사이트를 떠났거나 사이트에서 4분 30초 이상 움직임이 없거나 다른 화면을 보고 있는 상태예요.\n예시)  사이트를 끄지 않은 상태로 다른 탭으로 이동한 지 5분 이상 된 경우 브라우저를 켠 상태에서 5분 이상 아무 행동을 하지 않은 경우\n전송 프로세스\n고객이 같은 내용의 알림을 반복하여 받지 않도록 하기 위해 다음과 같은 특별한 전송 과정을 거칩니다.\n1. 모바일 SDK푸시를 연동한 경우\n모바일 SDK 알림 전송을 가장 먼저 시도합니다.\n모바일 SDK 알림에 성공한 경우 문자(알림톡)/이메일 알림을 보내지 않습니다.\n30초 동안 수신 실패한 경우 문자(알림톡)/이메일 알림 전송을 시도합니다.\n2.\n모바일 SDK푸시를 연동하지 않은 경우\n텍스팅과 이메일 알림 전송을 동시에 시도합니다. 텍스팅과 이메일은 각각 보내집니다.\n텍스팅 전송 수단\nSNS → 카카오 알림톡 / 라인 (추가 예정)\nXMS → SMS / LMS\n문자 길이 및 국가 설정 등에 따라서 최적화 되어 전송돼요.\n전송 프로세스\nSNS → XMS 순서로 전송해요. 둘 중 하나만 전송이 됩니다.\nSNS 설정값이 없거나 발송에 실패 혹은 사용자가 차단한 경우엔 자동으로 XMS로 대체 발송됩니다.\n이메일\n기본 템플릿으로 전송됩니다.\n새 상담 열기 시 전송 수단\n고객과의 상담 중 답변을 진행한 것이 아닌, 팀 멤버가 새롭게 상담을 시작하는 [새 상담 열기]는 알림톡이 연동되어있더라도 문자나 이메일로만 전송됩니다.\n문자 (카카오 알림톡) 알림\n상담 중 오프라인 상태가 된 고객에게 보내는 답변 알림은 알림톡 연동이 되어 있다면 알림톡이 우선적으로 발송되고, 발송에 실패한 경우 자동으로 문자가 발송됩니다.\n카카오 알림톡 전송을 위해서는 카카오 알림톡 연동이 필요합니다.\n(→ 알림톡 연동방법 확인하기)\n설정 방법\n[채널 설정] - [상담] - [팔로업 알림] 에서 ‘휴대폰 번호'를 ON 해주세요.\n문자(알림톡) 비용 확인하기\n문자(SMS, LMS), 알림톡을 보낼 때 발생하는\n건당 PU(Post Unit) 요금\n(발송 실비)\n이\n발생합니다. 문자 사용량과 발송 건 별 금액은 아래 경로에서 확인할 수 있어요.\n[채널 설정] → [구독 및 결제] → [서비스구독]→ [이번 달 사용량] → [문자]\n유료 플랜 구독 시 예상 사용량 만큼 PU 요금을\n미리 충전하여\n이용할 수 있습니다.\n[채널 설정] → [구독 및 결제] → [사용량 선불 충전] → [연동 서비스 충전] → [문자]\n( → 문자 충전 자세한 내용 확인하기)\n한국 발송 번호를 설정하지 않으면 채널톡 번호(1644-9672)로 문자가 보내집니다. 팔로업 알림으로만 사용 시, 번호를 설정하지 않아도 괜찮아요. 회사 번호로 회신을 받으려면 문자 발신 번호를 설정해 주세요.\n(→ 발신번호 설정 방법 보러가기)\n이메일 알림\n고객의 이메일로 답변 알림을 보내는 기능입니다. 이메일 전송 비용은 현재 한시적으로 무료로 제공되고 있어요.\n설정 방법\n[채널 설정] - [상담] - [팔로업 알림] 에서 ‘이메일'을 ON 해주세요. 회사 전용 메일주소가 있다면 커스텀 도메인을 설정해서 전송할 수 있습니다.\n(→ 이메일 도메인 설정 방법 보러가기)\n상담 연결 방식\n고객이 이메일에 포함된 상담 링크를 클릭하면 기존 상담에 이어 상담할 수 있습니다.\n고객이 상담 링크를 클릭하지 않고 이메일에 바로 회신하면 새로운 상담으로 수신함에 인입됩니다. 이때 내부 대화로 기존 상담 링크가 표시되므로 상담 이력을 확인하며 응답할 수 있습니다.\n모바일 SDK 알림\n고객이 오프라인 일 때 모바일 앱 푸시 알림을 보냅니다. 모바일 앱을 운영중이시라면 모바일 SDK 알림을 활용하시는게 가장 미려한 경험을 제공할 수 있어 좋아요. 모바일 SDK 알림이 전송된 경우에는 문자, 이메일 등 추가 알림이 가지 않아 효율적이죠.\n모바일 앱을 운영중이지 않다면 이 단계를 건너 뛰어도 좋아요.\n자세한 연동 방법은 개발자 문서를 참고해주세요.\nAndroid 개발자 문서\niOS 개발자 문서",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 20초 • 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/사이트를-떠난-고객에게-답장-알림-보내기-e859eef0",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad8bbe9b2fb0d6ca0b/tmp-332142844.png",
+        "title": "사이트를 떠난 고객에게 답장 알림 보내기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팔로업 알림이란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "팔로업 알림 기능을 통해 입력된 고객의 정보는 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "고객이 요청한 상담 업무 응대를 위한 목적"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "으로만 사용하여야 합니다. 그 외의 목적으로 이용하고자 한다면 워크플로우의 입력폼 기능을 활용하여 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "고객으로부터 별도의 수집 동의를 받아야 하는 점"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 참고해주세요. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(→ 입력폼 알아보기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/6e4fd112-%EC%9E%85%EB%A0%A5%ED%8F%BC"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 도중에 고객이 오프라인 상태일 때, 상담원이 답변을 남기면 알림을 보내는 기능입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "오프라인 상태란?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 사이트를 떠났거나 사이트에서 4분 30초 이상 움직임이 없거나 다른 화면을 보고 있는 상태예요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "예시)  사이트를 끄지 않은 상태로 다른 탭으로 이동한 지 5분 이상 된 경우 브라우저를 켠 상태에서 5분 이상 아무 행동을 하지 않은 경우"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전송 프로세스"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 같은 내용의 알림을 반복하여 받지 않도록 하기 위해 다음과 같은 특별한 전송 과정을 거칩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/62/revisions/181/usermedia/662b105744792cf82e82"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 모바일 SDK푸시를 연동한 경우"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "모바일 SDK 알림 전송을 가장 먼저 시도합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모바일 SDK 알림에 성공한 경우 문자(알림톡)/이메일 알림을 보내지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "30초 동안 수신 실패한 경우 문자(알림톡)/이메일 알림 전송을 시도합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "2."
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "모바일 SDK푸시를 연동하지 않은 경우"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "텍스팅과 이메일 알림 전송을 동시에 시도합니다. 텍스팅과 이메일은 각각 보내집니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "텍스팅 전송 수단"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "SNS → 카카오 알림톡 / 라인 (추가 예정)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "XMS → SMS / LMS"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문자 길이 및 국가 설정 등에 따라서 최적화 되어 전송돼요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전송 프로세스"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "SNS → XMS 순서로 전송해요. 둘 중 하나만 전송이 됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "SNS 설정값이 없거나 발송에 실패 혹은 사용자가 차단한 경우엔 자동으로 XMS로 대체 발송됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이메일"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "기본 템플릿으로 전송됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "새 상담 열기 시 전송 수단"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "고객과의 상담 중 답변을 진행한 것이 아닌, 팀 멤버가 새롭게 상담을 시작하는 [새 상담 열기]는 알림톡이 연동되어있더라도 문자나 이메일로만 전송됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "문자 (카카오 알림톡) 알림"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 중 오프라인 상태가 된 고객에게 보내는 답변 알림은 알림톡 연동이 되어 있다면 알림톡이 우선적으로 발송되고, 발송에 실패한 경우 자동으로 문자가 발송됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/62/revisions/181/usermedia/662b10577478d2ecc08e"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "카카오 알림톡 전송을 위해서는 카카오 알림톡 연동이 필요합니다. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(→ 알림톡 연동방법 확인하기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0-04f5721d"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] - [상담] - [팔로업 알림] 에서 ‘휴대폰 번호'를 ON 해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "fw/phone",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/62/revisions/181/usermedia/662b10579f17cb787939"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문자(알림톡) 비용 확인하기"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "문자(SMS, LMS), 알림톡을 보낼 때 발생하는 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "건당 PU(Post Unit) 요금"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(발송 실비)"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "이 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "발생합니다. 문자 사용량과 발송 건 별 금액은 아래 경로에서 확인할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] → [구독 및 결제] → [서비스구독]→ [이번 달 사용량] → [문자]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "유료 플랜 구독 시 예상 사용량 만큼 PU 요금을 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "미리 충전하여 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "이용할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정] → [구독 및 결제] → [사용량 선불 충전] → [연동 서비스 충전] → [문자] \n"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "( → 문자 충전 자세한 내용 확인하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://channel.io/ko/guides/billing/new-addon"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "한국 발송 번호를 설정하지 않으면 채널톡 번호(1644-9672)로 문자가 보내집니다. 팔로업 알림으로만 사용 시, 번호를 설정하지 않아도 괜찮아요. 회사 번호로 회신을 받으려면 문자 발신 번호를 설정해 주세요. "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "(→ 발신번호 설정 방법 보러가기)"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/ba987cea"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이메일 알림"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객의 이메일로 답변 알림을 보내는 기능입니다. 이메일 전송 비용은 현재 한시적으로 무료로 제공되고 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/62/revisions/181/usermedia/662b1057dbe6c8d0ad39"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[채널 설정] - [상담] - [팔로업 알림] 에서 ‘이메일'을 ON 해주세요. 회사 전용 메일주소가 있다면 커스텀 도메인을 설정해서 전송할 수 있습니다. "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 이메일 도메인 설정 방법 보러가기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/70153772"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "fw/email",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/62/revisions/181/usermedia/662b105820bc02fa0042"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 연결 방식"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 이메일에 포함된 상담 링크를 클릭하면 기존 상담에 이어 상담할 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 상담 링크를 클릭하지 않고 이메일에 바로 회신하면 새로운 상담으로 수신함에 인입됩니다. 이때 내부 대화로 기존 상담 링크가 표시되므로 상담 이력을 확인하며 응답할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모바일 SDK 알림"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 오프라인 일 때 모바일 앱 푸시 알림을 보냅니다. 모바일 앱을 운영중이시라면 모바일 SDK 알림을 활용하시는게 가장 미려한 경험을 제공할 수 있어 좋아요. 모바일 SDK 알림이 전송된 경우에는 문자, 이메일 등 추가 알림이 가지 않아 효율적이죠."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "모바일 앱을 운영중이지 않다면 이 단계를 건너 뛰어도 좋아요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/62/revisions/181/usermedia/662b10585814f7759133"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "자세한 연동 방법은 개발자 문서를 참고해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Android 개발자 문서"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/android-push-notification"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "iOS 개발자 문서"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://developers.channel.io/docs/ios-push-notification"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ed1520459b08173",
+  "linked_faqs": [
+    {
+      "id": "51296",
+      "question": "알림톡 연동 했는데 왜 문자로만 보내지나요?",
+      "answer_plaintext": "[새 상담 열기]를 통해 상담원이 먼저 말을 걸고, 고객의 답변이 없는 상태에선 알림톡은 발송되지 않고 문자로만 전송됩니다."
+    },
+    {
+      "id": "51297",
+      "question": "답변 알림이 알림톡으로 전송됐는지, 문자로 전송됐는지 어떻게 알 수 있나요?",
+      "answer_plaintext": "1. [채널 설정] - [구독 및 결제] - [외부 전송 내역] 에서 일자를 클릭하여 확인할 수 있습니다.\n2. [고객 연락처] - [고객 상세 프로필] - [보낸 메시지 목록]에서 확인할 수 있습니다."
+    },
+    {
+      "id": "51298",
+      "question": "SMS와 LMS의 글자수가 각각 어떻게 되나요?",
+      "answer_plaintext": "SMS는 한글로 약 70자, LMS는 약 1000자까지 입력이 가능합니다. (SMS는 140byte / LMS는 2000byte까지 제공) 일본이나 해외로 SMS 전송시 140byte (일본어 기준 약 70자, 영어 기준 약 160자)기준으로 가격이 변동됩니다. 글자 수에는 자동으로 추가되는 메시지도 포함됩니다."
+    },
+    {
+      "id": "51299",
+      "question": "문자, 알림톡 한도를 모두 소진했다는 메시지를 받았어요",
+      "answer_plaintext": "무료 플랜을 이용 중이신 경우 팔로업 알림에 사용되는 문자, 소셜 미디어 한도는 10,000PU까지 사용하실 수 있습니다. 매월 1일 지난달 발송된 요금이 정산됩니다.\n그리고, 무료 체험 기간 중에는 문자, 알림톡, 이메일 발송 건수가 총 1,000PU로 제한(팔로업 알림 + 마케팅 메시지)되어 있어요. 체험 기간 이후 유료 플랜 구독 시 발송 건 수 제한없이 이용해 보실 수 있습니다."
+    }
+  ],
+  "faq_count": 4
+}

@@ -1,0 +1,671 @@
+{
+  "id": "22",
+  "url": "https://docs.channel.io/help/ko/articles/%ED%8C%80%EC%9B%90-%EB%B0%8F-%EB%B4%87-%EC%84%A4%EC%A0%95-a215cda0",
+  "title": "팀원 및 봇 설정",
+  "summary": "회사의 팀과 팀원을 그대로 채널톡에 옮겨오세요. 채널에 팀원을 초대하고, 목적에 맞게 팀을 형성해 효율적으로 소통할 수 있어요. 팀원을 도와 메시지를 자동으로 보낼 ‘봇'도 설정할 수 있어요.",
+  "plaintext": "팀 멤버\n초대 링크를 통해 팀원을 초대하고, 우리 채널에 참여 중인 팀원의 목록을 확인해보세요.\n각 팀원 별 권한을 확인하고 수정도 가능합니다.\n팀원 초대\n초대 링크의 유효 기간이 만료되면 해당 링크를 통해 채널 참여가 불가해요.  링크는 중복 사용이 가능하며 유효 기간 내라면 해당 링크를 통해 누구라도 채널 참여가 가능합니다.  초대한 팀원이 채널에 참여했다면, 초대 링크가 만료되기 전에 직접 삭제도 가능해요.\n[새 팀 멤버 초대하기]\n를 눌러 생성한 초대 링크를 두 가지 방법을 통해 전달하여 함께 채널에 참여할 팀원을 초대해보세요.\n링크 URL 직접 전달\n메일로 초대 링크 전송\n채널에 초대되면\n기본\n역할로 초대됩니다.\n팀원 역할 수정 또는 삭제\n역할 수정 및 팀 멤버 삭제는 소유자 권한인 팀 멤버만 진행할 수 있어요\n변경을 원하는 팀원의 우측 [수정] 버튼을 클릭 후, 역할 수정 또는 팀 멤버 삭제하기를 진행해주세요.\n팀\n팀원을 모두 초대했다면, 이제 팀을 만들 차례에요. 마케팅팀, 디자인팀과 같이 팀을 만들고 팀원을 추가해보세요. 팀원과 소통할 때, 상담을 진행할 때 모두 유용하게 활용할 수 있어요.\n팀 생성 및 팀원 추가\n[+ 팀 추가]\n버튼을 눌러 손쉽게 팀을 생성하고 팀원을 추가해보세요.\n팀은 목적에 따라 여러개 만들 수 있고, 개개인은 소속 팀 또는 진행 프로젝트에 따라 여러 팀에 속할 수 있어요\n팀 활용법\n팀으로 멘션하기:\nCX팀 도움이 필요할 때,\n@CX_Team\n과 같이 팀을 멘션 하여 팀에 속한 모든 팀원들에게 알림을 보낼 수 있어요.\n그룹에 자동 초대하기:\n회사의 여러 그룹 채팅방 중 특정 팀이 필수적으로 참여해야 할 그룹 대화 목록을 설정해보세요. 팀에 지정된 공개 그룹이 있으면, 새로운 팀원을 추가했을 때 자동으로 공개 그룹에 한꺼번에 초대되어 유용해요.\n유저챗에서 팀 활용하기:\n상담을 책임지고 해결할 담당팀을 지정하면 팀원 모두 새 메시지에 대한 알림을 받을 수 있어요. 담당팀은 직접\n수동\n으로 지정할 수 있고,\n워크플로우\n를 통해 팀 지정을 자동화 할 수도 있어요.\n봇\n봇은 팀 멤버의 메시지 외의 채널에서 자동으로 전송되는 모든 메시지에 사용돼요. 고객에게 친근하게 말을 거는 봇의 이미지와 이름을 잘 설정하여 브랜드의 색깔을 입혀주세요.\n[+ 새 봇 추가하기] 를 통해 새로운 봇을 생성하고, 봇 이름을 검색하여 생성한 봇을 관리해보세요.\n봇의 이미지는 원하는 대로 변경할 수 있고, 원형으로 크롭되며 중앙 정렬됩니다. 다만, 한 번 생성한 봇의 이름은\n수정이 불가\n해요. 봇 이름 수정을 원한다면 기존 봇을 삭제 후 새로운 봇을 생성해주세요.",
+  "body": [
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "초대 링크를 통해 팀원을 초대하고, 우리 채널에 참여 중인 팀원의 목록을 확인해보세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "각 팀원 별 권한을 확인하고 수정도 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀원 초대"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "초대 링크의 유효 기간이 만료되면 해당 링크를 통해 채널 참여가 불가해요.  링크는 중복 사용이 가능하며 유효 기간 내라면 해당 링크를 통해 누구라도 채널 참여가 가능합니다.  초대한 팀원이 채널에 참여했다면, 초대 링크가 만료되기 전에 직접 삭제도 가능해요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[새 팀 멤버 초대하기]"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 눌러 생성한 초대 링크를 두 가지 방법을 통해 전달하여 함께 채널에 참여할 팀원을 초대해보세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "링크 URL 직접 전달"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "메일로 초대 링크 전송"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널에 초대되면 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "기본"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 역할로 초대됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "1",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/22/revisions/61/usermedia/662b0fa2e25dc9a911ef"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀원 역할 수정 또는 삭제"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "역할 수정 및 팀 멤버 삭제는 소유자 권한인 팀 멤버만 진행할 수 있어요"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "변경을 원하는 팀원의 우측 [수정] 버튼을 클릭 후, 역할 수정 또는 팀 멤버 삭제하기를 진행해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "role",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/22/revisions/61/usermedia/662b0fa326b2d330f105"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀원을 모두 초대했다면, 이제 팀을 만들 차례에요. 마케팅팀, 디자인팀과 같이 팀을 만들고 팀원을 추가해보세요. 팀원과 소통할 때, 상담을 진행할 때 모두 유용하게 활용할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 생성 및 팀원 추가"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[+ 팀 추가]"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 버튼을 눌러 손쉽게 팀을 생성하고 팀원을 추가해보세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀은 목적에 따라 여러개 만들 수 있고, 개개인은 소속 팀 또는 진행 프로젝트에 따라 여러 팀에 속할 수 있어요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "team",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/22/revisions/61/usermedia/662b0fa394edca4257a2"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 활용법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀으로 멘션하기: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "CX팀 도움이 필요할 때, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "@CX_Team"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 과 같이 팀을 멘션 하여 팀에 속한 모든 팀원들에게 알림을 보낼 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "그룹에 자동 초대하기: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "회사의 여러 그룹 채팅방 중 특정 팀이 필수적으로 참여해야 할 그룹 대화 목록을 설정해보세요. 팀에 지정된 공개 그룹이 있으면, 새로운 팀원을 추가했을 때 자동으로 공개 그룹에 한꺼번에 초대되어 유용해요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유저챗에서 팀 활용하기: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상담을 책임지고 해결할 담당팀을 지정하면 팀원 모두 새 메시지에 대한 알림을 받을 수 있어요. 담당팀은 직접 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "수동"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "으로 지정할 수 있고, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "워크플로우"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 통해 팀 지정을 자동화 할 수도 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "팀활용",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/22/revisions/61/usermedia/662b0fa3c7cecefaa67f"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "봇"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "봇은 팀 멤버의 메시지 외의 채널에서 자동으로 전송되는 모든 메시지에 사용돼요. 고객에게 친근하게 말을 거는 봇의 이미지와 이름을 잘 설정하여 브랜드의 색깔을 입혀주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[+ 새 봇 추가하기] 를 통해 새로운 봇을 생성하고, 봇 이름을 검색하여 생성한 봇을 관리해보세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "봇의 이미지는 원하는 대로 변경할 수 있고, 원형으로 크롭되며 중앙 정렬됩니다. 다만, 한 번 생성한 봇의 이름은 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "수정이 불가"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "해요. 봇 이름 수정을 원한다면 기존 봇을 삭제 후 새로운 봇을 생성해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "bot",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/22/revisions/61/usermedia/662b0fa4256d6070df15"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "101",
+    "name": "Marie🍀",
+    "bio": "Product Marketer"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eabe35a985e20a4",
+  "linked_faqs": [
+    {
+      "id": "51262",
+      "question": "팀 생성 개수 제한이 있나요?",
+      "answer_plaintext": "한 채널에 팀은 최대 100개 까지 생성할 수 있어요. 하나의 팀에는 0명 ~ 500명 의 팀원을 추가할 수 있어요."
+    },
+    {
+      "id": "51263",
+      "question": "삭제한 봇이 자꾸 생성돼요",
+      "answer_plaintext": "채널 대표봇, 워크플로우, 마케팅 등에서 봇이 사용 중이라면, 삭제한 봇이 자동으로 생성됩니다. 삭제를 원하시는 봇이 다른 기능에서 사용 중인지 확인 후, 다른 봇으로 수정해주세요."
+    }
+  ],
+  "faq_count": 2
+}

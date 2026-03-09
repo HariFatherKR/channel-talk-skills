@@ -1,0 +1,723 @@
+{
+  "id": "23",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90-%ED%94%84%EB%A1%A0%ED%8A%B8-6fd32151",
+  "title": "채널 프론트",
+  "summary": "고객이 버튼을 클릭했을 때 처음 보이는 채널톡 화면을 ‘채널 프론트’라고 합니다. 홈에서 고객에게 브랜드를 소개하고 고객과의 대화를 시작할 수 있어요.",
+  "plaintext": "채널 프론트\n고객이 채널톡 버튼을 눌렀을 때 처음 보이는 화면을 ‘채널 프론트’ 라고 해요. 채널 프론트는 총 3개의 탭(홈 탭/ 대화 탭/ 설정 탭)으로 구분되어 있어요.\n홈 탭\n브랜드의 정보, 첫 인사말, 브랜드의 최근 소식 등 브랜드가 궁금한 고객에게 브랜드에 대해서 더 많이 알려줄 수 있고 고객과 대화를 시작할 수 있는 화면입니다.\n홈 헤더\n채널명과 함께 운영 시간이 노출됩니다.\n문의하기\n문의하기 버튼을 눌러 상담을 시작할 수 있어요.\n응답 속도가 빠름/보통인 경우에 문의하기 버튼 밑에 팀 멤버 프로필이 함께 노출되어요.\n이전에 진행 중인 채팅이 있다면 문의하기 버튼 대신에 최근 대화방으로 이동할 수 있는 메시지 창이 뜨게 됩니다. 이를 통해 고객이 중복으로 새 문의를 남기지 않고 이전 대화창에서 상담을 이어갈 수 있어요.\n안 읽은 메시지가 있을 경우 안 읽음 알림 상담 창도 홈 탭에 함께 보입니다.\n다른 방법으로 문의\n외부 메신저가 채널에 연동되어 있다면, 고객이 문의를 할 때 [다른 방법으로 문의 > 외부 메신저 버튼] 을 눌러, 각 외부메신저로 상담을 시작할 수 있어요.\n고객이 익숙하게 사용하는 상담 방법을 직접 선택해, 간편하게 문의할 수 있습니다.\n최대 3개의 버튼\n이 노출됩니다. 3개 이상의 다른 문의 방법이 연동되어 있다면, 더보기 버튼으로 숨김 처리가 됩니다.\n카카오 상담톡 연동하기\n네이버 톡톡 연동하기\n라인 연동하기\n미트(전화) 연동하기\n인스타그램 메신저 연동하기\n대화 탭\n진행 중이거나 진행했던 상담 목록을 확인할 수 있어요. 읽지 않은 마케팅 메시지 또한 대화 탭에서 확인해볼 수 있어요. 상담 목록을 클릭하면 해당 대화방으로 이동하여 상담을 이어갈 수 있어요.\n대화 탭의 ‘\n새 문의하기’ 버튼\n노출 여부는 ‘중복 문의 막기’ 설정에 따라 결정됩니다.\n(→ 중복 문의 막기 가이드 바로가기)\n설정 탭\n고객이 상담 환경 및 광고 수신 여부를 직접 설정할 수 있어요.\n설정 프로필\n팔로업 알림 On / Off 설정 여부에 따라 고객에게 보여지는 설정 탭의 프로필 정보가 달라요.\n팔로업 알림 기능을 ON으로 설정했다면 고객 이름과 연락처 정보가 보임\n팔로업 알림 기능을 OFF로 했두었다면 채널 프로필명을 보여줌\n광고 수신 설정\n고객이 직접 문자나 이메일로 오는 광고성 메시지 수신 여부를 설정할 수 있어요.",
+  "body": [
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널 프론트"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 채널톡 버튼을 눌렀을 때 처음 보이는 화면을 ‘채널 프론트’ 라고 해요. 채널 프론트는 총 3개의 탭(홈 탭/ 대화 탭/ 설정 탭)으로 구분되어 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "홈 탭"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "브랜드의 정보, 첫 인사말, 브랜드의 최근 소식 등 브랜드가 궁금한 고객에게 브랜드에 대해서 더 많이 알려줄 수 있고 고객과 대화를 시작할 수 있는 화면입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/23/revisions/64/usermedia/662b1064255332c453ac"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "홈 헤더"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널명과 함께 운영 시간이 노출됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/23/revisions/64/usermedia/662b1064581f24bf4a13"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "문의하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "문의하기 버튼을 눌러 상담을 시작할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "응답 속도가 빠름/보통인 경우에 문의하기 버튼 밑에 팀 멤버 프로필이 함께 노출되어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이전에 진행 중인 채팅이 있다면 문의하기 버튼 대신에 최근 대화방으로 이동할 수 있는 메시지 창이 뜨게 됩니다. 이를 통해 고객이 중복으로 새 문의를 남기지 않고 이전 대화창에서 상담을 이어갈 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "안 읽은 메시지가 있을 경우 안 읽음 알림 상담 창도 홈 탭에 함께 보입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/23/revisions/64/usermedia/662b1064871f243accff"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "다른 방법으로 문의"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "외부 메신저가 채널에 연동되어 있다면, 고객이 문의를 할 때 [다른 방법으로 문의 > 외부 메신저 버튼] 을 눌러, 각 외부메신저로 상담을 시작할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 익숙하게 사용하는 상담 방법을 직접 선택해, 간편하게 문의할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최대 3개의 버튼"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "이 노출됩니다. 3개 이상의 다른 문의 방법이 연동되어 있다면, 더보기 버튼으로 숨김 처리가 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카카오 상담톡 연동하기"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/c27b26a7"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "네이버 톡톡 연동하기"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/3d8c6ce9"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "라인 연동하기"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/1af80f96"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "미트(전화) 연동하기"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/categories/90dd6296"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "인스타그램 메신저 연동하기"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/574171aa"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "다른 방법으로 문의 ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/23/revisions/64/usermedia/662b1064d680792d9ad9"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "대화 탭"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "진행 중이거나 진행했던 상담 목록을 확인할 수 있어요. 읽지 않은 마케팅 메시지 또한 대화 탭에서 확인해볼 수 있어요. 상담 목록을 클릭하면 해당 대화방으로 이동하여 상담을 이어갈 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "홈화면",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/23/revisions/64/usermedia/662b10653cc675825841"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "대화 탭의 ‘"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "새 문의하기’ 버튼"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 노출 여부는 ‘중복 문의 막기’ 설정에 따라 결정됩니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 중복 문의 막기 가이드 바로가기) "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            },
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%84%A4%EC%A0%95-5deb0312#%EC%A4%91%EB%B3%B5-%EB%AC%B8%EC%9D%98-%EB%A7%89%EA%B8%B0"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 탭"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 상담 환경 및 광고 수신 여부를 직접 설정할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 프로필"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팔로업 알림 On / Off 설정 여부에 따라 고객에게 보여지는 설정 탭의 프로필 정보가 달라요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팔로업 알림 기능을 ON으로 설정했다면 고객 이름과 연락처 정보가 보임"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팔로업 알림 기능을 OFF로 했두었다면 채널 프로필명을 보여줌"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "설정탭",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/23/revisions/64/usermedia/662b106579134aa95785"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "광고 수신 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 직접 문자나 이메일로 오는 광고성 메시지 수신 여부를 설정할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "설정탭",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/23/revisions/64/usermedia/662b1065b26210e819df"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "61",
+    "name": "Beige",
+    "bio": "Minji Jeon, CX manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ead05c616b3154c",
+  "linked_faqs": [],
+  "faq_count": 0
+}

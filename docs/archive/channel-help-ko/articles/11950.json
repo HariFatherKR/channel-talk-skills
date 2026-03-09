@@ -1,0 +1,3444 @@
+{
+  "id": "11950",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0-a497fa44",
+  "title": "워크플로우 생성하기",
+  "summary": "워크플로우 레시피 또는 직접 트리거를 설정해 워크플로우를 생성할 수 있습니다. 메시지 및 액션, 필터링을 모두 한 화면에서 확인할 수 있어요.",
+  "plaintext": "워크플로우를 새롭게 생성하고 수정하는 방법에 대해 자세히 알려드릴게요.\n우측 상단의 [+새 워크플로우 만들기] 버튼을 누르면 워크플로우를 만들 수 있습니다.\n첫 화면에서 보이는 레시피를 사용하면 이미 만들어진 워크플로우를 손쉽게 따라 할 수 있어요. 만약 원하는 내용이 없다면 상단 [+ 새로 만들기]를 눌러 직접 워크플로우를 만들 수 있습니다.\n영상으로 더 쉽게 이해하기\n기본 챗봇 만들기\n액션 설정하기\n레시피 활용하기\n설정 경로: [AI] 메뉴 - [워크플로우] - [+ 워크플로우 만들기]\n워크플로우를 처음 설정할 때는 레시피를 활용해 간편하게 시작할 수 있어요.\n채팅 상담용과 전화 상담용 레시피가 구분되어 있어, 상담 방식에 맞는 템플릿을 쉽게 선택할 수 있습니다. 레시피는 상담 흐름에 따라 필요한 시나리오를 빠르게 찾을 수 있도록 구성되어 있어요.\n아래와 같은 단계별 상황에 맞춰 선택할 수 있습니다.\nALF를 활용해 자동 응대를 구성하고 싶을 때\n상담원 연결 전에 사전 정보를 수집하고 싶을 때\n상담 진행 중 특정 조건에 따라 안내 메시지를 보내고 싶을 때\n상담 종료 후 고객 피드백을 받고 싶을 때\n또한 키워드 검색 기능을 통해 원하는 조건의 레시피를 빠르게 찾을 수 있어요.\n선택한 레시피는 클릭 한 번으로 기본 설정이 적용되며, 메시지나 태그 등 세부 내용을 수정해 바로 사용할 수 있습니다.\n채널에 적합한 레시피는 자동으로 추천되며, 아래 기준에 따라 확인할 수 있어요.\n최근에 추가된 템플릿\n업종별로 많이 사용 중인 템플릿\n상담에 자주 활용된 템플릿\n직접 생성하기\n설정 경로: [AI] 메뉴 - [워크플로우] - [+ 워크플로우 만들기] - [+ 새로 만들기]\n[+새로 만들기] 버튼을 누르면 처음부터 직접 만들 수 있습니다. 아래 내용에서 트리거 설정부터 직접 구성하는 방법을 확인해 보세요.\n트리거 선택\n워크플로우가 어떤 상황에 동작할 것인지 트리거를 선택하는 단계입니다.\n트리거 별 자세한 설명은 트리거 가이드를 참고해 주세요.\n(→ 트리거 가이드 보러 가기)\n트리거 변경\n이미 만든 워크플로우의 트리거를 변경할 수 있습니다. 트리거를 잘못 선택했거나, 같은 내용을 다른 트리거로 복제하고 싶을 때 활용하세요.\n[트리거] 클릭 - 트리거 변경 아이콘 클릭 후 변경할 트리거를 선택해주세요.\n선택한 트리거로 변경되면서 새로운 워크플로우가 생성됩니다.\n트리거 변경은\n채팅 상담 전용 트리거 간에만 가능\n합니다. (채팅\n↔\n전화 워크플로우 변경은 지원되지 않아요.)\n변경 시 기존 트리거 설정은 유지되지만, 새로운 트리거에서 지원하지 않는 항목은 기본 설정으로 변경됩니다.\n예시) '새 상담을 시작할 때 챗봇' → '상담이 대기열에 있을 때' 트리거로 변경하면, 대기시간이 기본값(1분)으로 설정됩니다.\n필터링 설정\n트리거를 선택했다면 필터링을 통해 워크플로우가 동작할 상황에 대한 세부 조건과 운영에 대해 설정할 수 있어요.\n고객 정보와 상담 정보를 바탕으로 어떤 고객에게 워크플로우를 보여줄지 설정할 수 있습니다. 특정 페이지에서만 워크플로우가 작동하도록 하거나, 원하는 시간대에만 워크플로우가 작동하도록 스케줄을 설정할 수도 있습니다. 또한, 워크플로우에 사용되는 봇 프로필도 설정할 수 있습니다.\n수정한 내용은 바로 적용되며, 만약 이전 버전으로 되돌리기 원하신다면, 되돌리기 기능을 활용해주세요.\n(→ 되돌리기 기능 보러가기)\n단계 및 액션 설정\n트리거 설정을 완료하면 에디터 화면이 보여집니다. 에디터 화면에서 고객이 경험할 여정을 설계할 수 있습니다. 첫 번째 단계에 들어갈 액션을 구성해 보세요.\n액션 선택하기\n하나의 단계에서는 여러 개의 액션을 포함할 수 있습니다. 액션은 설정된 순서대로 진행됩니다.\n액션의 종류는 크게 콘텐츠 액션, 다음 단계로 이동 액션, 백그라운드 액션이 있어요. 개별 액션에 대한 내용은 액션 가이드 문서에서 확인해 주세요.\n(→ 액션 가이드 확인하기)\n단계 추가 및 연결하기\n하나의 단계 이후, 워크플로우를 종료하거나 다음 단계를 추가할 수 있어요.\n새로운 단계를 만들어 연결하고 싶은 경우,\n단계 화살표를 클릭하여 원하는 액션이 추가된 단계를 만들어 연결하거나\n기존 단계 설정창 하단 [다음 단계]에서 [+새로운 단계 만들기]를 클릭해 단계를 만들어 연결할 수도 있습니다.\n이미 만들어진 단계로 연결하고 싶은 경우,\n연결선을 바로 드래그하여 연결하거나\n우측 설정창 - [다음 단계] 클릭 시 보이는 목록에서 연결할 단계를 선택해 주시면 됩니다.\n설정 팁\n단계의 이름을 상세하게 설정하면 나중에 어떤 단계와 연결되어 있는지, 문제가 있는 단계는 무엇인지 알아보기 쉬워요. 단계명은 최대 64자까지 설정할 수 있습니다.\n단계 이동 및 복제하기\n원하는 1개 이상의 단계를 선택하여 이동할 수 있으며, 복제 아이콘을 누르거나 또는 단축키로 복제도 가능합니다.\n맥: cmd + C, cmd + V\n윈도우: ctrl + C, ctrl + V\n단계 모듈형으로 전환하기\n원하는 1개 이상의 단계를 선택하여 한번에 모듈형 워크플로우로 전환할 수 있습니다.\n(→ 모듈형 워크플로우 가이드)\n액션 및 단계 삭제하기\n단계 안에 있는 액션의 우측 상단 X 버튼을 클릭하면 해당 액션이 삭제됩니다. 모든 액션을 삭제하면 단계가 자동으로 삭제되며, 다른 단계와의 연결도 해제됩니다.\n단계와 단계를 이어주는 연결선을 클릭하고 backspace 키를 누르면 단계 연결을 해제할 수 있습니다.\n오류가 있는 단계 확인하기\n메시지가 비어있거나 액션이 누락되는 경우 주황색 느낌표 아이콘이 단계 이름 옆에 표시됩니다.\n단계 목록\n모든 단계를 목록으로 볼 수 있고, 클릭하면 해당 단계로 바로 이동해 초점이 맞춰집니다.\n오류 단계 보기\n: 단계에 에러가 있는 경우 주황색으로 표시되어 문제 되는 단계 목록을 빠르게 확인할 수 있어요. 더보기 (\n⋮\n) 버튼을 눌러 오류단계만 모아볼 수도 있습니다.\n단계 검색\n: 단계 이름, 메시지 보내기 내용, 액션별 필터링으로 필요한 단계를 검색하여 빠르게 찾을 수 있어요. [검색 설정] 버튼을 눌러 검색 범위와 필터를 적용해 보세요.\n단계 복제\n: 동일 내용 재사용이 필요할 때 특정 단계를 선택하여 복제할 수 있습니다.\n모듈형으로 전환\n: 여러 단계를 선택하여 한번에 모듈형 워크플로우로 전환하거나 삭제할 수 있습니다.\n(→ 모듈형 워크플로우 가이드)\n뷰 설정\n워크플로우 편집 화면에서는 필요한 항목만 선택해 화면을 구성할 수 있도록 뷰 설정을 할 수 있어요. 미리보기, 단계 목록, 캔버스 중 원하는 요소를 조합해 확인하실 수 있습니다.\n단축키를 눌러 손쉽게 뷰 설정 옵션 설정도 가능합니다.\n미리보기: [맥]\ncmd\n+\nshift\n+\n1\n[윈도우]\nctrl\n+\nshift\n+\n1\n단계 목록: [맥]\ncmd\n+\nshift\n+\n2\n[윈도우]\nctrl\n+\nshift\n+\n2\n캔버스 : [맥]\ncmd\n+\nshift\n+\n3\n[윈도우]\nctrl\n+\nshift\n+\n3\n뷰 설정 시 '단계 목록' 또는 '캔버스' 중 최소 하나는 반드시 ON 상태여야 합니다.\n해당 항목 중 하나는 필수로 활성화되어 있어야 하며, 둘 다 OFF로 설정할 수 없습니다.\n수정 화면 구성\n설정 중인 워크플로우를 손쉽게 수정할 수 있는 간편한 기능들을 소개해 드릴게요.\n되돌리기 / 재실행하기\n아이콘을 누르거나 단축키를 이용해 수정 이전 버전으로 되돌리거나, 수정 이후 버전으로 재실행하기가 가능합니다.\n되돌리기: [맥]\ncmd\n+\nZ\n[윈도우]\nctrl\n+\nZ\n재실행하기: [맥]\ncmd\n+\nshift\n+\nZ\n[윈도우]\nctrl\n+\nshift\n+\nZ\n화면 확대 축소 및 이동\n아이콘이 손바닥 모양이라면 화면 클릭 후 드래그해서 원하는 화면 위치로 이동할 수 있고, 포인터 모양이라면 특정 단계를 선택해 워크플로우 내용을 편집할 수 있어요. 포인터 전환 단축키: Space + 드래그로 포인터를 빠르게 전환도 가능합니다.\n+,- 버튼 또는 배율을 클릭해 원하는 비율대로 화면을 확대 축소할 수 있습니다.\n전체보기 아이콘을 클릭하면 모든 단계를 한 화면에서 볼 수 있어요.\n편집 버튼\n연결선 스타일: 워크플로우 단계 간 연결선을 직선 또는 곡선으로 설정할 수 있습니다.\n단계 블록 정리: 단계 블록의 진행 순서를 보기 쉽게 정렬하는 기능입니다. 순서 정렬은 가로형 / 세로형 중 선택 가능하며, 연결되지 않은 단계는 우측에 자동 정렬됩니다.\n응답 버튼 일괄 변경: 동일한 이름을 가진 단계들의 다음 단계 연결을 일괄 변경할 때 사용합니다.\n도움말 버튼\n워크플로우 설정에 필요한 단축키, 사용 가이드, 레시피, 동영상 자료를 모아두었습니다. 설정 중 어려움이 생기면, 버튼을 눌러 가이드로 빠르게 이동해보세요.\n워크플로우 적용하기\n설정 중에는 기본적으로 수정 내용이 자동으로 임시 저장됩니다. 원치 않으실 경우, 자동 저장을 멈추고 수동으로 저장을 진행할 수 있어요. 자동저장을 꺼둔 경우, 임시 저장 버튼을 눌러야만 저장됩니다. 설정한 내용이 모두 완성되었다면, 퍼블리시 버튼을 눌러 적용합니다.\n채널 간 복제하기\n여러개의 채널을 운영 중이시라면, A 채널에서 생성한 워크플로우를 B 채널로 복제할 수 있습니다. 공들여 만든 워크플로우를 필요한 다른 채널에도 쉽게 적용해보세요.\n내보내기\n복제할 워크플로우가 존재하는 A 채널에서 [워크플로우] - [목록]에서 복제를 원하는 워크플로우를 선택합니다.\n선택한 워크플로우 세부 화면의 우측 상단 [...] 버튼을 클릭 후 워크플로우 내보내기를 통해 생성된 문자열을 복사합니다.\n가져오기\n내보내기를 통해 복사한 문자열을 B 채널로 이동하여 붙여넣어 워크플로우를 업로드합니다.\n[AI] - [워크플로우] - [+ 워크플로우 만들기] - [가져오기]를 통해 복사한 문자열을 입력해 업로드가 가능해요.\n고객에게 공유하기\n퍼블리시 된 워크플로우는 상단 [링크 버튼] - [고객용 링크]를 복사하여 고객에게 전달할 수 있습니다.\n워크플로우 링크 복사는 ‘새 상담을 시작할 때 챗봇’ 트리거에서만 가능합니다.\n단, [트리거 설정] - [연동앱 필터링]에서 외부 메신저만 선택되어있다면 링크 복사가 불가능합니다.\n미리보기\n퍼블리시 전인 ‘초안’ 상태에서도 에러가 있는 단계가 없다면 미리보기 할 수 있습니다. 우측 상단 [단계 목록] 버튼 버튼을 눌러 미리보기와 단계 목록 화면을 이동할 수 있어요.\n미리보기를 통해 고객 입장에서 보여지는 워크플로우 흐름과, 구상한 시나리오대로 동작하는지 직접 확인해 보세요.\n백그라운드 액션 보기\n를 켜면, 태그 부착 또는 브랜치 연결과 같은 백그라운드 액션 동작을 확인하실 수 있습니다. 동작의 이해를 돕기 위해 미리보기 화면에서만 제공되는 기능으로, 실제로 고객 화면에서는 보이지 않습니다.\n자동 저장\n을 켜두면 최근 수정 내역까지 반영된 미리보기를 확인하실 수 있습니다.\n워크플로우 수정하기\n상태가 작동중, 종료됨 일 때 워크플로우를 수정하려면, 우측 상단 [수정] 버튼을 눌러 진행해 주시면 됩니다. 수정된 내용을 저장 후 [퍼블리시] 버튼을 눌러야 실제로 반영됩니다.\n함께 보면 좋은 글",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우를 새롭게 생성하고 수정하는 방법에 대해 자세히 알려드릴게요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "우측 상단의 [+새 워크플로우 만들기] 버튼을 누르면 워크플로우를 만들 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "첫 화면에서 보이는 레시피를 사용하면 이미 만들어진 워크플로우를 손쉽게 따라 할 수 있어요. 만약 원하는 내용이 없다면 상단 [+ 새로 만들기]를 눌러 직접 워크플로우를 만들 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "영상으로 더 쉽게 이해하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기본 챗봇 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "mime": "text/html",
+        "src": "https://demo.arcade.software/KMwuccgSA4McQoNB4Pw3?embed&embed_mobile=inline&embed_desktop=inline&show_copy_link=true"
+      },
+      "type": "embed"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "액션 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "mime": "text/html",
+        "src": "https://demo.arcade.software/FL3WfWjxssjHjgxBL63I?embed&embed_mobile=inline&embed_desktop=inline&show_copy_link=true"
+      },
+      "type": "embed"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "레시피 활용하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "설정 경로: [AI] 메뉴 - [워크플로우] - [+ 워크플로우 만들기]"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": "레시피 활용하기_워크플로우.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/11950/revisions/416860/usermedia/6876235fa7a936727901",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우를 처음 설정할 때는 레시피를 활용해 간편하게 시작할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채팅 상담용과 전화 상담용 레시피가 구분되어 있어, 상담 방식에 맞는 템플릿을 쉽게 선택할 수 있습니다. 레시피는 상담 흐름에 따라 필요한 시나리오를 빠르게 찾을 수 있도록 구성되어 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아래와 같은 단계별 상황에 맞춰 선택할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "ALF를 활용해 자동 응대를 구성하고 싶을 때"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담원 연결 전에 사전 정보를 수집하고 싶을 때"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 진행 중 특정 조건에 따라 안내 메시지를 보내고 싶을 때"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 종료 후 고객 피드백을 받고 싶을 때"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "또한 키워드 검색 기능을 통해 원하는 조건의 레시피를 빠르게 찾을 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "선택한 레시피는 클릭 한 번으로 기본 설정이 적용되며, 메시지나 태그 등 세부 내용을 수정해 바로 사용할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널에 적합한 레시피는 자동으로 추천되며, 아래 기준에 따라 확인할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "최근에 추가된 템플릿"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "업종별로 많이 사용 중인 템플릿"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담에 자주 활용된 템플릿"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "직접 생성하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "설정 경로: [AI] 메뉴 - [워크플로우] - [+ 워크플로우 만들기] - [+ 새로 만들기]"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[+새로 만들기] 버튼을 누르면 처음부터 직접 만들 수 있습니다. 아래 내용에서 트리거 설정부터 직접 구성하는 방법을 확인해 보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "트리거 선택"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우가 어떤 상황에 동작할 것인지 트리거를 선택하는 단계입니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트리거 별 자세한 설명은 트리거 가이드를 참고해 주세요. "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 트리거 가이드 보러 가기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%ED%8A%B8%EB%A6%AC%EA%B1%B0-2184bbc0"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_트리거 선택.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/6810b1b70057c819a592",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "트리거 변경"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이미 만든 워크플로우의 트리거를 변경할 수 있습니다. 트리거를 잘못 선택했거나, 같은 내용을 다른 트리거로 복제하고 싶을 때 활용하세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[트리거] 클릭 - 트리거 변경 아이콘 클릭 후 변경할 트리거를 선택해주세요."
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 선택한 트리거로 변경되면서 새로운 워크플로우가 생성됩니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_트리거 변경.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/67fefd55b34d64605278",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "트리거 변경은 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "채팅 상담 전용 트리거 간에만 가능"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "합니다. (채팅 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "↔"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 전화 워크플로우 변경은 지원되지 않아요.)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "변경 시 기존 트리거 설정은 유지되지만, 새로운 트리거에서 지원하지 않는 항목은 기본 설정으로 변경됩니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시) '새 상담을 시작할 때 챗봇' → '상담이 대기열에 있을 때' 트리거로 변경하면, 대기시간이 기본값(1분)으로 설정됩니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "필터링 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트리거를 선택했다면 필터링을 통해 워크플로우가 동작할 상황에 대한 세부 조건과 운영에 대해 설정할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 정보와 상담 정보를 바탕으로 어떤 고객에게 워크플로우를 보여줄지 설정할 수 있습니다. 특정 페이지에서만 워크플로우가 작동하도록 하거나, 원하는 시간대에만 워크플로우가 작동하도록 스케줄을 설정할 수도 있습니다. 또한, 워크플로우에 사용되는 봇 프로필도 설정할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수정한 내용은 바로 적용되며, 만약 이전 버전으로 되돌리기 원하신다면, 되돌리기 기능을 활용해주세요."
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " (→ 되돌리기 기능 보러가기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0-a497fa44#:~:text=%EA%B8%B0%EB%8A%A5%EB%93%A4%EC%9D%84%20%EC%86%8C%EA%B0%9C%ED%95%B4%20%EB%93%9C%EB%A6%B4%EA%B2%8C%EC%9A%94.-,%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0%20/%20%EC%9E%AC%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0,-%EC%95%84%EC%9D%B4%EC%BD%98%EC%9D%84%20%EB%88%84%EB%A5%B4%EA%B1%B0%EB%82%98%20%EB%8B%A8%EC%B6%95%ED%82%A4%EB%A5%BC"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_필터링 설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/67fefd5e8023558ba74a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "단계 및 액션 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "트리거 설정을 완료하면 에디터 화면이 보여집니다. 에디터 화면에서 고객이 경험할 여정을 설계할 수 있습니다. 첫 번째 단계에 들어갈 액션을 구성해 보세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_단계 및 액션 설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/6810b1c450e84b18647f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "액션 선택하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "하나의 단계에서는 여러 개의 액션을 포함할 수 있습니다. 액션은 설정된 순서대로 진행됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "액션의 종류는 크게 콘텐츠 액션, 다음 단계로 이동 액션, 백그라운드 액션이 있어요. 개별 액션에 대한 내용은 액션 가이드 문서에서 확인해 주세요."
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " (→ 액션 가이드 확인하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%EC%95%A1%EC%85%98-33ffa757"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_액션 선택하기 (3).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/11950/revisions/15665/usermedia/669671e251866fc093c5",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단계 추가 및 연결하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "하나의 단계 이후, 워크플로우를 종료하거나 다음 단계를 추가할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "새로운 단계를 만들어 연결하고 싶은 경우,"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계 화살표를 클릭하여 원하는 액션이 추가된 단계를 만들어 연결하거나"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기존 단계 설정창 하단 [다음 단계]에서 [+새로운 단계 만들기]를 클릭해 단계를 만들어 연결할 수도 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_단계 추가 및 연결하기.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/6810b1d130f771c15244",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이미 만들어진 단계로 연결하고 싶은 경우,"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연결선을 바로 드래그하여 연결하거나"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "우측 설정창 - [다음 단계] 클릭 시 보이는 목록에서 연결할 단계를 선택해 주시면 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_단계 추가 및 연결하기.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/680642b0deb284458b22",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "설정 팁"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "단계의 이름을 상세하게 설정하면 나중에 어떤 단계와 연결되어 있는지, 문제가 있는 단계는 무엇인지 알아보기 쉬워요. 단계명은 최대 64자까지 설정할 수 있습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단계 이동 및 복제하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "원하는 1개 이상의 단계를 선택하여 이동할 수 있으며, 복제 아이콘을 누르거나 또는 단축키로 복제도 가능합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "맥: cmd + C, cmd + V"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "윈도우: ctrl + C, ctrl + V"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_단계 이동 및 복제하기.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/67ff451b7da0fc9af00f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단계 모듈형으로 전환하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "원하는 1개 이상의 단계를 선택하여 한번에 모듈형 워크플로우로 전환할 수 있습니다. "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 모듈형 워크플로우 가이드)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/%EB%AA%A8%EB%93%88%ED%98%95-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-7f06f167"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "액션 및 단계 삭제하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계 안에 있는 액션의 우측 상단 X 버튼을 클릭하면 해당 액션이 삭제됩니다. 모든 액션을 삭제하면 단계가 자동으로 삭제되며, 다른 단계와의 연결도 해제됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계와 단계를 이어주는 연결선을 클릭하고 backspace 키를 누르면 단계 연결을 해제할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_단계 삭제.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/67ff452d733bfc8d57f3",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "오류가 있는 단계 확인하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "메시지가 비어있거나 액션이 누락되는 경우 주황색 느낌표 아이콘이 단계 이름 옆에 표시됩니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_오류단계.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/6810b1dbd2e02c0eb54e",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "단계 목록"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_단계목록.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/67ff4548daeefac30c25",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모든 단계를 목록으로 볼 수 있고, 클릭하면 해당 단계로 바로 이동해 초점이 맞춰집니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오류 단계 보기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 단계에 에러가 있는 경우 주황색으로 표시되어 문제 되는 단계 목록을 빠르게 확인할 수 있어요. 더보기 ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "⋮"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ") 버튼을 눌러 오류단계만 모아볼 수도 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계 검색"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 단계 이름, 메시지 보내기 내용, 액션별 필터링으로 필요한 단계를 검색하여 빠르게 찾을 수 있어요. [검색 설정] 버튼을 눌러 검색 범위와 필터를 적용해 보세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계 복제"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 동일 내용 재사용이 필요할 때 특정 단계를 선택하여 복제할 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모듈형으로 전환"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 여러 단계를 선택하여 한번에 모듈형 워크플로우로 전환하거나 삭제할 수 있습니다. "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 모듈형 워크플로우 가이드) "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EB%AA%A8%EB%93%88%ED%98%95-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-7f06f167"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "뷰 설정"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 편집 화면에서는 필요한 항목만 선택해 화면을 구성할 수 있도록 뷰 설정을 할 수 있어요. 미리보기, 단계 목록, 캔버스 중 원하는 요소를 조합해 확인하실 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우 뷰설정 (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/11950/revisions/474707/usermedia/68997bdc5cca74d91455",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단축키를 눌러 손쉽게 뷰 설정 옵션 설정도 가능합니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미리보기: [맥] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "cmd"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "shift"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "1"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " [윈도우] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "ctrl"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "shift"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "1"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계 목록: [맥] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "cmd"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "shift"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "2"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " [윈도우] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "ctrl"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "shift"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "2"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "캔버스 : [맥] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "cmd"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "shift"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "3"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " [윈도우] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "ctrl"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "shift"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " + "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "3"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "뷰 설정 시 '단계 목록' 또는 '캔버스' 중 최소 하나는 반드시 ON 상태여야 합니다. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "해당 항목 중 하나는 필수로 활성화되어 있어야 하며, 둘 다 OFF로 설정할 수 없습니다."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "수정 화면 구성"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 중인 워크플로우를 손쉽게 수정할 수 있는 간편한 기능들을 소개해 드릴게요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_수정화면 구성.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/11950/revisions/396444/usermedia/686518d1b21697f6f1e1",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "되돌리기 / 재실행하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "아이콘을 누르거나 단축키를 이용해 수정 이전 버전으로 되돌리거나, 수정 이후 버전으로 재실행하기가 가능합니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "되돌리기: [맥] "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "cmd"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " + "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Z"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " [윈도우] "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "ctrl"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "+"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Z"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "재실행하기: [맥] "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "cmd"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " + "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "shift"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " + "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Z"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " [윈도우] "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "ctrl"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " + "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "shift"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " + "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "Z"
+                          },
+                          "marks": [
+                            {
+                              "type": "inlineCode"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "화면 확대 축소 및 이동"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "아이콘이 손바닥 모양이라면 화면 클릭 후 드래그해서 원하는 화면 위치로 이동할 수 있고, 포인터 모양이라면 특정 단계를 선택해 워크플로우 내용을 편집할 수 있어요. 포인터 전환 단축키: Space + 드래그로 포인터를 빠르게 전환도 가능합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "+,- 버튼 또는 배율을 클릭해 원하는 비율대로 화면을 확대 축소할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "전체보기 아이콘을 클릭하면 모든 단계를 한 화면에서 볼 수 있어요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "편집 버튼"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "연결선 스타일: 워크플로우 단계 간 연결선을 직선 또는 곡선으로 설정할 수 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "단계 블록 정리: 단계 블록의 진행 순서를 보기 쉽게 정렬하는 기능입니다. 순서 정렬은 가로형 / 세로형 중 선택 가능하며, 연결되지 않은 단계는 우측에 자동 정렬됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "응답 버튼 일괄 변경: 동일한 이름을 가진 단계들의 다음 단계 연결을 일괄 변경할 때 사용합니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 4
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "도움말 버튼"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "워크플로우 설정에 필요한 단축키, 사용 가이드, 레시피, 동영상 자료를 모아두었습니다. 설정 중 어려움이 생기면, 버튼을 눌러 가이드로 빠르게 이동해보세요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 적용하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 중에는 기본적으로 수정 내용이 자동으로 임시 저장됩니다. 원치 않으실 경우, 자동 저장을 멈추고 수동으로 저장을 진행할 수 있어요. 자동저장을 꺼둔 경우, 임시 저장 버튼을 눌러야만 저장됩니다. 설정한 내용이 모두 완성되었다면, 퍼블리시 버튼을 눌러 적용합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_워크플로우 적용하기 (1).png",
+        "height": "500px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/11950/revisions/15665/usermedia/66967306adf5af20444e",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널 간 복제하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "여러개의 채널을 운영 중이시라면, A 채널에서 생성한 워크플로우를 B 채널로 복제할 수 있습니다. 공들여 만든 워크플로우를 필요한 다른 채널에도 쉽게 적용해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "내보내기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "복제할 워크플로우가 존재하는 A 채널에서 [워크플로우] - [목록]에서 복제를 원하는 워크플로우를 선택합니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "선택한 워크플로우 세부 화면의 우측 상단 [...] 버튼을 클릭 후 워크플로우 내보내기를 통해 생성된 문자열을 복사합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_채널간복제.png",
+        "height": "598px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/11950/revisions/65950/usermedia/66fa9353c17d8726b5de",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "가져오기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "내보내기를 통해 복사한 문자열을 B 채널로 이동하여 붙여넣어 워크플로우를 업로드합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[AI] - [워크플로우] - [+ 워크플로우 만들기] - [가져오기]를 통해 복사한 문자열을 입력해 업로드가 가능해요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_채널간복제.png",
+        "height": "800px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/11950/revisions/525593/usermedia/69128da50e455c7dbecd",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객에게 공유하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "퍼블리시 된 워크플로우는 상단 [링크 버튼] - [고객용 링크]를 복사하여 고객에게 전달할 수 있습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_고객에게 공유하기.png",
+        "height": "800px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/11950/revisions/525593/usermedia/69128e716578d035df5d",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "워크플로우 링크 복사는 ‘새 상담을 시작할 때 챗봇’ 트리거에서만 가능합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단, [트리거 설정] - [연동앱 필터링]에서 외부 메신저만 선택되어있다면 링크 복사가 불가능합니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "미리보기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "퍼블리시 전인 ‘초안’ 상태에서도 에러가 있는 단계가 없다면 미리보기 할 수 있습니다. 우측 상단 [단계 목록] 버튼 버튼을 눌러 미리보기와 단계 목록 화면을 이동할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_미리보기 (1).png",
+        "height": "534px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/11950/revisions/113932/usermedia/675ab80e9f79f8b4515c",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "미리보기를 통해 고객 입장에서 보여지는 워크플로우 흐름과, 구상한 시나리오대로 동작하는지 직접 확인해 보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "백그라운드 액션 보기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 켜면, 태그 부착 또는 브랜치 연결과 같은 백그라운드 액션 동작을 확인하실 수 있습니다. 동작의 이해를 돕기 위해 미리보기 화면에서만 제공되는 기능으로, 실제로 고객 화면에서는 보이지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "자동 저장"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 켜두면 최근 수정 내역까지 반영된 미리보기를 확인하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_미리보기.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149583/revisions/261914/usermedia/6810b1ee1309f1ec32b6",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 수정하기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상태가 작동중, 종료됨 일 때 워크플로우를 수정하려면, 우측 상단 [수정] 버튼을 눌러 진행해 주시면 됩니다. 수정된 내용을 저장 후 [퍼블리시] 버튼을 눌러야 실제로 반영됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_워크플로우 수정 (1).png",
+        "height": "440px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/11950/revisions/15665/usermedia/669673b8dbb03e19f1d0",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "함께 보면 좋은 글"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "2025년 5월, 채널톡 워크플로우가 완전히 새로워집니다.",
+        "favicon": "https://channel.io/favicon.ico",
+        "href": "https://channel.io/ko/blog/articles/workflow-v2-31e44134",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/682c4a0452a847e76f12/tmp-3824122046.png",
+        "name": "Channel.io",
+        "title": "쉽고 간결하다! 워크플로우 대규모 업데이트"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "45964",
+    "name": "May",
+    "bio": "CS manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/6698623c29dfdcf94154",
+  "linked_faqs": [
+    {
+      "id": "69801",
+      "question": "워크플로우 단계는 최대 몇 개까지 만들 수 있나요?",
+      "answer_plaintext": "1개의 워크플로우에서 단계는 최대 300개까지 생성 가능합니다."
+    },
+    {
+      "id": "59852",
+      "question": "상담원 연결없이 워크플로우로 챗봇만 동작하게 하려면 어떻게 구성하면 되나요?",
+      "answer_plaintext": "'워크플로우 종료' 단계에서는 상담원 연결이 가능합니다. \n\n워크플로우 종료단계가 되지 않도록 \n- [응답 버튼] 액션을 추가하여 '뒤로가기' 혹은 '처음으로' 버튼을 만들어주세요.\n- 버튼과 이어지는 단계를 아래와 같이 선택해주세요.\n  뒤로가기 → 이전 응답 버튼 단계\n  처음으로 → 첫 단계"
+    },
+    {
+      "id": "59853",
+      "question": "워크플로우 챗봇 설정에서 바로 이전 단계로 이동하는 ‘뒤로가기’ 버튼을 넣고싶어요.",
+      "answer_plaintext": "- [응답 버튼] 액션을 추가하여 '뒤로가기' 혹은 '처음으로' 버튼을 만들어주세요.\n- 버튼과 이어지는 단계를 아래와 같이 선택해주세요.\n  뒤로가기 → 이전 응답 버튼 단계\n  처음으로 → 첫 단계\n\n>> 가이드 문서에서 자세히보기"
+    },
+    {
+      "id": "59851",
+      "question": "워크플로우 트리거를 변경한 후 퍼블리시할 때 \"문제가 발생했습니다\" 오류가 보여요.",
+      "answer_plaintext": "트리거 별 지원하는 액션이 다르기 때문에 변경한 트리거에서 지원하지 않는 액션이 포함되어 있을 경우 오류가 발생합니다. 수정 후 퍼블리시를 진행해주세요. \n예시) ‘고객이 메시지를 보냈을 때’ 트리거에서 [상담 열기] 액션을 사용한 경우, 이를 ‘상담이 인입되었을 때’ 트리거로 변경하면 오류가 발생합니다. 이 경우, [상담 열기] 액션을 삭제해야 합니다.\n\n'새 상담을 시작할 때 챗봇' 트리거 PREVIEW (프리뷰) 단계에서 문제가 발생한다면 아래 형식에 맞게 액션을 수정해주세요. \n\n프리뷰 단계에서는 최대 2개의 액션만 포함할 수 있습니다. \n- 첫 번째 액션 : 메시지 보내기 액션 (필수)  \n- 두 번째 액션 : 응답버튼, 고객 ALF 응대, 입력폼 보내기, 1회 답변 받기 중 1개 선택"
+    }
+  ],
+  "faq_count": 4
+}

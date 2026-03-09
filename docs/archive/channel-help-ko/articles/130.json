@@ -1,0 +1,1756 @@
+{
+  "id": "130",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%EC%9E%90%EB%8F%99-%EB%B0%B0%EC%A0%95-28b3f0cc",
+  "title": "상담 자동 배정",
+  "summary": "누가 상담에 적합한 담당자일지 모르겠다면, 상담을 해결할 담당 팀만 지정해 주세요. 상담 자동 배정 기능이 팀원들 중에서 가장 적합한 담당자를 자동으로 배정해 드립니다.",
+  "plaintext": "상담 자동 배정이란?\n상담 자동 배정 기능은 팀 멤버의 실시간 응대량이나 상담 배정 이력에 따라 자동으로 상담을 나누어 분배하는 강력한 기능이에요.\n채널톡은 가장 적합한 담당자를 똑똑하게 찾기 위해 개인이 아닌 ‘팀'으로 접근했어요.\n문의 내용에 대해 가장 잘 알고 책임질 수 있는 담당 팀을 먼저 지정하면, 팀원 중에서 실시간으로 응대 가능한 한명의 담당자를 찾아 ‘자동' 배정해 빠른 응대가 가능하도록 설계했죠.\n채널톡에서 제공하는 다양한 상담 자동 배정 방식 중 우리 비즈니스에 가장 적합한 자동 배정 방식을 선택할 수 있어요. 상담 자동 배정을 통해 업무 효율은 올라가고, 고객의 대기 시간은 줄어듭니다.\n사전 준비\n최대 자동 배정 수 설정\n최대 자동 배정 수(Capacity)란, 동시에 소화할 수 있는 상담(진행중)의 수를 의미합니다.\n개개인의 숙련도에 따라\n최대 자동 배정 수\n를 설정해 놓으면, 설정한 최대치를 넘지 않게 상담을 자동으로 분배해 드립니다.\n상담 배정 수는 최대 100개까지 입력할 수 있어요.\n채팅과 전화 상담의 최대 자동 배정 수는 따로 관리되어요. 전화 상담은 최대 자동 배정 수 설정과 관련없이 진행중 전화 상담이 없으면 자동 배정됩니다.\n설정 경로: [개인 설정] - [팀 멤버 설정] - [수신함] - [최대 자동 배정 수] 또는 [\n분석\n] - [오퍼레이터]\n상담 배정 유형 설정\n상담 배정에서 자동 배정 받을 상담의 유형을 선택해 주세요. 선택한 유형의 상담만 자동 배정됩니다.\n모두 선택 해제할 경우 자동 배정이 진행되지 않아요.\n진행 중 전화 상담이 있을 때 채팅 상담이 자동 배정되지 않도록 설정하고 싶다면, \"통화 중 채팅 배정\" 설정을 OFF해 주세요.\n설정 경로: [개인 설정] - [\n팀 멤버\n설정] - [수신함] - [상담 배정]\n수신함에서 최대 자동 배정 수 확인하기\n진행 중인 채팅 상담 수가 최대 자동 배정 수 이상이거나, 진행 중인 전화 상담이 있는 경우 수신함에서 진행중 상담 수가\n주황색 숫자\n로 표시됩니다.\n이 상태에서는 더 이상 상담 자동 배정을 통해 자동으로 상담이 배정되지 않아요.\n직접 ‘나에게 배정' 할 수도 있고. 워크플로우를 통해 새 상담의 담당자가 되게 설정할 수 있어요.\n진행 중 채팅 상담 수가 최대 자동 배정 수 미만이고 진행 중인 전화 상담이 없으면, 수신함에서 상담 수가\n검은색 숫자\n로 표시됩니다.\n이 상태에서는 상담 자동 배정이 동작합니다.\n설정 방법\n상담 자동 배정 방식 이해하기\n1. 상담 자동 배정할 팀을 생성해요.\n2. 팀 설정에서 상담 자동 배정 옵션을 켜요.\n3. 유저챗이 들어오면 '자동(워크플로우)' 또는 '수동'으로 팀을 배정해요.\n4. 상담 자동 배정이 동작하며 담당자가 자동 배정돼요.\n팀 생성\n아직 상담을 자동 배정할 팀이 없다면 팀을 생성하고 상담 자동 배정 받을 팀원을 추가해 주세요. (\n→ 팀 생성 및 팀원 추가\n)\n설정 경로: [채널 설정] - [팀원 구성] - [팀] - [+팀 추가]\n팀별 상담 자동 배정 설정\n각 팀은 상담 배정 방식을 선택할 수 있습니다. 상담 자동 배정을 이용하려면 빠른 응대, 담당자 우선, 배정 오래된 순 옵션 중 하나를 선택해 주세요.\n설정 경로: [채널 설정] - [팀원 구성] - [팀] - [상담 자동 배정]\n상담 배정 옵션\n빠른 응대:\n진행중인 상담 수가 가장 적은 팀 멤버에게 배정합니다. 진행중인 상담 수가 같은 경우, 가장 오래 전에 배정한 팀 멤버를 우선 배정합니다.\n추천) 24년 7월 25일 이전 상담 자동 배정 방식을 그대로 이용하고 싶은 경우\n추천) 팀 멤버의 숙련도에 따라 상담을 차등 배분하고 싶은 경우\n담당자 우선:\n(1) 상담 이력이 있는 고객이라면 이전에 담당한 적 있는 팀 멤버를 우선 배정합니다. (2) 신규 고객이거나 이전 담당자가 여러 명이라면 빠른 응대 자동 배정 방식에 따라 현재의 상담 수가 가장 적은 팀 멤버에게 배정합니다.\n추천) 구매까지 오랜 기간 상담이 필요한 고관여 서비스일 경우, 고객과 여러 번 소통해야하는 세일즈팀 (영업팀)인 경우\n배정 오래된 순:\n상담을 배정받은지 가장 오래된 팀 멤버를 우선 배정합니다. 상담을 담당한지 가장 오래된 팀 멤버에게 배정하기 위해 (1) 진행 중인 상담의 모든 기간, (2) 종료된 상담 중 30일 이내의 상담 이력으로 확인하여 배정합니다.\n추천) 상담량이 최대한 균등하게 배정되어야 하는 경우\n담당 팀 배정\n새 상담이 들어왔을 때 팀을 지정하면 선택한 상담 자동 배정 옵션에 따라 가장 적합한 담당자가 배정됩니다. 담당 팀은\n워크플로우를 이용하여\n자동으로 배정하는 방법\n과\n수동으로 배정하는 방법\n이 있어요.\n팀 자동 배정(워크플로우)\n새 상담을 시작할 때 워크플로우 액션 중 '팀 배정'을 이용하여 팀을 자동 배정할 수 있어요.\n팀 수동 배정\n새 상담이 들어오면 워크플로우를 이용하지 않고 수동으로 담당 팀을 배정할 수도 있어요.\n자동 배정 되지 않는 케이스\n상담 자동 배정이 되지 않는다면 팀, 팀 멤버 설정이 자동 배정 받을 수 없는 상태가 아닌지 확인해 주세요.\n또한 자동 배정된 팀에서 바로 응대 가능한 팀 멤버가 없을 때에는 상담이 열리지 않고 대기열 상태로 들어갑니다. 이 때 대기열 상태에서 벗어나게 되는 경우에도 자동 배정이 진행되지 않아요.\n1) 팀 설정 여부\n해당 팀에 상담 자동 배정 설정이 되어 있지 않은 경우 (\n→ 팀별 상담 자동 배정 설정하기\n)\n2) 팀 멤버 설정 여부\n오퍼레이터 시트가 꺼진 경우 (\n→ 오퍼레이터 시트 알아보기\n)\n오퍼레이터 상태가 '자리 비움' 또는 '근무 종료'인 경우(→ 오퍼레이터 상태 알아보기)\n오퍼레이터 상태가 '응대 중'이더라도 상태 유형이 통화 중, 미트 중, 전화 후처리 중인 경우\n(단, \"통화 중 채팅 배정\" 설정이 켜져있다면 통화 중에도 채팅 상담은 자동 배정됩니다.)\n진행 중 상담이 최대 자동 배정 수를 초과한 경우 (단, 전화의 경우 최대 자동 배정 수와 무관하게 수신 가능하며 멀티채널 포함하여 진행 중인 전화가 1개라도 남아있을 경우 배정되지 않습니다.)\n자동 배정 받을 상담 유형(채팅, 전화)을 꺼둔 경우\n다른 채널에서 오퍼레이터 상태 유형이 통화 중, 미트 중, 전화 후처리 중인 경우\n3) 배정 대기 중인 대기열 상태가 아닌 경우\n대기열 상태인 미트 상담은 아래의 경우에 부재중 상태로 전화가 끊어지며 자동 배정되지 않아요.\n최대 대기열 수 200개를 초과한 경우\n최대 대기 시간 1시간을 초과한 경우\n운영 시간이 종료된 경우 (”운영 시간 아님” 안내 음성이 나간 후 끊어짐)\n대기열 목록에서 수동으로 담당자를 배정한 경우\n수동으로 배정 후 담당자를 비우면 다시 대기열 상태로 들어가지 않고, 담당자 없음 목록으로 들어가게 됩니다. 이 경우 다시 자동 배정이 진행되지 않아요.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 자동 배정이란?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 자동 배정 기능은 팀 멤버의 실시간 응대량이나 상담 배정 이력에 따라 자동으로 상담을 나누어 분배하는 강력한 기능이에요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡은 가장 적합한 담당자를 똑똑하게 찾기 위해 개인이 아닌 ‘팀'으로 접근했어요."
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 문의 내용에 대해 가장 잘 알고 책임질 수 있는 담당 팀을 먼저 지정하면, 팀원 중에서 실시간으로 응대 가능한 한명의 담당자를 찾아 ‘자동' 배정해 빠른 응대가 가능하도록 설계했죠."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡에서 제공하는 다양한 상담 자동 배정 방식 중 우리 비즈니스에 가장 적합한 자동 배정 방식을 선택할 수 있어요. 상담 자동 배정을 통해 업무 효율은 올라가고, 고객의 대기 시간은 줄어듭니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/130/revisions/385/usermedia/662b10b572eafbddc420"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "사전 준비"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "최대 자동 배정 수 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "최대 자동 배정 수(Capacity)란, 동시에 소화할 수 있는 상담(진행중)의 수를 의미합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "개개인의 숙련도에 따라 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "최대 자동 배정 수"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 설정해 놓으면, 설정한 최대치를 넘지 않게 상담을 자동으로 분배해 드립니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 배정 수는 최대 100개까지 입력할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채팅과 전화 상담의 최대 자동 배정 수는 따로 관리되어요. 전화 상담은 최대 자동 배정 수 설정과 관련없이 진행중 전화 상담이 없으면 자동 배정됩니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [개인 설정] - [팀 멤버 설정] - [수신함] - [최대 자동 배정 수] 또는 ["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "분석"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "] - [오퍼레이터]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "매니저프로필설정_수신함 (2).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/130/revisions/133867/usermedia/677e9c63499a0848f7f8",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 배정 유형 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 배정에서 자동 배정 받을 상담의 유형을 선택해 주세요. 선택한 유형의 상담만 자동 배정됩니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모두 선택 해제할 경우 자동 배정이 진행되지 않아요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "진행 중 전화 상담이 있을 때 채팅 상담이 자동 배정되지 않도록 설정하고 싶다면, \"통화 중 채팅 배정\" 설정을 OFF해 주세요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [개인 설정] - ["
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "팀 멤버"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 설정] - [수신함] - [상담 배정] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "매니저프로필설정_수신함_상담 유형 (1).png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/130/revisions/133867/usermedia/677e9c6e90106f2158f1",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "수신함에서 최대 자동 배정 수 확인하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "진행 중인 채팅 상담 수가 최대 자동 배정 수 이상이거나, 진행 중인 전화 상담이 있는 경우 수신함에서 진행중 상담 수가 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "주황색 숫자"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 표시됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이 상태에서는 더 이상 상담 자동 배정을 통해 자동으로 상담이 배정되지 않아요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "직접 ‘나에게 배정' 할 수도 있고. 워크플로우를 통해 새 상담의 담당자가 되게 설정할 수 있어요."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "진행 중 채팅 상담 수가 최대 자동 배정 수 미만이고 진행 중인 전화 상담이 없으면, 수신함에서 상담 수가 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "검은색 숫자"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 표시됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이 상태에서는 상담 자동 배정이 동작합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "최대 자동 배정 수 (1).png",
+        "height": "1260px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/130/revisions/133867/usermedia/677e9f653b51a64e7811",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "상담 자동 배정 방식 이해하기"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "1. 상담 자동 배정할 팀을 생성해요. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "2. 팀 설정에서 상담 자동 배정 옵션을 켜요. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "3. 유저챗이 들어오면 '자동(워크플로우)' 또는 '수동'으로 팀을 배정해요. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "4. 상담 자동 배정이 동작하며 담당자가 자동 배정돼요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 생성"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아직 상담을 자동 배정할 팀이 없다면 팀을 생성하고 상담 자동 배정 받을 팀원을 추가해 주세요. ("
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "→ 팀 생성 및 팀원 추가"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/a215cda0-%ED%8C%80%EC%9B%90-%EB%B0%8F-%EB%B4%87-%EC%84%A4%EC%A0%95#%ED%8C%80-%EC%83%9D%EC%84%B1-%EB%B0%8F-%ED%8C%80%EC%9B%90-%EC%B6%94%EA%B0%80"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [팀원 구성] - [팀] - [+팀 추가]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀별 상담 자동 배정 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "각 팀은 상담 배정 방식을 선택할 수 있습니다. 상담 자동 배정을 이용하려면 빠른 응대, 담당자 우선, 배정 오래된 순 옵션 중 하나를 선택해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [팀원 구성] - [팀] - [상담 자동 배정]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "상담자동배정_상담자동배정설정.jpg",
+        "height": "999px",
+        "mime": "image/jpeg",
+        "src": "https://cf.channel.io/document/spaces/6/articles/130/revisions/18875/usermedia/66a1df82227b3258c19b",
+        "width": "1800px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 배정 옵션"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "빠른 응대:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 진행중인 상담 수가 가장 적은 팀 멤버에게 배정합니다. 진행중인 상담 수가 같은 경우, 가장 오래 전에 배정한 팀 멤버를 우선 배정합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "추천) 24년 7월 25일 이전 상담 자동 배정 방식을 그대로 이용하고 싶은 경우"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "추천) 팀 멤버의 숙련도에 따라 상담을 차등 배분하고 싶은 경우"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당자 우선:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " (1) 상담 이력이 있는 고객이라면 이전에 담당한 적 있는 팀 멤버를 우선 배정합니다. (2) 신규 고객이거나 이전 담당자가 여러 명이라면 빠른 응대 자동 배정 방식에 따라 현재의 상담 수가 가장 적은 팀 멤버에게 배정합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "추천) 구매까지 오랜 기간 상담이 필요한 고관여 서비스일 경우, 고객과 여러 번 소통해야하는 세일즈팀 (영업팀)인 경우"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "배정 오래된 순:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 상담을 배정받은지 가장 오래된 팀 멤버를 우선 배정합니다. 상담을 담당한지 가장 오래된 팀 멤버에게 배정하기 위해 (1) 진행 중인 상담의 모든 기간, (2) 종료된 상담 중 30일 이내의 상담 이력으로 확인하여 배정합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "추천) 상담량이 최대한 균등하게 배정되어야 하는 경우"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "담당 팀 배정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "새 상담이 들어왔을 때 팀을 지정하면 선택한 상담 자동 배정 옵션에 따라 가장 적합한 담당자가 배정됩니다. 담당 팀은 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "워크플로우를 이용하여"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "자동으로 배정하는 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "과 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "수동으로 배정하는 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "이 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 자동 배정(워크플로우)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "새 상담을 시작할 때 워크플로우 액션 중 '팀 배정'을 이용하여 팀을 자동 배정할 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "(capture)상담자동배정__팀 자동 지정.jpg",
+        "height": "999px",
+        "mime": "image/jpeg",
+        "src": "https://cf.channel.io/document/spaces/6/articles/130/revisions/18875/usermedia/669465383c618750090e",
+        "width": "1800px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 수동 배정 "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "새 상담이 들어오면 워크플로우를 이용하지 않고 수동으로 담당 팀을 배정할 수도 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "662b10b5e8d82b125058",
+        "height": "546px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/130/revisions/18875/usermedia/6690b5c1ef9b7cd5181a",
+        "width": "1156px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자동 배정 되지 않는 케이스"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 자동 배정이 되지 않는다면 팀, 팀 멤버 설정이 자동 배정 받을 수 없는 상태가 아닌지 확인해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "또한 자동 배정된 팀에서 바로 응대 가능한 팀 멤버가 없을 때에는 상담이 열리지 않고 대기열 상태로 들어갑니다. 이 때 대기열 상태에서 벗어나게 되는 경우에도 자동 배정이 진행되지 않아요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1) 팀 설정 여부"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해당 팀에 상담 자동 배정 설정이 되어 있지 않은 경우 ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 팀별 상담 자동 배정 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/28b3f0cc-상담-자동-배정#팀별-상담-자동-배정-설정"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "2) 팀 멤버 설정 여부"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 시트가 꺼진 경우 ("
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 오퍼레이터 시트 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/19f891ce-%EC%98%A4%ED%8D%BC%EB%A0%88%EC%9D%B4%ED%84%B0#%EC%98%A4%ED%8D%BC%EB%A0%88%EC%9D%B4%ED%84%B0-%EC%8B%9C%ED%8A%B8%EB%9E%80?)"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ") "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 상태가 '자리 비움' 또는 '근무 종료'인 경우(→ 오퍼레이터 상태 알아보기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 상태가 '응대 중'이더라도 상태 유형이 통화 중, 미트 중, 전화 후처리 중인 경우"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "(단, \"통화 중 채팅 배정\" 설정이 켜져있다면 통화 중에도 채팅 상담은 자동 배정됩니다.)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "진행 중 상담이 최대 자동 배정 수를 초과한 경우 (단, 전화의 경우 최대 자동 배정 수와 무관하게 수신 가능하며 멀티채널 포함하여 진행 중인 전화가 1개라도 남아있을 경우 배정되지 않습니다.)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "자동 배정 받을 상담 유형(채팅, 전화)을 꺼둔 경우"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "다른 채널에서 오퍼레이터 상태 유형이 통화 중, 미트 중, 전화 후처리 중인 경우"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "3) 배정 대기 중인 대기열 상태가 아닌 경우"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대기열 상태인 미트 상담은 아래의 경우에 부재중 상태로 전화가 끊어지며 자동 배정되지 않아요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "최대 대기열 수 200개를 초과한 경우"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "최대 대기 시간 1시간을 초과한 경우"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "운영 시간이 종료된 경우 (”운영 시간 아님” 안내 음성이 나간 후 끊어짐)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대기열 목록에서 수동으로 담당자를 배정한 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "수동으로 배정 후 담당자를 비우면 다시 대기열 상태로 들어가지 않고, 담당자 없음 목록으로 들어가게 됩니다. 이 경우 다시 자동 배정이 진행되지 않아요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "108",
+    "name": "Alex",
+    "bio": "CX-team manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/66a5fa21b133566cfa0b",
+  "linked_faqs": [
+    {
+      "id": "59866",
+      "question": "방해 금지 모드를 설정하면 상담이 자동 배정되지 않나요?",
+      "answer_plaintext": "방해 금지 모드는 알림 설정을 받지 않도록 설정하는 기능이기 때문에 자동 배정 설정과는 무관합니다. 자동 배정을 멈추려면 오퍼레이터 상태를 ‘자리 비움’이나 ‘근무 종료’로 변경해 주세요.\n방해 금지 모드가 설정되어 있다면 채팅, 전화 상담 배정은 가능하지만 채팅 알림과 전화 링은 받을 수 없어요. 응대중이라면 방해 금지 모드를 끄는 것을 권장드립니다."
+    },
+    {
+      "id": "59867",
+      "question": "통화 중에는 채팅 상담이 자동 배정되지 않도록 설정하고 싶어요.",
+      "answer_plaintext": "통화 중, 미트 중, 전화 후처리 중일 때도 채팅 상담은 최대 자동 배정 수에 도달하기 전까지 자동 배정 가능합니다. 이 때는 채팅 상담을 받지 않기를 원하시면 ‘매니저 설정>수신함 설정>상담 배정’에서 ‘통화 중 채팅 배정’ 설정을 OFF해 주세요."
+    },
+    {
+      "id": "59868",
+      "question": "특정 팀이 아닌, 회사의 모든 구성원 중 상담이 자동 배정되도록 설정하고 싶어요.",
+      "answer_plaintext": "- 전체 팀을 만들어 모든 구성원을 팀에 초대해주세요.\n- 담당팀을 전체 팀으로 지정하면 전체 구성원 중 적절한 담당자를 찾아 자동 배정합니다."
+    },
+    {
+      "id": "59869",
+      "question": "보류중, 종료됨 상담도 최대 자동 배정수에 포함되나요?",
+      "answer_plaintext": "보류중, 종료됨 상담은 상담 자동 배정에 영향을 주지 않아요. 진행중 상태의 상담만 고려됩니다. 진행중 채팅 상담이 최대 자동 배정 수 보다 적거나, 진행 중이 전화 상담이 없을 때 상담 자동 배정이 작동합니다."
+    },
+    {
+      "id": "59870",
+      "question": "상담 자동 배정 설정 시 최대 자동 배정 수를 설정하지 않으면 어떻게 되나요?",
+      "answer_plaintext": "최대 자동 배정 수는 기본적으로 10개로 설정되어 있습니다.\n최대 자동 배정 수를 0개로 설정한 매니저에게는 자동 배정이 되지 않아요. 모든 팀원의 최대 자동 배정 수가 0이라면, 아무에게도 상담이 배정되지 않아요. 각 상담에 수동으로 담당자를 배정할 수 있습니다."
+    },
+    {
+      "id": "59871",
+      "question": "상담 자동 배정된 담당자를 다른 팀 멤버로 변경하고 싶어요.",
+      "answer_plaintext": "담당자 없음으로 변경하면 다시 자동으로 담당자를 배정해요. 단, 기존 담당자가 후보에서 완전히 제외되는 것은 아니에요. 실시간 응대 수에 따라 같은 팀원이 다시 담당자로 배정될 수 있어요.\n또한 수동으로도 담당자를 변경할 수 있어요. 해당 상담의 담당팀에 속해있지 않은 멤버도 가능합니다."
+    },
+    {
+      "id": "59872",
+      "question": "상담 자동 배정 기능 이용 시 상담의 담당팀을 변경하면 어떻게 되나요?",
+      "answer_plaintext": "- 담당팀을 변경할 때 기존 담당자가 변경될 팀에 속해있지 않다면 담당자가 비워집니다.\n- 변경된 팀의 팀원 중 한 명을 자동으로 담당자로 배정합니다.\n\n예시) 마케팅팀에 A, B, C 멤버 / 디자인팀에 B, C, D 멤버가 있는 상황일 때, A가 담당자인 상담에 담당 팀으로 디자인팀을 지정하면 ‘담당자 없음’ 상태로 변경됩니다. A는 디자인 팀에 속해있지 않기 때문이에요. B가 담당자인 상담에 담당 팀을 마케팅팀에서 디자인팀으로 변경하면 담당자는 변경되지 않습니다. B는 두 팀에 모두 속해있기 때문이에요."
+    },
+    {
+      "id": "59873",
+      "question": "상담 자동 배정 기능이 카카오 상담톡, 네이버 톡톡 등 외부메신저 연동을 통한 상담에서도 작동하나요?",
+      "answer_plaintext": "네, 상담 자동 배정은 외부메신저 연동 여부와는 무관하게 작동합니다."
+    },
+    {
+      "id": "59874",
+      "question": "상담 자동 배정 방식이 담당자 우선인 경우 유니피케이션 이전 담당자 배정 이력도 반영하여 작동하나요?",
+      "answer_plaintext": "유니피케이션 이전의 담당자 배정 이력은 반영되지 않아요. 유니피케이션 이후 담당자 배정 이력에 따라 상담 자동 배정이 작동해요."
+    }
+  ],
+  "faq_count": 9
+}

@@ -1,0 +1,727 @@
+{
+  "id": "622693",
+  "url": "https://docs.channel.io/help/ko/articles/%EA%B5%AC%EA%B8%80-%EC%8A%A4%ED%94%84%EB%A0%88%EB%93%9C%EC%8B%9C%ED%8A%B8-c975a8c9",
+  "title": "구글 스프레드시트",
+  "summary": "ALF 태스크 함수 단계에서 구글 스프레이드시트를 읽고 수정할 수 있는 기능을 제공합니다.\n시트 맨 아래에 새 행 추가, 지정된 행을 새 값으로 덮어쓰기 등 다양한 작업을 자동화할 수 있습니다.",
+  "plaintext": "사용 방법\n앱스토어 앱 설치하기\n[채널 설정] - [연동] - [앱스토어]에서 Google Spreadsheet 앱을 설치해 주세요.\n구글 계정 연동하기\n[연동하기]를 눌러 구글 계정을 연동해주세요.\n연동 완료되면 연동 날짜가 표시됩니다.\n함수 단계 설정\n[AI → 설정 → 태스크] 단계에서 '함수'를 클릭해주세요.\n함수 단계에서 보여지는 목록 중 원하는 함수를 선택해주세요.\n[함수 목록]\nappend_row\n시트 마지막에 새 행 추가\n추가된 행의 위치 반환\nget_rows_by_index\n지정된 행 범위의 데이터를 2차원 배열로 반환\nget_row_by_key\n지정된 컬럼에서 키 값과 일치하는 첫 번째 행 반환 (중복 시 warning 포함)\nget_row_count\n시트의 데이터가 있는 총 행 수 반환 (A:ZZ 범위 기준)\nupdate_row_by_index\n지정된 행을 새 값으로 덮어쓰기\nupdate_row_by_key\n키 값으로 행을 검색하여 첫 번째 매칭된 행을 업데이트 (중복 시 warning 포함)\ndelete_rows_by_index\n지정된 행 범위를 삭제. 삭제된 행 수 반환\ndelete_row_by_key\n키 값으로 행을 검색하여 첫 번째 매칭된 행을 삭제 (중복 시 warning 포함)\nlist_sheets\n스프레드시트 내 모든 시트 정보 조회\nlist_spreadsheets\nGoogle Drive에서 접근 가능한 스프레드시트 목록 조회\nfolderId가 있으면 해당 폴더 내로 필터링",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "사용 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "앱스토어 앱 설치하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[채널 설정] - [연동] - [앱스토어]에서 Google Spreadsheet 앱을 설치해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Google Spreadsheet 앱_설치 전.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/622693/revisions/1195647/usermedia/69a17b6e3e690d946b5f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "구글 계정 연동하기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[연동하기]를 눌러 구글 계정을 연동해주세요."
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "Google Spreadsheet 앱_설치 후_연동전.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/622693/revisions/1195647/usermedia/69a17b7aa7a8ab873c8f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "연동 완료되면 연동 날짜가 표시됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "Google Spreadsheet 앱_설치 후_연동 후.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/622693/revisions/1195647/usermedia/69a179bd62e14870dac0",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "함수 단계 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[AI → 설정 → 태스크] 단계에서 '함수'를 클릭해주세요. "
+                  },
+                  "marks": [
+                    {
+                      "type": "backgroundColor"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "Google Spreadsheet_태스크 (1).png",
+        "height": "980px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/622693/revisions/1195647/usermedia/69a179c6015c7712647c",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "함수 단계에서 보여지는 목록 중 원하는 함수를 선택해주세요. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "69a179cb683eb071c176",
+        "height": "980px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/622693/revisions/1195647/usermedia/69a6a9fe1f3db6e30f20",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[함수 목록]"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "append_row"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "시트 마지막에 새 행 추가 "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "추가된 행의 위치 반환"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "get_rows_by_index"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지정된 행 범위의 데이터를 2차원 배열로 반환"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "get_row_by_key"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지정된 컬럼에서 키 값과 일치하는 첫 번째 행 반환 (중복 시 warning 포함)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "get_row_count"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "시트의 데이터가 있는 총 행 수 반환 (A:ZZ 범위 기준)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "update_row_by_index"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지정된 행을 새 값으로 덮어쓰기"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "update_row_by_key"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "키 값으로 행을 검색하여 첫 번째 매칭된 행을 업데이트 (중복 시 warning 포함)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "delete_rows_by_index"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지정된 행 범위를 삭제. 삭제된 행 수 반환"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "delete_row_by_key"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "키 값으로 행을 검색하여 첫 번째 매칭된 행을 삭제 (중복 시 warning 포함)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "list_sheets"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "스프레드시트 내 모든 시트 정보 조회"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "list_spreadsheets"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Google Drive에서 접근 가능한 스프레드시트 목록 조회"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "folderId가 있으면 해당 폴더 내로 필터링"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "70410",
+    "name": "john",
+    "bio": "CX Specialist"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/69a1780fbf4a95ee151e",
+  "linked_faqs": [],
+  "faq_count": 0
+}

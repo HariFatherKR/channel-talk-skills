@@ -1,0 +1,3933 @@
+{
+  "id": "74",
+  "url": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%EA%B5%AC%EB%B6%84-b2b4aab2",
+  "title": "고객 구분",
+  "summary": "비즈니스 성장을 가속화하는 CRM의 핵심은 VIP 고객을 더 늘리는 것입니다. 이를 위해 채널톡에서는 똑똑하게 고객을 구분하고 정보를 통합해주고 있어요.",
+  "plaintext": "유저(USER)란? 채널톡이 설치된 웹사이트 또는 앱을 방문한 모든 유저 (익명 유저, 리드, 멤버를 모두 포함합니다.)\n기본 개념\n익명 유저(Anonymous)란?\n사이트 또는 앱을 방문하여 아무런 정보가 없는 상태의 유저\n채팅상담을 한 적도 없고, 정보 입력도 한 적이 없는 불특정 다수가 여기 해당합니다.\n리드(LEAD)란?\n채팅상담 기록이 있거나, 고객 연락처 정보가 있는 유저\n채팅 없이 외부 메신저 연동으로도 정보가 저장될 수 있습니다.\n마케팅 또는 워크플로우 메시지를 수신 후 답변하지 않은 유저는 해당되지 않습니다.\n멤버(MEMBER)란?\n웹사이트나 앱의 멤버 아이디(memberId) 정보가 있는 유저\n익명의 유저 또는 리드가 로그인 또는 회원가입 하면 멤버가 됩니다.\n익명 유저가 대화를 시작하거나 연락처를 입력하면 리드가 되고, 리드가 회원가입 하거나 로그인을 하면 멤버가 됩니다.\n익명 유저\n채널톡에서 익명 유저를 식별하는 방법은 무엇인가요?\n익명 유저가 사이트를 방문하면 브라우저의 쿠키(\n위키피디아\n)및 로컬 스토리지에 정보를 저장하고 각각의 익명 유저를 구분합니다.\n각 유저의 쿠키는 베일 아이디(key)와 고유값(value) 정보를 가지고 있어요. 유저의 개별 구분을 위해서 ch-veil-id 라는 쿠키 값이 이용됩니다.\n익명 유저의 이벤트, 상세 데이터, 세션 정보도 수집하나요?\n네, 익명 유저의 정보도 수집됩니다.\n다만 익명 상태의 유저 정보는 채널톡 데스크(어드민)에서 조회할 수 없어요. 익명 유저가 채팅상담을 시작하거나 연락처를 입력하여 리드가 되면, 또는 로그인을 하여 멤버가 되면 앞서 수집된 정보들이 저장 및 조회됩니다.\n익명 유저의 고객 정보는\n90일\n만 보관됩니다.\n익명 유저의 쿠키 값을 없앨 수도 있나요? (초기화)\n익명 유저가 원한다면 언제든지 직접 브라우저 설정에서 쿠키 값을 초기화 할 수 있습니다. (브라우저 기록 삭제 메뉴)\n유저가 사이트에서 활동하며 마지막으로 열어본 페이지의 부트(Boot) 시점으로부터\n1년\n이 지나면 자동으로 초기화 됩니다.\n리드\n익명의 유저는 언제 리드가 되나요?\n대화를 시작하여 채팅상담 기록을 가지게 될 때\n유저가 마케팅 메시지에 답변한 경우\n유저가 사이트에서 아무 정보 입력 없이 채팅 문의만 한 경우\n연락처 정보가 없는 외부메신저(라인, 인스타그램) 유입 고객이 채팅 문의를 한 경우\n또는, 고객 연락처 정보가 입력되었을 때\n유저가 팔로업 알림 챗봇에 휴대전화 또는 이메일 주소를 입력한 경우\n유저가 외부메신저(카카오 상담톡, 네이버 톡톡) 정보 연동을 한 경우\n유저가 채널톡 버튼에서 다른 방법으로 문의하기 아이콘을 눌러 외부 메신저에 로그인만 해도 (상담을 남기지 않아도) 해당\n또는, 팀 멤버가 유저의 정보를 고객 연락처에 입력한 경우 (open api, CSV 업로드 등)\n왜 리드가 중요한가요?\n리드는 잠재고객의 다른 말입니다.\n접점이 생긴 순간부터 익명의 유저가 우리 서비스와 특별한 관계가 되고, 이 기회를 활용하여 실제 구매까지 이어지는 고객으로 만들 수 있습니다.\n우리 서비스를 스쳐 지나가는 익명의 유저를 리드로 만드는 것이 VIP 고객을 찾는 출발점입니다.\nVIP가 늘어나면 왜 좋은가요?\n전체 매출의 80% 가 전체 고객의 20% 인 VIP 고객으로부터 만들어집니다. - 파레토 법칙 -\n왜 고객의 연락처(휴대폰 번호, 이메일 주소)를 얻어야 하나요?\n신규 고객을 획득하는 비용이 점점 증가하는 추세입니다. 그만큼 자발적으로 우리 사이트를 찾아준 익명의 유저 한 명 한 명이 굉장히 소중해요. 이들을 리드로 전환하고 재방문을 만들어 구매 고객이 되도록 해야 하죠.\n채널톡은 그 첫 단계인 고객 연락처 수집을 손쉽게 도와주는 챗봇 기능을 제공합니다.\n(→ 가이드 확인하기)\n이렇게 확보한 리드의 연락처로 무엇을 할 수 있을까요?\n리드가 연락처 정보를 남겼다면, 채널톡의 강력한 팔로업 기능으로 사이트를 떠난 고객에게 다시 메시지를 보내 돌아오도록 유도할 수 있습니다.\n팔로업 알림으로 고객이 상담 답변 놓치지 않도록 하기\n(→ 가이드 확인하기)\n마케팅 메시지로 떠난 고객도 돌아와 구매하도록 만들기\n(→ 가이드 확인하기)\n모든 연락처 정보가 동일하게 중요한가요?\n채널톡은 고객의 연락처 정보를\n검증된 정보\n와\n검증되지 않은 정보\n로 구분하며, 신뢰할 수 있는\n검증된 정보\n를 우선적으로 활용합니다.\n검증되지 않은(unqualified) 정보\n유저가 직접 입력한 연락처 정보\n예시) 팔로업 알림 정보수집 또는 입력폼에서 유저가 직접 입력한 정보\n검증된(qualified) 정보\n유저가 직접 입력한 정보 외의 모든 고객 프로필 업데이트\n예시)\n팀 멤버가 직접 고객 정보에 수정 입력한 연락처\n빌더사를 통해 제작한 웹사이트에서 채널톡에 연동한 고객정보\n자체 제작 웹사이트에서 연동 스크립트를 통해 채널톡에 연동한 고객 정보\nAPI로 입력한 정보\nCSV 파일 업로드를 통해 업데이트된 연락처 정보\n검증된 정보가 왜 필요한가요?\n검증된 정보가 기존 회원 정보와 일치하면 이를 바로 통합해줄 수 있습니다.\n리드가 알고 보니 기존 회원과 동일한 사람이라면, 채널톡은 이를 합쳐주나요, 두 명을 각각 저장하나요?\n두 프로필 정보를 하나로 합쳐줍니다.\n(→ 가이드 확인하기)\n리드의 정보는 얼마나 오랫동안 보관되나요?\n리드와의 마지막 접점 시점으로부터 아래 보관 기간이 지나면 자동으로 삭제됩니다.\n접점 기준 : 채팅, 사이트 방문, 마케팅 메시지 수신, 고객 연락처 정보 업데이트 등\n구분\n보관 기간\n자동 삭제 기준\n2024/8/14 이전 저장된 리드\n2년\n마지막 접점 후 2년 경과 시 삭제\n2024/8/14 이후\n접점이 발생한 기존 리드\n새로 저장된 리드\n3년\n마지막 접점 후 3년 경과 시 삭제\n리드를 고객 연락처에서 직접 삭제할 수 있나요?\n네, 필요하면 저장된 리드 정보를 삭제할 수 있습니다.\n리드 고객 정보를 CSV 파일로 채널톡에 업로드 할 수 있나요?\nCSV 파일 데이터에 memberId 정보가 없다면 고객 연락처에\n리드\n로 저장됩니다.\nmemberId\n정보가 있는 고객은 바로 멤버로 저장됩니다.\n이를 위해 파일 업로드 시 데이터에\nmemberId\n포함 여부를 확인합니다.\n만약 업로드 된 정보 중 기존 멤버와 일치하는 정보가 있다면 팀 멤버가 확인 후 통합해줄 수 있습니다.\n(→ 가이드 확인하기)\n리드 고객을 별도로 추가할 수 있나요?\n개별 추가 방법: 리드 고객의 정보를 알고 있다면, 개별적으로 1명씩 수동으로 등록할 수 있습니다. (\n→ 더 알아보기\n)\n일괄 추가 방법: CSV 파일 업로드를 통해 대량의 고객 연락처를 한 번에 등록할 수 있어요. (\n→ 더 알아보기\n)\n리드 고객 정보를 엑셀 파일로 채널톡에 업로드 할 수 있나요?\n엑셀 파일은 아니지만, CSV 파일을 통해 가능합니다. 여러 명의 새로운 고객 정보를 한 번에 추가하거나, 기존 고객들의 정보를 업데이트해 보세요. (\n→ 더 알아보기\n)\n앱에서도 채널톡을 설치해서 리드를 추적할 수 있나요?\n네, 채널톡\n모바일 전용 SDK(iOS, Android, React Native)\n를 사용해서 앱에 설치하고 리드를 추적할 수 있습니다.\n단, 웹에서 저장된 리드와 앱에서 저장된 리드가 동일한 인물이라 하더라도, 채널톡이 자동으로 동일 유저로 인식할 수 없습니다.\n만약 서로 다른 리드가 동일한 회원 아이디로 로그인하면, 한 명의 회원으로 보고 통합해 줍니다.\n(→ 가이드 확인하기)\n멤버\n채널톡이 멤버(회원)를 식별하는 방법은 무엇인가요?\n고객 정보 중\nmemberId\n값으로 식별합니다.\nmemberId\n는 채널톡이 부트(boot)될 때 고객이 로그인한 상태라면 주어지는 값입니다.\n대부분의 웹사이트나 앱에서 회원 아이디로 사용하는 값이예요. 유저에게\n멤버 아이디(memberId) 정보가 있으면\n해당 유저를 특정 멤버로 인식합니다.\n파트너 빌더사를 통해 채널톡을 연결했다면, 기본적으로 회원을 식별할 수 있도록 설치됩니다.\n(→ 가이드 확인하기)\n자체개발 홈페이지의 경우 설치 가이드를 참고해서 설치해 주세요.\n(→ 가이드 확인하기)\n익명의 유저나 비회원 리드 상태로 사이트를 둘러보던 멤버가 뒤늦게 로그인하면 어떻게 되나요?\n유저나 리드가 회원가입 또는 로그인을 하면\nmemberId\n정보가 생기면서 멤버로 인식됩니다.\n멤버의 정보는 얼마나 오랫동안 보관되나요?\n멤버와의 마지막 접점 시점으로부터 아래 보관 기간이 지나면 자동으로 삭제됩니다.\n접점 기준 : 채팅, 사이트 방문, 마케팅 메시지 수신, 고객 연락처 정보 업데이트 등\n구분\n보관 기간\n자동 삭제 기준\n2024/8/14 이전 저장된 멤버\n2년\n마지막 접점 후 2년 경과 시 삭제\n2024/8/14 이후\n접점이 발생한 기존 멤버\n새로 저장된 멤버\n3년\n마지막 접점 후 3년 경과 시 삭제\n유저를 식별할 때 memberId 로만 한다면 조작 등 보안 이슈가 있을 것 같은데, 어떻게 해결할 수 있나요?\n안전한 고객 정보 보호를 위해\n고객 정보 암호화(Member Hash)\n기능을 제공하고 있습니다.\n자체 개발 서비스에서는\n개발자 문서를 참고하여 고객 정보를 암호화하고 안전하게 보호할 수 있습니다.\n카페24 빌더사의 경우 자동으로 지원됩니다. 다른 빌더사도 멤버 해시 지원을 위해 준비 중입니다.\n홈페이지에서 로그아웃 해도 채널톡에 멤버 정보가 남아있어요. 보안이 걱정되는데, 홈페이지 로그아웃과 함께 채널톡 정보도 즉시 초기화 할 수 있을까요?\n보안이 중요한 환경이라면 다음과 같은 방법을 사용해 주세요 (별도 개발 필요)\n브라우저에서 쿠키 값을 보시면 ch-session 이 포함되어 있는 쿠키가 있습니다. 고객이 홈페이지에서 로그아웃 할 때 이 쿠키를 삭제하고 memberId 정보가 없는 상태로 다시 boot 를 시켜주시면 채널톡 정보가 초기화 됩니다.\n다만, 이 방법은\n채널톡 기본 설정이 아니며 권장하는 사항은 아닙니다.\n(이 경우, 고객이 로그아웃할 때 바로 새로운 익명 사용자로 인식되어 MU 사용량이 상승할 수 있습니다.)\n로그아웃 후 30분 정도 세션과 함께 채널톡 고객정보가 유지되는 부분은\n고객에게 자연스러운 경험\n을 제공하는 부분이에요. 일반적인 환경에서는 문제없이 사용하실 수 있습니다.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "유저(USER)란? 채널톡이 설치된 웹사이트 또는 앱을 방문한 모든 유저 (익명 유저, 리드, 멤버를 모두 포함합니다.)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/74/revisions/217/usermedia/662b0fbb2546798a305c"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기본 개념"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "익명 유저(Anonymous)란?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사이트 또는 앱을 방문하여 아무런 정보가 없는 상태의 유저"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채팅상담을 한 적도 없고, 정보 입력도 한 적이 없는 불특정 다수가 여기 해당합니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "리드(LEAD)란?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채팅상담 기록이 있거나, 고객 연락처 정보가 있는 유저"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채팅 없이 외부 메신저 연동으로도 정보가 저장될 수 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "마케팅 또는 워크플로우 메시지를 수신 후 답변하지 않은 유저는 해당되지 않습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "멤버(MEMBER)란?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "웹사이트나 앱의 멤버 아이디(memberId) 정보가 있는 유저"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "익명의 유저 또는 리드가 로그인 또는 회원가입 하면 멤버가 됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "익명 유저가 대화를 시작하거나 연락처를 입력하면 리드가 되고, 리드가 회원가입 하거나 로그인을 하면 멤버가 됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": " ",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/74/revisions/217/usermedia/662b0fbb4d18ed115371"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "익명 유저"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡에서 익명 유저를 식별하는 방법은 무엇인가요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "익명 유저가 사이트를 방문하면 브라우저의 쿠키("
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "위키피디아"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://ko.wikipedia.org/wiki/HTTP_%EC%BF%A0%ED%82%A4"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")및 로컬 스토리지에 정보를 저장하고 각각의 익명 유저를 구분합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "각 유저의 쿠키는 베일 아이디(key)와 고유값(value) 정보를 가지고 있어요. 유저의 개별 구분을 위해서 ch-veil-id 라는 쿠키 값이 이용됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "익명 유저의 이벤트, 상세 데이터, 세션 정보도 수집하나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네, 익명 유저의 정보도 수집됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "다만 익명 상태의 유저 정보는 채널톡 데스크(어드민)에서 조회할 수 없어요. 익명 유저가 채팅상담을 시작하거나 연락처를 입력하여 리드가 되면, 또는 로그인을 하여 멤버가 되면 앞서 수집된 정보들이 저장 및 조회됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "익명 유저의 고객 정보는 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "90일"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "만 보관됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "익명 유저의 쿠키 값을 없앨 수도 있나요? (초기화)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "익명 유저가 원한다면 언제든지 직접 브라우저 설정에서 쿠키 값을 초기화 할 수 있습니다. (브라우저 기록 삭제 메뉴)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유저가 사이트에서 활동하며 마지막으로 열어본 페이지의 부트(Boot) 시점으로부터 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "1년"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "이 지나면 자동으로 초기화 됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "리드"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "익명의 유저는 언제 리드가 되나요?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대화를 시작하여 채팅상담 기록을 가지게 될 때"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "유저가 마케팅 메시지에 답변한 경우"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "유저가 사이트에서 아무 정보 입력 없이 채팅 문의만 한 경우"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "연락처 정보가 없는 외부메신저(라인, 인스타그램) 유입 고객이 채팅 문의를 한 경우"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "또는, 고객 연락처 정보가 입력되었을 때"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "유저가 팔로업 알림 챗봇에 휴대전화 또는 이메일 주소를 입력한 경우"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "유저가 외부메신저(카카오 상담톡, 네이버 톡톡) 정보 연동을 한 경우"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "유저가 채널톡 버튼에서 다른 방법으로 문의하기 아이콘을 눌러 외부 메신저에 로그인만 해도 (상담을 남기지 않아도) 해당"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "또는, 팀 멤버가 유저의 정보를 고객 연락처에 입력한 경우 (open api, CSV 업로드 등)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "왜 리드가 중요한가요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "리드는 잠재고객의 다른 말입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "접점이 생긴 순간부터 익명의 유저가 우리 서비스와 특별한 관계가 되고, 이 기회를 활용하여 실제 구매까지 이어지는 고객으로 만들 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "우리 서비스를 스쳐 지나가는 익명의 유저를 리드로 만드는 것이 VIP 고객을 찾는 출발점입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "VIP가 늘어나면 왜 좋은가요? "
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "전체 매출의 80% 가 전체 고객의 20% 인 VIP 고객으로부터 만들어집니다. - 파레토 법칙 -"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "blockquote"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "왜 고객의 연락처(휴대폰 번호, 이메일 주소)를 얻어야 하나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신규 고객을 획득하는 비용이 점점 증가하는 추세입니다. 그만큼 자발적으로 우리 사이트를 찾아준 익명의 유저 한 명 한 명이 굉장히 소중해요. 이들을 리드로 전환하고 재방문을 만들어 구매 고객이 되도록 해야 하죠."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡은 그 첫 단계인 고객 연락처 수집을 손쉽게 도와주는 챗봇 기능을 제공합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 가이드 확인하기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/1ab15b6a"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "이렇게 확보한 리드의 연락처로 무엇을 할 수 있을까요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "리드가 연락처 정보를 남겼다면, 채널톡의 강력한 팔로업 기능으로 사이트를 떠난 고객에게 다시 메시지를 보내 돌아오도록 유도할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "팔로업 알림으로 고객이 상담 답변 놓치지 않도록 하기 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 가이드 확인하기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/3481edf8"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "마케팅 메시지로 떠난 고객도 돌아와 구매하도록 만들기 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "(→ 가이드 확인하기)"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://docs.channel.io/help/ko/articles/368b4bb5"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": "3249",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/74/revisions/217/usermedia/662b0fbb8a91255e06a6"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모든 연락처 정보가 동일하게 중요한가요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡은 고객의 연락처 정보를 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "검증된 정보"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "와 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "검증되지 않은 정보"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 구분하며, 신뢰할 수 있는 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "검증된 정보"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 우선적으로 활용합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "검증되지 않은(unqualified) 정보"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "유저가 직접 입력한 연락처 정보"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "예시) 팔로업 알림 정보수집 또는 입력폼에서 유저가 직접 입력한 정보"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "attrs": {
+                                "alt": " ",
+                                "mime": "image/*",
+                                "src": "https://cf.channel.io/document/spaces/6/articles/74/revisions/217/usermedia/662b0fbc58fa905ede5a"
+                              },
+                              "type": "image"
+                            },
+                            {
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "검증된(qualified) 정보"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "유저가 직접 입력한 정보 외의 모든 고객 프로필 업데이트"
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "예시) "
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            },
+                            {
+                              "content": [
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "팀 멤버가 직접 고객 정보에 수정 입력한 연락처"
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                },
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "빌더사를 통해 제작한 웹사이트에서 채널톡에 연동한 고객정보"
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                },
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "자체 제작 웹사이트에서 연동 스크립트를 통해 채널톡에 연동한 고객 정보"
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                },
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "API로 입력한 정보 "
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                },
+                                {
+                                  "content": [
+                                    {
+                                      "content": [
+                                        {
+                                          "attrs": {
+                                            "text": "CSV 파일 업로드를 통해 업데이트된 연락처 정보"
+                                          },
+                                          "marks": [
+                                            {
+                                              "attrs": {
+                                                "semanticColor": "txt-black-darkest"
+                                              },
+                                              "type": "color"
+                                            }
+                                          ],
+                                          "type": "plain"
+                                        }
+                                      ],
+                                      "type": "text"
+                                    }
+                                  ],
+                                  "type": "listItem"
+                                }
+                              ],
+                              "type": "bullets"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "검증된 정보가 왜 필요한가요? "
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "검증된 정보가 기존 회원 정보와 일치하면 이를 바로 통합해줄 수 있습니다. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "리드가 알고 보니 기존 회원과 동일한 사람이라면, 채널톡은 이를 합쳐주나요, 두 명을 각각 저장하나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "두 프로필 정보를 하나로 합쳐줍니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 가이드 확인하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/b437a01e"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "리드의 정보는 얼마나 오랫동안 보관되나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "리드와의 마지막 접점 시점으로부터 아래 보관 기간이 지나면 자동으로 삭제됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "접점 기준 : 채팅, 사이트 방문, 마케팅 메시지 수신, 고객 연락처 정보 업데이트 등"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "구분"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "보관 기간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "자동 삭제 기준"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2024/8/14 이전 저장된 리드"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2년"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마지막 접점 후 2년 경과 시 삭제"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2024/8/14 이후 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "접점이 발생한 기존 리드"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "새로 저장된 리드"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "3년"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마지막 접점 후 3년 경과 시 삭제"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "리드를 고객 연락처에서 직접 삭제할 수 있나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네, 필요하면 저장된 리드 정보를 삭제할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "3249-1",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/74/revisions/217/usermedia/662b0fbc8fe257a0a6ae"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "리드 고객 정보를 CSV 파일로 채널톡에 업로드 할 수 있나요? "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "CSV 파일 데이터에 memberId 정보가 없다면 고객 연락처에 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "리드"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "로 저장됩니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "memberId"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 정보가 있는 고객은 바로 멤버로 저장됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이를 위해 파일 업로드 시 데이터에 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "memberId"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 포함 여부를 확인합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "만약 업로드 된 정보 중 기존 멤버와 일치하는 정보가 있다면 팀 멤버가 확인 후 통합해줄 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 가이드 확인하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/b437a01e"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "리드 고객을 별도로 추가할 수 있나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "개별 추가 방법: 리드 고객의 정보를 알고 있다면, 개별적으로 1명씩 수동으로 등록할 수 있습니다. ("
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 더 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%EA%B4%80%EB%A6%AC-767e3b79#%EA%B0%9C%EB%B3%84-%EC%B6%94%EA%B0%80"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "일괄 추가 방법: CSV 파일 업로드를 통해 대량의 고객 연락처를 한 번에 등록할 수 있어요. ("
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 더 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%EA%B4%80%EB%A6%AC-767e3b79#%EC%9D%BC%EA%B4%84-%EC%B6%94%EA%B0%80-"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "리드 고객 정보를 엑셀 파일로 채널톡에 업로드 할 수 있나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "엑셀 파일은 아니지만, CSV 파일을 통해 가능합니다. 여러 명의 새로운 고객 정보를 한 번에 추가하거나, 기존 고객들의 정보를 업데이트해 보세요. ("
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "→ 더 알아보기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EA%B3%A0%EA%B0%9D-%EA%B4%80%EB%A6%AC-767e3b79#%EC%9D%BC%EA%B4%84-%EC%B6%94%EA%B0%80-"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "앱에서도 채널톡을 설치해서 리드를 추적할 수 있나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네, 채널톡 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "모바일 전용 SDK(iOS, Android, React Native)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 사용해서 앱에 설치하고 리드를 추적할 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단, 웹에서 저장된 리드와 앱에서 저장된 리드가 동일한 인물이라 하더라도, 채널톡이 자동으로 동일 유저로 인식할 수 없습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "만약 서로 다른 리드가 동일한 회원 아이디로 로그인하면, 한 명의 회원으로 보고 통합해 줍니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(→ 가이드 확인하기)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/b437a01e"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "type": "heading"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "멤버"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡이 멤버(회원)를 식별하는 방법은 무엇인가요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 정보 중 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "memberId"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 값으로 식별합니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "memberId"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 는 채널톡이 부트(boot)될 때 고객이 로그인한 상태라면 주어지는 값입니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "대부분의 웹사이트나 앱에서 회원 아이디로 사용하는 값이예요. 유저에게 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "멤버 아이디(memberId) 정보가 있으면"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            },
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 해당 유저를 특정 멤버로 인식합니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "파트너 빌더사를 통해 채널톡을 연결했다면, 기본적으로 회원을 식별할 수 있도록 설치됩니다. "
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "(→ 가이드 확인하기)"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    },
+                                    {
+                                      "attrs": {
+                                        "href": "https://docs.channel.io/help/ko/articles/1bfa136b"
+                                      },
+                                      "type": "hyperlink"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "자체개발 홈페이지의 경우 설치 가이드를 참고해서 설치해 주세요. "
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "(→ 가이드 확인하기)"
+                                  },
+                                  "marks": [
+                                    {
+                                      "attrs": {
+                                        "semanticColor": "txt-black-darkest"
+                                      },
+                                      "type": "color"
+                                    },
+                                    {
+                                      "attrs": {
+                                        "href": "https://docs.channel.io/help/ko/articles/1bfa136b"
+                                      },
+                                      "type": "hyperlink"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "익명의 유저나 비회원 리드 상태로 사이트를 둘러보던 멤버가 뒤늦게 로그인하면 어떻게 되나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유저나 리드가 회원가입 또는 로그인을 하면 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "memberId"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 정보가 생기면서 멤버로 인식됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "멤버의 정보는 얼마나 오랫동안 보관되나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "멤버와의 마지막 접점 시점으로부터 아래 보관 기간이 지나면 자동으로 삭제됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "접점 기준 : 채팅, 사이트 방문, 마케팅 메시지 수신, 고객 연락처 정보 업데이트 등"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "구분"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "보관 기간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "자동 삭제 기준"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2024/8/14 이전 저장된 멤버"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2년"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마지막 접점 후 2년 경과 시 삭제"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "2024/8/14 이후 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "접점이 발생한 기존 멤버"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "새로 저장된 멤버"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "3년"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마지막 접점 후 3년 경과 시 삭제"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "유저를 식별할 때 memberId 로만 한다면 조작 등 보안 이슈가 있을 것 같은데, 어떻게 해결할 수 있나요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "안전한 고객 정보 보호를 위해 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "고객 정보 암호화(Member Hash) "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "기능을 제공하고 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "자체 개발 서비스에서는 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "개발자 문서를 참고하여 고객 정보를 암호화하고 안전하게 보호할 수 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            },
+                            {
+                              "attrs": {
+                                "href": "https://developers.channel.io/reference/member-hash-kr"
+                              },
+                              "type": "hyperlink"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "카페24 빌더사의 경우 자동으로 지원됩니다. 다른 빌더사도 멤버 해시 지원을 위해 준비 중입니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "홈페이지에서 로그아웃 해도 채널톡에 멤버 정보가 남아있어요. 보안이 걱정되는데, 홈페이지 로그아웃과 함께 채널톡 정보도 즉시 초기화 할 수 있을까요?"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "보안이 중요한 환경이라면 다음과 같은 방법을 사용해 주세요 (별도 개발 필요)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "브라우저에서 쿠키 값을 보시면 ch-session 이 포함되어 있는 쿠키가 있습니다. 고객이 홈페이지에서 로그아웃 할 때 이 쿠키를 삭제하고 memberId 정보가 없는 상태로 다시 boot 를 시켜주시면 채널톡 정보가 초기화 됩니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "다만, 이 방법은 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "채널톡 기본 설정이 아니며 권장하는 사항은 아닙니다. "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(이 경우, 고객이 로그아웃할 때 바로 새로운 익명 사용자로 인식되어 MU 사용량이 상승할 수 있습니다.) "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "로그아웃 후 30분 정도 세션과 함께 채널톡 고객정보가 유지되는 부분은 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "고객에게 자연스러운 경험"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 제공하는 부분이에요. 일반적인 환경에서는 문제없이 사용하실 수 있습니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "54055",
+    "name": "clo",
+    "bio": "backend engineer"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0edac1ba9684cbd5",
+  "linked_faqs": [],
+  "faq_count": 0
+}

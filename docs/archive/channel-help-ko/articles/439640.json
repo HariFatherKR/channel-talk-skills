@@ -1,0 +1,428 @@
+{
+  "id": "439640",
+  "url": "https://docs.channel.io/help/ko/articles/ALF-%EB%8C%80%ED%99%94-%EB%AA%A9%EB%A1%9D-ff7eb52d",
+  "title": "ALF 대화 목록",
+  "summary": "고객 ALF가 응대한 상담을 한 번에 확인해 보세요.",
+  "plaintext": "고객 ALF가 응대하고 있는 상담을 수신함에서도 확인하실 수 있습니다. ALF가 어떻게 답변하고 있는지 실시간으로 확인해 보세요.\n상담 상태\nALF가 응대 중인지 여부에 따라 활성, 비활성으로 구분되어 있어요.\n활성\nALF가 상담을 시작해서 종료할 때까지 활성 탭에 존재합니다.\n상담원과 연결되지 않은 '준비중' 상태\n상담원과 연결된 '진행중' 상태에서 워크플로우를 통해 다시 ALF 응대가 시작된 상태\n고객이 마지막 메시지를 보낸 시점을 기준으로 24시간이 경과하지 않은 상태\n전화 ALF가 응대 중인 상태\n비활성\nALF가 상담을 종료하면 비활성 탭에 존재합니다.\n고객이 상담원 연결을 요청하여 ALF 응대가 종료된 상태\n상담원 연결을 요청하지 않아도 고객이 마지막 메시지를 보낸 시점을 기준으로 24시간 동안 아무 대화가 없는 상태\n전화 ALF가 응대 후 통화 종료한 상태\n정렬\n상담을 최신 순 / 오래된 순으로 정렬하여 볼 수 있어요. 상담 상태에 따라 기준의 차이가 있습니다.\n활성 상태: 고객이 마지막으로 ALF에게 질문한 시간 기준\n비활성 상태: ALF가 답변한 마지막 메시지 기준",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 ALF가 응대하고 있는 상담을 수신함에서도 확인하실 수 있습니다. ALF가 어떻게 답변하고 있는지 실시간으로 확인해 보세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "alf 대화목록_홈.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/45126/revisions/295930/usermedia/6821c89b8accc73ed6b9",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 상태"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "ALF가 응대 중인지 여부에 따라 활성, 비활성으로 구분되어 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "alf 대화목록_상태.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/45126/revisions/295930/usermedia/6821c8af5047fb5f8303",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "활성"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "ALF가 상담을 시작해서 종료할 때까지 활성 탭에 존재합니다.     "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담원과 연결되지 않은 '준비중' 상태"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담원과 연결된 '진행중' 상태에서 워크플로우를 통해 다시 ALF 응대가 시작된 상태 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 마지막 메시지를 보낸 시점을 기준으로 24시간이 경과하지 않은 상태"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화 ALF가 응대 중인 상태  "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "비활성"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "ALF가 상담을 종료하면 비활성 탭에 존재합니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 상담원 연결을 요청하여 ALF 응대가 종료된 상태"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담원 연결을 요청하지 않아도 고객이 마지막 메시지를 보낸 시점을 기준으로 24시간 동안 아무 대화가 없는 상태"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화 ALF가 응대 후 통화 종료한 상태"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "정렬"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담을 최신 순 / 오래된 순으로 정렬하여 볼 수 있어요. 상담 상태에 따라 기준의 차이가 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "활성 상태: 고객이 마지막으로 ALF에게 질문한 시간 기준"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비활성 상태: ALF가 답변한 마지막 메시지 기준"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "alf 대화목록_정렬.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/45126/revisions/295930/usermedia/6821c8b5cf44a5bfd90a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/68fa0814023838902858",
+  "linked_faqs": [],
+  "faq_count": 0
+}

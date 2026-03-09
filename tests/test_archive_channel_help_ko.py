@@ -130,6 +130,18 @@ class ArchiveChannelHelpKoTests(unittest.TestCase):
         self.assertEqual(manifest["article_count"], 1)
         self.assertEqual(manifest["failed_count"], 1)
 
+    def test_crawl_deduplicates_records_by_article_id(self):
+        module = load_module()
+
+        def fake_fetch(_url):
+            return self.article_html
+
+        records, failures = module.crawl_article_records(self.root_html, fake_fetch)
+
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]["id"], "332352")
+        self.assertEqual(failures, [])
+
 
 if __name__ == "__main__":
     unittest.main()

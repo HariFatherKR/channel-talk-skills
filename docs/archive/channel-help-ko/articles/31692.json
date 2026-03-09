@@ -1,0 +1,560 @@
+{
+  "id": "31692",
+  "url": "https://docs.channel.io/help/ko/articles/SLA-0cf9bb1c",
+  "title": "SLA",
+  "summary": "Service Level Agreement",
+  "plaintext": "1. 서비스 수준 약정\n채널톡은 서비스를 연중무휴 24시간 사용할 수 있도록 하며 고객의 인터넷 장애 또는 지연 등 채널톡이 합리적으로 통제할 수 없는 상황을 제외하고 각 채널별 월 결제주기 내 99.90% 이상의 가동 시간을 제공하기 위해 노력합니다.\n*이하 월은 각 채널별 월 결제주기의 기간을 의미합니다.\n채널톡이 서비스 약정을 충족하지 못하는 경우 아래에 설명된 크레딧을 요청을 통해 받을 수 있습니다.\n*시트(기본 시트와 오퍼레이터 시트 포함)\n*MU(관리 고객)\n가동 시간 비율\n크레딧\n99.00%이상 ~ 99.90%미만\n해당 월 플랜+시트+MU+전화번호 이용료 결제요금의 5%\n95.00%이상 ~ 99.00%미만\n해당 월 플랜+시트+MU+전화번호 이용료 결제요금의 15%\n95% 미만\n해당 월 플랜+시트+MU+전화번호 이용료 결제요금의 50%\n가동 시간 비율은 (A-B+C)/A로 구하며 A = 해당 월의 총 시간, B = 해당 월의 주요 기능을 사용할 수 없는 시간, C = 해당 월의 가동 제외 시간입니다.\n‘주요 기능에 사용할 수 없는 경우’의 정의는 아래와 같습니다.\n채널톡 유저챗 메시지의 수신∙발신이 불가능할 경우 (외부서비스 연동을 통한 메시지 수신∙발신의 경우는 제외)\n채널톡 전화 수신∙발신이 불가능할 경우\n해당 월의 가동 제외 시간의 정의는 아래와 같습니다.\n사전에 알려진 정기점검을 위한 사용 중단의 경우로 한달 중 최대 24시간 동안 점검을 위한 사용중단이 될 수 있습니다. 이 기간은 보상의 대상이 되지 않으며 2주 전까지 고객에게 알립니다.\n채널톡 플랜을 유료 구독 중일 경우 보상을 요청할 수 있으며, 미가동 시간 발생 일시로부터 15일 이내에 보상 요청 사유와 미가동시간 범위를 기재하여 채널톡 상담센터에 문의 접수 해야합니다. 채널톡은 보상 지급 여부와 보상 금액을 검토하여 문의 접수일로부터 45일 이내에 보상 지급 여부결정 및 보상 금액을 지급합니다. 미가동 시간 발생 일로부터 문의 접수없이 15일 경과 시 보상 요청의 권리를 상실합니다.\n보상 금액은 약정된 유료 플랜 요금(플랜+시트+MU+전화번호 이용료)을 기준으로 하며, 이외의 선불 충전 및 부가서비스 실비 사용량에 대한 요금은 포함되지 않습니다. 요금 할인을 받았을 경우 할인 받은 금액이 보상 기준 금액이 되며 연구독의 경우 12개월로 나눠 한달의 금액으로 반영합니다.\n미가동이 다음 날까지 이어져 다음 월 구독 주기로 이어질 경우 각 월별 미가동 시간으로 각각 반영합니다. (각 채널의 국가 별 시간을 따릅니다.)\n2. 보상 제외 사항\n고객 사용 환경과 장비의 문제인 경우는 보상 대상에서 제외합니다.\n새로고침, 재실행 등 고객 스스로 문제해결 시도 시 해결 가능한 경우 보상 대상에서 제외합니다.\n허용된 방식의 사용법을 벗어나 사용 중 장애를 유발한 경우 그 대상은 보상하지 않습니다.\n지원하지 않는 SDK나 앱을 사용함으로 발생하는 문제는 보상하지 않습니다.\n채널톡 모바일 앱의 미가동 시간은 보상 대상에서 제외합니다.\n외부 연동 서비스의 자체 장애는 보상 대상에서 제외합니다.\n채널톡 이용요금 납부를 연체하고 있는 경우 보상 대상에서 제외합니다.\n천재지변, 전쟁, 디도스(DDOS) 공격, IDC 장애, 기간통신사업자의 서비스 중지 등 예측할 수 없거나 통제할 수 없는 사유로 인하여 서비스를 제공할 수 없는 경우에는 보상하지 않습니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "1. 서비스 수준 약정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡은 서비스를 연중무휴 24시간 사용할 수 있도록 하며 고객의 인터넷 장애 또는 지연 등 채널톡이 합리적으로 통제할 수 없는 상황을 제외하고 각 채널별 월 결제주기 내 99.90% 이상의 가동 시간을 제공하기 위해 노력합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "*이하 월은 각 채널별 월 결제주기의 기간을 의미합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡이 서비스 약정을 충족하지 못하는 경우 아래에 설명된 크레딧을 요청을 통해 받을 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "*시트(기본 시트와 오퍼레이터 시트 포함)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "*MU(관리 고객)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "가동 시간 비율"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "크레딧"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "99.00%이상 ~ 99.90%미만"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "해당 월 플랜+시트+MU+전화번호 이용료 결제요금의 5%"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "95.00%이상 ~ 99.00%미만"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "해당 월 플랜+시트+MU+전화번호 이용료 결제요금의 15%"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "95% 미만"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "해당 월 플랜+시트+MU+전화번호 이용료 결제요금의 50%"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "가동 시간 비율은 (A-B+C)/A로 구하며 A = 해당 월의 총 시간, B = 해당 월의 주요 기능을 사용할 수 없는 시간, C = 해당 월의 가동 제외 시간입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "‘주요 기능에 사용할 수 없는 경우’의 정의는 아래와 같습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡 유저챗 메시지의 수신∙발신이 불가능할 경우 (외부서비스 연동을 통한 메시지 수신∙발신의 경우는 제외)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡 전화 수신∙발신이 불가능할 경우"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해당 월의 가동 제외 시간의 정의는 아래와 같습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "사전에 알려진 정기점검을 위한 사용 중단의 경우로 한달 중 최대 24시간 동안 점검을 위한 사용중단이 될 수 있습니다. 이 기간은 보상의 대상이 되지 않으며 2주 전까지 고객에게 알립니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 플랜을 유료 구독 중일 경우 보상을 요청할 수 있으며, 미가동 시간 발생 일시로부터 15일 이내에 보상 요청 사유와 미가동시간 범위를 기재하여 채널톡 상담센터에 문의 접수 해야합니다. 채널톡은 보상 지급 여부와 보상 금액을 검토하여 문의 접수일로부터 45일 이내에 보상 지급 여부결정 및 보상 금액을 지급합니다. 미가동 시간 발생 일로부터 문의 접수없이 15일 경과 시 보상 요청의 권리를 상실합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "보상 금액은 약정된 유료 플랜 요금(플랜+시트+MU+전화번호 이용료)을 기준으로 하며, 이외의 선불 충전 및 부가서비스 실비 사용량에 대한 요금은 포함되지 않습니다. 요금 할인을 받았을 경우 할인 받은 금액이 보상 기준 금액이 되며 연구독의 경우 12개월로 나눠 한달의 금액으로 반영합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "미가동이 다음 날까지 이어져 다음 월 구독 주기로 이어질 경우 각 월별 미가동 시간으로 각각 반영합니다. (각 채널의 국가 별 시간을 따릅니다.)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "2. 보상 제외 사항"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객 사용 환경과 장비의 문제인 경우는 보상 대상에서 제외합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "새로고침, 재실행 등 고객 스스로 문제해결 시도 시 해결 가능한 경우 보상 대상에서 제외합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "허용된 방식의 사용법을 벗어나 사용 중 장애를 유발한 경우 그 대상은 보상하지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "지원하지 않는 SDK나 앱을 사용함으로 발생하는 문제는 보상하지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 모바일 앱의 미가동 시간은 보상 대상에서 제외합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "외부 연동 서비스의 자체 장애는 보상 대상에서 제외합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 이용요금 납부를 연체하고 있는 경우 보상 대상에서 제외합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "천재지변, 전쟁, 디도스(DDOS) 공격, IDC 장애, 기간통신사업자의 서비스 중지 등 예측할 수 없거나 통제할 수 없는 사유로 인하여 서비스를 제공할 수 없는 경우에는 보상하지 않습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "102",
+    "name": "Carol",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/686b9fce606a0c91f9d2",
+  "linked_faqs": [],
+  "faq_count": 0
+}

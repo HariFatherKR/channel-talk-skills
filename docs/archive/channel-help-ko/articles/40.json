@@ -1,0 +1,1251 @@
+{
+  "id": "40",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90%ED%86%A1-%EB%B2%84%ED%8A%BC-%EC%84%A4%EC%A0%95-94f34984",
+  "title": "채널톡 버튼 설정",
+  "summary": "심혈을 기울여 만든 우리 사이트에 채널톡 버튼이 잘 자연스럽게 녹아 들도록 위치를 수정하거나 커스텀 버튼을 통해 브랜드의 개성을 보여주세요.",
+  "plaintext": "멀티 플러그인 설정\n멀티 플러그인을 통해 각 상세 페이지별로 다른 버튼을 보여줄 수 있어요. 버튼 목록에서 원하는 버튼을 선택 후, 각 버튼 별 설정을 진행해보세요.\n[기본 버튼]으로 설정한 플러그인이 내 채널톡 주소 및 워크플로우에서 이용되는 기본 플러그인이 됩니다.\n동일한 고객 DB로 관리되는 여러 개의 사이트가 있을 경우 멀티 플러그인을 활용해주시면 좋아요.\n플러그인 별 플러그인 키를 활용하여 각기 다른 사이트 혹은 다른 페이지에 설치해주시면 됩니다.\n채널톡 버튼 설치\n채널톡 버튼의 플러그인 키 및 설치 스크립트를 확인할 수 있어요. 조금 더 자세한 설치 방법은\n설치에서 확인해주세요\n웹 버튼 설정\n버튼 디자인\n채널톡 기본 버튼을 19가지 다양한 모양의 아이콘으로 변경할 수 있어요. 원하는 버튼 디자인을 골라 색상도 자유롭게 설정할 수 있어요.\n버튼의 배경 컬러는 채널 테마 색상을 따라갑니다. 배경색이 어두우면 아이콘은 화이트 계열로 보이고\n,\n배경색이 밝다면 아이콘 컬러는 어둡게 보입니다\n.\n버튼 커스터마이징\n우리 브랜드의 개성을 나타내는 이미지로 버튼을 바꾸고 싶다면 커스터마이징한 이미지를 업로드하여 이용할 수 있어요. 설정 방법과 활용 예시를 살펴보세요.\n사용 가능한 확장자 : png, jpg ,gif\n이미지 권장 사이즈 : 최소 180x180px 이상, 1:1 비율로만 지원됩니다.\nPC 버튼은 56px, 모바일 웹 버튼은 44px로 사이즈가 자동 조절되어 보입니다.\nPC 버튼과 모바일 웹 버튼은 공통 이미지로 지원됩니다.\n배경이 없는 PNG 파일의 경우 백그라운드에 흰색 배경 컬러가 적용됩니다.\n모바일 네이티브 SDK의 경우 별도의 코딩을 통한 커스터마이징 진행이 필요합니다.\n업데이트 전 1:1 비율이 아닌 이미지를 커스텀 버튼으로 이용 중이시라면 해당 커스텀 이미지를 그대로 유지할 수 있어요.\n다만, 새로운 이미지를 업로드할 때부터는 1:1 사이즈로 적용됩니다. 적용 이후에는 다시 이전 이미지로 변경이 지원되지 않아요.\n활용 예시\n채널톡 기본 버튼이 아닌 커스터마이징을 하고 싶은데 어떻게 만드는 게 좋을지 모르겠다면, 버튼 커스터마이징을 잘 활용하는 예시를 살펴보세요.\n라벨 버튼\n고객이 처음 방문했을 때 채팅 문의 버튼이 있다는 사실을 알려주기 위한 긴 막대형 버튼이에요. 라벨 버튼의 문구는 4~30 글자 까지 설정이 가능해요.\n라벨 버튼에는 채널 프로필 또는 팀 멤버 프로필 이미지(최대 2명)가 함께 보입니다.  (단, 모바일 웹에서는 팀 멤버 프로필이 노출되지 않아요. )\n테마\n고객이 방문하여 채널톡 채팅버튼을 눌렀을 때, 라운지(채팅목록) 화면의 테마를 어떻게 보여줄지 설정할 수 있습니다.\n라이트, 다크, 시스템 모드로 적용 가능하며, 시스템 모드로 설정해 둔 경우 고객의 시스템(브라우저) 설정을 따라가게 됩니다.\n자체 개발 사이트라면 API를 활용하여 데스크 설정보다 더 우선적으로 적용되는 테마를 지정할 수 있습니다.\n데스크탑\nPC 웹 사이트에서 보여지는 채널톡 버튼을 설정해요.\n설정 경로: [채널 설정] - [일반 설정] - [버튼 설치 및 설정] - [웹 버튼 설정] - [데스크탑 클릭]\n옵션\n설명\n버튼 숨기기\nPC 웹 사이트에서 채널톡 버튼을 숨길 수 있어요.\n위치\n사이트의 왼쪽 / 오른쪽에 버튼을 위치하도록 설정해요.\n위치 조정\n상하 / 좌우 일정 범위 내로 위치 조절이 가능해요.\n모바일 웹\n모바일 웹에서 보여지는 채널톡 버튼을 설정해요.\n설정 경로: [채널 설정] - [일반 설정] - [버튼 설치 및 설정] - [웹 버튼 설정] - [모바일 웹 클릭]\n옵션\n설명\n버튼 숨기기\n모바일 웹에서 채널톡 버튼을 숨길 수 있어요.\n위치\n사이트의 왼쪽 / 오른쪽에 버튼을 위치하도록 설정해요.\n위치 조정\n상하 / 좌우 일정 범위 내로 위치 조절이 가능해요.\n버블 위치\n모바일에서 노출되는 푸시 메시지 및 마케팅 버블 메시지의 위치를 설정할 수 있어요.\n기타 설정 (화이트리스트)\n특정 페이지에서만 채널톡 버튼이 노출되길 원한다면 화이트리스트를 설정해주세요. 화이트리스트에 채널톡이 보여지길 원하시는 도메인을 입력하면 해당 도메인에서만 버튼이 노출됩니다.\n도메인 입력 시, http 또는 https 를 제외한 나머지 주소를 입력해주세요.\n입력한 문자열이 포함된 모든 도메인에 적용됩니다.\n적용하고 싶은 페이지가 많을 경우, 공통적으로 포함되는 문자열만 입력하면 한 번에 여러 페이지에 적용할 수 있어요.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "멀티 플러그인 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "멀티 플러그인을 통해 각 상세 페이지별로 다른 버튼을 보여줄 수 있어요. 버튼 목록에서 원하는 버튼을 선택 후, 각 버튼 별 설정을 진행해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[기본 버튼]으로 설정한 플러그인이 내 채널톡 주소 및 워크플로우에서 이용되는 기본 플러그인이 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "동일한 고객 DB로 관리되는 여러 개의 사이트가 있을 경우 멀티 플러그인을 활용해주시면 좋아요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "플러그인 별 플러그인 키를 활용하여 각기 다른 사이트 혹은 다른 페이지에 설치해주시면 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/115/usermedia/662b10a0c0fd171d37e2"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 버튼 설치"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 버튼의 플러그인 키 및 설치 스크립트를 확인할 수 있어요. 조금 더 자세한 설치 방법은 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "설치에서 확인해주세요"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/1bfa136b"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "Button",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/115/usermedia/662b10a0f3687f0069b5"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "웹 버튼 설정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "버튼 디자인"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 기본 버튼을 19가지 다양한 모양의 아이콘으로 변경할 수 있어요. 원하는 버튼 디자인을 골라 색상도 자유롭게 설정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "버튼의 배경 컬러는 채널 테마 색상을 따라갑니다. 배경색이 어두우면 아이콘은 화이트 계열로 보이고"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ","
+                  },
+                  "marks": [
+                    {
+                      "type": "italic"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 배경색이 밝다면 아이콘 컬러는 어둡게 보입니다"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "."
+                  },
+                  "marks": [
+                    {
+                      "type": "italic"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/115/usermedia/662b10a12f39b6e03c38"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "버튼 커스터마이징"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "우리 브랜드의 개성을 나타내는 이미지로 버튼을 바꾸고 싶다면 커스터마이징한 이미지를 업로드하여 이용할 수 있어요. 설정 방법과 활용 예시를 살펴보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사용 가능한 확장자 : png, jpg ,gif"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이미지 권장 사이즈 : 최소 180x180px 이상, 1:1 비율로만 지원됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "PC 버튼은 56px, 모바일 웹 버튼은 44px로 사이즈가 자동 조절되어 보입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "PC 버튼과 모바일 웹 버튼은 공통 이미지로 지원됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "배경이 없는 PNG 파일의 경우 백그라운드에 흰색 배경 컬러가 적용됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모바일 네이티브 SDK의 경우 별도의 코딩을 통한 커스터마이징 진행이 필요합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/115/usermedia/662b10a1494c3117d7e3"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "icon": "bulb",
+                "semanticColor": "bgtxt-cobalt-lightest"
+              },
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "업데이트 전 1:1 비율이 아닌 이미지를 커스텀 버튼으로 이용 중이시라면 해당 커스텀 이미지를 그대로 유지할 수 있어요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "다만, 새로운 이미지를 업로드할 때부터는 1:1 사이즈로 적용됩니다. 적용 이후에는 다시 이전 이미지로 변경이 지원되지 않아요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "callout"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "활용 예시"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 기본 버튼이 아닌 커스터마이징을 하고 싶은데 어떻게 만드는 게 좋을지 모르겠다면, 버튼 커스터마이징을 잘 활용하는 예시를 살펴보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "버튼",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/115/usermedia/662b10a17cc93d6cda95"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "라벨 버튼"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 처음 방문했을 때 채팅 문의 버튼이 있다는 사실을 알려주기 위한 긴 막대형 버튼이에요. 라벨 버튼의 문구는 4~30 글자 까지 설정이 가능해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "라벨 버튼에는 채널 프로필 또는 팀 멤버 프로필 이미지(최대 2명)가 함께 보입니다.  (단, 모바일 웹에서는 팀 멤버 프로필이 노출되지 않아요. )"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/115/usermedia/662b10a1b53aca5e6c98"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "라벨버튼",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/115/usermedia/662b10a1eef44f3a449f"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "테마"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 방문하여 채널톡 채팅버튼을 눌렀을 때, 라운지(채팅목록) 화면의 테마를 어떻게 보여줄지 설정할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "라이트, 다크, 시스템 모드로 적용 가능하며, 시스템 모드로 설정해 둔 경우 고객의 시스템(브라우저) 설정을 따라가게 됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "자체 개발 사이트라면 API를 활용하여 데스크 설정보다 더 우선적으로 적용되는 테마를 지정할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/115/usermedia/662b10a22ffa78bffdbf"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "데스크탑"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "PC 웹 사이트에서 보여지는 채널톡 버튼을 설정해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [일반 설정] - [버튼 설치 및 설정] - [웹 버튼 설정] - [데스크탑 클릭]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "옵션"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "버튼 숨기기"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "PC 웹 사이트에서 채널톡 버튼을 숨길 수 있어요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "위치 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "사이트의 왼쪽 / 오른쪽에 버튼을 위치하도록 설정해요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "위치 조정"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상하 / 좌우 일정 범위 내로 위치 조절이 가능해요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "채널톡버튼설정_5_데스크탑.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/15290/usermedia/6687965bd36377ba4829",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모바일 웹"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "모바일 웹에서 보여지는 채널톡 버튼을 설정해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [일반 설정] - [버튼 설치 및 설정] - [웹 버튼 설정] - [모바일 웹 클릭]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "옵션"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "버튼 숨기기"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "모바일 웹에서 채널톡 버튼을 숨길 수 있어요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "위치"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "사이트의 왼쪽 / 오른쪽에 버튼을 위치하도록 설정해요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "위치 조정"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상하 / 좌우 일정 범위 내로 위치 조절이 가능해요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "버블 위치"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "모바일에서 노출되는 푸시 메시지 및 마케팅 버블 메시지의 위치를 설정할 수 있어요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "채널톡버튼설정_6_모바일웹.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/15290/usermedia/668796857b8e6ece0354",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기타 설정 (화이트리스트)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "특정 페이지에서만 채널톡 버튼이 노출되길 원한다면 화이트리스트를 설정해주세요. 화이트리스트에 채널톡이 보여지길 원하시는 도메인을 입력하면 해당 도메인에서만 버튼이 노출됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "도메인 입력 시, http 또는 https 를 제외한 나머지 주소를 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/40/revisions/115/usermedia/662b10a2b3778c904931"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "입력한 문자열이 포함된 모든 도메인에 적용됩니다. \n적용하고 싶은 페이지가 많을 경우, 공통적으로 포함되는 문자열만 입력하면 한 번에 여러 페이지에 적용할 수 있어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ebe172433fc405c",
+  "linked_faqs": [
+    {
+      "id": "51251",
+      "question": "라벨 버튼이 항상 노출되면 좋겠어요.",
+      "answer_plaintext": "라벨 버튼은 고객이 처음 사이트에 방문했을 때 채팅 버튼을 인지하도록 세션당 최초 1회 노출됩니다.\n\n작동 방식\n- 첫 접속 시 라벨 버튼이 노출됩니다.\n- 10초 후 유저가 스크롤, 새로고침, 페이지 이동을 하면 기본 버튼으로 변경됩니다.\n- 라벨 버튼을 클릭하거나 닫기를 누르면 기본 버튼으로 변경됩니다.\n- 브라우저를 닫고 다시 열면 라벨 버튼이 다시 보이지만, 쿠키가 남아 있다면 이후 방문 시 노출되지 않습니다. (다른 브라우저·기기에서는 다시 보임)\n\n채널톡은 기업과 고객 간 원활한 커뮤니케이션을 돕는 것을 목표로 하며, 사이트의 심미성과 자연스러운 브라우징 경험을 중요하게 생각합니다. 라벨 버튼이 반복적으로 부각되지 않도록 하여 고객의 웹사이트 이용 경험을 해치지 않으면서도 채팅 기능을 인지할 수 있도록 설계되었습니다."
+    },
+    {
+      "id": "51252",
+      "question": "라벨 버튼을 설정했는데 보이지 않아요.",
+      "answer_plaintext": "라벨 버튼은 기본 버튼을 사용 중이거나 버튼 디자인을 아이콘 또는 커스텀하여 설정한 경우 이용할 수 있어요. 다만, 운영 시간이 부재중이거나, 운영중 상태에서도 응답 속도가 지연인 경우 라벨 버튼이 보이지 않습니다.\n또한 다음과 같은 경우에는 라벨 버튼이 적용되지 않아요.\n- 모바일 네이티브 SDK・의 경우\n- CSS를 통해 버튼 커스텀한 경우\n- 업데이트 이전 버전의 커스텀 버튼을 이용하고 있는 경우"
+    },
+    {
+      "id": "51253",
+      "question": "라벨 버튼에 팀 멤버 프로필 이미지가 보이지 않아요.",
+      "answer_plaintext": "팀 멤버 후보가 1명이거나 팀 멤버가 채널 프로필로 응대하고 있다면 라벨 버튼에 매니저 프로필이 노출되지 않아요. 즉, 매니저 프로필을 보여줄 수 없을 때는 라벨 버튼에 텍스트 문구만 노출이 됩니다. 또한 모바일 웹에서도 매니저 프로필은 노출되지 않아요.\n[팀 멤버 프로필 노출 후보]\n- 채널 프로필로 응대 OFF이고,\n- 담당자 없는 채팅 알림 받기 ON이고,\n- 오퍼레이더 리더보드 점수 높은 순"
+    },
+    {
+      "id": "51254",
+      "question": "PC에서 채널톡 버튼이 보이지 않아요.",
+      "answer_plaintext": "1. [채널 설정] - [일반 설정] - [버튼 설치 및 설정] - [웹 버튼 설정] 내 '버튼 숨기기'가 켜져있다면 버튼이 보이지 않습니다. 해당 설정이 켜져 있는지 확인해 주세요\n2. [채널 설정 ] - [상담] - [운영]에 설정해 둔 운영시간에서 부재중 운영 상태를 '새로운 채팅 받지 않기'로 설정해 두셨다면, 비운영 상태일 때 채팅 버튼이 보이지 않게 됩니다. 해당 설정을 확인 부탁드려요.\n3. [채널 설정] → [일반 설정] → [버튼 설치 및 설정] → [고급 설정]의 화이트리스트가 설정되어 있는지 확인해 주세요. 화이트리스트에 추가한 URL에서만 채널톡 버튼이 노출됩니다."
+    },
+    {
+      "id": "51255",
+      "question": "모바일에서 채널톡 버튼이 안보여요.",
+      "answer_plaintext": "[채널 설정] → [일반 설정] → [버튼 설치 및 설정] → [버튼 설정] → [모바일 웹]에서 [모바일에서 버튼 숨기기]가 설정되어 있는지 확인해주세요."
+    },
+    {
+      "id": "51256",
+      "question": "사이트에 로그인 했을 때 채널톡 버튼이 보이지 않아요.",
+      "answer_plaintext": "[채널 설정] → [보안 및 개발] → [고객 정보 암호화]가 설정되어 있는지 확인 부탁드려요. 이 설정은 카페24, 워드프레스, 메이크샵을 제외한 다른 빌더사에서는 정상 작동하지 않아요."
+    }
+  ],
+  "faq_count": 6
+}

@@ -1,0 +1,225 @@
+{
+  "id": "314",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0-54057ffd",
+  "title": "스페이스 만들기",
+  "summary": "새로운 스페이스를 만들고 기본 정보를 설정하는 방법을 알려드려요.",
+  "plaintext": "스페이스 만들기\n스페이스가 없는 경우: 도큐먼트 화면 중앙의 '스페이스 만들기' 버튼을 클릭하여 만들 수 있어요\n스페이스가 있는 경우: 도큐먼트 사이드 바 상단의 스페이스 리스트 클릭 후 '새 스페이스 만들기' 버튼을 클릭하여 만들 수 있어요.\n스페이스 기본 정보 입력하기\n언어\n스페이스 내 아티클, 카테고리명, SEO 등의 번역을 어떤 언어로 관리할지 설정할 수 있으며, 기본 언어와 추가 언어로 구분돼요.\n기본 언어: 스페이스의 기준이 되는 언어예요. 특정 단어에 번역이 없는 경우 기본 언어로 표시돼요.\n추가 언어: 추가로 지원하는 언어로 언제든지 기본 언어로 변경할 수 있어요.\n스페이스명\n웹사이트 헤더 영역에 타이틀로 표기되어 고객에게 보여요. 언어 무관하게 공백 포함 25자까지 입력할 수 있어요.\n기본 URL\n스페이스를 웹사이트로 퍼블리시할 경우 사용하게 되는 기본 URL이에요. 스페이스를 먼저 생성한 후 스페이스 설정 메뉴를 통해 도메인을 커스텀할 수 있어요. 4글자 이상 16글자 이하로 입력해 주세요. (알파벳, 숫자, 하이픈(-), 언더바(_) 입력 허용)",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "스페이스 만들기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "새로운스페이스만들기2.jpg",
+        "height": "626px",
+        "mime": "image/jpeg",
+        "src": "https://cf.channel.io/document/spaces/6/articles/314/revisions/498216/usermedia/68a83bd985536104bd68",
+        "width": "1200px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "스페이스가 없는 경우: 도큐먼트 화면 중앙의 '스페이스 만들기' 버튼을 클릭하여 만들 수 있어요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "스페이스가 있는 경우: 도큐먼트 사이드 바 상단의 스페이스 리스트 클릭 후 '새 스페이스 만들기' 버튼을 클릭하여 만들 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "스페이스 기본 정보 입력하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "기본정보.jpg",
+        "height": "939px",
+        "mime": "image/jpeg",
+        "src": "https://cf.channel.io/document/spaces/6/articles/314/revisions/1021/usermedia/666e7168c8111bec5b36",
+        "width": "1800px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "언어 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "스페이스 내 아티클, 카테고리명, SEO 등의 번역을 어떤 언어로 관리할지 설정할 수 있으며, 기본 언어와 추가 언어로 구분돼요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "기본 언어: 스페이스의 기준이 되는 언어예요. 특정 단어에 번역이 없는 경우 기본 언어로 표시돼요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "추가 언어: 추가로 지원하는 언어로 언제든지 기본 언어로 변경할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "스페이스명 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "웹사이트 헤더 영역에 타이틀로 표기되어 고객에게 보여요. 언어 무관하게 공백 포함 25자까지 입력할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기본 URL"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "스페이스를 웹사이트로 퍼블리시할 경우 사용하게 되는 기본 URL이에요. 스페이스를 먼저 생성한 후 스페이스 설정 메뉴를 통해 도메인을 커스텀할 수 있어요. 4글자 이상 16글자 이하로 입력해 주세요. (알파벳, 숫자, 하이픈(-), 언더바(_) 입력 허용) "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "  "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "102",
+    "name": "Carol",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/667e466eb0c5d69d7303",
+  "linked_faqs": [],
+  "faq_count": 0
+}

@@ -1,0 +1,3570 @@
+{
+  "id": "105",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%98%A4%ED%8D%BC%EB%A0%88%EC%9D%B4%ED%84%B0-19f891ce",
+  "title": "오퍼레이터",
+  "summary": "상담을 진행하는 팀 멤버에게 오퍼레이터 시트를 부여하고, 실시간 상담 현황을 모니터링하고 관리할 수 있어요.",
+  "plaintext": "영상으로 배우고 싶다면?\n오퍼레이터 시트란\n상담의 담당자가되어 전문적으로 상담을 진행하고 관리하기 위해서는 '오퍼레이터 시트'를 켜서 이용해야 합니다.\n오퍼레이터 시트를 활성화하여 설정한 경우\n전화, 채팅 상담의 '담당자'가 될 수 있어요.(기본 시트의 팀 멤버는 '팔로워'로만 참여 가능)\n다른 팀 멤버를 상담의 '팔로워'로 추가할 수 있어요.\n채널 프로필로 응대할 수 있어요.(기본 시트의 팀 멤버는 채널 프로필로 응대를 켜도 팀 멤버 프로필로 응대)\n오퍼레이터 시트 설정하기\n오퍼레이터 시트 설정 방법: [\n분석]\n- [오퍼레이터] 페이지에서\n오퍼레이터\n항목을 On/Off하여 설정할 수 있습니다.\n오퍼레이터 시트 설정 유의사항\n오퍼레이터 관리 권한이 있는 팀 멤버만 설정이 가능합니다.\n(→ 권한 설정하기)\n기본 제공량을 초과하여 시트를 사용하는 경우 비용이 발생합니다. (\n→ 단가 확인하기\n)\n오퍼레이터 시트는 활성화와 동시에 사용량으로 측정되며, 활성화된 시트를 다른 팀 멤버가 대체하여 사용할 수 없습니다.(사용량은 매월 결제일에 초기화됩니다.)\n오퍼레이터 시트가 켜져있고 헤드셋 아이콘이 초록색인 팀 멤버\n오퍼레이터 시트를 켜서 이용 중인 팀 멤버예요.(오퍼레이터 사용량 +1)\n오퍼레이터 시트가 꺼져있고 헤드셋 아이콘이 초록색인 팀 멤버\n지금은 오퍼레이터 시트가 꺼져있지만 이번 사용 주기 내 한 번이라도 오퍼레이터 시트를 켠적 있는 팀 멤버예요.(오퍼레이터 사용량 +1)\n헤드셋 아이콘이 없는 팀 멤버\n이번 사용 주기에 오퍼레이터 시트를 \b한 번도 켠적 없는 팀 멤버예요. 오퍼레이터 시트를 켜지 않으면 오퍼레이터 시트 사용량에 영향을 주지 않아요.\n현재 오퍼레이터\n현재 오퍼레이터 시트를 켠 상태인\n팀 멤버\n수가 표기됩니다.\n헤드셋 아이콘\n아이콘에 마우스를 올리면 이번 사용 주기의 오퍼레이터 사용량과 한도를 확인할 수 있어요.\n초록색 헤드셋: 시스템 한도 또는 수동으로 설정된 한도 이내로 이용중인 경우입니다.\n주황색 헤드셋: 시스템 한도 또는 수동으로 설정된 한도보다 초과한 경우입니다.\n오퍼레이터 상태\n오퍼레이터 상태를 통해 팀 멤버의 상태와 상담 가능 여부를 한눈에 파악할 수 있어요.\n설정 경로: 수신함 좌측 최하단 상태창 클릭 또는 [개인 설정] - [오퍼레이터]를 통해 개인별로 오퍼레이터 상태를 설정해볼 수 있어요.\n오퍼레이터 시트를 켜면 반드시 하나의 오퍼레이터 상태를 가지게 됩니다.\n(직전 오퍼레이터 상태로 자동 설정됩니다.)\n오퍼레이터 상태는 응대 중/자리 비움/근무 종료로 구분되며 각 상태는 더 세밀한 유형으로 나눠집니다.\n응대 중\n현재 상담이 가능한 상태라면 오퍼레이터 상태를 '응대 중'으로 설정해 주세요. 오퍼레이터 상태가 '응대 중'인 경우에는 팀 멤버의 동작에 따라 자동으로 오퍼레이터 상태 유형 변경되며 유형에 따라 상담 자동 배정이 되거나 되지 않을 수 있어요.\n유형\n정의\n전화 상담 자동 배정\n채팅 상담 자동 배정\n통화 중\n고객과 통화 중인 상태\nX(불가)\n통화 중 채팅 배정이 켜져있으면 가능(아니면 불가)\n미트 중\n고객과 음성/영상 미트 중인 상태\nX(불가)\n통화 중 채팅 배정이 켜져있으면 가능(아니면 불가)\n전화 후처리 중\n통화는 종료하였으나 수신함에 진행중인 전화 유형의 상담이 있는 상태\nX(불가)\n통화 중 채팅 배정이 켜져있으면 가능(아니면 불가)\n채팅 중\n수신함에서 최근 5분 이내 메시지를 전송(내부 대화 포함)하거나 상담 정보를 변경한 상태\nO(가능)\nO(가능)\n대기 중\n통화 중, 미트 중, 전화 후처리 중, 채팅 중에 모두 해당하지 않는 상태\nO(가능)\nO(가능)\n단, 통화 중, 미트 중, 전화 후처리 중인 경우에도 '통화 중 채팅 배정'이 켜져있는 경우 채팅 자동 배정은 동작합니다.\n응대 중 상태인 경우 유형별 경과 시간 및 누적 시간이 기록됩니다.\n여러 조건을 동시에 충족하는 경우, 우선 순위가 더 높은 순으로 표기됩니다.\n우선 순위: 통화 중 > 미트 중 > 전화 후처리 중 > 채팅 중 > 대기 중\n(예를 들어 채팅 중 상태에서 전화를 받아 통화 중이된 경우 통화 중으로 표시됩니다.)\n자리 비움\n근무 시간이지만 점심, 회의 등 사유로 자리를 비워 상담 자동 배정을 받지 않을 때는 오퍼레이터 상태를 '자리 비움'으로 설정하고 유형을 수동으로 선택해 주세요.\n유형\n상담 자동 배정\n유형별 경과 및 누적 시간 기록\n식사 중, 휴식 중, 회의 중, 교육 중, 다른 업무 중\nX(불가)\nO(기록 됨)\n근무 종료\n퇴근 및 근무 외 시간으로 상담 자동 배정을 받지 않을 때는 오퍼레이터 상태를 '근무 종료'로 설정하고 유형을 수동으로 설정해 주세요.\n유형\n상담 자동 배정 가능\n유형별 경과 및 누적 시간 기록\n퇴근, 휴가 중\nX(불가)\nX(기록 안 됨)\n오퍼레이터 현황\n관리자가 팀 멤버의 상태를 확인하거나 편집하며 관리할 수 있는 화면이에요. 대기 중인 전화 상담이 많은 경우 응대 중인 상담원을 늘리거나, 담당할 상담 유형을 채팅에서 전화로 변경하며 효율적으로 팀을 운영할 수 있게 돕습니다.\n오퍼레이터 시트 켬 + 응대 중인 상태인 팀 멤버 > 오퍼레이터 시트 켬 + 자리 비움 또는 근무 종료 상태인 팀 멤버 > 오퍼레이터 시트 끔 팀 멤버 순서로 보입니다. (동일 조건인 경우 문자열 정렬)\n오퍼레이터 관리하기\n오퍼레이터 관리 권한이 '모든 팀 멤버'인 관리자는 다른 팀 멤버의 상태, 상담 유형 등을 편집할 수 있어요.\n(→ 권한 설정하기)\n편집 가능한 항목: 상태, 상담 유형, 최대 자동 배정 수, 오퍼레이터(오퍼레이터 시트)\n관리자가 상태를 변경하는 시점에 팀 멤버가 통화중이라도 진행중인 전화가 끊어지지 않습니다. 진행 중인 전화까지는 정상 연결되며 다음 전화부터 관리자 설정에 따라 동작합니다.\n데이터 항목별 의미\n2025년 1월 17일 업데이트 이후 데이터부터 수집됩니다.\n항목\n의미\n비고\n상태\n해당 팀 멤버의 현재 상태\n상태 시간\n해당 팀 멤버의 상태가 변경된 이후 누적된 시간\n상담 유형\n해당 팀 멤버에게 배정이 허용된 상담 유형\n최대 자동 배정 수\n해당 팀 멤버에게 설정된 '채팅' 최대 자동 배정 수\n'전화' 최대 자동 배정 수는 1개로 고정됩니다.\n오퍼레이터\n오퍼레이터 시트 활성화 여부\n오퍼레이터 누적\n팀 멤버\n별 담당 전화 수, 통화 시간, 상태 시간을 비교해서 성과를 측정할 수 있어요.\n팀 멤버\n이름 기준 문자열 순서로 정렬됩니다.\n설정한 기간 동한 집계된 누적 값이 하나라도 존재하는\n팀 멤버\n만 노출됩니다.\n필터 자세히 보기\n기간 : 원하는 기간을 설정해서 볼 수 있어요.\n시간: 하루 시간 중 원하는 시간대만 필터링해서 볼 수 있어요.\n데이터 다운로드: 설정한 기간 동안 누적 데이터를 다운로드하여 확인할 수 있어요.\n보기 설정: 필요한 데이터만 선택해서 볼 수 있어요.\n데이터 항목별 의미\n2025년 1월 17일 업데이트 이후 데이터부터 수집됩니다.\n누적 데이터는 통화 시간 데이터와 오퍼레이터 상태 시간 데이터로 구분됩니다.\n항목\n의미\n구분\n담당 전화 수\n설정한 기간동안 '담당자'로 참여한 전화 상담 수\n통화 시간 데이터\n수신 전화\n설정한 기간동안 '담당자'로 참여한 수신 전화 상담 수\n통화 시간 데이터\n발신 전화\n설정한 기간동안 '담당자'로 참여한 발신 전화 상담 수\n통화 시간 데이터\n부재중 전화\n설정한 기간동안 '담당자'로 참여한 부재중 전화 상담 수\n(부재중 수신 건만 포함)\n통화 시간 데이터\n통화 시간\n설정한 기간동안 '담당자'로 참여한 전화 상담 통화 시간\n통화 시간 데이터\n평균 통화 시간\n설정한 기간동안 '담당자'로 참여한 전화 상담 통화 시간의 평균 값\n통화 시간 데이터\n평균 후처리 시간\n설정한 기간동안 '담당자'로 참여한 전화 상담의 후처리 시간\n*후처리 시간 = 통화 종료 후 상담 종료까지 걸린 시간\n통화 시간 데이터\n총 통화 수\n설정한 기간동안 '담당자' 또는 '팔로워'로 참여한 모든 전화 상담 수\n통화 시간 데이터\n총 통화 시간\n설정한 기간동안 '담당자' 또는 '팔로워'로 참여한 전화 상담의 통화의 시간\n통화 시간 데이터\n통화 중\n설정한 기간동안 '통화 중'인 상태의 누적 시간\n상태 시간 데이터\n대기 중\n설정한 기간동안 '대기 중'인 상태의 누적 시간\n상태 시간 데이터\n채팅 중\n설정한 기간동안 '채팅 중'인 상태의 누적 시간\n상태 시간 데이터\n전화 후처리 중\n설정한 기간동안 '전화 후처리 중'인 상태의 누적 시간\n상태 시간 데이터\n미트 중\n설정한 기간동안 '미트 중(전화 제외한)'인 상태의 누적 시간\n상태 시간 데이터\n식사 중\n설정한 기간동안 '식사 중'인 상태의 누적 시간\n상태 시간 데이터\n휴식 중\n설정한 기간동안 '휴식 중'인 상태의 누적 시간\n상태 시간 데이터\n회의 중\n설정한 기간동안 '회의 중'인 상태의 누적 시간\n상태 시간 데이터\n교육 중\n설정한 기간동안 '교육 중'인 상태의 누적 시간\n상태 시간 데이터\n다른 업무 중\n설정한 기간동안 '다른 업무 중'인 상태의 누적 시간\n상태 시간 데이터\n'통화 중' 또는 '미트 중'인 팀 멤버의 오퍼레이터 상태를 수동으로 바꾼 경우, '통화 시간'과 ‘통화 중’ 시간에 오차가 발생할 수 있어요.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "checkered_flag"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 영상으로 배우고 싶다면?"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "description": "• 소요 시간: 1분 • 난이도: 하",
+        "favicon": "https://cf.channel.io/thumb/200x200/pub-file/1/65fc447a2a0848daf5ec/tmp-2092756089",
+        "href": "https://docs.channel.io/channelcampus/ko/articles/상담원-상태-설정하기-c6dbed95",
+        "imageUrl": "https://cf.channel.io/thumb/1400x732,cover,webp/web_page/1/68ad8ade508800a69c69/tmp-3396349918.png",
+        "title": "상담원 상태 설정하기"
+      },
+      "type": "webPage"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 시트란"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "상담의 담당자가되어 전문적으로 상담을 진행하고 관리하기 위해서는 '오퍼레이터 시트'를 켜서 이용해야 합니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 시트를 활성화하여 설정한 경우"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화, 채팅 상담의 '담당자'가 될 수 있어요.(기본 시트의 팀 멤버는 '팔로워'로만 참여 가능) "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "다른 팀 멤버를 상담의 '팔로워'로 추가할 수 있어요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널 프로필로 응대할 수 있어요.(기본 시트의 팀 멤버는 채널 프로필로 응대를 켜도 팀 멤버 프로필로 응대) "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 시트 설정하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 시트 설정 방법: ["
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "분석] "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "- [오퍼레이터] 페이지에서 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "오퍼레이터"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 항목을 On/Off하여 설정할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "오퍼레이터 시트 설정 유의사항"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "오퍼레이터 관리 권한이 있는 팀 멤버만 설정이 가능합니다. "
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "(→ 권한 설정하기)"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "href": "https://docs.channel.io/help/ko/articles/0cdd2005"
+                          },
+                          "type": "hyperlink"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "기본 제공량을 초과하여 시트를 사용하는 경우 비용이 발생합니다. ("
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "→ 단가 확인하기"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "href": "https://docs.channel.io/help/ko/articles/%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%EB%8F%85-df0f42a5#%EC%82%AC%EC%9A%A9%EB%9F%89"
+                          },
+                          "type": "hyperlink"
+                        }
+                      ],
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": ")"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "오퍼레이터 시트는 활성화와 동시에 사용량으로 측정되며, 활성화된 시트를 다른 팀 멤버가 대체하여 사용할 수 없습니다.(사용량은 매월 결제일에 초기화됩니다.) "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": "오퍼레이터_gnb 대응 (1).png",
+        "height": "778px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/105/revisions/905158/usermedia/695f385c641d868156db",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 시트가 켜져있고 헤드셋 아이콘이 초록색인 팀 멤버"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "오퍼레이터 시트를 켜서 이용 중인 팀 멤버예요.(오퍼레이터 사용량 +1) "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 시트가 꺼져있고 헤드셋 아이콘이 초록색인 팀 멤버"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "지금은 오퍼레이터 시트가 꺼져있지만 이번 사용 주기 내 한 번이라도 오퍼레이터 시트를 켠적 있는 팀 멤버예요.(오퍼레이터 사용량 +1) "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "헤드셋 아이콘이 없는 팀 멤버"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이번 사용 주기에 오퍼레이터 시트를 \b한 번도 켠적 없는 팀 멤버예요. 오퍼레이터 시트를 켜지 않으면 오퍼레이터 시트 사용량에 영향을 주지 않아요. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "현재 오퍼레이터 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "현재 오퍼레이터 시트를 켠 상태인 "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "팀 멤버"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 수가 표기됩니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "헤드셋 아이콘"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "아이콘에 마우스를 올리면 이번 사용 주기의 오퍼레이터 사용량과 한도를 확인할 수 있어요. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "초록색 헤드셋: 시스템 한도 또는 수동으로 설정된 한도 이내로 이용중인 경우입니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "주황색 헤드셋: 시스템 한도 또는 수동으로 설정된 한도보다 초과한 경우입니다. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 상태"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 상태를 통해 팀 멤버의 상태와 상담 가능 여부를 한눈에 파악할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "오퍼레이터_오퍼레이터 상태 (2).png",
+        "height": "778px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/105/revisions/139422/usermedia/6786357f550dbd147a71",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: 수신함 좌측 최하단 상태창 클릭 또는 [개인 설정] - [오퍼레이터]를 통해 개인별로 오퍼레이터 상태를 설정해볼 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 시트를 켜면 반드시 하나의 오퍼레이터 상태를 가지게 됩니다."
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "(직전 오퍼레이터 상태로 자동 설정됩니다.)"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 상태는 응대 중/자리 비움/근무 종료로 구분되며 각 상태는 더 세밀한 유형으로 나눠집니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "응대 중"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "현재 상담이 가능한 상태라면 오퍼레이터 상태를 '응대 중'으로 설정해 주세요. 오퍼레이터 상태가 '응대 중'인 경우에는 팀 멤버의 동작에 따라 자동으로 오퍼레이터 상태 유형 변경되며 유형에 따라 상담 자동 배정이 되거나 되지 않을 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유형"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "정의"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전화 상담 자동 배정"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채팅 상담 자동 배정"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객과 통화 중인 상태"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X(불가)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 중 채팅 배정이 켜져있으면 가능(아니면 불가)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "미트 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객과 음성/영상 미트 중인 상태"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X(불가)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 중 채팅 배정이 켜져있으면 가능(아니면 불가)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전화 후처리 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화는 종료하였으나 수신함에 진행중인 전화 유형의 상담이 있는 상태"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X(불가)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 중 채팅 배정이 켜져있으면 가능(아니면 불가)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채팅 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "수신함에서 최근 5분 이내 메시지를 전송(내부 대화 포함)하거나 상담 정보를 변경한 상태"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O(가능)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O(가능)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "대기 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 중, 미트 중, 전화 후처리 중, 채팅 중에 모두 해당하지 않는 상태"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O(가능)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O(가능)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단, 통화 중, 미트 중, 전화 후처리 중인 경우에도 '통화 중 채팅 배정'이 켜져있는 경우 채팅 자동 배정은 동작합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "응대 중 상태인 경우 유형별 경과 시간 및 누적 시간이 기록됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "여러 조건을 동시에 충족하는 경우, 우선 순위가 더 높은 순으로 표기됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "우선 순위: 통화 중 > 미트 중 > 전화 후처리 중 > 채팅 중 > 대기 중"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "(예를 들어 채팅 중 상태에서 전화를 받아 통화 중이된 경우 통화 중으로 표시됩니다.) "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "자리 비움"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "근무 시간이지만 점심, 회의 등 사유로 자리를 비워 상담 자동 배정을 받지 않을 때는 오퍼레이터 상태를 '자리 비움'으로 설정하고 유형을 수동으로 선택해 주세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유형"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 자동 배정"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유형별 경과 및 누적 시간 기록"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "식사 중, 휴식 중, 회의 중, 교육 중, 다른 업무 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X(불가)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "O(기록 됨)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "근무 종료"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "퇴근 및 근무 외 시간으로 상담 자동 배정을 받지 않을 때는 오퍼레이터 상태를 '근무 종료'로 설정하고 유형을 수동으로 설정해 주세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유형"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 자동 배정 가능"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유형별 경과 및 누적 시간 기록"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "퇴근, 휴가 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X(불가)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "X(기록 안 됨)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 현황 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "관리자가 팀 멤버의 상태를 확인하거나 편집하며 관리할 수 있는 화면이에요. 대기 중인 전화 상담이 많은 경우 응대 중인 상담원을 늘리거나, 담당할 상담 유형을 채팅에서 전화로 변경하며 효율적으로 팀을 운영할 수 있게 돕습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "오퍼레이터_오퍼레이터 현황_gnb 대응.png",
+        "height": "778px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/105/revisions/905158/usermedia/695f38dec65f855f4ba7",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "오퍼레이터 시트 켬 + 응대 중인 상태인 팀 멤버 > 오퍼레이터 시트 켬 + 자리 비움 또는 근무 종료 상태인 팀 멤버 > 오퍼레이터 시트 끔 팀 멤버 순서로 보입니다. (동일 조건인 경우 문자열 정렬)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 관리하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 관리 권한이 '모든 팀 멤버'인 관리자는 다른 팀 멤버의 상태, 상담 유형 등을 편집할 수 있어요. "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 권한 설정하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/0cdd2005"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "편집 가능한 항목: 상태, 상담 유형, 최대 자동 배정 수, 오퍼레이터(오퍼레이터 시트)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "관리자가 상태를 변경하는 시점에 팀 멤버가 통화중이라도 진행중인 전화가 끊어지지 않습니다. 진행 중인 전화까지는 정상 연결되며 다음 전화부터 관리자 설정에 따라 동작합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "데이터 항목별 의미"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2025년 1월 17일 업데이트 이후 데이터부터 수집됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "항목"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "의미"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비고"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "해당 팀 멤버의 현재 상태"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "해당 팀 멤버의 상태가 변경된 이후 누적된 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 유형"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "해당 팀 멤버에게 배정이 허용된 상담 유형"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "최대 자동 배정 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "해당 팀 멤버에게 설정된 '채팅' 최대 자동 배정 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "'전화' 최대 자동 배정 수는 1개로 고정됩니다. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "오퍼레이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "오퍼레이터 시트 활성화 여부"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "오퍼레이터 누적"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "별 담당 전화 수, 통화 시간, 상태 시간을 비교해서 성과를 측정할 수 있어요. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "오퍼레이터_오퍼레이터 누적_gnb 대응.png",
+        "height": "778px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/105/revisions/905158/usermedia/695f394857d5c00a00db",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 멤버"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 이름 기준 문자열 순서로 정렬됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정한 기간 동한 집계된 누적 값이 하나라도 존재하는 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "팀 멤버"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "만 노출됩니다."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필터 자세히 보기 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "start": 1
+              },
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "기간 : 원하는 기간을 설정해서 볼 수 있어요. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "시간: 하루 시간 중 원하는 시간대만 필터링해서 볼 수 있어요. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "데이터 다운로드: 설정한 기간 동안 누적 데이터를 다운로드하여 확인할 수 있어요. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "보기 설정: 필요한 데이터만 선택해서 볼 수 있어요. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "orderedList"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "데이터 항목별 의미"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "2025년 1월 17일 업데이트 이후 데이터부터 수집됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "누적 데이터는 통화 시간 데이터와 오퍼레이터 상태 시간 데이터로 구분됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "항목"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "의미 "
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "구분"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "담당 전화 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '담당자'로 참여한 전화 상담 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "수신 전화"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '담당자'로 참여한 수신 전화 상담 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "발신 전화"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '담당자'로 참여한 발신 전화 상담 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "부재중 전화"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '담당자'로 참여한 부재중 전화 상담 수"
+                      },
+                      "type": "plain"
+                    },
+                    {
+                      "attrs": {
+                        "text": "(부재중 수신 건만 포함)"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "semanticColor": "bgtxt-red-normal"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '담당자'로 참여한 전화 상담 통화 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "평균 통화 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '담당자'로 참여한 전화 상담 통화 시간의 평균 값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "평균 후처리 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '담당자'로 참여한 전화 상담의 후처리 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "*후처리 시간 = 통화 종료 후 상담 종료까지 걸린 시간 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "총 통화 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '담당자' 또는 '팔로워'로 참여한 모든 전화 상담 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "총 통화 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '담당자' 또는 '팔로워'로 참여한 전화 상담의 통화의 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '통화 중'인 상태의 누적 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "대기 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '대기 중'인 상태의 누적 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채팅 중 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '채팅 중'인 상태의 누적 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "전화 후처리 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '전화 후처리 중'인 상태의 누적 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "미트 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '미트 중(전화 제외한)'인 상태의 누적 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "식사 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '식사 중'인 상태의 누적 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "휴식 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '휴식 중'인 상태의 누적 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "회의 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '회의 중'인 상태의 누적 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "교육 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '교육 중'인 상태의 누적 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "다른 업무 중"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 기간동안 '다른 업무 중'인 상태의 누적 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상태 시간 데이터"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "'통화 중' 또는 '미트 중'인 팀 멤버의 오퍼레이터 상태를 수동으로 바꾼 경우, '통화 시간'과 ‘통화 중’ 시간에 오차가 발생할 수 있어요. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "180",
+    "name": "Hayden",
+    "bio": "Jinyoung Hwang, CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ef3d45281f71a02",
+  "linked_faqs": [
+    {
+      "id": "54269",
+      "question": "채팅 상담이 자동 배정되지 않아요",
+      "answer_plaintext": "✔️오퍼레이터 상태 확인\n- 오퍼레이터 시트가 ON이고, 상태가 ‘응대 중’이어야 합니다. \n- ‘자리 비움’ 또는 ‘응대 종료’ 상태에서는 채팅 상담이 배정되지 않아요.\n✔️상담 유형 선택\n- [개인 설정] → [매니저 설정] → [수신함] → [상담 배정] → [최대 자동 배정 수]에서 ‘채팅’ 유형을 체크합니다.\n✔️진행 중 채팅 수와 최대 자동 배정 수 확인\n- 최대 자동 배정 수가 진행 중 채팅 수보다 커지도록 조정합니다.\n- [개인 설정] → [매니저 설정] → [수신함] → [상담 배정]에서 설정 가능합니다.\n✔️통화 중 채팅 배정\n- ‘전화 후처리중’, ‘통화 중’, ‘미트 중’ 상태에서는 채팅 배정이 안 됩니다. (멀티 채널 포함)\n- 통화중 채팅 배정을 원하면 [매니저 설정] → [수신함] → [상담 배정]에서 설정을 켭니다.\n✔️방해 금지 OFF 확인\n- 방해 금지가 켜져 있으면 알림을 놓칠 수 있으므로, 상담 중에는 OFF로 설정합니다."
+    },
+    {
+      "id": "54274",
+      "question": "전화 상담이 자동 배정되지 않아요",
+      "answer_plaintext": "✔️오퍼레이터 상태 확인\n- 오퍼레이터 시트가 ON이고, 상태가 ‘응대 중’이어야합니다.\n- ‘자리 비움’ 또는 ‘응대 종료’ 상태이면 안돼요.\n✔️세부 유형 확인\n- ‘대기 중’ 또는 ‘채팅 중’이어야 합니다.\n- ‘통화 중’이나 ‘미트 중’이면 통화와 미트를 마무리하세요.\n- ‘전화 후처리 중’이라면 진행 중 전화 상담의 상태값을 종료 처리하세요.\n✔️상담 유형 선택\n- [개인 설정] → [매니저 설정] → [수신함] → [상담 배정]에서 ‘전화’ 유형을 체크합니다.\n✔️멀티 채널 확인\n- 여러 채널에 속해있다면, 채널 왼쪽 하단 [채널 목록] → [멀티 채널 응대] 에서 각 채널의 오퍼레이터 상태를 확인합니다.\n- ‘전화 후처리 중’ 상태인 채널에서 진행 중인 전화 상담을 종료합니다.\n✔️미트 알림 받을 장치\n- [매니저 설정] → [알림] → [수신함 알림] → [미트 알림 받을 장치] 설정을 확인해요.\n✔️방해 금지 OFF 확인\n- 상담 중에는 방해 금지를 OFF합니다."
+    },
+    {
+      "id": "54275",
+      "question": "전화가 안와요. 고객이 전화를 걸어도 모든 상담원이 통화중이라며 자동으로 끊어져요",
+      "answer_plaintext": "모든 상담원이 전화를 받을 수 없는 상황이어서 그렇습니다.\n\n✔️오퍼레이터 상태 확인하기\n- 오퍼레이터 시트가 ON이고, 상태가 ‘응대 중’이어야합니다.\n- ‘자리 비움’ 또는 ‘응대 종료’ 상태에서는 전화가 배정되지 않아요.\n✔️세부 유형 확인 및 변경하기\n오퍼레이터 상태가 ‘응대 중’이어도 세부 유형이 ‘대기 중’ 또는 ‘채팅 중’이 아니라면 전화가 자동 배정되지 않습니다.\n- 세부 유형이 ‘통화 중’인 경우 → 통화를 종료하고 해당 전화 상담을 종료 처리하세요.\n- 세부 유형이 ‘미트 중’인 경우 → 음성 미트 또는 영상 미트를 종료하세요.\n- 세부 유형이 ‘전화 후처리 중’인 경우 → 진행 중인 모든 전화 상담을 종료 처리하세요."
+    },
+    {
+      "id": "54279",
+      "question": "전화 후처리 중 상태에서도 전화 알림을 받을 수 있나요?",
+      "answer_plaintext": "전화 후처리 중 상태에서는 새로운 전화가 인입되지 않습니다.\n전화 상담 자동 배정을 사용하지 않아도, 진행중 상담 목록에 전화 상담이 있으면(후처리 상태) 해당 담당자에게 전화 링이 울리지 않습니다.\n알림을 받으려면 진행 중인 전화 상담을 ‘보류’ 또는 ‘종료’로 변경해야 합니다.\n수동으로 처리하기 어려우시다면, ‘전화가 종료되었을 때’를 트리거로 하는 자동 종료 워크플로우를 설정해 보세요.\n- 트리거: 전화가 종료되었을 때\n- 필터링: 상담 정보 - 부재중 전화 사유 - 값이 없음\n- 액션: '상담 종료'\n\n혹은 [채널 설정] - [미트] - [전화] - [전화 후처리]에서 전화 후처리를 끄면 통화 종료 후 후처리 상태 없이 상담이 즉시 종료됩니다."
+    },
+    {
+      "id": "54280",
+      "question": "오퍼레이터 상태 기능을 아예 OFF할 수 있나요?",
+      "answer_plaintext": "현재는 오퍼레이터 상태 기능 자체를 끄는 옵션은 지원되지 않습니다.\n대신, 오퍼레이터 상태를 응대 종료 → 퇴근 상태로 변경하여 사용하실 수 있어요."
+    },
+    {
+      "id": "54281",
+      "question": "방해 금지 모드를 켰는데, 상담이 자동 배정 됩니다",
+      "answer_plaintext": "오퍼레이터 상태 기능 출시와 함께 '방해 금지'는 더 이상 상담 자동 배정에 영향을 주지 않으며, 푸시 알림을 받을지 말지를 선택하는 기능만 하게 됩니다.\n따라서 상담 자동 배정을 받지 않으시려면, 오퍼레이터 상태를 '자리 비움' 또는 '응대 종료'로 변경해 주시기 바랍니다.\n또는 오퍼레이터 시트를 끄거나 상담 유형(채팅, 전화)를 끄는 방법으로도 자동 배정을 받지 않을 수도 있어요."
+    },
+    {
+      "id": "54282",
+      "question": "담당자 없는 채팅 알림이 안 들어와요",
+      "answer_plaintext": "✔️상담 유형을 ‘채팅’으로 선택\n- [개인 설정] → [매니저 설정] → [수신함] → [상담 배정] → [상담 유형]에서 ‘채팅’ 유형을 체크합니다.\n✔️담당자 없음 알림 확인하기\n- [개인 설정] → [매니저 설정] → [알림] → [수신함 알림] → [담당자 없음 알림]을 켭니다.\n✔️진행 중인 전화 상담 확인하기\n- 멀티 채널을 포함하여 진행중 전화 상담이 0개인지 확인합니다. 1개라도 있다면, 해당 상담의 상태값을 종료 처리 합니다.\n✔️방해 금지가 꺼졌는지 확인하기\n- 방해 금지를 켜둔 경우, 알림이 울리지 않아 놓칠 수 있어요. 상담 중에는 방해 금지를 OFF합니다.\n\n💡 참고: 오퍼레이터 시트를 OFF하여도 위 조건을 모두 만족하면, 담당자 없는 채팅 알림이 들어옵니다."
+    },
+    {
+      "id": "54284",
+      "question": "담당자 없는 전화 알림이 안 들어와요",
+      "answer_plaintext": "✔️상담 유형을 ‘전화’로 선택\n- [개인 설정] → [매니저 설정] → [수신함] → [상담 배정] → [상담 유형]에서 ‘전화’ 유형을 체크합니다.\n✔️담당자 없음 알림 확인하기\n- [개인 설정] → [매니저 설정] → [알림] → [수신함 알림] → [담당자 없음 알림]을 켭니다.\n✔️미트 알림 받을 장치 설정 확인하기\n- [매니저 설정] → [알림] → [수신함 알림] → [미트 알림 받을 장치]가 선택되어있는지 확인합니다.\n✔️방해 금지가 꺼졌는지 확인하기\n- 방해 금지를 켜둔 경우, 알림이 울리지 않아 놓칠 수 있어요. 상담 중에는 방해 금지를 OFF합니다."
+    },
+    {
+      "id": "54285",
+      "question": "최대 자동 배정 개수를 초과하여 상담 중인데, 전화가 자동 배정 됩니다",
+      "answer_plaintext": "진행 중인 채팅 상담이 최대 자동 배정 수를 넘겨도 전화 상담은 자동 배정될 수 있어요. \n그 이유는 채팅 상담과 전화 상담의 최대 자동 배정 수가 별도로 설정되기 때문입니다. \n- 전화 상담의 최대 자동 배정 수는 1개로 고정\n- 채팅 상담은 설정된 최대 자동 배정 수를 기준으로 배정"
+    },
+    {
+      "id": "54286",
+      "question": "오퍼레이터 상태를 자동으로 변경할 수 있나요?(스케쥴링)",
+      "answer_plaintext": "아쉽지만 오퍼레이터 상태를 자동으로 변경하는 기능은 제공되지 않아요. \n꼭 필요한 기능이라면 채널팀으로 피드백을 전달해 주세요."
+    },
+    {
+      "id": "54287",
+      "question": "오퍼레이터 상태의 종류를 추가하거나 이름을 변경할 수 있나요?",
+      "answer_plaintext": "아쉽지만 오퍼레이터 상태를 직접 커스텀하실 수는 없어요. \n꼭 필요한 기능이라면 채널팀으로 피드백을 전달해 주세요."
+    }
+  ],
+  "faq_count": 11
+}

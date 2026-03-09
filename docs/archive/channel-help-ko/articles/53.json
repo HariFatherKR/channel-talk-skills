@@ -1,0 +1,930 @@
+{
+  "id": "53",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%9D%BC%EC%9D%B8-1af80f96",
+  "title": "라인",
+  "summary": "라인과 채널톡을 연동해보세요. 고객이 라인으로 보낸 메시지를 채널톡에서 응대할 수 있어 채널톡 하나로 고객문의를 관리할 수 있습니다.",
+  "plaintext": "라인 계정 만들기\nLINE\nDevelopers에 접속\nLINE Developers\n에 접속해서 로그인 / 회원가입을 해주세요.\n연동을 위해서는 라인 공식 계정 등록이 필요합니다.\nProvider\n생성\n[Create] 버튼을 눌러 Provider를 생성해주세요.\nProvider name을 적어주세요. 특수 문자는 제외하고 작성해주셔야 합니다.\nLINE Channel 생성\n[Messaging API channel]을 생성해주세요. 1개의 채널톡 채널에 1개의 LINE Channel만 연결해야 올바르게 동작합니다.\n채널톡 연동을 위한 정보 확인\n채널톡 연동을 위해 아래\n4가지\n정보가 필요합니다.\nChannel ID\nChannel secret\nBot basic ID\nChannel access token (long-lived)\n생성한 LINE Channel을 클릭하여 접속해주세요.\n[Basic settings]에 접속하셔서 Channel ID, Channel secret을 확인해주세요\n[Messaging API]에서 Bot basic ID, Channel access token (long-lived) 를 확인해주세요.\n연동방법\n채널톡에 정보 입력\n설정 경로: [채널 설정] - [연동] - [메신저] - [라인]을 클릭하셔서 [연동] 버튼을 클릭해주세요.\nLINE Channel에서 확인한 아래\n4가지 정보를 입력하고 언어를 선택\n해주시면 됩니다.\nChannel ID\nChannel Secret\nAccess token (long-lived)\nBot Basic ID\n언어: 선택한 언어에 따라 고객에게 부재중 메시지와 같은 자동 메시지가 전송됩니다.\nWebhook URL 입력\n채널톡 화면에서 보이는 Webhook URL을 복사해주세요\nLINE Channel에서 [Messaging API] - [Webhook settings]으로 이동하신 후,\nWebhook URL에 위 링크를 입력하고 Webhook을 활성화해주세요.\n[Basic settings] 메뉴 탭에서[LINE Official Account Manager] 를 클릭하여 접속해주세요.\n[설정] - [답변 설정] 아래와 같이 설정해주시면, 연동이 완료됩니다.\n대화: Off\nWebhook: On\n자동 답변: Off\n연동 완료\n라인으로 인입된 문의를 채널톡에서 응대할 수 있습니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "라인 계정 만들기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "LINE"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " Developers에 접속"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "LINE Developers"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://developers.line.biz/en/"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 에 접속해서 로그인 / 회원가입을 해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "연동을 위해서는 라인 공식 계정 등록이 필요합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9a606cac8a49d3"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Provider"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 생성"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[Create] 버튼을 눌러 Provider를 생성해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9aa03e9b61c68d"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Provider name을 적어주세요. 특수 문자는 제외하고 작성해주셔야 합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "LINE Channel 생성"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[Messaging API channel]을 생성해주세요. 1개의 채널톡 채널에 1개의 LINE Channel만 연결해야 올바르게 동작합니다.\n"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9acd72742cea13"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 연동을 위한 정보 확인"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 연동을 위해 아래 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "4가지"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 정보가 필요합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Channel ID"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Channel secret"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Bot basic ID"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Channel access token (long-lived)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "생성한 LINE Channel을 클릭하여 접속해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9b07e4a6d5b7ff"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[Basic settings]에 접속하셔서 Channel ID, Channel secret을 확인해주세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9b34857691cf10"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[Messaging API]에서 Bot basic ID, Channel access token (long-lived) 를 확인해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9b648309992479"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡에 정보 입력"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 경로: [채널 설정] - [연동] - [메신저] - [라인]을 클릭하셔서 [연동] 버튼을 클릭해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "라인1",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9b8c8051a896ba"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "LINE Channel에서 확인한 아래 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "4가지 정보를 입력하고 언어를 선택"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "해주시면 됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9bc6c3f622caf4"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Channel ID"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Channel Secret"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Access token (long-lived)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Bot Basic ID"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "언어: 선택한 언어에 따라 고객에게 부재중 메시지와 같은 자동 메시지가 전송됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "Webhook URL 입력"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널톡 화면에서 보이는 Webhook URL을 복사해주세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9c054cc9ad69a8"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "LINE Channel에서 [Messaging API] - [Webhook settings]으로 이동하신 후,"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "Webhook URL에 위 링크를 입력하고 Webhook을 활성화해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9c3c761122a886"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[Basic settings] 메뉴 탭에서[LINE Official Account Manager] 를 클릭하여 접속해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9c74e8c0c0b8fd"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[설정] - [답변 설정] 아래와 같이 설정해주시면, 연동이 완료됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "대화: Off"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "Webhook: On"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "자동 답변: Off"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "attrs": {
+                        "alt": "line",
+                        "mime": "image/*",
+                        "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9ca2b8ea00fb62"
+                      },
+                      "type": "image"
+                    },
+                    {
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연동 완료"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "라인으로 인입된 문의를 채널톡에서 응대할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/53/revisions/154/usermedia/662b0f9cdd6335e2abc7"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eca42a3471f0955",
+  "linked_faqs": [
+    {
+      "id": "70295",
+      "question": "채널톡과 라인을 연동한 후에도 LINE 챗모드를 사용할 수 있나요?",
+      "answer_plaintext": "채널톡과 연동이 되면 LINE Official Account Manager 의 챗모드는 비활성화 돼요. \n이전 상담 데이터는 조회가 어려우며, 챗모드를 활성화하면 연동은 끊어집니다."
+    },
+    {
+      "id": "70296",
+      "question": "채널톡에 라인을 연동했는데, 채널톡으로 메시지가 넘어오지 않아요.",
+      "answer_plaintext": "아래 2가지 경우인지 확인이 필요합니다:\n\n1. Bot Basic ID로 연동을 했는데 추후에 Premium ID를 가입하셨거나, 아래 항목들 중 기존 정보와 바뀐 부분이 있다면 연동을 끊고 다시 연동을 해주셔야 올바르게 동작합니다.\n- LINE Channel ID\n- LINE Channel Secret\n- Access Secret (long-lived)\n- Bot Basic ID (또는 Premium ID)\n\n2. 채널톡과 연동한 LINE Channel을 다른 LINE Channel로 변경할 경우에는 연동을 끊고 다시 연동을 하셔야 정상 동작합니다."
+    },
+    {
+      "id": "70297",
+      "question": "라인에서도 담당자별 프로필 아이콘이 노출되나요?",
+      "answer_plaintext": "라인과 같은 외부 메신저의 경우, 채널톡에서 설정한 매니저 프로필이 적용되지 않습니다. 채널 프로필로만 응대하실 수 있어요."
+    },
+    {
+      "id": "70298",
+      "question": "라인을 채널톡과 연동했는데, 메시지가 보내지지 않아요.",
+      "answer_plaintext": "다음의 사항을 확인해 주세요. \n1. 장문 메시지 제한\n- 2,000자 이상인 메시지는 전송할 수 없습니다.\n2. LINE 무료 메시지 수 제한\n- 이용 중인 LINE 플랜에 따라 하루에 전송할 수 있는 무료 메시지 수가 정해져 있습니다. 무료 메시지를 모두 소진한 경우 메시지 전송이 실패하거나, 추가 전송 시 요금이 발생할 수 있습니다.\n- 보낸 메시지 수는 매일 오전에 갱신되며, 이로 인해 화면상 잔여 메시지가 남아 있어 보이더라도 실제 전송이 실패할 수 있습니다."
+    },
+    {
+      "id": "70300",
+      "question": "라인을 채널톡과 연동했는데, 메시지 유입이 되지 않아요.",
+      "answer_plaintext": "라인에는 이용중인 라인 플랜별로 사용할 수 있는 무료 메시지 수가 정해져 있습니다. \n사용 가능한 무료 메시지를 모두 소진했을 시 메시지 전송이 실패하거나, 추가 메시지를 보낼 경우 추가 요금이 발생할 수 있습니다.\n다음의 사항을 확인해 주세요. \n\n보낸 메시지 수는 매일 오전에 갱신되며, 이로 인해 화면상 잔여 메시지가 남아 있어 보이더라도 실제 전송이 실패할 수 있습니다."
+    },
+    {
+      "id": "70301",
+      "question": "라인으로 상담을 남겨서 유입된 고객은 이름이 안 보이나요? (랜덤한 이름으로 보이나요)",
+      "answer_plaintext": "회원 정보 연동이 되지 않았기 때문이예요. 만약 이미 채널톡 고객DB에 저장된 회원이 맞다면 수동으로 해당 고객의 정보를 통합해줄 수 있습니다. (→ 통합 방법 보러 가기)"
+    }
+  ],
+  "faq_count": 6
+}

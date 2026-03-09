@@ -1,0 +1,2952 @@
+{
+  "id": "123",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4-%EC%9D%B8%EC%A6%9D-0b034717",
+  "title": "비즈니스 인증",
+  "summary": "채널톡의 전화 미트 기능을 활용하기 위해선 비즈니스 인증이 필요합니다.\n비즈니스 인증을 받지 않으셔도 채널톡의 채팅 상담, 음성 미트, 영상 미트는 이용하실 수 있어요.",
+  "plaintext": "사업자 정보를 제출하여 운영 중인 채널을 비즈니스 채널로 인증이 가능합니다.\n채널톡 전화 기능 등 일부 서비스는 비즈니스 인증이 완료된 채널에서만 사용이 가능합니다.\n국내 사업자\n준비 사항\n설정 경로: [채널 설정] - [일반 설정] - [채널 프로필] - [비즈니스 인증] - [South Korea]\n비즈니스 인증 신청 가능한 역할\n소유자\n[채널 설정: '일반 및 기타 설정'] 권한이\n있는 멤버\n비즈니스 인증 신청 시 준비 사항\n공통 서류\n: 사업자등록증 사본, 대표자의 신분증 사본\n모바일 신분증 사본(촬영, 캡쳐 등)은 인정되지 않습니다. 실물 신분증의 컬러 사본(흑백 불가)을 마스킹(가림처리)하여 제출해주세요.\n[사업자등록증 - 홈페이지 내 사업자 정보 - 신청자 정보] 상황에 따른 필요 서류\n*관계 확인 문서\n예시\n본점-지점 관계: 양 사 모두 기재된 법인등기부등본\n계열사 관계: 지분 관계가 기재된 주주명부\n업무 위수탁 관계: 업무 위수탁 계약서 사본\n그 외 양 사 관계를 확인할 수 있는 문서\n관계 확인을 위한 사항 외 민감한 정보는 마스킹(가림처리) 후 제출해주세요\n*채널톡 표준 위임장\n: 아래 첨부된 파일을 다운로드 하시거나, 케이스 3~6 선택 시 노출되는 \"템플릿 다운로드\" 버튼을 눌러 다운로드 해주세요\n.zip 파일에 포함된 위임장 작성 가이드를 참고하여 작성해주세요\n*(법인)인감증명서\n: 위임장에 날인한 양 사의 (법인)인감증명서\n*'\n양 사 간 채널톡 표준 위임장'과 위임장에 날인한 인감의 '(법인)인감증명서'는\n1개의 PDF 파일로 취합\n하여 [위임장] 파일 첨부란에 업로드해주세요.\n⬇️ 채널톡 표준 위임장 템플릿 다운로드\n서류 별 유효 기한\n재직증명서: 발급일이 신청일로부터 30일 이내\n법인인감증명서: 발급일이 신청일로부터 3개월 이내\nPASS 본인인증이 가능한 010 연락처\n[개인 설정 → 팀 멤버 설정 → 팀 멤버 프로필 → 연락처]에 저장된 팀 멤버의 연락처 입니다.\nPC 웹 브라우저 접속\nPC앱에서는 진행이 불가합니다. 웹 브라우저로 진행해주세요.\nex)크롬, 사파리, 엣지 등\nPASS인증 유의사항\n본인 인증한 이름과 신청인(대표자 또는 재직자)의 이름이 다를 경우 반려 사유에 해당합니다.\n예) 재직자 A 명의로 본인인증 + 대표자 신분증만 업로드, 재직자 A 재직증명서 누락 → 반려\n예) 재직자 A 명의로 본인인증 + 대표자 신분증, 재직자 B 재직증명서 업로드 → 반려\n아래의 경우 팀 멤버 본인 인증(PASS 인증) 확인 창이 열립니다.\n채널에서 비즈니스 인증을 최초로 신청 하는 경우\n반려 또는 취소 후 재인증을 시도하는 팀 멤버가 이전에 진행한 팀 멤버와 다른 경우\n동일 팀 멤버가 재신청할 때, 팀 멤버의 연락처가 이전과 다른 경우\n비즈니스 인증하기\n유효한 사업자 등록 번호를 입력해주세요.\n신청하는 팀 멤버 연락처에 기재된 핸드폰 번호로 본인인증(PASS)을 진행해주세요.\n[개인 설정 → 팀 멤버 설정 → 팀 멤버 프로필 → 연락처]에 입력한 번호로 진행해주세요.\n사업자 등록증에 표기된 정보를 입력칸에 정확히 작성해주세요.\n사업자 등록증과 정보가 일치하지 않거나, 오탈자 발생 시\n검수가 반려\n될 수 있습니다.\n정보를 모두 입력한 후,\n사업자등록증\n과\n대표자 신분증\n을 업로드하여 제출해주세요.\n홈페이지 주소\n: 사업자정보 확인이 가능한 홈페이지 주소인지 확인해주세요\n[채널 설정 → 채널 프로필 → 연락처 및 위치 → 홈페이지 주소]에 저장된 주소입니다.\n사업자 정보 일치 여부\n: 비즈니스 인증을 신청하는 사업자정보와 홈페이지 상 사업자정보가 일치하는지 여부를 선택해주세요\n신청자 소속\n: 신청자의 소속과 직위를 선택해주세요 [자사/타사, 대표/재직자]\n[사업자등록증 -  홈페이지 사업자정보 일치 여부 - 신청자 정보]\n상황에 맞는 서류를 모두 업로드\n해주세요.\n신청이 완료되면 영업일 3~5일 내에 검수가 진행되며, 검수 완료 시 채널의 공지봇으로 알림이 전송됩니다.\n검수 상태가\n대기중\n일 경우, 입력한 정보를 수정하거나, 비즈니스 인증 신청 취소가 가능합니다. 정보 수정은 인증 신청자만 가능하며, 신청 취소는 비즈니스 인증 신청 권한이 있는 모든 팀 멤버가 가능합니다.\n검수 상태가\n확인중\n일 경우, 신청 정보 수정 및 취소가 불가합니다.\n[신청 내역 보기] 를 통해, 비즈니스 인증 진행 상황 및 신청자를 확인할 수 있어요. 검수 반려 시, 반려 사유도 확인이 가능합니다.\n*반려 후 재신청 하시는 경우에는 모든 내용를 다시 작성해주세요.\n개인정보 마스킹 가이드\n개인 정보 보호를 위해\n개인 정보 마스킹(가림처리)이 필요\n합니다.\n가이드를 참고하여 서류 별 마스킹이 필요한 정보를 확인해주세요.\n마스킹 처리가 되지 않은 첨부 문서는 암호화되어 저장되며, 확인 후 즉시 파기되니 안심하세요.\n마스킹이 필요한 개인 정보\n사업자 등록증 제출 시 아래의 정보를 마스킹 해주세요\n서류\n마스킹이 필요한 개인 정보\n사업자등록증\n개인사업자의 경우: 대표자 주민등록번호 뒷자리 6자리\n공통: 개인 이메일 주소(esero / hometax 제외), 전화 번호, 휴대폰 번호, 팩스 번호, 계좌 번호\n주민등록증\n주민등록번호 뒷자리 6자리\n자택 주소\n발급 일자\n운전 면허증\n면허번호\n주민등록번호 뒷자리 6자리\n자택 주소\n발급 일자\n여권(2020년 12월 21일 이전 발급 여권)\n여권번호\n주민등록번호 뒷자리 6자리\n발급일\n기간 만료일\n하단 OCR 코드\n재직증명서\n주민등록번호 뒷자리 6자리\n자택 주소\n개인 연락처\n신분증 마스킹 예시\n예시 이미지 외에도\n포함된 개인 정보가 있다면 꼭 마스킹(가림) 처리 후 신청\n해 주세요.\n신분증에 따라, 개인 정보 항목이 다르기에 아래 예시를 참고하여 마스킹을 진행해주세요. 이름, 생년월일, 성별, 발급 기관 (기관명, 날인) 정보를 제외한 나머지 정보는 꼭 마스킹 처리 후 첨부해주세요.\n*\n2020년 12월 21일 이후 발급하여\n주민등록번호가 제외된 신 여권의 경우 신분증으로 사용하실 수 없습니다.\n반려 사유\n아래와 같은 사유로 비즈니스 인증이 반려될 수 있습니다.\n반려 시, 공지봇과 알림톡으로 안내되며 재신청 하여 다시 검수를 요청할 수 있습니다.\n반려 후 재신청 하시는 경우에는 반려 사유를 보완하여 모든 내용를 다시 작성해주세요.\n대표적 반려 사유\n본인 인증(PASS 인증) 명의자와 신청인의 명의자가 일치하지 않을 때\n비즈니스 인증 신청서에 작성한 사업자 정보와 제출된 사업자 등록증 상 정보가 일치하지 않을 때\n작성한 사업자 정보가 [채널 설정] - [채널 프로필] - [연락처 및 위치]에 입력한 사이트 내에서 확인되지 않을 때\n제출한 사업자 등록증이 유효하지 않을 때\n제출 서류의 유효 기간이 경과 했을 때\n제출 서류가 누락되거나 올바르지 않을 때\n비즈니스 채널 신청이 불가한 업종에 해당될 때\n운영 중인 채널과 신청한 사업자 서비스 간 연계성이 떨어질 때\n운영 중인 사이트가 사회상규 또는 법령 위반의 가능성이 현저할 때\n피싱 또는 스팸 사이트 개설을 위한 허위 사이트의 가능성이 보일 때\n그 외 채널톡이 정한 비즈니스 인증 승인 기준에 미달되는 상황으로 판단 될 때\n일본 사업자\n채널톡은 일본에서 전화 서비스를 제공하는 사업자(특정 사업자)의 의무를 준수하고자, 자금세탁 및 테러자금 공여를 예방하기 위해 범죄수익이전방지법에 의거하여 비즈니스 인증(신청자 본인확인 e-KYC, 법인확인)을 실시합니다.\n준비 사항\n설정 경로: [채널 설정] - [일반 설정] - [채널 프로필] - [비즈니스 인증] - [Japan]\n비즈니스 인증 신청 가능한 역할\n소유자\n채널 설정: 일반 및 기타 설정 권한이\n있는 멤버\n비즈니스 인증 신청 시 필요 서류\n법인 번호 (일본 국세청 공표 사이트에 기재된 13자리)\n이력사항전부증명서 (신청일 기준 발급일 3개월 이내)\n대표자의 신분증 또는 신청자의 위임장 (신청일 기준 발급일 1개월 이내)\n사진이 부착된 본인 확인 서류 (마이넘버카드 외 본인 확인 서류는 뒷면 제출 필수)\n마이넘버카드\n운전면허증\n운전경력증명서\n주민기본대장카드\n체류 카드(외국인)\n특별 영주권자 증명서(외국인)\n개인정보 마스킹 가이드\n마이넘버카드는 기본적으로 발급받은 케이스에 넣은 채로 촬영해야 합니다. 케이스가 없는 경우 마이넘버카드\n앞면\n만 2군데를 마스킹 후 제출해 주세요.\n성별\n장기기증 의사\n비즈니스 인증하기\n일본 비즈니스 인증 신청 정보는 반드시\n일본어\n로 입력해 주세요. 신청 이후 본인 확인 미팅도\n일본어\n로 진행됩니다.\n본인 인증을 위한 정보를 입력해 주세요.\n본인 확인 서류는 반드시 얼굴 사진이 첨부된 서류로 제출해 주세요.\n비즈니스 인증을 위한 정보를 입력해 주세요. 우편 수신이 반드시 확인되어야 비즈니스 인증이 승인되기에,\n반드시 우편을 수신할 수 있는 정확한 주소를 적어주세요.\n신청이 완료되면, 담당자가 본인 확인 미팅 가능한 시간을 확인하기 위해 유저챗이나 메일을 전송합니다.\n순차적으로 진행되기에, 일정은 조율될 수 있습니다.\n본인 인증이 완료되면 채널톡에서 비즈니스 승인 서류를 입력하신 주소로 발송합니다.\n고객이 우편을 수신하면 비즈니스 인증 신청 상태가 완료로 변경됩니다.\n반려 사유\n아래와 같은 사유로 비즈니스 인증이 반려될 수 있습니다. 반려 시, 비즈니스 인증 신청자에게 공지봇으로 안내되며 비즈니스 인증 상태는 신규 신청이 가능한 상태로 변경됩니다.\n반려 사유는 공지봇 및 [신청 내역 보기] 에서 확인이 가능해요\n본인 인증이 불가능할 때\n본인 확인 비대면 미팅 불가 시\n필수 서류인 이력사항전부증명서 및 대표자 신분증 (또는 재직증명서)가 누락되었을 때\n비즈니스 인증 신청 서류 발급일이 제출일 기준 3개월이 경과되었을 때\n비즈니스 인증 신청이 불가한 업종에 해당될 때\n법인 소재지가 확인되지 않아 우편이 반송된 후 연락이 닿지 않을 때",
+  "body": [
+    {
+      "attrs": {
+        "color": "cobalt",
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "사업자 정보를 제출하여 운영 중인 채널을 비즈니스 채널로 인증이 가능합니다. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널톡 전화 기능 등 일부 서비스는 비즈니스 인증이 완료된 채널에서만 사용이 가능합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "국내 사업자"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "준비 사항"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [일반 설정] - [채널 프로필] - [비즈니스 인증] - [South Korea]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비즈니스 인증 신청 가능한 역할"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "소유자"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[채널 설정: '일반 및 기타 설정'] 권한이"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "있는 멤버"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비즈니스 인증 신청 시 준비 사항"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "공통 서류"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ": 사업자등록증 사본, 대표자의 신분증 사본"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모바일 신분증 사본(촬영, 캡쳐 등)은 인정되지 않습니다. 실물 신분증의 컬러 사본(흑백 불가)을 마스킹(가림처리)하여 제출해주세요."
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "red",
+                        "semanticColor": "bgtxt-red-normal"
+                      },
+                      "type": "color"
+                    },
+                    {
+                      "type": "inlineCode"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[사업자등록증 - 홈페이지 내 사업자 정보 - 신청자 정보] 상황에 따른 필요 서류"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "비즈니스인증_상황별 필요 서류.png",
+        "height": "1080px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/275206/usermedia/6809ccb415264f5042ef",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "color": "green",
+        "icon": "round_pushpin",
+        "semanticColor": "bgtxt-green-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "*관계 확인 문서"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " 예시"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "본점-지점 관계: 양 사 모두 기재된 법인등기부등본"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "계열사 관계: 지분 관계가 기재된 주주명부"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "업무 위수탁 관계: 업무 위수탁 계약서 사본"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "그 외 양 사 관계를 확인할 수 있는 문서"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "관계 확인을 위한 사항 외 민감한 정보는 마스킹(가림처리) 후 제출해주세요"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "color": "default",
+                    "semanticColor": "txt-black-darkest"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "*채널톡 표준 위임장"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": ": 아래 첨부된 파일을 다운로드 하시거나, 케이스 3~6 선택 시 노출되는 \"템플릿 다운로드\" 버튼을 눌러 다운로드 해주세요"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": ".zip 파일에 포함된 위임장 작성 가이드를 참고하여 작성해주세요"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "color": "red",
+                    "semanticColor": "bgtxt-red-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "*(법인)인감증명서"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": ": 위임장에 날인한 양 사의 (법인)인감증명서"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "*'"
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "양 사 간 채널톡 표준 위임장'과 위임장에 날인한 인감의 '(법인)인감증명서'는 "
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "1개의 PDF 파일로 취합"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "color": "red",
+                    "semanticColor": "bgtxt-red-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "하여 [위임장] 파일 첨부란에 업로드해주세요."
+              },
+              "marks": [
+                {
+                  "type": "backgroundColor"
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "⬇️ 채널톡 표준 위임장 템플릿 다운로드"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "mime": "application/zip",
+        "name": "KR-POA-template_bizCertification.zip",
+        "size": "7032976",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/284634/usermedia/6810bc4d4708da0c6a43"
+      },
+      "type": "file"
+    },
+    {
+      "attrs": {
+        "alt": "스크린샷 2025-09-17 21.09.45.png",
+        "caption": {
+          "content": [
+            {
+              "attrs": {
+                "text": "위임하는 업무 권한 체크 예시"
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "color": "red",
+                    "semanticColor": "bgtxt-red-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        "height": "590px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/570015/usermedia/68caa52d41c13b8fd90c",
+        "width": "1552px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "서류 별 유효 기한"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "재직증명서: 발급일이 신청일로부터 30일 이내"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "법인인감증명서: 발급일이 신청일로부터 3개월 이내"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "PASS 본인인증이 가능한 010 연락처"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[개인 설정 → 팀 멤버 설정 → 팀 멤버 프로필 → 연락처]에 저장된 팀 멤버의 연락처 입니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "PC 웹 브라우저 접속"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "PC앱에서는 진행이 불가합니다. 웹 브라우저로 진행해주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ex)크롬, 사파리, 엣지 등"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "color": "orange",
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "PASS인증 유의사항"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "본인 인증한 이름과 신청인(대표자 또는 재직자)의 이름이 다를 경우 반려 사유에 해당합니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예) 재직자 A 명의로 본인인증 + 대표자 신분증만 업로드, 재직자 A 재직증명서 누락 → 반려"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "예) 재직자 A 명의로 본인인증 + 대표자 신분증, 재직자 B 재직증명서 업로드 → 반려"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "아래의 경우 팀 멤버 본인 인증(PASS 인증) 확인 창이 열립니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "채널에서 비즈니스 인증을 최초로 신청 하는 경우"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "반려 또는 취소 후 재인증을 시도하는 팀 멤버가 이전에 진행한 팀 멤버와 다른 경우"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "동일 팀 멤버가 재신청할 때, 팀 멤버의 연락처가 이전과 다른 경우"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "listItem"
+            }
+          ],
+          "type": "bullets"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "비즈니스 인증하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "비즈니스인증.png",
+        "height": "1100px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/275206/usermedia/6809cf282eea7f1bd645",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "비즈니스인증_2.png",
+        "height": "1080px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/275206/usermedia/6809cf2cd3a7b338eb00",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "비즈니스인증_3 (1).png",
+        "height": "1080px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/275206/usermedia/6809dbcfcf45ece62d1a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "유효한 사업자 등록 번호를 입력해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신청하는 팀 멤버 연락처에 기재된 핸드폰 번호로 본인인증(PASS)을 진행해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[개인 설정 → 팀 멤버 설정 → 팀 멤버 프로필 → 연락처]에 입력한 번호로 진행해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사업자 등록증에 표기된 정보를 입력칸에 정확히 작성해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사업자 등록증과 정보가 일치하지 않거나, 오탈자 발생 시 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "검수가 반려"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "될 수 있습니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "정보를 모두 입력한 후, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "사업자등록증"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "과 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "대표자 신분증"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "을 업로드하여 제출해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "홈페이지 주소"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 사업자정보 확인이 가능한 홈페이지 주소인지 확인해주세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[채널 설정 → 채널 프로필 → 연락처 및 위치 → 홈페이지 주소]에 저장된 주소입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사업자 정보 일치 여부"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 비즈니스 인증을 신청하는 사업자정보와 홈페이지 상 사업자정보가 일치하는지 여부를 선택해주세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신청자 소속"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 신청자의 소속과 직위를 선택해주세요 [자사/타사, 대표/재직자]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[사업자등록증 -  홈페이지 사업자정보 일치 여부 - 신청자 정보] "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "상황에 맞는 서류를 모두 업로드"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신청이 완료되면 영업일 3~5일 내에 검수가 진행되며, 검수 완료 시 채널의 공지봇으로 알림이 전송됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "검수 상태가 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "대기중"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "일 경우, 입력한 정보를 수정하거나, 비즈니스 인증 신청 취소가 가능합니다. 정보 수정은 인증 신청자만 가능하며, 신청 취소는 비즈니스 인증 신청 권한이 있는 모든 팀 멤버가 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "검수 상태가 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "확인중"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "일 경우, 신청 정보 수정 및 취소가 불가합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "[신청 내역 보기] 를 통해, 비즈니스 인증 진행 상황 및 신청자를 확인할 수 있어요. 검수 반려 시, 반려 사유도 확인이 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "*반려 후 재신청 하시는 경우에는 모든 내용를 다시 작성해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "개인정보 마스킹 가이드"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "color": "orange",
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "개인 정보 보호를 위해 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "개인 정보 마스킹(가림처리)이 필요"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "가이드를 참고하여 서류 별 마스킹이 필요한 정보를 확인해주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "마스킹 처리가 되지 않은 첨부 문서는 암호화되어 저장되며, 확인 후 즉시 파기되니 안심하세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "마스킹이 필요한 개인 정보"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "사업자 등록증 제출 시 아래의 정보를 마스킹 해주세요"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "서류"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "마스킹이 필요한 개인 정보"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "사업자등록증"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "개인사업자의 경우: 대표자 주민등록번호 뒷자리 6자리"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "공통: 개인 이메일 주소(esero / hometax 제외), 전화 번호, 휴대폰 번호, 팩스 번호, 계좌 번호"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주민등록증"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주민등록번호 뒷자리 6자리"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "자택 주소"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "발급 일자"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "운전 면허증"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "면허번호"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주민등록번호 뒷자리 6자리"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "자택 주소"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "발급 일자"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "여권(2020년 12월 21일 이전 발급 여권)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "여권번호"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주민등록번호 뒷자리 6자리"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "발급일"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "기간 만료일"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "하단 OCR 코드"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "재직증명서"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "주민등록번호 뒷자리 6자리"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "자택 주소"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "개인 연락처"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "신분증 마스킹 예시"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "color": "orange",
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "예시 이미지 외에도 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "포함된 개인 정보가 있다면 꼭 마스킹(가림) 처리 후 신청"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "해 주세요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "신분증에 따라, 개인 정보 항목이 다르기에 아래 예시를 참고하여 마스킹을 진행해주세요. 이름, 생년월일, 성별, 발급 기관 (기관명, 날인) 정보를 제외한 나머지 정보는 꼭 마스킹 처리 후 첨부해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "*"
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "2020년 12월 21일 이후 발급하여"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 주민등록번호가 제외된 신 여권의 경우 신분증으로 사용하실 수 없습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "260220 가이드용 마스킹 가이드.png",
+        "height": "2378px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/1165594/usermedia/69980c625bf0ac0010ba",
+        "width": "3660px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "반려 사유"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아래와 같은 사유로 비즈니스 인증이 반려될 수 있습니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "반려 시, 공지봇과 알림톡으로 안내되며 재신청 하여 다시 검수를 요청할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "반려 후 재신청 하시는 경우에는 반려 사유를 보완하여 모든 내용를 다시 작성해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "비즈니스인증_인증반려.png",
+        "height": "844px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/275206/usermedia/6809dbc4213778570706",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "대표적 반려 사유"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "본인 인증(PASS 인증) 명의자와 신청인의 명의자가 일치하지 않을 때"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "비즈니스 인증 신청서에 작성한 사업자 정보와 제출된 사업자 등록증 상 정보가 일치하지 않을 때"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "작성한 사업자 정보가 [채널 설정] - [채널 프로필] - [연락처 및 위치]에 입력한 사이트 내에서 확인되지 않을 때"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "제출한 사업자 등록증이 유효하지 않을 때"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "제출 서류의 유효 기간이 경과 했을 때"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "제출 서류가 누락되거나 올바르지 않을 때"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "비즈니스 채널 신청이 불가한 업종에 해당될 때"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "운영 중인 채널과 신청한 사업자 서비스 간 연계성이 떨어질 때"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "운영 중인 사이트가 사회상규 또는 법령 위반의 가능성이 현저할 때"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "피싱 또는 스팸 사이트 개설을 위한 허위 사이트의 가능성이 보일 때"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "그 외 채널톡이 정한 비즈니스 인증 승인 기준에 미달되는 상황으로 판단 될 때"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "일본 사업자"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "color": "orange",
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널톡은 일본에서 전화 서비스를 제공하는 사업자(특정 사업자)의 의무를 준수하고자, 자금세탁 및 테러자금 공여를 예방하기 위해 범죄수익이전방지법에 의거하여 비즈니스 인증(신청자 본인확인 e-KYC, 법인확인)을 실시합니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "준비 사항"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [일반 설정] - [채널 프로필] - [비즈니스 인증] - [Japan]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비즈니스 인증 신청 가능한 역할"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "소유자"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널 설정: 일반 및 기타 설정 권한이"
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " "
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "있는 멤버"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비즈니스 인증 신청 시 필요 서류"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "법인 번호 (일본 국세청 공표 사이트에 기재된 13자리)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이력사항전부증명서 (신청일 기준 발급일 3개월 이내)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "대표자의 신분증 또는 신청자의 위임장 (신청일 기준 발급일 1개월 이내)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사진이 부착된 본인 확인 서류 (마이넘버카드 외 본인 확인 서류는 뒷면 제출 필수)"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "마이넘버카드"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "운전면허증"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "운전경력증명서"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "주민기본대장카드"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "체류 카드(외국인)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "특별 영주권자 증명서(외국인)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "개인정보 마스킹 가이드"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "마이넘버카드는 기본적으로 발급받은 케이스에 넣은 채로 촬영해야 합니다. 케이스가 없는 경우 마이넘버카드 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "앞면"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "만 2군데를 마스킹 후 제출해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "성별"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "장기기증 의사"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "개인정보마스킹_일본",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/364/usermedia/662b1138745bc36dbad2"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "비즈니스 인증하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "color": "orange",
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "일본 비즈니스 인증 신청 정보는 반드시 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "일본어"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "로 입력해 주세요. 신청 이후 본인 확인 미팅도 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "일본어"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "로 진행됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "비즈니스인증_일본",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/364/usermedia/662b1138ad83c91f7093"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "본인 인증을 위한 정보를 입력해 주세요.\n"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "본인 확인 서류는 반드시 얼굴 사진이 첨부된 서류로 제출해 주세요."
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비즈니스 인증을 위한 정보를 입력해 주세요. 우편 수신이 반드시 확인되어야 비즈니스 인증이 승인되기에, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "반드시 우편을 수신할 수 있는 정확한 주소를 적어주세요."
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "신청이 완료되면, 담당자가 본인 확인 미팅 가능한 시간을 확인하기 위해 유저챗이나 메일을 전송합니다.\n순차적으로 진행되기에, 일정은 조율될 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "본인 인증이 완료되면 채널톡에서 비즈니스 승인 서류를 입력하신 주소로 발송합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 우편을 수신하면 비즈니스 인증 신청 상태가 완료로 변경됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "반려 사유"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아래와 같은 사유로 비즈니스 인증이 반려될 수 있습니다. 반려 시, 비즈니스 인증 신청자에게 공지봇으로 안내되며 비즈니스 인증 상태는 신규 신청이 가능한 상태로 변경됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "반려_일본",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/123/revisions/364/usermedia/662b1138dda7951133c6"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "반려 사유는 공지봇 및 [신청 내역 보기] 에서 확인이 가능해요"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "본인 인증이 불가능할 때"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "본인 확인 비대면 미팅 불가 시"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "필수 서류인 이력사항전부증명서 및 대표자 신분증 (또는 재직증명서)가 누락되었을 때"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비즈니스 인증 신청 서류 발급일이 제출일 기준 3개월이 경과되었을 때"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "비즈니스 인증 신청이 불가한 업종에 해당될 때"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "법인 소재지가 확인되지 않아 우편이 반송된 후 연락이 닿지 않을 때"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "148",
+    "name": "Esther 🌱",
+    "bio": "Hello, I'm CX manager Esther😉"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0f004cd553a4084e",
+  "linked_faqs": [
+    {
+      "id": "51258",
+      "question": "비즈니스 인증을 해야 채널톡 사용이 가능한가요?",
+      "answer_plaintext": "비즈니스 인증은 채널톡 전화 수발신과 문자, 알림톡 발송 기능을 이용하기 위해 필요한 절차입니다.\n이외의 기능은 비즈니스 인증 없이도 사용 가능합니다.\n*채널톡에서 제공하는 기본번호(1644-9672)로 발송되는 문자 팔로업 알림은 비즈니스 인증이 필요하지 않습니다."
+    },
+    {
+      "id": "51259",
+      "question": "사업자 정보가 변경되어, 인증된 정보를 수정하고 싶어요.",
+      "answer_plaintext": "한번 승인된 비즈니스 인증은 수정이 불가합니다. \n\n수정을 원하실 경우 아래 링크를 통해 접수를 부탁드립니다.\nhttps://root.channel.io/workflows/783368\n\n추가로, 사업자정보 중 [주소지]만 변경된 경우는\n비즈니스 인증 정보를 수정하실 필요가 없으니 참고해주세요."
+    },
+    {
+      "id": "51260",
+      "question": "비즈니스 인증을 해제하고 싶어요.",
+      "answer_plaintext": "채널톡 내에서 비즈니스 인증 해제가 불가합니다. \n\n비즈니스 인증 해제를 원하실 경우 아래 링크로 정보 초기화 접수를 부탁드려요.\nhttps://root.channel.io/workflows/783368"
+    }
+  ],
+  "faq_count": 3
+}

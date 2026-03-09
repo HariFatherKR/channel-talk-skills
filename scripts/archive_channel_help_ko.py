@@ -195,11 +195,16 @@ def crawl_article_records(root_html: str, fetch_html) -> tuple[list[dict[str, An
     """Fetch and normalize every unique article discovered from the root HTML."""
     records = []
     failures = []
+    seen_ids = set()
     for url in extract_article_urls(root_html):
         try:
             article_html = fetch_html(url)
             parsed = parse_article_html(article_html)
-            records.append(normalize_article_record(parsed))
+            record = normalize_article_record(parsed)
+            if record["id"] in seen_ids:
+                continue
+            seen_ids.add(record["id"])
+            records.append(record)
         except Exception as exc:  # pragma: no cover - exercised via tests
             failures.append({"url": url, "error": str(exc)})
     return records, failures

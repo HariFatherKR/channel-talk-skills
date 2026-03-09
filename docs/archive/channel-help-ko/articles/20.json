@@ -1,0 +1,796 @@
+{
+  "id": "20",
+  "url": "https://docs.channel.io/help/ko/articles/%EB%8B%A4%EB%A5%B8-%EC%96%B8%EC%96%B4-%EC%84%A4%EC%A0%95-f6b84106",
+  "title": "다른 언어 설정",
+  "summary": "채널톡의 번역 기능을 통해 채널톡에서 설정하는 문구를 한국어, 영어, 일본어 포함하여 총 32가지 국가의 언어로 설정 가능합니다.",
+  "plaintext": "채널톡은 고객이 접속한\n브라우저 언어 및 기기 설정\n에 따라 자동으로 보여지는 언어가 변경됩니다.\n번역 설정이 가능한 기능\n채널 프로필\n프로필 번역을 통해 한국 고객들에게는 한국 채널명으로, 외국 고객들에게는 해당 국가의 언어로 채널 프로필을 설정할 수 있어요.\n설정 경로: [채널 설정] - [일반 설정] - [채널 프로필] - [번역]\n봇 프로필\n채널의 자동 메시지를 전달하는 봇의 이름도 언어별로 설정이 가능하고, 이미 생성된 봇은 번역을 추가할 수 없어요.\n설정 경로: [채널 설정] - [팀원 구성] - [봇] - [새 봇 추가하기] - [번역]\n라벨 버튼\n고객이 사이트에 처음 방문했을 때 나타나는 라벨 버튼도 다양한 언어로 설정해보세요.\n설정 경로: [채널 설정] - [일반 설정] - [버튼 설치 및 설정] - [웹 버튼 설정] - [라벨 버튼] - [번역]\n인사말\n채널톡 채팅버튼을 눌렀을 때 고객에게 보여지는 인사말이에요. 언어 별로 잘 설정하여 고객 문의를 유도해보세요.\n설정 경로: [채널 설정] - [인사말] - [번역]\n부가 서비스 활용\n부가 서비스인\n워크플로우\n를 통해 고객에게 자동 메시지를 보낼 수 있고, 두 기능의 메시지는 모두 자동으로 번역되어 노출되지 않아요. 따라서, 국가 혹은 언어로 필터링 후 원하는 메시지를 직접 입력해주세요.\n워크플로우 예시\n워크플로우를 만들 때, 필터링 부분에\n국가\n나\n언어\n를 설정해주시면 해당 서포트봇이 해당 국가 혹은 언어로 접속한 고객에게만 보여지게 됩니다.\n(→ 워크플로우 가이드 확인하기)\n국가의 기준: IP 기반으로 접속 위치 추정\n언어의 기준: 유저가 접속한 브라우저의 언어\n다른 언어 메시지 번역 보기\n고객\n고객의 언어와 매니저가 보낸 메시지 언어가 다른 경우 고객이 메시지에 마우스를 올리면 '번역 보기' 옵션이 제공됩니다.\n팀 멤버\n고객 혹은 팀 멤버가 보낸 메시지가 내 언어와 다른 경우 발신자 프로필 우측에 '번역 보기' 옵션이 제공됩니다.\n번역 보기 위치 변경 안내(2026-02-13)\n번역 보기 위치가 메시지 하단에서 프로필 우측으로 변경되었으니 참고해 주세요.\n스크립트로 언어 고정\n웹빌더사(카페24, 아임웹 등)의 경우에는 스크립트를 수정하여 언어 고정이 어려울 수 있어요.\n채널톡 언어를 한 가지로 고정하여 보여지도록 하는 방법도 있어요. 이 경우, 스크립트 수정이 필요합니다. 채널톡 설치 스크립트에서 language 설정을 en(영어), ko(한국어), ja(일본어)로 변경해주세요.\n라벨 버튼, 프로필, 인사말, 봇 메시지\n언어가 설정해주신 하나의 언어로 고정됩니다.\nChannelIO('boot', {\n\"pluginKey\": \"YOUR_PLUGIN_KEY\",\n\"language\": \"ko\",\n});\n관리자 언어 변경\n관리자 화면의 언어도 변경이 가능하고, 이 때에는\n한국어, 영어, 일본어\n가 지원됩니다.\n설정 경로: [개인 설정] → [계정 설정] → [언어]",
+  "body": [
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bgtxt-cobalt-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널톡은 고객이 접속한 "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "브라우저 언어 및 기기 설정"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "에 따라 자동으로 보여지는 언어가 변경됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "번역 설정이 가능한 기능"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널 프로필"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "프로필 번역을 통해 한국 고객들에게는 한국 채널명으로, 외국 고객들에게는 해당 국가의 언어로 채널 프로필을 설정할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [일반 설정] - [채널 프로필] - [번역]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/20/revisions/55/usermedia/662b1003997010713545"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "봇 프로필"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널의 자동 메시지를 전달하는 봇의 이름도 언어별로 설정이 가능하고, 이미 생성된 봇은 번역을 추가할 수 없어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [팀원 구성] - [봇] - [새 봇 추가하기] - [번역]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/20/revisions/55/usermedia/662b1003d772ece1ee3b"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "라벨 버튼"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객이 사이트에 처음 방문했을 때 나타나는 라벨 버튼도 다양한 언어로 설정해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [일반 설정] - [버튼 설치 및 설정] - [웹 버튼 설정] - [라벨 버튼] - [번역]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/20/revisions/55/usermedia/662b10044a4273785341"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "인사말"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 채팅버튼을 눌렀을 때 고객에게 보여지는 인사말이에요. 언어 별로 잘 설정하여 고객 문의를 유도해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [채널 설정] - [인사말] - [번역]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": " ",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/20/revisions/55/usermedia/662b10047cc7724b5e6c"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "부가 서비스 활용"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "부가 서비스인 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "워크플로우"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 통해 고객에게 자동 메시지를 보낼 수 있고, 두 기능의 메시지는 모두 자동으로 번역되어 노출되지 않아요. 따라서, 국가 혹은 언어로 필터링 후 원하는 메시지를 직접 입력해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 예시 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우를 만들 때, 필터링 부분에 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "국가"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "나 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "언어"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 설정해주시면 해당 서포트봇이 해당 국가 혹은 언어로 접속한 고객에게만 보여지게 됩니다. "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "(→ 워크플로우 가이드 확인하기)"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/categories/fede2424-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "국가의 기준: IP 기반으로 접속 위치 추정\n언어의 기준: 유저가 접속한 브라우저의 언어"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": "다른언어설정.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/20/revisions/28410/usermedia/66a1146ab5a6ffb0a646",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "다른 언어 메시지 번역 보기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "고객"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객의 언어와 매니저가 보낸 메시지 언어가 다른 경우 고객이 메시지에 마우스를 올리면 '번역 보기' 옵션이 제공됩니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "6982d796c935f09b3583",
+        "height": "758px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/20/revisions/759070/usermedia/6982d7c71cbc91c5c82a",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "고객 혹은 팀 멤버가 보낸 메시지가 내 언어와 다른 경우 발신자 프로필 우측에 '번역 보기' 옵션이 제공됩니다. "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "번역 보기 위치 변경 안내(2026-02-13)"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "color": "default"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "번역 보기 위치가 메시지 하단에서 프로필 우측으로 변경되었으니 참고해 주세요. "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "color": "default"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": "6982d6f98ae566c2ff05",
+        "height": "528px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/20/revisions/759070/usermedia/6982d7cae56fd074e908",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "스크립트로 언어 고정"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "웹빌더사(카페24, 아임웹 등)의 경우에는 스크립트를 수정하여 언어 고정이 어려울 수 있어요."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 언어를 한 가지로 고정하여 보여지도록 하는 방법도 있어요. 이 경우, 스크립트 수정이 필요합니다. 채널톡 설치 스크립트에서 language 설정을 en(영어), ko(한국어), ja(일본어)로 변경해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "라벨 버튼, 프로필, 인사말, 봇 메시지"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 언어가 설정해주신 하나의 언어로 고정됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "ChannelIO('boot', {\n\"pluginKey\": \"YOUR_PLUGIN_KEY\",\n\"language\": \"ko\",\n});"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "관리자 언어 변경"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "관리자 화면의 언어도 변경이 가능하고, 이 때에는 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "한국어, 영어, 일본어"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "가 지원됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "설정 경로: [개인 설정] → [계정 설정] → [언어]"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "attrs": {
+                "alt": "manager",
+                "mime": "image/*",
+                "src": "https://cf.channel.io/document/spaces/6/articles/20/revisions/55/usermedia/662b1005b7baea1ffc09"
+              },
+              "type": "image"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    }
+  ],
+  "author": {
+    "id": "100",
+    "name": "jojo",
+    "bio": ""
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0ea9e36d276cc7f5",
+  "linked_faqs": [],
+  "faq_count": 0
+}

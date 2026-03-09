@@ -1,0 +1,3188 @@
+{
+  "id": "93464",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%A0%84%ED%99%94-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0--9f84047d",
+  "title": "전화 문제 해결",
+  "summary": "전화가 안 오거나, 소리가 안 들리거나, 수신 화면이 안 보이시나요? 이 문서를 참고하여 해결하세요. 전화가 안 와요 - 전화가 안 와요 - 전화 상담이 자동 배정되지 않아요 - 고객이 전화를 걸어도 모든 상담원이 통화중이라며 자동으로 끊어져요 - 담당자 없는 전화가 왔을 때, 전화 알림이 안 들어와요 채널톡 설정 확인하기 전화 알림을 원활히 받기 위해 확인해야 할 주요 설정은 아래 세가지 입니다. ① 팀 멤버 설정 ② 오퍼레이터 상태 ③ 방해 금지 모드 ① 팀 멤버 설정 ✅ [개인 설정] → [알림] → [수신함 알림] → [미트 알림 받을 장치]에서 전화 알림을 받을 장치가 제대로 설정되어 있는지 확인하세요. ② 오퍼레이터 상태 ✅ 오퍼레이터 시트가 ON이고, 상태가 ‘응대 중’이어야합니다. ✅ 세부 유형은 ‘자리 비움’ 또는 ‘응대 종료’ 상태이면 안돼요. ‘대기 중’ 또는 ‘채팅 중’이어야 합니다. ✅ '전화 후처리중'이면 전화가 오지 않으니, 진행중 전화 상담 건을 전부 종",
+  "plaintext": "전화가 안 오거나, 소리가 안 들리거나, 수신 화면이 안 보이시나요? 이 문서를 참고하여 해결하세요.\n전화가 안 와요\n전화가 안 와요\n전화 상담이 자동 배정되지 않아요\n고객이 전화를 걸어도 모든 상담원이 통화중이라며 자동으로 끊어져요\n담당자 없는 전화가 왔을 때, 전화 알림이 안 들어와요\n채널톡 설정 확인하기\n전화 알림을 원활히 받기 위해 확인해야 할 주요 설정은 아래 세가지 입니다.\n① 팀 멤버 설정 ② 오퍼레이터 상태 ③ 방해 금지 모드\n① 팀 멤버 설정\n[개인 설정] → [알림] → [수신함 알림] → [미트 알림 받을 장치]에서 전화 알림을 받을 장치가 제대로 설정되어 있는지 확인하세요.\n② 오퍼레이터 상태\n오퍼레이터 시트가 ON이고, 상태가 ‘응대 중’이어야합니다.\n세부 유형은 ‘자리 비움’ 또는 ‘응대 종료’ 상태이면 안돼요. ‘대기 중’ 또는 ‘채팅 중’이어야 합니다.\n'전화 후처리중'이면 전화가 오지 않으니, 진행중 전화 상담 건을 전부 종료하세요. (\n→ 종료 방법\n)\n③ 방해 금지 모드\n방해 금지 모드를 꺼 주세요.\n기기 설정 확인하기\n사용하시는 PC 및 모바일에서 알림 설정이 잘 되어있는지 확인하세요.\n①\nPC\n인터넷 브라우저와 PC에서 채널톡에 대한 알림을 허용해주세요.\n1) Chrome\n[\n설정] - [개인정보 및 보안] - [알림]\n채널톡 사이트에 대한 알림을 허용해주세요.\n2) Mac\n[\n설정] - [알림] - [Channel Talk]\nChannel Talk 앱에서 알림 허용을 켭니다.\n알림을 허용해도 전화 알림이 오지 않는 경우는 [집중 모드]가 켜져있는지 확인해 주세요.\n3) Windows\n[\n설정] - [알림 및 작업] - [Channel Talk]\nChannel Talk 앱에서 알림 허용을 켭니다.\n알림을 허용해도 전화 알림이 오지 않는 경우는 [집중 지원]이 켜져있는지 확인해 주세요.\n②\n모바일\n모바일\n앱을 다운로드 받은 후, 채널톡에 대한 알림을 꼭 허용해주세요.\n워크플로우로 점검하기\n여전히 전화가 안 오는 문제가 해결되지 않는다면,\n여기\n를 클릭하세요.\n소리가 안 들려요\n전화 벨 소리가 안들려요\n팀 멤버의 목소리가 안 들려요\n팀 멤버의 목소리가 끊겨서 들려요\n팀 멤버의 목소리가 울려서 들려요\n고객의 목소리가 안 들려요\n채널톡 설정 확인하기\n원활한 통화를 위해 팀 멤버 스스로가 마이크와 스피커 기기의 상태를 미리 점검할 수 있어요.\n① 마이크\n[개인 설정] → [미트] → [마이크] 화면\n에서 말을 했을 때,\n볼륨 미터가 움직이는 지\n확인하세요.\n[테스트]를 클릭하여\n소리가 제대로 녹음되는지\n확인하세요.\n구글 밋이나 줌 등 다른 서비스에서 상대방에게 내 목소리가 잘 들리는지 확인하세요. 잘 들리지 않으면 마이크 문제일 수 있습니다. 마이크 상태를 점검해보세요.\n② 스피커\n[개인 설정] → [미트] → [스피커] 에서 [테스트]를 클릭하여 소리가 정상 출력되는지 확인하세요.\n소리가 정상 출력되지 않으면, 유튜브 등 다른 서비스에서도 소리가 잘 출력되는지 확인하세요. 소리가 들리지 않는다면 스피커 문제일 수 있습니다. 스피커 상태를 점검해보세요.\n기기 설정 확인하기\n①\nPC\n시스템의 소리(사운드) 설정에서 어떤 기기가 기본 장치(디폴트)로 설정되어 있는지 확인합니다.\n채널톡 전화 앱은 시스템의 기본 오디오 장치 설정을 따르기 때문에, 사용하시는 오디오 기기를 변경하셨다면, 시스템 소리 설정도 함께 조정해주셔야 정상적으로 소리가 출력됩니다.\n기본 오디오 장치 확인 및 변경 방법:\n1) Windows\n작업 표시줄 우측 하단의 스피커 아이콘을 오른쪽 클릭\n‘소리 설정 열기’ 또는 ‘사운드 설정’ 선택\n‘출력 장치 선택’ 항목에서\n→ 현재 설정된 기본 오디오 기기를 확인\n→ 드롭다운에서 원하는 장치를 선택하여 기본값으로 설정 가능\n또는, 제어판 > 하드웨어 및 소리 > 소리 > 재생 탭\n→ 여기서 기본 장치로 설정할 항목을 선택 후 ‘기본값으로 설정’ 클릭\n2) macOS\n화면 왼쪽 상단의 Apple 로고 클릭 > 시스템 설정(또는 시스템 환경설정)\n사운드 > 출력 메뉴 선택\n출력 기기 목록에서 원하는 오디오 장치를 선택\n→ 선택한 장치가 기본 출력 장치로 설정됩니다.\n네트워크 확인하기\n와이파이(무선 네트워크) 보다는 유선 LAN 사용을 권장합니다.\n와이파이(무선 네트워크)를 사용 중이라면, 대역폭이 최소 인당 10MB인지 확인해주세요.\n네트워크 환경 확인\n[개인 설정] → [미트] → [환경 진단] 탭에서 네트워크 상태를 확인할 수 있습니다.\n동시 사용 인원 확인\n네트워크를 동시에 사용하는\n인원 수\n를 파악합니다.\n인당 대역폭 계산\n측정된 다운로드 속도를\n동시 사용 인원 수로 나눠서 인당 대역폭\n을 계산합니다.\n예: 다운로드 속도가 100Mbps이고, 10명이 동시에 사용하면\n1인당 10Mbps\n입니다.\n네트워크 환경 고려\n다수의 기기\n나\n대용량 파일 다운로드/업로드\n,\n동영상 스트리밍\n등 네트워크 트래픽이 많은 상황에서는 대역폭이 줄어들 수 있으므로, 실제 사용 환경을 고려하여 더 높은 대역폭을 확보할 필요가 있을 수 있습니다.\n공유기 성능 점검\n무선 네트워크를 사용하는 경우,\n공유기 성능\n도 대역폭에 영향을 미칠 수 있습니다. 최신 모델의 공유기를 사용하고, 적절한 위치에 설치되어 있는지 확인합니다.\n전화 수신 화면이 안보여요\n전화 알림은 울리는데, ‘전화 오는 중’ 화면이 안 떠요\n‘전화 오는 중’ 화면에서 통화 수락 버튼 눌렀는데, ‘통화 중’ 화면이 안 떠요\n기기 설정 확인하기\n① 팝업 허용하기\n전화 수신 팝업 화면이 잘 뜰 수 있게 브라우저의 팝업을 허용해주세요.\n② 창 상태 초기화\n데스크탑 앱의 창 상태를 초기화해보세요. 전화 수신 팝업 화면이 실제로는 떴으나, 디스플레이 영역 밖에 있어서 보이지 않는 상황일 수 있어요.\n1) Mac\n[Channel Talk] → [문제 해결] → [창 상태 초기화]\n2) Windows\n[∨] → [채널톡 아이콘]에서 마우스 오른쪽 버튼 클릭 → [문제 해결] → [창 상태 초기화]\n미트 진단하기\n미트 종류(전화, 영상, 음성)와 관계없이 모든 미트에서 '미트 진단' 기능을 통해 네트워크 및 장치 상태를 확인할 수 있습니다.\n사용 방법: 통화 중 상태에서 미트 링 박스 내 마이크 아이콘 클릭 → ‘미트 진단’ 선택\n진단 항목\n항목명\n설명\nMOS 점수\n통화 품질을 5점 만점으로 평가한 점수예요. 높을수록 소리와 영상이 선명하고 안정적이에요.\n지터\n데이터 수신 시간이 불규칙한 정도에요. 낮을수록 소리나 영상이 덜 끊겨요.\n비트레이트\n1초 동안 보내는 데이터 양이에요. 높을수록 소리나 영상이 선명해요.\n패킷 손실률\n통신 중 손실된 데이터의 비율이에요. 낮을수록 소리나 영상이 덜 끊겨요.\n초당 프레임 수\n1초에 프레임 몇 장이 나오는지를 뜻해요. 높을수록 영상이 부드러워요.\n프레임 안정성\n프레임과 프레임 사이 간격이 불규칙한 정도예요. 낮을수록 영상이 덜 끊겨요.\nCPU 사용량\n영상을 처리할 때 CPU가 얼마나 많이 사용되는지 보여줘요. 높을수록 기기 성능에 부담이 될 수 있어요.\nRAM 사용량\n데이터를 처리하는 데 메모리가 얼마나 쓰이는지 나타내요. 높을수록 끊김이나 지연이 생길 수 있어요.\n하드웨어 가속\n화면이나 소리가 끊기지 않도록 CPU 대신 더 빠른 장치를 사용해요.\n채널팀에 문의하기\n여전히 문제가 해결되지 않는다면 채널팀에 문의하세요.\nPC에서는 문제가 발생한 상담의 정보를 간단하게 전달할 수 있습니다.\n문제가 발생한 상담에 마우스를 올려 미트 문제 리포트를 클릭해주세요\n문제 상황을 선택해주세요\n네트워크 진단 및 녹취 파일 제공을 통해 현재 네트워크 상태와 문제가 발생한 상담의 녹음 파일도 함께 전달 가능합니다.\n리포트 복사를 눌러 내용을 복사한 후, 상담창에 내용을 붙여넣어 채널팀에게 전달해주세요.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화가 안 오거나, 소리가 안 들리거나, 수신 화면이 안 보이시나요? 이 문서를 참고하여 해결하세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화가 안 와요"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화가 안 와요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화 상담이 자동 배정되지 않아요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객이 전화를 걸어도 모든 상담원이 통화중이라며 자동으로 끊어져요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "담당자 없는 전화가 왔을 때, 전화 알림이 안 들어와요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 설정 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 알림을 원활히 받기 위해 확인해야 할 주요 설정은 아래 세가지 입니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "① 팀 멤버 설정 ② 오퍼레이터 상태 ③ 방해 금지 모드"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_매니저설정.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c034a9511a5d88a363",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "① 팀 멤버 설정"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "[개인 설정] → [알림] → [수신함 알림] → [미트 알림 받을 장치]에서 전화 알림을 받을 장치가 제대로 설정되어 있는지 확인하세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_미트알림받을장치 (1).png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c16e6f94a07a9eee1c",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "② 오퍼레이터 상태"
+          },
+          "marks": [
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "오퍼레이터 시트가 ON이고, 상태가 ‘응대 중’이어야합니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 세부 유형은 ‘자리 비움’ 또는 ‘응대 종료’ 상태이면 안돼요. ‘대기 중’ 또는 ‘채팅 중’이어야 합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " '전화 후처리중'이면 전화가 오지 않으니, 진행중 전화 상담 건을 전부 종료하세요. ("
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "→ 종료 방법"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/updates/ko/articles/1%EC%9B%94-17%EC%9D%BC%EA%B8%88-%EC%98%A4%ED%8D%BC%EB%A0%88%EC%9D%B4%ED%84%B0-%EC%83%81%ED%83%9C-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%98%81%ED%96%A5-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-4682fbb3#-%5B%EC%A4%91%EC%9A%94%5D-%EC%88%98%EC%8B%A0%ED%95%A8%EC%97%90-%EC%A7%84%ED%96%89%EC%A4%91-%EC%A0%84%ED%99%94-%EC%83%81%EB%8B%B4%EC%9D%B4-%EC%A1%B4%EC%9E%AC%ED%95%98%EB%8A%94-%EA%B2%BD%EC%9A%B0-%ED%86%B5%ED%99%94-%EB%A7%81%EC%9D%B4-%EC%9A%B8%EB%A6%AC%EC%A7%80-%EC%95%8A%EC%95%84%EC%9A%94"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_오퍼레이터상태.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c034cb6fd2f52b1e31",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "③ 방해 금지 모드"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 방해 금지 모드를 꺼 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_방해금지.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c034df86d5c77235da",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기기 설정 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "사용하시는 PC 및 모바일에서 알림 설정이 잘 되어있는지 확인하세요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "① "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "PC "
+          },
+          "marks": [
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 인터넷 브라우저와 PC에서 채널톡에 대한 알림을 허용해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1) Chrome"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "["
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "name": "gear"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 설정] - [개인정보 및 보안] - [알림]"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 사이트에 대한 알림을 허용해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_구글크롬_1.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c034ea3636958fd343",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_구글크롬_2.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c043ced53461b45fd9",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "2) Mac"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "["
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "name": "gear"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 설정] - [알림] - [Channel Talk]"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Channel Talk 앱에서 알림 허용을 켭니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_맥.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c04a74ae619a8af7a1",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "알림을 허용해도 전화 알림이 오지 않는 경우는 [집중 모드]가 켜져있는지 확인해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_맥2.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c04a7a20be2881d4f1",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "3) Windows"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "["
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "name": "gear"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 설정] - [알림 및 작업] - [Channel Talk]"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Channel Talk 앱에서 알림 허용을 켭니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_윈도우_1.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/203967/usermedia/67c998c22cc80d9afe0b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "알림을 허용해도 전화 알림이 오지 않는 경우는 [집중 지원]이 켜져있는지 확인해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_윈도우_2.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/203967/usermedia/67c998c66b17dced6400",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "② "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "모바일"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 모바일 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "앱을 다운로드 받은 후, 채널톡에 대한 알림을 꼭 허용해주세요."
+          },
+          "marks": [
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_모바일알림허용.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c04a1b867e1eb801b0",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우로 점검하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "여전히 전화가 안 오는 문제가 해결되지 않는다면, "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "여기"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "href": "https://root.channel.io/workflows/727486"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 클릭하세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "소리가 안 들려요"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화 벨 소리가 안들려요 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 멤버의 목소리가 안 들려요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 멤버의 목소리가 끊겨서 들려요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "팀 멤버의 목소리가 울려서 들려요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "고객의 목소리가 안 들려요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 설정 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "원활한 통화를 위해 팀 멤버 스스로가 마이크와 스피커 기기의 상태를 미리 점검할 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "① 마이크"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "[개인 설정] → [미트] → [마이크] 화면"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "에서 말을 했을 때, "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "볼륨 미터가 움직이는 지"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 확인하세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "[테스트]를 클릭하여 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "소리가 제대로 녹음되는지"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 확인하세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 구글 밋이나 줌 등 다른 서비스에서 상대방에게 내 목소리가 잘 들리는지 확인하세요. 잘 들리지 않으면 마이크 문제일 수 있습니다. 마이크 상태를 점검해보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "67c04701cd015f7771a7",
+        "height": "571px",
+        "mime": "image/gif",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c047ae39a41b92a2f2",
+        "width": "800px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "② 스피커"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "[개인 설정] → [미트] → [스피커] 에서 [테스트]를 클릭하여 소리가 정상 출력되는지 확인하세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "소리가 정상 출력되지 않으면, 유튜브 등 다른 서비스에서도 소리가 잘 출력되는지 확인하세요. 소리가 들리지 않는다면 스피커 문제일 수 있습니다. 스피커 상태를 점검해보세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "b-background-color"
+              },
+              "type": "backgroundColor"
+            },
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "67c0479f075663f383ba",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c047c150e82e8f007b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기기 설정 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "① "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "PC "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "시스템의 소리(사운드) 설정에서 어떤 기기가 기본 장치(디폴트)로 설정되어 있는지 확인합니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "채널톡 전화 앱은 시스템의 기본 오디오 장치 설정을 따르기 때문에, 사용하시는 오디오 기기를 변경하셨다면, 시스템 소리 설정도 함께 조정해주셔야 정상적으로 소리가 출력됩니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "기본 오디오 장치 확인 및 변경 방법:"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1) Windows"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "  "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "작업 표시줄 우측 하단의 스피커 아이콘을 오른쪽 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "‘소리 설정 열기’ 또는 ‘사운드 설정’ 선택"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "‘출력 장치 선택’ 항목에서"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "→ 현재 설정된 기본 오디오 기기를 확인"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "→ 드롭다운에서 원하는 장치를 선택하여 기본값으로 설정 가능"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "또는, 제어판 > 하드웨어 및 소리 > 소리 > 재생 탭 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "→ 여기서 기본 장치로 설정할 항목을 선택 후 ‘기본값으로 설정’ 클릭"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "2) macOS"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "화면 왼쪽 상단의 Apple 로고 클릭 > 시스템 설정(또는 시스템 환경설정)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사운드 > 출력 메뉴 선택"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "출력 기기 목록에서 원하는 오디오 장치를 선택 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "→ 선택한 장치가 기본 출력 장치로 설정됩니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "네트워크 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 와이파이(무선 네트워크) 보다는 유선 LAN 사용을 권장합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 와이파이(무선 네트워크)를 사용 중이라면, 대역폭이 최소 인당 10MB인지 확인해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네트워크 환경 확인"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[개인 설정] → [미트] → [환경 진단] 탭에서 네트워크 상태를 확인할 수 있습니다."
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "b-background-color"
+                              },
+                              "type": "backgroundColor"
+                            },
+                            {
+                              "attrs": {
+                                "color": "default",
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "네트워크 확인 (1).png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/905365/usermedia/699ec980e60d172dd88f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "동시 사용 인원 확인"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "네트워크를 동시에 사용하는 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "인원 수"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "를 파악합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "인당 대역폭 계산"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "측정된 다운로드 속도를 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "동시 사용 인원 수로 나눠서 인당 대역폭"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "을 계산합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예: 다운로드 속도가 100Mbps이고, 10명이 동시에 사용하면 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "1인당 10Mbps"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "입니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네트워크 환경 고려"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "다수의 기기"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "나 "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "대용량 파일 다운로드/업로드"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": ", "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "동영상 스트리밍"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 등 네트워크 트래픽이 많은 상황에서는 대역폭이 줄어들 수 있으므로, 실제 사용 환경을 고려하여 더 높은 대역폭을 확보할 필요가 있을 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "공유기 성능 점검"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "무선 네트워크를 사용하는 경우, "
+                          },
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "공유기 성능"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": "도 대역폭에 영향을 미칠 수 있습니다. 최신 모델의 공유기를 사용하고, 적절한 위치에 설치되어 있는지 확인합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "전화 수신 화면이 안보여요 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "전화 알림은 울리는데, ‘전화 오는 중’ 화면이 안 떠요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "‘전화 오는 중’ 화면에서 통화 수락 버튼 눌렀는데, ‘통화 중’ 화면이 안 떠요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "기기 설정 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "① 팝업 허용하기"
+          },
+          "marks": [
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 전화 수신 팝업 화면이 잘 뜰 수 있게 브라우저의 팝업을 허용해주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_팝업허용.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c048e3025cbb3a1ef3",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "② 창 상태 초기화"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "name": "white_check_mark"
+          },
+          "type": "emoji"
+        },
+        {
+          "attrs": {
+            "text": " 데스크탑 앱의 창 상태를 초기화해보세요. 전화 수신 팝업 화면이 실제로는 떴으나, 디스플레이 영역 밖에 있어서 보이지 않는 상황일 수 있어요. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "1) Mac"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[Channel Talk] → [문제 해결] → [창 상태 초기화] "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_창상태초기화_맥.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c04ebab913b9f930f4",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "2) Windows"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[∨] → [채널톡 아이콘]에서 마우스 오른쪽 버튼 클릭 → [문제 해결] → [창 상태 초기화]"
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "bold"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "전화문제해결_창상태초기화_윈도우.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/178310/usermedia/67c04ec9bef455d4db84",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "미트 진단하기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "미트 종류(전화, 영상, 음성)와 관계없이 모든 미트에서 '미트 진단' 기능을 통해 네트워크 및 장치 상태를 확인할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "사용 방법: 통화 중 상태에서 미트 링 박스 내 마이크 아이콘 클릭 → ‘미트 진단’ 선택"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "color": "default",
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "Group 42.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/246740/usermedia/67f4f96e3da5ea0a332d",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "진단 항목 "
+          },
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "attrs": {
+                "color": "default",
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "항목명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        },
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "MOS 점수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통화 품질을 5점 만점으로 평가한 점수예요. 높을수록 소리와 영상이 선명하고 안정적이에요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "지터"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터 수신 시간이 불규칙한 정도에요. 낮을수록 소리나 영상이 덜 끊겨요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비트레이트"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "1초 동안 보내는 데이터 양이에요. 높을수록 소리나 영상이 선명해요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "패킷 손실률"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "통신 중 손실된 데이터의 비율이에요. 낮을수록 소리나 영상이 덜 끊겨요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "초당 프레임 수"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "1초에 프레임 몇 장이 나오는지를 뜻해요. 높을수록 영상이 부드러워요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "프레임 안정성"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "프레임과 프레임 사이 간격이 불규칙한 정도예요. 낮을수록 영상이 덜 끊겨요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "CPU 사용량"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "영상을 처리할 때 CPU가 얼마나 많이 사용되는지 보여줘요. 높을수록 기기 성능에 부담이 될 수 있어요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "RAM 사용량  "
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터를 처리하는 데 메모리가 얼마나 쓰이는지 나타내요. 높을수록 끊김이나 지연이 생길 수 있어요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "하드웨어 가속"
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "화면이나 소리가 끊기지 않도록 CPU 대신 더 빠른 장치를 사용해요."
+                      },
+                      "marks": [
+                        {
+                          "attrs": {
+                            "color": "default",
+                            "semanticColor": "txt-black-darkest"
+                          },
+                          "type": "color"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "채널팀에 문의하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "여전히 문제가 해결되지 않는다면 채널팀에 문의하세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "PC에서는 문제가 발생한 상담의 정보를 간단하게 전달할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문제가 발생한 상담에 마우스를 올려 미트 문제 리포트를 클릭해주세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "문제 보내기_1.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/905365/usermedia/69a032525324a05640db",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "문제 상황을 선택해주세요 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "네트워크 진단 및 녹취 파일 제공을 통해 현재 네트워크 상태와 문제가 발생한 상담의 녹음 파일도 함께 전달 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "문제 보내기_2.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/905365/usermedia/699ecaced6fb53155198",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "리포트 복사를 눌러 내용을 복사한 후, 상담창에 내용을 붙여넣어 채널팀에게 전달해주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "문제 보내기_3.png",
+        "height": "860px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/93464/revisions/905365/usermedia/699ecb1bdd96add1b215",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/67c994deb48fa37322cb",
+  "linked_faqs": [
+    {
+      "id": "213892",
+      "question": "모든 상담원 통화중으로 전화가 계속 끊어져요",
+      "answer_plaintext": "전화 배정을 어떤 방식으로 활용하고 있는지 확인해주세요.\n\n상담 자동 배정기능을 사용하고 있다면 \n- 오퍼레이터 상태가 [응대중] 이 맞는지 확인해주세요. \n- [수신함 > 진행중]인 상담에 후처리 또는 통화중인 상담이 있는지 확인해주세요. \n\n만약 상담 자동배정 기능을 사용하지 않고 있다면, 아래 경우를 확인해주세요. \n- [개인 설정 > 매니저 설정 > 알림 > 수신함 알림 > 담당자 없음 알림] 이 켜져있는지 확인해주세요. \n- 상담 자동 배정을 이용하지 않고 있다면, 담당자 없음 알림이 켜져있는 팀 멤버가 한명이라도 있어야 전화를 받을 수 있습니다."
+    }
+  ],
+  "faq_count": 1
+}

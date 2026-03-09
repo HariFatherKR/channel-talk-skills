@@ -1,0 +1,573 @@
+{
+  "id": "95",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%B1%84%EB%84%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%84%A4%EC%A0%95-5deb0312",
+  "title": "채널 프로필 설정",
+  "summary": "채널의 대표 이미지와 이름 그리고 브랜드의 설명 또는 간단한 공지사항이나 변경사항 등을 설정하고, 채널톡 버튼의 기본 설정을 이 곳에서 수정할 수 있어요.",
+  "plaintext": "프로필\n설정 경로: [채널 설정 - 일반설정 - 채널 프로필 - 프로필]\n프로필 로고\n브랜드의 로고나 대표 이미지를 설정할 수 있어요.\n프로필 번역\n글로벌 사이트를 운영 중이신가요? 접속한 고객의 브라우저 언어에 따라 표기되는 문구를 변경하실 수 있어요.\n채널 전반적인 언어 설정 방법이 궁금하다면?\n한국어 외에 다른 언어로 설정하기를 확인해주세요.\n커버 이미지 업로드\n홈 화면에서 브랜드 사이트의 디자인에 맞게 커버 이미지를 설정해 보세요. 브랜드의 아이덴티티를 나타낼 수 있는 커버 이미지를 등록하여 고객과의 대화 창구도 브랜딩할 수 있어요.\n커버 이미지 권장 사이즈는 최소 780x320p 이며, jpg, jpeg, png 파일만 업로드 가능합니다.\n안내 사항\n안내 사항을 설정하여 고객에게 꼭 필요한 정보를 전달할 수 있어요.\n안내 사항은 대화방 상단에 배너 형태로 노출되며, 최대 2줄까지 보입니다. 안내 사항 내용이 길 경우 더보기 버튼을 클릭하여 내용 전체를 확인해 볼 수 있어요.\n팀 멤버 프로필\n팀 멤버 프로필이 켜져 있으면 [문의하기] 하단과 라벨 버튼에 팀 멤버 프로필이 노출됩니다.\n중복 문의 막기\n동일 고객의 중복 상담을 방지하려면 ‘중복 문의 막기’ 설정을 활성화하세요.\n이미 진행 중인 상담이 있는 고객에게는 ‘새 문의하기’ 버튼이 숨겨져, 기존 상담을 계속 이어가도록 유도할 수 있습니다.\n연락처 및 위치\n설정 경로: [채널 설정 - 일반설정 - 채널 프로필 - 연락처 및 위치]\n내 채널톡 주소\n사이트의 채널톡 버튼 외에도 내 채널톡 주소를 전달해 고객이 채널톡 라운지로 바로 접속할 수 있어요.내 채널톡 주소는 원하는 주소로 수정이 가능합니다.\n또한, 내 채널톡 주소는 QR코드 형태로도 이용할 수 있어요. 오프라인 매장이나 상품 설명에 QR코드 이미지를 노출하여 고객이 쉽게 채널톡으로 문의하도록 안내할 수 있습니다. (QR코드는 PNG 파일로 저장됩니다.)\n회사 전화번호\n회사의 대표 번호를 설정해보세요. 전화번호를 설정하면 채널톡 라운지 [다른 방법으로 상담]탭에 전화 연결이 가능한 버튼이 생성돼요.\n홈페이지 주소\n운영 중인 홈페이지 URL을 입력할 수 있고, 입력한 홈페이지 주소는 변경과 삭제가 가능해요.\n국가 및 시간대\n서비스를 운영하는 국가 및 시간대를 설정할 수 있고, 설정한 시간대(Timezone)에 따라 채널 운영 상태가 변경됩니다.",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "프로필"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 경로: [채널 설정 - 일반설정 - 채널 프로필 - 프로필]"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "프로필 로고"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "브랜드의 로고나 대표 이미지를 설정할 수 있어요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "프로필설정_로고.png",
+        "height": "872px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/95/revisions/17957/usermedia/66a21fee7c31c61086ca",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "프로필 번역"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "글로벌 사이트를 운영 중이신가요? 접속한 고객의 브라우저 언어에 따라 표기되는 문구를 변경하실 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "채널 전반적인 언어 설정 방법이 궁금하다면? "
+              },
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": "한국어 외에 다른 언어로 설정하기를 확인해주세요."
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "href": "https://docs.channel.io/help/ko/articles/f6b84106"
+                  },
+                  "type": "hyperlink"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/95/revisions/280/usermedia/662b10af6a26539009f9"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "커버 이미지 업로드"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "홈 화면에서 브랜드 사이트의 디자인에 맞게 커버 이미지를 설정해 보세요. 브랜드의 아이덴티티를 나타낼 수 있는 커버 이미지를 등록하여 고객과의 대화 창구도 브랜딩할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "커버 이미지 권장 사이즈는 최소 780x320p 이며, jpg, jpeg, png 파일만 업로드 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "안내 사항"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "안내 사항을 설정하여 고객에게 꼭 필요한 정보를 전달할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "안내 사항은 대화방 상단에 배너 형태로 노출되며, 최대 2줄까지 보입니다. 안내 사항 내용이 길 경우 더보기 버튼을 클릭하여 내용 전체를 확인해 볼 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/95/revisions/280/usermedia/662b10b03af62a7113a5"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버 프로필"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "팀 멤버 프로필이 켜져 있으면 [문의하기] 하단과 라벨 버튼에 팀 멤버 프로필이 노출됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "매니저프로필설정_라벨버튼_프로필.png",
+        "height": "1100px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/95/revisions/17957/usermedia/66a220231804a5de57ef",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "중복 문의 막기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "동일 고객의 중복 상담을 방지하려면 ‘중복 문의 막기’ 설정을 활성화하세요."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이미 진행 중인 상담이 있는 고객에게는 ‘새 문의하기’ 버튼이 숨겨져, 기존 상담을 계속 이어가도록 유도할 수 있습니다."
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "프로필설정_중복문의막기.png",
+        "height": "1348px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/95/revisions/203892/usermedia/67c9872264bb583358b7",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "연락처 및 위치"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정 경로: [채널 설정 - 일반설정 - 채널 프로필 - 연락처 및 위치]"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": " ",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/95/revisions/280/usermedia/662b10b06c3fb7d55283"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "내 채널톡 주소"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "사이트의 채널톡 버튼 외에도 내 채널톡 주소를 전달해 고객이 채널톡 라운지로 바로 접속할 수 있어요.내 채널톡 주소는 원하는 주소로 수정이 가능합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "또한, 내 채널톡 주소는 QR코드 형태로도 이용할 수 있어요. 오프라인 매장이나 상품 설명에 QR코드 이미지를 노출하여 고객이 쉽게 채널톡으로 문의하도록 안내할 수 있습니다. (QR코드는 PNG 파일로 저장됩니다.)"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "내 채널톡 주소",
+        "mime": "image/*",
+        "src": "https://cf.channel.io/document/spaces/6/articles/95/revisions/280/usermedia/662b10b0a754ecb8de37"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "회사 전화번호"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "회사의 대표 번호를 설정해보세요. 전화번호를 설정하면 채널톡 라운지 [다른 방법으로 상담]탭에 전화 연결이 가능한 버튼이 생성돼요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "홈페이지 주소"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "운영 중인 홈페이지 URL을 입력할 수 있고, 입력한 홈페이지 주소는 변경과 삭제가 가능해요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "국가 및 시간대"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "서비스를 운영하는 국가 및 시간대를 설정할 수 있고, 설정한 시간대(Timezone)에 따라 채널 운영 상태가 변경됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "61",
+    "name": "Beige",
+    "bio": "Minji Jeon, CX manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/662b0eec1dd5bce29342",
+  "linked_faqs": [],
+  "faq_count": 0
+}

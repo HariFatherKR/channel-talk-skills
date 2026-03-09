@@ -1,0 +1,517 @@
+{
+  "id": "306",
+  "url": "https://docs.channel.io/help/ko/articles/GitHub-5c755cd0",
+  "title": "GitHub",
+  "summary": "GitHub 앱을 설치해 이벤트를 채널톡과 연동해 보세요. 팀챗과 GitHub를 연결해 팀의 협업을 한층 더 강화할 수 있습니다.",
+  "plaintext": "주요 기능\nPR(Pull Request) 및 Issue 이벤트 전송\nGitHub에서 발생하는 PR, Issue 이벤트를 실시간으로 채널톡 팀챗에 전송할 수 있습니다. 구성원들이 코드 리뷰 및 문제 해결에 대한 즉각적인 알림을 받아 효율적으로 협업할 수 있어요.\nRelease 이벤트 전송\nGitHub에서 발생하는 Release 이벤트를 실시간으로 채널톡 팀챗에 전송할 수 있습니다. 구성원들은 새로운 버전의 소프트웨어 출시 및 업데이트에 대한 알림을 받아 프로젝트의 상태를 파악하고 조치할 수 있어요.\n사용 방법\n앱스토어 앱 설치하기\n[채널 설정] - [연동] - [앱스토어]에서 GitHub 앱을 설치해 주세요.\nGitHub 앱 설치하기\n아래 링크를 통해 GitHub 앱을 설치해 주세요.\nhttps://github.com/apps/channeltalk\nGitHub 커스텀 프로퍼티 설정하기\nGitHub 이벤트를 채널과 팀챗에 연결하기 위해서 아래 3가지 custom property 설정이 필요합니다.\ncht_channel_id\ncht_group_id\ncht_release_group_id\n레포지토리(Repository)마다 cht_group_id를 설정해, 채널톡으로 PR, Issue 알림을 받을 팀챗 그룹을 다르게 설정할 수 있습니다. Release에 대한 알림은 cht_release_group_id을 팀별로 설정해 팀챗 알림으로 받아보실 수 있어요\nID 지정 시 필요한 채널 아이디, 팀챗 그룹 아이디 값은 브라우저를 통해 실행한 채널톡의 URL에서 확인하실 수 있습니다.\n채널 매니저 프로필 설정하기\nGitHub에서 이용하는 유저이름을 기반으로 채널톡에서 이용하는 매니저 이름을 태그하기 위해, 매니저 프로필에 GitHub 유저 이름을 등록해야 합니다. github-username을 키값으로 하여 GitHub 유저이름을 입력해 주세요.\n데이터 키 : github-username\n값 : GitHub에서 이용하는 유저 이름",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "주요 기능"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "PR(Pull Request) 및 Issue 이벤트 전송"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "GitHub에서 발생하는 PR, Issue 이벤트를 실시간으로 채널톡 팀챗에 전송할 수 있습니다. 구성원들이 코드 리뷰 및 문제 해결에 대한 즉각적인 알림을 받아 효율적으로 협업할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "깃헙_PR.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/306/revisions/997/usermedia/666698a1ac97a59045d0",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Release 이벤트 전송"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "GitHub에서 발생하는 Release 이벤트를 실시간으로 채널톡 팀챗에 전송할 수 있습니다. 구성원들은 새로운 버전의 소프트웨어 출시 및 업데이트에 대한 알림을 받아 프로젝트의 상태를 파악하고 조치할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "깃험_Release.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/306/revisions/997/usermedia/666698b48063ce2ba691",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "사용 방법"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "앱스토어 앱 설치하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "[채널 설정] - [연동] - [앱스토어]에서 GitHub 앱을 설치해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "깃험_1.앱 설치하기.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/306/revisions/997/usermedia/666698cbdfecf5ab4f9f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "GitHub 앱 설치하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아래 링크를 통해 GitHub 앱을 설치해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "https://github.com/apps/channeltalk"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://github.com/apps/channeltalk"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "GitHub 커스텀 프로퍼티 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "GitHub 이벤트를 채널과 팀챗에 연결하기 위해서 아래 3가지 custom property 설정이 필요합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "cht_channel_id"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "cht_group_id"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "cht_release_group_id"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "레포지토리(Repository)마다 cht_group_id를 설정해, 채널톡으로 PR, Issue 알림을 받을 팀챗 그룹을 다르게 설정할 수 있습니다. Release에 대한 알림은 cht_release_group_id을 팀별로 설정해 팀챗 알림으로 받아보실 수 있어요"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "깃헙_3.프로퍼티설정.png",
+        "height": "758px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/306/revisions/997/usermedia/666699203a929e6f542b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "ID 지정 시 필요한 채널 아이디, 팀챗 그룹 아이디 값은 브라우저를 통해 실행한 채널톡의 URL에서 확인하실 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "깃헙__ID확인.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/306/revisions/997/usermedia/66669934c1c3ed85f2b0",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 4
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "채널 매니저 프로필 설정하기"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "GitHub에서 이용하는 유저이름을 기반으로 채널톡에서 이용하는 매니저 이름을 태그하기 위해, 매니저 프로필에 GitHub 유저 이름을 등록해야 합니다. github-username을 키값으로 하여 GitHub 유저이름을 입력해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "데이터 키 : github-username"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "값 : GitHub에서 이용하는 유저 이름"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "깃헙_username추가.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/306/revisions/997/usermedia/666699a047dcc8924f9c",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "602",
+    "name": "Lucy",
+    "bio": "CX Manager"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/698d86a65da1dc96c3ea",
+  "linked_faqs": [
+    {
+      "id": "73414",
+      "question": "GitHub 연동 시, PR, Issue, Release 이외의 다른 이벤트는 연동이 안되나요?",
+      "answer_plaintext": "네, 현재 해당 3개의 이벤트만 연동해 이용하실 수 있습니다."
+    },
+    {
+      "id": "73415",
+      "question": "GitHub 연동할 경우, 특정 PR, Issue 생성 시 알림이 오지 않게 설정할 수 있나요?",
+      "answer_plaintext": "이벤트에 대한 알림 설정은 레포지토리 단위로만 가능하기에, 특정 PR, Issue만을 개별적으로 트래킹 하기 어렵습니다."
+    }
+  ],
+  "faq_count": 2
+}

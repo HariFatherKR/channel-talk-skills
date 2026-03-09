@@ -1,0 +1,4659 @@
+{
+  "id": "17089",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%ED%86%B5%EA%B3%84-8736dea8",
+  "title": "워크플로우 통계",
+  "summary": "실제로 얼마나 많은 고객이 워크플로우만으로 문제를 해결하는지, 워크플로우로 해결하지 못하고 상담으로 인입되는 내용이 무엇인지 분석해보세요. 데이터를 다운 받아 활용할 수도 있답니다",
+  "plaintext": "단계 분석\n워크플로우의 시작부터 종료까지 고객이 워크플로우에서 진행한 경로를 확인할 수 있습니다. 첫 퍼블리시 이후 퍼블리시할 때마다 다른 버전으로 저장됩니다.\n단계 분석 화면에서 각 단계의 내용을 바로 확인할 수 있어요. 좌측 미리보기 화면에서 선택한 단계의 고객용 화면을 확인하실 수 있습니다.\n단계를 접고 펼 수 있어요. 하나의 버튼에서 다음 단계로 갈 때는 원형 숫자를 눌러주세요. 숫자는 응답 버튼의 개수만큼 표시됩니다. 고객들이 어느 단계에서 어떤 선택을 하는지 볼 수 있어요.\n통계 기본 개념\n조회 : 해당 단계로 이동한 건수\n이탈 : 다음 단계를 진행하지 않고 이탈한 건수\n빨간색 숫자: 해당 단계에서의 이탈 고객 비율\n모듈형 워크플로우를 진행하고 다시 메인 워크플로우에 돌아오지 않았거나\nALF와 상담 중 이탈했거나\n메시지 입력창에 메시지를 남기지 않고 사이트를 떠나거나\n채널톡 화면을 닫는 경우\n상담 연결이 가능한 단계\n조회\n상담 연결이 있는 단계에 들어온 조회수\n상담 연결이 있는 단계에서의 조회 수 = 상담 연결 + 워크플로우 종료 + 이탈 건을 모두 합산한 수\n상담 연결\n‘새 상담을 시작할 때 챗봇’ 트리거에서만 제공되며, 워크플로우 내 상담 연결 단계가 여러 부분이 있다면, ‘처음’ 열린 상담의 건수가 초록색 숫자로 표시됩니다. 이후 연결되는 상담은 숫자 없이 ‘상담 열기’로만 표시됩니다.\n이탈\n상담 연결이 있는 단계에서의 이탈 = 상담 연결이 있는 단계의 조회 - (다음 단계들의 조회 합 + 워크플로우 종료)\n빨간색 숫자 : 해당 단계에서의 이탈 고객 비율\n모듈형 워크플로우\b 액션이 있는 단계\n모듈형 워크플로우에서 진행한 내용은 모듈형 워크플로우의 단계 분석으로 이동해 확인하실 수 있습니다.\n다음 단계 : 모듈형 워크플로우로 이동했다가, 다시 본래 워크플로우로 돌아와서 다음 단계가 진행된 경우.\n모듈형 워크플로우가 종료 단계라면 다음 단계가 없습니다.\n이탈 : 다음 단계가 있다면, 다음 단계로 가지 않은 모든 건수가 이탈로 집계됩니다.\n모듈형 워크플로우의 단계분석\n'연결된 워크플로우' 리스트 내 이름을 클릭하면 모듈이 연결된 워크플로우별 단계 분석을 나누어 볼 수 있습니다.\n이때, 왼쪽의 단계 분석 버전은 선택되어 있지 않으니, 이전 버전 내용을 확인하시려면 퍼블리시 일자를 다시 설정해 주세요.\n'뒤로가기' 버튼\n이 포함된 경우 동작\n모듈형 워크플로우 내 [뒤로가기] 버튼을 통해 메인 워크플로우로 돌아간 경우\n모듈형 워크플로우의 단계 분석에서는 ‘다른 워크플로우’로 표시합니다.\n하단에는 연결된 메인 워크플로우 리스트가 뜨며, 여러개의 메인 워크플로우에 연결된 경우 합산 숫자가 표시됩니다.\n메인 워크플로우 내 [뒤로가기] 버튼을 통해 모듈형 워크플로우의 중간 단계부터 다시 시작된 경우 단계분석 하단에 별도의 그룹으로 표시됩니다.\nALF 액션이 있는 단계\n다른 단계와 구별되는 테두리 색상을 가지고 있어요. ALF는 워크플로우의 마지막 액션으로만 쓸 수 있어 워크플로우 종료가 기본으로 보여지고, 이탈 여부에 따라 이탈이 표시됩니다.\n도움 됐어요 버튼은 단계를 이동한 것이 아니기 때문에, 단계 분석에서는 조회를 확인할 수 없습니다.\n아쉬워요, 상담원 연결 버튼을 통해 상담이 연결되었다면 상담 연결이 보여집니다.\n다만, 워크플로우 자체에서 ‘처음’ 상담 연결이 된 경우라면 연결 건이 초록색 숫자로 보이며\n최초 인입 건이 아니라면, 숫자 없이 상담 연결로만 보여집니다.\n브랜치 액션이 있는 단계\n브랜치가 연결된 단계 내 리스트로 표시되며, 브랜치 별 연결된 단계로 이동한 조회수가 표시됩니다.\n설정 팁\n단계의 이름을 상세하게 설정하면 나중에 어떤 단계와 연결되었는지 알아보기 쉽습니다. 단계 이름은 최대 64자까지 설정할 수 있습니다.\n예시) ‘브랜치 1 - 90일 이내 고객 대상’\n응답 버튼이 있는 단계\n응답 버튼이 단계 내 리스트로 표시되며, 각 응답 버튼 별 이동한 조회수 및 이탈 수가 표시됩니다.\n단계 분석 조회하기\n워크플로우를 퍼블리시하면 새로운 버전으로 관리됩니다. ‘단계 분석 버전’에서 원하는 버전을 선택해서 해당 버전의 단계 분석을 조회할 수 있어요.\n단계 분석에서 보여지는 수치는 해당 버전에서의 기록입니다.\n모듈형 워크플로우라면, 연결된 워크플로우에 따른 단계 분석을 조회할 수 있습니다. 우측 ‘연결된 워크플로우’에서 조회하고자 하는 워크플로우를 선택해 주세요.\n아웃바운드성 워크플로우로 설정되어 있다면, 어떤 마케팅에 연결되어 있는지 확인할 수 있습니다. (→\n아웃바운드성 워크플로우 가이드 보러 가기\n)\n통계 요약\n설정한 기간에 대한 워크플로우의 시작부터 종료까지의 추이를 살펴볼 수 있어요.\n상담 연결은 트리거가 ‘새 상담을 시작할 때 챗봇’인 워크플로우에서만 제공됩니다.\n요약에서 보여지는 용어의 의미\n시작:\n워크플로우가 트리거 되어 실행된 건수\n종료:\n워크플로우가 트리거 된 이후, 종료라고 표시된 단계에 도달한 건수\n상담 연결:\n‘새 상담을 시작할 때 챗봇’ 트리거에서만 제공되며, 워크플로우 흐름에서 ‘처음’ 상담이 열린 건만 수치로 제공됩니다.\n각 단계별 전환율도 확인할 수 있습니다.\n각 단계에서 보이는 % 는 최초 워크플로우\n시작 단계에서 전환된 비율\n입니다.\n선형 그래프에 마우스를 올리면 날짜별 건수와 비율을 확인할 수 있어요.\n통계 그래프 우측 상단에서 날짜 필터링과, 그래프로 보여질 수치를 설정할 수 있어요.\n하단 상담 목록 보기 클릭 시, 해당 워크플로우를 통해 시작된 상담의 목록을 확인할 수 있습니다.\n상담 목록 보기 기능은 워크플로우의 트리거 조건이 ‘새 상담을 시작할 때 챗봇’ 일 때만 확인하실 수 있습니다.\n통계 다운로드\n워크플로우 통계 데이터를 활용하여 상담을 효율적으로 관리해 보세요.\n데이터 다운로드는\n다운로드\n권한을 가진 팀 멤버\n만 가능합니다.\n각 멤버의 데이터 다운로드 이력은 기록되며, 채널 소유자가\n최대 1년까지\n조회할 수 있습니다.\n다운로드 방법\n통계를 확인하고자 하는 워크플로우를 목록에서 선택합니다.\n우측 상단 점 3개 버튼 클릭 → [통계 다운로드]를 선택하세요\n데이터 다운로드 사유를 입력하고,\n파일 비밀번호\n를 설정합니다. (다운로드 후 비밀번호를 분실하면 파일을 열 수 없습니다. 다시 다운받아 주세요.)\n파일을 다운로드하는 데에는 몇 분이 소요 될 수 있습니다.\n여러 개의 워크플로우 데이터를 확인하고 싶다면, [워크플로우를 여러 개 선택 > 액션 > 통계 다운로드]를 통해 일괄 다운로드 할 수 있어요. 하나의 엑셀 파일에 여러 개의 워크플로우 데이터가 통합되어 보여집니다.\n통계 다운로드 데이터 확인하기\n워크플로우 데이터는 기간 설정과 관련 없이\n작동된 전체 기간의 전체 데이터\n를 다운로드 합니다.\n시트 이름\n설명\nWorkflow data\n선택한 워크플로우의 기본 정보\nWorkflow Revisions data\n단계 수정 후 다시 퍼블리시한 버전 별 정보\nWorkflow Path Stats data\n설정한 시나리오의 각 경로별 고객 인입 수\nWorkflow Daily Stats data\n설정기간의 일일 유입 정보 (시작 → 종료 → 상담 인입)\nWorkflow data 시트\n데이터 값\n설명\n비고\nworkflowId\n워크플로우 고유 ID\ncreatedAt\n워크플로우 생성 일자\nname\n워크플로우 이름\nstart\n워크플로우 시작 수\nend\n워크플로우 종료 수\nchatOpen\n상담이 열린 수\n- 워크플로우에서 처음으로 오픈 상담에 대해서만 안내됩니다.\n- ‘새 상담을 시작할 때 챗봇’ 트리거에서만 제공됩니다.\nWorkflow Revisions data 시트\n데이터 값\n설명\n비고\nWorkflowId\n워크플로우 고유 ID\nRevisionId\n워크플로우를 수정 후 다시 퍼블리시 할 때마다 부여되는 ID\ncreatedAt\n각 버전별로 워크플로우가 다시 퍼블리시된 시간\ntitle\n버전 메모에 기재한 제목\n단계 분석 출시 이후부터 기재 및 확인 가능합니다.\ndescription\n버전 메모에 기재한 설명\n단계 분석 출시 이후부터 기재 및 확인 가능합니다.\nsections\n단계 이름\nWorkflow Path Stats data 시트\n데이터 값\n설명\n비고\nworkflowId\n워크플로우 고유 ID\nrevisionId\n워크플로우를 수정 후 다시 퍼블리시 할 때마다 부여되는 ID\nsectionPath\n각각의 수정된 버전에서 고객들이 작동시킨 워크플로우 경로 단계(section)의 기록\nview\n실행된 수\nend\n종료된 수\nchatOpen\n상담이 열린 수\n- 워크플로우에서 처음으로 오픈 상담에 대해서만 안내됩니다.\n- ‘새 상담을 시작할 때 챗봇’ 트리거에서만 제공됩니다.\nWorkflow Daily Stats data 시트\n데이터 값\n설명\n비고\nworkflowId\n워크플로우 고유 ID\nrevisionId\n워크플로우를 수정 후 다시 퍼블리시 할 때마다 부여되는 ID\ndate\n데이터가 수집된 날짜\n워크플로우 설정 기간을 하루 단위로 나누어 보여줍니다.\n(ex. 8/8일에 실행되고, 8/9일에 종료되었다면\nview는 8/8일 데이터에\nend는 8/9일 데이터에 수집됩니다.)\nview\n개별 날짜의 워크플로우 시작 수\nend\n개별 날짜의 워크플로우 종료 수\nchatOpen\n개별 날짜의 상담이 열린 수\n- 워크플로우에서 처음으로 오픈 상담에 대해서만 안내됩니다.\n- ‘새 상담을 시작할 때 챗봇’ 트리거에서만 제공됩니다.\n폼 다운로드 데이터 확인하기\n워크플로우 데이터는 기간 설정과 관련 없이\n작동된 전체 기간의 전체 데이터\n를 다운로드 합니다.\n시트 이름\n설명\nWorkflow Form Summary Data\n제출된 폼 요약 정보(한 명의 사용자가 제출한 전체 응답 내용을 요약해볼 수 있습니다.)\nWorkflow Form Submit data\n문항별 개별 응답 기록 정보 (질문 단위로 나뉘어 저장된 응답 데이터입니다.)\nWorkflow Revisions data\n단계 수정 후 다시 퍼블리시한 시점(단계 분석에 보이는 퍼블리시 목록)\nUser data\n폼을 제출한 고객 정보\nUserChat data\n상담 정보(상담이 열린 경우만 표기)\nManager data\n상담을 진행한 팀 멤버의 정보(상담이 열린 경우만 표기)\nWorkflow Form Summary Data 시트\n데이터 값\n설명\nfirstAskedAt\n입력폼 최초 표기 시간\nlastSubmittedAt\n입력폼 마지막 저장 시간\nuserId\n고객 고유 ID\nuserChatId\n유저챗의 고유 ID\n{입력폼 질문}\n질문에 대한 입력폼 응답\nWorkflow Form Submit data 시트\n데이터 값\n설명\nworkflowId\n워크플로우 고유 ID\nrevisionId\n워크플로우를 수정 후 다시 퍼블리시 할 때마다 부여되는 ID\nsectionId\n워크플로우 각 단계 순서\nuserId\n고객 고유 ID\nuserChatId\n유저챗의 고유 ID\naskedAt\n입력폼 표기 시간\nsubmittedAt\n입력폼 저장 시간\ninputBindingKey\n고객 프로필에 저장되는 데이터값\ninputLabel\n워크플로우 입력폼 질문\ninputValue\n워크플로우 입력폼 응답\n이외 시트\nWorkflow Revisions data 시트\n통계 다운로드 데이터 내 시트와 동일합니다. (→\n보러 가기\n)\nUser data / UserChat data / Manager data\n상담 통계 다운로드 데이터 내 User data / UserChat data / Manager data 시트와 동일합니다. (→\n보러 가기\n)",
+  "body": [
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "단계 분석"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우의 시작부터 종료까지 고객이 워크플로우에서 진행한 경로를 확인할 수 있습니다. 첫 퍼블리시 이후 퍼블리시할 때마다 다른 버전으로 저장됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계 분석 화면에서 각 단계의 내용을 바로 확인할 수 있어요. 좌측 미리보기 화면에서 선택한 단계의 고객용 화면을 확인하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계를 접고 펼 수 있어요. 하나의 버튼에서 다음 단계로 갈 때는 원형 숫자를 눌러주세요. 숫자는 응답 버튼의 개수만큼 표시됩니다. 고객들이 어느 단계에서 어떤 선택을 하는지 볼 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우_통계.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/17089/revisions/23352/usermedia/669684cfa785b538c898",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "통계 기본 개념"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "조회 : 해당 단계로 이동한 건수"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이탈 : 다음 단계를 진행하지 않고 이탈한 건수"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "빨간색 숫자: 해당 단계에서의 이탈 고객 비율"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "모듈형 워크플로우를 진행하고 다시 메인 워크플로우에 돌아오지 않았거나"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "ALF와 상담 중 이탈했거나"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "메시지 입력창에 메시지를 남기지 않고 사이트를 떠나거나"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "채널톡 화면을 닫는 경우"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 연결이 가능한 단계"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우_통계-4.png",
+        "height": "750px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/17089/revisions/23352/usermedia/6696851ca8df369c226b",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "조회"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담 연결이 있는 단계에 들어온 조회수"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담 연결이 있는 단계에서의 조회 수 = 상담 연결 + 워크플로우 종료 + 이탈 건을 모두 합산한 수"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 연결"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "‘새 상담을 시작할 때 챗봇’ 트리거에서만 제공되며, 워크플로우 내 상담 연결 단계가 여러 부분이 있다면, ‘처음’ 열린 상담의 건수가 초록색 숫자로 표시됩니다. 이후 연결되는 상담은 숫자 없이 ‘상담 열기’로만 표시됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "이탈"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담 연결이 있는 단계에서의 이탈 = 상담 연결이 있는 단계의 조회 - (다음 단계들의 조회 합 + 워크플로우 종료)"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "빨간색 숫자 : 해당 단계에서의 이탈 고객 비율"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모듈형 워크플로우\b 액션이 있는 단계 "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모듈형 워크플로우에서 진행한 내용은 모듈형 워크플로우의 단계 분석으로 이동해 확인하실 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "다음 단계 : 모듈형 워크플로우로 이동했다가, 다시 본래 워크플로우로 돌아와서 다음 단계가 진행된 경우."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "모듈형 워크플로우가 종료 단계라면 다음 단계가 없습니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이탈 : 다음 단계가 있다면, 다음 단계로 가지 않은 모든 건수가 이탈로 집계됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모듈형 워크플로우의 단계분석"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "txt-black-darkest"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우_통계-1.png",
+        "height": "730px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/17089/revisions/23352/usermedia/6696859a43101d9f9b68",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'연결된 워크플로우' 리스트 내 이름을 클릭하면 모듈이 연결된 워크플로우별 단계 분석을 나누어 볼 수 있습니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "이때, 왼쪽의 단계 분석 버전은 선택되어 있지 않으니, 이전 버전 내용을 확인하시려면 퍼블리시 일자를 다시 설정해 주세요."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우_통계 (1).png",
+        "height": "336px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/17089/revisions/23352/usermedia/669685e1eb92e2e8d024",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "'뒤로가기' 버튼"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    },
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "이 포함된 경우 동작 "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "V2 모듈형 단계분석2.png",
+        "height": "1254px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149584/revisions/261919/usermedia/680f6c1c7e592798bca0",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "모듈형 워크플로우 내 [뒤로가기] 버튼을 통해 메인 워크플로우로 돌아간 경우"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "모듈형 워크플로우의 단계 분석에서는 ‘다른 워크플로우’로 표시합니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "하단에는 연결된 메인 워크플로우 리스트가 뜨며, 여러개의 메인 워크플로우에 연결된 경우 합산 숫자가 표시됩니다. "
+                          },
+                          "marks": [
+                            {
+                              "attrs": {
+                                "semanticColor": "txt-black-darkest"
+                              },
+                              "type": "color"
+                            }
+                          ],
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            },
+            {
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "메인 워크플로우 내 [뒤로가기] 버튼을 통해 모듈형 워크플로우의 중간 단계부터 다시 시작된 경우 단계분석 하단에 별도의 그룹으로 표시됩니다. "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "semanticColor": "txt-black-darkest"
+                      },
+                      "type": "color"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": " "
+          },
+          "marks": [
+            {
+              "attrs": {
+                "semanticColor": "bgtxt-blue-normal"
+              },
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "ALF 액션이 있는 단계"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "다른 단계와 구별되는 테두리 색상을 가지고 있어요. ALF는 워크플로우의 마지막 액션으로만 쓸 수 있어 워크플로우 종료가 기본으로 보여지고, 이탈 여부에 따라 이탈이 표시됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우_통계(수치 수정 2).png",
+        "height": "750px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149584/revisions/307075/usermedia/682bdafe56f387877f40",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "도움 됐어요 버튼은 단계를 이동한 것이 아니기 때문에, 단계 분석에서는 조회를 확인할 수 없습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "아쉬워요, 상담원 연결 버튼을 통해 상담이 연결되었다면 상담 연결이 보여집니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "다만, 워크플로우 자체에서 ‘처음’ 상담 연결이 된 경우라면 연결 건이 초록색 숫자로 보이며"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "최초 인입 건이 아니라면, 숫자 없이 상담 연결로만 보여집니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "브랜치 액션이 있는 단계"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "브랜치가 연결된 단계 내 리스트로 표시되며, 브랜치 별 연결된 단계로 이동한 조회수가 표시됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "bulb",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "설정 팁"
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "단계의 이름을 상세하게 설정하면 나중에 어떤 단계와 연결되었는지 알아보기 쉽습니다. 단계 이름은 최대 64자까지 설정할 수 있습니다. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "예시) ‘브랜치 1 - 90일 이내 고객 대상’"
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우_통계-6.png",
+        "height": "750px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/17089/revisions/23352/usermedia/669686876c19f8018964",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "응답 버튼이 있는 단계"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "응답 버튼이 단계 내 리스트로 표시되며, 각 응답 버튼 별 이동한 조회수 및 이탈 수가 표시됩니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우_통계(수치 수정).png",
+        "height": "750px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/149584/revisions/307075/usermedia/682bdb05b24b1498d1e8",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "단계 분석 조회하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우를 퍼블리시하면 새로운 버전으로 관리됩니다. ‘단계 분석 버전’에서 원하는 버전을 선택해서 해당 버전의 단계 분석을 조회할 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "단계 분석에서 보여지는 수치는 해당 버전에서의 기록입니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "Untitled (69).png",
+        "height": "444px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/17089/revisions/23352/usermedia/669686d8653d1136f897",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "모듈형 워크플로우라면, 연결된 워크플로우에 따른 단계 분석을 조회할 수 있습니다. 우측 ‘연결된 워크플로우’에서 조회하고자 하는 워크플로우를 선택해 주세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우_통계-1 (1).png",
+        "height": "730px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/17089/revisions/23352/usermedia/669686f75b9a58fba9bc",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "아웃바운드성 워크플로우로 설정되어 있다면, 어떤 마케팅에 연결되어 있는지 확인할 수 있습니다. (→ "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "아웃바운드성 워크플로우 가이드 보러 가기"
+          },
+          "marks": [
+            {
+              "attrs": {
+                "href": "https://docs.channel.io/help/ko/articles/e2dbb0ec-%EC%95%84%EC%9B%83%EB%B0%94%EC%9A%B4%EB%93%9C%EC%84%B1-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0"
+              },
+              "type": "hyperlink"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": ")"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우_통계-2.png",
+        "height": "688px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/17089/revisions/23352/usermedia/66968718539b8b1ff2c9",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "통계 요약"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "설정한 기간에 대한 워크플로우의 시작부터 종료까지의 추이를 살펴볼 수 있어요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "상담 연결은 트리거가 ‘새 상담을 시작할 때 챗봇’인 워크플로우에서만 제공됩니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "attrs": {
+        "alt": "워크플로우_통계-9.png",
+        "height": "574px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/17089/revisions/23352/usermedia/6696874d5693e377855d",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "요약에서 보여지는 용어의 의미"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "시작:"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 워크플로우가 트리거 되어 실행된 건수"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "종료:"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " 워크플로우가 트리거 된 이후, 종료라고 표시된 단계에 도달한 건수"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담 연결:"
+                          },
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "type": "plain"
+                        },
+                        {
+                          "attrs": {
+                            "text": " ‘새 상담을 시작할 때 챗봇’ 트리거에서만 제공되며, 워크플로우 흐름에서 ‘처음’ 상담이 열린 건만 수치로 제공됩니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "각 단계별 전환율도 확인할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "각 단계에서 보이는 % 는 최초 워크플로우 "
+                                  },
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "시작 단계에서 전환된 비율"
+                                  },
+                                  "marks": [
+                                    {
+                                      "type": "bold"
+                                    }
+                                  ],
+                                  "type": "plain"
+                                },
+                                {
+                                  "attrs": {
+                                    "text": "입니다."
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 2
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "선형 그래프에 마우스를 올리면 날짜별 건수와 비율을 확인할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 3
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "통계 그래프 우측 상단에서 날짜 필터링과, 그래프로 보여질 수치를 설정할 수 있어요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "start": 4
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "하단 상담 목록 보기 클릭 시, 해당 워크플로우를 통해 시작된 상담의 목록을 확인할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "icon": "round_pushpin",
+        "semanticColor": "bg-black-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "상담 목록 보기 기능은 워크플로우의 트리거 조건이 ‘새 상담을 시작할 때 챗봇’ 일 때만 확인하실 수 있습니다."
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "통계 다운로드"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 통계 데이터를 활용하여 상담을 효율적으로 관리해 보세요."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "데이터 다운로드는 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "다운로드"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "권한을 가진 팀 멤버"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "만 가능합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "각 멤버의 데이터 다운로드 이력은 기록되며, 채널 소유자가 "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "최대 1년까지"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 조회할 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "다운로드 방법"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "start": 1
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "통계를 확인하고자 하는 워크플로우를 목록에서 선택합니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "우측 상단 점 3개 버튼 클릭 → [통계 다운로드]를 선택하세요"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "데이터 다운로드 사유를 입력하고, "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "파일 비밀번호"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "를 설정합니다. (다운로드 후 비밀번호를 분실하면 파일을 열 수 없습니다. 다시 다운받아 주세요.)"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "파일을 다운로드하는 데에는 몇 분이 소요 될 수 있습니다."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "orderedList"
+    },
+    {
+      "attrs": {
+        "alt": "Untitled (70).png",
+        "height": "618px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/17089/revisions/23352/usermedia/66968820edec9ce9ea05",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "여러 개의 워크플로우 데이터를 확인하고 싶다면, [워크플로우를 여러 개 선택 > 액션 > 통계 다운로드]를 통해 일괄 다운로드 할 수 있어요. 하나의 엑셀 파일에 여러 개의 워크플로우 데이터가 통합되어 보여집니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "통계 다운로드 데이터 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 데이터는 기간 설정과 관련 없이 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "작동된 전체 기간의 전체 데이터"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 다운로드 합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "시트 이름"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Workflow data"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "선택한 워크플로우의 기본 정보"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Workflow Revisions data"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "단계 수정 후 다시 퍼블리시한 버전 별 정보"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Workflow Path Stats data"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정한 시나리오의 각 경로별 고객 인입 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Workflow Daily Stats data"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설정기간의 일일 유입 정보 (시작 → 종료 → 상담 인입)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Workflow data 시트"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터 값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비고"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "workflowId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 고유 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "createdAt"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 생성 일자"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "name"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 이름"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "start"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 시작 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "end"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 종료 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "chatOpen"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 열린 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- 워크플로우에서 처음으로 오픈 상담에 대해서만 안내됩니다. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- ‘새 상담을 시작할 때 챗봇’ 트리거에서만 제공됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Workflow Revisions data 시트"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터 값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비고"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "WorkflowId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 고유 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "RevisionId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우를 수정 후 다시 퍼블리시 할 때마다 부여되는 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "createdAt"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "각 버전별로 워크플로우가 다시 퍼블리시된 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "title"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "버전 메모에 기재한 제목"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "단계 분석 출시 이후부터 기재 및 확인 가능합니다. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "description"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "버전 메모에 기재한 설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "단계 분석 출시 이후부터 기재 및 확인 가능합니다. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "sections"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "단계 이름"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Workflow Path Stats data 시트"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터 값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비고"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "workflowId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 고유 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "revisionId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우를 수정 후 다시 퍼블리시 할 때마다 부여되는 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "sectionPath"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "각각의 수정된 버전에서 고객들이 작동시킨 워크플로우 경로 단계(section)의 기록"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "view"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "실행된 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "end"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "종료된 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "chatOpen"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 열린 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- 워크플로우에서 처음으로 오픈 상담에 대해서만 안내됩니다. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- ‘새 상담을 시작할 때 챗봇’ 트리거에서만 제공됩니다. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Workflow Daily Stats data 시트"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터 값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비고"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "workflowId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 고유 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "revisionId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우를 수정 후 다시 퍼블리시 할 때마다 부여되는 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "date"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터가 수집된 날짜"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 설정 기간을 하루 단위로 나누어 보여줍니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "(ex. 8/8일에 실행되고, 8/9일에 종료되었다면"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "view는 8/8일 데이터에"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "attrs": {
+                                "text": "end는 8/9일 데이터에 수집됩니다.)"
+                              },
+                              "type": "plain"
+                            }
+                          ],
+                          "type": "text"
+                        }
+                      ],
+                      "type": "listItem"
+                    }
+                  ],
+                  "type": "bullets"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "view"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "개별 날짜의 워크플로우 시작 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "end"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "개별 날짜의 워크플로우 종료 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "chatOpen"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "개별 날짜의 상담이 열린 수"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- 워크플로우에서 처음으로 오픈 상담에 대해서만 안내됩니다. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "- ‘새 상담을 시작할 때 챗봇’ 트리거에서만 제공됩니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 3
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "폼 다운로드 데이터 확인하기"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우 데이터는 기간 설정과 관련 없이 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "작동된 전체 기간의 전체 데이터"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "를 다운로드 합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "시트 이름"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Workflow Form Summary Data"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "제출된 폼 요약 정보(한 명의 사용자가 제출한 전체 응답 내용을 요약해볼 수 있습니다.)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Workflow Form Submit data"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "문항별 개별 응답 기록 정보 (질문 단위로 나뉘어 저장된 응답 데이터입니다.)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Workflow Revisions data"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "단계 수정 후 다시 퍼블리시한 시점(단계 분석에 보이는 퍼블리시 목록)"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "User data"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "폼을 제출한 고객 정보"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "UserChat data"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 정보(상담이 열린 경우만 표기) "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "Manager data"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담을 진행한 팀 멤버의 정보(상담이 열린 경우만 표기) "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Workflow Form Summary Data 시트"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터 값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "firstAskedAt"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "입력폼 최초 표기 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "lastSubmittedAt"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "입력폼 마지막 저장 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객 고유 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유저챗의 고유 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "{입력폼 질문}"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "질문에 대한 입력폼 응답 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "Workflow Form Submit data 시트"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "데이터 값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "설명"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableHeaderCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "workflowId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 고유 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "revisionId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우를 수정 후 다시 퍼블리시 할 때마다 부여되는 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "sectionId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 각 단계 순서"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객 고유 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "userChatId"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "유저챗의 고유 ID"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "askedAt"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "입력폼 표기 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "submittedAt"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "입력폼 저장 시간"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "inputBindingKey"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객 프로필에 저장되는 데이터값"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "inputLabel"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 입력폼 질문"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "inputValue"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "워크플로우 입력폼 응답"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이외 시트"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "Workflow Revisions data 시트"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "통계 다운로드 데이터 내 시트와 동일합니다. (→ "
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "보러 가기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/8736dea8-%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%ED%86%B5%EA%B3%84#:~:text=%EB%95%8C%20%ED%8A%B8%EB%A6%AC%EA%B1%B0%EC%97%90%EC%84%9C%EB%A7%8C%20%EC%A0%9C%EA%B3%B5%EB%90%A9%EB%8B%88%EB%8B%A4.-,Workflow%20Revisions%20data%20%EC%8B%9C%ED%8A%B8,-%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EA%B0%92"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "User data / UserChat data / Manager data "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "상담 통계 다운로드 데이터 내 User data / UserChat data / Manager data 시트와 동일합니다. (→"
+                  },
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/70732795-%EA%B3%A0%EA%B0%9D-%ED%94%84%EB%A1%9C%ED%95%84#%EA%B8%B0%EB%B3%B8-%EC%97%B0%EB%8F%99-%EC%A0%95%EB%B3%B4"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": "보러 가기"
+                  },
+                  "marks": [
+                    {
+                      "attrs": {
+                        "href": "https://docs.channel.io/help/ko/articles/%EC%83%81%EB%8B%B4-%ED%86%B5%EA%B3%84-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-f89932f1#userchat-data-%EC%8B%9C%ED%8A%B8"
+                      },
+                      "type": "hyperlink"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ")"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    }
+  ],
+  "author": {
+    "id": "120",
+    "name": "Nacho",
+    "bio": "CX 팀 데이터 분석\n& 미트 오퍼레이션"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/669862870536dd7d3dfb",
+  "linked_faqs": [
+    {
+      "id": "59858",
+      "question": "워크플로우 단계 분석 통계가 퍼블리시 내역 별로 조회되는 이유가 있나요?",
+      "answer_plaintext": "작은 변경이더라도 워크플로우 단계 또는 그 안의 내용이 변경되는 경우 실제로 고객의 선택에 영향을 미칠 수 있기 때문에 수정 후 퍼블리시 되는 시점부터 성과가 새롭게 측정되도록 설정되어 있습니다."
+    },
+    {
+      "id": "59859",
+      "question": "워크플로우 단계 분석을 특정 일자별로 조회할 수 있나요?",
+      "answer_plaintext": "현재는 단계별 분석을 날짜별로 조회하기 어렵지만 해당 기능 추후에 기능 개선을 고려해 보고 있습니다."
+    },
+    {
+      "id": "220804",
+      "question": "일자별 워크플로우 사용량을  확인하고 싶어요.",
+      "answer_plaintext": "1. 워크플로우 작동중 목록에서 개별 워크플로우 클릭한 후 상세 화면으로 이동해 주세요. \n2. 상세 화면 상단에 [시작],[종료], [상담 연결] 통계 요약 화면을 클릭해 주세요. \n3. 통계 요약 화면을 클릭하며 우측에 [최근 30일]버트을 눌러 기간을 설정할 수 있고, 기간 별 워크플로우 시작 수(작동 수)를 확인해 보실 수 있습니다."
+    }
+  ],
+  "faq_count": 3
+}

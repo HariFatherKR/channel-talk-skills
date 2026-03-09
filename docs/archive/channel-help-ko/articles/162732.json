@@ -1,0 +1,1889 @@
+{
+  "id": "162732",
+  "url": "https://docs.channel.io/help/ko/articles/%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EA%B0%80%EC%9D%B4%EB%93%9C-2a90474e",
+  "title": "워크플로우 문제 해결 가이드",
+  "summary": "워크플로우를 퍼블리시할 때 ‘퍼블리시할 수 없습니다. 문제가 발생한 단계를 확인해주세요.’ 라는 메시지가 표시되었나요? 이 경우, 오류가 발생한 단계를 확인하고 수정한 뒤 다시 퍼블리시해주셔야 합니다. 각 케이스별 해결 방법을 자세히 안내해드릴게요 😀 웹사이트 내 검색 (Ctrl + F / Command ⌘ + F)을 사용하시면, 오류 메시지를 더 빠르고 쉽게 찾고 해결할 수 있어요. ➊ 오류 발생 단계 확인하기 단계 목록 [더보기(︙)] - [오류 단계 보기] 를 선택하면 오류가 발생한 단계만 모아볼 수 있습니다. 오류 단계 앞에는 ⚠︎ 아이콘이 표시됩니다. ➋ 오류 사유 확인하기 단계 목록에서 ⚠︎ 아이콘이 있는 단계를 클릭하면 해당 단계 수정화면으로 이동됩니다. 오류가 발생한 액션에서는 오류 사유가 주황색 글씨로 표시되어 쉽게 확인할 수 있습니다. ➌ 오류 수정하기 아래 내용을 통해 오류 메시지별 원인과 해결 방법을 자세히 확인해보세요. 오류 수정 후 다시 퍼블리시를 진행해주세요.",
+  "plaintext": "워크플로우를 퍼블리시할 때\n‘퍼블리시할 수 없습니다. 문제가 발생한 단계를 확인해주세요.’\n라는 메시지가 표시되었나요?\n이 경우, 오류가 발생한 단계를 확인하고 수정한 뒤 다시 퍼블리시해주셔야 합니다.\n각 케이스별 해결 방법을 자세히 안내해드릴게요\n웹사이트 내 검색 (Ctrl + F / Command ⌘ + F)을 사용하시면, 오류 메시지를 더 빠르고 쉽게 찾고 해결할 수 있어요.\n➊ 오류 발생 단계 확인하기\n단계 목록\n[더보기(︙)] - [오류 단계 보기] 를 선택하면 오류가 발생한 단계만 모아볼 수 있습니다. 오류 단계 앞에는\n⚠︎ 아이콘이 표시됩니다.\n➋ 오류 사유 확인하기\n단계 목록에서 ⚠︎ 아이콘이 있는 단계를 클릭하면 해당 단계 수정화면으로 이동됩니다.\n오류가 발생한 액션에서는 오류 사유가 주황색 글씨로 표시되어 쉽게 확인할 수 있습니다.\n➌ 오류 수정하기\n아래 내용을 통해 오류 메시지별 원인과 해결 방법을 자세히 확인해보세요. 오류 수정 후 다시 퍼블리시를 진행해주세요.\nPREVIEW 단계\n오류메시지: 프리뷰 단계 형식에 맞게 액션을 수정해주세요.\n해결 방법:\nPREVIEW 단계에는 총 2개의 액션만 포함할 수 있어요.\n첫번째 액션: 메시지 보내기 액션 (필수)\n두번째 액션: 'AI 에이전트 응대', '입력폼 보내기' '응답 버튼', '1회 답변 받기' 중 하나만 선택하여 추가할 수 있습니다.\n예시)\n메시지 보내기 + 응답버튼 (O)\n메시지 보내기 + 입력폼 보내기 + 상담 태그 설정 (X)\n원인\n: PREVIEW 단계에 위치할 수 있는 액션 구성에는 제한이 있어요. 가능한 형식에 맞지 않은 단계를 가장 첫 단계로 위치했을 때 에러가 표시됩니다.\n모듈형 워크플로우 연결 액션\n오류메시지: 사용할 수 없는 상태의 워크플로우입니다.\n해결 방법:\n연결된 모듈형 워크플로우를 다시 퍼블리시 하거나, 퍼블리시 된 워크플로우로 수정해주세요.\n원인\n: 연결된 모듈형 워크플로우가 '종료됨' 상태이거나 '삭제'된 경우\n오류메시지: 이 트리거에서 사용할 수 없는 액션입니다. 삭제해주세요.\n해결 방법:\n모듈형 워크플로우 내에 상담 열기 혹은 상담 종료 액션을 삭제한 후 다시 연결해주세요.\n원인:\n연결한 모듈형 워크플로우 내에 선택한 트리거에서 사용할 수 없는 액션이 포함되어있는 경우\n트리거\n사용 불가능 액션\n모듈형 워크플로우\n상담이 인입되었을 때\n상담 열기\n상담 열기 액션이 포함된 모듈 연결 불가\n상담이 종료되었을 때\n상담 종료\n상담 종료 액션이 포함된 모듈 연결 불가\n상담 열기 액션\n오류메시지: 이 액션은 카카오 상담톡, 네이버 톡톡에서 사용할 수 없습니다.\n해결 방법:\n[트리거 설정] - [연동앱 필터링] - [외부메신저] 를 OFF 하거나\n워크플로우의 '상담 열기' 액션 삭제해주세요.\n원인:\n상담이 종료되었을 때 트리거에서 연동앱 필터링에 외부메신저를 ON 한 경우\n외부 메신저 특성상, 상담이 종료된 경우 다시 열 수 없기 때문에 상담 열기 액션 포함시 오류가 발생합니다.\n입력폼 보내기 액션\n오류메시지: 이 액션은 카카오 상담톡, 네이버 톡톡, 인스타그램에서 사용할 수 없습니다.\n해결 방법:\n워크플로우에서 입력폼 액션을 삭제하거나\n[트리거 설정] - [연동앱 필터링] - [외부메신저] 를 OFF 해주세요.\n원인:\n입력폼 보내기 액션은 외부메신저(카카오, 네이버 톡톡, 인스타그램, 라인) 에서 사용할 수 없기 때문에 오류가 발생합니다.\n응답 버튼 액션\n오류메시지: 네이버 톡톡에서 사용할 수 있는 최대 글자수는 18자입니다.\n해결 방법:\n버튼명을 18글자 이내로 수정해주세요.\n버튼명에 이모지를 사용할 경우, 하나의 이모지가 2~4글자로 처리될 수 있습니다. (UTF-16 기준) 실제로는 이모지 하나만 보이지만, 시스템상 여러 글자로 인식되어 버튼명 글자 수 제한에 걸릴 수 있으므로 이모지를 삭제하거나 수정해 주세요.\n원인:\n외부메신저 (네이버 톡톡, 카카오, 인스타그램, 라인) 에서 사용하는 워크플로우 응답버튼에 작성한 버튼이름이 18글자가 초과된 경우\n오류메시지: 이 액션은 이메일에서 사용할 수 없습니다.\n해결 방법:\n[트리거 설정] - [연동앱 필터링] - [기타] - [이메일] 을 OFF 해주세요.\n원인:\n이메일 연동 상담에서는 응답 버튼을 노출할 수 없어 오류 발생\n그 외 액션\n액션\n오류 메시지\n해결 방법\n고객 ALF 응대\n최대 500자까지 입력할 수 있어요.\n답변 가이드 문구를 500자 이내로 수정해주세요.\n메시지 보내기\n비워둘 수 없습니다.\n메시지 내용을 입력해주세요.\n입력폼 보내기\n비워둘 수 없습니다.\n질문 내용을 입력해주세요.\n팀챗 메시지 보내기\n비워둘 수 없습니다.\n알림 받을 팀챗 선택 및 메시지 내용을 입력해주세요.\n공통\n이전에 연결된 단계가 없습니다.\n특정 단계 전에 연결된 선이 없으면 표시됩니다. 사용하지 않는 단계라면 오류 수정 없이도 퍼블리시할 수 있습니다.",
+  "body": [
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "워크플로우를 퍼블리시할 때 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "‘퍼블리시할 수 없습니다. 문제가 발생한 단계를 확인해주세요.’"
+          },
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": " 라는 메시지가 표시되었나요?"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "이 경우, 오류가 발생한 단계를 확인하고 수정한 뒤 다시 퍼블리시해주셔야 합니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "각 케이스별 해결 방법을 자세히 안내해드릴게요 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "name": "grinning"
+          },
+          "type": "emoji"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "웹사이트 내 검색 (Ctrl + F / Command ⌘ + F)을 사용하시면, 오류 메시지를 더 빠르고 쉽게 찾고 해결할 수 있어요. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_단계목록 (1).png",
+        "height": "372px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162732/revisions/283448/usermedia/68105e035bc4eec31ecf",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "➊ 오류 발생 단계 확인하기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단계 목록 "
+          },
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "[더보기(︙)] - [오류 단계 보기] 를 선택하면 오류가 발생한 단계만 모아볼 수 있습니다. 오류 단계 앞에는 "
+          },
+          "marks": [
+            {
+              "type": "backgroundColor"
+            },
+            {
+              "type": "color"
+            }
+          ],
+          "type": "plain"
+        },
+        {
+          "attrs": {
+            "text": "⚠︎ 아이콘이 표시됩니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_단계목록.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162732/revisions/283448/usermedia/6810440ea975227c0673",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "➋ 오류 사유 확인하기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "단계 목록에서 ⚠︎ 아이콘이 있는 단계를 클릭하면 해당 단계 수정화면으로 이동됩니다. "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "attrs": {
+            "text": "오류가 발생한 액션에서는 오류 사유가 주황색 글씨로 표시되어 쉽게 확인할 수 있습니다."
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_오류단계.png",
+        "height": "880px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162732/revisions/283448/usermedia/6810457895869f0ab28f",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "➌ 오류 수정하기 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "아래 내용을 통해 오류 메시지별 원인과 해결 방법을 자세히 확인해보세요. 오류 수정 후 다시 퍼블리시를 진행해주세요. "
+              },
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "blockquote"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "PREVIEW 단계 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "오류메시지: 프리뷰 단계 형식에 맞게 액션을 수정해주세요."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해결 방법:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "PREVIEW 단계에는 총 2개의 액션만 포함할 수 있어요. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "첫번째 액션: 메시지 보내기 액션 (필수) "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "두번째 액션: 'AI 에이전트 응대', '입력폼 보내기' '응답 버튼', '1회 답변 받기' 중 하나만 선택하여 추가할 수 있습니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "예시) "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    },
+                    {
+                      "content": [
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "메시지 보내기 + 응답버튼 (O)"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "content": [
+                            {
+                              "content": [
+                                {
+                                  "attrs": {
+                                    "text": "메시지 보내기 + 입력폼 보내기 + 상담 태그 설정 (X)"
+                                  },
+                                  "type": "plain"
+                                }
+                              ],
+                              "type": "text"
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "type": "bullets"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_단계목록 (2).png",
+        "height": "1034px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162732/revisions/283448/usermedia/681065f6b9f43b16f0a9",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원인"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": PREVIEW 단계에 위치할 수 있는 액션 구성에는 제한이 있어요. 가능한 형식에 맞지 않은 단계를 가장 첫 단계로 위치했을 때 에러가 표시됩니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "모듈형 워크플로우 연결 액션"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "오류메시지: 사용할 수 없는 상태의 워크플로우입니다."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해결 방법:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 연결된 모듈형 워크플로우를 다시 퍼블리시 하거나, 퍼블리시 된 워크플로우로 수정해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원인"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": ": 연결된 모듈형 워크플로우가 '종료됨' 상태이거나 '삭제'된 경우 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "오류메시지: 이 트리거에서 사용할 수 없는 액션입니다. 삭제해주세요."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해결 방법:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 모듈형 워크플로우 내에 상담 열기 혹은 상담 종료 액션을 삭제한 후 다시 연결해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원인:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 연결한 모듈형 워크플로우 내에 선택한 트리거에서 사용할 수 없는 액션이 포함되어있는 경우 "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "트리거"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "사용 불가능 액션"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "모듈형 워크플로우 "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 인입되었을 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 열기"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 열기 액션이 포함된 모듈 연결 불가"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담이 종료되었을 때"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 종료"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "상담 종료 액션이 포함된 모듈 연결 불가"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "상담 열기 액션"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "오류메시지: 이 액션은 카카오 상담톡, 네이버 톡톡에서 사용할 수 없습니다."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해결 방법: "
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[트리거 설정] - [연동앱 필터링] - [외부메신저] 를 OFF 하거나 "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "워크플로우의 '상담 열기' 액션 삭제해주세요. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_오류단계 (1).png",
+        "height": "878px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162732/revisions/283448/usermedia/68106e00e6ce27ae0bfd",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원인:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "상담이 종료되었을 때 트리거에서 연동앱 필터링에 외부메신저를 ON 한 경우"
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "외부 메신저 특성상, 상담이 종료된 경우 다시 열 수 없기 때문에 상담 열기 액션 포함시 오류가 발생합니다."
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "입력폼 보내기 액션"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "오류메시지: 이 액션은 카카오 상담톡, 네이버 톡톡, 인스타그램에서 사용할 수 없습니다."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해결 방법:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "워크플로우에서 입력폼 액션을 삭제하거나 "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "content": [
+                    {
+                      "content": [
+                        {
+                          "attrs": {
+                            "text": "[트리거 설정] - [연동앱 필터링] - [외부메신저] 를 OFF 해주세요. "
+                          },
+                          "type": "plain"
+                        }
+                      ],
+                      "type": "text"
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "type": "bullets"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_오류단계 (2).png",
+        "height": "878px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162732/revisions/283448/usermedia/68107042669c7a27efe7",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원인:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 입력폼 보내기 액션은 외부메신저(카카오, 네이버 톡톡, 인스타그램, 라인) 에서 사용할 수 없기 때문에 오류가 발생합니다. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "응답 버튼 액션"
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "오류메시지: 네이버 톡톡에서 사용할 수 있는 최대 글자수는 18자입니다."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해결 방법:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 버튼명을 18글자 이내로 수정해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "버튼명에 이모지를 사용할 경우, 하나의 이모지가 2~4글자로 처리될 수 있습니다. (UTF-16 기준) 실제로는 이모지 하나만 보이지만, 시스템상 여러 글자로 인식되어 버튼명 글자 수 제한에 걸릴 수 있으므로 이모지를 삭제하거나 수정해 주세요."
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "attrs": {
+        "alt": "생성하기_오류단계 (3).png",
+        "height": "480px",
+        "mime": "image/png",
+        "src": "https://cf.channel.io/document/spaces/6/articles/162732/revisions/283448/usermedia/681074fcedcf9b558763",
+        "width": "1560px"
+      },
+      "type": "image"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원인:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 외부메신저 (네이버 톡톡, 카카오, 인스타그램, 라인) 에서 사용하는 워크플로우 응답버튼에 작성한 버튼이름이 18글자가 초과된 경우"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "icon": "warning",
+        "semanticColor": "bgtxt-orange-lightest"
+      },
+      "content": [
+        {
+          "content": [
+            {
+              "attrs": {
+                "text": "오류메시지: 이 액션은 이메일에서 사용할 수 없습니다."
+              },
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            },
+            {
+              "attrs": {
+                "text": " "
+              },
+              "marks": [
+                {
+                  "attrs": {
+                    "semanticColor": "bgtxt-orange-normal"
+                  },
+                  "type": "color"
+                }
+              ],
+              "type": "plain"
+            }
+          ],
+          "type": "text"
+        }
+      ],
+      "type": "callout"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "해결 방법:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " [트리거 설정] - [연동앱 필터링] - [기타] - [이메일] 을 OFF 해주세요. "
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "attrs": {
+                    "text": "원인:"
+                  },
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "type": "plain"
+                },
+                {
+                  "attrs": {
+                    "text": " 이메일 연동 상담에서는 응답 버튼을 노출할 수 없어 오류 발생"
+                  },
+                  "type": "plain"
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "type": "listItem"
+        }
+      ],
+      "type": "bullets"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "content": [
+        {
+          "attrs": {
+            "text": "그 외 액션 "
+          },
+          "type": "plain"
+        }
+      ],
+      "type": "heading"
+    },
+    {
+      "content": [
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "액션"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "오류 메시지"
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "해결 방법 "
+                      },
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "고객 ALF 응대"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "최대 500자까지 입력할 수 있어요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "답변 가이드 문구를 500자 이내로 수정해주세요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "메시지 보내기"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비워둘 수 없습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "메시지 내용을 입력해주세요."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "입력폼 보내기"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비워둘 수 없습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "질문 내용을 입력해주세요. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "팀챗 메시지 보내기"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "비워둘 수 없습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "알림 받을 팀챗 선택 및 메시지 내용을 입력해주세요. "
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        },
+        {
+          "content": [
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "공통"
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "이전에 연결된 단계가 없습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            },
+            {
+              "content": [
+                {
+                  "content": [
+                    {
+                      "attrs": {
+                        "text": "특정 단계 전에 연결된 선이 없으면 표시됩니다. 사용하지 않는 단계라면 오류 수정 없이도 퍼블리시할 수 있습니다."
+                      },
+                      "type": "plain"
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "type": "tableCell"
+            }
+          ],
+          "type": "tableRow"
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "attrs": {
+        "level": 2
+      },
+      "type": "heading"
+    }
+  ],
+  "author": {
+    "id": "101",
+    "name": "Marie🍀",
+    "bio": "Product Marketer"
+  },
+  "cover_image_url": "https://cf.channel.io/document/spaces/6/usermedia/6810687093fe475767dc",
+  "linked_faqs": [],
+  "faq_count": 0
+}
