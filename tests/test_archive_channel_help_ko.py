@@ -58,6 +58,41 @@ class ArchiveChannelHelpKoTests(unittest.TestCase):
         self.assertEqual(len(article["body"]), 2)
         self.assertEqual(article["linked_faqs"][0]["question"], "코드 노드 사용 시 암호화해서 저장되나요?")
 
+    def test_normalizes_article_record_for_archive_output(self):
+        module = load_module()
+
+        parsed = module.parse_article_html(self.article_html)
+        record = module.normalize_article_record(parsed)
+
+        self.assertEqual(record["id"], "332352")
+        self.assertEqual(record["title"], "태스크")
+        self.assertIn("태스크는 반복 업무를 자동화하는 기능입니다.", record["plaintext"])
+        self.assertEqual(record["faq_count"], 1)
+        self.assertEqual(record["author"]["name"], "Beige")
+
+    def test_renders_markdown_with_metadata_body_and_faq(self):
+        module = load_module()
+
+        record = module.normalize_article_record(module.parse_article_html(self.article_html))
+        markdown = module.render_article_markdown(record)
+
+        self.assertIn("# 태스크", markdown)
+        self.assertIn("Source: https://docs.channel.io/help/ko/articles/", markdown)
+        self.assertIn("태스크는 반복 업무를 자동화하는 기능입니다.", markdown)
+        self.assertIn("## FAQs", markdown)
+        self.assertIn("코드 노드 사용 시 암호화해서 저장되나요?", markdown)
+
+    def test_builds_index_entry_with_archive_paths(self):
+        module = load_module()
+
+        record = module.normalize_article_record(module.parse_article_html(self.article_html))
+        entry = module.build_index_entry(record)
+
+        self.assertEqual(entry["id"], "332352")
+        self.assertEqual(entry["json_path"], "articles/332352.json")
+        self.assertEqual(entry["markdown_path"], "articles/332352.md")
+        self.assertEqual(entry["url"], record["url"])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -109,6 +109,82 @@ def parse_article_html(html: str) -> dict[str, Any]:
     }
 
 
+def collect_plaintext(value: Any) -> str:
+    """Flatten nested block content into readable plaintext."""
+    if isinstance(value, dict):
+        parts = []
+        attrs = value.get("attrs", {})
+        text = attrs.get("text")
+        if text:
+            parts.append(text.strip())
+        content = value.get("content")
+        if content:
+            nested = collect_plaintext(content)
+            if nested:
+                parts.append(nested)
+        return "\n".join(part for part in parts if part)
+
+    if isinstance(value, list):
+        parts = [collect_plaintext(item) for item in value]
+        return "\n".join(part for part in parts if part)
+
+    return ""
+
+
+def normalize_article_record(article: dict[str, Any]) -> dict[str, Any]:
+    """Normalize parsed article data into the archive schema."""
+    plaintext = collect_plaintext(article.get("body", []))
+    plaintext = "\n".join(line for line in (line.strip() for line in plaintext.splitlines()) if line)
+
+    return {
+        "id": article["id"],
+        "url": article["url"],
+        "title": article["title"],
+        "summary": article.get("summary", ""),
+        "plaintext": plaintext,
+        "body": article.get("body", []),
+        "author": article.get("author", {}),
+        "cover_image_url": article.get("cover_image_url"),
+        "linked_faqs": article.get("linked_faqs", []),
+        "faq_count": len(article.get("linked_faqs", [])),
+    }
+
+
+def render_article_markdown(record: dict[str, Any]) -> str:
+    """Render a normalized article record as Markdown."""
+    lines = [
+        f"# {record['title']}",
+        "",
+        f"Source: {record['url']}",
+    ]
+
+    if record.get("summary"):
+        lines.extend(["", record["summary"]])
+
+    if record.get("plaintext"):
+        lines.extend(["", "## Body", "", record["plaintext"]])
+
+    if record.get("linked_faqs"):
+        lines.extend(["", "## FAQs"])
+        for faq in record["linked_faqs"]:
+            lines.extend(["", f"### {faq['question']}", "", faq["answer_plaintext"]])
+
+    return "\n".join(lines).strip() + "\n"
+
+
+def build_index_entry(record: dict[str, Any]) -> dict[str, Any]:
+    """Build the lightweight index entry for a normalized record."""
+    article_id = record["id"]
+    return {
+        "id": article_id,
+        "title": record["title"],
+        "url": record["url"],
+        "json_path": f"articles/{article_id}.json",
+        "markdown_path": f"articles/{article_id}.md",
+        "faq_count": record.get("faq_count", 0),
+    }
+
+
 def main() -> None:
     raise SystemExit("CLI not implemented yet.")
 
