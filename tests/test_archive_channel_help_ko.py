@@ -93,6 +93,43 @@ class ArchiveChannelHelpKoTests(unittest.TestCase):
         self.assertEqual(entry["markdown_path"], "articles/332352.md")
         self.assertEqual(entry["url"], record["url"])
 
+    def test_crawls_unique_article_urls_and_collects_failures(self):
+        module = load_module()
+        calls = []
+
+        def fake_fetch(url):
+            calls.append(url)
+            if url.endswith("FAQ-db21218c"):
+                raise RuntimeError("missing fixture")
+            return self.article_html
+
+        records, failures = module.crawl_article_records(self.root_html, fake_fetch)
+
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]["id"], "332352")
+        self.assertEqual(calls.count("https://docs.channel.io/help/ko/articles/%ED%83%9C%EC%8A%A4%ED%81%AC--2a16be8b"), 1)
+        self.assertEqual(calls.count("https://docs.channel.io/help/ko/articles/FAQ-db21218c"), 1)
+        self.assertEqual(
+            failures,
+            [{"url": "https://docs.channel.io/help/ko/articles/FAQ-db21218c", "error": "missing fixture"}],
+        )
+
+    def test_build_manifest_includes_root_mode_and_timestamp(self):
+        module = load_module()
+
+        manifest = module.build_manifest(
+            root_url="https://docs.channel.io/help/ko",
+            article_count=1,
+            generated_at="2026-03-09T12:00:00Z",
+            failed_count=1,
+        )
+
+        self.assertEqual(manifest["root_url"], "https://docs.channel.io/help/ko")
+        self.assertEqual(manifest["mode"], "lightweight")
+        self.assertEqual(manifest["generated_at"], "2026-03-09T12:00:00Z")
+        self.assertEqual(manifest["article_count"], 1)
+        self.assertEqual(manifest["failed_count"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()

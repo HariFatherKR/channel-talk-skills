@@ -3,9 +3,13 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
+from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
+from urllib.request import Request, urlopen
 
 
 NEXT_PUSH_RE = re.compile(
@@ -13,6 +17,8 @@ NEXT_PUSH_RE = re.compile(
     re.DOTALL,
 )
 ARTICLE_URL_RE = re.compile(r"https://docs\.channel\.io/help/ko/articles/[^\"\\\s]+")
+DEFAULT_ROOT_URL = "https://docs.channel.io/help/ko"
+DEFAULT_ARCHIVE_DIR = Path(__file__).resolve().parents[1] / "docs" / "archive" / "channel-help-ko"
 
 
 def extract_next_payload_chunks(html: str) -> list[str]:
@@ -185,8 +191,133 @@ def build_index_entry(record: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def crawl_article_records(root_html: str, fetch_html) -> tuple[list[dict[str, Any]], list[dict[str, str]]]:
+    """Fetch and normalize every unique article discovered from the root HTML."""
+    records = []
+    failures = []
+    for url in extract_article_urls(root_html):
+        try:
+            article_html = fetch_html(url)
+            parsed = parse_article_html(article_html)
+            records.append(normalize_article_record(parsed))
+        except Exception as exc:  # pragma: no cover - exercised via tests
+            failures.append({"url": url, "error": str(exc)})
+    return records, failures
+
+
+def build_manifest(
+    *,
+    root_url: str,
+    article_count: int,
+    generated_at: str,
+    failed_count: int,
+    mode: str = "lightweight",
+) -> dict[str, Any]:
+    """Build archive metadata for the current snapshot."""
+    return {
+        "root_url": root_url,
+        "mode": mode,
+        "generated_at": generated_at,
+        "article_count": article_count,
+        "failed_count": failed_count,
+    }
+
+
+def fetch_html(url: str) -> str:
+    """Fetch HTML with a browser-like user agent."""
+    request = Request(url, headers={"User-Agent": "Mozilla/5.0 ChannelTalkArchive/1.0"})
+    with urlopen(request) as response:
+        return response.read().decode("utf-8", errors="replace")
+
+
+def write_json(path: Path, payload: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+
+
+def write_archive(
+    archive_dir: Path,
+    root_url: str,
+    records: list[dict[str, Any]],
+    failures: list[dict[str, str]],
+    generated_at: str,
+) -> None:
+    """Write normalized records, index, manifest, and failure report."""
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    articles_dir = archive_dir / "articles"
+    articles_dir.mkdir(parents=True, exist_ok=True)
+
+    index_entries = []
+    for record in records:
+        article_id = record["id"]
+        json_path = articles_dir / f"{article_id}.json"
+        markdown_path = articles_dir / f"{article_id}.md"
+        write_json(json_path, record)
+        markdown_path.write_text(render_article_markdown(record))
+        index_entries.append(build_index_entry(record))
+
+    write_json(archive_dir / "index.json", {"generated_at": generated_at, "articles": index_entries})
+    write_json(
+        archive_dir / "manifest.json",
+        build_manifest(
+            root_url=root_url,
+            article_count=len(records),
+            generated_at=generated_at,
+            failed_count=len(failures),
+        ),
+    )
+    write_json(archive_dir / "failed-urls.json", failures)
+
+
+def verify_archive(archive_dir: Path) -> int:
+    """Verify that generated archive files are present and internally consistent."""
+    index_path = archive_dir / "index.json"
+    if not index_path.exists():
+        raise SystemExit("Missing index.json")
+
+    index_payload = json.loads(index_path.read_text())
+    entries = index_payload.get("articles", [])
+    missing = []
+    for entry in entries:
+        if not (archive_dir / entry["json_path"]).exists():
+            missing.append(entry["json_path"])
+        if not (archive_dir / entry["markdown_path"]).exists():
+            missing.append(entry["markdown_path"])
+
+    if missing:
+        raise SystemExit(f"Missing archive files: {', '.join(missing)}")
+
+    return len(entries)
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Archive Channel help/ko documents")
+    parser.add_argument("--root-url", default=DEFAULT_ROOT_URL, help="Root help page URL")
+    parser.add_argument(
+        "--archive-dir",
+        default=str(DEFAULT_ARCHIVE_DIR),
+        help="Output directory for archive files",
+    )
+    parser.add_argument("--verify", action="store_true", help="Verify an existing archive only")
+    return parser.parse_args(argv)
+
+
 def main() -> None:
-    raise SystemExit("CLI not implemented yet.")
+    args = parse_args()
+    archive_dir = Path(args.archive_dir)
+
+    if args.verify:
+        count = verify_archive(archive_dir)
+        print(f"Verified archive entries: {count}")
+        return
+
+    generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    root_html = fetch_html(args.root_url)
+    records, failures = crawl_article_records(root_html, fetch_html)
+    write_archive(archive_dir, args.root_url, records, failures, generated_at)
+    print(
+        f"Archived {len(records)} articles to {archive_dir} with {len(failures)} failures."
+    )
 
 
 if __name__ == "__main__":
